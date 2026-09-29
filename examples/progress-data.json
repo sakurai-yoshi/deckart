@@ -1,0 +1,8 @@
+{
+  "id": "chart/progress-ring",
+  "data": {
+    "unit": "%",
+    "categories": ["完了", "残り"],
+    "series": [{"label": "進捗", "values": [62, 38]}]
+  }
+}

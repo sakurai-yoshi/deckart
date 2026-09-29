@@ -1,0 +1,140 @@
+{
+  "category": "07-注釈と見出し",
+  "title": "要点から詳細へ読む順番を添える",
+  "description": "連番と接続で、要点・根拠・詳細の順に読むことを示す部品。",
+  "keywords": [
+    "読み順",
+    "要点",
+    "根拠",
+    "詳細",
+    "案内",
+    "reading",
+    "order",
+    "hierarchy"
+  ],
+  "labels": [
+    {
+      "x": 126,
+      "y": 66,
+      "width": 40,
+      "height": 48,
+      "text": "1",
+      "role": "読む順番",
+      "align": "center",
+      "color": "#FFFFFF",
+      "font_size": 28,
+      "id": "label-1",
+      "color_role": "paper",
+      "max_lines": 1,
+      "max_fullwidth_chars": 1
+    },
+    {
+      "x": 510,
+      "y": 66,
+      "width": 40,
+      "height": 48,
+      "text": "2",
+      "role": "読む順番",
+      "align": "center",
+      "color": "#FFFFFF",
+      "font_size": 28,
+      "id": "label-2",
+      "color_role": "paper",
+      "max_lines": 1,
+      "max_fullwidth_chars": 1
+    },
+    {
+      "x": 894,
+      "y": 66,
+      "width": 40,
+      "height": 48,
+      "text": "3",
+      "role": "読む順番",
+      "align": "center",
+      "color": "#FFFFFF",
+      "font_size": 28,
+      "id": "label-3",
+      "color_role": "paper",
+      "max_lines": 1,
+      "max_fullwidth_chars": 1
+    },
+    {
+      "x": 30,
+      "y": 157,
+      "width": 232,
+      "height": 66,
+      "text": "まず、要点",
+      "role": "読み方",
+      "align": "center",
+      "color": "#153A6B",
+      "font_size": 31,
+      "id": "label-4",
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 7
+    },
+    {
+      "x": 414,
+      "y": 157,
+      "width": 232,
+      "height": 66,
+      "text": "次に、根拠",
+      "role": "読み方",
+      "align": "center",
+      "color": "#153A6B",
+      "font_size": 31,
+      "id": "label-5",
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 7
+    },
+    {
+      "x": 798,
+      "y": 157,
+      "width": 232,
+      "height": 66,
+      "text": "最後に、詳細",
+      "role": "読み方",
+      "align": "center",
+      "color": "#153A6B",
+      "font_size": 31,
+      "id": "label-6",
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 7
+    }
+  ],
+  "width": 1060,
+  "height": 255,
+  "kind": "part",
+  "guidance": {
+    "use_case": "情報量の多い図版へ読み方を添える場面。",
+    "message": "最初に要点をつかみ、根拠と詳細へ進める。",
+    "reading": [
+      "左から右への連番が読み順を示す。",
+      "各番号の下に読む内容を置く。"
+    ],
+    "avoid": "実際の業務工程や所要時間を示す用途には使わない。"
+  },
+  "schema_version": 2,
+  "id": "part/reading-order",
+  "name": "要点から詳細へ読む順番を添える_説明パーツ",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1060,
+    "height": 255
+  },
+  "path": "assets/part/reading-order.svg",
+  "metadata_path": "metadata/part/reading-order.json",
+  "search_text": "part/reading-order\n要点から詳細へ読む順番を添える_説明パーツ\n要点から詳細へ読む順番を添える\n情報量の多い図版へ読み方を添える場面。\n最初に要点をつかみ、根拠と詳細へ進める。\n左から右への連番が読み順を示す。\n各番号の下に読む内容を置く。\n読み順 要点 根拠 詳細 案内 reading order hierarchy",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "965e4208755ca37af3459f33c6d66c5fccd5b4887e134955b726d7cb887f4605",
+  "size_bytes": 1516
+}

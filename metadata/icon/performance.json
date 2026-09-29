@@ -1,0 +1,49 @@
+{
+  "category": "08-アイコンとピクトグラム",
+  "title": "人事評価",
+  "description": "個人の成果や行動を評価する場面を示す。",
+  "keywords": [
+    "評価",
+    "成果",
+    "人事査定",
+    "査定",
+    "フィードバック",
+    "performance",
+    "appraisal",
+    "evaluation"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "人事評価や成果の振り返りの項目に添える。",
+    "message": "個人の仕事ぶりを評価する。",
+    "reading": [
+      "下の人物が評価の対象を表す。",
+      "上の星の並びが評価という観点を表す。"
+    ],
+    "avoid": "星の数を実際の等級や評価点として読ませない。"
+  },
+  "schema_version": 2,
+  "id": "icon/performance",
+  "name": "人事評価_個人の成果を振り返る_人物と評価",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/performance.svg",
+  "metadata_path": "metadata/icon/performance.json",
+  "search_text": "icon/performance\n人事評価_個人の成果を振り返る_人物と評価\n人事評価\n人事評価や成果の振り返りの項目に添える。\n個人の仕事ぶりを評価する。\n下の人物が評価の対象を表す。\n上の星の並びが評価という観点を表す。\n評価 成果 人事査定 査定 フィードバック performance appraisal evaluation",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "8bd531b9350f3414c91385e196a3aa9bb613ec7af0310564375bc95495c02df7",
+  "size_bytes": 1312
+}

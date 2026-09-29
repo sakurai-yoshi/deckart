@@ -1,0 +1,147 @@
+{
+  "category": "01-業務プロセス",
+  "title": "確認できない変更を安定版へ戻す",
+  "description": "安定版を残して変更を限定適用し、確認結果によって継続か切戻しかを分ける。",
+  "keywords": [
+    "リリース",
+    "ロールバック",
+    "切戻し",
+    "変更管理",
+    "限定適用",
+    "安定版",
+    "確認",
+    "rollback",
+    "release",
+    "change"
+  ],
+  "labels": [
+    {
+      "x": 181,
+      "y": 81,
+      "width": 654,
+      "height": 72,
+      "text": "安定版を残して提供を続ける",
+      "role": "保持する状態",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-1",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 22
+    },
+    {
+      "x": 460,
+      "y": 319,
+      "width": 310,
+      "height": 72,
+      "text": "変更を限定適用",
+      "role": "変更範囲",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-2",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 10
+    },
+    {
+      "x": 589,
+      "y": 424,
+      "width": 186,
+      "height": 71,
+      "text": "新しい版",
+      "role": "変更後の状態",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-3",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 6
+    },
+    {
+      "x": 885,
+      "y": 425,
+      "width": 124,
+      "height": 68,
+      "text": "確認",
+      "role": "確認条件",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-4",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 4
+    },
+    {
+      "x": 1014,
+      "y": 323,
+      "width": 165,
+      "height": 79,
+      "text": "問題なし\n継続",
+      "role": "継続",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-5",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 5
+    },
+    {
+      "x": 301,
+      "y": 625,
+      "width": 550,
+      "height": 60,
+      "text": "問題があれば安定版へ切り戻す",
+      "role": "切戻し",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-6",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 19
+    }
+  ],
+  "width": 1200,
+  "height": 720,
+  "kind": "diagram",
+  "guidance": {
+    "use_case": "システム変更時に、確認が取れない場合の戻り先と切戻し経路を共有する。",
+    "message": "変更を試す前に戻り先を残し、結果で継続と切戻しを判断する。",
+    "reading": [
+      "上段は引き続き利用できる安定版。",
+      "分岐した下段で新しい版を限定適用し、確認する。",
+      "主色の出口は継続、注意色の経路は安定版への切戻し。"
+    ],
+    "avoid": "データを元に戻せることまで保証しない。復元可能な範囲と手順を別途確認する。"
+  },
+  "layout": {
+    "relation": "controlled-change-with-rollback",
+    "reading_direction": "left-to-right"
+  },
+  "schema_version": 2,
+  "id": "operations/controlled-rollback",
+  "name": "変更管理_確認できない変更を安定版へ戻す_限定適用と切戻し",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1200,
+    "height": 720
+  },
+  "path": "assets/operations/controlled-rollback.svg",
+  "metadata_path": "metadata/operations/controlled-rollback.json",
+  "search_text": "operations/controlled-rollback\n変更管理_確認できない変更を安定版へ戻す_限定適用と切戻し\n確認できない変更を安定版へ戻す\nシステム変更時に、確認が取れない場合の戻り先と切戻し経路を共有する。\n変更を試す前に戻り先を残し、結果で継続と切戻しを判断する。\n上段は引き続き利用できる安定版。\n分岐した下段で新しい版を限定適用し、確認する。\n主色の出口は継続、注意色の経路は安定版への切戻し。\nリリース ロールバック 切戻し 変更管理 限定適用 安定版 確認 rollback release change",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "54010784f6bab33d87c7b3d79119e5cd6f84250106602d84167b0f620fc4e3b6",
+  "size_bytes": 3050
+}

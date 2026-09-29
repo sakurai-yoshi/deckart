@@ -1,0 +1,114 @@
+{
+  "category": "12-AIとデータ基盤",
+  "title": "保存済みの状態から復旧する",
+  "description": "障害前に保管したバックアップを使い、業務を再開できる状態へ復元する。",
+  "keywords": [
+    "バックアップ",
+    "復元",
+    "復旧",
+    "障害",
+    "事業継続",
+    "データ保全",
+    "backup",
+    "recovery",
+    "restore",
+    "continuity",
+    "snapshot"
+  ],
+  "labels": [
+    {
+      "x": 72,
+      "y": 557,
+      "width": 273,
+      "height": 73,
+      "text": "障害が起きた環境",
+      "role": "障害時",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-1",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 9
+    },
+    {
+      "x": 442,
+      "y": 555,
+      "width": 312,
+      "height": 73,
+      "text": "保存済みバックアップ",
+      "role": "復旧元",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-2",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 10
+    },
+    {
+      "x": 873,
+      "y": 557,
+      "width": 278,
+      "height": 73,
+      "text": "復旧した環境",
+      "role": "復旧先",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-3",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 9
+    },
+    {
+      "x": 409,
+      "y": 51,
+      "width": 315,
+      "height": 62,
+      "text": "障害前に保存",
+      "role": "事前の備え",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-4",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 11
+    }
+  ],
+  "width": 1200,
+  "height": 720,
+  "kind": "diagram",
+  "guidance": {
+    "use_case": "バックアップの役割を、障害発生から復旧までの関係として説明する。",
+    "message": "障害が起きた環境とは別に保管した状態から復旧する。",
+    "reading": [
+      "上の経路と時計が障害前の保存を表す。",
+      "左の停止した環境と中央の保管先を分けて読む。",
+      "右の矢印が保存済みの状態からの復元を表す。"
+    ],
+    "avoid": "復旧時間や失われるデータ量がゼロであるとは示さない。"
+  },
+  "schema_version": 2,
+  "id": "technology/backup-recovery",
+  "name": "事業継続_保存済みの状態から復旧する_事前バックアップと復元",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1200,
+    "height": 720
+  },
+  "path": "assets/technology/backup-recovery.svg",
+  "metadata_path": "metadata/technology/backup-recovery.json",
+  "search_text": "technology/backup-recovery\n事業継続_保存済みの状態から復旧する_事前バックアップと復元\n保存済みの状態から復旧する\nバックアップの役割を、障害発生から復旧までの関係として説明する。\n障害が起きた環境とは別に保管した状態から復旧する。\n上の経路と時計が障害前の保存を表す。\n左の停止した環境と中央の保管先を分けて読む。\n右の矢印が保存済みの状態からの復元を表す。\nバックアップ 復元 復旧 障害 事業継続 データ保全 backup recovery restore continuity snapshot",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "71b0c918357c253053dccfb9d3898ce9a0c21e9c16b9fcb08b1844333e8efefd",
+  "size_bytes": 5543
+}

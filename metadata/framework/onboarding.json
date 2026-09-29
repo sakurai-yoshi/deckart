@@ -1,0 +1,101 @@
+{
+  "category": "09-循環とフレームワーク",
+  "title": "登録・設定を経て使い始める",
+  "description": "サービスの利用開始までに必要な三つの行動を順番に示す。",
+  "keywords": [
+    "導入",
+    "初期設定",
+    "利用開始",
+    "登録",
+    "オンボーディング",
+    "3ステップ",
+    "onboarding",
+    "getting",
+    "started"
+  ],
+  "labels": [
+    {
+      "x": 113,
+      "y": 448,
+      "width": 279,
+      "height": 86,
+      "text": "アカウントを登録",
+      "role": "登録",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-1",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 9
+    },
+    {
+      "x": 468,
+      "y": 448,
+      "width": 279,
+      "height": 86,
+      "text": "利用条件を設定",
+      "role": "設定",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-2",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 9
+    },
+    {
+      "x": 822,
+      "y": 448,
+      "width": 296,
+      "height": 86,
+      "text": "サービスを使い始める",
+      "role": "利用開始",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-3",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 10
+    }
+  ],
+  "width": 1200,
+  "height": 720,
+  "kind": "diagram",
+  "guidance": {
+    "use_case": "新しいサービスを利用する担当者へ、開始までの流れを示す。",
+    "message": "登録・設定・利用開始の三つを順に進める。",
+    "reading": [
+      "人物付きの文書がアカウント登録。",
+      "調整つまみが利用条件の設定。",
+      "チェック付きの画面が利用開始。"
+    ],
+    "avoid": "本人確認や承認が必要な場合、その手順を省略しない。"
+  },
+  "layout": {
+    "relation": "three-step-sequence",
+    "reading_direction": "left-to-right"
+  },
+  "schema_version": 2,
+  "id": "framework/onboarding",
+  "name": "利用開始_登録から設定を経て使い始める_3ステップ導入",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1200,
+    "height": 720
+  },
+  "path": "assets/framework/onboarding.svg",
+  "metadata_path": "metadata/framework/onboarding.json",
+  "search_text": "framework/onboarding\n利用開始_登録から設定を経て使い始める_3ステップ導入\n登録・設定を経て使い始める\n新しいサービスを利用する担当者へ、開始までの流れを示す。\n登録・設定・利用開始の三つを順に進める。\n人物付きの文書がアカウント登録。\n調整つまみが利用条件の設定。\nチェック付きの画面が利用開始。\n導入 初期設定 利用開始 登録 オンボーディング 3ステップ onboarding getting started",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "9bba79469413f8e2181be5ae79ed3e5b40bae9718a7db611482705a5474cc332",
+  "size_bytes": 4219
+}

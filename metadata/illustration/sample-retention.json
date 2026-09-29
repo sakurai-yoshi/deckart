@@ -1,0 +1,60 @@
+{
+  "kind": "illustration",
+  "category": "06-業務イラスト",
+  "labels": [],
+  "preview_path": "previews/illustration/sample-retention.png",
+  "placement": {
+    "framing": "object",
+    "facing": "front",
+    "recommended_width_cm": [
+      4,
+      7
+    ]
+  },
+  "title": "見本を保管する",
+  "description": "仕切り付きケースに見本を分けて収め、必要な見本を取り出して比較できる管理を表す。",
+  "keywords": [
+    "サンプル",
+    "見本",
+    "保管",
+    "品質",
+    "sample",
+    "retention"
+  ],
+  "guidance": {
+    "use_case": "品質管理、保管サンプル、製品見本の管理を説明する。",
+    "message": "見本を区別して保管し、必要なときに比較できるようにする。",
+    "reading": [
+      "仕切り付きケースが、見本を区別して保管する場所を表す。",
+      "一部を引き出した見本が、取り出して確認できる状態を表す。"
+    ],
+    "avoid": "実物の寸法・仕様や、作業手順を示す図としては使用しない。"
+  },
+  "width": 1254,
+  "height": 1254,
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/illustrations.json"
+  },
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": true,
+  "canvas": {
+    "width": 1254,
+    "height": 1254
+  },
+  "schema_version": 2,
+  "id": "illustration/sample-retention",
+  "name": "見本を保管する_業務イラスト",
+  "license": "CC0-1.0",
+  "path": "media/illustration/sample-retention.png",
+  "metadata_path": "metadata/illustration/sample-retention.json",
+  "search_text": "illustration/sample-retention\n見本を保管する_業務イラスト\n見本を保管する\n品質管理、保管サンプル、製品見本の管理を説明する。\n見本を区別して保管し、必要なときに比較できるようにする。\n仕切り付きケースが、見本を区別して保管する場所を表す。\n一部を引き出した見本が、取り出して確認できる状態を表す。\nサンプル 見本 保管 品質 sample retention\nobject 物 道具 front 正面 [4, 7] ",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "68e7992bd4c27a11d07f76237e146c6abcdc51609fbdef776898bde011d1ced3",
+  "size_bytes": 876612
+}

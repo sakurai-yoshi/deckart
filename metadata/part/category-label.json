@@ -1,0 +1,79 @@
+{
+  "category": "07-注釈と見出し",
+  "title": "内容の分類を短く添える",
+  "description": "短い分類名を濃い帯に置き、対象となる内容を下で補足する分類部品。",
+  "keywords": [
+    "分類",
+    "カテゴリ",
+    "区分",
+    "整理",
+    "label",
+    "category",
+    "classification"
+  ],
+  "labels": [
+    {
+      "x": 45,
+      "y": 42,
+      "width": 192,
+      "height": 54,
+      "text": "運用の条件",
+      "role": "分類",
+      "align": "center",
+      "color": "#FFFFFF",
+      "font_size": 28,
+      "id": "label-1",
+      "color_role": "paper",
+      "max_lines": 1,
+      "max_fullwidth_chars": 6
+    },
+    {
+      "x": 302,
+      "y": 106,
+      "width": 580,
+      "height": 62,
+      "text": "対象・例外・確認する人",
+      "role": "分類の説明",
+      "align": "left",
+      "color": "#153A6B",
+      "font_size": 29,
+      "id": "label-2",
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 18
+    }
+  ],
+  "width": 920,
+  "height": 197,
+  "kind": "part",
+  "guidance": {
+    "use_case": "説明のまとまりに、同じ分類名を継続して添える場面。",
+    "message": "この内容がどの区分に属するかが分かる。",
+    "reading": [
+      "左上の帯が分類名を受け持つ。",
+      "下にその分類で扱う内容を短く添える。"
+    ],
+    "avoid": "複数の分類名を一つの帯へ詰め込む用途には使わない。"
+  },
+  "schema_version": 2,
+  "id": "part/category-label",
+  "name": "内容の分類を短く添える_説明パーツ",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 920,
+    "height": 197
+  },
+  "path": "assets/part/category-label.svg",
+  "metadata_path": "metadata/part/category-label.json",
+  "search_text": "part/category-label\n内容の分類を短く添える_説明パーツ\n内容の分類を短く添える\n説明のまとまりに、同じ分類名を継続して添える場面。\nこの内容がどの区分に属するかが分かる。\n左上の帯が分類名を受け持つ。\n下にその分類で扱う内容を短く添える。\n分類 カテゴリ 区分 整理 label category classification",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "1cd816b5b1c8e1bda72138b599d8eca3c846e1ed384f5c2bb569bb9d4f4af185",
+  "size_bytes": 613
+}

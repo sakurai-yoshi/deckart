@@ -1,0 +1,60 @@
+{
+  "kind": "illustration",
+  "category": "06-業務イラスト",
+  "labels": [],
+  "preview_path": "previews/illustration/reduced-packaging.png",
+  "placement": {
+    "framing": "object",
+    "facing": "front",
+    "recommended_width_cm": [
+      4,
+      7
+    ]
+  },
+  "title": "梱包サイズを適正にする",
+  "description": "同じ製品を収めた大小の箱を比べ、製品に合う箱によって余分な空間と緩衝材を減らす関係を表す。",
+  "keywords": [
+    "梱包",
+    "適正化",
+    "省資源",
+    "輸送効率",
+    "包装",
+    "packaging"
+  ],
+  "guidance": {
+    "use_case": "梱包材削減、荷姿の改善、輸送効率の見直しを説明する。",
+    "message": "製品に合う箱を選び、余分な梱包を減らす。",
+    "reading": [
+      "同じ青い製品に対して、大きさの違う箱を並べる。",
+      "製品に近いサイズの箱が、空間と緩衝材の削減を表す。"
+    ],
+    "avoid": "実物の寸法・仕様や、作業手順を示す図としては使用しない。"
+  },
+  "width": 1254,
+  "height": 1254,
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/illustrations.json"
+  },
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": true,
+  "canvas": {
+    "width": 1254,
+    "height": 1254
+  },
+  "schema_version": 2,
+  "id": "illustration/reduced-packaging",
+  "name": "梱包サイズを適正にする_業務イラスト",
+  "license": "CC0-1.0",
+  "path": "media/illustration/reduced-packaging.png",
+  "metadata_path": "metadata/illustration/reduced-packaging.json",
+  "search_text": "illustration/reduced-packaging\n梱包サイズを適正にする_業務イラスト\n梱包サイズを適正にする\n梱包材削減、荷姿の改善、輸送効率の見直しを説明する。\n製品に合う箱を選び、余分な梱包を減らす。\n同じ青い製品に対して、大きさの違う箱を並べる。\n製品に近いサイズの箱が、空間と緩衝材の削減を表す。\n梱包 適正化 省資源 輸送効率 包装 packaging\nobject 物 道具 front 正面 [4, 7] ",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "08797be9eb69503b4da5d96c66a1d2edb5edd0b08bf58b7582a54c026ade0134",
+  "size_bytes": 695463
+}

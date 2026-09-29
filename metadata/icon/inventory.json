@@ -1,0 +1,48 @@
+{
+  "category": "08-アイコンとピクトグラム",
+  "title": "在庫",
+  "description": "保有している物品や在庫のまとまりを示す。",
+  "keywords": [
+    "在庫",
+    "棚卸",
+    "保有",
+    "物品",
+    "stock",
+    "inventory",
+    "goods"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "在庫管理や棚卸の見出しに添える。",
+    "message": "保有している物品の量を管理する。",
+    "reading": [
+      "並ぶ箱が保有する物品を表す。",
+      "積み上がったまとまりが在庫を表す。"
+    ],
+    "avoid": "三箱を実際の在庫数量として読ませない。"
+  },
+  "schema_version": 2,
+  "id": "icon/inventory",
+  "name": "在庫管理_保有する物品を数える_積み上げた箱",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/inventory.svg",
+  "metadata_path": "metadata/icon/inventory.json",
+  "search_text": "icon/inventory\n在庫管理_保有する物品を数える_積み上げた箱\n在庫\n在庫管理や棚卸の見出しに添える。\n保有している物品の量を管理する。\n並ぶ箱が保有する物品を表す。\n積み上がったまとまりが在庫を表す。\n在庫 棚卸 保有 物品 stock inventory goods",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "4715872ceeb31b7ad669924e05a84285df088a46c9e97b0bd5ad1d3dfe960fea",
+  "size_bytes": 1702
+}

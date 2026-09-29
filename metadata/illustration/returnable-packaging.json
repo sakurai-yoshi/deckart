@@ -1,0 +1,62 @@
+{
+  "title": "通い箱を繰り返し使う",
+  "kind": "illustration",
+  "category": "06-業務イラスト",
+  "width": 1254,
+  "height": 1254,
+  "keywords": [
+    "通い箱",
+    "再利用",
+    "物流",
+    "折りたたみ",
+    "容器",
+    "returnable packaging",
+    "reusable crate"
+  ],
+  "guidance": {
+    "use_case": "繰り返し使う梱包、回収物流、省スペース保管の説明。",
+    "message": "使用後にたたんで戻し、同じ容器を再利用する。",
+    "reading": [
+      "組み立てた箱と同形の折りたたみ状態を並べる。",
+      "同じ縁色と取っ手で同一の容器を対応させる。"
+    ],
+    "avoid": "具体的な折りたたみ手順や積載性能を示す図としては使用しない。"
+  },
+  "labels": [],
+  "preview_path": "previews/illustration/returnable-packaging.png",
+  "placement": {
+    "framing": "object",
+    "facing": "front",
+    "people_count": 0,
+    "recommended_width_cm": [
+      4,
+      7
+    ]
+  },
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/illustrations.json"
+  },
+  "description": "使用後にたたんで戻し、同じ容器を再利用する。",
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": true,
+  "canvas": {
+    "width": 1254,
+    "height": 1254
+  },
+  "schema_version": 2,
+  "id": "illustration/returnable-packaging",
+  "name": "通い箱を繰り返し使う_メーカー業務の構成",
+  "license": "CC0-1.0",
+  "path": "media/illustration/returnable-packaging.png",
+  "metadata_path": "metadata/illustration/returnable-packaging.json",
+  "search_text": "illustration/returnable-packaging\n通い箱を繰り返し使う_メーカー業務の構成\n通い箱を繰り返し使う\n繰り返し使う梱包、回収物流、省スペース保管の説明。\n使用後にたたんで戻し、同じ容器を再利用する。\n組み立てた箱と同形の折りたたみ状態を並べる。\n同じ縁色と取っ手で同一の容器を対応させる。\n通い箱 再利用 物流 折りたたみ 容器 returnable packaging reusable crate\nobject 物 道具 front 正面 0  [4, 7] ",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "5ee2137c690912f0243d72742fa10c0172a783636a7ca34429de6d97c2e8fc4c",
+  "size_bytes": 733054
+}

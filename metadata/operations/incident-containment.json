@@ -1,0 +1,132 @@
+{
+  "category": "01-業務プロセス",
+  "title": "影響箇所を隔離して提供を続ける",
+  "description": "影響のない提供を継続しながら、障害箇所を隔離して復旧確認後に戻す。",
+  "keywords": [
+    "障害",
+    "影響範囲",
+    "隔離",
+    "封じ込め",
+    "復旧",
+    "サービス継続",
+    "インシデント",
+    "containment",
+    "incident",
+    "isolation"
+  ],
+  "labels": [
+    {
+      "x": 107,
+      "y": 64,
+      "width": 447,
+      "height": 76,
+      "text": "影響のない提供を継続",
+      "role": "継続する範囲",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-1",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 15
+    },
+    {
+      "x": 190,
+      "y": 463,
+      "width": 178,
+      "height": 70,
+      "text": "障害箇所",
+      "role": "影響箇所",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-2",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 6
+    },
+    {
+      "x": 106,
+      "y": 599,
+      "width": 441,
+      "height": 69,
+      "text": "影響箇所を隔離して対処",
+      "role": "隔離",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-3",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 15
+    },
+    {
+      "x": 568,
+      "y": 463,
+      "width": 202,
+      "height": 69,
+      "text": "原因を除く",
+      "role": "復旧作業",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-4",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 7
+    },
+    {
+      "x": 812,
+      "y": 584,
+      "width": 284,
+      "height": 66,
+      "text": "確認後に復帰",
+      "role": "復帰条件",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-5",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 9
+    }
+  ],
+  "width": 1200,
+  "height": 720,
+  "kind": "diagram",
+  "guidance": {
+    "use_case": "障害対応で、全体を止めずに影響箇所を切り離す方針と復旧条件を説明する。",
+    "message": "影響範囲を限定し、確認が済むまで通常系へ戻さない。",
+    "reading": [
+      "上の太い経路は影響のない提供を続ける範囲。",
+      "下の破線の囲みが切り離して対処する影響範囲。",
+      "原因の除去と確認を経た経路だけが上段へ戻る。"
+    ],
+    "avoid": "分離できない共有基盤の障害にもそのまま適用できるとは限らない。"
+  },
+  "layout": {
+    "relation": "isolation-and-verified-rejoin",
+    "reading_direction": "left-to-right"
+  },
+  "schema_version": 2,
+  "id": "operations/incident-containment",
+  "name": "障害対応_影響箇所を隔離して通常提供を続ける_封じ込めと復旧確認",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1200,
+    "height": 720
+  },
+  "path": "assets/operations/incident-containment.svg",
+  "metadata_path": "metadata/operations/incident-containment.json",
+  "search_text": "operations/incident-containment\n障害対応_影響箇所を隔離して通常提供を続ける_封じ込めと復旧確認\n影響箇所を隔離して提供を続ける\n障害対応で、全体を止めずに影響箇所を切り離す方針と復旧条件を説明する。\n影響範囲を限定し、確認が済むまで通常系へ戻さない。\n上の太い経路は影響のない提供を続ける範囲。\n下の破線の囲みが切り離して対処する影響範囲。\n原因の除去と確認を経た経路だけが上段へ戻る。\n障害 影響範囲 隔離 封じ込め 復旧 サービス継続 インシデント containment incident isolation",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "33bfb6746981f90f9f07782fa18a90b22c3eb6b8f41c5e39b90179230fdb8af8",
+  "size_bytes": 3824
+}

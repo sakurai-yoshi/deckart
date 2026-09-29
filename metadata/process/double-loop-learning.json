@@ -1,0 +1,130 @@
+{
+  "category": "01-業務プロセス",
+  "title": "実行の改善と前提の見直し",
+  "description": "結果から手順を直す学習と、方針そのものを見直す学習を分けて示す。",
+  "keywords": [
+    "組織学習",
+    "ダブルループ",
+    "フィードバック",
+    "改善",
+    "振り返り",
+    "前提",
+    "方針",
+    "PDCA"
+  ],
+  "labels": [
+    {
+      "x": 94,
+      "y": 354,
+      "width": 250,
+      "height": 74,
+      "text": "方針・前提",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-1",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 8
+    },
+    {
+      "x": 455,
+      "y": 351,
+      "width": 265,
+      "height": 76,
+      "text": "手順を実行",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-2",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 9
+    },
+    {
+      "x": 793,
+      "y": 464,
+      "width": 229,
+      "height": 62,
+      "text": "結果を観測",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-3",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 8
+    },
+    {
+      "x": 586,
+      "y": 611,
+      "width": 429,
+      "height": 66,
+      "text": "手順を改善する",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-4",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 14
+    },
+    {
+      "x": 365,
+      "y": 47,
+      "width": 461,
+      "height": 66,
+      "text": "方針・前提から見直す",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-5",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 16
+    }
+  ],
+  "width": 1200,
+  "height": 720,
+  "layout": {
+    "relation": "nested-feedback",
+    "reading_direction": "left-to-right"
+  },
+  "guidance": {
+    "use_case": "施策の振り返りで、手順の修正と方針の再検討を切り分ける。",
+    "message": "結果が悪いときは、手順だけでなく前提も見直せる。",
+    "reading": [
+      "中央の流れは方針・実行・観測。",
+      "下の短いループが実行手順の改善。",
+      "上の大きなループが方針や前提の見直し。"
+    ],
+    "avoid": "二つの改善を必ず順番に実施する図として扱わない。"
+  },
+  "kind": "diagram",
+  "schema_version": 2,
+  "id": "process/double-loop-learning",
+  "name": "組織学習_実行改善と前提見直しを分ける_二重のフィードバック",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1200,
+    "height": 720
+  },
+  "path": "assets/process/double-loop-learning.svg",
+  "metadata_path": "metadata/process/double-loop-learning.json",
+  "search_text": "process/double-loop-learning\n組織学習_実行改善と前提見直しを分ける_二重のフィードバック\n実行の改善と前提の見直し\n施策の振り返りで、手順の修正と方針の再検討を切り分ける。\n結果が悪いときは、手順だけでなく前提も見直せる。\n中央の流れは方針・実行・観測。\n下の短いループが実行手順の改善。\n上の大きなループが方針や前提の見直し。\n組織学習 ダブルループ フィードバック 改善 振り返り 前提 方針 PDCA",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "0b35ce105ec5c660e8cf1311a3b4f3a49ada8f1645cd58ca7a84aad30a8c49f2",
+  "size_bytes": 3126
+}

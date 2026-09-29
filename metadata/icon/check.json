@@ -1,0 +1,51 @@
+{
+  "category": "08-アイコンとピクトグラム",
+  "title": "確認・完了",
+  "description": "確認済みや作業完了を簡潔に示す。",
+  "keywords": [
+    "確認",
+    "完了",
+    "チェック",
+    "済み",
+    "合格",
+    "承認",
+    "check",
+    "complete",
+    "done",
+    "confirmed"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "一覧の中で、確認済みや完了した状態を示す場面。",
+    "message": "対象の確認や作業が終わっている。",
+    "reading": [
+      "チェック形が肯定・確認済みを表す。",
+      "丸い面が一つの状態として見分けやすくする。"
+    ],
+    "avoid": "外部機関による認証や性能保証を示す用途には使わない。"
+  },
+  "schema_version": 2,
+  "id": "icon/check",
+  "name": "確認表示_完了を示す_チェック",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/check.svg",
+  "metadata_path": "metadata/icon/check.json",
+  "search_text": "icon/check\n確認表示_完了を示す_チェック\n確認・完了\n一覧の中で、確認済みや完了した状態を示す場面。\n対象の確認や作業が終わっている。\nチェック形が肯定・確認済みを表す。\n丸い面が一つの状態として見分けやすくする。\n確認 完了 チェック 済み 合格 承認 check complete done confirmed",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "6ffbf8dd406bf68046de90df636e83346d9b961c8e97e88a39aa4ceea2ad7a02",
+  "size_bytes": 597
+}

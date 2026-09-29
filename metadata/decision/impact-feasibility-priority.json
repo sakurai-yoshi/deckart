@@ -1,0 +1,142 @@
+{
+  "category": "02-比較と意思決定",
+  "title": "効果と実行しやすさで優先する",
+  "description": "効果が高く実行しやすい施策を、最初に取り組む領域として示す。",
+  "keywords": [
+    "優先順位",
+    "優先度",
+    "二軸",
+    "マトリクス",
+    "マトリックス",
+    "期待効果",
+    "実現性",
+    "施策",
+    "ポジショニング"
+  ],
+  "labels": [
+    {
+      "x": 259,
+      "y": 174,
+      "width": 317,
+      "height": 70,
+      "text": "条件を整えて育てる",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-1",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 11
+    },
+    {
+      "x": 686,
+      "y": 174,
+      "width": 321,
+      "height": 70,
+      "text": "優先して取り組む",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-2",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 11
+    },
+    {
+      "x": 259,
+      "y": 406,
+      "width": 317,
+      "height": 70,
+      "text": "着手を見直す",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-3",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 11
+    },
+    {
+      "x": 686,
+      "y": 406,
+      "width": 321,
+      "height": 70,
+      "text": "小さく効率よく進める",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-4",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 11
+    },
+    {
+      "x": 181,
+      "y": 25,
+      "width": 395,
+      "height": 66,
+      "text": "上ほど期待効果が高い",
+      "role": "項目",
+      "align": "left",
+      "color": "#153A6B",
+      "id": "label-5",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 13
+    },
+    {
+      "x": 686,
+      "y": 627,
+      "width": 410,
+      "height": 64,
+      "text": "右ほど実行しやすい",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-6",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 14
+    }
+  ],
+  "width": 1200,
+  "height": 720,
+  "guidance": {
+    "use_case": "改善施策を期待効果と実行しやすさで整理する。",
+    "message": "効果が高く実行しやすい施策から取り組む。",
+    "reading": [
+      "上に行くほど期待効果が高い。",
+      "右に行くほど実行しやすい。",
+      "右上のチェックは優先して取り組む領域。"
+    ],
+    "avoid": "軸を変更する場合は四領域の意味も合わせて変更する。"
+  },
+  "kind": "diagram",
+  "schema_version": 2,
+  "id": "decision/impact-feasibility-priority",
+  "name": "施策評価_優先順位の整理_効果と実行しやすさの二軸",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1200,
+    "height": 720
+  },
+  "path": "assets/decision/impact-feasibility-priority.svg",
+  "metadata_path": "metadata/decision/impact-feasibility-priority.json",
+  "search_text": "decision/impact-feasibility-priority\n施策評価_優先順位の整理_効果と実行しやすさの二軸\n効果と実行しやすさで優先する\n改善施策を期待効果と実行しやすさで整理する。\n効果が高く実行しやすい施策から取り組む。\n上に行くほど期待効果が高い。\n右に行くほど実行しやすい。\n右上のチェックは優先して取り組む領域。\n優先順位 優先度 二軸 マトリクス マトリックス 期待効果 実現性 施策 ポジショニング",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "fc49892807270f6f53d3d3480296a57cc5d44aca1f6b319b5bc52a00fd667c85",
+  "size_bytes": 2460
+}

@@ -1,0 +1,111 @@
+{
+  "category": "05-組織と戦略",
+  "title": "組織の基盤から顧客の成果へ",
+  "description": "組織の基盤が価値の提供を支え、その先で顧客の成果につながる関係を示す。",
+  "keywords": [
+    "価値創造",
+    "バリューチェーン",
+    "ピラミッド",
+    "価値体系",
+    "基盤",
+    "顧客成果",
+    "組織能力",
+    "経営理念"
+  ],
+  "labels": [
+    {
+      "x": 500,
+      "y": 210,
+      "width": 200,
+      "height": 56,
+      "text": "顧客の成果",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-1",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 6
+    },
+    {
+      "x": 355,
+      "y": 332,
+      "width": 490,
+      "height": 78,
+      "text": "提供する価値",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-2",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 17
+    },
+    {
+      "x": 276,
+      "y": 516,
+      "width": 648,
+      "height": 80,
+      "text": "価値を支える組織の基盤",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-3",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 22
+    },
+    {
+      "x": 54,
+      "y": 132,
+      "width": 355,
+      "height": 74,
+      "text": "基盤から成果へつなぐ",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-4",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 12
+    }
+  ],
+  "width": 1200,
+  "height": 720,
+  "guidance": {
+    "use_case": "組織への投資が、提供価値を通じて顧客の成果へつながることを説明する。",
+    "message": "顧客の成果は価値提供と組織基盤の上に成り立つ。",
+    "reading": [
+      "下段は人材・情報・仕組みなどの組織基盤。",
+      "中段は顧客に提供する価値。",
+      "上段は顧客が得る成果。"
+    ],
+    "avoid": "面積を構成比や投資配分として扱わない。"
+  },
+  "kind": "diagram",
+  "schema_version": 2,
+  "id": "strategy/value-creation-pyramid",
+  "name": "価値創造_基盤から顧客成果へ_一体型ピラミッド",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1200,
+    "height": 720
+  },
+  "path": "assets/strategy/value-creation-pyramid.svg",
+  "metadata_path": "metadata/strategy/value-creation-pyramid.json",
+  "search_text": "strategy/value-creation-pyramid\n価値創造_基盤から顧客成果へ_一体型ピラミッド\n組織の基盤から顧客の成果へ\n組織への投資が、提供価値を通じて顧客の成果へつながることを説明する。\n顧客の成果は価値提供と組織基盤の上に成り立つ。\n下段は人材・情報・仕組みなどの組織基盤。\n中段は顧客に提供する価値。\n上段は顧客が得る成果。\n価値創造 バリューチェーン ピラミッド 価値体系 基盤 顧客成果 組織能力 経営理念",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "9a8dbafa0bcdc5ae85cf40d314cab6d4d884f97c7c216ca796a2eda9a248c72a",
+  "size_bytes": 1793
+}

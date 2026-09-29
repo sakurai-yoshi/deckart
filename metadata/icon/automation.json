@@ -1,0 +1,49 @@
+{
+  "category": "08-アイコンとピクトグラム",
+  "title": "自動化",
+  "description": "決まった作業を機械や仕組みに任せることを示す。",
+  "keywords": [
+    "自動化",
+    "自動処理",
+    "省力",
+    "ロボット",
+    "RPA",
+    "automation",
+    "robotic",
+    "process"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "繰り返し作業の自動化や省力化を紹介する。",
+    "message": "決まった作業を仕組みが実行する。",
+    "reading": [
+      "関節を持つアームが自動で動く機構を表す。",
+      "先端の爪が作業を実行する部分を表す。"
+    ],
+    "avoid": "人の判断まで不要になるという意味では使わない。"
+  },
+  "schema_version": 2,
+  "id": "icon/automation",
+  "name": "自動化_繰り返す作業を機械へ任せる_自動アーム",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/automation.svg",
+  "metadata_path": "metadata/icon/automation.json",
+  "search_text": "icon/automation\n自動化_繰り返す作業を機械へ任せる_自動アーム\n自動化\n繰り返し作業の自動化や省力化を紹介する。\n決まった作業を仕組みが実行する。\n関節を持つアームが自動で動く機構を表す。\n先端の爪が作業を実行する部分を表す。\n自動化 自動処理 省力 ロボット RPA automation robotic process",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "bcd63ddd1001fbcffabd41efdaa15d9583be9be82d34b338250f13beb57aa853",
+  "size_bytes": 1366
+}

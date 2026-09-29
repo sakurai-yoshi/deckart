@@ -1,0 +1,133 @@
+{
+  "category": "01-業務プロセス",
+  "title": "転記元と転記先の対応を照合する",
+  "description": "同じ項目を左右で対応づけ、一致した項目と修正が必要な項目を分ける。",
+  "keywords": [
+    "照合",
+    "突合",
+    "検算",
+    "データ移行",
+    "転記",
+    "不一致",
+    "整合性",
+    "差異",
+    "修正",
+    "reconciliation",
+    "matching"
+  ],
+  "labels": [
+    {
+      "x": 105,
+      "y": 118,
+      "width": 274,
+      "height": 61,
+      "text": "転記元",
+      "role": "照合元",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-1",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 9
+    },
+    {
+      "x": 821,
+      "y": 118,
+      "width": 274,
+      "height": 61,
+      "text": "転記先",
+      "role": "照合先",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-2",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 9
+    },
+    {
+      "x": 424,
+      "y": 205,
+      "width": 353,
+      "height": 59,
+      "text": "同じ項目同士を照合",
+      "role": "比較関係",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-3",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 12
+    },
+    {
+      "x": 444,
+      "y": 493,
+      "width": 306,
+      "height": 61,
+      "text": "不一致だけを修正",
+      "role": "差異への対応",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-4",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 10
+    },
+    {
+      "x": 503,
+      "y": 620,
+      "width": 570,
+      "height": 64,
+      "text": "修正後に同じ項目を再照合",
+      "role": "再確認",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-5",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 19
+    }
+  ],
+  "width": 1200,
+  "height": 720,
+  "kind": "diagram",
+  "guidance": {
+    "use_case": "移行や転記の検証で、元データと反映先の不一致を確認して修正する。",
+    "message": "全体を見比べるだけでなく、同じ項目の対応と不一致を確かめる。",
+    "reading": [
+      "左右の同じ記号が対応する項目。",
+      "チェックの行は一致し、注意色の行は不一致。",
+      "不一致の行を転記先で修正し、同じ対応で再照合する。"
+    ],
+    "avoid": "行の長さは値の大小を表さない。件数や金額の集計結果を示すグラフではない。"
+  },
+  "layout": {
+    "relation": "pairwise-reconciliation-with-correction",
+    "reading_direction": "left-to-right"
+  },
+  "schema_version": 2,
+  "id": "operations/data-reconciliation",
+  "name": "移行検証_転記元と転記先の対応を照合する_不一致の検出と修正",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1200,
+    "height": 720
+  },
+  "path": "assets/operations/data-reconciliation.svg",
+  "metadata_path": "metadata/operations/data-reconciliation.json",
+  "search_text": "operations/data-reconciliation\n移行検証_転記元と転記先の対応を照合する_不一致の検出と修正\n転記元と転記先の対応を照合する\n移行や転記の検証で、元データと反映先の不一致を確認して修正する。\n全体を見比べるだけでなく、同じ項目の対応と不一致を確かめる。\n左右の同じ記号が対応する項目。\nチェックの行は一致し、注意色の行は不一致。\n不一致の行を転記先で修正し、同じ対応で再照合する。\n照合 突合 検算 データ移行 転記 不一致 整合性 差異 修正 reconciliation matching",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "27651475db33554b988ad85b47c7ba565c71da29c73366426aa70c9292e2ad2d",
+  "size_bytes": 5409
+}

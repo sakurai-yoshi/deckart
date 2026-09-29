@@ -1,0 +1,109 @@
+{
+  "category": "07-注釈と見出し",
+  "title": "仮説と確かめ方を一組にする",
+  "description": "未確定の仮説を破線で囲み、その検証方法へつなぐ部品。",
+  "keywords": [
+    "仮説",
+    "検証",
+    "未確定",
+    "調査",
+    "hypothesis",
+    "test",
+    "validation"
+  ],
+  "labels": [
+    {
+      "x": 55,
+      "y": 58,
+      "width": 388,
+      "height": 47,
+      "text": "確かめたい仮説",
+      "role": "仮説の区分",
+      "align": "left",
+      "color": "#2864F0",
+      "font_size": 25,
+      "id": "label-1",
+      "color_role": "accent",
+      "max_lines": 1,
+      "max_fullwidth_chars": 14
+    },
+    {
+      "x": 55,
+      "y": 127,
+      "width": 388,
+      "height": 99,
+      "text": "引き継ぎの回数が\n回答を遅らせている",
+      "role": "仮説",
+      "align": "left",
+      "color": "#153A6B",
+      "font_size": 31,
+      "id": "label-2",
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 11
+    },
+    {
+      "x": 596,
+      "y": 58,
+      "width": 390,
+      "height": 47,
+      "text": "確かめる方法",
+      "role": "検証の区分",
+      "align": "left",
+      "color": "#2864F0",
+      "font_size": 25,
+      "id": "label-3",
+      "color_role": "accent",
+      "max_lines": 1,
+      "max_fullwidth_chars": 14
+    },
+    {
+      "x": 596,
+      "y": 127,
+      "width": 390,
+      "height": 99,
+      "text": "案件の記録から\n経路と時間を調べる",
+      "role": "検証",
+      "align": "left",
+      "color": "#153A6B",
+      "font_size": 31,
+      "id": "label-4",
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 11
+    }
+  ],
+  "width": 1040,
+  "height": 290,
+  "kind": "part",
+  "guidance": {
+    "use_case": "調査前に何をどう確かめるかを共有する場面。",
+    "message": "仮説を事実と分け、検証の方法を示す。",
+    "reading": [
+      "左の破線が未確認の仮説を示す。",
+      "右の淡い欄に仮説を確かめる方法を置く。"
+    ],
+    "avoid": "未検証の仮説を結論として利用する用途には使わない。"
+  },
+  "schema_version": 2,
+  "id": "part/hypothesis-and-test",
+  "name": "仮説と確かめ方を一組にする_説明パーツ",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1040,
+    "height": 290
+  },
+  "path": "assets/part/hypothesis-and-test.svg",
+  "metadata_path": "metadata/part/hypothesis-and-test.json",
+  "search_text": "part/hypothesis-and-test\n仮説と確かめ方を一組にする_説明パーツ\n仮説と確かめ方を一組にする\n調査前に何をどう確かめるかを共有する場面。\n仮説を事実と分け、検証の方法を示す。\n左の破線が未確認の仮説を示す。\n右の淡い欄に仮説を確かめる方法を置く。\n仮説 検証 未確定 調査 hypothesis test validation",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "5ed094b0b439c4d9e64ffa194f825aa9d477118af65fe97adbfa1238f137ef9d",
+  "size_bytes": 929
+}

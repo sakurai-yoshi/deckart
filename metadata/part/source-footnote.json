@@ -1,0 +1,79 @@
+{
+  "category": "07-注釈と見出し",
+  "title": "本文と出典を脚注で区切る",
+  "description": "細い区切り線と参照番号で、本文の下に出典を添える部品。",
+  "keywords": [
+    "脚注",
+    "出典",
+    "参照番号",
+    "情報源",
+    "footnote",
+    "citation",
+    "reference"
+  ],
+  "labels": [
+    {
+      "x": 38,
+      "y": 75,
+      "width": 34,
+      "height": 40,
+      "text": "1",
+      "role": "参照番号",
+      "align": "center",
+      "color": "#FFFFFF",
+      "font_size": 24,
+      "id": "label-1",
+      "color_role": "paper",
+      "max_lines": 1,
+      "max_fullwidth_chars": 1
+    },
+    {
+      "x": 140,
+      "y": 66,
+      "width": 1032,
+      "height": 84,
+      "text": "出典：顧客調査報告書 ／ 対象・実施期間・参照箇所を記載",
+      "role": "出典と範囲",
+      "align": "left",
+      "color": "#153A6B",
+      "font_size": 27,
+      "id": "label-2",
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 36
+    }
+  ],
+  "width": 1200,
+  "height": 178,
+  "kind": "part",
+  "guidance": {
+    "use_case": "図表や文章の下に情報源を明示する場面。",
+    "message": "本文の参照番号から根拠を確認できる。",
+    "reading": [
+      "上の細い線が本文との境界を示す。",
+      "参照番号と情報源を横に対応させる。"
+    ],
+    "avoid": "本文の参照番号と異なる出典を付ける用途には使わない。"
+  },
+  "schema_version": 2,
+  "id": "part/source-footnote",
+  "name": "本文と出典を脚注で区切る_説明パーツ",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1200,
+    "height": 178
+  },
+  "path": "assets/part/source-footnote.svg",
+  "metadata_path": "metadata/part/source-footnote.json",
+  "search_text": "part/source-footnote\n本文と出典を脚注で区切る_説明パーツ\n本文と出典を脚注で区切る\n図表や文章の下に情報源を明示する場面。\n本文の参照番号から根拠を確認できる。\n上の細い線が本文との境界を示す。\n参照番号と情報源を横に対応させる。\n脚注 出典 参照番号 情報源 footnote citation reference",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "89e1fdee7a7f90e3007e8be851b0f0814e338191a3c9c1a92803a009d94a2a0a",
+  "size_bytes": 745
+}

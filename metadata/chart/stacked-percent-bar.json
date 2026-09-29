@@ -1,0 +1,260 @@
+{
+  "category": "10-数値とグラフ",
+  "title": "全体を100%にそろえて構成を比べる",
+  "description": "各行の合計を100%にそろえ、三つの区分の割合を比較する積上げ棒の作例。",
+  "keywords": [
+    "積上げ",
+    "100パーセント",
+    "構成比",
+    "内訳",
+    "比較",
+    "割合",
+    "stacked",
+    "normalized",
+    "bar"
+  ],
+  "labels": [
+    {
+      "x": 65,
+      "y": 187,
+      "width": 169,
+      "height": 74,
+      "text": "構成 A",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-1",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 5
+    },
+    {
+      "x": 65,
+      "y": 337,
+      "width": 169,
+      "height": 74,
+      "text": "構成 B",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-2",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 5
+    },
+    {
+      "x": 65,
+      "y": 487,
+      "width": 169,
+      "height": 74,
+      "text": "構成 C",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-3",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 5
+    },
+    {
+      "x": 337,
+      "y": 618,
+      "width": 179,
+      "height": 63,
+      "text": "区分 1",
+      "role": "項目",
+      "align": "left",
+      "color": "#153A6B",
+      "id": "label-4",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 6
+    },
+    {
+      "x": 623,
+      "y": 618,
+      "width": 179,
+      "height": 63,
+      "text": "区分 2",
+      "role": "項目",
+      "align": "left",
+      "color": "#153A6B",
+      "id": "label-5",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 6
+    },
+    {
+      "x": 909,
+      "y": 618,
+      "width": 179,
+      "height": 63,
+      "text": "区分 3",
+      "role": "項目",
+      "align": "left",
+      "color": "#153A6B",
+      "id": "label-6",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 6
+    }
+  ],
+  "width": 1200,
+  "height": 720,
+  "kind": "chart",
+  "data": {
+    "is_sample": true,
+    "unit": "%",
+    "categories": [
+      "構成 A",
+      "構成 B",
+      "構成 C"
+    ],
+    "series": [
+      {
+        "label": "区分 1",
+        "values": [
+          50,
+          30,
+          20
+        ]
+      },
+      {
+        "label": "区分 2",
+        "values": [
+          30,
+          45,
+          35
+        ]
+      },
+      {
+        "label": "区分 3",
+        "values": [
+          20,
+          25,
+          45
+        ]
+      }
+    ],
+    "chart_type": "stacked_percent_bar",
+    "baseline": 0,
+    "domain": [
+      0,
+      100
+    ],
+    "ticks": [
+      0,
+      25,
+      50,
+      75,
+      100
+    ],
+    "totals": [
+      100,
+      100,
+      100
+    ],
+    "plot": {
+      "x": 263,
+      "y": 189,
+      "width": 838,
+      "height": 370
+    },
+    "number_format": {
+      "maximum_significant_digits": 6,
+      "minimum_significant_digits": 3,
+      "large_or_small_values": "E notation",
+      "source_values": "series"
+    }
+  },
+  "guidance": {
+    "use_case": "総量の異なる複数の対象について、内訳の割合を比較する。",
+    "message": "全体の長さをそろえることで構成の違いを読める。",
+    "reading": [
+      "どの行も左端が0%、右端が100%。",
+      "三つの区分は全行で同じ色と並び順。",
+      "各区分の長さは表示した割合と一致する。"
+    ],
+    "avoid": "数値は作例。各対象の総量の大小はこの図から比較できない。"
+  },
+  "schema_version": 2,
+  "id": "chart/stacked-percent-bar",
+  "name": "構成比較_同じ全体にそろえて内訳を比べる_100パーセント積上げ作例",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1200,
+    "height": 720
+  },
+  "path": "assets/chart/stacked-percent-bar.svg",
+  "metadata_path": "metadata/chart/stacked-percent-bar.json",
+  "search_text": "chart/stacked-percent-bar\n構成比較_同じ全体にそろえて内訳を比べる_100パーセント積上げ作例\n全体を100%にそろえて構成を比べる\n総量の異なる複数の対象について、内訳の割合を比較する。\n全体の長さをそろえることで構成の違いを読める。\nどの行も左端が0%、右端が100%。\n三つの区分は全行で同じ色と並び順。\n各区分の長さは表示した割合と一致する。\n積上げ 100パーセント 構成比 内訳 比較 割合 stacked normalized bar",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": true
+  },
+  "data_input": {
+    "chart_type": "stacked_percent_bar",
+    "category_count": 3,
+    "series_count": 3,
+    "values_per_series": 3,
+    "required": [
+      "categories",
+      "series",
+      "unit"
+    ],
+    "constraints": [
+      "表示値は最大6有効桁。丸める場合も3有効桁以上を保つ。E表記で収まらない値は単位か小数桁を調整。入力値はseriesに保持。",
+      "文字は大判24px、小判20px以上で収まる長さ。収まらないカテゴリ名・系列名・単位は短縮して入力。",
+      "有限な数値。絶対値は1兆以下。大きな値は単位を変更して入力。",
+      "categoriesは16文字以内、series.label・unitは12文字以内。",
+      "値は0以上。",
+      "単位は%。各カテゴリの3系列を足すと100。"
+    ],
+    "example": {
+      "categories": [
+        "構成 A",
+        "構成 B",
+        "構成 C"
+      ],
+      "series": [
+        {
+          "label": "区分 1",
+          "values": [
+            50,
+            30,
+            20
+          ]
+        },
+        {
+          "label": "区分 2",
+          "values": [
+            30,
+            45,
+            35
+          ]
+        },
+        {
+          "label": "区分 3",
+          "values": [
+            20,
+            25,
+            45
+          ]
+        }
+      ],
+      "unit": "%"
+    }
+  },
+  "sha256": "562a489cfc1b53db40352fd9035de46848748531ee5d8877624fd9a8d0b6859b",
+  "size_bytes": 16253
+}

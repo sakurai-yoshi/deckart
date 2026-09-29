@@ -1,0 +1,52 @@
+{
+  "category": "08-アイコンとピクトグラム",
+  "title": "データをつなぐ基盤",
+  "description": "サーバー・端末・クラウドを結び、データを受け渡す基盤を示す。",
+  "keywords": [
+    "システム",
+    "サービス連携",
+    "接続",
+    "データ",
+    "基盤",
+    "サーバー",
+    "クラウド",
+    "system",
+    "integration",
+    "connected",
+    "network"
+  ],
+  "labels": [],
+  "width": 360,
+  "height": 290,
+  "guidance": {
+    "use_case": "システム同士の接続や共通基盤を紹介する場面。",
+    "message": "サーバー・端末・クラウドを結び、情報を扱う。",
+    "reading": [
+      "サーバー、端末、雲が接続する対象を表す。",
+      "中央の基盤へ続く線がサービス間の連携を表す。"
+    ],
+    "avoid": "通信方向やネットワーク境界を確定する設計図には使わない。"
+  },
+  "kind": "icon",
+  "schema_version": 2,
+  "id": "icon/connected-systems",
+  "name": "システム構成_サービス連携_データをつなぐ基盤",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 360,
+    "height": 290
+  },
+  "path": "assets/icon/connected-systems.svg",
+  "metadata_path": "metadata/icon/connected-systems.json",
+  "search_text": "icon/connected-systems\nシステム構成_サービス連携_データをつなぐ基盤\nデータをつなぐ基盤\nシステム同士の接続や共通基盤を紹介する場面。\nサーバー・端末・クラウドを結び、情報を扱う。\nサーバー、端末、雲が接続する対象を表す。\n中央の基盤へ続く線がサービス間の連携を表す。\nシステム サービス連携 接続 データ 基盤 サーバー クラウド system integration connected network",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "bae8676549d1ae65b227e68f85216e083d2c4b905dea74f4814adc1ee17c5db7",
+  "size_bytes": 3904
+}

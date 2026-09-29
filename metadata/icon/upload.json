@@ -1,0 +1,49 @@
+{
+  "category": "08-アイコンとピクトグラム",
+  "title": "アップロード",
+  "description": "ファイルを共有先やサービスへ送る操作を示す。",
+  "keywords": [
+    "アップロード",
+    "送信",
+    "提出",
+    "共有",
+    "ファイル",
+    "upload",
+    "submit",
+    "send"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "ファイルを共有先へ送る操作を示す。",
+    "message": "手元のファイルを外の保存先へ送る。",
+    "reading": [
+      "下の受け皿が手元の保存場所を表す。",
+      "上向きの矢印が送り出す動きを示す。"
+    ],
+    "avoid": "送信成功や公開範囲の確定を表す印には使わない。"
+  },
+  "schema_version": 2,
+  "id": "icon/upload",
+  "name": "ファイル操作_外部へ送る_送り出す矢印",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/upload.svg",
+  "metadata_path": "metadata/icon/upload.json",
+  "search_text": "icon/upload\nファイル操作_外部へ送る_送り出す矢印\nアップロード\nファイルを共有先へ送る操作を示す。\n手元のファイルを外の保存先へ送る。\n下の受け皿が手元の保存場所を表す。\n上向きの矢印が送り出す動きを示す。\nアップロード 送信 提出 共有 ファイル upload submit send",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "0a7d6e3a8021b5d7cab334668b8e6447587bc39efa35a8109fa92d9603711d77",
+  "size_bytes": 761
+}

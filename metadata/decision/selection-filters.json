@@ -1,0 +1,112 @@
+{
+  "category": "02-比較と意思決定",
+  "title": "条件を重ねて候補を絞る",
+  "description": "必須条件、運用への適合、期待する価値を順に確認し、候補を絞り込む。",
+  "keywords": [
+    "選定",
+    "調達",
+    "ベンダー",
+    "製品評価",
+    "条件",
+    "必須要件",
+    "フィルター",
+    "選考",
+    "絞り込み"
+  ],
+  "labels": [
+    {
+      "x": 814,
+      "y": 138,
+      "width": 307,
+      "height": 82,
+      "text": "必須条件を満たす",
+      "role": "項目",
+      "align": "left",
+      "color": "#153A6B",
+      "id": "label-1",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 10
+    },
+    {
+      "x": 814,
+      "y": 308,
+      "width": 307,
+      "height": 82,
+      "text": "運用に適合する",
+      "role": "項目",
+      "align": "left",
+      "color": "#153A6B",
+      "id": "label-2",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 10
+    },
+    {
+      "x": 814,
+      "y": 469,
+      "width": 307,
+      "height": 82,
+      "text": "期待する価値がある",
+      "role": "項目",
+      "align": "left",
+      "color": "#153A6B",
+      "id": "label-3",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 10
+    },
+    {
+      "x": 513,
+      "y": 608,
+      "width": 343,
+      "height": 68,
+      "text": "条件を満たした候補",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-4",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 11
+    }
+  ],
+  "width": 1200,
+  "height": 720,
+  "guidance": {
+    "use_case": "製品や委託先の選定で、候補を絞る確認順序を共有する。",
+    "message": "条件を順番に満たす候補を残す。",
+    "reading": [
+      "上から下へ確認する条件が進む。",
+      "狭くなる形は候補の絞り込み。",
+      "最後のチェックは条件を満たした候補。"
+    ],
+    "avoid": "幅は候補数や通過率を表さない。"
+  },
+  "kind": "diagram",
+  "schema_version": 2,
+  "id": "decision/selection-filters",
+  "name": "調達選定_判断条件による絞り込み_段階式フィルター",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1200,
+    "height": 720
+  },
+  "path": "assets/decision/selection-filters.svg",
+  "metadata_path": "metadata/decision/selection-filters.json",
+  "search_text": "decision/selection-filters\n調達選定_判断条件による絞り込み_段階式フィルター\n条件を重ねて候補を絞る\n製品や委託先の選定で、候補を絞る確認順序を共有する。\n条件を順番に満たす候補を残す。\n上から下へ確認する条件が進む。\n狭くなる形は候補の絞り込み。\n最後のチェックは条件を満たした候補。\n選定 調達 ベンダー 製品評価 条件 必須要件 フィルター 選考 絞り込み",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "d68c54c3ee991f28997c2a38462ca240236811ccc66f6b9bccda9e6443d9a7ef",
+  "size_bytes": 2927
+}

@@ -1,0 +1,60 @@
+{
+  "kind": "illustration",
+  "category": "06-業務イラスト",
+  "labels": [],
+  "preview_path": "previews/illustration/calibration-reference.png",
+  "placement": {
+    "framing": "object",
+    "facing": "front",
+    "recommended_width_cm": [
+      4,
+      7
+    ]
+  },
+  "title": "基準に合わせて計測する",
+  "description": "はかりに基準分銅を載せ、既知の基準と照らして測定を確かめる関係を表す。",
+  "keywords": [
+    "校正",
+    "基準",
+    "計測",
+    "精度",
+    "calibration",
+    "reference"
+  ],
+  "guidance": {
+    "use_case": "測定器の校正、基準との比較、測定精度の管理を説明する。",
+    "message": "既知の基準と照らして、測定の確かさを確認する。",
+    "reading": [
+      "はかりに載せた分銅が、既知の基準による確認を表す。",
+      "形の合う保管ケースが、基準器を管理して使う関係を表す。"
+    ],
+    "avoid": "実物の寸法・仕様や、作業手順を示す図としては使用しない。"
+  },
+  "width": 1254,
+  "height": 1254,
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/illustrations.json"
+  },
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": true,
+  "canvas": {
+    "width": 1254,
+    "height": 1254
+  },
+  "schema_version": 2,
+  "id": "illustration/calibration-reference",
+  "name": "基準に合わせて計測する_業務イラスト",
+  "license": "CC0-1.0",
+  "path": "media/illustration/calibration-reference.png",
+  "metadata_path": "metadata/illustration/calibration-reference.json",
+  "search_text": "illustration/calibration-reference\n基準に合わせて計測する_業務イラスト\n基準に合わせて計測する\n測定器の校正、基準との比較、測定精度の管理を説明する。\n既知の基準と照らして、測定の確かさを確認する。\nはかりに載せた分銅が、既知の基準による確認を表す。\n形の合う保管ケースが、基準器を管理して使う関係を表す。\n校正 基準 計測 精度 calibration reference\nobject 物 道具 front 正面 [4, 7] ",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "ebc82cdb39902a83eb86619ee5148b774af4f8257d25bc49736db7fbac526483",
+  "size_bytes": 739776
+}

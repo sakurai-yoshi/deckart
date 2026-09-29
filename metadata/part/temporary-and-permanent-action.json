@@ -1,0 +1,140 @@
+{
+  "category": "07-注釈と見出し",
+  "title": "応急措置と恒久対策を分ける",
+  "description": "一つの問題から、影響を止める対応と原因を除く対応を別の枝に展開する。",
+  "keywords": [
+    "応急措置",
+    "恒久対策",
+    "再発防止",
+    "原因",
+    "対策",
+    "containment",
+    "corrective",
+    "action"
+  ],
+  "labels": [
+    {
+      "x": 54,
+      "y": 89,
+      "width": 224,
+      "height": 48,
+      "text": "発生した問題",
+      "role": "問題",
+      "align": "left",
+      "color": "#607590",
+      "font_size": 24,
+      "id": "label-1",
+      "color_role": "muted",
+      "max_lines": 1,
+      "max_fullwidth_chars": 8
+    },
+    {
+      "x": 54,
+      "y": 156,
+      "width": 224,
+      "height": 111,
+      "text": "部品が\n混在する",
+      "role": "問題の内容",
+      "align": "left",
+      "color": "#153A6B",
+      "font_size": 36,
+      "id": "label-2",
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 5
+    },
+    {
+      "x": 441,
+      "y": 33,
+      "width": 560,
+      "height": 43,
+      "text": "まず影響を止める",
+      "role": "応急措置",
+      "align": "left",
+      "color": "#A46A16",
+      "font_size": 25,
+      "id": "label-3",
+      "color_role": "caution",
+      "max_lines": 1,
+      "max_fullwidth_chars": 21
+    },
+    {
+      "x": 441,
+      "y": 83,
+      "width": 560,
+      "height": 53,
+      "text": "対象を隔離し、識別を付け直す",
+      "role": "応急措置の内容",
+      "align": "left",
+      "color": "#153A6B",
+      "font_size": 29,
+      "id": "label-4",
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 18
+    },
+    {
+      "x": 441,
+      "y": 240,
+      "width": 560,
+      "height": 43,
+      "text": "原因から再発を防ぐ",
+      "role": "恒久対策",
+      "align": "left",
+      "color": "#2864F0",
+      "font_size": 25,
+      "id": "label-5",
+      "color_role": "accent",
+      "max_lines": 1,
+      "max_fullwidth_chars": 21
+    },
+    {
+      "x": 441,
+      "y": 290,
+      "width": 560,
+      "height": 53,
+      "text": "置き場所と受け渡しのルールを変える",
+      "role": "恒久対策の内容",
+      "align": "left",
+      "color": "#153A6B",
+      "font_size": 29,
+      "id": "label-6",
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 18
+    }
+  ],
+  "width": 1070,
+  "height": 386,
+  "kind": "part",
+  "guidance": {
+    "use_case": "不具合報告で暫定対応だけを完了としないために使う。",
+    "message": "影響を止めることと、再発を防ぐことは別の対応になる。",
+    "reading": [
+      "左の問題から上下の対応へ分かれる。",
+      "上は当面の影響、下は発生原因へ働きかける。"
+    ],
+    "avoid": "上下の対応順や所要時間は図の距離で示さない。"
+  },
+  "schema_version": 2,
+  "id": "part/temporary-and-permanent-action",
+  "name": "応急措置と恒久対策を分ける_説明パーツ",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1070,
+    "height": 386
+  },
+  "path": "assets/part/temporary-and-permanent-action.svg",
+  "metadata_path": "metadata/part/temporary-and-permanent-action.json",
+  "search_text": "part/temporary-and-permanent-action\n応急措置と恒久対策を分ける_説明パーツ\n応急措置と恒久対策を分ける\n不具合報告で暫定対応だけを完了としないために使う。\n影響を止めることと、再発を防ぐことは別の対応になる。\n左の問題から上下の対応へ分かれる。\n上は当面の影響、下は発生原因へ働きかける。\n応急措置 恒久対策 再発防止 原因 対策 containment corrective action",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "57a6ec5c4ed8a3c7b725caffa62c5d442c50e7f1ae6c0c27caa7e6531d0dc26b",
+  "size_bytes": 1488
+}

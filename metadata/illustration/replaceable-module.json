@@ -1,0 +1,62 @@
+{
+  "title": "交換できる部品で保守する",
+  "kind": "illustration",
+  "category": "06-業務イラスト",
+  "width": 1254,
+  "height": 1254,
+  "keywords": [
+    "交換",
+    "保守",
+    "モジュール",
+    "部品",
+    "修理",
+    "replaceable module",
+    "serviceability"
+  ],
+  "guidance": {
+    "use_case": "保守しやすい設計、部品交換、製品寿命の説明。",
+    "message": "必要な部品を交換し、製品を使い続けられるようにする。",
+    "reading": [
+      "開いた差込口と同じ形の部品を対応させる。",
+      "部品の取っ手が取り外しやすさを示す。"
+    ],
+    "avoid": "実際の交換手順や通電中の交換可否を示す図としては使用しない。"
+  },
+  "labels": [],
+  "preview_path": "previews/illustration/replaceable-module.png",
+  "placement": {
+    "framing": "object",
+    "facing": "front",
+    "people_count": 0,
+    "recommended_width_cm": [
+      4,
+      7
+    ]
+  },
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/illustrations.json"
+  },
+  "description": "必要な部品を交換し、製品を使い続けられるようにする。",
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": true,
+  "canvas": {
+    "width": 1254,
+    "height": 1254
+  },
+  "schema_version": 2,
+  "id": "illustration/replaceable-module",
+  "name": "交換できる部品で保守する_メーカー業務の構成",
+  "license": "CC0-1.0",
+  "path": "media/illustration/replaceable-module.png",
+  "metadata_path": "metadata/illustration/replaceable-module.json",
+  "search_text": "illustration/replaceable-module\n交換できる部品で保守する_メーカー業務の構成\n交換できる部品で保守する\n保守しやすい設計、部品交換、製品寿命の説明。\n必要な部品を交換し、製品を使い続けられるようにする。\n開いた差込口と同じ形の部品を対応させる。\n部品の取っ手が取り外しやすさを示す。\n交換 保守 モジュール 部品 修理 replaceable module serviceability\nobject 物 道具 front 正面 0  [4, 7] ",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "eb2326d277645ec7e1fd80a8bf6df663a7bfb75b1cf1dda55b2703973a32675e",
+  "size_bytes": 514123
+}

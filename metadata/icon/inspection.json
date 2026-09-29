@@ -1,0 +1,49 @@
+{
+  "category": "08-アイコンとピクトグラム",
+  "title": "検品",
+  "description": "物品の状態を調べて受入基準を確認する。",
+  "keywords": [
+    "検品",
+    "検査",
+    "受入",
+    "不良",
+    "確認",
+    "inspection",
+    "checking",
+    "acceptance"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "納品された品物の検品工程を示す。",
+    "message": "品物の状態を確認して受け入れる。",
+    "reading": [
+      "箱が検品する物品を表す。",
+      "拡大鏡とチェックが状態を確かめる行為を表す。"
+    ],
+    "avoid": "検査済み製品の保証マークとしては使わない。"
+  },
+  "schema_version": 2,
+  "id": "icon/inspection",
+  "name": "検品作業_受け取った品物を確認する_荷物と検査",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/inspection.svg",
+  "metadata_path": "metadata/icon/inspection.json",
+  "search_text": "icon/inspection\n検品作業_受け取った品物を確認する_荷物と検査\n検品\n納品された品物の検品工程を示す。\n品物の状態を確認して受け入れる。\n箱が検品する物品を表す。\n拡大鏡とチェックが状態を確かめる行為を表す。\n検品 検査 受入 不良 確認 inspection checking acceptance",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "9991b142a96b5298dc731ad15e660eb74825daddb9ca30c1fd43957341f1d3c9",
+  "size_bytes": 1142
+}

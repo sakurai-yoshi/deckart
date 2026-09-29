@@ -1,0 +1,62 @@
+{
+  "title": "作業の段取りを共有する",
+  "kind": "illustration",
+  "category": "06-業務イラスト",
+  "width": 1254,
+  "height": 1254,
+  "keywords": [
+    "段取り",
+    "生産",
+    "連携",
+    "調整",
+    "production",
+    "coordination",
+    "planning"
+  ],
+  "guidance": {
+    "use_case": "工程間連携、段取り確認、生産チームの打合せの説明。",
+    "message": "作業の進め方を共有し、次の工程に備える。",
+    "reading": [
+      "二人が同じ資料を見て作業の進め方を確認する。",
+      "視線と手元が共通の対象へ向かう。"
+    ],
+    "avoid": "工程順序や生産計画の数値を示す図としては使用しない。"
+  },
+  "labels": [],
+  "preview_path": "previews/illustration/production-coordination.png",
+  "placement": {
+    "framing": "waist-up",
+    "facing": "inward",
+    "people_count": 2,
+    "recommended_width_cm": [
+      5.5,
+      11
+    ]
+  },
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/illustrations.json"
+  },
+  "description": "作業の進め方を共有し、次の工程に備える。",
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": true,
+  "canvas": {
+    "width": 1254,
+    "height": 1254
+  },
+  "schema_version": 2,
+  "id": "illustration/production-coordination",
+  "name": "作業の段取りを共有する_メーカー業務の動作",
+  "license": "CC0-1.0",
+  "path": "media/illustration/production-coordination.png",
+  "metadata_path": "metadata/illustration/production-coordination.json",
+  "search_text": "illustration/production-coordination\n作業の段取りを共有する_メーカー業務の動作\n作業の段取りを共有する\n工程間連携、段取り確認、生産チームの打合せの説明。\n作業の進め方を共有し、次の工程に備える。\n二人が同じ資料を見て作業の進め方を確認する。\n視線と手元が共通の対象へ向かう。\n段取り 生産 連携 調整 production coordination planning\nwaist-up 上半身 腰上 inward 向かい合う 対話 2  [5.5, 11] ",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "deb076bee0f4efc81e3a18e63481450463117f257bf8c9f13cb2947e0c547380",
+  "size_bytes": 954469
+}

@@ -1,0 +1,79 @@
+{
+  "category": "07-注釈と見出し",
+  "title": "区分と話題を二段で示す",
+  "description": "小さな上位区分と具体的な話題を、左の起点にそろえる見出し部品。",
+  "keywords": [
+    "見出し",
+    "話題",
+    "区分",
+    "セクション",
+    "topic",
+    "section",
+    "heading"
+  ],
+  "labels": [
+    {
+      "x": 67,
+      "y": 25,
+      "width": 845,
+      "height": 40,
+      "text": "現状把握",
+      "role": "上位区分",
+      "align": "left",
+      "color": "#2864F0",
+      "font_size": 24,
+      "id": "label-1",
+      "color_role": "accent",
+      "max_lines": 1,
+      "max_fullwidth_chars": 33
+    },
+    {
+      "x": 67,
+      "y": 85,
+      "width": 845,
+      "height": 69,
+      "text": "部門をまたぐ箇所に注目する",
+      "role": "話題の見出し",
+      "align": "left",
+      "color": "#153A6B",
+      "font_size": 37,
+      "id": "label-2",
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 21
+    }
+  ],
+  "width": 940,
+  "height": 200,
+  "kind": "part",
+  "guidance": {
+    "use_case": "一つの区分の中で、細かな話題を整理する場面。",
+    "message": "上位の区分と、この箇所の話題を同時に示す。",
+    "reading": [
+      "上の小さい文字が属する区分を示す。",
+      "下の大きな文字が具体的な話題を示す。"
+    ],
+    "avoid": "上下を独立した二つの見出しとして使う用途には使わない。"
+  },
+  "schema_version": 2,
+  "id": "part/section-topic",
+  "name": "区分と話題を二段で示す_説明パーツ",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 940,
+    "height": 200
+  },
+  "path": "assets/part/section-topic.svg",
+  "metadata_path": "metadata/part/section-topic.json",
+  "search_text": "part/section-topic\n区分と話題を二段で示す_説明パーツ\n区分と話題を二段で示す\n一つの区分の中で、細かな話題を整理する場面。\n上位の区分と、この箇所の話題を同時に示す。\n上の小さい文字が属する区分を示す。\n下の大きな文字が具体的な話題を示す。\n見出し 話題 区分 セクション topic section heading",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "237fec594fb194386d2682ab4bc1ac40e548b42c7831d3f54246136d109ca47c",
+  "size_bytes": 613
+}

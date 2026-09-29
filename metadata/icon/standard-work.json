@@ -1,0 +1,48 @@
+{
+  "category": "08-アイコンとピクトグラム",
+  "title": "標準作業",
+  "description": "決めた順序で同じ作業を再現する。",
+  "keywords": [
+    "標準",
+    "手順",
+    "作業標準",
+    "作業票",
+    "standard",
+    "work",
+    "procedure"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "作業標準や共通の手順を紹介する。",
+    "message": "決めた順序で同じ作業を再現する。",
+    "reading": [
+      "手順が三行に分かれた作業票を表す。",
+      "縦の矢印が上から順に実施することを示す。"
+    ],
+    "avoid": "記号は業務の種類を示す。数値、認証取得、測定結果を保証する印には使わない。"
+  },
+  "schema_version": 2,
+  "id": "icon/standard-work",
+  "name": "標準作業_製造業務の記号",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/standard-work.svg",
+  "metadata_path": "metadata/icon/standard-work.json",
+  "search_text": "icon/standard-work\n標準作業_製造業務の記号\n標準作業\n作業標準や共通の手順を紹介する。\n決めた順序で同じ作業を再現する。\n手順が三行に分かれた作業票を表す。\n縦の矢印が上から順に実施することを示す。\n標準 手順 作業標準 作業票 standard work procedure",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "f6a21fdcd7f1a9c2f8dcf446591f5eb5310a3947dc69268abf68da0bfb09a6a3",
+  "size_bytes": 1601
+}

@@ -1,0 +1,49 @@
+{
+  "category": "08-アイコンとピクトグラム",
+  "title": "請求",
+  "description": "支払を求める金額と明細を示す。",
+  "keywords": [
+    "請求",
+    "請求書",
+    "明細",
+    "売掛",
+    "支払依頼",
+    "invoice",
+    "billing",
+    "receivable"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "取引の請求書発行や請求内容の確認を示す。",
+    "message": "項目別の明細をまとめ、支払を求める。",
+    "reading": [
+      "紙の下端の切り取り形が請求明細を表す。",
+      "左右に分かれた行が項目と金額、下の線が合計を示す。"
+    ],
+    "avoid": "支払完了の印としては使わない。"
+  },
+  "schema_version": 2,
+  "id": "icon/invoice",
+  "name": "請求管理_明細と金額を通知する_請求明細",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/invoice.svg",
+  "metadata_path": "metadata/icon/invoice.json",
+  "search_text": "icon/invoice\n請求管理_明細と金額を通知する_請求明細\n請求\n取引の請求書発行や請求内容の確認を示す。\n項目別の明細をまとめ、支払を求める。\n紙の下端の切り取り形が請求明細を表す。\n左右に分かれた行が項目と金額、下の線が合計を示す。\n請求 請求書 明細 売掛 支払依頼 invoice billing receivable",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "6a56dd532f323fac65d4e2efa403150aa893ac7c17a5bf744ea3c51942fe07f9",
+  "size_bytes": 1499
+}

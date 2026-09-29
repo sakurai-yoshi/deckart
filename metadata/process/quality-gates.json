@@ -1,0 +1,129 @@
+{
+  "category": "01-業務プロセス",
+  "title": "検査で品質を守る価値の流れ",
+  "description": "作業の流れと品質確認を分け、手戻りを防ぐ検査位置を示す。",
+  "keywords": [
+    "工程",
+    "品質保証",
+    "品質管理",
+    "検査",
+    "ゲート",
+    "バリューストリーム",
+    "手戻り"
+  ],
+  "labels": [
+    {
+      "x": 78,
+      "y": 145,
+      "width": 245,
+      "height": 70,
+      "text": "受付・要件整理",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-1",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 8
+    },
+    {
+      "x": 444,
+      "y": 145,
+      "width": 302,
+      "height": 70,
+      "text": "価値を加える作業",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-2",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 10
+    },
+    {
+      "x": 864,
+      "y": 145,
+      "width": 286,
+      "height": 70,
+      "text": "成果物の引き渡し",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-3",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 9
+    },
+    {
+      "x": 228,
+      "y": 552,
+      "width": 275,
+      "height": 66,
+      "text": "着手条件",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-4",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 9
+    },
+    {
+      "x": 678,
+      "y": 552,
+      "width": 275,
+      "height": 66,
+      "text": "完成基準",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-5",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 9
+    }
+  ],
+  "width": 1200,
+  "height": 720,
+  "layout": {
+    "relation": "sequential-flow-with-gates",
+    "reading_direction": "left-to-right"
+  },
+  "guidance": {
+    "use_case": "受注から成果物の納品までに必要な品質確認を説明する。",
+    "message": "作業の前後で確認し、手戻りを防ぐ。",
+    "reading": [
+      "横の帯が受付から納品への流れ。",
+      "二つのチェックゲートが着手条件と完成基準。",
+      "中央の文書とペンが成果をつくる作業。"
+    ],
+    "avoid": "帯の長さを作業時間の比率として扱わない。"
+  },
+  "kind": "diagram",
+  "schema_version": 2,
+  "id": "process/quality-gates",
+  "name": "業務改善_検査で品質を守る価値の流れ_二段階ゲート",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1200,
+    "height": 720
+  },
+  "path": "assets/process/quality-gates.svg",
+  "metadata_path": "metadata/process/quality-gates.json",
+  "search_text": "process/quality-gates\n業務改善_検査で品質を守る価値の流れ_二段階ゲート\n検査で品質を守る価値の流れ\n受注から成果物の納品までに必要な品質確認を説明する。\n作業の前後で確認し、手戻りを防ぐ。\n横の帯が受付から納品への流れ。\n二つのチェックゲートが着手条件と完成基準。\n中央の文書とペンが成果をつくる作業。\n工程 品質保証 品質管理 検査 ゲート バリューストリーム 手戻り",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "8ff74ae1ec3ffc19772f3d61763e48d4d2f2ed7bff3142da0fbff1171a0de510",
+  "size_bytes": 5074
+}

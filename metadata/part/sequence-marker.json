@@ -1,0 +1,80 @@
+{
+  "category": "07-注釈と見出し",
+  "title": "番号と手順名をつなぐ",
+  "description": "番号の丸と隣の説明を一本の線でつないだ、手順用の見出し部品。",
+  "keywords": [
+    "番号",
+    "順序",
+    "手順",
+    "工程",
+    "ステップ",
+    "sequence",
+    "step",
+    "number"
+  ],
+  "labels": [
+    {
+      "x": 49,
+      "y": 45,
+      "width": 74,
+      "height": 84,
+      "text": "01",
+      "role": "順序",
+      "align": "center",
+      "color": "#FFFFFF",
+      "font_size": 34.04,
+      "id": "label-1",
+      "color_role": "paper",
+      "max_lines": 1,
+      "max_fullwidth_chars": 2
+    },
+    {
+      "x": 235,
+      "y": 39,
+      "width": 575,
+      "height": 87,
+      "text": "受付内容を確認する",
+      "role": "手順名",
+      "align": "left",
+      "color": "#153A6B",
+      "font_size": 35,
+      "id": "label-2",
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 15
+    }
+  ],
+  "width": 850,
+  "height": 181,
+  "kind": "part",
+  "guidance": {
+    "use_case": "複数の手順へ順番を付けて説明する場面。",
+    "message": "この説明が手順の何番目かが分かる。",
+    "reading": [
+      "丸の中に順序を示す番号を置く。",
+      "接続の先にその手順の名前を置く。"
+    ],
+    "avoid": "件数や達成率を示す数値の強調には使わない。"
+  },
+  "schema_version": 2,
+  "id": "part/sequence-marker",
+  "name": "番号と手順名をつなぐ_説明パーツ",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 850,
+    "height": 181
+  },
+  "path": "assets/part/sequence-marker.svg",
+  "metadata_path": "metadata/part/sequence-marker.json",
+  "search_text": "part/sequence-marker\n番号と手順名をつなぐ_説明パーツ\n番号と手順名をつなぐ\n複数の手順へ順番を付けて説明する場面。\nこの説明が手順の何番目かが分かる。\n丸の中に順序を示す番号を置く。\n接続の先にその手順の名前を置く。\n番号 順序 手順 工程 ステップ sequence step number",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "06b102192f31625105516b2d259deeb74b90a31885345a98a63586656b2d5b3b",
+  "size_bytes": 714
+}

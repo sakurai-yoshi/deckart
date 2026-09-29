@@ -1,0 +1,140 @@
+{
+  "category": "07-注釈と見出し",
+  "title": "集計する期間を両端で定める",
+  "description": "開始と終了の二つの境界で今回の対象期間を切り出す部品。",
+  "keywords": [
+    "集計期間",
+    "観測",
+    "対象期間",
+    "開始",
+    "終了",
+    "window",
+    "period",
+    "observation"
+  ],
+  "labels": [
+    {
+      "x": 277,
+      "y": 3,
+      "width": 500,
+      "height": 47,
+      "text": "今回、集計する期間",
+      "role": "対象期間",
+      "align": "center",
+      "color": "#2864F0",
+      "font_size": 31,
+      "id": "label-1",
+      "color_role": "accent",
+      "max_lines": 1,
+      "max_fullwidth_chars": 15
+    },
+    {
+      "x": 305,
+      "y": 151,
+      "width": 444,
+      "height": 62,
+      "text": "この間の記録を対象にする",
+      "role": "集計範囲",
+      "align": "center",
+      "color": "#153A6B",
+      "font_size": 29,
+      "id": "label-2",
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 14
+    },
+    {
+      "x": 151,
+      "y": 263,
+      "width": 176,
+      "height": 58,
+      "text": "開始日",
+      "role": "開始",
+      "align": "center",
+      "color": "#153A6B",
+      "font_size": 27,
+      "id": "label-3",
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 6
+    },
+    {
+      "x": 727,
+      "y": 263,
+      "width": 176,
+      "height": 58,
+      "text": "終了日",
+      "role": "終了",
+      "align": "center",
+      "color": "#153A6B",
+      "font_size": 27,
+      "id": "label-4",
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 6
+    },
+    {
+      "x": 33,
+      "y": 113,
+      "width": 173,
+      "height": 52,
+      "text": "集計前",
+      "role": "対象外",
+      "align": "center",
+      "color": "#607590",
+      "font_size": 24,
+      "id": "label-5",
+      "color_role": "muted",
+      "max_lines": 1,
+      "max_fullwidth_chars": 6
+    },
+    {
+      "x": 865,
+      "y": 113,
+      "width": 173,
+      "height": 52,
+      "text": "集計後",
+      "role": "対象外",
+      "align": "center",
+      "color": "#607590",
+      "font_size": 24,
+      "id": "label-6",
+      "color_role": "muted",
+      "max_lines": 1,
+      "max_fullwidth_chars": 6
+    }
+  ],
+  "width": 1080,
+  "height": 342,
+  "kind": "part",
+  "guidance": {
+    "use_case": "期間が異なる数値の混同を防ぐため、グラフの近くに添える。",
+    "message": "今回の値がどの期間を対象にしたものか分かる。",
+    "reading": [
+      "二本の境界線の間だけが今回の集計対象。",
+      "左右の細い線は対象期間の前後。"
+    ],
+    "avoid": "線の長さは実際の日数に比例しない。境界日を含むかどうかは文章で明示する。"
+  },
+  "schema_version": 2,
+  "id": "part/observation-window",
+  "name": "集計する期間を両端で定める_説明パーツ",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1080,
+    "height": 342
+  },
+  "path": "assets/part/observation-window.svg",
+  "metadata_path": "metadata/part/observation-window.json",
+  "search_text": "part/observation-window\n集計する期間を両端で定める_説明パーツ\n集計する期間を両端で定める\n期間が異なる数値の混同を防ぐため、グラフの近くに添える。\n今回の値がどの期間を対象にしたものか分かる。\n二本の境界線の間だけが今回の集計対象。\n左右の細い線は対象期間の前後。\n集計期間 観測 対象期間 開始 終了 window period observation",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "3878126f5841fba00b6590d4f28d5127607299cc4149d622f4153e03f6e300d6",
+  "size_bytes": 1497
+}

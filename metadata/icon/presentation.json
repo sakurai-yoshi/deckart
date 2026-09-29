@@ -1,0 +1,49 @@
+{
+  "category": "08-アイコンとピクトグラム",
+  "title": "発表・説明",
+  "description": "資料を使って内容を説明する発表を示す。",
+  "keywords": [
+    "発表",
+    "説明",
+    "プレゼン",
+    "報告",
+    "登壇",
+    "presentation",
+    "briefing",
+    "speaker"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "発表や説明会の項目に添える。",
+    "message": "資料を示しながら相手へ説明する。",
+    "reading": [
+      "画面が説明する資料を表す。",
+      "横の人物と指す腕が発表する行為を表す。"
+    ],
+    "avoid": "画面の棒を実際の成果や統計値として示さない。"
+  },
+  "schema_version": 2,
+  "id": "icon/presentation",
+  "name": "説明活動_相手へ内容を発表する_発表者と画面",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/presentation.svg",
+  "metadata_path": "metadata/icon/presentation.json",
+  "search_text": "icon/presentation\n説明活動_相手へ内容を発表する_発表者と画面\n発表・説明\n発表や説明会の項目に添える。\n資料を示しながら相手へ説明する。\n画面が説明する資料を表す。\n横の人物と指す腕が発表する行為を表す。\n発表 説明 プレゼン 報告 登壇 presentation briefing speaker",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "dd17f6ad190a003e39b6f0234c8cba7b7668c80c758726b2cc579f559c5dfec7",
+  "size_bytes": 1381
+}

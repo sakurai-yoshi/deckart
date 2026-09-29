@@ -1,0 +1,60 @@
+{
+  "title": "計画を組み立てる",
+  "kind": "illustration",
+  "category": "06-業務イラスト",
+  "width": 1254,
+  "height": 1254,
+  "keywords": [
+    "計画",
+    "予定",
+    "タスク",
+    "スケジュール",
+    "planning",
+    "schedule"
+  ],
+  "guidance": {
+    "use_case": "計画策定、タスク整理、スケジュールの導入に。",
+    "message": "予定と実行項目を一緒に整理する。",
+    "reading": [
+      "カレンダーとタスクカードを隣接させ、日程と実行項目の結び付きを示します。"
+    ],
+    "avoid": "数値や条件を示す実資料には、編集可能な文字・図表を併用してください。"
+  },
+  "labels": [],
+  "preview_path": "previews/illustration/project-planning.png",
+  "placement": {
+    "framing": "object",
+    "facing": "front",
+    "people_count": 0,
+    "recommended_width_cm": [
+      4,
+      7
+    ]
+  },
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/illustrations.json"
+  },
+  "description": "予定と実行項目を一緒に整理する。",
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": true,
+  "canvas": {
+    "width": 1254,
+    "height": 1254
+  },
+  "schema_version": 2,
+  "id": "illustration/project-planning",
+  "name": "計画を組み立てる_物で伝える業務",
+  "license": "CC0-1.0",
+  "path": "media/illustration/project-planning.png",
+  "metadata_path": "metadata/illustration/project-planning.json",
+  "search_text": "illustration/project-planning\n計画を組み立てる_物で伝える業務\n計画を組み立てる\n計画策定、タスク整理、スケジュールの導入に。\n予定と実行項目を一緒に整理する。\nカレンダーとタスクカードを隣接させ、日程と実行項目の結び付きを示します。\n計画 予定 タスク スケジュール planning schedule\nobject 物 道具 front 正面 0  [4, 7] ",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "e1f77f18d63adbe3c67f9c626f2eab01f5955f54140c67c0cc2acfefc67e9ea0",
+  "size_bytes": 944682
+}

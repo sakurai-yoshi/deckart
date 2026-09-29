@@ -1,0 +1,63 @@
+{
+  "kind": "illustration",
+  "category": "06-業務イラスト",
+  "width": 1254,
+  "height": 1254,
+  "labels": [],
+  "placement": {
+    "framing": "object",
+    "facing": "front",
+    "recommended_width_cm": [
+      4,
+      7
+    ]
+  },
+  "title": "同じ資料の変更点を比べる",
+  "description": "同じ配置の二つの文書で、右側の同じ欄に加わった内容を示す。",
+  "keywords": [
+    "改訂",
+    "比較",
+    "変更点",
+    "版",
+    "差分",
+    "文書",
+    "version",
+    "comparison",
+    "revision"
+  ],
+  "guidance": {
+    "use_case": "手順書・仕様書・提案資料の改訂や差分確認の説明。",
+    "message": "同じ資料の対応箇所を比べ、変更内容を確認する。",
+    "reading": [
+      "見出しと本文の位置がそろう二つの文書が、比較する版を表す。",
+      "右側の同じ欄へ追加された青い内容が、改訂による変更を表す。"
+    ],
+    "avoid": "図中の欄や棒を、実際の変更量や重要度として読まない。"
+  },
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/illustrations.json"
+  },
+  "preview_path": "previews/illustration/version-comparison.png",
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": true,
+  "canvas": {
+    "width": 1254,
+    "height": 1254
+  },
+  "schema_version": 2,
+  "id": "illustration/version-comparison",
+  "name": "同じ資料の変更点を比べる_情報と業務のイラスト",
+  "license": "CC0-1.0",
+  "path": "media/illustration/version-comparison.png",
+  "metadata_path": "metadata/illustration/version-comparison.json",
+  "search_text": "illustration/version-comparison\n同じ資料の変更点を比べる_情報と業務のイラスト\n同じ資料の変更点を比べる\n手順書・仕様書・提案資料の改訂や差分確認の説明。\n同じ資料の対応箇所を比べ、変更内容を確認する。\n見出しと本文の位置がそろう二つの文書が、比較する版を表す。\n右側の同じ欄へ追加された青い内容が、改訂による変更を表す。\n改訂 比較 変更点 版 差分 文書 version comparison revision\nobject 物 道具 front 正面 [4, 7] ",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "fa869241958acca313aa49dcecd699b38c900648b63bcd5836db8b3de6d9b18b",
+  "size_bytes": 683490
+}

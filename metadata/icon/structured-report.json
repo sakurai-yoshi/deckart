@@ -1,0 +1,51 @@
+{
+  "category": "08-アイコンとピクトグラム",
+  "title": "構造化されたレポート",
+  "description": "調査結果や業務情報を章と図表に整理した資料を表す。",
+  "keywords": [
+    "資料",
+    "報告書",
+    "レポート",
+    "調査",
+    "分析",
+    "ドキュメント",
+    "索引",
+    "report",
+    "document",
+    "structured"
+  ],
+  "labels": [],
+  "width": 310,
+  "height": 280,
+  "guidance": {
+    "use_case": "調査報告書や定期レポートを案内する場面。",
+    "message": "情報を整理し、参照しやすい資料にまとめる。",
+    "reading": [
+      "図表と本文を備えた冊子が報告書を表す。",
+      "章のタブが情報へのアクセスのしやすさを表す。"
+    ],
+    "avoid": "図中の棒や円を実データとして読み取る用途には使わない。"
+  },
+  "kind": "icon",
+  "schema_version": 2,
+  "id": "icon/structured-report",
+  "name": "資料作成_構造化レポート_索引付き冊子",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 310,
+    "height": 280
+  },
+  "path": "assets/icon/structured-report.svg",
+  "metadata_path": "metadata/icon/structured-report.json",
+  "search_text": "icon/structured-report\n資料作成_構造化レポート_索引付き冊子\n構造化されたレポート\n調査報告書や定期レポートを案内する場面。\n情報を整理し、参照しやすい資料にまとめる。\n図表と本文を備えた冊子が報告書を表す。\n章のタブが情報へのアクセスのしやすさを表す。\n資料 報告書 レポート 調査 分析 ドキュメント 索引 report document structured",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "1da51a07585c82971a698906ed9e585f8b1c466d15c6d3c9e851486fe081dbcc",
+  "size_bytes": 3687
+}

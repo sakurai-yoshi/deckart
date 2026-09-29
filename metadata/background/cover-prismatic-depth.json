@@ -1,0 +1,95 @@
+{
+  "title": "屈折する青いガラスで主題を引き立てる表紙",
+  "description": "透明な層と光の重なりで、先進性と明瞭さを添える。",
+  "kind": "background",
+  "category": "11-背景とフレーム",
+  "width": 1672,
+  "height": 941,
+  "keywords": [
+    "表紙",
+    "技術",
+    "戦略",
+    "新規事業",
+    "提案",
+    "先進性",
+    "透明",
+    "ガラス",
+    "cover",
+    "technology",
+    "strategy",
+    "glass"
+  ],
+  "guidance": {
+    "use_case": "技術戦略、新規事業、製品価値を伝える提案書の表紙。",
+    "message": "透明な層と光の重なりで、先進性と明瞭さを添える。",
+    "reading": [
+      "左の静かな領域に主題と副題を置き、右の立体は見どころとして残す。"
+    ],
+    "avoid": "装飾の上に文字や図表を重ねない。"
+  },
+  "labels": [],
+  "canvas": {
+    "width": 1600,
+    "height": 900
+  },
+  "content_areas": [
+    {
+      "id": "title",
+      "role": "題名",
+      "purpose": "題名を配置する領域。",
+      "content_type": "text",
+      "x": 100,
+      "y": 165,
+      "width": 600,
+      "height": 275,
+      "text_color": "#172B4D",
+      "text_align": "left"
+    },
+    {
+      "id": "subtitle",
+      "role": "副題",
+      "purpose": "副題を配置する領域。",
+      "content_type": "text",
+      "x": 100,
+      "y": 495,
+      "width": 590,
+      "height": 140,
+      "text_color": "#172B4D",
+      "text_align": "left"
+    },
+    {
+      "id": "footer",
+      "role": "発表者と日付",
+      "purpose": "発表者と日付を反射光より上の白い領域に配置する。",
+      "content_type": "text",
+      "x": 100,
+      "y": 675,
+      "width": 500,
+      "height": 55,
+      "text_color": "#172B4D",
+      "text_align": "left"
+    }
+  ],
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/backgrounds.json"
+  },
+  "preview_path": "previews/background/cover-prismatic-depth.png",
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": false,
+  "schema_version": 2,
+  "id": "background/cover-prismatic-depth",
+  "name": "屈折する青いガラスで主題を引き立てる表紙_背景",
+  "license": "CC0-1.0",
+  "path": "media/background/cover-prismatic-depth.png",
+  "metadata_path": "metadata/background/cover-prismatic-depth.json",
+  "search_text": "background/cover-prismatic-depth\n屈折する青いガラスで主題を引き立てる表紙_背景\n屈折する青いガラスで主題を引き立てる表紙\n技術戦略、新規事業、製品価値を伝える提案書の表紙。\n透明な層と光の重なりで、先進性と明瞭さを添える。\n左の静かな領域に主題と副題を置き、右の立体は見どころとして残す。\n表紙 技術 戦略 新規事業 提案 先進性 透明 ガラス cover technology strategy glass",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "0a6d3bb35fc19284503a994fceca887ac60827af50fc719e6b07a618fd49bf0a",
+  "size_bytes": 1800055
+}

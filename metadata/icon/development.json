@@ -1,0 +1,50 @@
+{
+  "category": "08-アイコンとピクトグラム",
+  "title": "人材育成",
+  "description": "能力や経験を段階的に伸ばす育成を示す。",
+  "keywords": [
+    "育成",
+    "成長",
+    "能力",
+    "スキル",
+    "キャリア",
+    "development",
+    "growth",
+    "skills",
+    "coaching"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "育成計画や段階別のスキル習得を紹介する。",
+    "message": "経験を積みながら能力の段階を上げる。",
+    "reading": [
+      "人物の横の階段が習得段階を表す。",
+      "上向きの矢印が成長する方向を示す。"
+    ],
+    "avoid": "実際の評価点や昇進の確約を示す用途には使わない。"
+  },
+  "schema_version": 2,
+  "id": "icon/development",
+  "name": "人材育成_能力を段階的に伸ばす_人物と成長段階",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/development.svg",
+  "metadata_path": "metadata/icon/development.json",
+  "search_text": "icon/development\n人材育成_能力を段階的に伸ばす_人物と成長段階\n人材育成\n育成計画や段階別のスキル習得を紹介する。\n経験を積みながら能力の段階を上げる。\n人物の横の階段が習得段階を表す。\n上向きの矢印が成長する方向を示す。\n育成 成長 能力 スキル キャリア development growth skills coaching",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "a200915e3319a61bb77df208144a822d3dc386d7e0564fcac7c8c30023fe6e6f",
+  "size_bytes": 1084
+}

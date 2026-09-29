@@ -1,0 +1,62 @@
+{
+  "title": "工具を定位置へ戻す",
+  "kind": "illustration",
+  "category": "06-業務イラスト",
+  "width": 1254,
+  "height": 1254,
+  "keywords": [
+    "整理",
+    "整頓",
+    "5S",
+    "工具",
+    "organization",
+    "workplace",
+    "tools"
+  ],
+  "guidance": {
+    "use_case": "5S活動、作業環境の改善、工具管理の説明。",
+    "message": "道具を定位置へ戻し、使いやすい作業場を保つ。",
+    "reading": [
+      "工具を定位置のフックに掛ける。",
+      "少数の工具を整列して配置する。"
+    ],
+    "avoid": "安全設備や工具管理ルールの全項目を示す用途には使用しない。"
+  },
+  "labels": [],
+  "preview_path": "previews/illustration/workplace-organization.png",
+  "placement": {
+    "framing": "waist-up",
+    "facing": "right",
+    "people_count": 1,
+    "recommended_width_cm": [
+      4.5,
+      9
+    ]
+  },
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/illustrations.json"
+  },
+  "description": "道具を定位置へ戻し、使いやすい作業場を保つ。",
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": true,
+  "canvas": {
+    "width": 1254,
+    "height": 1254
+  },
+  "schema_version": 2,
+  "id": "illustration/workplace-organization",
+  "name": "工具を定位置へ戻す_メーカー業務の動作",
+  "license": "CC0-1.0",
+  "path": "media/illustration/workplace-organization.png",
+  "metadata_path": "metadata/illustration/workplace-organization.json",
+  "search_text": "illustration/workplace-organization\n工具を定位置へ戻す_メーカー業務の動作\n工具を定位置へ戻す\n5S活動、作業環境の改善、工具管理の説明。\n道具を定位置へ戻し、使いやすい作業場を保つ。\n工具を定位置のフックに掛ける。\n少数の工具を整列して配置する。\n整理 整頓 5S 工具 organization workplace tools\nwaist-up 上半身 腰上 right 右向き 1  [4.5, 9] ",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "d0c6ac56b6c18801528128114527a5666d7049fc15285db5a2c813de61119dde",
+  "size_bytes": 801133
+}

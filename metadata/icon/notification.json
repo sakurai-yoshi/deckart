@@ -1,0 +1,48 @@
+{
+  "category": "08-アイコンとピクトグラム",
+  "title": "通知",
+  "description": "更新や連絡に気付くための通知を示す。",
+  "keywords": [
+    "通知",
+    "お知らせ",
+    "更新",
+    "アラート",
+    "notification",
+    "alert",
+    "bell"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "通知設定や更新のお知らせを示す。",
+    "message": "相手に気付いてほしい知らせがある。",
+    "reading": [
+      "ベルが通知を表す。",
+      "左右の短い線が鳴って知らせる行為を表す。"
+    ],
+    "avoid": "重大な危険や未読件数を表す用途には使わない。"
+  },
+  "schema_version": 2,
+  "id": "icon/notification",
+  "name": "通知管理_注意を促す知らせを送る_ベル",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/notification.svg",
+  "metadata_path": "metadata/icon/notification.json",
+  "search_text": "icon/notification\n通知管理_注意を促す知らせを送る_ベル\n通知\n通知設定や更新のお知らせを示す。\n相手に気付いてほしい知らせがある。\nベルが通知を表す。\n左右の短い線が鳴って知らせる行為を表す。\n通知 お知らせ 更新 アラート notification alert bell",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "5df5f011918280c8fc6f2365d6d36d71f77609e1e137144814fc9d9c2ade9b2a",
+  "size_bytes": 1059
+}

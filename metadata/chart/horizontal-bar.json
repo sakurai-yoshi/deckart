@@ -1,0 +1,215 @@
+{
+  "category": "10-数値とグラフ",
+  "title": "項目別の件数を横棒で比べる",
+  "description": "ゼロを共通の始点にして80・65・45・30件を比較する横棒グラフの作例。",
+  "keywords": [
+    "横棒",
+    "棒グラフ",
+    "比較",
+    "ランキング",
+    "件数",
+    "カテゴリ",
+    "horizontal",
+    "bar"
+  ],
+  "labels": [
+    {
+      "x": 780,
+      "y": 63,
+      "width": 355,
+      "height": 56,
+      "text": "単位：件",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-1",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 12
+    },
+    {
+      "x": 67,
+      "y": 164,
+      "width": 211,
+      "height": 72,
+      "text": "項目 A",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-2",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 7
+    },
+    {
+      "x": 67,
+      "y": 267,
+      "width": 211,
+      "height": 72,
+      "text": "項目 B",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-3",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 7
+    },
+    {
+      "x": 67,
+      "y": 370,
+      "width": 211,
+      "height": 72,
+      "text": "項目 C",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-4",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 7
+    },
+    {
+      "x": 67,
+      "y": 473,
+      "width": 211,
+      "height": 72,
+      "text": "項目 D",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-5",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 7
+    }
+  ],
+  "width": 1200,
+  "height": 720,
+  "kind": "chart",
+  "data": {
+    "is_sample": true,
+    "unit": "件",
+    "categories": [
+      "項目 A",
+      "項目 B",
+      "項目 C",
+      "項目 D"
+    ],
+    "series": [
+      {
+        "label": "件数",
+        "values": [
+          80,
+          65,
+          45,
+          30
+        ]
+      }
+    ],
+    "chart_type": "horizontal_bar",
+    "baseline": 0,
+    "domain": [
+      0,
+      100
+    ],
+    "ticks": [
+      0.0,
+      25.0,
+      50.0,
+      75.0,
+      100.0
+    ],
+    "plot": {
+      "x": 309,
+      "y": 149,
+      "width": 734,
+      "height": 409
+    },
+    "number_format": {
+      "maximum_significant_digits": 6,
+      "minimum_significant_digits": 3,
+      "large_or_small_values": "E notation",
+      "source_values": "series"
+    }
+  },
+  "guidance": {
+    "use_case": "同じ単位で集計した項目別の件数を比較する。",
+    "message": "棒が長い項目ほど件数が多い。",
+    "reading": [
+      "すべての棒は同じゼロ位置から始まる。",
+      "棒の終点に実際の作例値を示す。",
+      "横軸は0件から100件までの共通目盛り。"
+    ],
+    "avoid": "数値は作例。異なる単位や母数の項目を一つの比較に混ぜない。"
+  },
+  "schema_version": 2,
+  "id": "chart/horizontal-bar",
+  "name": "項目比較_件数の大小をそろえて比べる_横棒グラフ作例",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1200,
+    "height": 720
+  },
+  "path": "assets/chart/horizontal-bar.svg",
+  "metadata_path": "metadata/chart/horizontal-bar.json",
+  "search_text": "chart/horizontal-bar\n項目比較_件数の大小をそろえて比べる_横棒グラフ作例\n項目別の件数を横棒で比べる\n同じ単位で集計した項目別の件数を比較する。\n棒が長い項目ほど件数が多い。\nすべての棒は同じゼロ位置から始まる。\n棒の終点に実際の作例値を示す。\n横軸は0件から100件までの共通目盛り。\n横棒 棒グラフ 比較 ランキング 件数 カテゴリ horizontal bar",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": true
+  },
+  "data_input": {
+    "chart_type": "horizontal_bar",
+    "category_count": 4,
+    "series_count": 1,
+    "values_per_series": 4,
+    "required": [
+      "categories",
+      "series",
+      "unit"
+    ],
+    "constraints": [
+      "表示値は最大6有効桁。丸める場合も3有効桁以上を保つ。E表記で収まらない値は単位か小数桁を調整。入力値はseriesに保持。",
+      "文字は大判24px、小判20px以上で収まる長さ。収まらないカテゴリ名・系列名・単位は短縮して入力。",
+      "有限な数値。絶対値は1兆以下。大きな値は単位を変更して入力。",
+      "categoriesは16文字以内、series.label・unitは12文字以内。",
+      "値は0以上。",
+      "domainは[0,上限]。省略時は値から計算。上限は全値・残高以上。"
+    ],
+    "example": {
+      "categories": [
+        "項目 A",
+        "項目 B",
+        "項目 C",
+        "項目 D"
+      ],
+      "series": [
+        {
+          "label": "件数",
+          "values": [
+            80,
+            65,
+            45,
+            30
+          ]
+        }
+      ],
+      "unit": "件",
+      "domain": [
+        0,
+        100
+      ]
+    }
+  },
+  "sha256": "63328d2f705973be6a2195357bab0dbd966a7f4a3c99a2012e1a45f33522d125",
+  "size_bytes": 6237
+}

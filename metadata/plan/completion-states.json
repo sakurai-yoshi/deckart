@@ -1,0 +1,100 @@
+{
+  "category": "04-計画と進捗",
+  "title": "成果を状態で分けて報告する",
+  "description": "数量や達成率を仮定せず、完了・進行中・未着手の成果を整理する。",
+  "keywords": [
+    "進捗",
+    "完了",
+    "進行中",
+    "未着手",
+    "残作業",
+    "成果",
+    "状態",
+    "ステータス"
+  ],
+  "labels": [
+    {
+      "x": 91,
+      "y": 163,
+      "width": 294,
+      "height": 82,
+      "text": "受入済みの成果",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-1",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 10
+    },
+    {
+      "x": 440,
+      "y": 163,
+      "width": 316,
+      "height": 82,
+      "text": "現在進めている作業",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-2",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 11
+    },
+    {
+      "x": 799,
+      "y": 163,
+      "width": 316,
+      "height": 82,
+      "text": "これから取り組む範囲",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-3",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 11
+    }
+  ],
+  "width": 1200,
+  "height": 720,
+  "layout": {
+    "relation": "categorical-states",
+    "reading_direction": "left-to-right"
+  },
+  "guidance": {
+    "use_case": "週次報告で成果を完了・進行中・未着手に分けて共有する。",
+    "message": "成果の状態を分け、現在の仕事と残りの範囲を見せる。",
+    "reading": [
+      "チェック付きの文書が受入済み。",
+      "回転矢印の文書が現在進行中。",
+      "点線の文書がこれから取り組む範囲。"
+    ],
+    "avoid": "三つの図の大きさを件数や達成率の比率として扱わない。"
+  },
+  "kind": "diagram",
+  "schema_version": 2,
+  "id": "plan/completion-states",
+  "name": "進捗報告_完了と進行中と未着手を分ける_成果の状態別整理",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1200,
+    "height": 720
+  },
+  "path": "assets/plan/completion-states.svg",
+  "metadata_path": "metadata/plan/completion-states.json",
+  "search_text": "plan/completion-states\n進捗報告_完了と進行中と未着手を分ける_成果の状態別整理\n成果を状態で分けて報告する\n週次報告で成果を完了・進行中・未着手に分けて共有する。\n成果の状態を分け、現在の仕事と残りの範囲を見せる。\nチェック付きの文書が受入済み。\n回転矢印の文書が現在進行中。\n点線の文書がこれから取り組む範囲。\n進捗 完了 進行中 未着手 残作業 成果 状態 ステータス",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "cf0b5f71324b0513fad83a087f3d416e8fe6700fefdba95b1220b27dbd10525e",
+  "size_bytes": 4658
+}

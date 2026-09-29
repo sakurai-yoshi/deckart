@@ -1,0 +1,252 @@
+{
+  "category": "10-数値とグラフ",
+  "title": "二つの時点の変化を追う",
+  "description": "三つの区分の前期と当期を同じ百分率の目盛りで結ぶ比較グラフの作例。",
+  "keywords": [
+    "スロープ",
+    "前後比較",
+    "前期",
+    "当期",
+    "変化",
+    "比率",
+    "割合",
+    "slope",
+    "comparison"
+  ],
+  "labels": [
+    {
+      "x": 236,
+      "y": 64,
+      "width": 210,
+      "height": 61,
+      "text": "前期",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-1",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 7
+    },
+    {
+      "x": 832,
+      "y": 64,
+      "width": 210,
+      "height": 61,
+      "text": "当期",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-2",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 7
+    },
+    {
+      "x": 40,
+      "y": 64,
+      "width": 200,
+      "height": 61,
+      "text": "単位：%",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-3",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 6
+    },
+    {
+      "x": 328,
+      "y": 625,
+      "width": 176,
+      "height": 64,
+      "text": "区分 A",
+      "role": "項目",
+      "align": "left",
+      "color": "#153A6B",
+      "id": "label-4",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 6
+    },
+    {
+      "x": 614,
+      "y": 625,
+      "width": 176,
+      "height": 64,
+      "text": "区分 B",
+      "role": "項目",
+      "align": "left",
+      "color": "#153A6B",
+      "id": "label-5",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 6
+    },
+    {
+      "x": 900,
+      "y": 625,
+      "width": 176,
+      "height": 64,
+      "text": "区分 C",
+      "role": "項目",
+      "align": "left",
+      "color": "#153A6B",
+      "id": "label-6",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 6
+    }
+  ],
+  "width": 1200,
+  "height": 720,
+  "kind": "chart",
+  "data": {
+    "is_sample": true,
+    "unit": "%",
+    "categories": [
+      "前期",
+      "当期"
+    ],
+    "series": [
+      {
+        "label": "区分 A",
+        "values": [
+          35,
+          60
+        ]
+      },
+      {
+        "label": "区分 B",
+        "values": [
+          55,
+          45
+        ]
+      },
+      {
+        "label": "区分 C",
+        "values": [
+          75,
+          80
+        ]
+      }
+    ],
+    "chart_type": "slope",
+    "baseline": 0,
+    "domain": [
+      0,
+      100
+    ],
+    "ticks": [
+      0.0,
+      25.0,
+      50.0,
+      75.0,
+      100.0
+    ],
+    "interpolation": "linear",
+    "plot": {
+      "x": 209,
+      "y": 146,
+      "width": 881,
+      "height": 420
+    },
+    "number_format": {
+      "maximum_significant_digits": 6,
+      "minimum_significant_digits": 3,
+      "large_or_small_values": "E notation",
+      "source_values": "series"
+    }
+  },
+  "guidance": {
+    "use_case": "複数の区分について、前期と当期の比率の変化を比較する。",
+    "message": "増減の方向と二時点の順位の入れ替わりを確認できる。",
+    "reading": [
+      "左が前期、右が当期で、両側とも同じ0〜100%の目盛り。",
+      "同じ色の二つの点が同じ区分を表す。",
+      "線の交差は区分Aと区分Bの順位の入れ替わり。"
+    ],
+    "avoid": "数値は作例。二点の間は実測推移ではなく、両時点の値を結ぶ線。"
+  },
+  "schema_version": 2,
+  "id": "chart/slope",
+  "name": "前後比較_二つの時点の変化を追う_スロープグラフ作例",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1200,
+    "height": 720
+  },
+  "path": "assets/chart/slope.svg",
+  "metadata_path": "metadata/chart/slope.json",
+  "search_text": "chart/slope\n前後比較_二つの時点の変化を追う_スロープグラフ作例\n二つの時点の変化を追う\n複数の区分について、前期と当期の比率の変化を比較する。\n増減の方向と二時点の順位の入れ替わりを確認できる。\n左が前期、右が当期で、両側とも同じ0〜100%の目盛り。\n同じ色の二つの点が同じ区分を表す。\n線の交差は区分Aと区分Bの順位の入れ替わり。\nスロープ 前後比較 前期 当期 変化 比率 割合 slope comparison",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": true
+  },
+  "data_input": {
+    "chart_type": "slope",
+    "category_count": 2,
+    "series_count": 3,
+    "values_per_series": 2,
+    "required": [
+      "categories",
+      "series",
+      "unit"
+    ],
+    "constraints": [
+      "表示値は最大6有効桁。丸める場合も3有効桁以上を保つ。E表記で収まらない値は単位か小数桁を調整。入力値はseriesに保持。",
+      "文字は大判24px、小判20px以上で収まる長さ。収まらないカテゴリ名・系列名・単位は短縮して入力。",
+      "有限な数値。絶対値は1兆以下。大きな値は単位を変更して入力。",
+      "categoriesは16文字以内、series.label・unitは12文字以内。",
+      "値は0以上。",
+      "domainは[0,上限]。省略時は値から計算。上限は全値・残高以上。"
+    ],
+    "example": {
+      "categories": [
+        "前期",
+        "当期"
+      ],
+      "series": [
+        {
+          "label": "区分 A",
+          "values": [
+            35,
+            60
+          ]
+        },
+        {
+          "label": "区分 B",
+          "values": [
+            55,
+            45
+          ]
+        },
+        {
+          "label": "区分 C",
+          "values": [
+            75,
+            80
+          ]
+        }
+      ],
+      "unit": "%",
+      "domain": [
+        0,
+        100
+      ]
+    }
+  },
+  "sha256": "9f654b108b1b1b00d9e11d00a960f079a9a1d6fc18127d7348a735fa362f58c0",
+  "size_bytes": 11865
+}

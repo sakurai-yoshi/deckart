@@ -1,0 +1,49 @@
+{
+  "category": "08-アイコンとピクトグラム",
+  "title": "顧客",
+  "description": "商品やサービスを購入する顧客を示す。",
+  "keywords": [
+    "顧客",
+    "利用者",
+    "購入者",
+    "ユーザー",
+    "customer",
+    "client",
+    "buyer",
+    "consumer"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "顧客の声や購入者を示す見出しに添える。",
+    "message": "商品やサービスを利用する相手がいる。",
+    "reading": [
+      "人物が顧客を表す。",
+      "手提げ袋が購入や利用の関係を表す。"
+    ],
+    "avoid": "従業員や不特定の閲覧者を区別せず示す用途には使わない。"
+  },
+  "schema_version": 2,
+  "id": "icon/customer",
+  "name": "顧客表示_商品やサービスの利用者を示す_人物と買い物袋",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/customer.svg",
+  "metadata_path": "metadata/icon/customer.json",
+  "search_text": "icon/customer\n顧客表示_商品やサービスの利用者を示す_人物と買い物袋\n顧客\n顧客の声や購入者を示す見出しに添える。\n商品やサービスを利用する相手がいる。\n人物が顧客を表す。\n手提げ袋が購入や利用の関係を表す。\n顧客 利用者 購入者 ユーザー customer client buyer consumer",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "55a207cb14a8595b75e61dccf7e72219fe780e21452ca66ef7214a4ced98c9c2",
+  "size_bytes": 916
+}

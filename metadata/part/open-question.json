@@ -1,0 +1,96 @@
+{
+  "category": "07-注釈と見出し",
+  "title": "未決事項と確認方法を残す",
+  "description": "未決の記号を添え、残る問いと確認方法を分けて記す部品。",
+  "keywords": [
+    "未決",
+    "課題",
+    "問い",
+    "確認",
+    "残課題",
+    "open",
+    "question",
+    "pending",
+    "issue"
+  ],
+  "labels": [
+    {
+      "x": 222,
+      "y": 36,
+      "width": 761,
+      "height": 47,
+      "text": "まだ決まっていないこと",
+      "role": "未決区分",
+      "align": "left",
+      "color": "#2864F0",
+      "font_size": 25,
+      "id": "label-1",
+      "color_role": "accent",
+      "max_lines": 1,
+      "max_fullwidth_chars": 28
+    },
+    {
+      "x": 222,
+      "y": 101,
+      "width": 761,
+      "height": 54,
+      "text": "誰が、確認期限を管理するか",
+      "role": "未決の問い",
+      "align": "left",
+      "color": "#153A6B",
+      "font_size": 35,
+      "id": "label-2",
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 20
+    },
+    {
+      "x": 222,
+      "y": 187,
+      "width": 761,
+      "height": 53,
+      "text": "確認する相手と、回答を得る時期を添える",
+      "role": "確認方法",
+      "align": "left",
+      "color": "#607590",
+      "font_size": 25,
+      "id": "label-3",
+      "color_role": "muted",
+      "max_lines": 1,
+      "max_fullwidth_chars": 28
+    }
+  ],
+  "width": 1010,
+  "height": 271,
+  "kind": "part",
+  "guidance": {
+    "use_case": "議論の中で残った確認事項を記録する場面。",
+    "message": "未決の内容を明確にし、次の確認へつなぐ。",
+    "reading": [
+      "左の記号が回答待ちの問いを示す。",
+      "右の上段に問い、下段に確認方法を置く。"
+    ],
+    "avoid": "回答がある事項を不明扱いして判断を先延ばしにする用途には使わない。"
+  },
+  "schema_version": 2,
+  "id": "part/open-question",
+  "name": "未決事項と確認方法を残す_説明パーツ",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1010,
+    "height": 271
+  },
+  "path": "assets/part/open-question.svg",
+  "metadata_path": "metadata/part/open-question.json",
+  "search_text": "part/open-question\n未決事項と確認方法を残す_説明パーツ\n未決事項と確認方法を残す\n議論の中で残った確認事項を記録する場面。\n未決の内容を明確にし、次の確認へつなぐ。\n左の記号が回答待ちの問いを示す。\n右の上段に問い、下段に確認方法を置く。\n未決 課題 問い 確認 残課題 open question pending issue",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "05ffee95fa5d3054c20da4477c5d4f33025c7bf42d6363520321d796f4afd0ac",
+  "size_bytes": 1046
+}

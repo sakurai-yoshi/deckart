@@ -1,0 +1,17 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"DeckArt export request",
+  "type":"object",
+  "additionalProperties":false,
+  "required":["id"],
+  "properties":{
+    "id":{"type":"string","pattern":"^[a-z][a-z0-9-]*/[a-z][a-z0-9-]*$"},
+    "format":{"enum":["svg","png"],"description":"Must match metadata.format; this verifies the selected file format without conversion."},
+    "accent":{"type":"string","pattern":"^#[0-9A-Fa-f]{6}$"},
+    "monochrome":{"type":"boolean","default":false},
+    "labels":{"type":"object","patternProperties":{"^label-[1-9][0-9]*$":{"type":"string","minLength":1}},"additionalProperties":false},
+    "include_example_labels":{"type":"boolean","default":false},
+    "data":{"type":"object","description":"Read the selected asset metadata.data_input for required fields, counts and numeric constraints."}
+  },
+  "allOf":[{"if":{"properties":{"monochrome":{"const":true}},"required":["monochrome"]},"then":{"not":{"required":["accent"]}}}]
+}

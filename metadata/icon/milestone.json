@@ -1,0 +1,49 @@
+{
+  "category": "08-アイコンとピクトグラム",
+  "title": "マイルストーン",
+  "description": "進行の途中に置く重要な到達点を示す。",
+  "keywords": [
+    "マイルストーン",
+    "節目",
+    "到達点",
+    "進行",
+    "納期",
+    "milestone",
+    "checkpoint",
+    "project"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "プロジェクトの節目や重要な到達点を示す。",
+    "message": "途中の重要な到達点を共有する。",
+    "reading": [
+      "下の線が進行の流れを表す。",
+      "旗の立つ点が重要な節目を示す。"
+    ],
+    "avoid": "点の間隔を実際の日数や工数として読ませない。"
+  },
+  "schema_version": 2,
+  "id": "icon/milestone",
+  "name": "進行管理_重要な到達点を置く_進行線と旗",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/milestone.svg",
+  "metadata_path": "metadata/icon/milestone.json",
+  "search_text": "icon/milestone\n進行管理_重要な到達点を置く_進行線と旗\nマイルストーン\nプロジェクトの節目や重要な到達点を示す。\n途中の重要な到達点を共有する。\n下の線が進行の流れを表す。\n旗の立つ点が重要な節目を示す。\nマイルストーン 節目 到達点 進行 納期 milestone checkpoint project",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "f91a9e1f59dc3edec990198b57345c6aa84a6a501fcd87ce15fe64a40d20b654",
+  "size_bytes": 1115
+}

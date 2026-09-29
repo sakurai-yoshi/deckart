@@ -1,0 +1,48 @@
+{
+  "category": "08-アイコンとピクトグラム",
+  "title": "湿度管理",
+  "description": "空気中の水分量を確かめて管理する。",
+  "keywords": [
+    "湿度",
+    "水分",
+    "結露",
+    "管理",
+    "humidity",
+    "moisture",
+    "control"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "湿度条件や防湿保管の項目を示す。",
+    "message": "空気中の水分量を確かめて管理する。",
+    "reading": [
+      "しずくが水分を表す。",
+      "計器を添えて湿度を測る行為とする。"
+    ],
+    "avoid": "記号は業務の種類を示す。数値、認証取得、測定結果を保証する印には使わない。"
+  },
+  "schema_version": 2,
+  "id": "icon/humidity-control",
+  "name": "湿度管理_製造業務の記号",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/humidity-control.svg",
+  "metadata_path": "metadata/icon/humidity-control.json",
+  "search_text": "icon/humidity-control\n湿度管理_製造業務の記号\n湿度管理\n湿度条件や防湿保管の項目を示す。\n空気中の水分量を確かめて管理する。\nしずくが水分を表す。\n計器を添えて湿度を測る行為とする。\n湿度 水分 結露 管理 humidity moisture control",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "64989893bcbe6c718053c3f9212f332f48d95719f27cb4107526ce8eda729e73",
+  "size_bytes": 1197
+}

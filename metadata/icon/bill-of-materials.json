@@ -1,0 +1,49 @@
+{
+  "category": "08-アイコンとピクトグラム",
+  "title": "部品構成",
+  "description": "一つの製品が複数種類の部品から成る。",
+  "keywords": [
+    "部品表",
+    "構成",
+    "BOM",
+    "製品",
+    "部材",
+    "bill",
+    "materials",
+    "components"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "部品構成や部品表の見出しに添える。",
+    "message": "一つの製品が複数種類の部品から成る。",
+    "reading": [
+      "上の一つの製品から下の構成部品へ枝分かれする。",
+      "異なる形が異なる部品種類を示す。"
+    ],
+    "avoid": "記号は業務の種類を示す。数値、認証取得、測定結果を保証する印には使わない。"
+  },
+  "schema_version": 2,
+  "id": "icon/bill-of-materials",
+  "name": "部品構成_製造業務の記号",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/bill-of-materials.svg",
+  "metadata_path": "metadata/icon/bill-of-materials.json",
+  "search_text": "icon/bill-of-materials\n部品構成_製造業務の記号\n部品構成\n部品構成や部品表の見出しに添える。\n一つの製品が複数種類の部品から成る。\n上の一つの製品から下の構成部品へ枝分かれする。\n異なる形が異なる部品種類を示す。\n部品表 構成 BOM 製品 部材 bill materials components",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "d4534acf812ff8311e845b713d8c12d2f0b1335fd07e0d3d1434191b33c48312",
+  "size_bytes": 1048
+}

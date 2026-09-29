@@ -1,0 +1,62 @@
+{
+  "title": "情報を渡す",
+  "kind": "illustration",
+  "category": "06-業務イラスト",
+  "width": 1254,
+  "height": 1254,
+  "keywords": [
+    "共有",
+    "引継ぎ",
+    "情報",
+    "資料",
+    "受渡",
+    "sharing",
+    "information",
+    "handover"
+  ],
+  "guidance": {
+    "use_case": "情報共有、引継ぎ、成果物の受け渡しを説明する挿絵に。",
+    "message": "必要な情報を相手へ届ける。",
+    "reading": [
+      "二人の視線と手元を同じ資料へ集め、情報共有を示します。"
+    ],
+    "avoid": "実在の人物・業務実績・承認や確認の完了を証明する画像としては使えません。"
+  },
+  "labels": [],
+  "preview_path": "previews/illustration/sharing-information.png",
+  "placement": {
+    "framing": "waist-up",
+    "facing": "inward",
+    "people_count": 2,
+    "recommended_width_cm": [
+      5,
+      9
+    ]
+  },
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/illustrations.json"
+  },
+  "description": "必要な情報を相手へ届ける。",
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": true,
+  "canvas": {
+    "width": 1254,
+    "height": 1254
+  },
+  "schema_version": 2,
+  "id": "illustration/sharing-information",
+  "name": "情報を渡す_汎用ビジネスの動作",
+  "license": "CC0-1.0",
+  "path": "media/illustration/sharing-information.png",
+  "metadata_path": "metadata/illustration/sharing-information.json",
+  "search_text": "illustration/sharing-information\n情報を渡す_汎用ビジネスの動作\n情報を渡す\n情報共有、引継ぎ、成果物の受け渡しを説明する挿絵に。\n必要な情報を相手へ届ける。\n二人の視線と手元を同じ資料へ集め、情報共有を示します。\n共有 引継ぎ 情報 資料 受渡 sharing information handover\nwaist-up 上半身 腰上 inward 向かい合う 対話 2  [5, 9] ",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "d35d2237c234e3961f722a9d575b04ea42896500bfab925631e48cb43f4484e2",
+  "size_bytes": 677188
+}

@@ -1,0 +1,49 @@
+{
+  "category": "08-アイコンとピクトグラム",
+  "title": "ダウンロード",
+  "description": "ファイルを手元の保存先へ取得する操作を示す。",
+  "keywords": [
+    "ダウンロード",
+    "取得",
+    "保存",
+    "受信",
+    "ファイル",
+    "download",
+    "retrieve",
+    "save"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "資料やファイルを取得する操作を示す。",
+    "message": "外にあるファイルを手元へ受け取る。",
+    "reading": [
+      "下の受け皿が保存先を表す。",
+      "下向きの矢印が受け取る動きを示す。"
+    ],
+    "avoid": "取得済みやファイルの安全性を保証する印には使わない。"
+  },
+  "schema_version": 2,
+  "id": "icon/download",
+  "name": "ファイル操作_手元に取得する_受け取る矢印",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/download.svg",
+  "metadata_path": "metadata/icon/download.json",
+  "search_text": "icon/download\nファイル操作_手元に取得する_受け取る矢印\nダウンロード\n資料やファイルを取得する操作を示す。\n外にあるファイルを手元へ受け取る。\n下の受け皿が保存先を表す。\n下向きの矢印が受け取る動きを示す。\nダウンロード 取得 保存 受信 ファイル download retrieve save",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "30cb2a7dd83d17323902ab31bdc72d55037f283e85f4e290c17245e0fc85ff2c",
+  "size_bytes": 764
+}

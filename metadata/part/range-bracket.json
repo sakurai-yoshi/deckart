@@ -1,0 +1,111 @@
+{
+  "category": "07-注釈と見出し",
+  "title": "複数の項目を一つの説明で括る",
+  "description": "三つの項目に共通する性質や扱いを、横の括りで示す部品。",
+  "keywords": [
+    "括弧",
+    "範囲",
+    "共通条件",
+    "側注",
+    "まとめ",
+    "bracket",
+    "range",
+    "shared",
+    "condition"
+  ],
+  "labels": [
+    {
+      "x": 40,
+      "y": 30,
+      "width": 308,
+      "height": 48,
+      "text": "受付の記録",
+      "role": "対象",
+      "align": "left",
+      "color": "#153A6B",
+      "font_size": 27,
+      "id": "label-1",
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 10
+    },
+    {
+      "x": 40,
+      "y": 114,
+      "width": 308,
+      "height": 48,
+      "text": "確認依頼の記録",
+      "role": "対象",
+      "align": "left",
+      "color": "#153A6B",
+      "font_size": 27,
+      "id": "label-2",
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 10
+    },
+    {
+      "x": 40,
+      "y": 198,
+      "width": 308,
+      "height": 48,
+      "text": "回答の記録",
+      "role": "対象",
+      "align": "left",
+      "color": "#153A6B",
+      "font_size": 27,
+      "id": "label-3",
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 10
+    },
+    {
+      "x": 492,
+      "y": 109,
+      "width": 448,
+      "height": 94,
+      "text": "同じ案件番号で\n一つにつなぐ",
+      "role": "共通する説明",
+      "align": "left",
+      "color": "#153A6B",
+      "font_size": 31,
+      "id": "label-4",
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 13
+    }
+  ],
+  "width": 1000,
+  "height": 315,
+  "kind": "part",
+  "guidance": {
+    "use_case": "複数の項目へ共通の説明を付ける場面。",
+    "message": "括った項目には共通の扱いがある。",
+    "reading": [
+      "左の項目を一つの括りでまとめる。",
+      "右の欄に共通の説明を置く。"
+    ],
+    "avoid": "項目のうち一部だけに当てはまる説明を付ける用途には使わない。"
+  },
+  "schema_version": 2,
+  "id": "part/range-bracket",
+  "name": "複数の項目を一つの説明で括る_説明パーツ",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1000,
+    "height": 315
+  },
+  "path": "assets/part/range-bracket.svg",
+  "metadata_path": "metadata/part/range-bracket.json",
+  "search_text": "part/range-bracket\n複数の項目を一つの説明で括る_説明パーツ\n複数の項目を一つの説明で括る\n複数の項目へ共通の説明を付ける場面。\n括った項目には共通の扱いがある。\n左の項目を一つの括りでまとめる。\n右の欄に共通の説明を置く。\n括弧 範囲 共通条件 側注 まとめ bracket range shared condition",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "ad6e75e33a19075adf22366d3cc5bbb977729283a72f0949add51d653f5d34c3",
+  "size_bytes": 1050
+}

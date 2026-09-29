@@ -1,0 +1,61 @@
+{
+  "kind": "illustration",
+  "category": "06-業務イラスト",
+  "labels": [],
+  "preview_path": "previews/illustration/issue-isolation.png",
+  "placement": {
+    "framing": "object",
+    "facing": "front",
+    "recommended_width_cm": [
+      4,
+      7
+    ]
+  },
+  "title": "問題のある品を分ける",
+  "description": "欠けのある一品だけを別のトレーへ分け、通常品への混入を防ぐ管理を表す。",
+  "keywords": [
+    "不適合品",
+    "隔離",
+    "品質",
+    "混入防止",
+    "異常",
+    "issue",
+    "isolation"
+  ],
+  "guidance": {
+    "use_case": "不適合品の隔離、混入防止、調査待ちの品の管理を説明する。",
+    "message": "問題のある品を区別して、通常の流れから分ける。",
+    "reading": [
+      "通常品をまとめた白いトレーと、離れた青いトレーを並べる。",
+      "欠けのある一品だけを分けた配置が、不適合品の隔離を表す。"
+    ],
+    "avoid": "実物の寸法・仕様や、作業手順を示す図としては使用しない。"
+  },
+  "width": 1254,
+  "height": 1254,
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/illustrations.json"
+  },
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": true,
+  "canvas": {
+    "width": 1254,
+    "height": 1254
+  },
+  "schema_version": 2,
+  "id": "illustration/issue-isolation",
+  "name": "問題のある品を分ける_業務イラスト",
+  "license": "CC0-1.0",
+  "path": "media/illustration/issue-isolation.png",
+  "metadata_path": "metadata/illustration/issue-isolation.json",
+  "search_text": "illustration/issue-isolation\n問題のある品を分ける_業務イラスト\n問題のある品を分ける\n不適合品の隔離、混入防止、調査待ちの品の管理を説明する。\n問題のある品を区別して、通常の流れから分ける。\n通常品をまとめた白いトレーと、離れた青いトレーを並べる。\n欠けのある一品だけを分けた配置が、不適合品の隔離を表す。\n不適合品 隔離 品質 混入防止 異常 issue isolation\nobject 物 道具 front 正面 [4, 7] ",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "d359dc6519f640a43725cc459514c4c6122c94f9cc29c86cca0f59c1ccfffbec",
+  "size_bytes": 471492
+}

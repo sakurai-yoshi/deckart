@@ -1,0 +1,95 @@
+{
+  "category": "07-注釈と見出し",
+  "title": "結果を次の試行へ戻す",
+  "description": "実施から確認へ進み、下の戻り線で改善事項を返す部品。",
+  "keywords": [
+    "改善",
+    "フィードバック",
+    "試行",
+    "評価",
+    "循環",
+    "feedback",
+    "iteration",
+    "review"
+  ],
+  "labels": [
+    {
+      "x": 58,
+      "y": 61,
+      "width": 288,
+      "height": 94,
+      "text": "運用を試す",
+      "role": "試行",
+      "align": "center",
+      "color": "#153A6B",
+      "font_size": 32,
+      "id": "label-1",
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 8
+    },
+    {
+      "x": 656,
+      "y": 61,
+      "width": 286,
+      "height": 94,
+      "text": "結果を確認する",
+      "role": "評価",
+      "align": "center",
+      "color": "#153A6B",
+      "font_size": 32,
+      "id": "label-2",
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 8
+    },
+    {
+      "x": 330,
+      "y": 268,
+      "width": 510,
+      "height": 54,
+      "text": "確認した課題を、次の試行へ戻す",
+      "role": "戻す内容",
+      "align": "left",
+      "color": "#153A6B",
+      "font_size": 25,
+      "id": "label-3",
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 19
+    }
+  ],
+  "width": 1000,
+  "height": 345,
+  "kind": "part",
+  "guidance": {
+    "use_case": "試行結果を次の改善につなぐ場面。",
+    "message": "確認して終えず、課題を次の運用へ戻す。",
+    "reading": [
+      "上の矢印が試行から確認への順序を示す。",
+      "下の戻り線が結果を次の試行に反映することを示す。"
+    ],
+    "avoid": "一度だけ実施して完了する工程の表示には使わない。"
+  },
+  "schema_version": 2,
+  "id": "part/feedback-return",
+  "name": "結果を次の試行へ戻す_説明パーツ",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1000,
+    "height": 345
+  },
+  "path": "assets/part/feedback-return.svg",
+  "metadata_path": "metadata/part/feedback-return.json",
+  "search_text": "part/feedback-return\n結果を次の試行へ戻す_説明パーツ\n結果を次の試行へ戻す\n試行結果を次の改善につなぐ場面。\n確認して終えず、課題を次の運用へ戻す。\n上の矢印が試行から確認への順序を示す。\n下の戻り線が結果を次の試行に反映することを示す。\n改善 フィードバック 試行 評価 循環 feedback iteration review",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "c1006ba1a65a8aebcf5cccdd6c11edb102dfd9e725ef255faff4c0f2107dc4bf",
+  "size_bytes": 1143
+}

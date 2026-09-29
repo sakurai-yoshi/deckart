@@ -1,0 +1,125 @@
+{
+  "category": "07-注釈と見出し",
+  "title": "実行する人と判断する人を分ける",
+  "description": "同じ仕事について、案を作る役割と判断する役割を左右に分ける部品。",
+  "keywords": [
+    "担当",
+    "責任",
+    "実行",
+    "承認",
+    "役割",
+    "ownership",
+    "execution",
+    "approval"
+  ],
+  "labels": [
+    {
+      "x": 56,
+      "y": 43,
+      "width": 882,
+      "height": 46,
+      "text": "対応方針を確定する",
+      "role": "対象となる仕事",
+      "align": "left",
+      "color": "#FFFFFF",
+      "font_size": 29,
+      "id": "label-1",
+      "color_role": "paper",
+      "max_lines": 1,
+      "max_fullwidth_chars": 28
+    },
+    {
+      "x": 56,
+      "y": 155,
+      "width": 392,
+      "height": 48,
+      "text": "案を作る人",
+      "role": "実行の役割",
+      "align": "left",
+      "color": "#2864F0",
+      "font_size": 25,
+      "id": "label-2",
+      "color_role": "accent",
+      "max_lines": 1,
+      "max_fullwidth_chars": 14
+    },
+    {
+      "x": 56,
+      "y": 220,
+      "width": 392,
+      "height": 66,
+      "text": "運用を担う担当者",
+      "role": "実行担当",
+      "align": "left",
+      "color": "#153A6B",
+      "font_size": 33,
+      "id": "label-3",
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 11
+    },
+    {
+      "x": 549,
+      "y": 155,
+      "width": 389,
+      "height": 48,
+      "text": "判断する人",
+      "role": "判断の役割",
+      "align": "left",
+      "color": "#2864F0",
+      "font_size": 25,
+      "id": "label-4",
+      "color_role": "accent",
+      "max_lines": 1,
+      "max_fullwidth_chars": 14
+    },
+    {
+      "x": 549,
+      "y": 220,
+      "width": 389,
+      "height": 66,
+      "text": "責任を持つ管理者",
+      "role": "判断担当",
+      "align": "left",
+      "color": "#153A6B",
+      "font_size": 33,
+      "id": "label-5",
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 11
+    }
+  ],
+  "width": 995,
+  "height": 325,
+  "kind": "part",
+  "guidance": {
+    "use_case": "仕事の担当と判断権限を短く確認する場面。",
+    "message": "手を動かす人と、決める人を区別する。",
+    "reading": [
+      "上の帯が共通の対象業務を示す。",
+      "下の左右で実行担当と判断担当を分ける。"
+    ],
+    "avoid": "組織上の上下関係や全責任分担を示す組織図には使わない。"
+  },
+  "schema_version": 2,
+  "id": "part/execution-and-approval",
+  "name": "実行する人と判断する人を分ける_説明パーツ",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 995,
+    "height": 325
+  },
+  "path": "assets/part/execution-and-approval.svg",
+  "metadata_path": "metadata/part/execution-and-approval.json",
+  "search_text": "part/execution-and-approval\n実行する人と判断する人を分ける_説明パーツ\n実行する人と判断する人を分ける\n仕事の担当と判断権限を短く確認する場面。\n手を動かす人と、決める人を区別する。\n上の帯が共通の対象業務を示す。\n下の左右で実行担当と判断担当を分ける。\n担当 責任 実行 承認 役割 ownership execution approval",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "045191c998d39e76b71f7fcb8c75c32e6d58dca372708c6771f57e5f8d929c1a",
+  "size_bytes": 854
+}

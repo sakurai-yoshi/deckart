@@ -1,0 +1,50 @@
+{
+  "category": "08-アイコンとピクトグラム",
+  "title": "税務",
+  "description": "税額の計算や申告などの税務を示す。",
+  "keywords": [
+    "税",
+    "税務",
+    "税金",
+    "申告",
+    "納税",
+    "消費税",
+    "tax",
+    "taxation",
+    "filing"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "税務処理や申告・納付の項目を示す。",
+    "message": "公的な税の負担を扱う。",
+    "reading": [
+      "正面の柱と屋根が公的な制度を表す。",
+      "中央の百分率記号が税率と税額の計算を表す。"
+    ],
+    "avoid": "特定の税率や行政機関の公式印としては使わない。"
+  },
+  "schema_version": 2,
+  "id": "icon/tax",
+  "name": "税務手続_公的な負担を計算する_行政と税率",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/tax.svg",
+  "metadata_path": "metadata/icon/tax.json",
+  "search_text": "icon/tax\n税務手続_公的な負担を計算する_行政と税率\n税務\n税務処理や申告・納付の項目を示す。\n公的な税の負担を扱う。\n正面の柱と屋根が公的な制度を表す。\n中央の百分率記号が税率と税額の計算を表す。\n税 税務 税金 申告 納税 消費税 tax taxation filing",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "aead07688314b7acb2df565984824c9d76e7f2d9df92eec52f0004f18d8265c9",
+  "size_bytes": 1364
+}

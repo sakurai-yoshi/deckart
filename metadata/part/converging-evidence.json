@@ -1,0 +1,141 @@
+{
+  "category": "07-注釈と見出し",
+  "title": "二つの根拠から結論を導く",
+  "description": "上下の根拠を括り、右の結論へ接続する説明部品。",
+  "keywords": [
+    "根拠",
+    "結論",
+    "因果",
+    "示唆",
+    "集約",
+    "要約",
+    "evidence",
+    "conclusion",
+    "synthesis"
+  ],
+  "labels": [
+    {
+      "x": 30,
+      "y": 36,
+      "width": 408,
+      "height": 40,
+      "text": "根拠 A",
+      "role": "根拠の見出し",
+      "align": "left",
+      "color": "#607590",
+      "font_size": 24,
+      "id": "label-1",
+      "color_role": "muted",
+      "max_lines": 1,
+      "max_fullwidth_chars": 16
+    },
+    {
+      "x": 30,
+      "y": 86,
+      "width": 408,
+      "height": 48,
+      "text": "窓口が部門ごとに分かれる",
+      "role": "根拠",
+      "align": "left",
+      "color": "#153A6B",
+      "font_size": 27,
+      "id": "label-2",
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 14
+    },
+    {
+      "x": 30,
+      "y": 184,
+      "width": 408,
+      "height": 40,
+      "text": "根拠 B",
+      "role": "根拠の見出し",
+      "align": "left",
+      "color": "#607590",
+      "font_size": 24,
+      "id": "label-3",
+      "color_role": "muted",
+      "max_lines": 1,
+      "max_fullwidth_chars": 16
+    },
+    {
+      "x": 30,
+      "y": 234,
+      "width": 408,
+      "height": 48,
+      "text": "問い合わせを何度も転送する",
+      "role": "根拠",
+      "align": "left",
+      "color": "#153A6B",
+      "font_size": 27,
+      "id": "label-4",
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 14
+    },
+    {
+      "x": 622,
+      "y": 108,
+      "width": 414,
+      "height": 42,
+      "text": "導かれる結論",
+      "role": "結論の見出し",
+      "align": "left",
+      "color": "#2864F0",
+      "font_size": 24,
+      "id": "label-5",
+      "color_role": "accent",
+      "max_lines": 1,
+      "max_fullwidth_chars": 16
+    },
+    {
+      "x": 622,
+      "y": 171,
+      "width": 414,
+      "height": 106,
+      "text": "最初の受付を\n一つにそろえる",
+      "role": "結論",
+      "align": "left",
+      "color": "#153A6B",
+      "font_size": 34,
+      "id": "label-6",
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 11
+    }
+  ],
+  "width": 1100,
+  "height": 350,
+  "kind": "part",
+  "guidance": {
+    "use_case": "分析や観察を根拠として、提案を説明する場面。",
+    "message": "複数の根拠が一つの結論を支える。",
+    "reading": [
+      "左の上下に独立した根拠を置く。",
+      "括り線と接続で右の結論へつなぐ。"
+    ],
+    "avoid": "根拠だけでは導けない結論を必然として示す用途には使わない。"
+  },
+  "schema_version": 2,
+  "id": "part/converging-evidence",
+  "name": "二つの根拠から結論を導く_説明パーツ",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1100,
+    "height": 350
+  },
+  "path": "assets/part/converging-evidence.svg",
+  "metadata_path": "metadata/part/converging-evidence.json",
+  "search_text": "part/converging-evidence\n二つの根拠から結論を導く_説明パーツ\n二つの根拠から結論を導く\n分析や観察を根拠として、提案を説明する場面。\n複数の根拠が一つの結論を支える。\n左の上下に独立した根拠を置く。\n括り線と接続で右の結論へつなぐ。\n根拠 結論 因果 示唆 集約 要約 evidence conclusion synthesis",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "4749c27801650b25aaac10ced175bff31ed09f545f03dacbadbac368acb56817",
+  "size_bytes": 1324
+}

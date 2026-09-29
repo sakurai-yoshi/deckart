@@ -1,0 +1,49 @@
+{
+  "category": "08-アイコンとピクトグラム",
+  "title": "勤怠・打刻",
+  "description": "出退勤時刻を記録する勤怠管理を示す。",
+  "keywords": [
+    "勤怠",
+    "打刻",
+    "出勤",
+    "退勤",
+    "労働時間",
+    "attendance",
+    "timecard",
+    "timekeeping"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "出退勤の記録や勤怠管理の見出しに使う。",
+    "message": "働いた時刻を記録する。",
+    "reading": [
+      "上から差し込むカードが記録を表す。",
+      "下の時計が出退勤の時刻を表す。"
+    ],
+    "avoid": "特定の勤務時刻や労働時間の数値としては使わない。"
+  },
+  "schema_version": 2,
+  "id": "icon/attendance",
+  "name": "勤怠記録_出退勤時刻を記録する_打刻時計",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/attendance.svg",
+  "metadata_path": "metadata/icon/attendance.json",
+  "search_text": "icon/attendance\n勤怠記録_出退勤時刻を記録する_打刻時計\n勤怠・打刻\n出退勤の記録や勤怠管理の見出しに使う。\n働いた時刻を記録する。\n上から差し込むカードが記録を表す。\n下の時計が出退勤の時刻を表す。\n勤怠 打刻 出勤 退勤 労働時間 attendance timecard timekeeping",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "ae04c778ad0774a328d97daf9763e787a5b8458ee1632de04b93aee071c4aab8",
+  "size_bytes": 1147
+}

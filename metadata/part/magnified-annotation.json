@@ -1,0 +1,95 @@
+{
+  "category": "07-注釈と見出し",
+  "title": "一箇所を選び説明を拡大する",
+  "description": "対象を丸で選び、二本の補助線で詳しい説明へ対応させる部品。",
+  "keywords": [
+    "拡大",
+    "注釈",
+    "詳細",
+    "フォーカス",
+    "確認箇所",
+    "zoom",
+    "detail",
+    "annotation"
+  ],
+  "labels": [
+    {
+      "x": 35,
+      "y": 4,
+      "width": 340,
+      "height": 44,
+      "text": "資料内の確認箇所",
+      "role": "参照対象",
+      "align": "left",
+      "color": "#607590",
+      "font_size": 25,
+      "id": "label-1",
+      "color_role": "muted",
+      "max_lines": 1,
+      "max_fullwidth_chars": 12
+    },
+    {
+      "x": 562,
+      "y": 76,
+      "width": 420,
+      "height": 56,
+      "text": "拡大して確認する内容",
+      "role": "補足の見出し",
+      "align": "left",
+      "color": "#2864F0",
+      "font_size": 30,
+      "id": "label-2",
+      "color_role": "accent",
+      "max_lines": 1,
+      "max_fullwidth_chars": 13
+    },
+    {
+      "x": 562,
+      "y": 155,
+      "width": 420,
+      "height": 111,
+      "text": "変更した条件と、\nその理由を読み取る",
+      "role": "補足内容",
+      "align": "left",
+      "color": "#153A6B",
+      "font_size": 33,
+      "id": "label-3",
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 12
+    }
+  ],
+  "width": 1060,
+  "height": 330,
+  "kind": "part",
+  "guidance": {
+    "use_case": "図面や表の一箇所について詳しく説明する。",
+    "message": "右側の補足が元資料のどの箇所についてのものか分かる。",
+    "reading": [
+      "左の丸を確認する箇所へ重ねる。",
+      "広がる点線の先に詳細な説明を置く。"
+    ],
+    "avoid": "左の仮の文書線は実データではない。実資料に重ねるときは文書部分を適切に置き換える。"
+  },
+  "schema_version": 2,
+  "id": "part/magnified-annotation",
+  "name": "一箇所を選び説明を拡大する_説明パーツ",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1060,
+    "height": 330
+  },
+  "path": "assets/part/magnified-annotation.svg",
+  "metadata_path": "metadata/part/magnified-annotation.json",
+  "search_text": "part/magnified-annotation\n一箇所を選び説明を拡大する_説明パーツ\n一箇所を選び説明を拡大する\n図面や表の一箇所について詳しく説明する。\n右側の補足が元資料のどの箇所についてのものか分かる。\n左の丸を確認する箇所へ重ねる。\n広がる点線の先に詳細な説明を置く。\n拡大 注釈 詳細 フォーカス 確認箇所 zoom detail annotation",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "d8c41aceea1841dda252ed5214587e372794167215f2be67c4e5704e284f3e84",
+  "size_bytes": 1684
+}

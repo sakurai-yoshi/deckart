@@ -1,0 +1,49 @@
+{
+  "category": "08-アイコンとピクトグラム",
+  "title": "省エネルギー",
+  "description": "必要な働きを保ちながらエネルギー消費を減らす。",
+  "keywords": [
+    "省エネ",
+    "電力",
+    "効率",
+    "節電",
+    "energy",
+    "efficiency",
+    "power",
+    "saving"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "電力使用を抑える設備や運用の項目を示す。",
+    "message": "必要な働きを保ちながらエネルギー消費を減らす。",
+    "reading": [
+      "プラグが電力の利用を表す。",
+      "葉が資源への配慮という目的を添える。"
+    ],
+    "avoid": "記号は業務の種類を示す。数値、認証取得、測定結果を保証する印には使わない。"
+  },
+  "schema_version": 2,
+  "id": "icon/energy-efficiency",
+  "name": "省エネルギー_製造業務の記号",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/energy-efficiency.svg",
+  "metadata_path": "metadata/icon/energy-efficiency.json",
+  "search_text": "icon/energy-efficiency\n省エネルギー_製造業務の記号\n省エネルギー\n電力使用を抑える設備や運用の項目を示す。\n必要な働きを保ちながらエネルギー消費を減らす。\nプラグが電力の利用を表す。\n葉が資源への配慮という目的を添える。\n省エネ 電力 効率 節電 energy efficiency power saving",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "ff83e787ed41488b760c2c62b1365c06a9f8c05ba9a550d5291881a554a36e9c",
+  "size_bytes": 1305
+}

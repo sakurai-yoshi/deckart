@@ -1,0 +1,51 @@
+{
+  "category": "08-アイコンとピクトグラム",
+  "title": "アクセス権限",
+  "description": "利用者ごとに許可する操作と制限する操作を分ける。",
+  "keywords": [
+    "権限",
+    "許可",
+    "制限",
+    "アクセス",
+    "ロール",
+    "permission",
+    "authorization",
+    "access",
+    "control",
+    "role"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "利用者の権限や操作制限を説明する。",
+    "message": "利用者に応じてできる操作を分ける。",
+    "reading": [
+      "人物が権限を持つ利用者を表す。",
+      "チェックと交差線が許可と制限を表す。"
+    ],
+    "avoid": "本人確認の完了やすべての操作の許可を意味させない。"
+  },
+  "schema_version": 2,
+  "id": "icon/access-control",
+  "name": "権限管理_できる操作を分ける_利用者と許可",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/access-control.svg",
+  "metadata_path": "metadata/icon/access-control.json",
+  "search_text": "icon/access-control\n権限管理_できる操作を分ける_利用者と許可\nアクセス権限\n利用者の権限や操作制限を説明する。\n利用者に応じてできる操作を分ける。\n人物が権限を持つ利用者を表す。\nチェックと交差線が許可と制限を表す。\n権限 許可 制限 アクセス ロール permission authorization access control role",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "a54a38c6f752fa856c91eb4c5001f5807aaf28d970f56a2fd64c99ebb9b5688c",
+  "size_bytes": 910
+}

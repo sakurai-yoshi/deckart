@@ -1,0 +1,126 @@
+{
+  "category": "02-比較と意思決定",
+  "title": "比較して一案を選ぶ",
+  "description": "同じ判断基準で候補を比較し、採用した一案だけを実行へ進める。",
+  "keywords": [
+    "比較",
+    "選定",
+    "採用案",
+    "企画",
+    "選択肢",
+    "意思決定",
+    "判断基準",
+    "コンペ"
+  ],
+  "labels": [
+    {
+      "x": 132,
+      "y": 150,
+      "width": 245,
+      "height": 76,
+      "text": "候補 A",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-1",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 8
+    },
+    {
+      "x": 132,
+      "y": 322,
+      "width": 245,
+      "height": 76,
+      "text": "候補 B",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-2",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 8
+    },
+    {
+      "x": 132,
+      "y": 494,
+      "width": 245,
+      "height": 76,
+      "text": "候補 C",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-3",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 8
+    },
+    {
+      "x": 431,
+      "y": 34,
+      "width": 340,
+      "height": 64,
+      "text": "共通の判断基準",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-4",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 11
+    },
+    {
+      "x": 760,
+      "y": 412,
+      "width": 340,
+      "height": 80,
+      "text": "採用した案を実行へ",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-5",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 11
+    }
+  ],
+  "width": 1200,
+  "height": 720,
+  "guidance": {
+    "use_case": "企画会議で複数の提案から採用案を決める。",
+    "message": "同じ基準で比べ、選んだ一案だけを実行する。",
+    "reading": [
+      "左の三つの領域は比較する候補。",
+      "中央の縦枠は全候補に適用する判断基準。",
+      "上段と下段の経路は止まり、チェックのある経路だけが右へ続く。"
+    ],
+    "avoid": "複数案を統合する説明には使わない。"
+  },
+  "kind": "diagram",
+  "schema_version": 2,
+  "id": "decision/option-selection",
+  "name": "企画提案_選択肢を比較して一案を選ぶ_判断基準と採用案",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1200,
+    "height": 720
+  },
+  "path": "assets/decision/option-selection.svg",
+  "metadata_path": "metadata/decision/option-selection.json",
+  "search_text": "decision/option-selection\n企画提案_選択肢を比較して一案を選ぶ_判断基準と採用案\n比較して一案を選ぶ\n企画会議で複数の提案から採用案を決める。\n同じ基準で比べ、選んだ一案だけを実行する。\n左の三つの領域は比較する候補。\n中央の縦枠は全候補に適用する判断基準。\n上段と下段の経路は止まり、チェックのある経路だけが右へ続く。\n比較 選定 採用案 企画 選択肢 意思決定 判断基準 コンペ",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "fb3139bcb4ff6b1a2f0c8b9ad4af9da5b8c1f351fb0ecb24b0a93279359c1f9a",
+  "size_bytes": 2372
+}

@@ -1,0 +1,49 @@
+{
+  "category": "08-アイコンとピクトグラム",
+  "title": "封緘確認",
+  "description": "荷物の開口を閉じた状態を確認する。",
+  "keywords": [
+    "封緘",
+    "梱包",
+    "テープ",
+    "開封",
+    "防止",
+    "sealing",
+    "package",
+    "closure"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "梱包後に封が閉じていることを確認する工程に添える。",
+    "message": "荷物の開口を閉じた状態を確認する。",
+    "reading": [
+      "箱の上端から続く帯が封緘用のテープを表す。",
+      "チェックが封の確認という行為を示す。"
+    ],
+    "avoid": "記号は業務の種類を示す。数値、認証取得、測定結果を保証する印には使わない。"
+  },
+  "schema_version": 2,
+  "id": "icon/package-sealing",
+  "name": "封緘確認_製造業務の記号",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/package-sealing.svg",
+  "metadata_path": "metadata/icon/package-sealing.json",
+  "search_text": "icon/package-sealing\n封緘確認_製造業務の記号\n封緘確認\n梱包後に封が閉じていることを確認する工程に添える。\n荷物の開口を閉じた状態を確認する。\n箱の上端から続く帯が封緘用のテープを表す。\nチェックが封の確認という行為を示す。\n封緘 梱包 テープ 開封 防止 sealing package closure",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "0aa0c42f0c75530870ec5e30a79664fa5ff099d652de57b689ff6c1c2e907690",
+  "size_bytes": 1204
+}

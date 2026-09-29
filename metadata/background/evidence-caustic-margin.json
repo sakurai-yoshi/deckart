@@ -1,0 +1,94 @@
+{
+  "title": "右端の光学ガラスで図表を引き立てる背景",
+  "description": "細い光学ガラスと局所的な反射を右端に置き、左に図表を大きく見せる。",
+  "kind": "background",
+  "category": "11-背景とフレーム",
+  "width": 1672,
+  "height": 941,
+  "keywords": [
+    "根拠",
+    "図表",
+    "実測",
+    "検証結果",
+    "データ",
+    "効果",
+    "検証",
+    "evidence",
+    "chart",
+    "test result"
+  ],
+  "guidance": {
+    "use_case": "試験結果、効果検証、市場データなど一つの大きな図表を示す本文。",
+    "message": "主張を支える根拠を大きく読みやすく示す。",
+    "reading": [
+      "左上に見出し、中央に実データの図表、左下に要点と出典を置く。",
+      "右下の反射光には注釈や凡例を重ねず、図表の右端を指定領域内に収める。"
+    ],
+    "avoid": "光学模様をデータ系列や区分として説明しない。"
+  },
+  "labels": [],
+  "canvas": {
+    "width": 1600,
+    "height": 900
+  },
+  "content_areas": [
+    {
+      "id": "title",
+      "role": "図表の見出し",
+      "purpose": "図表の見出しを配置する白い領域。",
+      "content_type": "text",
+      "x": 100,
+      "y": 80,
+      "width": 1130,
+      "height": 110,
+      "text_color": "#172B4D",
+      "text_align": "left"
+    },
+    {
+      "id": "evidence",
+      "role": "実データの図表",
+      "purpose": "実データの図表を配置する白い領域。",
+      "content_type": "chart",
+      "x": 100,
+      "y": 245,
+      "width": 1100,
+      "height": 380,
+      "text_color": "#172B4D",
+      "text_align": "left"
+    },
+    {
+      "id": "note",
+      "role": "要点と出典",
+      "purpose": "要点と出典を配置する白い領域。",
+      "content_type": "text",
+      "x": 100,
+      "y": 710,
+      "width": 900,
+      "height": 90,
+      "text_color": "#172B4D",
+      "text_align": "left"
+    }
+  ],
+  "preview_path": "previews/background/evidence-caustic-margin.png",
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/backgrounds.json"
+  },
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": false,
+  "schema_version": 2,
+  "id": "background/evidence-caustic-margin",
+  "name": "右端の光学ガラスで図表を引き立てる背景_背景",
+  "license": "CC0-1.0",
+  "path": "media/background/evidence-caustic-margin.png",
+  "metadata_path": "metadata/background/evidence-caustic-margin.json",
+  "search_text": "background/evidence-caustic-margin\n右端の光学ガラスで図表を引き立てる背景_背景\n右端の光学ガラスで図表を引き立てる背景\n試験結果、効果検証、市場データなど一つの大きな図表を示す本文。\n主張を支える根拠を大きく読みやすく示す。\n左上に見出し、中央に実データの図表、左下に要点と出典を置く。\n右下の反射光には注釈や凡例を重ねず、図表の右端を指定領域内に収める。\n根拠 図表 実測 検証結果 データ 効果 検証 evidence chart test result",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "7f439f3c72c03ce8d8b6977e36389f2c5df4120f55e782e41bd3cbdfa14f51f7",
+  "size_bytes": 1088328
+}

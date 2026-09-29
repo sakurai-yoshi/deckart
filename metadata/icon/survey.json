@@ -1,0 +1,49 @@
+{
+  "category": "08-アイコンとピクトグラム",
+  "title": "アンケート",
+  "description": "同じ設問に対する回答を集める調査を示す。",
+  "keywords": [
+    "アンケート",
+    "調査",
+    "回答",
+    "設問",
+    "質問票",
+    "survey",
+    "questionnaire",
+    "feedback"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "顧客や従業員へのアンケートを示す。",
+    "message": "同じ質問で複数の意見を集める。",
+    "reading": [
+      "綴じた用紙が質問票を表す。",
+      "行ごとの選択欄が回答を表す。"
+    ],
+    "avoid": "調査結果の代表性や回答数を示す用途には使わない。"
+  },
+  "schema_version": 2,
+  "id": "icon/survey",
+  "name": "意見収集_回答を集める_選択式アンケート",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/survey.svg",
+  "metadata_path": "metadata/icon/survey.json",
+  "search_text": "icon/survey\n意見収集_回答を集める_選択式アンケート\nアンケート\n顧客や従業員へのアンケートを示す。\n同じ質問で複数の意見を集める。\n綴じた用紙が質問票を表す。\n行ごとの選択欄が回答を表す。\nアンケート 調査 回答 設問 質問票 survey questionnaire feedback",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "8d798724be6cbec744dd38e380c242b62a2a95d31d3e7ed4fb10382e23951a86",
+  "size_bytes": 1478
+}

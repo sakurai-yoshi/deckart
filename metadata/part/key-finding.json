@@ -1,0 +1,80 @@
+{
+  "category": "07-注釈と見出し",
+  "title": "最も伝えたい示唆を抜き出す",
+  "description": "短い区分と大きな二行の結論を組み合わせた要点表示の部品。",
+  "keywords": [
+    "示唆",
+    "結論",
+    "発見",
+    "要点",
+    "強調",
+    "takeaway",
+    "insight",
+    "finding"
+  ],
+  "labels": [
+    {
+      "x": 40,
+      "y": 39,
+      "width": 92,
+      "height": 33,
+      "text": "示唆",
+      "role": "区分",
+      "align": "center",
+      "color": "#FFFFFF",
+      "font_size": 23.571,
+      "id": "label-1",
+      "color_role": "paper",
+      "max_lines": 1,
+      "max_fullwidth_chars": 3
+    },
+    {
+      "x": 65,
+      "y": 115,
+      "width": 900,
+      "height": 143,
+      "text": "案内を増やすより、\n窓口のつながりを整える。",
+      "role": "要点",
+      "align": "left",
+      "color": "#153A6B",
+      "font_size": 43,
+      "id": "label-2",
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 19
+    }
+  ],
+  "width": 1000,
+  "height": 285,
+  "kind": "part",
+  "guidance": {
+    "use_case": "分析から得た一つの示唆を強調する場面。",
+    "message": "この一文が説明の要点である。",
+    "reading": [
+      "小さな区分表示で欄の役割を示す。",
+      "下の大きな一文へ読み手の視線を集める。"
+    ],
+    "avoid": "重要度の異なる複数の結論を詰め込む用途には使わない。"
+  },
+  "schema_version": 2,
+  "id": "part/key-finding",
+  "name": "最も伝えたい示唆を抜き出す_説明パーツ",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1000,
+    "height": 285
+  },
+  "path": "assets/part/key-finding.svg",
+  "metadata_path": "metadata/part/key-finding.json",
+  "search_text": "part/key-finding\n最も伝えたい示唆を抜き出す_説明パーツ\n最も伝えたい示唆を抜き出す\n分析から得た一つの示唆を強調する場面。\nこの一文が説明の要点である。\n小さな区分表示で欄の役割を示す。\n下の大きな一文へ読み手の視線を集める。\n示唆 結論 発見 要点 強調 takeaway insight finding",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "8fa671e27ad6626b7a8212fa7cf45d1d222ead38d45f2da03b2699b2d14aaa9f",
+  "size_bytes": 711
+}

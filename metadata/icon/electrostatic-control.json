@@ -1,0 +1,49 @@
+{
+  "category": "08-アイコンとピクトグラム",
+  "title": "静電気対策",
+  "description": "静電気による部品への影響を抑える。",
+  "keywords": [
+    "静電気",
+    "ESD",
+    "電子部品",
+    "放電",
+    "帯電",
+    "electrostatic",
+    "discharge",
+    "control"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "電子部品を静電気から守る対策の見出しに添える。",
+    "message": "静電気による部品への影響を抑える。",
+    "reading": [
+      "チップ内部の稲妻が静電気による影響を表す。",
+      "斜線がその影響を抑える意図を示す。"
+    ],
+    "avoid": "説明資料向けの記号。法令・規格に適合した安全標識や現場掲示の代用には使わない。"
+  },
+  "schema_version": 2,
+  "id": "icon/electrostatic-control",
+  "name": "静電気対策_製造業務の記号",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/electrostatic-control.svg",
+  "metadata_path": "metadata/icon/electrostatic-control.json",
+  "search_text": "icon/electrostatic-control\n静電気対策_製造業務の記号\n静電気対策\n電子部品を静電気から守る対策の見出しに添える。\n静電気による部品への影響を抑える。\nチップ内部の稲妻が静電気による影響を表す。\n斜線がその影響を抑える意図を示す。\n静電気 ESD 電子部品 放電 帯電 electrostatic discharge control",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "338fae427f06cd36b496da88320bcacbef3fe3c5038242909f41cea3fe9443d4",
+  "size_bytes": 2474
+}

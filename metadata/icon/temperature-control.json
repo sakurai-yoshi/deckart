@@ -1,0 +1,49 @@
+{
+  "category": "08-アイコンとピクトグラム",
+  "title": "温度管理",
+  "description": "温度を確認して適切な範囲に保つ。",
+  "keywords": [
+    "温度",
+    "管理",
+    "加熱",
+    "冷却",
+    "計測",
+    "temperature",
+    "thermal",
+    "control"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "保管温度や工程温度の管理を示す。",
+    "message": "温度を確認して適切な範囲に保つ。",
+    "reading": [
+      "液柱の温度計が測る対象を示す。",
+      "目盛り横の括りが管理する範囲を表す。"
+    ],
+    "avoid": "記号は業務の種類を示す。数値、認証取得、測定結果を保証する印には使わない。"
+  },
+  "schema_version": 2,
+  "id": "icon/temperature-control",
+  "name": "温度管理_製造業務の記号",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/temperature-control.svg",
+  "metadata_path": "metadata/icon/temperature-control.json",
+  "search_text": "icon/temperature-control\n温度管理_製造業務の記号\n温度管理\n保管温度や工程温度の管理を示す。\n温度を確認して適切な範囲に保つ。\n液柱の温度計が測る対象を示す。\n目盛り横の括りが管理する範囲を表す。\n温度 管理 加熱 冷却 計測 temperature thermal control",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "21926a3028852869b3abd10c7fc289ec0d3855bf2405a67a6393bf7ddb1e23fe",
+  "size_bytes": 1318
+}

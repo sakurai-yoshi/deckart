@@ -1,0 +1,49 @@
+{
+  "category": "08-アイコンとピクトグラム",
+  "title": "支払・決済",
+  "description": "商品やサービスの代金を支払う行為を示す。",
+  "keywords": [
+    "支払",
+    "決済",
+    "代金",
+    "カード",
+    "振込",
+    "payment",
+    "settlement",
+    "checkout"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "代金支払や決済の工程に配置する。",
+    "message": "取引の代金を支払う。",
+    "reading": [
+      "カードの帯とチップが決済手段を表す。",
+      "外向きの矢印が代金を渡す行為を表す。"
+    ],
+    "avoid": "カードブランドや利用可能な決済方法の一覧には使わない。"
+  },
+  "schema_version": 2,
+  "id": "icon/payment",
+  "name": "支払手続_代金を決済する_カード決済",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/payment.svg",
+  "metadata_path": "metadata/icon/payment.json",
+  "search_text": "icon/payment\n支払手続_代金を決済する_カード決済\n支払・決済\n代金支払や決済の工程に配置する。\n取引の代金を支払う。\nカードの帯とチップが決済手段を表す。\n外向きの矢印が代金を渡す行為を表す。\n支払 決済 代金 カード 振込 payment settlement checkout",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "c58d6b3873a07ba1a876d28bbacb84d1269a41ff62b0e285f1482358ecbcfc59",
+  "size_bytes": 950
+}

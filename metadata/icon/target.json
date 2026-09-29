@@ -1,0 +1,49 @@
+{
+  "category": "08-アイコンとピクトグラム",
+  "title": "目標",
+  "description": "目指す到達点や達成したい目標を示す。",
+  "keywords": [
+    "目標",
+    "達成",
+    "KPI",
+    "目的",
+    "到達",
+    "target",
+    "objective",
+    "goal"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "事業目標や達成指標の見出しに添える。",
+    "message": "目指す到達点を明確にする。",
+    "reading": [
+      "同心円が目指す中心を表す。",
+      "中心へ向かう矢が目標に取り組む行為を表す。"
+    ],
+    "avoid": "実際の達成率や達成済みの状態としては使わない。"
+  },
+  "schema_version": 2,
+  "id": "icon/target",
+  "name": "目標設定_目指す到達点を定める_的と矢",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/target.svg",
+  "metadata_path": "metadata/icon/target.json",
+  "search_text": "icon/target\n目標設定_目指す到達点を定める_的と矢\n目標\n事業目標や達成指標の見出しに添える。\n目指す到達点を明確にする。\n同心円が目指す中心を表す。\n中心へ向かう矢が目標に取り組む行為を表す。\n目標 達成 KPI 目的 到達 target objective goal",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "bea819f642b3ee6e76810a5c774e1829a6360b3c7b46147ee48899ac77519058",
+  "size_bytes": 929
+}

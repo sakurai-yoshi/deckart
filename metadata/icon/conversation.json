@@ -1,0 +1,51 @@
+{
+  "category": "08-アイコンとピクトグラム",
+  "title": "対話・コミュニケーション",
+  "description": "相手との対話や意見のやり取りを示す。",
+  "keywords": [
+    "対話",
+    "会話",
+    "連絡",
+    "意見",
+    "コミュニケーション",
+    "相談",
+    "communication",
+    "conversation",
+    "chat",
+    "dialogue"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "話し合いや意見交換が必要な場面。",
+    "message": "相手と情報や考えを交わす。",
+    "reading": [
+      "重なった二つの吹き出しが双方の発言を表す。",
+      "前の吹き出しの点が話している内容を表す。"
+    ],
+    "avoid": "通信の到達や相手の同意を確認した状態としては使わない。"
+  },
+  "schema_version": 2,
+  "id": "icon/conversation",
+  "name": "対話表示_意見を交わす_ふたつの吹き出し",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/conversation.svg",
+  "metadata_path": "metadata/icon/conversation.json",
+  "search_text": "icon/conversation\n対話表示_意見を交わす_ふたつの吹き出し\n対話・コミュニケーション\n話し合いや意見交換が必要な場面。\n相手と情報や考えを交わす。\n重なった二つの吹き出しが双方の発言を表す。\n前の吹き出しの点が話している内容を表す。\n対話 会話 連絡 意見 コミュニケーション 相談 communication conversation chat dialogue",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "57bfa524175dc8aee68716a076205dbc32fe6a2e00998a48ca8b1e2b8ed23ca5",
+  "size_bytes": 1114
+}

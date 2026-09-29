@@ -1,0 +1,61 @@
+{
+  "kind": "illustration",
+  "category": "06-業務イラスト",
+  "labels": [],
+  "preview_path": "previews/illustration/shipment-consolidation.png",
+  "placement": {
+    "framing": "object",
+    "facing": "front",
+    "recommended_width_cm": [
+      4,
+      7
+    ]
+  },
+  "title": "荷物をひとまとめにする",
+  "description": "四つの箱を一枚のパレットへ載せ、二本の帯でまとめて荷扱いする関係を表す。",
+  "keywords": [
+    "集約",
+    "出荷",
+    "配送",
+    "物流",
+    "荷物",
+    "shipment",
+    "consolidation"
+  ],
+  "guidance": {
+    "use_case": "出荷の集約、まとめ配送、荷扱い回数の削減を説明する。",
+    "message": "複数の荷物をひとつの単位にまとめて運ぶ。",
+    "reading": [
+      "四つの箱を一枚のパレット上へまとめる。",
+      "箱とパレットを結ぶ二本の帯が、ひとつの荷扱い単位を表す。"
+    ],
+    "avoid": "実物の寸法・仕様や、作業手順を示す図としては使用しない。"
+  },
+  "width": 1254,
+  "height": 1254,
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/illustrations.json"
+  },
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": true,
+  "canvas": {
+    "width": 1254,
+    "height": 1254
+  },
+  "schema_version": 2,
+  "id": "illustration/shipment-consolidation",
+  "name": "荷物をひとまとめにする_業務イラスト",
+  "license": "CC0-1.0",
+  "path": "media/illustration/shipment-consolidation.png",
+  "metadata_path": "metadata/illustration/shipment-consolidation.json",
+  "search_text": "illustration/shipment-consolidation\n荷物をひとまとめにする_業務イラスト\n荷物をひとまとめにする\n出荷の集約、まとめ配送、荷扱い回数の削減を説明する。\n複数の荷物をひとつの単位にまとめて運ぶ。\n四つの箱を一枚のパレット上へまとめる。\n箱とパレットを結ぶ二本の帯が、ひとつの荷扱い単位を表す。\n集約 出荷 配送 物流 荷物 shipment consolidation\nobject 物 道具 front 正面 [4, 7] ",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "1ef5d9c25f6a5a79c6dd04e2905cf95b43c785e18fbfdd4cda45853ba85812cf",
+  "size_bytes": 806371
+}

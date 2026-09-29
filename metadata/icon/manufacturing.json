@@ -1,0 +1,49 @@
+{
+  "category": "08-アイコンとピクトグラム",
+  "title": "製造",
+  "description": "原料や部品を製品にする製造工程を示す。",
+  "keywords": [
+    "製造",
+    "工場",
+    "生産",
+    "加工",
+    "製品",
+    "manufacturing",
+    "factory",
+    "production"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "製造部門や生産工程を業務フローに配置する。",
+    "message": "工場で製品を生産する。",
+    "reading": [
+      "連続する鋸屋根が工場の作業棟を表す。",
+      "煙突と窓の並びが製造設備のある場所を示す。"
+    ],
+    "avoid": "生産量や工場の排出量を表す用途には使わない。"
+  },
+  "schema_version": 2,
+  "id": "icon/manufacturing",
+  "name": "生産管理_製品を製造する_工場",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/manufacturing.svg",
+  "metadata_path": "metadata/icon/manufacturing.json",
+  "search_text": "icon/manufacturing\n生産管理_製品を製造する_工場\n製造\n製造部門や生産工程を業務フローに配置する。\n工場で製品を生産する。\n連続する鋸屋根が工場の作業棟を表す。\n煙突と窓の並びが製造設備のある場所を示す。\n製造 工場 生産 加工 製品 manufacturing factory production",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "ca56a5130e452bf5ecd601ba14876eb7747e33220b923361eb5ebcc02c5b7c6c",
+  "size_bytes": 1229
+}

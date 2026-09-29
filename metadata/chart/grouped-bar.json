@@ -1,0 +1,244 @@
+{
+  "category": "10-数値とグラフ",
+  "title": "項目ごとに前期と当期を比べる",
+  "description": "各項目の前期と当期を同じゼロ基準で並べる、二系列の集合棒グラフの作例。",
+  "keywords": [
+    "集合棒",
+    "グループ",
+    "棒グラフ",
+    "前期",
+    "当期",
+    "比較",
+    "カテゴリ",
+    "grouped",
+    "clustered",
+    "bar"
+  ],
+  "labels": [
+    {
+      "x": 65,
+      "y": 49,
+      "width": 360,
+      "height": 63,
+      "text": "単位：件",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-1",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 12
+    },
+    {
+      "x": 722,
+      "y": 47,
+      "width": 151,
+      "height": 61,
+      "text": "前期",
+      "role": "項目",
+      "align": "left",
+      "color": "#153A6B",
+      "id": "label-2",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 5
+    },
+    {
+      "x": 938,
+      "y": 47,
+      "width": 210,
+      "height": 61,
+      "text": "当期",
+      "role": "項目",
+      "align": "left",
+      "color": "#153A6B",
+      "id": "label-3",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 7
+    },
+    {
+      "x": 217,
+      "y": 594,
+      "width": 252,
+      "height": 63,
+      "text": "項目 A",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-4",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 8
+    },
+    {
+      "x": 522,
+      "y": 594,
+      "width": 252,
+      "height": 63,
+      "text": "項目 B",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-5",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 8
+    },
+    {
+      "x": 827,
+      "y": 594,
+      "width": 252,
+      "height": 63,
+      "text": "項目 C",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-6",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 8
+    }
+  ],
+  "width": 1200,
+  "height": 720,
+  "kind": "chart",
+  "data": {
+    "is_sample": true,
+    "unit": "件",
+    "categories": [
+      "項目 A",
+      "項目 B",
+      "項目 C"
+    ],
+    "series": [
+      {
+        "label": "前期",
+        "values": [
+          35,
+          50,
+          40
+        ]
+      },
+      {
+        "label": "当期",
+        "values": [
+          50,
+          65,
+          55
+        ]
+      }
+    ],
+    "chart_type": "grouped_bar",
+    "baseline": 0,
+    "domain": [
+      0,
+      80
+    ],
+    "ticks": [
+      0.0,
+      20.0,
+      40.0,
+      60.0,
+      80.0
+    ],
+    "plot": {
+      "x": 198,
+      "y": 150,
+      "width": 897,
+      "height": 420
+    },
+    "number_format": {
+      "maximum_significant_digits": 6,
+      "minimum_significant_digits": 3,
+      "large_or_small_values": "E notation",
+      "source_values": "series"
+    }
+  },
+  "guidance": {
+    "use_case": "複数項目について前期と当期の件数を比較する。",
+    "message": "項目ごとの変化と項目間の差を同じ目盛りで読める。",
+    "reading": [
+      "各組の左が前期、右が当期。",
+      "棒の底は共通の0件、上端の数値は各作例値。",
+      "淡色と主色は期間の違いを示す。"
+    ],
+    "avoid": "数値は作例。各組で左右の期間や縦軸の尺度を入れ替えない。"
+  },
+  "schema_version": 2,
+  "id": "chart/grouped-bar",
+  "name": "期間比較_項目ごとの前期と当期を比べる_集合棒グラフ作例",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1200,
+    "height": 720
+  },
+  "path": "assets/chart/grouped-bar.svg",
+  "metadata_path": "metadata/chart/grouped-bar.json",
+  "search_text": "chart/grouped-bar\n期間比較_項目ごとの前期と当期を比べる_集合棒グラフ作例\n項目ごとに前期と当期を比べる\n複数項目について前期と当期の件数を比較する。\n項目ごとの変化と項目間の差を同じ目盛りで読める。\n各組の左が前期、右が当期。\n棒の底は共通の0件、上端の数値は各作例値。\n淡色と主色は期間の違いを示す。\n集合棒 グループ 棒グラフ 前期 当期 比較 カテゴリ grouped clustered bar",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": true
+  },
+  "data_input": {
+    "chart_type": "grouped_bar",
+    "category_count": 3,
+    "series_count": 2,
+    "values_per_series": 3,
+    "required": [
+      "categories",
+      "series",
+      "unit"
+    ],
+    "constraints": [
+      "表示値は最大6有効桁。丸める場合も3有効桁以上を保つ。E表記で収まらない値は単位か小数桁を調整。入力値はseriesに保持。",
+      "文字は大判24px、小判20px以上で収まる長さ。収まらないカテゴリ名・系列名・単位は短縮して入力。",
+      "有限な数値。絶対値は1兆以下。大きな値は単位を変更して入力。",
+      "categoriesは16文字以内、series.label・unitは12文字以内。",
+      "値は0以上。",
+      "domainは[0,上限]。省略時は値から計算。上限は全値・残高以上。"
+    ],
+    "example": {
+      "categories": [
+        "項目 A",
+        "項目 B",
+        "項目 C"
+      ],
+      "series": [
+        {
+          "label": "前期",
+          "values": [
+            35,
+            50,
+            40
+          ]
+        },
+        {
+          "label": "当期",
+          "values": [
+            50,
+            65,
+            55
+          ]
+        }
+      ],
+      "unit": "件",
+      "domain": [
+        0,
+        80
+      ]
+    }
+  },
+  "sha256": "434f8fbce8944198a10ca52f606db625c1928bd6ed41079a2d73e574391a6fd3",
+  "size_bytes": 7666
+}

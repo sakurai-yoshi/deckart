@@ -1,0 +1,50 @@
+{
+  "category": "08-アイコンとピクトグラム",
+  "title": "相談に応える窓口",
+  "description": "問い合わせを受け、回答まで伴走する顧客サポートを示す。",
+  "keywords": [
+    "顧客対応",
+    "相談",
+    "問い合わせ",
+    "カスタマーサポート",
+    "窓口",
+    "ヘルプデスク",
+    "customer",
+    "support",
+    "helpdesk"
+  ],
+  "labels": [],
+  "width": 330,
+  "height": 280,
+  "guidance": {
+    "use_case": "顧客窓口や社内ヘルプデスクを紹介する場面。",
+    "message": "問い合わせを受け、回答まで支える。",
+    "reading": [
+      "ヘッドセットを着けた担当者が相談窓口を表す。",
+      "回答の吹き出しとチェックが応答・解決を表す。"
+    ],
+    "avoid": "応答時間や解決率の実績を示す用途には使わない。"
+  },
+  "kind": "icon",
+  "schema_version": 2,
+  "id": "icon/support-desk",
+  "name": "顧客対応_相談サポート_応答する窓口",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 330,
+    "height": 280
+  },
+  "path": "assets/icon/support-desk.svg",
+  "metadata_path": "metadata/icon/support-desk.json",
+  "search_text": "icon/support-desk\n顧客対応_相談サポート_応答する窓口\n相談に応える窓口\n顧客窓口や社内ヘルプデスクを紹介する場面。\n問い合わせを受け、回答まで支える。\nヘッドセットを着けた担当者が相談窓口を表す。\n回答の吹き出しとチェックが応答・解決を表す。\n顧客対応 相談 問い合わせ カスタマーサポート 窓口 ヘルプデスク customer support helpdesk",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "8e5327d576cbf7ea41f227ce3722e09cc568bfd711331b0820f148060e00a087",
+  "size_bytes": 4201
+}

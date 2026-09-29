@@ -1,0 +1,115 @@
+{
+  "category": "12-AIとデータ基盤",
+  "title": "許可した要求だけを通す",
+  "description": "権限確認を境界に置き、保護対象へ進む要求と止める要求を分ける。",
+  "keywords": [
+    "アクセス制御",
+    "認証",
+    "認可",
+    "権限",
+    "境界",
+    "保護",
+    "セキュリティ",
+    "security",
+    "boundary",
+    "authorization",
+    "access",
+    "control"
+  ],
+  "labels": [
+    {
+      "x": 85,
+      "y": 149,
+      "width": 236,
+      "height": 61,
+      "text": "権限のある利用者",
+      "role": "許可される側",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-1",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 8
+    },
+    {
+      "x": 74,
+      "y": 571,
+      "width": 270,
+      "height": 70,
+      "text": "権限のない利用者",
+      "role": "拒否される側",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-2",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 9
+    },
+    {
+      "x": 666,
+      "y": 136,
+      "width": 389,
+      "height": 60,
+      "text": "保護対象の領域",
+      "role": "守る範囲",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-3",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 13
+    },
+    {
+      "x": 597,
+      "y": 488,
+      "width": 461,
+      "height": 63,
+      "text": "許可した要求だけを通す",
+      "role": "境界の働き",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-4",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 16
+    }
+  ],
+  "width": 1200,
+  "height": 720,
+  "kind": "diagram",
+  "guidance": {
+    "use_case": "業務システムのアクセス制御で、権限確認を行う位置を説明する。",
+    "message": "利用者の権限を確かめてから、保護対象へのアクセスを許可する。",
+    "reading": [
+      "囲まれた右側が保護対象の範囲。",
+      "上の要求は権限確認を通り、システムへ届く。",
+      "下の要求は境界の外で止まる。"
+    ],
+    "avoid": "この構成だけで、すべての攻撃や情報漏えいを防げるとは示さない。"
+  },
+  "schema_version": 2,
+  "id": "technology/access-boundary",
+  "name": "情報保護_許可した要求だけを通す_権限確認と保護境界",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1200,
+    "height": 720
+  },
+  "path": "assets/technology/access-boundary.svg",
+  "metadata_path": "metadata/technology/access-boundary.json",
+  "search_text": "technology/access-boundary\n情報保護_許可した要求だけを通す_権限確認と保護境界\n許可した要求だけを通す\n業務システムのアクセス制御で、権限確認を行う位置を説明する。\n利用者の権限を確かめてから、保護対象へのアクセスを許可する。\n囲まれた右側が保護対象の範囲。\n上の要求は権限確認を通り、システムへ届く。\n下の要求は境界の外で止まる。\nアクセス制御 認証 認可 権限 境界 保護 セキュリティ security boundary authorization access control",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "79c76b1f5498f64d7fbf00e6ce419221b5f759c27d31222220e88334f7e33436",
+  "size_bytes": 4488
+}

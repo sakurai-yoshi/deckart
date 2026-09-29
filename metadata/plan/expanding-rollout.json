@@ -1,0 +1,114 @@
+{
+  "category": "04-計画と進捗",
+  "title": "利用範囲を確かめながら広げる",
+  "description": "検証対象から全社利用へ、確認を重ねて展開範囲を広げる計画を示す。",
+  "keywords": [
+    "段階展開",
+    "ロールアウト",
+    "パイロット",
+    "全社導入",
+    "試行",
+    "利用範囲",
+    "横展開"
+  ],
+  "labels": [
+    {
+      "x": 753,
+      "y": 107,
+      "width": 374,
+      "height": 74,
+      "text": "全社・全拠点へ展開",
+      "role": "項目",
+      "align": "left",
+      "color": "#153A6B",
+      "id": "label-1",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 13
+    },
+    {
+      "x": 753,
+      "y": 329,
+      "width": 374,
+      "height": 74,
+      "text": "関連部門へ拡大",
+      "role": "項目",
+      "align": "left",
+      "color": "#153A6B",
+      "id": "label-2",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 13
+    },
+    {
+      "x": 753,
+      "y": 497,
+      "width": 374,
+      "height": 74,
+      "text": "対象チームで検証",
+      "role": "項目",
+      "align": "left",
+      "color": "#153A6B",
+      "id": "label-3",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 13
+    },
+    {
+      "x": 226,
+      "y": 654,
+      "width": 789,
+      "height": 50,
+      "text": "確認できた範囲から広げる",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-4",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 27
+    }
+  ],
+  "width": 1200,
+  "height": 720,
+  "layout": {
+    "relation": "nested-scope",
+    "reading_direction": "inside-out"
+  },
+  "guidance": {
+    "use_case": "新しい業務ツールを一部チームから全社へ展開する。",
+    "message": "小さな範囲で確認しながら、利用対象を広げる。",
+    "reading": [
+      "内側が最初の検証チーム。",
+      "外側の領域ほど利用範囲が広い。",
+      "外向きの矢印が対象の拡大。"
+    ],
+    "avoid": "円の面積を利用人数や費用の比率として扱わない。"
+  },
+  "kind": "diagram",
+  "schema_version": 2,
+  "id": "plan/expanding-rollout",
+  "name": "展開計画_利用範囲を確かめながら広げる_段階的な展開範囲",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1200,
+    "height": 720
+  },
+  "path": "assets/plan/expanding-rollout.svg",
+  "metadata_path": "metadata/plan/expanding-rollout.json",
+  "search_text": "plan/expanding-rollout\n展開計画_利用範囲を確かめながら広げる_段階的な展開範囲\n利用範囲を確かめながら広げる\n新しい業務ツールを一部チームから全社へ展開する。\n小さな範囲で確認しながら、利用対象を広げる。\n内側が最初の検証チーム。\n外側の領域ほど利用範囲が広い。\n外向きの矢印が対象の拡大。\n段階展開 ロールアウト パイロット 全社導入 試行 利用範囲 横展開",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "e26c94b044e3e2d7cc34a87d5ca97912ffa4119d2ea8abf5f366acf3e6b92145",
+  "size_bytes": 2109
+}

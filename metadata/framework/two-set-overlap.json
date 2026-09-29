@@ -1,0 +1,131 @@
+{
+  "category": "09-循環とフレームワーク",
+  "title": "顧客の期待と自社の強みを重ねる",
+  "description": "二つの条件が重なる領域を、提供価値や共通課題として示す。",
+  "keywords": [
+    "ベン図",
+    "Venn",
+    "共通領域",
+    "重なり",
+    "価値提案",
+    "顧客ニーズ",
+    "強み",
+    "条件",
+    "overlap",
+    "intersection"
+  ],
+  "labels": [
+    {
+      "x": 303,
+      "y": 50,
+      "width": 294,
+      "height": 67,
+      "text": "顧客の期待",
+      "role": "集合A",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-1",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 10
+    },
+    {
+      "x": 603,
+      "y": 50,
+      "width": 294,
+      "height": 67,
+      "text": "自社の強み",
+      "role": "集合B",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-2",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 10
+    },
+    {
+      "x": 256,
+      "y": 310,
+      "width": 218,
+      "height": 110,
+      "text": "求められること",
+      "role": "Aのみ",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-3",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 7
+    },
+    {
+      "x": 726,
+      "y": 310,
+      "width": 218,
+      "height": 110,
+      "text": "提供できること",
+      "role": "Bのみ",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-4",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 7
+    },
+    {
+      "x": 535,
+      "y": 301,
+      "width": 130,
+      "height": 128,
+      "text": "提供価値",
+      "role": "共通領域",
+      "align": "center",
+      "color": "#FFFFFF",
+      "id": "label-5",
+      "font_size": 27,
+      "color_role": "paper",
+      "max_lines": 3,
+      "max_fullwidth_chars": 4
+    }
+  ],
+  "width": 1200,
+  "height": 720,
+  "kind": "diagram",
+  "guidance": {
+    "use_case": "商品提案で、顧客の期待と自社の強みが重なる領域を検討する。",
+    "message": "顧客が求め、自社が提供できる領域に価値が生まれる。",
+    "reading": [
+      "左の円が顧客の期待、右の円が自社の強み。",
+      "主色の重なりが両方の条件を満たす領域。"
+    ],
+    "avoid": "円や重なりの面積を件数・市場規模の比率として扱わない。"
+  },
+  "layout": {
+    "relation": "two-set-intersection",
+    "reading_direction": "outside-in"
+  },
+  "schema_version": 2,
+  "id": "framework/two-set-overlap",
+  "name": "価値提案_顧客の期待と自社の強みを重ねる_2集合の共通領域",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1200,
+    "height": 720
+  },
+  "path": "assets/framework/two-set-overlap.svg",
+  "metadata_path": "metadata/framework/two-set-overlap.json",
+  "search_text": "framework/two-set-overlap\n価値提案_顧客の期待と自社の強みを重ねる_2集合の共通領域\n顧客の期待と自社の強みを重ねる\n商品提案で、顧客の期待と自社の強みが重なる領域を検討する。\n顧客が求め、自社が提供できる領域に価値が生まれる。\n左の円が顧客の期待、右の円が自社の強み。\n主色の重なりが両方の条件を満たす領域。\nベン図 Venn 共通領域 重なり 価値提案 顧客ニーズ 強み 条件 overlap intersection",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "82fa77ab4643b0177cdbbaa08ba67fa8aae7bd8e837bbe2767ebb3a304da0ff1",
+  "size_bytes": 1016
+}

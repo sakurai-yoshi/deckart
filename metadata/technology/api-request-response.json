@@ -1,0 +1,128 @@
+{
+  "category": "12-AIとデータ基盤",
+  "title": "APIの要求と応答を対応させる",
+  "description": "呼び出す側と提供する側の間で、要求と応答を別の経路として示す。",
+  "keywords": [
+    "API",
+    "連携",
+    "要求",
+    "応答",
+    "接続",
+    "インターフェース",
+    "request",
+    "response",
+    "integration",
+    "service"
+  ],
+  "labels": [
+    {
+      "x": 58,
+      "y": 543,
+      "width": 290,
+      "height": 71,
+      "text": "呼び出すアプリ",
+      "role": "呼び出し元",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-1",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 10
+    },
+    {
+      "x": 492,
+      "y": 104,
+      "width": 214,
+      "height": 62,
+      "text": "共通のAPI",
+      "role": "接続の窓口",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-2",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 7
+    },
+    {
+      "x": 885,
+      "y": 543,
+      "width": 264,
+      "height": 71,
+      "text": "提供するサービス",
+      "role": "呼び出し先",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-3",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 9
+    },
+    {
+      "x": 365,
+      "y": 199,
+      "width": 136,
+      "height": 58,
+      "text": "要求",
+      "role": "行きの情報",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-4",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 4
+    },
+    {
+      "x": 725,
+      "y": 442,
+      "width": 133,
+      "height": 58,
+      "text": "応答",
+      "role": "戻りの情報",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-5",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 4
+    }
+  ],
+  "width": 1200,
+  "height": 720,
+  "kind": "diagram",
+  "guidance": {
+    "use_case": "二つのシステムをAPIで連携する際の基本的な通信方向を説明する。",
+    "message": "要求を受けたサービスが、呼び出したアプリへ応答を返す。",
+    "reading": [
+      "上の矢印がアプリからサービスへの要求。",
+      "中央の二つの入口がAPIで受け渡す窓口。",
+      "下の矢印が元のアプリへ戻る応答。"
+    ],
+    "avoid": "非同期イベントや一方向の通知を、この往復と同じものとして扱わない。"
+  },
+  "schema_version": 2,
+  "id": "technology/api-request-response",
+  "name": "システム連携_要求と応答を対応させる_APIの往復",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1200,
+    "height": 720
+  },
+  "path": "assets/technology/api-request-response.svg",
+  "metadata_path": "metadata/technology/api-request-response.json",
+  "search_text": "technology/api-request-response\nシステム連携_要求と応答を対応させる_APIの往復\nAPIの要求と応答を対応させる\n二つのシステムをAPIで連携する際の基本的な通信方向を説明する。\n要求を受けたサービスが、呼び出したアプリへ応答を返す。\n上の矢印がアプリからサービスへの要求。\n中央の二つの入口がAPIで受け渡す窓口。\n下の矢印が元のアプリへ戻る応答。\nAPI 連携 要求 応答 接続 インターフェース request response integration service",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "df38343c1d13444156f2869dbf9cc7347cc7c4bd72b1ceb560dfcc1f358cc130",
+  "size_bytes": 5089
+}

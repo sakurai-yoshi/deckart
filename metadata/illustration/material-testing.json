@@ -1,0 +1,62 @@
+{
+  "title": "材料の状態を比較する",
+  "kind": "illustration",
+  "category": "06-業務イラスト",
+  "width": 1254,
+  "height": 1254,
+  "keywords": [
+    "材料",
+    "評価",
+    "試験",
+    "比較",
+    "material",
+    "testing",
+    "evaluation"
+  ],
+  "guidance": {
+    "use_case": "材料評価、試験前確認、材料選定の説明。",
+    "message": "材料の状態を確かめ、用途に合う性質を検討する。",
+    "reading": [
+      "同じ形の二つの試料を並べて観察する。",
+      "両手の試料と視線で比較する行為を示す。"
+    ],
+    "avoid": "強度や成分などの測定結果を示す図としては使用しない。"
+  },
+  "labels": [],
+  "preview_path": "previews/illustration/material-testing.png",
+  "placement": {
+    "framing": "waist-up",
+    "facing": "left",
+    "people_count": 1,
+    "recommended_width_cm": [
+      3.5,
+      8
+    ]
+  },
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/illustrations.json"
+  },
+  "description": "材料の状態を確かめ、用途に合う性質を検討する。",
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": true,
+  "canvas": {
+    "width": 1254,
+    "height": 1254
+  },
+  "schema_version": 2,
+  "id": "illustration/material-testing",
+  "name": "材料の状態を比較する_メーカー業務の動作",
+  "license": "CC0-1.0",
+  "path": "media/illustration/material-testing.png",
+  "metadata_path": "metadata/illustration/material-testing.json",
+  "search_text": "illustration/material-testing\n材料の状態を比較する_メーカー業務の動作\n材料の状態を比較する\n材料評価、試験前確認、材料選定の説明。\n材料の状態を確かめ、用途に合う性質を検討する。\n同じ形の二つの試料を並べて観察する。\n両手の試料と視線で比較する行為を示す。\n材料 評価 試験 比較 material testing evaluation\nwaist-up 上半身 腰上 left 左向き 1  [3.5, 8] ",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "f11cc66c92e99042805f50e14843cb55c64bf07490ead2acd874da3b32ec8c7d",
+  "size_bytes": 871175
+}

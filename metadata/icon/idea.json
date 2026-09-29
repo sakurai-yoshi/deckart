@@ -1,0 +1,50 @@
+{
+  "category": "08-アイコンとピクトグラム",
+  "title": "アイデア",
+  "description": "発想、気付き、改善のヒントを示す。",
+  "keywords": [
+    "発想",
+    "アイデア",
+    "ひらめき",
+    "気付き",
+    "改善",
+    "工夫",
+    "idea",
+    "lightbulb",
+    "insight"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "新しい案や改善の着眼点を示す場面。",
+    "message": "仕事を変える発想や気付きがある。",
+    "reading": [
+      "電球の輪郭がひらめきを表す。",
+      "内部の発光部がアイデアに焦点を当てる。"
+    ],
+    "avoid": "省エネルギーの実績や照明設備の仕様を示す用途には使わない。"
+  },
+  "schema_version": 2,
+  "id": "icon/idea",
+  "name": "発想表示_アイデアを示す_ひらめきの電球",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/idea.svg",
+  "metadata_path": "metadata/icon/idea.json",
+  "search_text": "icon/idea\n発想表示_アイデアを示す_ひらめきの電球\nアイデア\n新しい案や改善の着眼点を示す場面。\n仕事を変える発想や気付きがある。\n電球の輪郭がひらめきを表す。\n内部の発光部がアイデアに焦点を当てる。\n発想 アイデア ひらめき 気付き 改善 工夫 idea lightbulb insight",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "f8babbbc20508097c9404299c5647f27e6c8a39b80dc7ca3fc0340205adab16f",
+  "size_bytes": 944
+}

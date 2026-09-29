@@ -1,0 +1,62 @@
+{
+  "title": "台車で資材を運ぶ",
+  "kind": "illustration",
+  "category": "06-業務イラスト",
+  "width": 1254,
+  "height": 1254,
+  "keywords": [
+    "搬送",
+    "資材",
+    "運搬",
+    "物流",
+    "materials",
+    "transport",
+    "trolley"
+  ],
+  "guidance": {
+    "use_case": "構内物流、資材搬送、作業効率の説明。",
+    "message": "資材を安定させて、必要な場所へ運ぶ。",
+    "reading": [
+      "台車の荷台と車輪が荷物を支える。",
+      "両手でハンドルを持ち、進行方向へ運ぶ。"
+    ],
+    "avoid": "積載可能重量や安全基準を示す図としては使用しない。"
+  },
+  "labels": [],
+  "preview_path": "previews/illustration/moving-materials.png",
+  "placement": {
+    "framing": "full-body",
+    "facing": "right",
+    "people_count": 1,
+    "recommended_width_cm": [
+      5,
+      10
+    ]
+  },
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/illustrations.json"
+  },
+  "description": "資材を安定させて、必要な場所へ運ぶ。",
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": true,
+  "canvas": {
+    "width": 1254,
+    "height": 1254
+  },
+  "schema_version": 2,
+  "id": "illustration/moving-materials",
+  "name": "台車で資材を運ぶ_メーカー業務の動作",
+  "license": "CC0-1.0",
+  "path": "media/illustration/moving-materials.png",
+  "metadata_path": "metadata/illustration/moving-materials.json",
+  "search_text": "illustration/moving-materials\n台車で資材を運ぶ_メーカー業務の動作\n台車で資材を運ぶ\n構内物流、資材搬送、作業効率の説明。\n資材を安定させて、必要な場所へ運ぶ。\n台車の荷台と車輪が荷物を支える。\n両手でハンドルを持ち、進行方向へ運ぶ。\n搬送 資材 運搬 物流 materials transport trolley\nfull-body 全身 right 右向き 1  [5, 10] ",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "5940538e44c6a5c1bb39be7a97bc298ac46d554fe1cbe68286d966e31683c388",
+  "size_bytes": 568836
+}

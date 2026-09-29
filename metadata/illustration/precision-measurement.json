@@ -1,0 +1,62 @@
+{
+  "title": "部品の寸法を測る",
+  "kind": "illustration",
+  "category": "06-業務イラスト",
+  "width": 1254,
+  "height": 1254,
+  "keywords": [
+    "測定",
+    "寸法",
+    "精度",
+    "計測",
+    "measurement",
+    "precision",
+    "caliper"
+  ],
+  "guidance": {
+    "use_case": "寸法検査、測定工程、精度管理の説明。",
+    "message": "寸法を測り、製品の精度を確かめる。",
+    "reading": [
+      "ノギスの両顎を部品の両側へ当てる。",
+      "片手で対象を支えて寸法を確かめる。"
+    ],
+    "avoid": "実際の寸法、公差、測定精度の証明には使用しない。"
+  },
+  "labels": [],
+  "preview_path": "previews/illustration/precision-measurement.png",
+  "placement": {
+    "framing": "waist-up",
+    "facing": "left",
+    "people_count": 1,
+    "recommended_width_cm": [
+      4,
+      8
+    ]
+  },
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/illustrations.json"
+  },
+  "description": "寸法を測り、製品の精度を確かめる。",
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": true,
+  "canvas": {
+    "width": 1254,
+    "height": 1254
+  },
+  "schema_version": 2,
+  "id": "illustration/precision-measurement",
+  "name": "部品の寸法を測る_メーカー業務の動作",
+  "license": "CC0-1.0",
+  "path": "media/illustration/precision-measurement.png",
+  "metadata_path": "metadata/illustration/precision-measurement.json",
+  "search_text": "illustration/precision-measurement\n部品の寸法を測る_メーカー業務の動作\n部品の寸法を測る\n寸法検査、測定工程、精度管理の説明。\n寸法を測り、製品の精度を確かめる。\nノギスの両顎を部品の両側へ当てる。\n片手で対象を支えて寸法を確かめる。\n測定 寸法 精度 計測 measurement precision caliper\nwaist-up 上半身 腰上 left 左向き 1  [4, 8] ",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "5aba8eb945b168ea4b9c376ef3d5bf7b1369710ae3cc8f057805bd778fb429ce",
+  "size_bytes": 950153
+}

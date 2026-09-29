@@ -1,0 +1,142 @@
+{
+  "category": "03-関係と連携",
+  "title": "各層の入口で接続を管理する",
+  "description": "利用者との接点、業務処理、データ保持を分け、それぞれの接続の入口を示す。",
+  "keywords": [
+    "システム構成",
+    "アーキテクチャ",
+    "三層",
+    "認証",
+    "API",
+    "データアクセス",
+    "ゲートウェイ",
+    "接続",
+    "境界"
+  ],
+  "labels": [
+    {
+      "x": 436,
+      "y": 134,
+      "width": 575,
+      "height": 70,
+      "text": "利用者との接点",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-1",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 20
+    },
+    {
+      "x": 436,
+      "y": 327,
+      "width": 575,
+      "height": 70,
+      "text": "業務を処理する層",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-2",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 20
+    },
+    {
+      "x": 436,
+      "y": 520,
+      "width": 575,
+      "height": 70,
+      "text": "データを保持する層",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-3",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 20
+    },
+    {
+      "x": 87,
+      "y": 38,
+      "width": 386,
+      "height": 62,
+      "text": "認証を確認する入口",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-4",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 13
+    },
+    {
+      "x": 87,
+      "y": 236,
+      "width": 386,
+      "height": 62,
+      "text": "処理を受け付ける入口",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-5",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 13
+    },
+    {
+      "x": 87,
+      "y": 430,
+      "width": 386,
+      "height": 62,
+      "text": "データへ接続する入口",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-6",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 13
+    }
+  ],
+  "width": 1200,
+  "height": 720,
+  "guidance": {
+    "use_case": "システムの概念説明で、利用・処理・データの接続管理を分けて示す。",
+    "message": "各層の入口で接続を管理する。",
+    "reading": [
+      "三つの横長の領域は利用・処理・データの層。",
+      "各領域の左の記号は管理する入口。",
+      "右向きの矢印はその層への接続。"
+    ],
+    "avoid": "実際の通信順序や認証方式の仕様図には使わない。"
+  },
+  "kind": "diagram",
+  "schema_version": 2,
+  "id": "relationship/controlled-system-layers",
+  "name": "システム構成_三つの層と接続の入口_認証APIデータ",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1200,
+    "height": 720
+  },
+  "path": "assets/relationship/controlled-system-layers.svg",
+  "metadata_path": "metadata/relationship/controlled-system-layers.json",
+  "search_text": "relationship/controlled-system-layers\nシステム構成_三つの層と接続の入口_認証APIデータ\n各層の入口で接続を管理する\nシステムの概念説明で、利用・処理・データの接続管理を分けて示す。\n各層の入口で接続を管理する。\n三つの横長の領域は利用・処理・データの層。\n各領域の左の記号は管理する入口。\n右向きの矢印はその層への接続。\nシステム構成 アーキテクチャ 三層 認証 API データアクセス ゲートウェイ 接続 境界",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "8f80ea7be0d284b460073f1a994aebeb5f8a82d523c6d5c27139651849c08fb9",
+  "size_bytes": 2994
+}

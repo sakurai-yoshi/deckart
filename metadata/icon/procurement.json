@@ -1,0 +1,49 @@
+{
+  "category": "08-アイコンとピクトグラム",
+  "title": "調達・購買",
+  "description": "必要な物品や原材料を購入することを示す。",
+  "keywords": [
+    "調達",
+    "購買",
+    "仕入",
+    "購入",
+    "原材料",
+    "procurement",
+    "purchasing",
+    "sourcing"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "調達や仕入の工程を業務フローに配置する。",
+    "message": "必要な物品を外部から購入する。",
+    "reading": [
+      "カートが購買を表す。",
+      "中へ入る矢印が必要な物品を取り入れる行為を表す。"
+    ],
+    "avoid": "調達済みの状態や発注金額の表示には使わない。"
+  },
+  "schema_version": 2,
+  "id": "icon/procurement",
+  "name": "購買活動_必要な物品を調達する_購買カート",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/procurement.svg",
+  "metadata_path": "metadata/icon/procurement.json",
+  "search_text": "icon/procurement\n購買活動_必要な物品を調達する_購買カート\n調達・購買\n調達や仕入の工程を業務フローに配置する。\n必要な物品を外部から購入する。\nカートが購買を表す。\n中へ入る矢印が必要な物品を取り入れる行為を表す。\n調達 購買 仕入 購入 原材料 procurement purchasing sourcing",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "80199ebe15c05bf43e11979c11d39ef13c064221e36e7c7b658431af949c4aeb",
+  "size_bytes": 1115
+}

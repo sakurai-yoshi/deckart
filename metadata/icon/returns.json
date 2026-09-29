@@ -1,0 +1,48 @@
+{
+  "category": "08-アイコンとピクトグラム",
+  "title": "返品",
+  "description": "受け取った品物を返す手続きを示す。",
+  "keywords": [
+    "返品",
+    "返送",
+    "交換",
+    "返却",
+    "return",
+    "reverse",
+    "logistics"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "返品受付や返送の工程に配置する。",
+    "message": "品物を送り元へ戻す。",
+    "reading": [
+      "箱が返す品物を表す。",
+      "上を戻る矢印が返送の向きを表す。"
+    ],
+    "avoid": "返金や返品条件の承認まで含めた意味では使わない。"
+  },
+  "schema_version": 2,
+  "id": "icon/returns",
+  "name": "返品手続_品物を差し戻す_荷物と戻り矢印",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/returns.svg",
+  "metadata_path": "metadata/icon/returns.json",
+  "search_text": "icon/returns\n返品手続_品物を差し戻す_荷物と戻り矢印\n返品\n返品受付や返送の工程に配置する。\n品物を送り元へ戻す。\n箱が返す品物を表す。\n上を戻る矢印が返送の向きを表す。\n返品 返送 交換 返却 return reverse logistics",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "7fb9ee03981b99188946e447540789ed35f9818746f06648b32e891423fc1d41",
+  "size_bytes": 987
+}

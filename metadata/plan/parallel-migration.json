@@ -1,0 +1,160 @@
+{
+  "category": "04-計画と進捗",
+  "title": "並行運用から稼働系を切り替える",
+  "description": "旧環境と新環境の並行期間、データ移行、稼働系の切替点を説明する。",
+  "keywords": [
+    "システム移行",
+    "切替",
+    "並行運用",
+    "データ移行",
+    "カットオーバー",
+    "新旧",
+    "更改"
+  ],
+  "labels": [
+    {
+      "x": 108,
+      "y": 103,
+      "width": 418,
+      "height": 68,
+      "text": "現在の稼働環境",
+      "role": "項目",
+      "align": "left",
+      "color": "#153A6B",
+      "id": "label-1",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 14
+    },
+    {
+      "x": 107,
+      "y": 538,
+      "width": 425,
+      "height": 46,
+      "text": "移行先を準備・検証",
+      "role": "項目",
+      "align": "left",
+      "color": "#153A6B",
+      "id": "label-2",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 14
+    },
+    {
+      "x": 839,
+      "y": 140,
+      "width": 292,
+      "height": 62,
+      "text": "旧環境を終了",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-3",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 10
+    },
+    {
+      "x": 815,
+      "y": 552,
+      "width": 316,
+      "height": 65,
+      "text": "新環境で稼働",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-4",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 11
+    },
+    {
+      "x": 332,
+      "y": 327,
+      "width": 252,
+      "height": 76,
+      "text": "データを引き継ぐ",
+      "role": "項目",
+      "align": "left",
+      "color": "#153A6B",
+      "id": "label-5",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 8
+    },
+    {
+      "x": 175,
+      "y": 629,
+      "width": 643,
+      "height": 55,
+      "text": "並行運用しながら段階的に切替",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-6",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 22
+    },
+    {
+      "x": 538,
+      "y": 59,
+      "width": 329,
+      "height": 68,
+      "text": "稼働系を切り替える",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-7",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 11
+    }
+  ],
+  "width": 1200,
+  "height": 720,
+  "layout": {
+    "relation": "parallel-tracks-with-switchover",
+    "reading_direction": "left-to-right"
+  },
+  "guidance": {
+    "use_case": "既存システムから新環境への更改手順を共有する。",
+    "message": "新環境を準備し、データを引き継いで稼働系を移す。",
+    "reading": [
+      "上段が旧環境、下段が新環境。",
+      "太い経路が実際に稼働する環境の切替。",
+      "下向きの点線がデータの引継ぎ。",
+      "上段の終端バーが旧環境の終了。"
+    ],
+    "avoid": "障害時の切戻し手順をこの一方向の経路で説明しない。"
+  },
+  "kind": "diagram",
+  "schema_version": 2,
+  "id": "plan/parallel-migration",
+  "name": "移行計画_並行運用から稼働系を切り替える_新旧の切替経路",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1200,
+    "height": 720
+  },
+  "path": "assets/plan/parallel-migration.svg",
+  "metadata_path": "metadata/plan/parallel-migration.json",
+  "search_text": "plan/parallel-migration\n移行計画_並行運用から稼働系を切り替える_新旧の切替経路\n並行運用から稼働系を切り替える\n既存システムから新環境への更改手順を共有する。\n新環境を準備し、データを引き継いで稼働系を移す。\n上段が旧環境、下段が新環境。\n太い経路が実際に稼働する環境の切替。\n下向きの点線がデータの引継ぎ。\n上段の終端バーが旧環境の終了。\nシステム移行 切替 並行運用 データ移行 カットオーバー 新旧 更改",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "b1e7efe7f2e2b29f1dbb2cd1ff20b8365561b1bad6c3fc64d727c194c7594127",
+  "size_bytes": 3055
+}

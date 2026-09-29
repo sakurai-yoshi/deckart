@@ -1,0 +1,159 @@
+{
+  "category": "04-計画と進捗",
+  "title": "完了日を左右する依存関係",
+  "description": "完了日につながる主要経路と、それを支える工程の依存関係を示す。",
+  "keywords": [
+    "クリティカルパス",
+    "依存関係",
+    "先行工程",
+    "マイルストーン",
+    "納期",
+    "工程",
+    "計画"
+  ],
+  "labels": [
+    {
+      "x": 112,
+      "y": 93,
+      "width": 226,
+      "height": 66,
+      "text": "準備条件",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-1",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 7
+    },
+    {
+      "x": 376,
+      "y": 93,
+      "width": 230,
+      "height": 66,
+      "text": "必要な確認",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-2",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 8
+    },
+    {
+      "x": 642,
+      "y": 93,
+      "width": 230,
+      "height": 66,
+      "text": "関連作業",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-3",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 8
+    },
+    {
+      "x": 101,
+      "y": 490,
+      "width": 248,
+      "height": 76,
+      "text": "着手条件を満たす",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-4",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 8
+    },
+    {
+      "x": 369,
+      "y": 490,
+      "width": 244,
+      "height": 76,
+      "text": "中間成果を確定",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-5",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 8
+    },
+    {
+      "x": 635,
+      "y": 490,
+      "width": 244,
+      "height": 76,
+      "text": "最終確認を終える",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-6",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 8
+    },
+    {
+      "x": 345,
+      "y": 622,
+      "width": 600,
+      "height": 63,
+      "text": "下段が完了日を左右する主要経路",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-7",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 20
+    }
+  ],
+  "width": 1200,
+  "height": 720,
+  "layout": {
+    "relation": "dependency-path",
+    "reading_direction": "left-to-right"
+  },
+  "guidance": {
+    "use_case": "納期を守るために優先して管理する工程と前提条件を共有する。",
+    "message": "主要経路の節目は、必要な条件が揃わないと進めない。",
+    "reading": [
+      "主色の太い経路が完了日を左右する工程。",
+      "上の菱形が各節目の前提条件。",
+      "下向きの矢印が前提と工程の依存関係。"
+    ],
+    "avoid": "実際のクリティカルパスは所要期間と依存関係から確認する。"
+  },
+  "kind": "diagram",
+  "schema_version": 2,
+  "id": "plan/critical-dependencies",
+  "name": "計画管理_完了日を左右する依存関係を示す_主要経路と補助工程",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1200,
+    "height": 720
+  },
+  "path": "assets/plan/critical-dependencies.svg",
+  "metadata_path": "metadata/plan/critical-dependencies.json",
+  "search_text": "plan/critical-dependencies\n計画管理_完了日を左右する依存関係を示す_主要経路と補助工程\n完了日を左右する依存関係\n納期を守るために優先して管理する工程と前提条件を共有する。\n主要経路の節目は、必要な条件が揃わないと進めない。\n主色の太い経路が完了日を左右する工程。\n上の菱形が各節目の前提条件。\n下向きの矢印が前提と工程の依存関係。\nクリティカルパス 依存関係 先行工程 マイルストーン 納期 工程 計画",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "4364fa28106c527ab6ff52f75795bcd14808247d55dc45d9e2b9352cde324822",
+  "size_bytes": 4234
+}

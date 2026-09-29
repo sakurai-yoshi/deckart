@@ -1,0 +1,62 @@
+{
+  "title": "受け取った資材を照合する",
+  "kind": "illustration",
+  "category": "06-業務イラスト",
+  "width": 1254,
+  "height": 1254,
+  "keywords": [
+    "受入",
+    "入荷",
+    "照合",
+    "資材",
+    "receiving",
+    "incoming",
+    "materials"
+  ],
+  "guidance": {
+    "use_case": "資材受入、入荷確認、購買から現場への引渡しの説明。",
+    "message": "受け取った資材を確認して、次の工程へつなぐ。",
+    "reading": [
+      "開いた箱から受入品を取り出し、現物を確かめる。",
+      "手元の部品と箱の中身で確認する対象を示す。"
+    ],
+    "avoid": "正式な受入検査の合格や数量一致を保証する表現には使用しない。"
+  },
+  "labels": [],
+  "preview_path": "previews/illustration/receiving-materials.png",
+  "placement": {
+    "framing": "waist-up",
+    "facing": "left",
+    "people_count": 1,
+    "recommended_width_cm": [
+      4.5,
+      9
+    ]
+  },
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/illustrations.json"
+  },
+  "description": "受け取った資材を確認して、次の工程へつなぐ。",
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": true,
+  "canvas": {
+    "width": 1254,
+    "height": 1254
+  },
+  "schema_version": 2,
+  "id": "illustration/receiving-materials",
+  "name": "受け取った資材を照合する_メーカー業務の動作",
+  "license": "CC0-1.0",
+  "path": "media/illustration/receiving-materials.png",
+  "metadata_path": "metadata/illustration/receiving-materials.json",
+  "search_text": "illustration/receiving-materials\n受け取った資材を照合する_メーカー業務の動作\n受け取った資材を照合する\n資材受入、入荷確認、購買から現場への引渡しの説明。\n受け取った資材を確認して、次の工程へつなぐ。\n開いた箱から受入品を取り出し、現物を確かめる。\n手元の部品と箱の中身で確認する対象を示す。\n受入 入荷 照合 資材 receiving incoming materials\nwaist-up 上半身 腰上 left 左向き 1  [4.5, 9] ",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "19b423f6cc4131fd439713e14642562c71a614fe222037f21138131e28ec7c8a",
+  "size_bytes": 933657
+}

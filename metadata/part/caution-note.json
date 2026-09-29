@@ -1,0 +1,80 @@
+{
+  "category": "07-注釈と見出し",
+  "title": "実行前の条件を明示する",
+  "description": "注意記号と細い側線で、実行前に確認する条件を短く示す部品。",
+  "keywords": [
+    "注意",
+    "前提",
+    "条件",
+    "留意点",
+    "制約",
+    "caution",
+    "prerequisite",
+    "condition"
+  ],
+  "labels": [
+    {
+      "x": 126,
+      "y": 52,
+      "width": 730,
+      "height": 54,
+      "text": "実行前に確認する条件",
+      "role": "注意見出し",
+      "align": "left",
+      "color": "#153A6B",
+      "font_size": 29,
+      "id": "label-1",
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 23
+    },
+    {
+      "x": 126,
+      "y": 127,
+      "width": 730,
+      "height": 75,
+      "text": "担当範囲と、判断を戻す条件を合意しておく。",
+      "role": "注意の内容",
+      "align": "left",
+      "color": "#153A6B",
+      "font_size": 29,
+      "id": "label-2",
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 23
+    }
+  ],
+  "width": 920,
+  "height": 264,
+  "kind": "part",
+  "guidance": {
+    "use_case": "提案や手順に、実行の前提を添える場面。",
+    "message": "実行前に確認する条件がある。",
+    "reading": [
+      "注意記号で事前確認が必要な欄と分かる。",
+      "見出しの下に具体的な条件を一文で置く。"
+    ],
+    "avoid": "緊急避難や重大事故の警報には使わない。"
+  },
+  "schema_version": 2,
+  "id": "part/caution-note",
+  "name": "実行前の条件を明示する_説明パーツ",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 920,
+    "height": 264
+  },
+  "path": "assets/part/caution-note.svg",
+  "metadata_path": "metadata/part/caution-note.json",
+  "search_text": "part/caution-note\n実行前の条件を明示する_説明パーツ\n実行前の条件を明示する\n提案や手順に、実行の前提を添える場面。\n実行前に確認する条件がある。\n注意記号で事前確認が必要な欄と分かる。\n見出しの下に具体的な条件を一文で置く。\n注意 前提 条件 留意点 制約 caution prerequisite condition",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "2a57f8686874977b57aa70c6e108ba557ab33f7b9e833ac9a09cbce365da43e0",
+  "size_bytes": 972
+}

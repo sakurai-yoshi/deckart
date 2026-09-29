@@ -1,0 +1,49 @@
+{
+  "category": "08-アイコンとピクトグラム",
+  "title": "倉庫・保管",
+  "description": "入出庫する物品の保管場所を示す。",
+  "keywords": [
+    "倉庫",
+    "保管",
+    "物流",
+    "拠点",
+    "ストック",
+    "warehouse",
+    "storage",
+    "depot"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "物品の保管場所や物流拠点を示す。",
+    "message": "物品をまとめて保管する場所がある。",
+    "reading": [
+      "大きな入口を持つ建物が倉庫を表す。",
+      "入口付近の箱が保管する荷物を示す。"
+    ],
+    "avoid": "保管容量や在庫数量を図の箱数で示さない。"
+  },
+  "schema_version": 2,
+  "id": "icon/warehouse",
+  "name": "保管管理_物品を倉庫に置く_倉庫と荷物",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/warehouse.svg",
+  "metadata_path": "metadata/icon/warehouse.json",
+  "search_text": "icon/warehouse\n保管管理_物品を倉庫に置く_倉庫と荷物\n倉庫・保管\n物品の保管場所や物流拠点を示す。\n物品をまとめて保管する場所がある。\n大きな入口を持つ建物が倉庫を表す。\n入口付近の箱が保管する荷物を示す。\n倉庫 保管 物流 拠点 ストック warehouse storage depot",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "d51f9040fb46e1542f793f4154e78c8e733853ac4a64a32dd406bf7cf39d0570",
+  "size_bytes": 1762
+}

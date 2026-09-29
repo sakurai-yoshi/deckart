@@ -1,0 +1,49 @@
+{
+  "category": "08-アイコンとピクトグラム",
+  "title": "通い箱",
+  "description": "容器を使い捨てず繰り返し使う。",
+  "keywords": [
+    "通い箱",
+    "回収",
+    "再利用",
+    "容器",
+    "梱包",
+    "returnable",
+    "reusable",
+    "container"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "梱包容器を回収して再利用する運用を示す。",
+    "message": "容器を使い捨てず繰り返し使う。",
+    "reading": [
+      "開いた格子の箱が回収可能な容器を表す。",
+      "上に戻る矢印が次の利用へ回すことを示す。"
+    ],
+    "avoid": "記号は業務の種類を示す。数値、認証取得、測定結果を保証する印には使わない。"
+  },
+  "schema_version": 2,
+  "id": "icon/returnable-container",
+  "name": "通い箱_製造業務の記号",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/returnable-container.svg",
+  "metadata_path": "metadata/icon/returnable-container.json",
+  "search_text": "icon/returnable-container\n通い箱_製造業務の記号\n通い箱\n梱包容器を回収して再利用する運用を示す。\n容器を使い捨てず繰り返し使う。\n開いた格子の箱が回収可能な容器を表す。\n上に戻る矢印が次の利用へ回すことを示す。\n通い箱 回収 再利用 容器 梱包 returnable reusable container",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "73e4e726c4ea09efd99c225b1d9e0c8e7c5f3b7badf014730f1ec44bbebb4506",
+  "size_bytes": 1349
+}

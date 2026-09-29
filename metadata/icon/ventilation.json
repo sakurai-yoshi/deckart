@@ -1,0 +1,48 @@
+{
+  "category": "08-アイコンとピクトグラム",
+  "title": "換気",
+  "description": "空気を外へ流して作業環境を整える。",
+  "keywords": [
+    "換気",
+    "空気",
+    "排気",
+    "環境",
+    "ventilation",
+    "airflow",
+    "exhaust"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "作業環境の換気や空気の入れ替えを示す。",
+    "message": "空気を外へ流して作業環境を整える。",
+    "reading": [
+      "格子のある開口が換気口を表す。",
+      "外向きの三本の流れが排気する方向を示す。"
+    ],
+    "avoid": "説明資料向けの記号。法令・規格に適合した安全標識や現場掲示の代用には使わない。"
+  },
+  "schema_version": 2,
+  "id": "icon/ventilation",
+  "name": "換気_製造業務の記号",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/ventilation.svg",
+  "metadata_path": "metadata/icon/ventilation.json",
+  "search_text": "icon/ventilation\n換気_製造業務の記号\n換気\n作業環境の換気や空気の入れ替えを示す。\n空気を外へ流して作業環境を整える。\n格子のある開口が換気口を表す。\n外向きの三本の流れが排気する方向を示す。\n換気 空気 排気 環境 ventilation airflow exhaust",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "19f932c223bfa713faabcc336f935f441316089775b2701982b6152ed74a1679",
+  "size_bytes": 1613
+}

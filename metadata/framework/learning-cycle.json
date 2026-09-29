@@ -1,0 +1,116 @@
+{
+  "category": "09-循環とフレームワーク",
+  "title": "気づきから小さな実験を繰り返す",
+  "description": "気づき・実験・学習を往復し、改善の確からしさを高める。",
+  "keywords": [
+    "学習",
+    "実験",
+    "気づき",
+    "検証",
+    "振り返り",
+    "仮説",
+    "継続改善",
+    "learning",
+    "iteration"
+  ],
+  "labels": [
+    {
+      "x": 532,
+      "y": 123,
+      "width": 136,
+      "height": 94,
+      "text": "変化に\n気づく",
+      "role": "気づき",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-1",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 4
+    },
+    {
+      "x": 802,
+      "y": 448,
+      "width": 136,
+      "height": 94,
+      "text": "小さく\n試す",
+      "role": "実験",
+      "align": "center",
+      "color": "#FFFFFF",
+      "id": "label-2",
+      "font_size": 27,
+      "color_role": "paper",
+      "max_lines": 2,
+      "max_fullwidth_chars": 4
+    },
+    {
+      "x": 262,
+      "y": 448,
+      "width": 136,
+      "height": 94,
+      "text": "結果から\n学ぶ",
+      "role": "学習",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-3",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 4
+    },
+    {
+      "x": 467,
+      "y": 333,
+      "width": 266,
+      "height": 92,
+      "text": "学びを次の実験へ",
+      "role": "目的",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-4",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 9
+    }
+  ],
+  "width": 1200,
+  "height": 720,
+  "kind": "diagram",
+  "guidance": {
+    "use_case": "業務改善のアイデアを小さく試し、結果から次の手を考える。",
+    "message": "一度で答えを決めず、気づき・実験・学習を繰り返す。",
+    "reading": [
+      "上の丸が変化や課題への気づき。",
+      "右下で小さく試し、左下で結果から学ぶ。",
+      "戻りの矢印が次の気づきにつながる。"
+    ],
+    "avoid": "正式な承認や監査の手順として使わない。"
+  },
+  "layout": {
+    "relation": "three-stage-cycle",
+    "reading_direction": "clockwise"
+  },
+  "schema_version": 2,
+  "id": "framework/learning-cycle",
+  "name": "学習改善_気づきから小さな実験を繰り返す_3段階学習サイクル",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1200,
+    "height": 720
+  },
+  "path": "assets/framework/learning-cycle.svg",
+  "metadata_path": "metadata/framework/learning-cycle.json",
+  "search_text": "framework/learning-cycle\n学習改善_気づきから小さな実験を繰り返す_3段階学習サイクル\n気づきから小さな実験を繰り返す\n業務改善のアイデアを小さく試し、結果から次の手を考える。\n一度で答えを決めず、気づき・実験・学習を繰り返す。\n上の丸が変化や課題への気づき。\n右下で小さく試し、左下で結果から学ぶ。\n戻りの矢印が次の気づきにつながる。\n学習 実験 気づき 検証 振り返り 仮説 継続改善 learning iteration",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "2cb6dc071c7a394e7ad838b30e63e4774080b6198547ad6de1f6f3dd988be2a0",
+  "size_bytes": 2505
+}

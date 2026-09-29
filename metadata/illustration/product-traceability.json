@@ -1,0 +1,63 @@
+{
+  "title": "製品と記録を結び付ける",
+  "kind": "illustration",
+  "category": "06-業務イラスト",
+  "width": 1254,
+  "height": 1254,
+  "keywords": [
+    "トレーサビリティ",
+    "識別",
+    "製品",
+    "記録",
+    "ロット",
+    "traceability",
+    "identification",
+    "record"
+  ],
+  "guidance": {
+    "use_case": "製品と記録の紐付け、識別管理、品質履歴の説明。",
+    "message": "現物の識別情報と記録を対応させる。",
+    "reading": [
+      "製品に結び付いたタグが識別の対象を示す。",
+      "同じ製品とタグが記録カードにも描かれる。"
+    ],
+    "avoid": "実在する製造番号や認証、追跡情報を示す図としては使用しない。"
+  },
+  "labels": [],
+  "preview_path": "previews/illustration/product-traceability.png",
+  "placement": {
+    "framing": "object",
+    "facing": "front",
+    "people_count": 0,
+    "recommended_width_cm": [
+      4,
+      7
+    ]
+  },
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/illustrations.json"
+  },
+  "description": "現物の識別情報と記録を対応させる。",
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": true,
+  "canvas": {
+    "width": 1254,
+    "height": 1254
+  },
+  "schema_version": 2,
+  "id": "illustration/product-traceability",
+  "name": "製品と記録を結び付ける_メーカー業務の構成",
+  "license": "CC0-1.0",
+  "path": "media/illustration/product-traceability.png",
+  "metadata_path": "metadata/illustration/product-traceability.json",
+  "search_text": "illustration/product-traceability\n製品と記録を結び付ける_メーカー業務の構成\n製品と記録を結び付ける\n製品と記録の紐付け、識別管理、品質履歴の説明。\n現物の識別情報と記録を対応させる。\n製品に結び付いたタグが識別の対象を示す。\n同じ製品とタグが記録カードにも描かれる。\nトレーサビリティ 識別 製品 記録 ロット traceability identification record\nobject 物 道具 front 正面 0  [4, 7] ",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "65a96653b30d50bf6b01e54507df4a834ade41758184c3ab66e4f3e68f3e7a05",
+  "size_bytes": 630120
+}

@@ -1,0 +1,116 @@
+{
+  "category": "12-AIとデータ基盤",
+  "title": "参照資料から根拠付き回答へ",
+  "description": "質問に関係する箇所を検索し、出典の対応を保って回答へ渡す。",
+  "keywords": [
+    "AI",
+    "RAG",
+    "検索拡張生成",
+    "根拠",
+    "出典",
+    "引用",
+    "資料",
+    "検索",
+    "ナレッジ",
+    "retrieval",
+    "evidence",
+    "citation",
+    "grounding"
+  ],
+  "labels": [
+    {
+      "x": 73,
+      "y": 76,
+      "width": 221,
+      "height": 61,
+      "text": "参照資料",
+      "role": "検索対象",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-1",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 7
+    },
+    {
+      "x": 453,
+      "y": 105,
+      "width": 156,
+      "height": 51,
+      "text": "質問",
+      "role": "検索する問い",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-2",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 5
+    },
+    {
+      "x": 391,
+      "y": 536,
+      "width": 276,
+      "height": 57,
+      "text": "関連する根拠",
+      "role": "抽出する内容",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-3",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 9
+    },
+    {
+      "x": 817,
+      "y": 75,
+      "width": 330,
+      "height": 61,
+      "text": "根拠付き回答",
+      "role": "利用する結果",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-4",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 11
+    }
+  ],
+  "width": 1200,
+  "height": 720,
+  "kind": "diagram",
+  "guidance": {
+    "use_case": "社内資料を参照するAIが、回答の根拠をどのように取り込むか説明する。",
+    "message": "見つけた資料の内容と出典を、回答まで対応させる。",
+    "reading": [
+      "左の二枚が参照資料、上の吹き出しが質問。",
+      "拡大鏡の中で関連する箇所を選ぶ。",
+      "回答の下の丸と菱形が、元の資料との対応を示す。"
+    ],
+    "avoid": "出典の表示だけで回答の正しさが保証されるとは扱わない。"
+  },
+  "schema_version": 2,
+  "id": "technology/rag-evidence",
+  "name": "AI活用_参照資料から根拠付き回答へ_検索と出典の対応",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1200,
+    "height": 720
+  },
+  "path": "assets/technology/rag-evidence.svg",
+  "metadata_path": "metadata/technology/rag-evidence.json",
+  "search_text": "technology/rag-evidence\nAI活用_参照資料から根拠付き回答へ_検索と出典の対応\n参照資料から根拠付き回答へ\n社内資料を参照するAIが、回答の根拠をどのように取り込むか説明する。\n見つけた資料の内容と出典を、回答まで対応させる。\n左の二枚が参照資料、上の吹き出しが質問。\n拡大鏡の中で関連する箇所を選ぶ。\n回答の下の丸と菱形が、元の資料との対応を示す。\nAI RAG 検索拡張生成 根拠 出典 引用 資料 検索 ナレッジ retrieval evidence citation grounding",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "62e751706d2217c4dc24a4358c08a63e6d382f3710fb6cb550bf26e8de83d17f",
+  "size_bytes": 7647
+}

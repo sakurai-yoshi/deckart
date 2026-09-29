@@ -1,0 +1,61 @@
+{
+  "title": "考える",
+  "kind": "illustration",
+  "category": "06-業務イラスト",
+  "width": 1254,
+  "height": 1254,
+  "keywords": [
+    "思考",
+    "検討",
+    "課題",
+    "判断",
+    "考える",
+    "thinking",
+    "consideration"
+  ],
+  "guidance": {
+    "use_case": "検討、課題整理、意思決定の前段階を説明する挿絵に。",
+    "message": "立ち止まって考えを整理する。",
+    "reading": [
+      "顎へ添えた手と横へ向けた視線が、答えを検討する姿を示します。"
+    ],
+    "avoid": "実在の人物・業務実績・承認や確認の完了を証明する画像としては使えません。"
+  },
+  "labels": [],
+  "preview_path": "previews/illustration/thinking.png",
+  "placement": {
+    "framing": "waist-up",
+    "facing": "left",
+    "people_count": 1,
+    "recommended_width_cm": [
+      3,
+      6
+    ]
+  },
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/illustrations.json"
+  },
+  "description": "立ち止まって考えを整理する。",
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": true,
+  "canvas": {
+    "width": 1254,
+    "height": 1254
+  },
+  "schema_version": 2,
+  "id": "illustration/thinking",
+  "name": "考える_汎用ビジネスの動作",
+  "license": "CC0-1.0",
+  "path": "media/illustration/thinking.png",
+  "metadata_path": "metadata/illustration/thinking.json",
+  "search_text": "illustration/thinking\n考える_汎用ビジネスの動作\n考える\n検討、課題整理、意思決定の前段階を説明する挿絵に。\n立ち止まって考えを整理する。\n顎へ添えた手と横へ向けた視線が、答えを検討する姿を示します。\n思考 検討 課題 判断 考える thinking consideration\nwaist-up 上半身 腰上 left 左向き 1  [3, 6] ",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "17f652663a968a9d6b7522e7110d2008ff6d0a3c18d372f94d6c4ac9e5fac8a1",
+  "size_bytes": 695379
+}

@@ -1,0 +1,63 @@
+{
+  "title": "設備の状態を端末へつなぐ",
+  "kind": "illustration",
+  "category": "06-業務イラスト",
+  "width": 1254,
+  "height": 1254,
+  "keywords": [
+    "設備",
+    "センサー",
+    "接続",
+    "データ",
+    "監視",
+    "IoT",
+    "sensor",
+    "device data"
+  ],
+  "guidance": {
+    "use_case": "設備データの取得、状態監視、現場のデジタル化の説明。",
+    "message": "対象の状態を取得し、端末で確認できるようにする。",
+    "reading": [
+      "対象に取り付いたセンサーと端末がケーブルでつながる。",
+      "同形の信号を両方の画面に置き、情報の対応を示す。"
+    ],
+    "avoid": "波形は概念表現であり、実測データや性能、通信方式の説明には使用しない。"
+  },
+  "labels": [],
+  "preview_path": "previews/illustration/connected-device-data.png",
+  "placement": {
+    "framing": "object",
+    "facing": "front",
+    "people_count": 0,
+    "recommended_width_cm": [
+      4,
+      7
+    ]
+  },
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/illustrations.json"
+  },
+  "description": "対象の状態を取得し、端末で確認できるようにする。",
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": true,
+  "canvas": {
+    "width": 1254,
+    "height": 1254
+  },
+  "schema_version": 2,
+  "id": "illustration/connected-device-data",
+  "name": "設備の状態を端末へつなぐ_メーカー業務の構成",
+  "license": "CC0-1.0",
+  "path": "media/illustration/connected-device-data.png",
+  "metadata_path": "metadata/illustration/connected-device-data.json",
+  "search_text": "illustration/connected-device-data\n設備の状態を端末へつなぐ_メーカー業務の構成\n設備の状態を端末へつなぐ\n設備データの取得、状態監視、現場のデジタル化の説明。\n対象の状態を取得し、端末で確認できるようにする。\n対象に取り付いたセンサーと端末がケーブルでつながる。\n同形の信号を両方の画面に置き、情報の対応を示す。\n設備 センサー 接続 データ 監視 IoT sensor device data\nobject 物 道具 front 正面 0  [4, 7] ",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "ff1ad2fc73bd5e7ae0a065939f152a8a78c49d926aa0131b63d3ea1992dfab8f",
+  "size_bytes": 646149
+}

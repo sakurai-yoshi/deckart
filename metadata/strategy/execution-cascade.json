@@ -1,0 +1,111 @@
+{
+  "category": "05-組織と戦略",
+  "title": "方針を施策と日々の実行へ落とす",
+  "description": "方針を施策へ具体化し、日々の実行から得た学びを方針へ戻す。",
+  "keywords": [
+    "戦略",
+    "方針展開",
+    "実行施策",
+    "ブレイクダウン",
+    "カスケード",
+    "戦略実行",
+    "経営計画",
+    "フィードバック"
+  ],
+  "labels": [
+    {
+      "x": 210,
+      "y": 140,
+      "width": 322,
+      "height": 70,
+      "text": "目指す方向",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-1",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 11
+    },
+    {
+      "x": 450,
+      "y": 320,
+      "width": 322,
+      "height": 70,
+      "text": "実現する施策",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-2",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 11
+    },
+    {
+      "x": 690,
+      "y": 500,
+      "width": 322,
+      "height": 70,
+      "text": "日々の実行",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-3",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 11
+    },
+    {
+      "x": 295,
+      "y": 668,
+      "width": 610,
+      "height": 46,
+      "text": "実行から得た学びを方針へ戻す",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-4",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 21
+    }
+  ],
+  "width": 1200,
+  "height": 720,
+  "guidance": {
+    "use_case": "年度方針を部門施策と日々の活動へ展開する。",
+    "message": "方針を具体化し、実行の学びを方針へ戻す。",
+    "reading": [
+      "左上から右下へ方針・施策・実行の順に具体化する。",
+      "短い矢印は次の段階への受け渡し。",
+      "外周の経路は実行から方針へのフィードバック。"
+    ],
+    "avoid": "段の位置を役職の上下関係として扱わない。"
+  },
+  "kind": "diagram",
+  "schema_version": 2,
+  "id": "strategy/execution-cascade",
+  "name": "戦略展開_方針から日々の実行へ_連続する段階",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1200,
+    "height": 720
+  },
+  "path": "assets/strategy/execution-cascade.svg",
+  "metadata_path": "metadata/strategy/execution-cascade.json",
+  "search_text": "strategy/execution-cascade\n戦略展開_方針から日々の実行へ_連続する段階\n方針を施策と日々の実行へ落とす\n年度方針を部門施策と日々の活動へ展開する。\n方針を具体化し、実行の学びを方針へ戻す。\n左上から右下へ方針・施策・実行の順に具体化する。\n短い矢印は次の段階への受け渡し。\n外周の経路は実行から方針へのフィードバック。\n戦略 方針展開 実行施策 ブレイクダウン カスケード 戦略実行 経営計画 フィードバック",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "0d58140423c940e07edca5eed7af2f734604ec6b5ffe02d316d194c73f0c53d4",
+  "size_bytes": 2270
+}

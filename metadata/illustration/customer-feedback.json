@@ -1,0 +1,61 @@
+{
+  "title": "声を集める",
+  "kind": "illustration",
+  "category": "06-業務イラスト",
+  "width": 1254,
+  "height": 1254,
+  "keywords": [
+    "顧客の声",
+    "フィードバック",
+    "アンケート",
+    "意見",
+    "feedback",
+    "voice",
+    "survey"
+  ],
+  "guidance": {
+    "use_case": "顧客の声、アンケート、意見収集、サービス改善の導入に。",
+    "message": "届いた意見を集めて読み取る。",
+    "reading": [
+      "開いた返信封筒と取り出した回答カードが、届いた意見を読み取る場面を示します。"
+    ],
+    "avoid": "数値や条件を示す実資料には、編集可能な文字・図表を併用してください。"
+  },
+  "labels": [],
+  "preview_path": "previews/illustration/customer-feedback.png",
+  "placement": {
+    "framing": "object",
+    "facing": "front",
+    "people_count": 0,
+    "recommended_width_cm": [
+      4,
+      7
+    ]
+  },
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/illustrations.json"
+  },
+  "description": "届いた意見を集めて読み取る。",
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": true,
+  "canvas": {
+    "width": 1254,
+    "height": 1254
+  },
+  "schema_version": 2,
+  "id": "illustration/customer-feedback",
+  "name": "声を集める_物で伝える業務",
+  "license": "CC0-1.0",
+  "path": "media/illustration/customer-feedback.png",
+  "metadata_path": "metadata/illustration/customer-feedback.json",
+  "search_text": "illustration/customer-feedback\n声を集める_物で伝える業務\n声を集める\n顧客の声、アンケート、意見収集、サービス改善の導入に。\n届いた意見を集めて読み取る。\n開いた返信封筒と取り出した回答カードが、届いた意見を読み取る場面を示します。\n顧客の声 フィードバック アンケート 意見 feedback voice survey\nobject 物 道具 front 正面 0  [4, 7] ",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "fb58bc0cede7e27df417bbf69df90981a4bd9f98d4347b3ce547af39ebe19daf",
+  "size_bytes": 774162
+}

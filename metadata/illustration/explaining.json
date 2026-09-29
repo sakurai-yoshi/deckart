@@ -1,0 +1,61 @@
+{
+  "title": "説明する",
+  "kind": "illustration",
+  "category": "06-業務イラスト",
+  "width": 1254,
+  "height": 1254,
+  "keywords": [
+    "説明",
+    "案内",
+    "共有",
+    "手順",
+    "方針",
+    "explain",
+    "guide"
+  ],
+  "guidance": {
+    "use_case": "手順・方針・製品の説明に添える挿絵に。",
+    "message": "相手へ内容をわかりやすく伝える。",
+    "reading": [
+      "開いた手のひらが説明する方向を示し、抱えた資料が内容を補います。"
+    ],
+    "avoid": "実在の人物・業務実績・承認や確認の完了を証明する画像としては使えません。"
+  },
+  "labels": [],
+  "preview_path": "previews/illustration/explaining.png",
+  "placement": {
+    "framing": "waist-up",
+    "facing": "left",
+    "people_count": 1,
+    "recommended_width_cm": [
+      3,
+      6
+    ]
+  },
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/illustrations.json"
+  },
+  "description": "相手へ内容をわかりやすく伝える。",
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": true,
+  "canvas": {
+    "width": 1254,
+    "height": 1254
+  },
+  "schema_version": 2,
+  "id": "illustration/explaining",
+  "name": "説明する_汎用ビジネスの動作",
+  "license": "CC0-1.0",
+  "path": "media/illustration/explaining.png",
+  "metadata_path": "metadata/illustration/explaining.json",
+  "search_text": "illustration/explaining\n説明する_汎用ビジネスの動作\n説明する\n手順・方針・製品の説明に添える挿絵に。\n相手へ内容をわかりやすく伝える。\n開いた手のひらが説明する方向を示し、抱えた資料が内容を補います。\n説明 案内 共有 手順 方針 explain guide\nwaist-up 上半身 腰上 left 左向き 1  [3, 6] ",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "9e374a90fc9b2e6870089c08b156e44c08e4c4f1e9673fda2feb83d828f72d97",
+  "size_bytes": 694567
+}

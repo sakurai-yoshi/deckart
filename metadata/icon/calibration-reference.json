@@ -1,0 +1,48 @@
+{
+  "category": "08-アイコンとピクトグラム",
+  "title": "基準器による校正",
+  "description": "測定器を既知の基準と照らし合わせる。",
+  "keywords": [
+    "校正",
+    "基準器",
+    "測定器",
+    "精度",
+    "calibration",
+    "reference",
+    "instrument"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "測定器の校正や基準器の管理を説明する。",
+    "message": "測定器を既知の基準と照らし合わせる。",
+    "reading": [
+      "上の計器が校正する測定器を表す。",
+      "接触する下のブロックが測定の基準を表す。"
+    ],
+    "avoid": "記号は業務の種類を示す。数値、認証取得、測定結果を保証する印には使わない。"
+  },
+  "schema_version": 2,
+  "id": "icon/calibration-reference",
+  "name": "基準器による校正_製造業務の記号",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/calibration-reference.svg",
+  "metadata_path": "metadata/icon/calibration-reference.json",
+  "search_text": "icon/calibration-reference\n基準器による校正_製造業務の記号\n基準器による校正\n測定器の校正や基準器の管理を説明する。\n測定器を既知の基準と照らし合わせる。\n上の計器が校正する測定器を表す。\n接触する下のブロックが測定の基準を表す。\n校正 基準器 測定器 精度 calibration reference instrument",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "44d9dc60cdcbefb84559bfaec32c53494c829ad396b0d2793e738ff6c5b9bd26",
+  "size_bytes": 1528
+}

@@ -1,0 +1,50 @@
+{
+  "category": "08-アイコンとピクトグラム",
+  "title": "資金繰り",
+  "description": "資金の入金と出金の流れを示す。",
+  "keywords": [
+    "資金繰り",
+    "資金",
+    "キャッシュフロー",
+    "入金",
+    "出金",
+    "cash",
+    "flow",
+    "liquidity",
+    "finance"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "入出金や運転資金の流れを説明する。",
+    "message": "資金が入出金を通じて動く。",
+    "reading": [
+      "二つの硬貨が異なる時点の資金を表す。",
+      "上下の矢印が資金の流れを表す。"
+    ],
+    "avoid": "矢印の長さを入出金額や期間として使わない。"
+  },
+  "schema_version": 2,
+  "id": "icon/cash-flow",
+  "name": "資金管理_入金と出金の流れを捉える_循環する資金",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/cash-flow.svg",
+  "metadata_path": "metadata/icon/cash-flow.json",
+  "search_text": "icon/cash-flow\n資金管理_入金と出金の流れを捉える_循環する資金\n資金繰り\n入出金や運転資金の流れを説明する。\n資金が入出金を通じて動く。\n二つの硬貨が異なる時点の資金を表す。\n上下の矢印が資金の流れを表す。\n資金繰り 資金 キャッシュフロー 入金 出金 cash flow liquidity finance",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "36a9e22afc18242a07a2cd1e7c7f1ca916bcc8589840f55f65f95c85d849c1df",
+  "size_bytes": 1564
+}

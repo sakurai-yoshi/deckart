@@ -1,0 +1,110 @@
+{
+  "category": "07-注釈と見出し",
+  "title": "囲った対象と対象外を区別する",
+  "description": "上と左右の括りで対象を示し、その外側へ対象外を置く部品。",
+  "keywords": [
+    "対象",
+    "対象外",
+    "範囲",
+    "除外",
+    "スコープ",
+    "include",
+    "exclude",
+    "scope"
+  ],
+  "labels": [
+    {
+      "x": 56,
+      "y": 55,
+      "width": 556,
+      "height": 54,
+      "text": "今回、見直す範囲",
+      "role": "対象の見出し",
+      "align": "left",
+      "color": "#2864F0",
+      "font_size": 27,
+      "id": "label-1",
+      "color_role": "accent",
+      "max_lines": 1,
+      "max_fullwidth_chars": 19
+    },
+    {
+      "x": 56,
+      "y": 151,
+      "width": 556,
+      "height": 87,
+      "text": "受付・確認依頼・経過連絡",
+      "role": "対象範囲",
+      "align": "left",
+      "color": "#153A6B",
+      "font_size": 33,
+      "id": "label-2",
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 15
+    },
+    {
+      "x": 754,
+      "y": 50,
+      "width": 246,
+      "height": 39,
+      "text": "対象外",
+      "role": "対象外の区分",
+      "align": "center",
+      "color": "#FFFFFF",
+      "font_size": 25,
+      "id": "label-3",
+      "color_role": "paper",
+      "max_lines": 1,
+      "max_fullwidth_chars": 9
+    },
+    {
+      "x": 742,
+      "y": 133,
+      "width": 270,
+      "height": 116,
+      "text": "価格の決裁\n契約内容の変更",
+      "role": "対象外",
+      "align": "left",
+      "color": "#153A6B",
+      "font_size": 28,
+      "id": "label-4",
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 9
+    }
+  ],
+  "width": 1040,
+  "height": 295,
+  "kind": "part",
+  "guidance": {
+    "use_case": "説明の対象を短く区切って共有する場面。",
+    "message": "括った対象だけを今回の範囲として扱う。",
+    "reading": [
+      "左の括りに今回の対象をまとめる。",
+      "右の独立した欄に対象外を明示する。"
+    ],
+    "avoid": "対象外を不要な業務という意味で使う用途には使わない。"
+  },
+  "schema_version": 2,
+  "id": "part/included-and-excluded",
+  "name": "囲った対象と対象外を区別する_説明パーツ",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1040,
+    "height": 295
+  },
+  "path": "assets/part/included-and-excluded.svg",
+  "metadata_path": "metadata/part/included-and-excluded.json",
+  "search_text": "part/included-and-excluded\n囲った対象と対象外を区別する_説明パーツ\n囲った対象と対象外を区別する\n説明の対象を短く区切って共有する場面。\n括った対象だけを今回の範囲として扱う。\n左の括りに今回の対象をまとめる。\n右の独立した欄に対象外を明示する。\n対象 対象外 範囲 除外 スコープ include exclude scope",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "290e68914e10417bde3dcbfceea9289b38c79c99cdf451339f2cf08db1c7c0d0",
+  "size_bytes": 903
+}

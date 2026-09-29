@@ -1,0 +1,49 @@
+{
+  "category": "08-アイコンとピクトグラム",
+  "title": "納期管理",
+  "description": "配送物と届ける時期を一組で管理する。",
+  "keywords": [
+    "納期",
+    "期限",
+    "出荷",
+    "締切",
+    "リードタイム",
+    "deadline",
+    "delivery",
+    "due"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "製品を届ける期日や出荷期限を説明する。",
+    "message": "配送物と届ける時期を一組で管理する。",
+    "reading": [
+      "箱が納める対象を表す。",
+      "時計が時期や期限という管理観点を示す。"
+    ],
+    "avoid": "記号は業務の種類を示す。数値、認証取得、測定結果を保証する印には使わない。"
+  },
+  "schema_version": 2,
+  "id": "icon/delivery-deadline",
+  "name": "納期管理_製造業務の記号",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/delivery-deadline.svg",
+  "metadata_path": "metadata/icon/delivery-deadline.json",
+  "search_text": "icon/delivery-deadline\n納期管理_製造業務の記号\n納期管理\n製品を届ける期日や出荷期限を説明する。\n配送物と届ける時期を一組で管理する。\n箱が納める対象を表す。\n時計が時期や期限という管理観点を示す。\n納期 期限 出荷 締切 リードタイム deadline delivery due",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "299babe09e257128b9019bb69c46081474f44dde354d547a04e70646311a1eb1",
+  "size_bytes": 888
+}

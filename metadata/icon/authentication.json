@@ -1,0 +1,49 @@
+{
+  "category": "08-アイコンとピクトグラム",
+  "title": "本人認証",
+  "description": "登録された本人かを確かめる認証を示す。",
+  "keywords": [
+    "本人確認",
+    "認証",
+    "指紋",
+    "ログイン",
+    "identity",
+    "authentication",
+    "fingerprint",
+    "login"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "本人認証やログイン確認の工程を示す。",
+    "message": "利用者の同一性を確かめる。",
+    "reading": [
+      "曲線の層が指紋の固有な模様を表す。",
+      "中央へ巻き込む線が一人に対応する特徴を示す。"
+    ],
+    "avoid": "実際の生体情報や特定の認証方式の保証には使わない。"
+  },
+  "schema_version": 2,
+  "id": "icon/authentication",
+  "name": "本人確認_利用者を識別する_指紋",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/authentication.svg",
+  "metadata_path": "metadata/icon/authentication.json",
+  "search_text": "icon/authentication\n本人確認_利用者を識別する_指紋\n本人認証\n本人認証やログイン確認の工程を示す。\n利用者の同一性を確かめる。\n曲線の層が指紋の固有な模様を表す。\n中央へ巻き込む線が一人に対応する特徴を示す。\n本人確認 認証 指紋 ログイン identity authentication fingerprint login",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "eead07dc5565a3571d084901f38abcb9859bca8f5d4b7f455fd187e3e0affe92",
+  "size_bytes": 1140
+}

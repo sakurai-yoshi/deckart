@@ -1,0 +1,94 @@
+{
+  "category": "07-注釈と見出し",
+  "title": "原則から例外を分けて示す",
+  "description": "上の原則に対して、下の分岐した欄へ例外の扱いを添える部品。",
+  "keywords": [
+    "原則",
+    "例外",
+    "運用",
+    "ルール",
+    "rule",
+    "exception",
+    "policy"
+  ],
+  "labels": [
+    {
+      "x": 54,
+      "y": 52,
+      "width": 892,
+      "height": 57,
+      "text": "原則：受付窓口が、回答までの経過を追う",
+      "role": "原則",
+      "align": "left",
+      "color": "#FFFFFF",
+      "font_size": 31,
+      "id": "label-1",
+      "color_role": "paper",
+      "max_lines": 1,
+      "max_fullwidth_chars": 27
+    },
+    {
+      "x": 243,
+      "y": 185,
+      "width": 695,
+      "height": 45,
+      "text": "例外の扱い",
+      "role": "例外の見出し",
+      "align": "left",
+      "color": "#2864F0",
+      "font_size": 24,
+      "id": "label-2",
+      "color_role": "accent",
+      "max_lines": 1,
+      "max_fullwidth_chars": 27
+    },
+    {
+      "x": 243,
+      "y": 244,
+      "width": 695,
+      "height": 42,
+      "text": "契約変更の判断は、決裁する部門へ戻す。",
+      "role": "例外",
+      "align": "left",
+      "color": "#153A6B",
+      "font_size": 29,
+      "id": "label-3",
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 22
+    }
+  ],
+  "width": 1000,
+  "height": 340,
+  "kind": "part",
+  "guidance": {
+    "use_case": "共通ルールと異なる扱いが必要な場面。",
+    "message": "原則を明示したうえで、例外の条件を分ける。",
+    "reading": [
+      "上の濃い帯が共通の原則を示す。",
+      "枝分かれした下の欄が例外の扱いを示す。"
+    ],
+    "avoid": "例外が原則より広くなる運用を簡略化して示す用途には使わない。"
+  },
+  "schema_version": 2,
+  "id": "part/rule-and-exception",
+  "name": "原則から例外を分けて示す_説明パーツ",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1000,
+    "height": 340
+  },
+  "path": "assets/part/rule-and-exception.svg",
+  "metadata_path": "metadata/part/rule-and-exception.json",
+  "search_text": "part/rule-and-exception\n原則から例外を分けて示す_説明パーツ\n原則から例外を分けて示す\n共通ルールと異なる扱いが必要な場面。\n原則を明示したうえで、例外の条件を分ける。\n上の濃い帯が共通の原則を示す。\n枝分かれした下の欄が例外の扱いを示す。\n原則 例外 運用 ルール rule exception policy",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "744b823a597db52061c381c0d04b60db239b0b44a12e990eb268eb95af6ea9ce",
+  "size_bytes": 854
+}

@@ -1,0 +1,154 @@
+{
+  "category": "10-数値とグラフ",
+  "title": "上限に対する到達度を示す",
+  "description": "0から100の半円を等間隔の目盛りに分け、65%を示すゲージの作例。",
+  "keywords": [
+    "ゲージ",
+    "到達度",
+    "達成率",
+    "指標",
+    "メーター",
+    "半円",
+    "gauge"
+  ],
+  "labels": [
+    {
+      "x": 83,
+      "y": 40,
+      "width": 434,
+      "height": 63,
+      "text": "上限に対する到達度",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-1",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 15
+    },
+    {
+      "x": 75,
+      "y": 533,
+      "width": 450,
+      "height": 54,
+      "text": "表示値は作例",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-2",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 15
+    }
+  ],
+  "width": 600,
+  "height": 620,
+  "kind": "chart",
+  "data": {
+    "is_sample": true,
+    "unit": "%",
+    "categories": [
+      "表示値"
+    ],
+    "series": [
+      {
+        "label": "到達度",
+        "values": [
+          65
+        ]
+      }
+    ],
+    "chart_type": "semicircle_gauge",
+    "baseline": 0,
+    "domain": [
+      0,
+      100
+    ],
+    "ticks": [
+      0.0,
+      25.0,
+      50.0,
+      75.0,
+      100.0
+    ],
+    "percentage": 65.0,
+    "start_angle_degrees": 180,
+    "sweep_angle_degrees": 180,
+    "needle_angle_degrees": 297.0,
+    "number_format": {
+      "maximum_significant_digits": 6,
+      "minimum_significant_digits": 3,
+      "large_or_small_values": "E notation",
+      "source_values": "series"
+    }
+  },
+  "guidance": {
+    "use_case": "上限が明確な指標について現在の到達度を示す。",
+    "message": "0から100の範囲で現在値がどこにあるかを示す。",
+    "reading": [
+      "左端は0、上端は50、右端は100。",
+      "主色の弧と針の位置はどちらも65%に対応する。"
+    ],
+    "avoid": "数値は作例。主色は良否を表さず、上限を超える指標には使わない。"
+  },
+  "schema_version": 2,
+  "id": "chart/semicircle-gauge",
+  "name": "指標確認_上限に対する到達度_65パーセントゲージ作例",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 600,
+    "height": 620
+  },
+  "path": "assets/chart/semicircle-gauge.svg",
+  "metadata_path": "metadata/chart/semicircle-gauge.json",
+  "search_text": "chart/semicircle-gauge\n指標確認_上限に対する到達度_65パーセントゲージ作例\n上限に対する到達度を示す\n上限が明確な指標について現在の到達度を示す。\n0から100の範囲で現在値がどこにあるかを示す。\n左端は0、上端は50、右端は100。\n主色の弧と針の位置はどちらも65%に対応する。\nゲージ 到達度 達成率 指標 メーター 半円 gauge",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": true
+  },
+  "data_input": {
+    "chart_type": "semicircle_gauge",
+    "category_count": 1,
+    "series_count": 1,
+    "values_per_series": 1,
+    "required": [
+      "categories",
+      "series",
+      "unit"
+    ],
+    "constraints": [
+      "表示値は最大6有効桁。丸める場合も3有効桁以上を保つ。E表記で収まらない値は単位か小数桁を調整。入力値はseriesに保持。",
+      "文字は大判24px、小判20px以上で収まる長さ。収まらないカテゴリ名・系列名・単位は短縮して入力。",
+      "有限な数値。絶対値は1兆以下。大きな値は単位を変更して入力。",
+      "categoriesは16文字以内、series.label・unitは12文字以内。",
+      "値は0以上。",
+      "上限はdomain[1]またはtotal。省略時は100。値は上限以下。"
+    ],
+    "example": {
+      "categories": [
+        "表示値"
+      ],
+      "series": [
+        {
+          "label": "到達度",
+          "values": [
+            65
+          ]
+        }
+      ],
+      "unit": "%",
+      "domain": [
+        0,
+        100
+      ]
+    }
+  },
+  "sha256": "64a8cd80c3e864b1bc702e189b99a3393b5b43c0f1193dff91356f2c85702014",
+  "size_bytes": 4357
+}

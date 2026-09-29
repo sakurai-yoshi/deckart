@@ -1,0 +1,50 @@
+{
+  "category": "08-アイコンとピクトグラム",
+  "title": "クラウド",
+  "description": "クラウド上のサービスや保管先を示す。",
+  "keywords": [
+    "クラウド",
+    "共有",
+    "オンライン",
+    "サービス",
+    "保管",
+    "cloud",
+    "online",
+    "service",
+    "hosting"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "端末の外にある共有サービスを示す場面。",
+    "message": "ネットワークを通して利用するサービスを示す。",
+    "reading": [
+      "雲の輪郭がクラウドを表す。",
+      "一つにつながった面が共有されるサービスを表す。"
+    ],
+    "avoid": "実際の通信経路やサービスの安全性を保証する用途には使わない。"
+  },
+  "schema_version": 2,
+  "id": "icon/cloud",
+  "name": "基盤表示_クラウドを示す_共有サービス",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/cloud.svg",
+  "metadata_path": "metadata/icon/cloud.json",
+  "search_text": "icon/cloud\n基盤表示_クラウドを示す_共有サービス\nクラウド\n端末の外にある共有サービスを示す場面。\nネットワークを通して利用するサービスを示す。\n雲の輪郭がクラウドを表す。\n一つにつながった面が共有されるサービスを表す。\nクラウド 共有 オンライン サービス 保管 cloud online service hosting",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "900d258cf4bb1a58a8ecda83d37b659f142005d3c0d3559aa4d23227aab6b304",
+  "size_bytes": 607
+}

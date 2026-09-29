@@ -1,0 +1,62 @@
+{
+  "title": "在庫を確認する",
+  "kind": "illustration",
+  "category": "06-業務イラスト",
+  "width": 1254,
+  "height": 1254,
+  "keywords": [
+    "在庫",
+    "棚卸",
+    "確認",
+    "倉庫",
+    "inventory",
+    "stock",
+    "counting"
+  ],
+  "guidance": {
+    "use_case": "在庫管理、棚卸、資材の数量確認の説明。",
+    "message": "現物を確認し、在庫の状態を把握する。",
+    "reading": [
+      "棚の実物と記録用紙を対比して確認する。",
+      "整理された棚で対象が明確に見える。"
+    ],
+    "avoid": "在庫数量や記録精度の実績を表す用途には使用しない。"
+  },
+  "labels": [],
+  "preview_path": "previews/illustration/stock-check.png",
+  "placement": {
+    "framing": "waist-up",
+    "facing": "left",
+    "people_count": 1,
+    "recommended_width_cm": [
+      4.5,
+      9
+    ]
+  },
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/illustrations.json"
+  },
+  "description": "現物を確認し、在庫の状態を把握する。",
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": true,
+  "canvas": {
+    "width": 1254,
+    "height": 1254
+  },
+  "schema_version": 2,
+  "id": "illustration/stock-check",
+  "name": "在庫を確認する_メーカー業務の動作",
+  "license": "CC0-1.0",
+  "path": "media/illustration/stock-check.png",
+  "metadata_path": "metadata/illustration/stock-check.json",
+  "search_text": "illustration/stock-check\n在庫を確認する_メーカー業務の動作\n在庫を確認する\n在庫管理、棚卸、資材の数量確認の説明。\n現物を確認し、在庫の状態を把握する。\n棚の実物と記録用紙を対比して確認する。\n整理された棚で対象が明確に見える。\n在庫 棚卸 確認 倉庫 inventory stock counting\nwaist-up 上半身 腰上 left 左向き 1  [4.5, 9] ",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "9316c1a21efa5c4e7faea61e630b16133eb2a350daa11740ade7dcb6d5469a28",
+  "size_bytes": 1019155
+}

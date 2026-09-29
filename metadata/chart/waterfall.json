@@ -1,0 +1,251 @@
+{
+  "category": "10-数値とグラフ",
+  "title": "期初から期末までの増減を分解する",
+  "description": "100万円に40万円を加え、25万円を減らし、15万円を加えて130万円になる作例。",
+  "keywords": [
+    "ウォーターフォール",
+    "滝",
+    "増減",
+    "差分",
+    "要因",
+    "分解",
+    "ブリッジ",
+    "期初",
+    "期末",
+    "waterfall"
+  ],
+  "labels": [
+    {
+      "x": 65,
+      "y": 55,
+      "width": 350,
+      "height": 65,
+      "text": "単位：万円",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-1",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 12
+    },
+    {
+      "x": 182,
+      "y": 602,
+      "width": 176,
+      "height": 63,
+      "text": "期初",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-2",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 6
+    },
+    {
+      "x": 362,
+      "y": 602,
+      "width": 176,
+      "height": 63,
+      "text": "増加要因",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-3",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 6
+    },
+    {
+      "x": 542,
+      "y": 602,
+      "width": 176,
+      "height": 63,
+      "text": "減少要因",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-4",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 6
+    },
+    {
+      "x": 722,
+      "y": 602,
+      "width": 176,
+      "height": 63,
+      "text": "追加要因",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-5",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 6
+    },
+    {
+      "x": 902,
+      "y": 602,
+      "width": 176,
+      "height": 63,
+      "text": "期末",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-6",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 6
+    }
+  ],
+  "width": 1200,
+  "height": 720,
+  "kind": "chart",
+  "data": {
+    "is_sample": true,
+    "unit": "万円",
+    "categories": [
+      "期初",
+      "増加要因",
+      "減少要因",
+      "追加要因",
+      "期末"
+    ],
+    "series": [
+      {
+        "label": "合計と増減",
+        "values": [
+          100,
+          40,
+          -25,
+          15,
+          130
+        ]
+      }
+    ],
+    "chart_type": "waterfall",
+    "step_types": [
+      "total",
+      "change",
+      "change",
+      "change",
+      "total"
+    ],
+    "running_totals": [
+      100,
+      140,
+      115,
+      130,
+      130
+    ],
+    "baseline": 0,
+    "domain": [
+      0,
+      160
+    ],
+    "ticks": [
+      0.0,
+      40.0,
+      80.0,
+      120.0,
+      160.0
+    ],
+    "plot": {
+      "x": 192,
+      "y": 157,
+      "width": 898,
+      "height": 420
+    },
+    "number_format": {
+      "maximum_significant_digits": 6,
+      "minimum_significant_digits": 3,
+      "large_or_small_values": "E notation",
+      "source_values": "series"
+    }
+  },
+  "guidance": {
+    "use_case": "期初と期末の差を、増加要因と減少要因に分けて説明する。",
+    "message": "各要因を足し引きすると最終値に一致する。",
+    "reading": [
+      "左端と右端の棒は期初100万円と期末130万円の合計。",
+      "プラスは増加要因、マイナスは減少要因。",
+      "破線は各段階の残高を次の棒へつなぐ。",
+      "100＋40−25＋15＝130で始点と終点が一致する。"
+    ],
+    "avoid": "数値は作例。増減を変更した場合は積算結果と期末値も更新する。"
+  },
+  "schema_version": 2,
+  "id": "chart/waterfall",
+  "name": "増減説明_期初から期末への変化を分解する_ウォーターフォール作例",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1200,
+    "height": 720
+  },
+  "path": "assets/chart/waterfall.svg",
+  "metadata_path": "metadata/chart/waterfall.json",
+  "search_text": "chart/waterfall\n増減説明_期初から期末への変化を分解する_ウォーターフォール作例\n期初から期末までの増減を分解する\n期初と期末の差を、増加要因と減少要因に分けて説明する。\n各要因を足し引きすると最終値に一致する。\n左端と右端の棒は期初100万円と期末130万円の合計。\nプラスは増加要因、マイナスは減少要因。\n破線は各段階の残高を次の棒へつなぐ。\n100＋40−25＋15＝130で始点と終点が一致する。\nウォーターフォール 滝 増減 差分 要因 分解 ブリッジ 期初 期末 waterfall",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": true
+  },
+  "data_input": {
+    "chart_type": "waterfall",
+    "category_count": 5,
+    "series_count": 1,
+    "values_per_series": 5,
+    "required": [
+      "categories",
+      "series",
+      "unit"
+    ],
+    "constraints": [
+      "表示値は最大6有効桁。丸める場合も3有効桁以上を保つ。E表記で収まらない値は単位か小数桁を調整。入力値はseriesに保持。",
+      "文字は大判24px、小判20px以上で収まる長さ。収まらないカテゴリ名・系列名・単位は短縮して入力。",
+      "有限な数値。絶対値は1兆以下。大きな値は単位を変更して入力。",
+      "categoriesは16文字以内、series.label・unitは12文字以内。",
+      "最初と最後は合計、中央の3値は増減。期初＋増減＝期末。残高は0以上。",
+      "domainは[0,上限]。省略時は値から計算。上限は全値・残高以上。"
+    ],
+    "example": {
+      "categories": [
+        "期初",
+        "増加要因",
+        "減少要因",
+        "追加要因",
+        "期末"
+      ],
+      "series": [
+        {
+          "label": "合計と増減",
+          "values": [
+            100,
+            40,
+            -25,
+            15,
+            130
+          ]
+        }
+      ],
+      "unit": "万円",
+      "domain": [
+        0,
+        160
+      ]
+    }
+  },
+  "sha256": "b787bea6dd043bbef79274651f5b90e1b7749b514a8448f9533201ede3b1f135",
+  "size_bytes": 8888
+}

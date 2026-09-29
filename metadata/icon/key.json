@@ -1,0 +1,50 @@
+{
+  "category": "08-アイコンとピクトグラム",
+  "title": "鍵・認証情報",
+  "description": "対象を開くための鍵や認証情報を示す。",
+  "keywords": [
+    "鍵",
+    "秘密鍵",
+    "キー",
+    "認証情報",
+    "パスワード",
+    "key",
+    "credentials",
+    "secret",
+    "password"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "アクセスに必要な鍵や認証情報の項目に添える。",
+    "message": "開くために管理する鍵が必要になる。",
+    "reading": [
+      "丸い持ち手と歯が鍵の道具を表す。",
+      "先端へ伸びる軸が解錠に使う部分を表す。"
+    ],
+    "avoid": "秘密情報そのものや権限付与済みの証明としては使わない。"
+  },
+  "schema_version": 2,
+  "id": "icon/key",
+  "name": "アクセス管理_解錠に使う情報を扱う_鍵",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/key.svg",
+  "metadata_path": "metadata/icon/key.json",
+  "search_text": "icon/key\nアクセス管理_解錠に使う情報を扱う_鍵\n鍵・認証情報\nアクセスに必要な鍵や認証情報の項目に添える。\n開くために管理する鍵が必要になる。\n丸い持ち手と歯が鍵の道具を表す。\n先端へ伸びる軸が解錠に使う部分を表す。\n鍵 秘密鍵 キー 認証情報 パスワード key credentials secret password",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "4582241ee23df9096d34af79724c14e9abb83c1ac414077f51c50258075a7fbd",
+  "size_bytes": 751
+}

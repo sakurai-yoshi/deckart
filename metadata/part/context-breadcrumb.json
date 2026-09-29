@@ -1,0 +1,94 @@
+{
+  "category": "07-注釈と見出し",
+  "title": "全体の中で今の話題を示す",
+  "description": "上位の区分から現在の話題へ、階層を短くつなぐ案内部品。",
+  "keywords": [
+    "位置づけ",
+    "階層",
+    "ナビゲーション",
+    "現在地",
+    "breadcrumb",
+    "context",
+    "hierarchy"
+  ],
+  "labels": [
+    {
+      "x": 29,
+      "y": 36,
+      "width": 268,
+      "height": 62,
+      "text": "業務の全体像",
+      "role": "上位の区分",
+      "align": "left",
+      "color": "#153A6B",
+      "font_size": 30,
+      "id": "label-1",
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 8
+    },
+    {
+      "x": 387,
+      "y": 36,
+      "width": 268,
+      "height": 62,
+      "text": "顧客への対応",
+      "role": "中間の区分",
+      "align": "left",
+      "color": "#153A6B",
+      "font_size": 30,
+      "id": "label-2",
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 8
+    },
+    {
+      "x": 785,
+      "y": 42,
+      "width": 280,
+      "height": 50,
+      "text": "問い合わせの受付",
+      "role": "現在の話題",
+      "align": "center",
+      "color": "#FFFFFF",
+      "font_size": 28,
+      "id": "label-3",
+      "color_role": "paper",
+      "max_lines": 1,
+      "max_fullwidth_chars": 9
+    }
+  ],
+  "width": 1120,
+  "height": 155,
+  "kind": "part",
+  "guidance": {
+    "use_case": "詳細な説明が資料全体のどこに属するかを示す場面。",
+    "message": "いま扱う話題の上位区分をたどれる。",
+    "reading": [
+      "左から右へ対象の範囲を絞る。",
+      "右の塗りつぶした領域が現在扱う話題を示す。"
+    ],
+    "avoid": "時系列や業務の実行順を示す用途には使わない。"
+  },
+  "schema_version": 2,
+  "id": "part/context-breadcrumb",
+  "name": "全体の中で今の話題を示す_説明パーツ",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1120,
+    "height": 155
+  },
+  "path": "assets/part/context-breadcrumb.svg",
+  "metadata_path": "metadata/part/context-breadcrumb.json",
+  "search_text": "part/context-breadcrumb\n全体の中で今の話題を示す_説明パーツ\n全体の中で今の話題を示す\n詳細な説明が資料全体のどこに属するかを示す場面。\nいま扱う話題の上位区分をたどれる。\n左から右へ対象の範囲を絞る。\n右の塗りつぶした領域が現在扱う話題を示す。\n位置づけ 階層 ナビゲーション 現在地 breadcrumb context hierarchy",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "d37d9fe7127280e99bd0c700f691dc32f1546fb9a6adb6819e303df35f553df4",
+  "size_bytes": 786
+}

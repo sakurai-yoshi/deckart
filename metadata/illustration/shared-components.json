@@ -1,0 +1,62 @@
+{
+  "title": "共通部品を複数製品に使う",
+  "kind": "illustration",
+  "category": "06-業務イラスト",
+  "width": 1254,
+  "height": 1254,
+  "keywords": [
+    "共通化",
+    "標準化",
+    "部品",
+    "製品",
+    "共通部品",
+    "shared components",
+    "standardization"
+  ],
+  "guidance": {
+    "use_case": "部品共通化、標準設計、調達や保守の効率化の説明。",
+    "message": "異なる製品で同じ部品を使い、構成を揃える。",
+    "reading": [
+      "形が異なる二つの本体に、同じ青い部品が組み込まれる。",
+      "手前の単体部品が共通する形を示す。"
+    ],
+    "avoid": "実際の製品互換性や性能保証を示す図としては使用しない。"
+  },
+  "labels": [],
+  "preview_path": "previews/illustration/shared-components.png",
+  "placement": {
+    "framing": "object",
+    "facing": "front",
+    "people_count": 0,
+    "recommended_width_cm": [
+      4,
+      7
+    ]
+  },
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/illustrations.json"
+  },
+  "description": "異なる製品で同じ部品を使い、構成を揃える。",
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": true,
+  "canvas": {
+    "width": 1254,
+    "height": 1254
+  },
+  "schema_version": 2,
+  "id": "illustration/shared-components",
+  "name": "共通部品を複数製品に使う_メーカー業務の構成",
+  "license": "CC0-1.0",
+  "path": "media/illustration/shared-components.png",
+  "metadata_path": "metadata/illustration/shared-components.json",
+  "search_text": "illustration/shared-components\n共通部品を複数製品に使う_メーカー業務の構成\n共通部品を複数製品に使う\n部品共通化、標準設計、調達や保守の効率化の説明。\n異なる製品で同じ部品を使い、構成を揃える。\n形が異なる二つの本体に、同じ青い部品が組み込まれる。\n手前の単体部品が共通する形を示す。\n共通化 標準化 部品 製品 共通部品 shared components standardization\nobject 物 道具 front 正面 0  [4, 7] ",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "f1da42aff4b74b33c65cccfe70d23cf2a5b4754c99d1d52792a5fa4b7874d9a6",
+  "size_bytes": 583441
+}

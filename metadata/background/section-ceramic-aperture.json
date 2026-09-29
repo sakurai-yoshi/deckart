@@ -1,0 +1,93 @@
+{
+  "title": "白い精密な曲面で章の切り替えを示す背景",
+  "description": "深い青へ続く大きな開口部で、次の論点へ視線を導く。",
+  "kind": "background",
+  "category": "11-背景とフレーム",
+  "width": 1672,
+  "height": 941,
+  "keywords": [
+    "章扉",
+    "章見出し",
+    "技術",
+    "品質",
+    "実行計画",
+    "精密",
+    "曲面",
+    "section",
+    "chapter",
+    "precision"
+  ],
+  "guidance": {
+    "use_case": "技術課題、品質改善、実行計画などの章扉。",
+    "message": "深い青へ続く大きな開口部で、次の論点へ視線を導く。",
+    "reading": [
+      "左に章番号と1行7〜8文字・2行程度の章題を置く。補足は下にまとめる。"
+    ],
+    "avoid": "長文や図表を多く載せる本文には使わない。"
+  },
+  "labels": [],
+  "canvas": {
+    "width": 1600,
+    "height": 900
+  },
+  "content_areas": [
+    {
+      "id": "number",
+      "role": "章番号",
+      "purpose": "章番号を配置する領域。",
+      "content_type": "text",
+      "x": 100,
+      "y": 145,
+      "width": 465,
+      "height": 110,
+      "text_color": "#172B4D",
+      "text_align": "left"
+    },
+    {
+      "id": "title",
+      "role": "章題",
+      "purpose": "章題を配置する領域。",
+      "content_type": "text",
+      "x": 100,
+      "y": 295,
+      "width": 480,
+      "height": 230,
+      "text_color": "#172B4D",
+      "text_align": "left"
+    },
+    {
+      "id": "subtitle",
+      "role": "補足",
+      "purpose": "補足を配置する領域。",
+      "content_type": "text",
+      "x": 100,
+      "y": 595,
+      "width": 465,
+      "height": 115,
+      "text_color": "#172B4D",
+      "text_align": "left"
+    }
+  ],
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/backgrounds.json"
+  },
+  "preview_path": "previews/background/section-ceramic-aperture.png",
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": false,
+  "schema_version": 2,
+  "id": "background/section-ceramic-aperture",
+  "name": "白い精密な曲面で章の切り替えを示す背景_背景",
+  "license": "CC0-1.0",
+  "path": "media/background/section-ceramic-aperture.png",
+  "metadata_path": "metadata/background/section-ceramic-aperture.json",
+  "search_text": "background/section-ceramic-aperture\n白い精密な曲面で章の切り替えを示す背景_背景\n白い精密な曲面で章の切り替えを示す背景\n技術課題、品質改善、実行計画などの章扉。\n深い青へ続く大きな開口部で、次の論点へ視線を導く。\n左に章番号と1行7〜8文字・2行程度の章題を置く。補足は下にまとめる。\n章扉 章見出し 技術 品質 実行計画 精密 曲面 section chapter precision",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "10a100ded4452ece1bbd23b4d2c77841adc19302dd45b994638f04e8978af3f0",
+  "size_bytes": 1692894
+}

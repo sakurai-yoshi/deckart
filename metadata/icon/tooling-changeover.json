@@ -1,0 +1,49 @@
+{
+  "category": "08-アイコンとピクトグラム",
+  "title": "段取り替え",
+  "description": "工程に使う道具を次の製品に合わせて入れ替える。",
+  "keywords": [
+    "段取り",
+    "金型",
+    "治具",
+    "切替",
+    "交換",
+    "setup",
+    "changeover",
+    "tooling"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "製品切替時の金型や治具の段取り替えを示す。",
+    "message": "工程に使う道具を次の製品に合わせて入れ替える。",
+    "reading": [
+      "二つの溝付きブロックが取り付ける治具を表す。",
+      "逆向きの経路が取り外しと取り付けを表す。"
+    ],
+    "avoid": "記号は業務の種類を示す。数値、認証取得、測定結果を保証する印には使わない。"
+  },
+  "schema_version": 2,
+  "id": "icon/tooling-changeover",
+  "name": "段取り替え_製造業務の記号",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/tooling-changeover.svg",
+  "metadata_path": "metadata/icon/tooling-changeover.json",
+  "search_text": "icon/tooling-changeover\n段取り替え_製造業務の記号\n段取り替え\n製品切替時の金型や治具の段取り替えを示す。\n工程に使う道具を次の製品に合わせて入れ替える。\n二つの溝付きブロックが取り付ける治具を表す。\n逆向きの経路が取り外しと取り付けを表す。\n段取り 金型 治具 切替 交換 setup changeover tooling",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "100ecf5b592f0c286a39dc4a20aaaf10c51852aedb1da3e53b4e8db684fa3156",
+  "size_bytes": 1502
+}

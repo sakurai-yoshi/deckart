@@ -1,0 +1,94 @@
+{
+  "category": "07-注釈と見出し",
+  "title": "用語と定義を対応させる",
+  "description": "左に用語を独立して置き、右に意味と境界を説明する部品。",
+  "keywords": [
+    "用語",
+    "定義",
+    "意味",
+    "共通認識",
+    "glossary",
+    "definition",
+    "term"
+  ],
+  "labels": [
+    {
+      "x": 56,
+      "y": 82,
+      "width": 246,
+      "height": 83,
+      "text": "一次回答",
+      "role": "用語",
+      "align": "center",
+      "color": "#153A6B",
+      "font_size": 42,
+      "id": "label-1",
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 5
+    },
+    {
+      "x": 410,
+      "y": 43,
+      "width": 590,
+      "height": 72,
+      "text": "用語の意味",
+      "role": "定義の区分",
+      "align": "left",
+      "color": "#2864F0",
+      "font_size": 24,
+      "id": "label-2",
+      "color_role": "accent",
+      "max_lines": 2,
+      "max_fullwidth_chars": 23
+    },
+    {
+      "x": 410,
+      "y": 115,
+      "width": 590,
+      "height": 91,
+      "text": "受付後、最初に行う案内や回答。\n最終的な解決とは分けて扱う。",
+      "role": "定義",
+      "align": "left",
+      "color": "#153A6B",
+      "font_size": 29,
+      "id": "label-3",
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 19
+    }
+  ],
+  "width": 1030,
+  "height": 250,
+  "kind": "part",
+  "guidance": {
+    "use_case": "専門用語や社内用語を初めて説明する場面。",
+    "message": "この資料での言葉の意味をそろえる。",
+    "reading": [
+      "左の一語を右の説明で定義する。",
+      "説明には何を含み、何と区別するかを添える。"
+    ],
+    "avoid": "組織内の定義を一般的な標準定義として扱う用途には使わない。"
+  },
+  "schema_version": 2,
+  "id": "part/term-definition",
+  "name": "用語と定義を対応させる_説明パーツ",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1030,
+    "height": 250
+  },
+  "path": "assets/part/term-definition.svg",
+  "metadata_path": "metadata/part/term-definition.json",
+  "search_text": "part/term-definition\n用語と定義を対応させる_説明パーツ\n用語と定義を対応させる\n専門用語や社内用語を初めて説明する場面。\nこの資料での言葉の意味をそろえる。\n左の一語を右の説明で定義する。\n説明には何を含み、何と区別するかを添える。\n用語 定義 意味 共通認識 glossary definition term",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "30efdbe02f180bd23a02ee92a4b1df967643ee90df1f228591f64103bc7311cf",
+  "size_bytes": 600
+}

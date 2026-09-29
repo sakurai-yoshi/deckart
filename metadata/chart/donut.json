@@ -1,0 +1,200 @@
+{
+  "category": "10-数値とグラフ",
+  "title": "合計と内訳を同時に示す",
+  "description": "合計200件を80・70・50件に分け、外周に40%・35%・25%を示す作例。",
+  "keywords": [
+    "ドーナツ",
+    "合計",
+    "内訳",
+    "構成比",
+    "割合",
+    "件数",
+    "donut",
+    "chart"
+  ],
+  "labels": [
+    {
+      "x": 784,
+      "y": 226,
+      "width": 189,
+      "height": 67,
+      "text": "区分 A",
+      "role": "項目",
+      "align": "left",
+      "color": "#153A6B",
+      "id": "label-1",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 6
+    },
+    {
+      "x": 784,
+      "y": 337,
+      "width": 189,
+      "height": 67,
+      "text": "区分 B",
+      "role": "項目",
+      "align": "left",
+      "color": "#153A6B",
+      "id": "label-2",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 6
+    },
+    {
+      "x": 784,
+      "y": 448,
+      "width": 189,
+      "height": 67,
+      "text": "区分 C",
+      "role": "項目",
+      "align": "left",
+      "color": "#153A6B",
+      "id": "label-3",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 6
+    },
+    {
+      "x": 255,
+      "y": 384,
+      "width": 210,
+      "height": 57,
+      "text": "合計（件）",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-4",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 7
+    },
+    {
+      "x": 710,
+      "y": 113,
+      "width": 419,
+      "height": 66,
+      "text": "内訳（件）",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-5",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 14
+    }
+  ],
+  "width": 1200,
+  "height": 720,
+  "kind": "chart",
+  "data": {
+    "is_sample": true,
+    "unit": "件",
+    "categories": [
+      "区分 A",
+      "区分 B",
+      "区分 C"
+    ],
+    "series": [
+      {
+        "label": "件数",
+        "values": [
+          80,
+          70,
+          50
+        ]
+      }
+    ],
+    "chart_type": "donut",
+    "total": 200,
+    "percentages": [
+      40.0,
+      35.0,
+      25.0
+    ],
+    "start_angle_degrees": -90,
+    "outer_radius": 214,
+    "inner_radius": 124,
+    "number_format": {
+      "maximum_significant_digits": 6,
+      "minimum_significant_digits": 3,
+      "large_or_small_values": "E notation",
+      "source_values": "series"
+    }
+  },
+  "guidance": {
+    "use_case": "合計件数と、その内訳の割合を一枚で説明する。",
+    "message": "全体の規模と各区分の構成を同時に確認できる。",
+    "reading": [
+      "中央は合計200件。",
+      "右の内訳は80件・70件・50件。",
+      "外周の40%・35%・25%は各件数を200件で割った割合。"
+    ],
+    "avoid": "数値は作例。件数を変更する場合は合計・割合・弧の角度を同時に更新する。"
+  },
+  "schema_version": 2,
+  "id": "chart/donut",
+  "name": "内訳確認_合計と構成比を同時に示す_ドーナツグラフ作例",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1200,
+    "height": 720
+  },
+  "path": "assets/chart/donut.svg",
+  "metadata_path": "metadata/chart/donut.json",
+  "search_text": "chart/donut\n内訳確認_合計と構成比を同時に示す_ドーナツグラフ作例\n合計と内訳を同時に示す\n合計件数と、その内訳の割合を一枚で説明する。\n全体の規模と各区分の構成を同時に確認できる。\n中央は合計200件。\n右の内訳は80件・70件・50件。\n外周の40%・35%・25%は各件数を200件で割った割合。\nドーナツ 合計 内訳 構成比 割合 件数 donut chart",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": true
+  },
+  "data_input": {
+    "chart_type": "donut",
+    "category_count": 3,
+    "series_count": 1,
+    "values_per_series": 3,
+    "required": [
+      "categories",
+      "series",
+      "unit"
+    ],
+    "constraints": [
+      "表示値は最大6有効桁。丸める場合も3有効桁以上を保つ。E表記で収まらない値は単位か小数桁を調整。入力値はseriesに保持。",
+      "文字は大判24px、小判20px以上で収まる長さ。収まらないカテゴリ名・系列名・単位は短縮して入力。",
+      "有限な数値。絶対値は1兆以下。大きな値は単位を変更して入力。",
+      "categoriesは16文字以内、series.label・unitは12文字以内。",
+      "値は0以上。",
+      "totalを指定する場合は各部分の合計と一致。単位が%の場合は合計100。",
+      "3区分とも0より大きい値。"
+    ],
+    "example": {
+      "categories": [
+        "区分 A",
+        "区分 B",
+        "区分 C"
+      ],
+      "series": [
+        {
+          "label": "件数",
+          "values": [
+            80,
+            70,
+            50
+          ]
+        }
+      ],
+      "unit": "件",
+      "total": 200
+    }
+  },
+  "sha256": "1f6072023e0b4685e535d18d25aaacdf690787d7374aaba70de49caeeece85d1",
+  "size_bytes": 6928
+}
