@@ -1,0 +1,143 @@
+{
+  "category": "02-比較と意思決定",
+  "title": "三つの施策で目標へ近づく",
+  "description": "現在と目指す状態をつなぐ三つの施策を、橋渡しする段階として示す。",
+  "keywords": [
+    "ギャップ分析",
+    "現状",
+    "目標",
+    "理想",
+    "改革",
+    "変革",
+    "課題",
+    "施策",
+    "実現方法",
+    "ロードマップ"
+  ],
+  "labels": [
+    {
+      "x": 111,
+      "y": 467,
+      "width": 199,
+      "height": 90,
+      "text": "現在の状態",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-1",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 6
+    },
+    {
+      "x": 890,
+      "y": 390,
+      "width": 199,
+      "height": 90,
+      "text": "目指す状態",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-2",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 6
+    },
+    {
+      "x": 283,
+      "y": 254,
+      "width": 255,
+      "height": 68,
+      "text": "仕組みを整える",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-3",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 8
+    },
+    {
+      "x": 459,
+      "y": 176,
+      "width": 263,
+      "height": 68,
+      "text": "能力を育てる",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-4",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 9
+    },
+    {
+      "x": 648,
+      "y": 94,
+      "width": 263,
+      "height": 68,
+      "text": "運用に定着させる",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-5",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 9
+    },
+    {
+      "x": 390,
+      "y": 649,
+      "width": 420,
+      "height": 58,
+      "text": "埋めるべき隔たり",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-6",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 14
+    }
+  ],
+  "width": 1200,
+  "height": 720,
+  "guidance": {
+    "use_case": "改革提案で、現状から目標へ進むための三つの施策を説明する。",
+    "message": "目標との差は具体的な施策で埋める。",
+    "reading": [
+      "左の低い領域は現在、右の高い領域は目標。",
+      "主色の三つの段は橋渡しする施策。",
+      "下の括弧は解消する隔たり。"
+    ],
+    "avoid": "高さや段の幅を効果量や所要期間として扱わない。"
+  },
+  "kind": "diagram",
+  "schema_version": 2,
+  "id": "decision/current-target-bridge",
+  "name": "変革計画_現状と目標の差を埋める_三つの橋渡し",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1200,
+    "height": 720
+  },
+  "path": "assets/decision/current-target-bridge.svg",
+  "metadata_path": "metadata/decision/current-target-bridge.json",
+  "search_text": "decision/current-target-bridge\n変革計画_現状と目標の差を埋める_三つの橋渡し\n三つの施策で目標へ近づく\n改革提案で、現状から目標へ進むための三つの施策を説明する。\n目標との差は具体的な施策で埋める。\n左の低い領域は現在、右の高い領域は目標。\n主色の三つの段は橋渡しする施策。\n下の括弧は解消する隔たり。\nギャップ分析 現状 目標 理想 改革 変革 課題 施策 実現方法 ロードマップ",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "7aa28dd16db53fb248bc967df7cbec5647fd6ba079c81cd6d67ba3fa67dbc4fb",
+  "size_bytes": 1978
+}

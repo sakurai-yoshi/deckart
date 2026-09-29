@@ -1,0 +1,61 @@
+{
+  "kind": "illustration",
+  "category": "06-業務イラスト",
+  "labels": [],
+  "preview_path": "previews/illustration/material-reuse.png",
+  "placement": {
+    "framing": "object",
+    "facing": "front",
+    "recommended_width_cm": [
+      4,
+      7
+    ]
+  },
+  "title": "端材を次の材料にする",
+  "description": "大きな部品を抜いた板の余白から小さな部品を取り出し、端材を有効に使う関係を表す。",
+  "keywords": [
+    "端材",
+    "歩留まり",
+    "資源",
+    "材料",
+    "再利用",
+    "material",
+    "reuse"
+  ],
+  "guidance": {
+    "use_case": "端材活用、材料歩留まり、資源の有効活用を説明する。",
+    "message": "使い残した材料から、別の部品を取り出す。",
+    "reading": [
+      "大きな部品を抜いた板の余白に、小さな穴を並べる。",
+      "隣に取り出した小さな部品が、残った材料の活用を表す。"
+    ],
+    "avoid": "実物の寸法・仕様や、作業手順を示す図としては使用しない。"
+  },
+  "width": 1254,
+  "height": 1254,
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/illustrations.json"
+  },
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": true,
+  "canvas": {
+    "width": 1254,
+    "height": 1254
+  },
+  "schema_version": 2,
+  "id": "illustration/material-reuse",
+  "name": "端材を次の材料にする_業務イラスト",
+  "license": "CC0-1.0",
+  "path": "media/illustration/material-reuse.png",
+  "metadata_path": "metadata/illustration/material-reuse.json",
+  "search_text": "illustration/material-reuse\n端材を次の材料にする_業務イラスト\n端材を次の材料にする\n端材活用、材料歩留まり、資源の有効活用を説明する。\n使い残した材料から、別の部品を取り出す。\n大きな部品を抜いた板の余白に、小さな穴を並べる。\n隣に取り出した小さな部品が、残った材料の活用を表す。\n端材 歩留まり 資源 材料 再利用 material reuse\nobject 物 道具 front 正面 [4, 7] ",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "ca18361b8d58159ff3214e5e76dd1e7f663f19b4c2edb8fccdcdcf47b6ee1a69",
+  "size_bytes": 495786
+}

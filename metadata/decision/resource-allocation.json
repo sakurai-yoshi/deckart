@@ -1,0 +1,127 @@
+{
+  "category": "02-比較と意思決定",
+  "title": "資源の使い道を目的で分ける",
+  "description": "同じ経営資源を、成長への重点投資、安定運営、新しい可能性の探索へ振り分ける。",
+  "keywords": [
+    "ポートフォリオ",
+    "資源配分",
+    "経営資源",
+    "投資配分",
+    "人員配分",
+    "重点",
+    "維持",
+    "探索",
+    "事業計画"
+  ],
+  "labels": [
+    {
+      "x": 162,
+      "y": 311,
+      "width": 196,
+      "height": 98,
+      "text": "経営資源",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-1",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 6
+    },
+    {
+      "x": 770,
+      "y": 91,
+      "width": 297,
+      "height": 68,
+      "text": "重点を置く",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-2",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 10
+    },
+    {
+      "x": 770,
+      "y": 277,
+      "width": 297,
+      "height": 68,
+      "text": "安定を保つ",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-3",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 10
+    },
+    {
+      "x": 770,
+      "y": 463,
+      "width": 297,
+      "height": 68,
+      "text": "可能性を探る",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-4",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 10
+    },
+    {
+      "x": 430,
+      "y": 625,
+      "width": 629,
+      "height": 64,
+      "text": "使い道ごとに配分の狙いを決める",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-5",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 21
+    }
+  ],
+  "width": 1200,
+  "height": 720,
+  "guidance": {
+    "use_case": "事業計画で人員や予算を使う方針を説明する。",
+    "message": "成長・安定・探索の狙いを分けて資源を使う。",
+    "reading": [
+      "左の円は共通の経営資源。",
+      "分岐点から三つの使い道へ進む。",
+      "同じ太さの経路は配分の種類を示す。"
+    ],
+    "avoid": "配分比率や投資額のグラフには使わない。"
+  },
+  "kind": "diagram",
+  "schema_version": 2,
+  "id": "decision/resource-allocation",
+  "name": "経営計画_資源配分の方針_重点維持探索",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1200,
+    "height": 720
+  },
+  "path": "assets/decision/resource-allocation.svg",
+  "metadata_path": "metadata/decision/resource-allocation.json",
+  "search_text": "decision/resource-allocation\n経営計画_資源配分の方針_重点維持探索\n資源の使い道を目的で分ける\n事業計画で人員や予算を使う方針を説明する。\n成長・安定・探索の狙いを分けて資源を使う。\n左の円は共通の経営資源。\n分岐点から三つの使い道へ進む。\n同じ太さの経路は配分の種類を示す。\nポートフォリオ 資源配分 経営資源 投資配分 人員配分 重点 維持 探索 事業計画",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "286f858cce79c5551cb2f516b79510bf4116a1b3ef336418a9ecfb1a1252980b",
+  "size_bytes": 2278
+}

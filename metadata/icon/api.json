@@ -1,0 +1,50 @@
+{
+  "category": "08-アイコンとピクトグラム",
+  "title": "API連携",
+  "description": "定められたインターフェースで機能を呼び出す連携を示す。",
+  "keywords": [
+    "API",
+    "インターフェース",
+    "連携",
+    "プログラム",
+    "接続",
+    "integration",
+    "interface",
+    "code",
+    "API"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "システム間のAPI連携やプログラムとの接続を示す。",
+    "message": "決まった形式で機能を呼び出す。",
+    "reading": [
+      "左右の括弧がプログラムのインターフェースを表す。",
+      "両側の点が接続の両端を表す。"
+    ],
+    "avoid": "通信方式や利用権限の条件を省略する根拠にはしない。"
+  },
+  "schema_version": 2,
+  "id": "icon/api",
+  "name": "外部連携_機能をインターフェースで呼び出す_コード接続",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/api.svg",
+  "metadata_path": "metadata/icon/api.json",
+  "search_text": "icon/api\n外部連携_機能をインターフェースで呼び出す_コード接続\nAPI連携\nシステム間のAPI連携やプログラムとの接続を示す。\n決まった形式で機能を呼び出す。\n左右の括弧がプログラムのインターフェースを表す。\n両側の点が接続の両端を表す。\nAPI インターフェース 連携 プログラム 接続 integration interface code API",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "34d63284ca994d472a2adace20eb57c52c00aa0e7c071b77255b44127b7a65c6",
+  "size_bytes": 827
+}

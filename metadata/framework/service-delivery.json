@@ -1,0 +1,133 @@
+{
+  "category": "09-循環とフレームワーク",
+  "title": "受付から報告まで一貫して届ける",
+  "description": "依頼の受付から要件確認・提案・実施・報告までを一続きで示す。",
+  "keywords": [
+    "サービス提供",
+    "業務フロー",
+    "受付",
+    "要件確認",
+    "提案",
+    "実施",
+    "報告",
+    "5工程",
+    "delivery",
+    "service",
+    "workflow"
+  ],
+  "labels": [
+    {
+      "x": 80,
+      "y": 437,
+      "width": 160,
+      "height": 94,
+      "text": "依頼を\n受け付ける",
+      "role": "受付",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-1",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 5
+    },
+    {
+      "x": 300,
+      "y": 437,
+      "width": 160,
+      "height": 94,
+      "text": "要件を\n確かめる",
+      "role": "要件確認",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-2",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 5
+    },
+    {
+      "x": 520,
+      "y": 437,
+      "width": 160,
+      "height": 94,
+      "text": "進め方を\n提案する",
+      "role": "提案",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-3",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 5
+    },
+    {
+      "x": 740,
+      "y": 437,
+      "width": 160,
+      "height": 94,
+      "text": "合意内容を\n実施する",
+      "role": "実施",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-4",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 5
+    },
+    {
+      "x": 960,
+      "y": 437,
+      "width": 160,
+      "height": 94,
+      "text": "成果を\n報告する",
+      "role": "報告",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-5",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 5
+    }
+  ],
+  "width": 1200,
+  "height": 720,
+  "kind": "diagram",
+  "guidance": {
+    "use_case": "受託サービスや社内支援の提供範囲を、依頼元へ説明する。",
+    "message": "依頼を受けるだけでなく、成果の報告まで一貫して担う。",
+    "reading": [
+      "左から受付・確認・提案・実施・報告。",
+      "各道具や文書がその工程の仕事を表す。",
+      "つながる経路が一連の提供範囲。"
+    ],
+    "avoid": "審査・検収など契約上必須の工程を省略する場合には使わない。"
+  },
+  "layout": {
+    "relation": "five-step-sequence",
+    "reading_direction": "left-to-right"
+  },
+  "schema_version": 2,
+  "id": "framework/service-delivery",
+  "name": "業務提供_受付から報告まで一貫して届ける_5工程サービス",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1200,
+    "height": 720
+  },
+  "path": "assets/framework/service-delivery.svg",
+  "metadata_path": "metadata/framework/service-delivery.json",
+  "search_text": "framework/service-delivery\n業務提供_受付から報告まで一貫して届ける_5工程サービス\n受付から報告まで一貫して届ける\n受託サービスや社内支援の提供範囲を、依頼元へ説明する。\n依頼を受けるだけでなく、成果の報告まで一貫して担う。\n左から受付・確認・提案・実施・報告。\n各道具や文書がその工程の仕事を表す。\nつながる経路が一連の提供範囲。\nサービス提供 業務フロー 受付 要件確認 提案 実施 報告 5工程 delivery service workflow",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "65e657ebb7cf73577c51237698ed9323831d006cf49cf5d94d063788fec85298",
+  "size_bytes": 7463
+}

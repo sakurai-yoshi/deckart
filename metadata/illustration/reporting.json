@@ -1,0 +1,60 @@
+{
+  "title": "状況を伝える",
+  "kind": "illustration",
+  "category": "06-業務イラスト",
+  "width": 1254,
+  "height": 1254,
+  "keywords": [
+    "報告",
+    "状況",
+    "進捗",
+    "共有",
+    "report",
+    "update"
+  ],
+  "guidance": {
+    "use_case": "進捗・対応・確認結果を共有する説明に。",
+    "message": "現在の状況を相手へ伝える。",
+    "reading": [
+      "差し出した資料と落ち着いた姿勢が、結果を相手へ伝える動作を示します。"
+    ],
+    "avoid": "実在の人物・業務実績・承認や確認の完了を証明する画像としては使えません。"
+  },
+  "labels": [],
+  "preview_path": "previews/illustration/reporting.png",
+  "placement": {
+    "framing": "waist-up",
+    "facing": "front",
+    "people_count": 1,
+    "recommended_width_cm": [
+      3,
+      6
+    ]
+  },
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/illustrations.json"
+  },
+  "description": "現在の状況を相手へ伝える。",
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": true,
+  "canvas": {
+    "width": 1254,
+    "height": 1254
+  },
+  "schema_version": 2,
+  "id": "illustration/reporting",
+  "name": "状況を伝える_汎用ビジネスの動作",
+  "license": "CC0-1.0",
+  "path": "media/illustration/reporting.png",
+  "metadata_path": "metadata/illustration/reporting.json",
+  "search_text": "illustration/reporting\n状況を伝える_汎用ビジネスの動作\n状況を伝える\n進捗・対応・確認結果を共有する説明に。\n現在の状況を相手へ伝える。\n差し出した資料と落ち着いた姿勢が、結果を相手へ伝える動作を示します。\n報告 状況 進捗 共有 report update\nwaist-up 上半身 腰上 front 正面 1  [3, 6] ",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "75d86c9405de3f5054ce09b850036b51bc3dd01fa038419113a66eae06569ef2",
+  "size_bytes": 931821
+}

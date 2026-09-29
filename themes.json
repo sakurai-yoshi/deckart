@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "default": {
+    "mode": "brand",
+    "requested_accent": "#2864F0",
+    "colors": {
+      "ink": "#153A6B",
+      "muted": "#607590",
+      "paper": "#FFFFFF",
+      "positive": "#137D66",
+      "negative": "#B5473A",
+      "caution": "#A46A16",
+      "caution_pale": "#FFF0D7",
+      "mid": "#79A7ED",
+      "pale": "#E7F0FF",
+      "faint": "#F3F7FD",
+      "accent": "#2864F0",
+      "series_secondary": "#153A6B"
+    },
+    "adjustments": []
+  },
+  "modes": [
+    "brand",
+    "monochrome"
+  ],
+  "input": {
+    "accent": "#RRGGBB",
+    "monochrome": false
+  },
+  "roles": {
+    "ink": "輪郭・本文・強い対比。ブランド色に連動しない。",
+    "accent": "注目箇所・主経路。ブランド色を基に白とのコントラストを確保する。",
+    "mid": "副要素・比較対象。inkと読み分けられる明度を保つ。",
+    "pale": "補助面・非選択領域。",
+    "faint": "背景の淡い面。",
+    "muted": "補助線・補足。",
+    "paper": "白い紙面・抜き。",
+    "positive": "増加・肯定。符号や形状も併用する。",
+    "negative": "減少・否定。符号や形状も併用する。",
+    "caution": "注意・例外。記号や経路も併用する。",
+    "caution_pale": "注意を示す淡い補助面。",
+    "series_secondary": "グラフの第2系列。強調色と区別できる濃さを選び、区切り線も併用する。"
+  },
+  "rules": [
+    "Geometry is authored once; themes change paint attributes only.",
+    "Brand color does not replace semantic signal colors.",
+    "Monochrome uses shape, position and signs to retain meaning.",
+    "Resolved colors are explicit SVG attributes; no CSS variables or external styles are required.",
+    "The export metadata records requested color, resolved colors and adjustments."
+  ]
+}

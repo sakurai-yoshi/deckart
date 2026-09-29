@@ -1,0 +1,53 @@
+{
+  "category": "08-アイコンとピクトグラム",
+  "title": "変化点を見つける",
+  "description": "画面上の変化点を拡大し、前後の傾きを詳しく確かめる分析を表す。",
+  "keywords": [
+    "分析",
+    "発見",
+    "示唆",
+    "インサイト",
+    "可視化",
+    "データ",
+    "グラフ",
+    "傾向",
+    "analytic",
+    "insight",
+    "data",
+    "analytics"
+  ],
+  "labels": [],
+  "width": 330,
+  "height": 280,
+  "guidance": {
+    "use_case": "業務データの分析や改善の発見を紹介する場面。",
+    "message": "データを詳しく見て、変化の手掛かりをつかむ。",
+    "reading": [
+      "画面のグラフが分析対象のデータを表す。",
+      "画面上の丸で選んだ折り返し点を、拡大鏡で詳しく確かめる。"
+    ],
+    "avoid": "架空の線や棒を実績グラフとして使う用途には使わない。"
+  },
+  "kind": "icon",
+  "schema_version": 2,
+  "id": "icon/analytic-insight",
+  "name": "データ分析_変化点の発見_グラフを読み解く",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 330,
+    "height": 280
+  },
+  "path": "assets/icon/analytic-insight.svg",
+  "metadata_path": "metadata/icon/analytic-insight.json",
+  "search_text": "icon/analytic-insight\nデータ分析_変化点の発見_グラフを読み解く\n変化点を見つける\n業務データの分析や改善の発見を紹介する場面。\nデータを詳しく見て、変化の手掛かりをつかむ。\n画面のグラフが分析対象のデータを表す。\n画面上の丸で選んだ折り返し点を、拡大鏡で詳しく確かめる。\n分析 発見 示唆 インサイト 可視化 データ グラフ 傾向 analytic insight data analytics",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "d0ac4c81e413295d4e11f38296cca0117323774cc5fd9248cadd2f08830d7392",
+  "size_bytes": 3646
+}

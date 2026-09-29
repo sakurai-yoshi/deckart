@@ -1,0 +1,50 @@
+{
+  "category": "08-アイコンとピクトグラム",
+  "title": "予算",
+  "description": "必要な費用を見積もり金額を計画することを示す。",
+  "keywords": [
+    "予算",
+    "計画",
+    "見積",
+    "金額",
+    "配分",
+    "budget",
+    "planning",
+    "estimate",
+    "finance"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "予算策定や費用計画の項目を示す。",
+    "message": "使える金額と必要な費用を計画する。",
+    "reading": [
+      "計算機が金額の検討を表す。",
+      "横の硬貨が計画する資金を表す。"
+    ],
+    "avoid": "計算結果や予算承認済みの状態を示す印には使わない。"
+  },
+  "schema_version": 2,
+  "id": "icon/budget",
+  "name": "予算管理_必要な金額を計画する_計算機と資金",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/budget.svg",
+  "metadata_path": "metadata/icon/budget.json",
+  "search_text": "icon/budget\n予算管理_必要な金額を計画する_計算機と資金\n予算\n予算策定や費用計画の項目を示す。\n使える金額と必要な費用を計画する。\n計算機が金額の検討を表す。\n横の硬貨が計画する資金を表す。\n予算 計画 見積 金額 配分 budget planning estimate finance",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "caeffd6aed73b41a45a6c2913c507f37c902f80334be0e3a3e834cee0b20b5b5",
+  "size_bytes": 1627
+}

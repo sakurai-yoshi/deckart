@@ -1,0 +1,127 @@
+{
+  "category": "02-比較と意思決定",
+  "title": "効果と懸念を同じ場で判断する",
+  "description": "期待する効果と備えるべき懸念を、どちらも判断材料として扱う。",
+  "keywords": [
+    "費用対効果",
+    "リスク",
+    "リターン",
+    "メリット",
+    "デメリット",
+    "懸念",
+    "ベネフィット",
+    "判断",
+    "稟議"
+  ],
+  "labels": [
+    {
+      "x": 110,
+      "y": 109,
+      "width": 312,
+      "height": 80,
+      "text": "期待する効果",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-1",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 10
+    },
+    {
+      "x": 778,
+      "y": 109,
+      "width": 312,
+      "height": 80,
+      "text": "備えるべき懸念",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-2",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 10
+    },
+    {
+      "x": 412,
+      "y": 37,
+      "width": 376,
+      "height": 68,
+      "text": "両面を踏まえて判断する",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-3",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 13
+    },
+    {
+      "x": 92,
+      "y": 584,
+      "width": 348,
+      "height": 74,
+      "text": "実現したい価値",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-4",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 12
+    },
+    {
+      "x": 760,
+      "y": 584,
+      "width": 348,
+      "height": 74,
+      "text": "確認する対策と条件",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-5",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 12
+    }
+  ],
+  "width": 1200,
+  "height": 720,
+  "guidance": {
+    "use_case": "稟議や投資判断で、期待効果とリスク対策を同時に説明する。",
+    "message": "効果だけでなく懸念への備えも判断材料にする。",
+    "reading": [
+      "左のプラスは期待する価値。",
+      "右の注意記号は確認する懸念。",
+      "中央の支点は両面を扱う意思決定。"
+    ],
+    "avoid": "天秤の高さを金額や評価点の大小として使わない。"
+  },
+  "kind": "diagram",
+  "schema_version": 2,
+  "id": "decision/risk-benefit-balance",
+  "name": "意思決定_期待効果と懸念の比較_均衡する天秤",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1200,
+    "height": 720
+  },
+  "path": "assets/decision/risk-benefit-balance.svg",
+  "metadata_path": "metadata/decision/risk-benefit-balance.json",
+  "search_text": "decision/risk-benefit-balance\n意思決定_期待効果と懸念の比較_均衡する天秤\n効果と懸念を同じ場で判断する\n稟議や投資判断で、期待効果とリスク対策を同時に説明する。\n効果だけでなく懸念への備えも判断材料にする。\n左のプラスは期待する価値。\n右の注意記号は確認する懸念。\n中央の支点は両面を扱う意思決定。\n費用対効果 リスク リターン メリット デメリット 懸念 ベネフィット 判断 稟議",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "49b9cb33f891052bb63716dc4db2df605f313531854ec67f448c3e820b6c1b81",
+  "size_bytes": 2845
+}

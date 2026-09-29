@@ -1,0 +1,114 @@
+{
+  "category": "01-業務プロセス",
+  "title": "ボトルネックと負荷の逃がし方",
+  "description": "処理待ちが集中する工程と、負荷を別経路へ逃がす改善策を示す。",
+  "keywords": [
+    "ボトルネック",
+    "待ち行列",
+    "混雑",
+    "負荷分散",
+    "迂回",
+    "処理能力",
+    "業務改善"
+  ],
+  "labels": [
+    {
+      "x": 79,
+      "y": 556,
+      "width": 315,
+      "height": 70,
+      "text": "着手待ちが集中",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-1",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 11
+    },
+    {
+      "x": 421,
+      "y": 556,
+      "width": 330,
+      "height": 70,
+      "text": "処理能力の制約",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-2",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 11
+    },
+    {
+      "x": 799,
+      "y": 556,
+      "width": 319,
+      "height": 70,
+      "text": "後工程へ安定供給",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-3",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 11
+    },
+    {
+      "x": 425,
+      "y": 82,
+      "width": 376,
+      "height": 70,
+      "text": "別経路で負荷を吸収",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-4",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 13
+    }
+  ],
+  "width": 1200,
+  "height": 720,
+  "layout": {
+    "relation": "bypass-and-rejoin",
+    "reading_direction": "left-to-right"
+  },
+  "guidance": {
+    "use_case": "審査や処理の集中に対し、別担当への振り分けを提案する。",
+    "message": "処理の制約に集まる負荷を、別経路で吸収する。",
+    "reading": [
+      "左の小さなブロックが処理待ち。",
+      "狭い通路が処理能力の制約。",
+      "上の経路が制約を避け、後工程へ合流する。"
+    ],
+    "avoid": "通路の幅を処理件数の実数として扱わない。"
+  },
+  "kind": "diagram",
+  "schema_version": 2,
+  "id": "process/bottleneck-bypass",
+  "name": "業務改善_ボトルネックを迂回して負荷を逃がす_待ち行列と迂回路",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1200,
+    "height": 720
+  },
+  "path": "assets/process/bottleneck-bypass.svg",
+  "metadata_path": "metadata/process/bottleneck-bypass.json",
+  "search_text": "process/bottleneck-bypass\n業務改善_ボトルネックを迂回して負荷を逃がす_待ち行列と迂回路\nボトルネックと負荷の逃がし方\n審査や処理の集中に対し、別担当への振り分けを提案する。\n処理の制約に集まる負荷を、別経路で吸収する。\n左の小さなブロックが処理待ち。\n狭い通路が処理能力の制約。\n上の経路が制約を避け、後工程へ合流する。\nボトルネック 待ち行列 混雑 負荷分散 迂回 処理能力 業務改善",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "5bb1d9af2d30af0e2e17ead18ad069f6c82c62eab2bb0cd17f0245264e5007ff",
+  "size_bytes": 3243
+}

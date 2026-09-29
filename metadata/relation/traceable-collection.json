@@ -1,0 +1,130 @@
+{
+  "category": "03-関係と連携",
+  "title": "出所を保持して情報を集約する",
+  "description": "複数の情報源をまとめながら、元の出所をたどれる構造を示す。",
+  "keywords": [
+    "情報集約",
+    "出所",
+    "来歴",
+    "トレーサビリティ",
+    "データ統合",
+    "収集",
+    "ソース",
+    "根拠"
+  ],
+  "labels": [
+    {
+      "x": 161,
+      "y": 124,
+      "width": 166,
+      "height": 70,
+      "text": "現場の記録",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-1",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 5
+    },
+    {
+      "x": 161,
+      "y": 324,
+      "width": 166,
+      "height": 70,
+      "text": "顧客の情報",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-2",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 5
+    },
+    {
+      "x": 161,
+      "y": 524,
+      "width": 166,
+      "height": 70,
+      "text": "外部の資料",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-3",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 5
+    },
+    {
+      "x": 783,
+      "y": 68,
+      "width": 335,
+      "height": 64,
+      "text": "共通の情報基盤",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-4",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 11
+    },
+    {
+      "x": 432,
+      "y": 615,
+      "width": 667,
+      "height": 70,
+      "text": "まとめても出所をたどれる",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-5",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 23
+    }
+  ],
+  "width": 1200,
+  "height": 720,
+  "layout": {
+    "relation": "source-preserving-collection",
+    "reading_direction": "left-to-right"
+  },
+  "guidance": {
+    "use_case": "現場・顧客・外部資料を集約する情報基盤の考え方を説明する。",
+    "message": "情報をまとめても、元の出所との対応は残す。",
+    "reading": [
+      "左の形と色が情報源を識別する。",
+      "別々の経路で共通の基盤へ取り込む。",
+      "保存後の各行にも同じ識別記号が残る。"
+    ],
+    "avoid": "データへのアクセス権限まで保証する図として使わない。"
+  },
+  "kind": "diagram",
+  "schema_version": 2,
+  "id": "relation/traceable-collection",
+  "name": "情報管理_出所を保持して情報を集約する_三系統の来歴",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1200,
+    "height": 720
+  },
+  "path": "assets/relation/traceable-collection.svg",
+  "metadata_path": "metadata/relation/traceable-collection.json",
+  "search_text": "relation/traceable-collection\n情報管理_出所を保持して情報を集約する_三系統の来歴\n出所を保持して情報を集約する\n現場・顧客・外部資料を集約する情報基盤の考え方を説明する。\n情報をまとめても、元の出所との対応は残す。\n左の形と色が情報源を識別する。\n別々の経路で共通の基盤へ取り込む。\n保存後の各行にも同じ識別記号が残る。\n情報集約 出所 来歴 トレーサビリティ データ統合 収集 ソース 根拠",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "fc0241d1b5d474f3048c5d6eed0a382815990fc072bdd614fa3f4f7171f2472a",
+  "size_bytes": 5101
+}

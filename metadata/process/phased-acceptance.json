@@ -1,0 +1,129 @@
+{
+  "category": "01-業務プロセス",
+  "title": "受入確認を重ねる段階納品",
+  "description": "小さな成果を確認しながら、完成範囲を段階的に積み上げる。",
+  "keywords": [
+    "段階納品",
+    "受入検査",
+    "段階導入",
+    "フェーズ",
+    "インクリメント",
+    "検収",
+    "納品"
+  ],
+  "labels": [
+    {
+      "x": 75,
+      "y": 342,
+      "width": 254,
+      "height": 70,
+      "text": "最初の成果",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-1",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 8
+    },
+    {
+      "x": 391,
+      "y": 248,
+      "width": 257,
+      "height": 70,
+      "text": "機能を拡張",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-2",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 8
+    },
+    {
+      "x": 711,
+      "y": 148,
+      "width": 267,
+      "height": 70,
+      "text": "全体を完成",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-3",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 9
+    },
+    {
+      "x": 773,
+      "y": 434,
+      "width": 336,
+      "height": 72,
+      "text": "段階ごとに受入確認",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-4",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 11
+    },
+    {
+      "x": 294,
+      "y": 621,
+      "width": 614,
+      "height": 65,
+      "text": "合意した成果から順に引き渡す",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-5",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 21
+    }
+  ],
+  "width": 1200,
+  "height": 720,
+  "layout": {
+    "relation": "cumulative-delivery",
+    "reading_direction": "left-to-right"
+  },
+  "guidance": {
+    "use_case": "システム導入で、合意した機能から段階的に引き渡す。",
+    "message": "確認できた成果を積み上げ、完成範囲を広げる。",
+    "reading": [
+      "階段が納品の段階。",
+      "積み重なる層が完成済みの範囲。",
+      "各段のチェックが受入確認。"
+    ],
+    "avoid": "層の枚数を機能数や工数の実数として扱わない。"
+  },
+  "kind": "diagram",
+  "schema_version": 2,
+  "id": "process/phased-acceptance",
+  "name": "導入推進_受入確認を重ねて成果を積み上げる_段階納品",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1200,
+    "height": 720
+  },
+  "path": "assets/process/phased-acceptance.svg",
+  "metadata_path": "metadata/process/phased-acceptance.json",
+  "search_text": "process/phased-acceptance\n導入推進_受入確認を重ねて成果を積み上げる_段階納品\n受入確認を重ねる段階納品\nシステム導入で、合意した機能から段階的に引き渡す。\n確認できた成果を積み上げ、完成範囲を広げる。\n階段が納品の段階。\n積み重なる層が完成済みの範囲。\n各段のチェックが受入確認。\n段階納品 受入検査 段階導入 フェーズ インクリメント 検収 納品",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "d6553448be807533c95a661372347937d95557457b10ba6b28ec902e5959fb97",
+  "size_bytes": 5392
+}

@@ -1,0 +1,127 @@
+{
+  "category": "03-関係と連携",
+  "title": "二つの前提がそろって成果を生む",
+  "description": "情報と運用の両方を整えることで共通機能を使え、成果につながる関係を示す。",
+  "keywords": [
+    "依存関係",
+    "前提条件",
+    "必要条件",
+    "基盤整備",
+    "共通機能",
+    "両輪",
+    "インフラ",
+    "運用",
+    "実現条件"
+  ],
+  "labels": [
+    {
+      "x": 161,
+      "y": 481,
+      "width": 236,
+      "height": 91,
+      "text": "情報の基盤",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-1",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 8
+    },
+    {
+      "x": 522,
+      "y": 481,
+      "width": 236,
+      "height": 91,
+      "text": "運用の基盤",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-2",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 8
+    },
+    {
+      "x": 158,
+      "y": 254,
+      "width": 602,
+      "height": 54,
+      "text": "二つの基盤を使って実現する機能",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-3",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 21
+    },
+    {
+      "x": 227,
+      "y": 105,
+      "width": 464,
+      "height": 74,
+      "text": "両方の前提をそろえる",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-4",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 16
+    },
+    {
+      "x": 879,
+      "y": 429,
+      "width": 284,
+      "height": 91,
+      "text": "実現できる成果",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-5",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 9
+    }
+  ],
+  "width": 1200,
+  "height": 720,
+  "guidance": {
+    "use_case": "共通機能を導入する前に、情報整備と運用整備の両方が必要だと説明する。",
+    "message": "一方の基盤だけでは共通機能を支えられない。",
+    "reading": [
+      "二つの支柱は両方必要な前提。",
+      "上の梁は前提を使って実現する共通機能。",
+      "右への矢印は機能から成果へのつながり。"
+    ],
+    "avoid": "どちらか一方で成立する代替条件には使わない。"
+  },
+  "kind": "diagram",
+  "schema_version": 2,
+  "id": "relationship/required-foundations",
+  "name": "基盤整備_成果を支える二つの前提_依存関係の構造",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1200,
+    "height": 720
+  },
+  "path": "assets/relationship/required-foundations.svg",
+  "metadata_path": "metadata/relationship/required-foundations.json",
+  "search_text": "relationship/required-foundations\n基盤整備_成果を支える二つの前提_依存関係の構造\n二つの前提がそろって成果を生む\n共通機能を導入する前に、情報整備と運用整備の両方が必要だと説明する。\n一方の基盤だけでは共通機能を支えられない。\n二つの支柱は両方必要な前提。\n上の梁は前提を使って実現する共通機能。\n右への矢印は機能から成果へのつながり。\n依存関係 前提条件 必要条件 基盤整備 共通機能 両輪 インフラ 運用 実現条件",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "dff483e648276ba02dfd92104ea0533d7adae4cc0f056054fbd8f6c00af0fc8e",
+  "size_bytes": 2437
+}

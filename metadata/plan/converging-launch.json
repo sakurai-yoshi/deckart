@@ -1,0 +1,131 @@
+{
+  "category": "04-計画と進捗",
+  "title": "部門の準備を一つの公開日に揃える",
+  "description": "開発・運用・事業の準備を合流させ、共通の公開条件へつなぐ。",
+  "keywords": [
+    "リリース",
+    "公開",
+    "ローンチ",
+    "部門連携",
+    "準備",
+    "合流",
+    "開発",
+    "運用",
+    "営業"
+  ],
+  "labels": [
+    {
+      "x": 87,
+      "y": 213,
+      "width": 331,
+      "height": 65,
+      "text": "開発の準備",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-1",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 11
+    },
+    {
+      "x": 87,
+      "y": 412,
+      "width": 331,
+      "height": 65,
+      "text": "運用の準備",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-2",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 11
+    },
+    {
+      "x": 87,
+      "y": 620,
+      "width": 331,
+      "height": 65,
+      "text": "事業の準備",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-3",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 11
+    },
+    {
+      "x": 600,
+      "y": 192,
+      "width": 419,
+      "height": 73,
+      "text": "公開条件を揃える",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-4",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 14
+    },
+    {
+      "x": 863,
+      "y": 463,
+      "width": 287,
+      "height": 72,
+      "text": "共通の公開日へ",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-5",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 10
+    }
+  ],
+  "width": 1200,
+  "height": 720,
+  "layout": {
+    "relation": "converging-readiness",
+    "reading_direction": "left-to-right"
+  },
+  "guidance": {
+    "use_case": "開発・運用・事業部門の準備を共通の公開日に合わせる。",
+    "message": "部門ごとの準備を揃えて、ひとつの公開判断につなぐ。",
+    "reading": [
+      "三つの帯が部門ごとの準備。",
+      "中央のチェックにすべての経路が集まる。",
+      "一本の出口が共通の公開。"
+    ],
+    "avoid": "帯の長さを準備期間の比較に使わない。"
+  },
+  "kind": "diagram",
+  "schema_version": 2,
+  "id": "plan/converging-launch",
+  "name": "リリース計画_部門の準備を一つの公開日に揃える_三系統の合流",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1200,
+    "height": 720
+  },
+  "path": "assets/plan/converging-launch.svg",
+  "metadata_path": "metadata/plan/converging-launch.json",
+  "search_text": "plan/converging-launch\nリリース計画_部門の準備を一つの公開日に揃える_三系統の合流\n部門の準備を一つの公開日に揃える\n開発・運用・事業部門の準備を共通の公開日に合わせる。\n部門ごとの準備を揃えて、ひとつの公開判断につなぐ。\n三つの帯が部門ごとの準備。\n中央のチェックにすべての経路が集まる。\n一本の出口が共通の公開。\nリリース 公開 ローンチ 部門連携 準備 合流 開発 運用 営業",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "d4cb325631b029771518779ed290afb42f7c10c557915a16ecbde2979f2d24b0",
+  "size_bytes": 2382
+}

@@ -1,0 +1,126 @@
+{
+  "category": "05-組織と戦略",
+  "title": "三つの役割で顧客価値を支える",
+  "description": "企画・提供・支援が同じ顧客価値を目指し、役割の間でも連携する関係を示す。",
+  "keywords": [
+    "顧客中心",
+    "カスタマーセントリック",
+    "CX",
+    "顧客体験",
+    "部門連携",
+    "価値提供",
+    "顧客価値",
+    "協働"
+  ],
+  "labels": [
+    {
+      "x": 494,
+      "y": 340,
+      "width": 212,
+      "height": 83,
+      "text": "顧客への価値",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-1",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 7
+    },
+    {
+      "x": 480,
+      "y": 116,
+      "width": 240,
+      "height": 67,
+      "text": "価値を企画する",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-2",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 8
+    },
+    {
+      "x": 120,
+      "y": 497,
+      "width": 240,
+      "height": 67,
+      "text": "価値を届ける",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-3",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 8
+    },
+    {
+      "x": 840,
+      "y": 497,
+      "width": 240,
+      "height": 67,
+      "text": "体験を支える",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-4",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 8
+    },
+    {
+      "x": 392,
+      "y": 632,
+      "width": 415,
+      "height": 63,
+      "text": "役割の間でも連携する",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-5",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 14
+    }
+  ],
+  "width": 1200,
+  "height": 720,
+  "guidance": {
+    "use_case": "顧客体験の改善に向け、企画・提供・支援の役割を説明する。",
+    "message": "三つの役割が同じ顧客価値を目指して連携する。",
+    "reading": [
+      "中央は実現したい顧客価値。",
+      "内向きの矢印は各役割からの貢献。",
+      "外側の双方向の経路は役割間の連携。"
+    ],
+    "avoid": "顧客の行動順序を表すジャーニーマップには使わない。"
+  },
+  "kind": "diagram",
+  "schema_version": 2,
+  "id": "strategy/customer-value-roles",
+  "name": "顧客中心_価値を支える役割_三部門の協働",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1200,
+    "height": 720
+  },
+  "path": "assets/strategy/customer-value-roles.svg",
+  "metadata_path": "metadata/strategy/customer-value-roles.json",
+  "search_text": "strategy/customer-value-roles\n顧客中心_価値を支える役割_三部門の協働\n三つの役割で顧客価値を支える\n顧客体験の改善に向け、企画・提供・支援の役割を説明する。\n三つの役割が同じ顧客価値を目指して連携する。\n中央は実現したい顧客価値。\n内向きの矢印は各役割からの貢献。\n外側の双方向の経路は役割間の連携。\n顧客中心 カスタマーセントリック CX 顧客体験 部門連携 価値提供 顧客価値 協働",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "7510d14632f1fe32e25f69cb8670682d30fee210c8e7ae2d845c5d6e2310558e",
+  "size_bytes": 2930
+}

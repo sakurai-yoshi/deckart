@@ -1,0 +1,51 @@
+{
+  "category": "08-アイコンとピクトグラム",
+  "title": "日程・予定",
+  "description": "会議や作業の日程を示すカレンダー。",
+  "keywords": [
+    "予定",
+    "日程",
+    "日付",
+    "会議",
+    "スケジュール",
+    "期限",
+    "calendar",
+    "schedule",
+    "date",
+    "deadline"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "会議日や作業期限など、日付に関わる項目を示す場面。",
+    "message": "予定として確認する日がある。",
+    "reading": [
+      "とじ具と日付の並びがカレンダーを表す。",
+      "強調された一つの点が注目する日を表す。"
+    ],
+    "avoid": "実際の日付や曜日を読み取る用途には使わない。"
+  },
+  "schema_version": 2,
+  "id": "icon/calendar",
+  "name": "予定表示_日程を示す_カレンダー",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/calendar.svg",
+  "metadata_path": "metadata/icon/calendar.json",
+  "search_text": "icon/calendar\n予定表示_日程を示す_カレンダー\n日程・予定\n会議日や作業期限など、日付に関わる項目を示す場面。\n予定として確認する日がある。\nとじ具と日付の並びがカレンダーを表す。\n強調された一つの点が注目する日を表す。\n予定 日程 日付 会議 スケジュール 期限 calendar schedule date deadline",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "78b086b42fdbddaad64000f89d19cc97311839c6f0b81de5596cbba9a0c2bb64",
+  "size_bytes": 1475
+}

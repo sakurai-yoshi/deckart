@@ -1,0 +1,62 @@
+{
+  "title": "構想を練る",
+  "kind": "illustration",
+  "category": "06-業務イラスト",
+  "width": 1254,
+  "height": 1254,
+  "keywords": [
+    "構想",
+    "発想",
+    "アイデア",
+    "企画",
+    "下書き",
+    "idea",
+    "sketch",
+    "concept"
+  ],
+  "guidance": {
+    "use_case": "企画、アイデア検討、製品構想、提案準備の説明に。",
+    "message": "描いて試しながら考えを具体化する。",
+    "reading": [
+      "開いたスケッチと下書き紙が試行を、鉛筆が考えを書き留める行為を示します。"
+    ],
+    "avoid": "数値や条件を示す実資料には、編集可能な文字・図表を併用してください。"
+  },
+  "labels": [],
+  "preview_path": "previews/illustration/idea-development.png",
+  "placement": {
+    "framing": "object",
+    "facing": "front",
+    "people_count": 0,
+    "recommended_width_cm": [
+      4,
+      7
+    ]
+  },
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/illustrations.json"
+  },
+  "description": "描いて試しながら考えを具体化する。",
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": true,
+  "canvas": {
+    "width": 1254,
+    "height": 1254
+  },
+  "schema_version": 2,
+  "id": "illustration/idea-development",
+  "name": "構想を練る_物で伝える業務",
+  "license": "CC0-1.0",
+  "path": "media/illustration/idea-development.png",
+  "metadata_path": "metadata/illustration/idea-development.json",
+  "search_text": "illustration/idea-development\n構想を練る_物で伝える業務\n構想を練る\n企画、アイデア検討、製品構想、提案準備の説明に。\n描いて試しながら考えを具体化する。\n開いたスケッチと下書き紙が試行を、鉛筆が考えを書き留める行為を示します。\n構想 発想 アイデア 企画 下書き idea sketch concept\nobject 物 道具 front 正面 0  [4, 7] ",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "b10d44bac0a5d2de6cc159aa5cd227e30162e3d9f7a24a9540a3ffb8ade8e44e",
+  "size_bytes": 915704
+}

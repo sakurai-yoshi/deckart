@@ -1,0 +1,49 @@
+{
+  "category": "08-アイコンとピクトグラム",
+  "title": "分析",
+  "description": "数値の比較や変化から傾向を読み取ることを示す。",
+  "keywords": [
+    "分析",
+    "数値",
+    "データ",
+    "傾向",
+    "可視化",
+    "analytics",
+    "analysis",
+    "insights"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "データ分析や実績の検討の見出しに添える。",
+    "message": "データから傾向を読み取る。",
+    "reading": [
+      "高さの異なる棒が比較対象の違いを表す。",
+      "上の線が変化の傾向を表す。"
+    ],
+    "avoid": "右肩上がりの線を実際の業績として示さない。"
+  },
+  "schema_version": 2,
+  "id": "icon/analytics",
+  "name": "分析活動_傾向と差を読み取る_棒と推移",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/analytics.svg",
+  "metadata_path": "metadata/icon/analytics.json",
+  "search_text": "icon/analytics\n分析活動_傾向と差を読み取る_棒と推移\n分析\nデータ分析や実績の検討の見出しに添える。\nデータから傾向を読み取る。\n高さの異なる棒が比較対象の違いを表す。\n上の線が変化の傾向を表す。\n分析 数値 データ 傾向 可視化 analytics analysis insights",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "8e9ddb17072987654d50d1a5b5a9f8829f01835b3a39ada40aea8b638b1df365",
+  "size_bytes": 1222
+}

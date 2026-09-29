@@ -1,0 +1,48 @@
+{
+  "category": "08-アイコンとピクトグラム",
+  "title": "同期",
+  "description": "複数の場所にある情報の状態をそろえる処理を示す。",
+  "keywords": [
+    "同期",
+    "更新",
+    "双方向",
+    "データ",
+    "sync",
+    "synchronization",
+    "refresh"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "端末間やシステム間の同期処理を示す。",
+    "message": "双方の情報を同じ状態へ更新する。",
+    "reading": [
+      "円周に沿う二つの矢印が更新の往復を表す。",
+      "一周する経路が繰り返し同期することを表す。"
+    ],
+    "avoid": "同期完了や無停止の稼働状態を保証する印には使わない。"
+  },
+  "schema_version": 2,
+  "id": "icon/synchronization",
+  "name": "同期処理_情報の状態をそろえる_双方向の循環",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/synchronization.svg",
+  "metadata_path": "metadata/icon/synchronization.json",
+  "search_text": "icon/synchronization\n同期処理_情報の状態をそろえる_双方向の循環\n同期\n端末間やシステム間の同期処理を示す。\n双方の情報を同じ状態へ更新する。\n円周に沿う二つの矢印が更新の往復を表す。\n一周する経路が繰り返し同期することを表す。\n同期 更新 双方向 データ sync synchronization refresh",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "bc8aaed416812167030c19444147e3944dc60d86cc593adb99395a9d40764be5",
+  "size_bytes": 887
+}

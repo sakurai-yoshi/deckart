@@ -1,0 +1,125 @@
+{
+  "category": "07-注釈と見出し",
+  "title": "判定基準と検証結果を照合する",
+  "description": "同じ横幅の基準と結果を右の判断へ括る照合部品。",
+  "keywords": [
+    "判定基準",
+    "結果",
+    "検証",
+    "照合",
+    "受入",
+    "criterion",
+    "result",
+    "acceptance"
+  ],
+  "labels": [
+    {
+      "x": 55,
+      "y": 37,
+      "width": 200,
+      "height": 79,
+      "text": "判定基準",
+      "role": "判定基準",
+      "align": "left",
+      "color": "#607590",
+      "font_size": 27,
+      "id": "label-1",
+      "color_role": "muted",
+      "max_lines": 2,
+      "max_fullwidth_chars": 6
+    },
+    {
+      "x": 278,
+      "y": 37,
+      "width": 455,
+      "height": 79,
+      "text": "決めた条件をすべて満たす",
+      "role": "基準の内容",
+      "align": "left",
+      "color": "#153A6B",
+      "font_size": 29,
+      "id": "label-2",
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 14
+    },
+    {
+      "x": 55,
+      "y": 198,
+      "width": 200,
+      "height": 79,
+      "text": "検証結果",
+      "role": "検証結果",
+      "align": "left",
+      "color": "#2864F0",
+      "font_size": 27,
+      "id": "label-3",
+      "color_role": "accent",
+      "max_lines": 2,
+      "max_fullwidth_chars": 6
+    },
+    {
+      "x": 278,
+      "y": 198,
+      "width": 455,
+      "height": 79,
+      "text": "各条件を確認し、記録済み",
+      "role": "結果の内容",
+      "align": "left",
+      "color": "#153A6B",
+      "font_size": 29,
+      "id": "label-4",
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 14
+    },
+    {
+      "x": 853,
+      "y": 244,
+      "width": 180,
+      "height": 68,
+      "text": "適合を判断",
+      "role": "照合結果",
+      "align": "center",
+      "color": "#153A6B",
+      "font_size": 27,
+      "id": "label-5",
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 6
+    }
+  ],
+  "width": 1070,
+  "height": 330,
+  "kind": "part",
+  "guidance": {
+    "use_case": "検証報告で、合格という結論の根拠を併記する。",
+    "message": "事前に決めた基準と確認した結果を照合して判断する。",
+    "reading": [
+      "上段に判定基準、下段に確認結果を置く。",
+      "右の括りで両方を使った判断だと示す。"
+    ],
+    "avoid": "チェックは適合を説明する作例。不適合の結果をそのまま書き込む用途には使わない。"
+  },
+  "schema_version": 2,
+  "id": "part/criterion-and-result",
+  "name": "判定基準と検証結果を照合する_説明パーツ",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1070,
+    "height": 330
+  },
+  "path": "assets/part/criterion-and-result.svg",
+  "metadata_path": "metadata/part/criterion-and-result.json",
+  "search_text": "part/criterion-and-result\n判定基準と検証結果を照合する_説明パーツ\n判定基準と検証結果を照合する\n検証報告で、合格という結論の根拠を併記する。\n事前に決めた基準と確認した結果を照合して判断する。\n上段に判定基準、下段に確認結果を置く。\n右の括りで両方を使った判断だと示す。\n判定基準 結果 検証 照合 受入 criterion result acceptance",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "48345ad83d16ef21190745fcecaecff9756705f460e5d8d617a3390dbb629e24",
+  "size_bytes": 1306
+}

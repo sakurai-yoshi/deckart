@@ -1,0 +1,48 @@
+{
+  "category": "08-アイコンとピクトグラム",
+  "title": "聴覚保護",
+  "description": "耳を覆う保護具で音から聴覚を守る。",
+  "keywords": [
+    "聴覚",
+    "騒音",
+    "耳",
+    "保護具",
+    "earmuffs",
+    "hearing",
+    "protection"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "騒音のある作業で使う保護具を説明する。",
+    "message": "耳を覆う保護具で音から聴覚を守る。",
+    "reading": [
+      "左右の大きなパッドが耳を覆う部分を表す。",
+      "頭上のバンドで左右の保護部を結ぶ。"
+    ],
+    "avoid": "説明資料向けの記号。法令・規格に適合した安全標識や現場掲示の代用には使わない。"
+  },
+  "schema_version": 2,
+  "id": "icon/hearing-protection",
+  "name": "聴覚保護_製造業務の記号",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/hearing-protection.svg",
+  "metadata_path": "metadata/icon/hearing-protection.json",
+  "search_text": "icon/hearing-protection\n聴覚保護_製造業務の記号\n聴覚保護\n騒音のある作業で使う保護具を説明する。\n耳を覆う保護具で音から聴覚を守る。\n左右の大きなパッドが耳を覆う部分を表す。\n頭上のバンドで左右の保護部を結ぶ。\n聴覚 騒音 耳 保護具 earmuffs hearing protection",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "18f3a1958bf402914707d795234d5de3b316aca1daeda8499d71f1f689859632",
+  "size_bytes": 1017
+}

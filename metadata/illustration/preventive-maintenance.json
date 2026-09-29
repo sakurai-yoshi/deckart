@@ -1,0 +1,60 @@
+{
+  "kind": "illustration",
+  "category": "06-業務イラスト",
+  "labels": [],
+  "preview_path": "previews/illustration/preventive-maintenance.png",
+  "placement": {
+    "framing": "object",
+    "facing": "front",
+    "recommended_width_cm": [
+      4,
+      7
+    ]
+  },
+  "title": "予定を決めて保全する",
+  "description": "点検日を示すカレンダーと、準備した工具を組み合わせて計画的な保全を表す。",
+  "keywords": [
+    "定期点検",
+    "予防保全",
+    "点検計画",
+    "設備",
+    "maintenance",
+    "schedule"
+  ],
+  "guidance": {
+    "use_case": "定期点検、予防保全、設備の点検計画を説明する。",
+    "message": "不具合が起きる前に、点検の時期と準備を決める。",
+    "reading": [
+      "一日を青く示したカレンダーが、点検の時期を表す。",
+      "二つの工具を収めたケースが、予定に合わせた準備を表す。"
+    ],
+    "avoid": "実物の寸法・仕様や、作業手順を示す図としては使用しない。"
+  },
+  "width": 1254,
+  "height": 1254,
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/illustrations.json"
+  },
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": true,
+  "canvas": {
+    "width": 1254,
+    "height": 1254
+  },
+  "schema_version": 2,
+  "id": "illustration/preventive-maintenance",
+  "name": "予定を決めて保全する_業務イラスト",
+  "license": "CC0-1.0",
+  "path": "media/illustration/preventive-maintenance.png",
+  "metadata_path": "metadata/illustration/preventive-maintenance.json",
+  "search_text": "illustration/preventive-maintenance\n予定を決めて保全する_業務イラスト\n予定を決めて保全する\n定期点検、予防保全、設備の点検計画を説明する。\n不具合が起きる前に、点検の時期と準備を決める。\n一日を青く示したカレンダーが、点検の時期を表す。\n二つの工具を収めたケースが、予定に合わせた準備を表す。\n定期点検 予防保全 点検計画 設備 maintenance schedule\nobject 物 道具 front 正面 [4, 7] ",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "b4834878ba7c05d8fb066057e8a37d2cf034eb13a65142dc0e44e8339f52515f",
+  "size_bytes": 981886
+}

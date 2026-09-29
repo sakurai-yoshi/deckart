@@ -1,0 +1,79 @@
+{
+  "category": "07-注釈と見出し",
+  "title": "発言と出典を一組にする",
+  "description": "引用符の横に発言を置き、その下に出典を分ける引用部品。",
+  "keywords": [
+    "引用",
+    "発言",
+    "顧客の声",
+    "出典",
+    "quote",
+    "quotation",
+    "attribution"
+  ],
+  "labels": [
+    {
+      "x": 208,
+      "y": 36,
+      "width": 790,
+      "height": 132,
+      "text": "同じことを、何度も説明しないで\n済むようにしてほしい。",
+      "role": "引用文",
+      "align": "left",
+      "color": "#153A6B",
+      "font_size": 34,
+      "id": "label-1",
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 21
+    },
+    {
+      "x": 208,
+      "y": 231,
+      "width": 790,
+      "height": 53,
+      "text": "発言者・聞き取り日・引用元",
+      "role": "出典",
+      "align": "left",
+      "color": "#607590",
+      "font_size": 24,
+      "id": "label-2",
+      "color_role": "muted",
+      "max_lines": 1,
+      "max_fullwidth_chars": 31
+    }
+  ],
+  "width": 1030,
+  "height": 315,
+  "kind": "part",
+  "guidance": {
+    "use_case": "インタビューや発言を本文の中へ引用する場面。",
+    "message": "発言そのものと、その情報源を一緒に示す。",
+    "reading": [
+      "左の引用符が引用の範囲を示す。",
+      "下の独立した欄で発言者と出典を確認する。"
+    ],
+    "avoid": "出典のない作例を実在する人の発言として使用しない。"
+  },
+  "schema_version": 2,
+  "id": "part/attributed-quotation",
+  "name": "発言と出典を一組にする_説明パーツ",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1030,
+    "height": 315
+  },
+  "path": "assets/part/attributed-quotation.svg",
+  "metadata_path": "metadata/part/attributed-quotation.json",
+  "search_text": "part/attributed-quotation\n発言と出典を一組にする_説明パーツ\n発言と出典を一組にする\nインタビューや発言を本文の中へ引用する場面。\n発言そのものと、その情報源を一緒に示す。\n左の引用符が引用の範囲を示す。\n下の独立した欄で発言者と出典を確認する。\n引用 発言 顧客の声 出典 quote quotation attribution",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "42e62a49f1da14b18b6c9ea7eaf255212688c8e66c3e9e5b679419bc5c8a7a7c",
+  "size_bytes": 880
+}

@@ -1,0 +1,97 @@
+{
+  "kind": "background",
+  "category": "11-背景とフレーム",
+  "width": 1672,
+  "height": 941,
+  "labels": [],
+  "canvas": {
+    "width": 1600,
+    "height": 900
+  },
+  "title": "折面の光で二案を分ける背景",
+  "description": "同じ広さの白い面を中央の細い折面で分け、二案を対等に見せる。",
+  "keywords": [
+    "比較",
+    "二案",
+    "選択肢",
+    "並列",
+    "改善施策",
+    "進め方",
+    "導入方式",
+    "方針",
+    "comparison",
+    "alternatives",
+    "options",
+    "parallel",
+    "folded paper"
+  ],
+  "guidance": {
+    "use_case": "二つの提案、導入方式、改善施策の条件や進め方を並べて説明する本文。",
+    "message": "同じ広さの白い面を中央の細い折面で分け、二案を対等に見せる。",
+    "reading": [
+      "共通の見出しの下に、左案と右案を同じ順序の項目で置く。",
+      "中央の光の溝と下端の折面は空け、左右の説明領域だけを使う。"
+    ],
+    "avoid": "中央の折面へ文字や接続線を重ねない。"
+  },
+  "content_areas": [
+    {
+      "id": "title",
+      "role": "共通見出し",
+      "purpose": "比較の主題を1行で配置する領域。",
+      "content_type": "text",
+      "x": 100,
+      "y": 70,
+      "width": 1400,
+      "height": 100,
+      "text_color": "#172B4D",
+      "text_align": "left"
+    },
+    {
+      "id": "left-option",
+      "role": "左の案",
+      "purpose": "案名、進め方、適する条件などを右と同じ順序で配置する。",
+      "content_type": "text",
+      "x": 100,
+      "y": 230,
+      "width": 620,
+      "height": 480,
+      "text_color": "#172B4D",
+      "text_align": "left"
+    },
+    {
+      "id": "right-option",
+      "role": "右の案",
+      "purpose": "案名、進め方、適する条件などを左と同じ順序で配置する。",
+      "content_type": "text",
+      "x": 880,
+      "y": 230,
+      "width": 620,
+      "height": 480,
+      "text_color": "#172B4D",
+      "text_align": "left"
+    }
+  ],
+  "preview_path": "previews/background/comparison-folded-light.png",
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/backgrounds.json"
+  },
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": false,
+  "schema_version": 2,
+  "id": "background/comparison-folded-light",
+  "name": "折面の光で二案を分ける背景_背景",
+  "license": "CC0-1.0",
+  "path": "media/background/comparison-folded-light.png",
+  "metadata_path": "metadata/background/comparison-folded-light.json",
+  "search_text": "background/comparison-folded-light\n折面の光で二案を分ける背景_背景\n折面の光で二案を分ける背景\n二つの提案、導入方式、改善施策の条件や進め方を並べて説明する本文。\n同じ広さの白い面を中央の細い折面で分け、二案を対等に見せる。\n共通の見出しの下に、左案と右案を同じ順序の項目で置く。\n中央の光の溝と下端の折面は空け、左右の説明領域だけを使う。\n比較 二案 選択肢 並列 改善施策 進め方 導入方式 方針 comparison alternatives options parallel folded paper",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "b8fa3c701880beccdf422f4eb2b18d6db70bb78deff33a488bc876cb238d5cbe",
+  "size_bytes": 1596284
+}

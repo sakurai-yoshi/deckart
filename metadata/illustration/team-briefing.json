@@ -1,0 +1,63 @@
+{
+  "title": "要点をチームへ伝える",
+  "description": "手元のメモを持つ話し手に二人の同僚が向き合い、短い共有説明を聞く。",
+  "kind": "illustration",
+  "category": "06-業務イラスト",
+  "width": 1254,
+  "height": 1254,
+  "keywords": [
+    "朝会",
+    "共有",
+    "チーム",
+    "方針",
+    "連絡",
+    "短時間",
+    "briefing",
+    "team"
+  ],
+  "guidance": {
+    "use_case": "朝会、短時間の共有、チームへの方針説明を伝える。",
+    "message": "少人数で要点をそろえてから、仕事を進める。",
+    "reading": [
+      "中心の話し手と手元のメモが、要点をまとめて伝える動作を示す。",
+      "同じ話し手を向く二人が、チームで情報を共有する関係を示す。"
+    ],
+    "avoid": "実在の人物・業務実績・承認や確認の完了を証明する画像としては使えません。"
+  },
+  "labels": [],
+  "preview_path": "previews/illustration/team-briefing.png",
+  "placement": {
+    "framing": "waist-up",
+    "facing": "inward",
+    "people_count": 3,
+    "recommended_width_cm": [
+      6,
+      10
+    ]
+  },
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/illustrations.json"
+  },
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": true,
+  "canvas": {
+    "width": 1254,
+    "height": 1254
+  },
+  "schema_version": 2,
+  "id": "illustration/team-briefing",
+  "name": "要点をチームへ伝える_汎用ビジネスの動作",
+  "license": "CC0-1.0",
+  "path": "media/illustration/team-briefing.png",
+  "metadata_path": "metadata/illustration/team-briefing.json",
+  "search_text": "illustration/team-briefing\n要点をチームへ伝える_汎用ビジネスの動作\n要点をチームへ伝える\n朝会、短時間の共有、チームへの方針説明を伝える。\n少人数で要点をそろえてから、仕事を進める。\n中心の話し手と手元のメモが、要点をまとめて伝える動作を示す。\n同じ話し手を向く二人が、チームで情報を共有する関係を示す。\n朝会 共有 チーム 方針 連絡 短時間 briefing team\nwaist-up 上半身 腰上 inward 向かい合う 対話 3  [6, 10] ",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "e8e1694d0849259d05b61c1b7814cc33e95527a6de82b44b6e8ac1b2c4cea7c1",
+  "size_bytes": 589260
+}

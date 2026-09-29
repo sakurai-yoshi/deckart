@@ -1,0 +1,130 @@
+{
+  "category": "01-業務プロセス",
+  "title": "問い合わせを担当へ振り分ける",
+  "description": "窓口へ集まる依頼を分類し、適切な対応経路へ振り分ける。",
+  "keywords": [
+    "問い合わせ",
+    "トリアージ",
+    "振り分け",
+    "受付",
+    "窓口",
+    "分類",
+    "緊急度",
+    "ルーティング"
+  ],
+  "labels": [
+    {
+      "x": 54,
+      "y": 74,
+      "width": 291,
+      "height": 65,
+      "text": "依頼を一つの窓口へ",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-1",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 10
+    },
+    {
+      "x": 286,
+      "y": 554,
+      "width": 316,
+      "height": 77,
+      "text": "内容・緊急度を判断",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-2",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 11
+    },
+    {
+      "x": 726,
+      "y": 231,
+      "width": 375,
+      "height": 67,
+      "text": "専門担当が対応",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-3",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 13
+    },
+    {
+      "x": 726,
+      "y": 414,
+      "width": 375,
+      "height": 67,
+      "text": "標準手順で回答",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-4",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 13
+    },
+    {
+      "x": 706,
+      "y": 604,
+      "width": 400,
+      "height": 68,
+      "text": "継続課題として管理",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-5",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 13
+    }
+  ],
+  "width": 1200,
+  "height": 720,
+  "layout": {
+    "relation": "classification-routing",
+    "reading_direction": "left-to-right"
+  },
+  "guidance": {
+    "use_case": "問い合わせ窓口で、依頼の内容に応じた対応先を決める。",
+    "message": "依頼を一つの窓口で受け、適切な経路へ振り分ける。",
+    "reading": [
+      "左の異なる形が窓口に集まる依頼。",
+      "中央の判断ゲートで対応方法を分類する。",
+      "右の三つの経路が分類後の行き先。"
+    ],
+    "avoid": "上下の並びを緊急度の順位として扱わない。"
+  },
+  "kind": "diagram",
+  "schema_version": 2,
+  "id": "process/inquiry-triage",
+  "name": "問い合わせ対応_内容と緊急度で担当へ振り分ける_三方向のトリアージ",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1200,
+    "height": 720
+  },
+  "path": "assets/process/inquiry-triage.svg",
+  "metadata_path": "metadata/process/inquiry-triage.json",
+  "search_text": "process/inquiry-triage\n問い合わせ対応_内容と緊急度で担当へ振り分ける_三方向のトリアージ\n問い合わせを担当へ振り分ける\n問い合わせ窓口で、依頼の内容に応じた対応先を決める。\n依頼を一つの窓口で受け、適切な経路へ振り分ける。\n左の異なる形が窓口に集まる依頼。\n中央の判断ゲートで対応方法を分類する。\n右の三つの経路が分類後の行き先。\n問い合わせ トリアージ 振り分け 受付 窓口 分類 緊急度 ルーティング",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "d0b74768344d380d7ae949a718e2b589e8e62f1c4d7b4853778fa0c454ce5fc1",
+  "size_bytes": 2821
+}

@@ -1,0 +1,49 @@
+{
+  "category": "08-アイコンとピクトグラム",
+  "title": "サーバー",
+  "description": "データ処理やサービスを提供する機器を示す。",
+  "keywords": [
+    "サーバー",
+    "機器",
+    "インフラ",
+    "ホスティング",
+    "server",
+    "infrastructure",
+    "hosting",
+    "compute"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "システム構成で処理を担う機器を示す。",
+    "message": "サービスを提供する処理基盤がある。",
+    "reading": [
+      "積み重なる筐体がサーバー機器を表す。",
+      "各段の点と横線が稼働部を示す。"
+    ],
+    "avoid": "三台の構成や冗長化済みの状態としては使わない。"
+  },
+  "schema_version": 2,
+  "id": "icon/server",
+  "name": "設備表示_処理を提供する_サーバー",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/server.svg",
+  "metadata_path": "metadata/icon/server.json",
+  "search_text": "icon/server\n設備表示_処理を提供する_サーバー\nサーバー\nシステム構成で処理を担う機器を示す。\nサービスを提供する処理基盤がある。\n積み重なる筐体がサーバー機器を表す。\n各段の点と横線が稼働部を示す。\nサーバー 機器 インフラ ホスティング server infrastructure hosting compute",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "a1ba9bf60c66b9d01a71662a397a2d5fe3585f7bab167fcc23ff10955ac83e40",
+  "size_bytes": 1478
+}

@@ -1,0 +1,50 @@
+{
+  "category": "08-アイコンとピクトグラム",
+  "title": "専門性と実務",
+  "description": "専門知識と実務経験を備えた担当者を紹介する。",
+  "keywords": [
+    "人材",
+    "専門家",
+    "スキル",
+    "資格",
+    "経験",
+    "コンサルタント",
+    "professional",
+    "expertise",
+    "portfolio"
+  ],
+  "labels": [],
+  "width": 320,
+  "height": 280,
+  "guidance": {
+    "use_case": "担当者や支援チームの専門性を紹介する場面。",
+    "message": "専門知識を実務に生かす人材がいる。",
+    "reading": [
+      "人物は担当者、冊子は実務経験を表す。",
+      "チェック付きの記章は確かな仕事への期待を表す。"
+    ],
+    "avoid": "実在する資格や公的認証の証明には使わない。"
+  },
+  "kind": "icon",
+  "schema_version": 2,
+  "id": "icon/professional-expertise",
+  "name": "人材紹介_専門性と実務_人物とポートフォリオ",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 320,
+    "height": 280
+  },
+  "path": "assets/icon/professional-expertise.svg",
+  "metadata_path": "metadata/icon/professional-expertise.json",
+  "search_text": "icon/professional-expertise\n人材紹介_専門性と実務_人物とポートフォリオ\n専門性と実務\n担当者や支援チームの専門性を紹介する場面。\n専門知識を実務に生かす人材がいる。\n人物は担当者、冊子は実務経験を表す。\nチェック付きの記章は確かな仕事への期待を表す。\n人材 専門家 スキル 資格 経験 コンサルタント professional expertise portfolio",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "19bc262d8bbd943e75682eafff734ad43e85559bebdc61f3a9e4ec6fbecd5112",
+  "size_bytes": 3882
+}

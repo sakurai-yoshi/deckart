@@ -1,0 +1,129 @@
+{
+  "category": "04-計画と進捗",
+  "title": "作業期間と引継ぎを同時に見る",
+  "description": "複数の作業期間を並べ、次の担当へ渡す成果と完了条件を示す。",
+  "keywords": [
+    "スケジュール",
+    "ガント",
+    "作業計画",
+    "ワークストリーム",
+    "引継ぎ",
+    "並行作業",
+    "期間"
+  ],
+  "labels": [
+    {
+      "x": 60,
+      "y": 194,
+      "width": 201,
+      "height": 73,
+      "text": "要件・設計",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-1",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 7
+    },
+    {
+      "x": 60,
+      "y": 349,
+      "width": 201,
+      "height": 73,
+      "text": "制作・実装",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-2",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 7
+    },
+    {
+      "x": 60,
+      "y": 505,
+      "width": 201,
+      "height": 73,
+      "text": "検証・準備",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-3",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 7
+    },
+    {
+      "x": 709,
+      "y": 45,
+      "width": 411,
+      "height": 67,
+      "text": "共通の完了条件",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-4",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 14
+    },
+    {
+      "x": 351,
+      "y": 199,
+      "width": 373,
+      "height": 58,
+      "text": "成果を次の担当へ渡す",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-5",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 13
+    }
+  ],
+  "width": 1200,
+  "height": 720,
+  "layout": {
+    "relation": "overlapping-workstreams",
+    "reading_direction": "left-to-right"
+  },
+  "guidance": {
+    "use_case": "要件・制作・検証を並行して進める計画の引継ぎ点を示す。",
+    "message": "作業を重ねながら、必要な成果を次の担当へ渡す。",
+    "reading": [
+      "横の帯が担当ごとの作業期間。",
+      "帯から出る矢印が成果の引継ぎ。",
+      "右の縦バーが共通の完了条件。"
+    ],
+    "avoid": "実日付や期間を比較する場合は時間軸を定義する。"
+  },
+  "kind": "diagram",
+  "schema_version": 2,
+  "id": "plan/workstream-handoffs",
+  "name": "進行管理_作業期間と引継ぎを同時に見る_連携するワークストリーム",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1200,
+    "height": 720
+  },
+  "path": "assets/plan/workstream-handoffs.svg",
+  "metadata_path": "metadata/plan/workstream-handoffs.json",
+  "search_text": "plan/workstream-handoffs\n進行管理_作業期間と引継ぎを同時に見る_連携するワークストリーム\n作業期間と引継ぎを同時に見る\n要件・制作・検証を並行して進める計画の引継ぎ点を示す。\n作業を重ねながら、必要な成果を次の担当へ渡す。\n横の帯が担当ごとの作業期間。\n帯から出る矢印が成果の引継ぎ。\n右の縦バーが共通の完了条件。\nスケジュール ガント 作業計画 ワークストリーム 引継ぎ 並行作業 期間",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "462b272249bcc310d1d32a7542f31252fb2263b78d8fddec6f1ac2b715586395",
+  "size_bytes": 4289
+}

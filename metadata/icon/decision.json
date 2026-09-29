@@ -1,0 +1,49 @@
+{
+  "category": "08-アイコンとピクトグラム",
+  "title": "意思決定",
+  "description": "条件や判断に基づいて進む選択肢を決める。",
+  "keywords": [
+    "判断",
+    "意思決定",
+    "選択",
+    "分岐",
+    "条件",
+    "decision",
+    "choice",
+    "condition"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "判断が必要な工程や意思決定の項目に添える。",
+    "message": "条件を確かめて進む選択肢を決める。",
+    "reading": [
+      "中央の菱形が判断を表す。",
+      "左右に分かれる経路が選べる進路を示す。"
+    ],
+    "avoid": "二択の具体的な条件を図だけで伝える用途には使わない。"
+  },
+  "schema_version": 2,
+  "id": "icon/decision",
+  "name": "判断作業_条件に応じて進路を選ぶ_判断の分岐",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/decision.svg",
+  "metadata_path": "metadata/icon/decision.json",
+  "search_text": "icon/decision\n判断作業_条件に応じて進路を選ぶ_判断の分岐\n意思決定\n判断が必要な工程や意思決定の項目に添える。\n条件を確かめて進む選択肢を決める。\n中央の菱形が判断を表す。\n左右に分かれる経路が選べる進路を示す。\n判断 意思決定 選択 分岐 条件 decision choice condition",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "e3fee624e5238df8c6f91753960d59530ec55fe7a5b04ea0be8ed89bf6f5fdc5",
+  "size_bytes": 1052
+}

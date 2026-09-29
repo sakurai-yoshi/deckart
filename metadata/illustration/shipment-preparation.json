@@ -1,0 +1,62 @@
+{
+  "title": "出荷する荷物を整える",
+  "kind": "illustration",
+  "category": "06-業務イラスト",
+  "width": 1254,
+  "height": 1254,
+  "keywords": [
+    "出荷",
+    "発送",
+    "準備",
+    "物流",
+    "shipment",
+    "dispatch",
+    "logistics"
+  ],
+  "guidance": {
+    "use_case": "出荷準備、配送前確認、物流部門の役割の説明。",
+    "message": "荷物を確認し、出荷できる状態に整える。",
+    "reading": [
+      "箱の合わせ目をテープで留め、出荷に備える。",
+      "両手で封を整える行為を示す。"
+    ],
+    "avoid": "輸送済みや配送完了を意味する図としては使用しない。"
+  },
+  "labels": [],
+  "preview_path": "previews/illustration/shipment-preparation.png",
+  "placement": {
+    "framing": "waist-up",
+    "facing": "right",
+    "people_count": 1,
+    "recommended_width_cm": [
+      4.5,
+      9
+    ]
+  },
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/illustrations.json"
+  },
+  "description": "荷物を確認し、出荷できる状態に整える。",
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": true,
+  "canvas": {
+    "width": 1254,
+    "height": 1254
+  },
+  "schema_version": 2,
+  "id": "illustration/shipment-preparation",
+  "name": "出荷する荷物を整える_メーカー業務の動作",
+  "license": "CC0-1.0",
+  "path": "media/illustration/shipment-preparation.png",
+  "metadata_path": "metadata/illustration/shipment-preparation.json",
+  "search_text": "illustration/shipment-preparation\n出荷する荷物を整える_メーカー業務の動作\n出荷する荷物を整える\n出荷準備、配送前確認、物流部門の役割の説明。\n荷物を確認し、出荷できる状態に整える。\n箱の合わせ目をテープで留め、出荷に備える。\n両手で封を整える行為を示す。\n出荷 発送 準備 物流 shipment dispatch logistics\nwaist-up 上半身 腰上 right 右向き 1  [4.5, 9] ",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "0fb0ae374f772c7a74713bccfadb0edfde871235d30aaf63e65f09e7d414e000",
+  "size_bytes": 643045
+}

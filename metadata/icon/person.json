@@ -1,0 +1,50 @@
+{
+  "category": "08-アイコンとピクトグラム",
+  "title": "担当者",
+  "description": "個人や担当者を示す人物のピクトグラム。",
+  "keywords": [
+    "人物",
+    "個人",
+    "担当者",
+    "人材",
+    "利用者",
+    "メンバー",
+    "person",
+    "individual",
+    "owner"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "担当者や利用者を、資料内で短く示す場面。",
+    "message": "ひとりの人、または個人の担当を示す。",
+    "reading": [
+      "丸い頭部が人物を示す。",
+      "一つの肩の輪郭が個人を表す。"
+    ],
+    "avoid": "性別・年齢・役職の特定には使わない。"
+  },
+  "schema_version": 2,
+  "id": "icon/person",
+  "name": "人物表示_担当者を示す_ひとりの人物",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/person.svg",
+  "metadata_path": "metadata/icon/person.json",
+  "search_text": "icon/person\n人物表示_担当者を示す_ひとりの人物\n担当者\n担当者や利用者を、資料内で短く示す場面。\nひとりの人、または個人の担当を示す。\n丸い頭部が人物を示す。\n一つの肩の輪郭が個人を表す。\n人物 個人 担当者 人材 利用者 メンバー person individual owner",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "806835f67e08977d0c06f935dd9c61c103564c9919c5d14bd2f664860601b258",
+  "size_bytes": 598
+}

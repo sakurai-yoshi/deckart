@@ -1,0 +1,162 @@
+{
+  "category": "01-業務プロセス",
+  "title": "担当をまたぐ引継ぎを追う",
+  "description": "依頼者・受付・専門担当の担当範囲と、仕事を渡す順序を示す。",
+  "keywords": [
+    "責任分担",
+    "スイムレーン",
+    "引継ぎ",
+    "担当",
+    "業務フロー",
+    "窓口",
+    "依頼",
+    "swimlane",
+    "handoff",
+    "responsibility"
+  ],
+  "labels": [
+    {
+      "x": 81,
+      "y": 165,
+      "width": 143,
+      "height": 76,
+      "text": "依頼者",
+      "role": "役割",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-1",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 4
+    },
+    {
+      "x": 81,
+      "y": 331,
+      "width": 143,
+      "height": 76,
+      "text": "受付窓口",
+      "role": "役割",
+      "align": "center",
+      "color": "#FFFFFF",
+      "id": "label-2",
+      "font_size": 27,
+      "color_role": "paper",
+      "max_lines": 2,
+      "max_fullwidth_chars": 4
+    },
+    {
+      "x": 81,
+      "y": 497,
+      "width": 143,
+      "height": 76,
+      "text": "専門担当",
+      "role": "役割",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-3",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 4
+    },
+    {
+      "x": 300,
+      "y": 171,
+      "width": 138,
+      "height": 60,
+      "text": "依頼する",
+      "role": "作業",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-4",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 4
+    },
+    {
+      "x": 516,
+      "y": 337,
+      "width": 148,
+      "height": 57,
+      "text": "内容を確認",
+      "role": "作業",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-5",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 5
+    },
+    {
+      "x": 751,
+      "y": 503,
+      "width": 160,
+      "height": 57,
+      "text": "処理する",
+      "role": "作業",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-6",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 5
+    },
+    {
+      "x": 984,
+      "y": 337,
+      "width": 125,
+      "height": 57,
+      "text": "回答する",
+      "role": "作業",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-7",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 4
+    }
+  ],
+  "width": 1200,
+  "height": 720,
+  "kind": "diagram",
+  "guidance": {
+    "use_case": "問い合わせ対応で、受付窓口と専門担当のどちらが何を担うかを説明する。",
+    "message": "横の領域が担当範囲、領域をまたぐ矢印が引継ぎを表す。",
+    "reading": [
+      "上から依頼者・受付窓口・専門担当の担当範囲。",
+      "依頼は受付確認を経て専門担当へ渡る。",
+      "処理結果は受付窓口に戻り、回答で完了する。"
+    ],
+    "avoid": "横位置は順序を表す。作業時間や待ち時間の長さは示していない。"
+  },
+  "layout": {
+    "relation": "responsibility-swimlane",
+    "reading_direction": "left-to-right"
+  },
+  "schema_version": 2,
+  "id": "operations/responsibility-swimlane",
+  "name": "役割分担_担当をまたぐ引継ぎを追う_三者のスイムレーン",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1200,
+    "height": 720
+  },
+  "path": "assets/operations/responsibility-swimlane.svg",
+  "metadata_path": "metadata/operations/responsibility-swimlane.json",
+  "search_text": "operations/responsibility-swimlane\n役割分担_担当をまたぐ引継ぎを追う_三者のスイムレーン\n担当をまたぐ引継ぎを追う\n問い合わせ対応で、受付窓口と専門担当のどちらが何を担うかを説明する。\n横の領域が担当範囲、領域をまたぐ矢印が引継ぎを表す。\n上から依頼者・受付窓口・専門担当の担当範囲。\n依頼は受付確認を経て専門担当へ渡る。\n処理結果は受付窓口に戻り、回答で完了する。\n責任分担 スイムレーン 引継ぎ 担当 業務フロー 窓口 依頼 swimlane handoff responsibility",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "1d518e5c9c7fc0a0c62f74659f2e2443f912afb6f7e319cba0df5c9ac36d5ef5",
+  "size_bytes": 4300
+}

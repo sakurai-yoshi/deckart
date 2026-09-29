@@ -1,0 +1,98 @@
+{
+  "kind": "background",
+  "category": "11-背景とフレーム",
+  "width": 1672,
+  "height": 941,
+  "labels": [],
+  "canvas": {
+    "width": 1600,
+    "height": 900
+  },
+  "title": "紙の成形と青い層で報告を支える背景",
+  "description": "低い隆起と紙の質感で、図表と補足説明を落ち着いて見せる。",
+  "keywords": [
+    "月次報告",
+    "業務報告",
+    "成果",
+    "課題",
+    "実績",
+    "図表",
+    "補足",
+    "品質",
+    "改善",
+    "monthly report",
+    "performance",
+    "chart",
+    "commentary",
+    "embossed paper"
+  ],
+  "guidance": {
+    "use_case": "月次報告、成果と課題、業務改善の進捗を図表と補足で説明する本文。",
+    "message": "低い隆起と紙の質感で、図表と補足説明を落ち着いて見せる。",
+    "reading": [
+      "左の広い領域に実データの図表、右に成果・課題・次の行動を置く。",
+      "下端の青い層と浅い成形は余白として残す。"
+    ],
+    "avoid": "曲面が始まる下端に出典や数値を重ねない。"
+  },
+  "content_areas": [
+    {
+      "id": "title",
+      "role": "見出し",
+      "purpose": "報告の主題を1行で配置する領域。",
+      "content_type": "text",
+      "x": 100,
+      "y": 70,
+      "width": 1300,
+      "height": 100,
+      "text_color": "#172B4D",
+      "text_align": "left"
+    },
+    {
+      "id": "evidence",
+      "role": "図表と出典",
+      "purpose": "実データの図表と出典を配置する。下端を660以内に収める。",
+      "content_type": "chart",
+      "x": 100,
+      "y": 220,
+      "width": 940,
+      "height": 440,
+      "text_color": "#172B4D",
+      "text_align": "left"
+    },
+    {
+      "id": "commentary",
+      "role": "成果と課題",
+      "purpose": "成果、残る課題、次の行動を簡潔に添える領域。",
+      "content_type": "text",
+      "x": 1100,
+      "y": 220,
+      "width": 370,
+      "height": 440,
+      "text_color": "#172B4D",
+      "text_align": "left"
+    }
+  ],
+  "preview_path": "previews/background/report-embossed-surface.png",
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/backgrounds.json"
+  },
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": false,
+  "schema_version": 2,
+  "id": "background/report-embossed-surface",
+  "name": "紙の成形と青い層で報告を支える背景_背景",
+  "license": "CC0-1.0",
+  "path": "media/background/report-embossed-surface.png",
+  "metadata_path": "metadata/background/report-embossed-surface.json",
+  "search_text": "background/report-embossed-surface\n紙の成形と青い層で報告を支える背景_背景\n紙の成形と青い層で報告を支える背景\n月次報告、成果と課題、業務改善の進捗を図表と補足で説明する本文。\n低い隆起と紙の質感で、図表と補足説明を落ち着いて見せる。\n左の広い領域に実データの図表、右に成果・課題・次の行動を置く。\n下端の青い層と浅い成形は余白として残す。\n月次報告 業務報告 成果 課題 実績 図表 補足 品質 改善 monthly report performance chart commentary embossed paper",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "02da910ffe804d097b4e705a63e1baa495eb1baff2c8c515f0cd44ba72ab3c83",
+  "size_bytes": 1741757
+}

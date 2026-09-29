@@ -1,0 +1,51 @@
+{
+  "category": "08-アイコンとピクトグラム",
+  "title": "許可された入口",
+  "description": "情報へのアクセスを権限に応じて保護する仕組みを示す。",
+  "keywords": [
+    "権限",
+    "認証",
+    "アクセス制御",
+    "保護",
+    "情報管理",
+    "セキュリティ",
+    "security",
+    "access",
+    "protection",
+    "authorization"
+  ],
+  "labels": [],
+  "width": 330,
+  "height": 290,
+  "guidance": {
+    "use_case": "情報へのアクセス権限や保護を紹介する場面。",
+    "message": "大切な情報は、権限を持つ人にだけ開く。",
+    "reading": [
+      "保管庫の中の書類が守る対象を表す。",
+      "鍵と鍵穴のある扉が許可に基づくアクセスを表す。"
+    ],
+    "avoid": "特定の製品の安全性や認証取得を保証する用途には使わない。"
+  },
+  "kind": "icon",
+  "schema_version": 2,
+  "id": "icon/access-protection",
+  "name": "情報管理_アクセス保護_許可された入口",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 330,
+    "height": 290
+  },
+  "path": "assets/icon/access-protection.svg",
+  "metadata_path": "metadata/icon/access-protection.json",
+  "search_text": "icon/access-protection\n情報管理_アクセス保護_許可された入口\n許可された入口\n情報へのアクセス権限や保護を紹介する場面。\n大切な情報は、権限を持つ人にだけ開く。\n保管庫の中の書類が守る対象を表す。\n鍵と鍵穴のある扉が許可に基づくアクセスを表す。\n権限 認証 アクセス制御 保護 情報管理 セキュリティ security access protection authorization",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "d194cc014fe4ad25241296070f8fc84f3392c2c26904a23e6ad2cd2e6aa236f9",
+  "size_bytes": 3069
+}

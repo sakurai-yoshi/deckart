@@ -1,0 +1,52 @@
+{
+  "category": "08-アイコンとピクトグラム",
+  "title": "本社と拠点",
+  "description": "本社と複数拠点のつながりや事業ネットワークを表す。",
+  "keywords": [
+    "企業",
+    "本社",
+    "支社",
+    "拠点",
+    "グループ会社",
+    "組織",
+    "拠点網",
+    "enterprise",
+    "company",
+    "network",
+    "headquarters"
+  ],
+  "labels": [],
+  "width": 360,
+  "height": 300,
+  "guidance": {
+    "use_case": "本社・支社や複数拠点の連携を紹介する場面。",
+    "message": "拠点ごとの仕事を、ひとつのネットワークで結ぶ。",
+    "reading": [
+      "大きな建物が中核拠点、小さな建物が各拠点を表す。",
+      "地面の接続線が拠点間のつながりを表す。"
+    ],
+    "avoid": "実際の所在地や拠点間距離を示す地図には使わない。"
+  },
+  "kind": "icon",
+  "schema_version": 2,
+  "id": "icon/company-network",
+  "name": "企業紹介_拠点ネットワーク_本社と支社",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 360,
+    "height": 300
+  },
+  "path": "assets/icon/company-network.svg",
+  "metadata_path": "metadata/icon/company-network.json",
+  "search_text": "icon/company-network\n企業紹介_拠点ネットワーク_本社と支社\n本社と拠点\n本社・支社や複数拠点の連携を紹介する場面。\n拠点ごとの仕事を、ひとつのネットワークで結ぶ。\n大きな建物が中核拠点、小さな建物が各拠点を表す。\n地面の接続線が拠点間のつながりを表す。\n企業 本社 支社 拠点 グループ会社 組織 拠点網 enterprise company network headquarters",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "1693efd81da1bb2b3203cc8632b0c05ed464bc6f3fa7410fd140e597b4874bef",
+  "size_bytes": 6728
+}

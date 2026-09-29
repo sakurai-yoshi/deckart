@@ -1,0 +1,62 @@
+{
+  "title": "設備の状態を見守る",
+  "kind": "illustration",
+  "category": "06-業務イラスト",
+  "width": 1254,
+  "height": 1254,
+  "keywords": [
+    "設備監視",
+    "稼働",
+    "確認",
+    "オペレーター",
+    "monitoring",
+    "operation",
+    "machine"
+  ],
+  "guidance": {
+    "use_case": "設備監視、運転管理、現場の状態把握の説明。",
+    "message": "設備の状態を把握し、安定した稼働を見守る。",
+    "reading": [
+      "手元の端末へ視線を向け、状態を確認する。",
+      "端末を支えた手と操作する手で確認行為を示す。"
+    ],
+    "avoid": "実測値や稼働率、異常の発生を示す表現として使用しない。"
+  },
+  "labels": [],
+  "preview_path": "previews/illustration/machine-monitoring.png",
+  "placement": {
+    "framing": "waist-up",
+    "facing": "right",
+    "people_count": 1,
+    "recommended_width_cm": [
+      4.5,
+      9
+    ]
+  },
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/illustrations.json"
+  },
+  "description": "設備の状態を把握し、安定した稼働を見守る。",
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": true,
+  "canvas": {
+    "width": 1254,
+    "height": 1254
+  },
+  "schema_version": 2,
+  "id": "illustration/machine-monitoring",
+  "name": "設備の状態を見守る_メーカー業務の動作",
+  "license": "CC0-1.0",
+  "path": "media/illustration/machine-monitoring.png",
+  "metadata_path": "metadata/illustration/machine-monitoring.json",
+  "search_text": "illustration/machine-monitoring\n設備の状態を見守る_メーカー業務の動作\n設備の状態を見守る\n設備監視、運転管理、現場の状態把握の説明。\n設備の状態を把握し、安定した稼働を見守る。\n手元の端末へ視線を向け、状態を確認する。\n端末を支えた手と操作する手で確認行為を示す。\n設備監視 稼働 確認 オペレーター monitoring operation machine\nwaist-up 上半身 腰上 right 右向き 1  [4.5, 9] ",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "98fe6a819449cf797aff6400c8e42a692d7f3e36e3acb441a956b96992a49ca4",
+  "size_bytes": 918924
+}

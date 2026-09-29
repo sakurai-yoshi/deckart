@@ -1,0 +1,60 @@
+{
+  "title": "合意を文書にする",
+  "kind": "illustration",
+  "category": "06-業務イラスト",
+  "width": 1254,
+  "height": 1254,
+  "keywords": [
+    "合意",
+    "契約",
+    "条件",
+    "文書",
+    "agreement",
+    "contract"
+  ],
+  "guidance": {
+    "use_case": "合意形成、契約準備、取引条件の整理に。",
+    "message": "共通の条件を文書にまとめて共有する。",
+    "reading": [
+      "同じ構成の二部の書類と二本のペンが、条件を双方で確認する場面を示します。"
+    ],
+    "avoid": "数値や条件を示す実資料には、編集可能な文字・図表を併用してください。"
+  },
+  "labels": [],
+  "preview_path": "previews/illustration/agreement-documents.png",
+  "placement": {
+    "framing": "object",
+    "facing": "front",
+    "people_count": 0,
+    "recommended_width_cm": [
+      4,
+      7
+    ]
+  },
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/illustrations.json"
+  },
+  "description": "共通の条件を文書にまとめて共有する。",
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": true,
+  "canvas": {
+    "width": 1254,
+    "height": 1254
+  },
+  "schema_version": 2,
+  "id": "illustration/agreement-documents",
+  "name": "合意を文書にする_物で伝える業務",
+  "license": "CC0-1.0",
+  "path": "media/illustration/agreement-documents.png",
+  "metadata_path": "metadata/illustration/agreement-documents.json",
+  "search_text": "illustration/agreement-documents\n合意を文書にする_物で伝える業務\n合意を文書にする\n合意形成、契約準備、取引条件の整理に。\n共通の条件を文書にまとめて共有する。\n同じ構成の二部の書類と二本のペンが、条件を双方で確認する場面を示します。\n合意 契約 条件 文書 agreement contract\nobject 物 道具 front 正面 0  [4, 7] ",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "c78544d77e8b5edcf7eca056ee630b3fb7af57a4f76ca57f129bbc6905523240",
+  "size_bytes": 1001460
+}

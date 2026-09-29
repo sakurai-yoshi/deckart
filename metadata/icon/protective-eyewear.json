@@ -1,0 +1,48 @@
+{
+  "category": "08-アイコンとピクトグラム",
+  "title": "保護眼鏡",
+  "description": "作業時の目を保護する。",
+  "keywords": [
+    "保護眼鏡",
+    "目",
+    "安全",
+    "保護具",
+    "goggles",
+    "eyewear",
+    "protection"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "必要な保護具を説明する資料で目の保護を示す。",
+    "message": "作業時の目を保護する。",
+    "reading": [
+      "広い二つのレンズが保護眼鏡を表す。",
+      "両側のつるが装着する用具であることを示す。"
+    ],
+    "avoid": "説明資料向けの記号。法令・規格に適合した安全標識や現場掲示の代用には使わない。"
+  },
+  "schema_version": 2,
+  "id": "icon/protective-eyewear",
+  "name": "保護眼鏡_製造業務の記号",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/protective-eyewear.svg",
+  "metadata_path": "metadata/icon/protective-eyewear.json",
+  "search_text": "icon/protective-eyewear\n保護眼鏡_製造業務の記号\n保護眼鏡\n必要な保護具を説明する資料で目の保護を示す。\n作業時の目を保護する。\n広い二つのレンズが保護眼鏡を表す。\n両側のつるが装着する用具であることを示す。\n保護眼鏡 目 安全 保護具 goggles eyewear protection",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "8e478657eb1804e21d5ebc9c91f72203bfc6a494b028e539e11e9f4d05fc9a3f",
+  "size_bytes": 1006
+}

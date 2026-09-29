@@ -1,0 +1,129 @@
+{
+  "category": "01-業務プロセス",
+  "title": "承認と差戻しを分ける判断ゲート",
+  "description": "承認後の前進と、修正して再申請する経路を一つの図で説明する。",
+  "keywords": [
+    "承認",
+    "決裁",
+    "稟議",
+    "差戻し",
+    "再申請",
+    "判断",
+    "審査"
+  ],
+  "labels": [
+    {
+      "x": 70,
+      "y": 157,
+      "width": 283,
+      "height": 72,
+      "text": "申請・提出",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-1",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 9
+    },
+    {
+      "x": 438,
+      "y": 104,
+      "width": 324,
+      "height": 72,
+      "text": "承認基準を確認",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-2",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 11
+    },
+    {
+      "x": 802,
+      "y": 252,
+      "width": 311,
+      "height": 66,
+      "text": "基準を満たして次へ",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-3",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 10
+    },
+    {
+      "x": 684,
+      "y": 501,
+      "width": 416,
+      "height": 66,
+      "text": "条件未達なら修正",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-4",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 14
+    },
+    {
+      "x": 235,
+      "y": 614,
+      "width": 343,
+      "height": 58,
+      "text": "修正後に再申請",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-5",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 11
+    }
+  ],
+  "width": 1200,
+  "height": 720,
+  "layout": {
+    "relation": "decision-and-return",
+    "reading_direction": "left-to-right"
+  },
+  "guidance": {
+    "use_case": "申請書類の承認基準と、不備がある場合の再申請を説明する。",
+    "message": "基準を満たした申請は進み、未達の申請は修正へ戻る。",
+    "reading": [
+      "左の文書を中央の判断ゲートで確認する。",
+      "主色の経路が承認後の前進。",
+      "下の注意色の経路が提出元への差戻し。"
+    ],
+    "avoid": "複数段階の決裁を一つの判断にまとめない。"
+  },
+  "kind": "diagram",
+  "schema_version": 2,
+  "id": "process/approval-return",
+  "name": "意思決定_承認と差戻しの経路を分ける_判断ゲートと復帰路",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1200,
+    "height": 720
+  },
+  "path": "assets/process/approval-return.svg",
+  "metadata_path": "metadata/process/approval-return.json",
+  "search_text": "process/approval-return\n意思決定_承認と差戻しの経路を分ける_判断ゲートと復帰路\n承認と差戻しを分ける判断ゲート\n申請書類の承認基準と、不備がある場合の再申請を説明する。\n基準を満たした申請は進み、未達の申請は修正へ戻る。\n左の文書を中央の判断ゲートで確認する。\n主色の経路が承認後の前進。\n下の注意色の経路が提出元への差戻し。\n承認 決裁 稟議 差戻し 再申請 判断 審査",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "9bdbbac40b0797dbb32794dd6d1a9d005859cc6f28958b0118a941361bc5ce3a",
+  "size_bytes": 3637
+}

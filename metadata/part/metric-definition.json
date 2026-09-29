@@ -1,0 +1,127 @@
+{
+  "category": "07-注釈と見出し",
+  "title": "指標の分子と分母をそろえる",
+  "description": "一つの指標を分子・分母・単位へ分解する定義部品。",
+  "keywords": [
+    "指標",
+    "定義",
+    "分子",
+    "分母",
+    "算出",
+    "比率",
+    "metric",
+    "numerator",
+    "denominator",
+    "definition"
+  ],
+  "labels": [
+    {
+      "x": 48,
+      "y": 69,
+      "width": 246,
+      "height": 77,
+      "text": "初回合格率",
+      "role": "指標",
+      "align": "center",
+      "color": "#FFFFFF",
+      "font_size": 35,
+      "id": "label-1",
+      "color_role": "paper",
+      "max_lines": 1,
+      "max_fullwidth_chars": 6
+    },
+    {
+      "x": 48,
+      "y": 172,
+      "width": 246,
+      "height": 52,
+      "text": "単位：％",
+      "role": "表示単位",
+      "align": "center",
+      "color": "#FFFFFF",
+      "font_size": 28,
+      "id": "label-2",
+      "color_role": "paper",
+      "max_lines": 1,
+      "max_fullwidth_chars": 8
+    },
+    {
+      "x": 436,
+      "y": 50,
+      "width": 325,
+      "height": 76,
+      "text": "初回で合格した数",
+      "role": "分子",
+      "align": "center",
+      "color": "#153A6B",
+      "font_size": 29,
+      "id": "label-3",
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 10
+    },
+    {
+      "x": 436,
+      "y": 172,
+      "width": 325,
+      "height": 76,
+      "text": "検査した総数",
+      "role": "分母",
+      "align": "center",
+      "color": "#153A6B",
+      "font_size": 29,
+      "id": "label-4",
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 10
+    },
+    {
+      "x": 817,
+      "y": 83,
+      "width": 241,
+      "height": 132,
+      "text": "× 100",
+      "role": "百分率への換算",
+      "align": "center",
+      "color": "#2864F0",
+      "font_size": 42,
+      "id": "label-5",
+      "color_role": "accent",
+      "max_lines": 2,
+      "max_fullwidth_chars": 5
+    }
+  ],
+  "width": 1100,
+  "height": 300,
+  "kind": "part",
+  "guidance": {
+    "use_case": "部門ごとに異なる指標の集計定義をそろえる。",
+    "message": "同じ指標名でも対象と分母を明示して比較する。",
+    "reading": [
+      "左は定義する指標。",
+      "中央の上下が分子と分母、右の100倍が百分率への換算。"
+    ],
+    "avoid": "中央は定義であり実績データではない。百分率を求める指標に使う。"
+  },
+  "schema_version": 2,
+  "id": "part/metric-definition",
+  "name": "指標の分子と分母をそろえる_説明パーツ",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1100,
+    "height": 300
+  },
+  "path": "assets/part/metric-definition.svg",
+  "metadata_path": "metadata/part/metric-definition.json",
+  "search_text": "part/metric-definition\n指標の分子と分母をそろえる_説明パーツ\n指標の分子と分母をそろえる\n部門ごとに異なる指標の集計定義をそろえる。\n同じ指標名でも対象と分母を明示して比較する。\n左は定義する指標。\n中央の上下が分子と分母、右の100倍が百分率への換算。\n指標 定義 分子 分母 算出 比率 metric numerator denominator definition",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "7a1f40b95c59119647b5814561d66fe6ef1756b58081affcef61e5d051a1f934",
+  "size_bytes": 916
+}

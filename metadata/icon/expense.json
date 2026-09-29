@@ -1,0 +1,50 @@
+{
+  "category": "08-アイコンとピクトグラム",
+  "title": "経費",
+  "description": "業務に必要な費用を支出することを示す。",
+  "keywords": [
+    "経費",
+    "支出",
+    "費用",
+    "精算",
+    "立替",
+    "expense",
+    "cost",
+    "reimbursement",
+    "spending"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "経費精算や支出項目の見出しに添える。",
+    "message": "仕事に必要な費用が発生する。",
+    "reading": [
+      "開いた財布が支払に使う資金を表す。",
+      "下向きの矢印が資金の支出を表す。"
+    ],
+    "avoid": "損失や売上減少そのものを示す用途には使わない。"
+  },
+  "schema_version": 2,
+  "id": "icon/expense",
+  "name": "経費管理_業務に必要な費用を支出する_財布と支出",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/expense.svg",
+  "metadata_path": "metadata/icon/expense.json",
+  "search_text": "icon/expense\n経費管理_業務に必要な費用を支出する_財布と支出\n経費\n経費精算や支出項目の見出しに添える。\n仕事に必要な費用が発生する。\n開いた財布が支払に使う資金を表す。\n下向きの矢印が資金の支出を表す。\n経費 支出 費用 精算 立替 expense cost reimbursement spending",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "5e7841d5d9c139155173fb3a94514056caf74b2da68174bc8f349822efbef41d",
+  "size_bytes": 1195
+}

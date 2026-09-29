@@ -1,0 +1,49 @@
+{
+  "category": "08-アイコンとピクトグラム",
+  "title": "採用",
+  "description": "新しい人材を組織に迎えることを示す。",
+  "keywords": [
+    "採用",
+    "募集",
+    "入社",
+    "人材",
+    "増員",
+    "recruitment",
+    "hiring",
+    "join"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "採用計画や募集する職種の見出しに添える。",
+    "message": "組織に新たな人材を加える。",
+    "reading": [
+      "人物の輪郭が迎える人材を表す。",
+      "右の加号が新たに加わることを表す。"
+    ],
+    "avoid": "採用決定や内定承諾の確定を示す印には使わない。"
+  },
+  "schema_version": 2,
+  "id": "icon/recruitment",
+  "name": "採用活動_新たな人材を迎える_人物と追加",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/recruitment.svg",
+  "metadata_path": "metadata/icon/recruitment.json",
+  "search_text": "icon/recruitment\n採用活動_新たな人材を迎える_人物と追加\n採用\n採用計画や募集する職種の見出しに添える。\n組織に新たな人材を加える。\n人物の輪郭が迎える人材を表す。\n右の加号が新たに加わることを表す。\n採用 募集 入社 人材 増員 recruitment hiring join",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "bbc588b8e7a8a9480791f84df21986312cd7406c399345b48c4fb847b053588a",
+  "size_bytes": 892
+}

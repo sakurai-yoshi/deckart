@@ -1,0 +1,49 @@
+{
+  "category": "08-アイコンとピクトグラム",
+  "title": "障害・中断",
+  "description": "正常な接続や処理が中断した状態を示す。",
+  "keywords": [
+    "障害",
+    "中断",
+    "不具合",
+    "停止",
+    "インシデント",
+    "incident",
+    "outage",
+    "disruption"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "障害発生やサービス中断の対応を説明する。",
+    "message": "接続や処理が途中で止まる。",
+    "reading": [
+      "離れた二つのプラグが接続の中断を表す。",
+      "上の稲妻が異常の発生を表す。"
+    ],
+    "avoid": "原因や影響範囲が特定済みという意味では使わない。"
+  },
+  "schema_version": 2,
+  "id": "icon/incident",
+  "name": "障害対応_接続の中断を扱う_途切れた接続",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/incident.svg",
+  "metadata_path": "metadata/icon/incident.json",
+  "search_text": "icon/incident\n障害対応_接続の中断を扱う_途切れた接続\n障害・中断\n障害発生やサービス中断の対応を説明する。\n接続や処理が途中で止まる。\n離れた二つのプラグが接続の中断を表す。\n上の稲妻が異常の発生を表す。\n障害 中断 不具合 停止 インシデント incident outage disruption",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "14db263065803b79e4917ae4e0907ab2bd68328b18df6b52c8fc1e8cbf462496",
+  "size_bytes": 1596
+}

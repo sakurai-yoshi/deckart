@@ -1,0 +1,98 @@
+{
+  "category": "03-関係と連携",
+  "title": "全体の中に担当範囲を置く",
+  "description": "事業の中に部門、部門の中にチームが含まれる責任範囲を示す。",
+  "keywords": [
+    "包含関係",
+    "全体と部分",
+    "スコープ",
+    "責任範囲",
+    "担当範囲",
+    "事業領域",
+    "部門",
+    "チーム",
+    "内包",
+    "階層"
+  ],
+  "labels": [
+    {
+      "x": 129,
+      "y": 111,
+      "width": 768,
+      "height": 68,
+      "text": "事業全体の領域",
+      "role": "項目",
+      "align": "left",
+      "color": "#153A6B",
+      "id": "label-1",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 26
+    },
+    {
+      "x": 402,
+      "y": 270,
+      "width": 580,
+      "height": 68,
+      "text": "部門が受け持つ範囲",
+      "role": "項目",
+      "align": "left",
+      "color": "#153A6B",
+      "id": "label-2",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 20
+    },
+    {
+      "x": 715,
+      "y": 420,
+      "width": 255,
+      "height": 72,
+      "text": "チームの担当範囲",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-3",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 8
+    }
+  ],
+  "width": 1200,
+  "height": 720,
+  "guidance": {
+    "use_case": "事業・部門・チームの担当範囲を説明する。",
+    "message": "小さな担当範囲は上位の範囲に含まれる。",
+    "reading": [
+      "最も外側が事業全体。",
+      "その内側が部門の範囲。",
+      "さらに内側がチームの担当範囲。"
+    ],
+    "avoid": "部門をまたいで重複する責任範囲には使わない。"
+  },
+  "kind": "diagram",
+  "schema_version": 2,
+  "id": "relationship/nested-responsibility",
+  "name": "責任範囲_全体と部分の包含関係_事業部門チーム",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1200,
+    "height": 720
+  },
+  "path": "assets/relationship/nested-responsibility.svg",
+  "metadata_path": "metadata/relationship/nested-responsibility.json",
+  "search_text": "relationship/nested-responsibility\n責任範囲_全体と部分の包含関係_事業部門チーム\n全体の中に担当範囲を置く\n事業・部門・チームの担当範囲を説明する。\n小さな担当範囲は上位の範囲に含まれる。\n最も外側が事業全体。\nその内側が部門の範囲。\nさらに内側がチームの担当範囲。\n包含関係 全体と部分 スコープ 責任範囲 担当範囲 事業領域 部門 チーム 内包 階層",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "96698c988a0250baad315dc46b3d9519da921e0346c43b04f21f9e582a6ef29c",
+  "size_bytes": 1091
+}

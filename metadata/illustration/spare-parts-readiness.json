@@ -1,0 +1,61 @@
+{
+  "kind": "illustration",
+  "category": "06-業務イラスト",
+  "labels": [],
+  "preview_path": "previews/illustration/spare-parts-readiness.png",
+  "placement": {
+    "framing": "object",
+    "facing": "front",
+    "recommended_width_cm": [
+      4,
+      7
+    ]
+  },
+  "title": "予備部品を備える",
+  "description": "同じ規格の交換部品を保管箱にまとめ、ひとつを取り出した状態で予備品の備えを表す。",
+  "keywords": [
+    "予備品",
+    "交換部品",
+    "保全",
+    "備品",
+    "欠品",
+    "spare",
+    "parts"
+  ],
+  "guidance": {
+    "use_case": "消耗品・交換部品の備え、保全体制や欠品への備えを説明する。",
+    "message": "同じ規格の予備部品を、使える状態で用意しておく。",
+    "reading": [
+      "同じ形の部品を収めた保管箱が、交換に備えた在庫を表す。",
+      "手前に取り出した一つが、必要なときに使える状態を表す。"
+    ],
+    "avoid": "実物の寸法・仕様や、作業手順を示す図としては使用しない。"
+  },
+  "width": 1254,
+  "height": 1254,
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/illustrations.json"
+  },
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": true,
+  "canvas": {
+    "width": 1254,
+    "height": 1254
+  },
+  "schema_version": 2,
+  "id": "illustration/spare-parts-readiness",
+  "name": "予備部品を備える_業務イラスト",
+  "license": "CC0-1.0",
+  "path": "media/illustration/spare-parts-readiness.png",
+  "metadata_path": "metadata/illustration/spare-parts-readiness.json",
+  "search_text": "illustration/spare-parts-readiness\n予備部品を備える_業務イラスト\n予備部品を備える\n消耗品・交換部品の備え、保全体制や欠品への備えを説明する。\n同じ規格の予備部品を、使える状態で用意しておく。\n同じ形の部品を収めた保管箱が、交換に備えた在庫を表す。\n手前に取り出した一つが、必要なときに使える状態を表す。\n予備品 交換部品 保全 備品 欠品 spare parts\nobject 物 道具 front 正面 [4, 7] ",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "d2af9a0e6d6c17162f0f7652f080339c112cb218c495620c32b2410c81cc4ac5",
+  "size_bytes": 912109
+}

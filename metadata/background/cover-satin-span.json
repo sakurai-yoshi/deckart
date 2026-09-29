@@ -1,0 +1,100 @@
+{
+  "title": "張りのあるサテンで引き立てる改善提案の表紙",
+  "description": "左側の白と青のサテンの張り・たわみ・光沢を大きく見せ、右側の白い領域に題名と副題を置く表紙背景。",
+  "kind": "background",
+  "category": "11-背景とフレーム",
+  "width": 1672,
+  "height": 941,
+  "keywords": [
+    "表紙",
+    "改善提案",
+    "価値提案",
+    "品質",
+    "生産性",
+    "サテン",
+    "張力",
+    "布",
+    "光沢",
+    "右寄せ",
+    "cover",
+    "proposal",
+    "satin",
+    "tension",
+    "span",
+    "tactile"
+  ],
+  "guidance": {
+    "use_case": "改善提案、価値提案、取り組み方針を説明する資料の表紙。",
+    "message": "提案の主題を、落ち着いた質感と大きな題名で示す。",
+    "reading": [
+      "右側の白い領域に2行の題名と副題を配置する。",
+      "左のサテンを大きな見どころとして残し、発表者情報は右下に置く。"
+    ],
+    "avoid": "左側の布地へ本文・表・細かい注釈を重ねる用途には使わない。"
+  },
+  "labels": [],
+  "canvas": {
+    "width": 1600,
+    "height": 900
+  },
+  "content_areas": [
+    {
+      "id": "title",
+      "role": "題名",
+      "purpose": "題名を配置する白い領域。",
+      "content_type": "text",
+      "x": 850,
+      "y": 180,
+      "width": 650,
+      "height": 250,
+      "text_color": "#172B4D",
+      "text_align": "left"
+    },
+    {
+      "id": "subtitle",
+      "role": "副題",
+      "purpose": "副題を配置する白い領域。",
+      "content_type": "text",
+      "x": 850,
+      "y": 500,
+      "width": 650,
+      "height": 115,
+      "text_color": "#172B4D",
+      "text_align": "left"
+    },
+    {
+      "id": "footer",
+      "role": "発表者と日付",
+      "purpose": "発表者と日付を配置する白い領域。",
+      "content_type": "text",
+      "x": 850,
+      "y": 740,
+      "width": 650,
+      "height": 55,
+      "text_color": "#172B4D",
+      "text_align": "left"
+    }
+  ],
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/backgrounds.json"
+  },
+  "preview_path": "previews/background/cover-satin-span.png",
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": false,
+  "schema_version": 2,
+  "id": "background/cover-satin-span",
+  "name": "張りのあるサテンで引き立てる改善提案の表紙_背景",
+  "license": "CC0-1.0",
+  "path": "media/background/cover-satin-span.png",
+  "metadata_path": "metadata/background/cover-satin-span.json",
+  "search_text": "background/cover-satin-span\n張りのあるサテンで引き立てる改善提案の表紙_背景\n張りのあるサテンで引き立てる改善提案の表紙\n改善提案、価値提案、取り組み方針を説明する資料の表紙。\n提案の主題を、落ち着いた質感と大きな題名で示す。\n右側の白い領域に2行の題名と副題を配置する。\n左のサテンを大きな見どころとして残し、発表者情報は右下に置く。\n表紙 改善提案 価値提案 品質 生産性 サテン 張力 布 光沢 右寄せ cover proposal satin tension span tactile",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "57726f297f669e944351075436a35477f1517b01efed157bd5fd4b501c973d67",
+  "size_bytes": 1466454
+}

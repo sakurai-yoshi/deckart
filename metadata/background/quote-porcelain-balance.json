@@ -1,0 +1,93 @@
+{
+  "title": "開いた陶器の造形で顧客の声を引き立てる背景",
+  "description": "左の白い陶器と青い内面をアクセントに、右へ引用文と出典を置く。",
+  "kind": "background",
+  "category": "11-背景とフレーム",
+  "width": 1672,
+  "height": 941,
+  "keywords": [
+    "顧客の声",
+    "引用",
+    "所感",
+    "インタビュー",
+    "利用者",
+    "課題認識",
+    "quote",
+    "customer voice",
+    "insight"
+  ],
+  "guidance": {
+    "use_case": "顧客や利用者の声、関係者の所感、重要な発言を引用して示す場面。",
+    "message": "一人の具体的な言葉や気づきを、読み手の印象に残す。",
+    "reading": [
+      "右側に引用文を2〜4行で配置し、発言者と出典をその下に置く。",
+      "陶器の造形は左側の見どころとして残す。"
+    ],
+    "avoid": "発言者の承諾が必要な引用や機密情報の公開可否は、素材とは別に確認する。"
+  },
+  "labels": [],
+  "canvas": {
+    "width": 1600,
+    "height": 900
+  },
+  "content_areas": [
+    {
+      "id": "quote",
+      "role": "引用文",
+      "purpose": "引用文を配置する白い領域。",
+      "content_type": "text",
+      "x": 835,
+      "y": 185,
+      "width": 665,
+      "height": 310,
+      "text_color": "#172B4D",
+      "text_align": "left"
+    },
+    {
+      "id": "attribution",
+      "role": "発言者と立場",
+      "purpose": "発言者と立場を配置する白い領域。",
+      "content_type": "text",
+      "x": 835,
+      "y": 555,
+      "width": 665,
+      "height": 85,
+      "text_color": "#172B4D",
+      "text_align": "left"
+    },
+    {
+      "id": "source",
+      "role": "引用の出典",
+      "purpose": "引用の出典を配置する白い領域。",
+      "content_type": "text",
+      "x": 835,
+      "y": 735,
+      "width": 665,
+      "height": 50,
+      "text_color": "#172B4D",
+      "text_align": "left"
+    }
+  ],
+  "preview_path": "previews/background/quote-porcelain-balance.png",
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/backgrounds.json"
+  },
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": false,
+  "schema_version": 2,
+  "id": "background/quote-porcelain-balance",
+  "name": "開いた陶器の造形で顧客の声を引き立てる背景_背景",
+  "license": "CC0-1.0",
+  "path": "media/background/quote-porcelain-balance.png",
+  "metadata_path": "metadata/background/quote-porcelain-balance.json",
+  "search_text": "background/quote-porcelain-balance\n開いた陶器の造形で顧客の声を引き立てる背景_背景\n開いた陶器の造形で顧客の声を引き立てる背景\n顧客や利用者の声、関係者の所感、重要な発言を引用して示す場面。\n一人の具体的な言葉や気づきを、読み手の印象に残す。\n右側に引用文を2〜4行で配置し、発言者と出典をその下に置く。\n陶器の造形は左側の見どころとして残す。\n顧客の声 引用 所感 インタビュー 利用者 課題認識 quote customer voice insight",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "8362063592c0cf23c8c9487033100f995b88d959630e49c97671e99bb59a2eb4",
+  "size_bytes": 1142008
+}

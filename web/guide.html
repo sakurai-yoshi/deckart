@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>使い方｜DeckArt</title><link rel="stylesheet" href="catalog.css"><style>.guide{max-width:880px;padding-top:40px;padding-bottom:60px}.guide h2{font-size:19px;margin-top:34px}.guide p,.guide li{line-height:1.9}.guide ul{padding-left:1.5em}.guide code{overflow-wrap:anywhere}</style></head>
+<body><main class="guide"><a href="../index.html">素材一覧に戻る</a><h1>素材の使い方</h1>
+<h2>生成AIで使う</h2><p><a href="../llms.txt">AI向け入口</a>に、用途検索・直接取得・対応する書き出し方法をまとめています。<a href="../catalog.json">用途索引</a>の形式と取得パスを読み、PNGまたはSVGをそのまま取得します。</p>
+<h2>用途から選ぶ</h2><p>素材を開くと使用場面と描写の意味を確認できます。形式・背景透過・配色変更の可否で絞り込めます。必要な素材を［選ぶ］でまとめ、画像と検索情報をZIPに保存できます。</p>
+<h2>イラストと背景</h2><p>イラストは透過PNGです。人物の行為や物同士の関係を、説明する用途から選びます。人物入りは視線や動作を文章・図表へ向けると自然に配置できます。縦横比を固定し、詳細画面にある推奨幅を目安にしてください。画像の色・文字・ポーズは固定です。</p><p>背景は16:9全体に置く不透明PNGです。<code>content_areas</code> の目的と領域に沿って文章や図表を追加します。座標は <code>canvas</code> の幅と高さを基準に変換します。実画素数と配置座標は異なります。</p>
+<h2>SVGを資料の色に合わせる</h2><p>アイコン・図解・グラフ・説明パーツは、基本の青・ブランド色・モノクロを選べます。ブランド色は「#005BAC」のように入力します。注意・増減の色は役割を保ちます。明るい強調色を調整した場合は画面と書き出し情報へ表示します。PNGは元の配色を保ちます。</p>
+<h2>PowerPointへ配置する</h2><p>［挿入］→［画像］からPNGまたは対応するSVGを選びます。縦横比を固定して拡大縮小します。文章はPowerPointのテキストとして追加してください。SVGの［文字の配置例］は通常の画像保存に含まれません。</p><p>SVGの対応環境・操作は<a href="https://support.microsoft.com/en-us/office/graphics-visuals/edit-svg-images-in-microsoft-365">Microsoftの案内</a>を確認してください。</p>
+<h2>数値を扱う素材</h2><p>グラフは作例です。実データは素材定義の <code>data_input</code> に従ってコマンドから入力し、図形と数値を同時に更新します。継続的に編集する数値にはPowerPoint標準のグラフが適しています。</p>
+<h2>オフラインで使う</h2><p>一式ZIPを展開して <code>index.html</code> を開くと、検索・閲覧・個別保存ができます。PNGを含む素材をまとめて保存するときは、画面の案内に従って展開した <code>media</code> フォルダを選び、保存ボタンをもう一度押してください。選んだPNGは端末内で読み、索引のハッシュと照合します。</p>
+<h2>利用条件</h2><p>素材・検索情報は<a href="../LICENSE-ASSETS">CC0 1.0</a>。商用利用・改変・再配布ができ、クレジット表記は不要です。生成・閲覧コードは<a href="../LICENSE">MIT</a>です。</p></main></body></html>

@@ -1,0 +1,110 @@
+{
+  "category": "07-注釈と見出し",
+  "title": "確認済みと未確認を区別する",
+  "description": "実線と破線の二領域で、確かめた事実と今後の調査を分ける部品。",
+  "keywords": [
+    "確認済み",
+    "未確認",
+    "根拠",
+    "確度",
+    "調査",
+    "confirmed",
+    "unconfirmed",
+    "evidence"
+  ],
+  "labels": [
+    {
+      "x": 94,
+      "y": 47,
+      "width": 377,
+      "height": 47,
+      "text": "確認できたこと",
+      "role": "確認状態",
+      "align": "left",
+      "color": "#2864F0",
+      "font_size": 25,
+      "id": "label-1",
+      "color_role": "accent",
+      "max_lines": 1,
+      "max_fullwidth_chars": 14
+    },
+    {
+      "x": 55,
+      "y": 128,
+      "width": 414,
+      "height": 92,
+      "text": "記録の形式が\n担当ごとに異なる",
+      "role": "確認した内容",
+      "align": "left",
+      "color": "#153A6B",
+      "font_size": 32,
+      "id": "label-2",
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 12
+    },
+    {
+      "x": 646,
+      "y": 47,
+      "width": 377,
+      "height": 47,
+      "text": "これから確かめること",
+      "role": "確認状態",
+      "align": "left",
+      "color": "#607590",
+      "font_size": 25,
+      "id": "label-3",
+      "color_role": "muted",
+      "max_lines": 1,
+      "max_fullwidth_chars": 14
+    },
+    {
+      "x": 607,
+      "y": 128,
+      "width": 414,
+      "height": 92,
+      "text": "形式の違いが\n対応時間へ与える影響",
+      "role": "未確認の内容",
+      "align": "left",
+      "color": "#153A6B",
+      "font_size": 32,
+      "id": "label-4",
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 12
+    }
+  ],
+  "width": 1080,
+  "height": 286,
+  "kind": "part",
+  "guidance": {
+    "use_case": "調査の進み具合や根拠の確かさを共有する場面。",
+    "message": "分かっていることと、まだ分からないことを区別する。",
+    "reading": [
+      "実線の領域に確認済みの内容を置く。",
+      "破線の領域に今後確かめる内容を置く。"
+    ],
+    "avoid": "未確認を否定された事実という意味で扱う用途には使わない。"
+  },
+  "schema_version": 2,
+  "id": "part/confirmed-and-unconfirmed",
+  "name": "確認済みと未確認を区別する_説明パーツ",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1080,
+    "height": 286
+  },
+  "path": "assets/part/confirmed-and-unconfirmed.svg",
+  "metadata_path": "metadata/part/confirmed-and-unconfirmed.json",
+  "search_text": "part/confirmed-and-unconfirmed\n確認済みと未確認を区別する_説明パーツ\n確認済みと未確認を区別する\n調査の進み具合や根拠の確かさを共有する場面。\n分かっていることと、まだ分からないことを区別する。\n実線の領域に確認済みの内容を置く。\n破線の領域に今後確かめる内容を置く。\n確認済み 未確認 根拠 確度 調査 confirmed unconfirmed evidence",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "7e480c5b191e922b4af68b517a8d3bc46b32e028d0890aa7e689c1085473e074",
+  "size_bytes": 1119
+}

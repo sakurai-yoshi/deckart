@@ -1,0 +1,110 @@
+{
+  "category": "07-注釈と見出し",
+  "title": "一つの方針を役割別に展開する",
+  "description": "共通方針から三つの実行内容へ同じ接続で展開する部品。",
+  "keywords": [
+    "展開",
+    "方針",
+    "役割",
+    "共通化",
+    "分岐",
+    "policy",
+    "deployment",
+    "roles"
+  ],
+  "labels": [
+    {
+      "x": 52,
+      "y": 177,
+      "width": 270,
+      "height": 78,
+      "text": "受付方針を共通化",
+      "role": "共通方針",
+      "align": "center",
+      "color": "#FFFFFF",
+      "font_size": 28,
+      "id": "label-1",
+      "color_role": "paper",
+      "max_lines": 1,
+      "max_fullwidth_chars": 9
+    },
+    {
+      "x": 478,
+      "y": 42,
+      "width": 496,
+      "height": 88,
+      "text": "窓口：案内をそろえる",
+      "role": "展開先",
+      "align": "left",
+      "color": "#153A6B",
+      "font_size": 29,
+      "id": "label-2",
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 16
+    },
+    {
+      "x": 478,
+      "y": 176,
+      "width": 496,
+      "height": 88,
+      "text": "担当：確認内容をそろえる",
+      "role": "展開先",
+      "align": "left",
+      "color": "#153A6B",
+      "font_size": 29,
+      "id": "label-3",
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 16
+    },
+    {
+      "x": 478,
+      "y": 310,
+      "width": 496,
+      "height": 88,
+      "text": "管理：記録をそろえる",
+      "role": "展開先",
+      "align": "left",
+      "color": "#153A6B",
+      "font_size": 29,
+      "id": "label-4",
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 16
+    }
+  ],
+  "width": 1000,
+  "height": 435,
+  "kind": "part",
+  "guidance": {
+    "use_case": "方針を担当別の実行内容へ具体化する場面。",
+    "message": "同じ方針を、それぞれの役割で実行する。",
+    "reading": [
+      "左の濃い面に共通方針を置く。",
+      "一本の接続から右の三つの実行内容へ分ける。"
+    ],
+    "avoid": "三つの排他的な選択肢を示す用途には使わない。"
+  },
+  "schema_version": 2,
+  "id": "part/three-way-expansion",
+  "name": "一つの方針を役割別に展開する_説明パーツ",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1000,
+    "height": 435
+  },
+  "path": "assets/part/three-way-expansion.svg",
+  "metadata_path": "metadata/part/three-way-expansion.json",
+  "search_text": "part/three-way-expansion\n一つの方針を役割別に展開する_説明パーツ\n一つの方針を役割別に展開する\n方針を担当別の実行内容へ具体化する場面。\n同じ方針を、それぞれの役割で実行する。\n左の濃い面に共通方針を置く。\n一本の接続から右の三つの実行内容へ分ける。\n展開 方針 役割 共通化 分岐 policy deployment roles",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "5a35389ca743f193ba111b6246b51dfe0f26511adb0d2fa37a4bb94a7f9e88b7",
+  "size_bytes": 1095
+}

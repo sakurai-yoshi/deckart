@@ -1,0 +1,130 @@
+{
+  "category": "02-比較と意思決定",
+  "title": "発生と影響から対応を決める",
+  "description": "発生しやすさと影響の大きさでリスクを配置し、監視・計画・重点対策を分ける。",
+  "keywords": [
+    "リスク",
+    "リスクマトリクス",
+    "発生可能性",
+    "影響",
+    "対応",
+    "優先度",
+    "予防",
+    "risk",
+    "matrix",
+    "likelihood",
+    "impact",
+    "mitigation"
+  ],
+  "labels": [
+    {
+      "x": 229,
+      "y": 32,
+      "width": 527,
+      "height": 66,
+      "text": "上ほど影響が大きい",
+      "role": "影響の軸",
+      "align": "left",
+      "color": "#153A6B",
+      "id": "label-1",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 18
+    },
+    {
+      "x": 711,
+      "y": 622,
+      "width": 420,
+      "height": 66,
+      "text": "右ほど発生しやすい",
+      "role": "発生の軸",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-2",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 14
+    },
+    {
+      "x": 286,
+      "y": 477,
+      "width": 231,
+      "height": 61,
+      "text": "監視を継続",
+      "role": "低リスクの対応",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-3",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 8
+    },
+    {
+      "x": 555,
+      "y": 337,
+      "width": 231,
+      "height": 61,
+      "text": "対策を計画",
+      "role": "中リスクの対応",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-4",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 8
+    },
+    {
+      "x": 825,
+      "y": 222,
+      "width": 231,
+      "height": 55,
+      "text": "重点的に低減",
+      "role": "高リスクの対応",
+      "align": "center",
+      "color": "#FFFFFF",
+      "id": "label-5",
+      "font_size": 27,
+      "color_role": "paper",
+      "max_lines": 1,
+      "max_fullwidth_chars": 8
+    }
+  ],
+  "width": 1200,
+  "height": 720,
+  "kind": "diagram",
+  "guidance": {
+    "use_case": "プロジェクトのリスクを洗い出し、対策に着手する順序を決める。",
+    "message": "起こりやすく影響の大きい事象へ、先に対策を用意する。",
+    "reading": [
+      "横方向は発生しやすさ、縦方向は影響の大きさ。",
+      "同じ大きさの九領域に、定性的にリスクを配置する。",
+      "右上の注意記号は、重点的な低減が必要な領域。"
+    ],
+    "avoid": "色の濃さを実際の発生確率や損失額として扱わない。"
+  },
+  "schema_version": 2,
+  "id": "planning/risk-response-matrix",
+  "name": "リスク対応_発生しやすさと影響を見分ける_三段階の対応領域",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1200,
+    "height": 720
+  },
+  "path": "assets/planning/risk-response-matrix.svg",
+  "metadata_path": "metadata/planning/risk-response-matrix.json",
+  "search_text": "planning/risk-response-matrix\nリスク対応_発生しやすさと影響を見分ける_三段階の対応領域\n発生と影響から対応を決める\nプロジェクトのリスクを洗い出し、対策に着手する順序を決める。\n起こりやすく影響の大きい事象へ、先に対策を用意する。\n横方向は発生しやすさ、縦方向は影響の大きさ。\n同じ大きさの九領域に、定性的にリスクを配置する。\n右上の注意記号は、重点的な低減が必要な領域。\nリスク リスクマトリクス 発生可能性 影響 対応 優先度 予防 risk matrix likelihood impact mitigation",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "68f1e23cad7acd98effe16e888292555e00f6aca18ddcbd615f9be99f47d17c3",
+  "size_bytes": 2629
+}

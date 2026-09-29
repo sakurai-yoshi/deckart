@@ -1,0 +1,95 @@
+{
+  "category": "07-注釈と見出し",
+  "title": "決定した内容と責任を残す",
+  "description": "確認済みの記号に、決定と判断情報を対応させる部品。",
+  "keywords": [
+    "決定",
+    "合意",
+    "責任",
+    "判断日",
+    "記録",
+    "decision",
+    "agreement",
+    "record"
+  ],
+  "labels": [
+    {
+      "x": 182,
+      "y": 33,
+      "width": 775,
+      "height": 43,
+      "text": "決定したこと",
+      "role": "決定区分",
+      "align": "left",
+      "color": "#2864F0",
+      "font_size": 24,
+      "id": "label-1",
+      "color_role": "accent",
+      "max_lines": 1,
+      "max_fullwidth_chars": 30
+    },
+    {
+      "x": 182,
+      "y": 96,
+      "width": 775,
+      "height": 59,
+      "text": "対象業務から、共通受付を始める",
+      "role": "決定",
+      "align": "left",
+      "color": "#153A6B",
+      "font_size": 35,
+      "id": "label-2",
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 20
+    },
+    {
+      "x": 182,
+      "y": 190,
+      "width": 775,
+      "height": 47,
+      "text": "責任者・判断日・見直す時期を記載",
+      "role": "判断情報",
+      "align": "left",
+      "color": "#607590",
+      "font_size": 24,
+      "id": "label-3",
+      "color_role": "muted",
+      "max_lines": 1,
+      "max_fullwidth_chars": 30
+    }
+  ],
+  "width": 990,
+  "height": 266,
+  "kind": "part",
+  "guidance": {
+    "use_case": "会議などで合意した内容を要点として残す場面。",
+    "message": "何が決まり、誰が責任を持つかを確認できる。",
+    "reading": [
+      "チェックが決定事項の欄であることを示す。",
+      "大きな決定文の下に責任者と判断情報を置く。"
+    ],
+    "avoid": "未承認の内容にチェックを付けて確定事項として扱う用途には使わない。"
+  },
+  "schema_version": 2,
+  "id": "part/recorded-decision",
+  "name": "決定した内容と責任を残す_説明パーツ",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 990,
+    "height": 266
+  },
+  "path": "assets/part/recorded-decision.svg",
+  "metadata_path": "metadata/part/recorded-decision.json",
+  "search_text": "part/recorded-decision\n決定した内容と責任を残す_説明パーツ\n決定した内容と責任を残す\n会議などで合意した内容を要点として残す場面。\n何が決まり、誰が責任を持つかを確認できる。\nチェックが決定事項の欄であることを示す。\n大きな決定文の下に責任者と判断情報を置く。\n決定 合意 責任 判断日 記録 decision agreement record",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "145fd5fdcc141ce744bae0e82a0511f2aecda1704278fa9e915ed91b2761037a",
+  "size_bytes": 937
+}

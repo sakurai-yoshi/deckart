@@ -1,0 +1,130 @@
+{
+  "category": "01-業務プロセス",
+  "title": "判断権限を段階的に引き継ぐ",
+  "description": "現場で解決できない問題を、判断できる責任者へ引き継ぐ流れを示す。",
+  "keywords": [
+    "エスカレーション",
+    "障害対応",
+    "責任者",
+    "権限",
+    "委譲",
+    "判断",
+    "報告",
+    "引継ぎ"
+  ],
+  "labels": [
+    {
+      "x": 107,
+      "y": 565,
+      "width": 205,
+      "height": 49,
+      "text": "一次対応",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-1",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 7
+    },
+    {
+      "x": 367,
+      "y": 435,
+      "width": 205,
+      "height": 64,
+      "text": "専門担当へ",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-2",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 7
+    },
+    {
+      "x": 627,
+      "y": 305,
+      "width": 205,
+      "height": 72,
+      "text": "部門責任者へ",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-3",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 7
+    },
+    {
+      "x": 887,
+      "y": 175,
+      "width": 205,
+      "height": 64,
+      "text": "経営判断へ",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-4",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 7
+    },
+    {
+      "x": 342,
+      "y": 643,
+      "width": 639,
+      "height": 52,
+      "text": "解決に必要な権限まで引き継ぐ",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-5",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 22
+    }
+  ],
+  "width": 1200,
+  "height": 720,
+  "layout": {
+    "relation": "ordered-escalation",
+    "reading_direction": "bottom-left-to-top-right"
+  },
+  "guidance": {
+    "use_case": "現場で解決できない障害を、判断できる責任者へ引き継ぐ。",
+    "message": "解決に必要な権限を持つ相手まで、段階的につなぐ。",
+    "reading": [
+      "各段の丸が対応を担う相手。",
+      "上向きの経路が次の責任者への引継ぎ。",
+      "段の高さが判断権限の段階を示す。"
+    ],
+    "avoid": "対応人数や処理時間を階段の大きさで比較しない。"
+  },
+  "kind": "diagram",
+  "schema_version": 2,
+  "id": "process/escalation",
+  "name": "障害対応_判断権限を段階的に引き継ぐ_責任者へのエスカレーション",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1200,
+    "height": 720
+  },
+  "path": "assets/process/escalation.svg",
+  "metadata_path": "metadata/process/escalation.json",
+  "search_text": "process/escalation\n障害対応_判断権限を段階的に引き継ぐ_責任者へのエスカレーション\n判断権限を段階的に引き継ぐ\n現場で解決できない障害を、判断できる責任者へ引き継ぐ。\n解決に必要な権限を持つ相手まで、段階的につなぐ。\n各段の丸が対応を担う相手。\n上向きの経路が次の責任者への引継ぎ。\n段の高さが判断権限の段階を示す。\nエスカレーション 障害対応 責任者 権限 委譲 判断 報告 引継ぎ",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "8b4c2d5c1cbcdb7ac5bcd3de7f21e9bbc6366fed215cda19f792205488ede3e2",
+  "size_bytes": 2923
+}

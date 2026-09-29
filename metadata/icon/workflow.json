@@ -1,0 +1,49 @@
+{
+  "category": "08-アイコンとピクトグラム",
+  "title": "ワークフロー",
+  "description": "処理を次の工程へ引き渡して進める手順を示す。",
+  "keywords": [
+    "ワークフロー",
+    "手順",
+    "工程",
+    "処理",
+    "受渡",
+    "workflow",
+    "process",
+    "routing"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "業務手順や工程間の受け渡しを示す。",
+    "message": "工程をつないで仕事を進める。",
+    "reading": [
+      "三つの枠が処理を行う工程を表す。",
+      "つながる矢印が工程間の受け渡しを表す。"
+    ],
+    "avoid": "実際の承認順やすべての分岐を示すフロー図には使わない。"
+  },
+  "schema_version": 2,
+  "id": "icon/workflow",
+  "name": "業務手順_次の処理へ渡す_工程の受渡",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/workflow.svg",
+  "metadata_path": "metadata/icon/workflow.json",
+  "search_text": "icon/workflow\n業務手順_次の処理へ渡す_工程の受渡\nワークフロー\n業務手順や工程間の受け渡しを示す。\n工程をつないで仕事を進める。\n三つの枠が処理を行う工程を表す。\nつながる矢印が工程間の受け渡しを表す。\nワークフロー 手順 工程 処理 受渡 workflow process routing",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "633884a95683470d5436a1f5431502bffb6a63dd73077e77362da9472399bf99",
+  "size_bytes": 1304
+}

@@ -1,0 +1,61 @@
+{
+  "title": "相談する",
+  "kind": "illustration",
+  "category": "06-業務イラスト",
+  "width": 1254,
+  "height": 1254,
+  "keywords": [
+    "相談",
+    "対話",
+    "意見交換",
+    "連携",
+    "会話",
+    "discussion",
+    "consultation"
+  ],
+  "guidance": {
+    "use_case": "部門間の相談、意見交換、合意形成の導入に。",
+    "message": "意見を交わして認識をそろえる。",
+    "reading": [
+      "向かい合う二人と開いた手の動きが、意見を交わす関係を示します。"
+    ],
+    "avoid": "実在の人物・業務実績・承認や確認の完了を証明する画像としては使えません。"
+  },
+  "labels": [],
+  "preview_path": "previews/illustration/discussing.png",
+  "placement": {
+    "framing": "waist-up",
+    "facing": "inward",
+    "people_count": 2,
+    "recommended_width_cm": [
+      5,
+      9
+    ]
+  },
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/illustrations.json"
+  },
+  "description": "意見を交わして認識をそろえる。",
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": true,
+  "canvas": {
+    "width": 1254,
+    "height": 1254
+  },
+  "schema_version": 2,
+  "id": "illustration/discussing",
+  "name": "相談する_汎用ビジネスの動作",
+  "license": "CC0-1.0",
+  "path": "media/illustration/discussing.png",
+  "metadata_path": "metadata/illustration/discussing.json",
+  "search_text": "illustration/discussing\n相談する_汎用ビジネスの動作\n相談する\n部門間の相談、意見交換、合意形成の導入に。\n意見を交わして認識をそろえる。\n向かい合う二人と開いた手の動きが、意見を交わす関係を示します。\n相談 対話 意見交換 連携 会話 discussion consultation\nwaist-up 上半身 腰上 inward 向かい合う 対話 2  [5, 9] ",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "60521628275179d7e1b836d726bfae86502e32d67533ba8e7bcae8f77f8d6342",
+  "size_bytes": 981392
+}

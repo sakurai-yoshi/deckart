@@ -1,0 +1,50 @@
+{
+  "category": "08-アイコンとピクトグラム",
+  "title": "版管理",
+  "description": "変更の履歴や別の作業の統合を示す。",
+  "keywords": [
+    "版管理",
+    "バージョン",
+    "履歴",
+    "ブランチ",
+    "統合",
+    "Git",
+    "version",
+    "control",
+    "merge"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "文書やコードの変更管理を説明する。",
+    "message": "別の変更を履歴として管理し統合する。",
+    "reading": [
+      "縦の線と点が変更の履歴を表す。",
+      "横から合流する線が別の変更の統合を表す。"
+    ],
+    "avoid": "特定のGit操作や履歴の正確な順序を表す図には使わない。"
+  },
+  "schema_version": 2,
+  "id": "icon/version-control",
+  "name": "変更管理_別の変更を統合する_分岐と合流",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/version-control.svg",
+  "metadata_path": "metadata/icon/version-control.json",
+  "search_text": "icon/version-control\n変更管理_別の変更を統合する_分岐と合流\n版管理\n文書やコードの変更管理を説明する。\n別の変更を履歴として管理し統合する。\n縦の線と点が変更の履歴を表す。\n横から合流する線が別の変更の統合を表す。\n版管理 バージョン 履歴 ブランチ 統合 Git version control merge",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "2c803d49d5d40e99bf0514a60e1ca618af63e29192ca20679bb071bab36f9e37",
+  "size_bytes": 1000
+}

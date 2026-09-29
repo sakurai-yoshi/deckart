@@ -1,0 +1,92 @@
+{
+  "title": "青い綴じ構造で論点を束ねる目次",
+  "description": "左の精密な綴じ構造を見どころに、右へ議題を縦に整理する。",
+  "kind": "background",
+  "category": "11-背景とフレーム",
+  "width": 1672,
+  "height": 941,
+  "keywords": [
+    "目次",
+    "議題",
+    "アジェンダ",
+    "会議",
+    "論点",
+    "agenda",
+    "contents",
+    "meeting"
+  ],
+  "guidance": {
+    "use_case": "会議や提案の冒頭で、扱う論点と進める順序を示す。",
+    "message": "複数の議題を一つの流れとして整理する。",
+    "reading": [
+      "右上に目次の題名、下に4〜6件の議題を縦に配置する。",
+      "青い綴じ部は装飾として残し、項目番号は右の本文領域へ置く。"
+    ],
+    "avoid": "左の綴じ構造を議題数や工程数として読み取らない。"
+  },
+  "labels": [],
+  "canvas": {
+    "width": 1600,
+    "height": 900
+  },
+  "content_areas": [
+    {
+      "id": "title",
+      "role": "目次の題名",
+      "purpose": "目次の題名を配置する白い領域。",
+      "content_type": "text",
+      "x": 520,
+      "y": 95,
+      "width": 960,
+      "height": 110,
+      "text_color": "#172B4D",
+      "text_align": "left"
+    },
+    {
+      "id": "agenda",
+      "role": "議題と所要時間",
+      "purpose": "議題と所要時間を配置する白い領域。",
+      "content_type": "text",
+      "x": 520,
+      "y": 260,
+      "width": 960,
+      "height": 500,
+      "text_color": "#172B4D",
+      "text_align": "left"
+    },
+    {
+      "id": "footer",
+      "role": "日付と会議名",
+      "purpose": "日付と会議名を配置する白い領域。",
+      "content_type": "text",
+      "x": 520,
+      "y": 800,
+      "width": 960,
+      "height": 45,
+      "text_color": "#172B4D",
+      "text_align": "left"
+    }
+  ],
+  "preview_path": "previews/background/agenda-edge-binding.png",
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/backgrounds.json"
+  },
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": false,
+  "schema_version": 2,
+  "id": "background/agenda-edge-binding",
+  "name": "青い綴じ構造で論点を束ねる目次_背景",
+  "license": "CC0-1.0",
+  "path": "media/background/agenda-edge-binding.png",
+  "metadata_path": "metadata/background/agenda-edge-binding.json",
+  "search_text": "background/agenda-edge-binding\n青い綴じ構造で論点を束ねる目次_背景\n青い綴じ構造で論点を束ねる目次\n会議や提案の冒頭で、扱う論点と進める順序を示す。\n複数の議題を一つの流れとして整理する。\n右上に目次の題名、下に4〜6件の議題を縦に配置する。\n青い綴じ部は装飾として残し、項目番号は右の本文領域へ置く。\n目次 議題 アジェンダ 会議 論点 agenda contents meeting",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "631e70a87c8928e694923000e9a050889568955c815bda7c7398a260e5763c0c",
+  "size_bytes": 1407365
+}

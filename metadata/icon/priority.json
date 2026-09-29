@@ -1,0 +1,49 @@
+{
+  "category": "08-アイコンとピクトグラム",
+  "title": "優先順位",
+  "description": "取り組む順序や重要度を整理することを示す。",
+  "keywords": [
+    "優先順位",
+    "順位",
+    "重要度",
+    "順序",
+    "優先",
+    "priority",
+    "ranking",
+    "order"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "施策や作業の優先順位を説明する。",
+    "message": "重要な項目から取り組む順を決める。",
+    "reading": [
+      "上に行くほど強い項目の並びが優先度を表す。",
+      "上向きの矢印が先に見る方向を示す。"
+    ],
+    "avoid": "棒の長さを実際の点数として読ませない。"
+  },
+  "schema_version": 2,
+  "id": "icon/priority",
+  "name": "優先整理_先に取り組む順を決める_並びと上向き矢印",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/priority.svg",
+  "metadata_path": "metadata/icon/priority.json",
+  "search_text": "icon/priority\n優先整理_先に取り組む順を決める_並びと上向き矢印\n優先順位\n施策や作業の優先順位を説明する。\n重要な項目から取り組む順を決める。\n上に行くほど強い項目の並びが優先度を表す。\n上向きの矢印が先に見る方向を示す。\n優先順位 順位 重要度 順序 優先 priority ranking order",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "8cb127dcde6864b7add36a5eea7ec10ca4a49caea2b2437c4e70eff61c3757d6",
+  "size_bytes": 963
+}

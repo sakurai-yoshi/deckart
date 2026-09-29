@@ -1,0 +1,127 @@
+{
+  "category": "05-組織と戦略",
+  "title": "判断・実行・支援の関係を分ける",
+  "description": "意思決定と実行の間で方針と結果を往復し、共通の支援基盤が実行を支える。",
+  "keywords": [
+    "ガバナンス",
+    "統治",
+    "意思決定",
+    "実行",
+    "支援",
+    "決裁",
+    "役割分担",
+    "運営体制",
+    "推進体制"
+  ],
+  "labels": [
+    {
+      "x": 157,
+      "y": 259,
+      "width": 184,
+      "height": 82,
+      "text": "意思決定",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-1",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 6
+    },
+    {
+      "x": 803,
+      "y": 259,
+      "width": 184,
+      "height": 82,
+      "text": "実行の担当",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-2",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 6
+    },
+    {
+      "x": 478,
+      "y": 573,
+      "width": 599,
+      "height": 66,
+      "text": "実行を支える共通の仕組み",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-3",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 20
+    },
+    {
+      "x": 389,
+      "y": 173,
+      "width": 365,
+      "height": 66,
+      "text": "方針と権限を渡す",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-4",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 12
+    },
+    {
+      "x": 389,
+      "y": 386,
+      "width": 365,
+      "height": 76,
+      "text": "状況と結果を返す",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-5",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 12
+    }
+  ],
+  "width": 1200,
+  "height": 720,
+  "guidance": {
+    "use_case": "プロジェクト運営で意思決定者、実行担当、支援組織の役割を説明する。",
+    "message": "権限の委譲、結果の報告、実行支援を分けて設計する。",
+    "reading": [
+      "左の円は意思決定、右の円は実行担当。",
+      "上の右向き矢印は方針と権限、下の左向き矢印は状況と結果。",
+      "下の基盤から実行を支える。"
+    ],
+    "avoid": "承認の全手順や具体的な決裁権限の一覧には使わない。"
+  },
+  "kind": "diagram",
+  "schema_version": 2,
+  "id": "strategy/governance-roles",
+  "name": "運営設計_意思決定と実行と支援_循環する統治",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1200,
+    "height": 720
+  },
+  "path": "assets/strategy/governance-roles.svg",
+  "metadata_path": "metadata/strategy/governance-roles.json",
+  "search_text": "strategy/governance-roles\n運営設計_意思決定と実行と支援_循環する統治\n判断・実行・支援の関係を分ける\nプロジェクト運営で意思決定者、実行担当、支援組織の役割を説明する。\n権限の委譲、結果の報告、実行支援を分けて設計する。\n左の円は意思決定、右の円は実行担当。\n上の右向き矢印は方針と権限、下の左向き矢印は状況と結果。\n下の基盤から実行を支える。\nガバナンス 統治 意思決定 実行 支援 決裁 役割分担 運営体制 推進体制",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "3d2647455ecb8781894b99a7263cbf7fcb6b1b33b90328a1b8281997917e29f3",
+  "size_bytes": 1687
+}

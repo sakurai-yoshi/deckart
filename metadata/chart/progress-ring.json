@@ -1,0 +1,161 @@
+{
+  "category": "10-数値とグラフ",
+  "title": "全体に対する完了率",
+  "description": "主色の弧が75%、残りの淡い弧が25%を表す進捗リングの作例。",
+  "keywords": [
+    "進捗",
+    "達成率",
+    "完了率",
+    "リング",
+    "パーセント",
+    "割合",
+    "円形",
+    "progress",
+    "ring"
+  ],
+  "labels": [
+    {
+      "x": 181,
+      "y": 322,
+      "width": 238,
+      "height": 57,
+      "text": "完了",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-1",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 8
+    },
+    {
+      "x": 146,
+      "y": 487,
+      "width": 130,
+      "height": 54,
+      "text": "完了",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-2",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 4
+    },
+    {
+      "x": 369,
+      "y": 487,
+      "width": 130,
+      "height": 54,
+      "text": "残り",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-3",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 4
+    }
+  ],
+  "width": 600,
+  "height": 620,
+  "kind": "chart",
+  "data": {
+    "is_sample": true,
+    "unit": "%",
+    "categories": [
+      "完了",
+      "残り"
+    ],
+    "series": [
+      {
+        "label": "割合",
+        "values": [
+          75,
+          25
+        ]
+      }
+    ],
+    "chart_type": "progress_ring",
+    "total": 100,
+    "percentage": 75.0,
+    "start_angle_degrees": -90,
+    "outer_radius": 180,
+    "inner_radius": 138,
+    "number_format": {
+      "maximum_significant_digits": 6,
+      "minimum_significant_digits": 3,
+      "large_or_small_values": "E notation",
+      "source_values": "series"
+    }
+  },
+  "guidance": {
+    "use_case": "目標に対する完了率を一つの値で示す。",
+    "message": "全体のうち完了した範囲と残りを同時に示す。",
+    "reading": [
+      "主色の弧は完了75%、淡い弧は残り25%。",
+      "中央の数値は主色の弧の割合と一致する。"
+    ],
+    "avoid": "数値は作例。割合を変更する場合は弧と数値を同時に更新する。"
+  },
+  "schema_version": 2,
+  "id": "chart/progress-ring",
+  "name": "進捗共有_全体に対する完了率_75パーセント作例",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 600,
+    "height": 620
+  },
+  "path": "assets/chart/progress-ring.svg",
+  "metadata_path": "metadata/chart/progress-ring.json",
+  "search_text": "chart/progress-ring\n進捗共有_全体に対する完了率_75パーセント作例\n全体に対する完了率\n目標に対する完了率を一つの値で示す。\n全体のうち完了した範囲と残りを同時に示す。\n主色の弧は完了75%、淡い弧は残り25%。\n中央の数値は主色の弧の割合と一致する。\n進捗 達成率 完了率 リング パーセント 割合 円形 progress ring",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": true
+  },
+  "data_input": {
+    "chart_type": "progress_ring",
+    "category_count": 2,
+    "series_count": 1,
+    "values_per_series": 2,
+    "required": [
+      "categories",
+      "series",
+      "unit"
+    ],
+    "constraints": [
+      "表示値は最大6有効桁。丸める場合も3有効桁以上を保つ。E表記で収まらない値は単位か小数桁を調整。入力値はseriesに保持。",
+      "文字は大判24px、小判20px以上で収まる長さ。収まらないカテゴリ名・系列名・単位は短縮して入力。",
+      "有限な数値。絶対値は1兆以下。大きな値は単位を変更して入力。",
+      "categoriesは16文字以内、series.label・unitは12文字以内。",
+      "値は0以上。",
+      "totalを指定する場合は各部分の合計と一致。単位が%の場合は合計100。"
+    ],
+    "example": {
+      "categories": [
+        "完了",
+        "残り"
+      ],
+      "series": [
+        {
+          "label": "割合",
+          "values": [
+            75,
+            25
+          ]
+        }
+      ],
+      "unit": "%",
+      "total": 100
+    }
+  },
+  "sha256": "8638753fbf0cfabfa61115d638846b8b84d67e481db50d37f53f808ff89f2ea2",
+  "size_bytes": 3782
+}

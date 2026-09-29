@@ -1,0 +1,129 @@
+{
+  "category": "03-関係と連携",
+  "title": "調整役を中心に情報と判断を往復する",
+  "description": "部門間の情報収集と判断の共有を担う調整役の位置づけを示す。",
+  "keywords": [
+    "調整役",
+    "ハブ",
+    "PMO",
+    "部門連携",
+    "情報共有",
+    "司令塔",
+    "コーディネーション"
+  ],
+  "labels": [
+    {
+      "x": 488,
+      "y": 317,
+      "width": 224,
+      "height": 88,
+      "text": "全体を調整する役割",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-1",
+      "font_size": 22.898,
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 9
+    },
+    {
+      "x": 58,
+      "y": 84,
+      "width": 324,
+      "height": 79,
+      "text": "現場の状況を集める",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-2",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 11
+    },
+    {
+      "x": 835,
+      "y": 84,
+      "width": 324,
+      "height": 79,
+      "text": "方針を各担当へ",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-3",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 11
+    },
+    {
+      "x": 58,
+      "y": 571,
+      "width": 324,
+      "height": 79,
+      "text": "課題を持ち寄る",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-4",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 11
+    },
+    {
+      "x": 835,
+      "y": 571,
+      "width": 324,
+      "height": 79,
+      "text": "決定を実行へ",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-5",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 11
+    }
+  ],
+  "width": 1200,
+  "height": 720,
+  "layout": {
+    "relation": "bidirectional-hub",
+    "reading_direction": "center-out"
+  },
+  "guidance": {
+    "use_case": "部門横断のプロジェクトでPMOや調整担当の役割を共有する。",
+    "message": "調整役が情報を集め、判断を各担当へ返す。",
+    "reading": [
+      "中央が全体を調整する役割。",
+      "周囲の丸が連携する担当。",
+      "対になった矢印が情報と判断の往復。"
+    ],
+    "avoid": "上下の指揮命令系統を示す組織図として使わない。"
+  },
+  "kind": "diagram",
+  "schema_version": 2,
+  "id": "relation/coordination-hub",
+  "name": "組織連携_調整役を中心に情報と判断を往復する_役割のハブ",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1200,
+    "height": 720
+  },
+  "path": "assets/relation/coordination-hub.svg",
+  "metadata_path": "metadata/relation/coordination-hub.json",
+  "search_text": "relation/coordination-hub\n組織連携_調整役を中心に情報と判断を往復する_役割のハブ\n調整役を中心に情報と判断を往復する\n部門横断のプロジェクトでPMOや調整担当の役割を共有する。\n調整役が情報を集め、判断を各担当へ返す。\n中央が全体を調整する役割。\n周囲の丸が連携する担当。\n対になった矢印が情報と判断の往復。\n調整役 ハブ PMO 部門連携 情報共有 司令塔 コーディネーション",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "74e4775f399d4f5365c12e84afa912c5dcafe6a4f2f8c5a219201c6578b2c7b9",
+  "size_bytes": 5672
+}

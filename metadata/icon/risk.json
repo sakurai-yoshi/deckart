@@ -1,0 +1,49 @@
+{
+  "category": "08-アイコンとピクトグラム",
+  "title": "リスク・注意",
+  "description": "注意して確認すべきリスクを示す。",
+  "keywords": [
+    "リスク",
+    "注意",
+    "危険",
+    "留意",
+    "警告",
+    "risk",
+    "warning",
+    "caution"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "計画のリスクや留意点を示す。",
+    "message": "注意して検討する必要がある。",
+    "reading": [
+      "三角形が警告や注意を表す。",
+      "中央の感嘆符が見落とせない項目を示す。"
+    ],
+    "avoid": "法令で定める安全標識や危険等級の代用にはしない。"
+  },
+  "schema_version": 2,
+  "id": "icon/risk",
+  "name": "リスク管理_注意すべき可能性を示す_警告三角形",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/risk.svg",
+  "metadata_path": "metadata/icon/risk.json",
+  "search_text": "icon/risk\nリスク管理_注意すべき可能性を示す_警告三角形\nリスク・注意\n計画のリスクや留意点を示す。\n注意して検討する必要がある。\n三角形が警告や注意を表す。\n中央の感嘆符が見落とせない項目を示す。\nリスク 注意 危険 留意 警告 risk warning caution",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "5b3256ff242238758d856d5200070369a1f19ca7aac65d7bd1362e3f93a1c520",
+  "size_bytes": 748
+}

@@ -1,0 +1,119 @@
+{
+  "category": "09-循環とフレームワーク",
+  "title": "必要性・実現性・継続性を満たす",
+  "description": "三つの条件を満たす案を、中央の共通領域として示す。",
+  "keywords": [
+    "ベン図",
+    "Venn",
+    "3集合",
+    "企画判断",
+    "必要性",
+    "実現性",
+    "継続性",
+    "事業性",
+    "共通領域",
+    "feasibility",
+    "viability",
+    "desirability"
+  ],
+  "labels": [
+    {
+      "x": 325,
+      "y": 158,
+      "width": 180,
+      "height": 94,
+      "text": "顧客に必要",
+      "role": "必要性",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-1",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 6
+    },
+    {
+      "x": 695,
+      "y": 158,
+      "width": 180,
+      "height": 94,
+      "text": "実現できる",
+      "role": "実現性",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-2",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 6
+    },
+    {
+      "x": 500,
+      "y": 508,
+      "width": 200,
+      "height": 94,
+      "text": "継続できる",
+      "role": "継続性",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-3",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 6
+    },
+    {
+      "x": 540,
+      "y": 286,
+      "width": 120,
+      "height": 62,
+      "text": "成立領域",
+      "role": "三条件の共通領域",
+      "align": "center",
+      "color": "#FFFFFF",
+      "id": "label-4",
+      "font_size": 27,
+      "color_role": "paper",
+      "max_lines": 1,
+      "max_fullwidth_chars": 4
+    }
+  ],
+  "width": 1200,
+  "height": 720,
+  "kind": "diagram",
+  "guidance": {
+    "use_case": "新規サービス案が顧客・技術・事業の三つの条件を満たすか検討する。",
+    "message": "一つの条件だけでなく、三つが重なる案を選ぶ。",
+    "reading": [
+      "上の二つの円が顧客の必要性と実現性。",
+      "下の円が事業としての継続性。",
+      "中央の主色が三つをすべて満たす領域。"
+    ],
+    "avoid": "円の大きさや重なりを定量評価の点数として扱わない。"
+  },
+  "layout": {
+    "relation": "three-set-intersection",
+    "reading_direction": "outside-in"
+  },
+  "schema_version": 2,
+  "id": "framework/three-set-overlap",
+  "name": "企画判断_必要性と実現性と継続性を満たす_3集合の成立領域",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1200,
+    "height": 720
+  },
+  "path": "assets/framework/three-set-overlap.svg",
+  "metadata_path": "metadata/framework/three-set-overlap.json",
+  "search_text": "framework/three-set-overlap\n企画判断_必要性と実現性と継続性を満たす_3集合の成立領域\n必要性・実現性・継続性を満たす\n新規サービス案が顧客・技術・事業の三つの条件を満たすか検討する。\n一つの条件だけでなく、三つが重なる案を選ぶ。\n上の二つの円が顧客の必要性と実現性。\n下の円が事業としての継続性。\n中央の主色が三つをすべて満たす領域。\nベン図 Venn 3集合 企画判断 必要性 実現性 継続性 事業性 共通領域 feasibility viability desirability",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "a7669c8ec4d1a112b39526ec60f048d8fc13bd326cd5cbd971626ac2e946fc0f",
+  "size_bytes": 1922
+}

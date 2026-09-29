@@ -1,0 +1,50 @@
+{
+  "category": "08-アイコンとピクトグラム",
+  "title": "電話",
+  "description": "電話で直接話す連絡手段を示す。",
+  "keywords": [
+    "電話",
+    "通話",
+    "音声",
+    "連絡",
+    "コール",
+    "phone",
+    "call",
+    "telephone",
+    "voice"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "電話での問い合わせ先や連絡方法を示す。",
+    "message": "音声で相手と直接話す。",
+    "reading": [
+      "受話器の形が電話を表す。",
+      "外側の波が音声のやり取りを表す。"
+    ],
+    "avoid": "着信中や通話可能という現在状態の表示には使わない。"
+  },
+  "schema_version": 2,
+  "id": "icon/phone",
+  "name": "連絡手段_音声で話す_電話",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/phone.svg",
+  "metadata_path": "metadata/icon/phone.json",
+  "search_text": "icon/phone\n連絡手段_音声で話す_電話\n電話\n電話での問い合わせ先や連絡方法を示す。\n音声で相手と直接話す。\n受話器の形が電話を表す。\n外側の波が音声のやり取りを表す。\n電話 通話 音声 連絡 コール phone call telephone voice",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "4e11014b800f6e28d6191ed692e743195e5b419c0f90ce5beab6c2d023ffe360",
+  "size_bytes": 734
+}

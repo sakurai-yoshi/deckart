@@ -1,0 +1,131 @@
+{
+  "category": "12-AIとデータ基盤",
+  "title": "品質を確かめてデータを渡す",
+  "description": "取り込んだデータを検証し、確認が必要なものを分けて利用へ渡す。",
+  "keywords": [
+    "データ",
+    "パイプライン",
+    "取込",
+    "検証",
+    "品質",
+    "保留",
+    "整形",
+    "ETL",
+    "validation",
+    "data",
+    "pipeline",
+    "quality",
+    "quarantine"
+  ],
+  "labels": [
+    {
+      "x": 45,
+      "y": 83,
+      "width": 267,
+      "height": 61,
+      "text": "取込データ",
+      "role": "入力",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-1",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 9
+    },
+    {
+      "x": 362,
+      "y": 83,
+      "width": 221,
+      "height": 61,
+      "text": "品質の確認",
+      "role": "検証",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-2",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 7
+    },
+    {
+      "x": 658,
+      "y": 83,
+      "width": 228,
+      "height": 61,
+      "text": "整理された保存先",
+      "role": "保存",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-3",
+      "font_size": 26.22,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 8
+    },
+    {
+      "x": 933,
+      "y": 457,
+      "width": 237,
+      "height": 61,
+      "text": "分析・業務で利用",
+      "role": "利用先",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-4",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 8
+    },
+    {
+      "x": 356,
+      "y": 582,
+      "width": 232,
+      "height": 57,
+      "text": "確認待ちのデータ",
+      "role": "保留",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-5",
+      "font_size": 26.68,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 8
+    }
+  ],
+  "width": 1200,
+  "height": 720,
+  "kind": "diagram",
+  "guidance": {
+    "use_case": "データを取り込み、品質を確認して分析や業務へ提供する流れを説明する。",
+    "message": "確認が必要なデータを分け、利用可能なデータだけを次へ渡す。",
+    "reading": [
+      "左の資料が取り込むデータ。",
+      "中央の検証で通過と確認待ちに分かれる。",
+      "上の経路は保存先と利用先へ、下の経路は確認待ちへ進む。"
+    ],
+    "avoid": "確認待ちのデータを削除済みや修正済みとして扱わない。"
+  },
+  "schema_version": 2,
+  "id": "technology/data-quality-pipeline",
+  "name": "データ運用_品質を確かめて利用へ渡す_検証と保留のデータ経路",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1200,
+    "height": 720
+  },
+  "path": "assets/technology/data-quality-pipeline.svg",
+  "metadata_path": "metadata/technology/data-quality-pipeline.json",
+  "search_text": "technology/data-quality-pipeline\nデータ運用_品質を確かめて利用へ渡す_検証と保留のデータ経路\n品質を確かめてデータを渡す\nデータを取り込み、品質を確認して分析や業務へ提供する流れを説明する。\n確認が必要なデータを分け、利用可能なデータだけを次へ渡す。\n左の資料が取り込むデータ。\n中央の検証で通過と確認待ちに分かれる。\n上の経路は保存先と利用先へ、下の経路は確認待ちへ進む。\nデータ パイプライン 取込 検証 品質 保留 整形 ETL validation data pipeline quality quarantine",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "faece2d3200c108d1112bba55242a7ec884c728bfd1a462aa74d10a4521a8891",
+  "size_bytes": 7020
+}

@@ -1,0 +1,127 @@
+{
+  "category": "05-組織と戦略",
+  "title": "部門を越えて責任を引き継ぐ",
+  "description": "一つの仕事が部門を越えるとき、責任を受け渡す場所と条件を明確にする。",
+  "keywords": [
+    "責任分界",
+    "部門横断",
+    "組織横断",
+    "オーナーシップ",
+    "RACI",
+    "引き継ぎ",
+    "ハンドオフ",
+    "業務分担",
+    "協働"
+  ],
+  "labels": [
+    {
+      "x": 132,
+      "y": 181,
+      "width": 259,
+      "height": 84,
+      "text": "企画の責任",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-1",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 9
+    },
+    {
+      "x": 469,
+      "y": 181,
+      "width": 259,
+      "height": 84,
+      "text": "実行の責任",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-2",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 9
+    },
+    {
+      "x": 811,
+      "y": 181,
+      "width": 259,
+      "height": 84,
+      "text": "提供の責任",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-3",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 9
+    },
+    {
+      "x": 233,
+      "y": 598,
+      "width": 376,
+      "height": 77,
+      "text": "合意する引き渡し条件",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-4",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 13
+    },
+    {
+      "x": 636,
+      "y": 598,
+      "width": 376,
+      "height": 77,
+      "text": "確認する引き渡し条件",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-5",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 13
+    }
+  ],
+  "width": 1200,
+  "height": 720,
+  "guidance": {
+    "use_case": "企画から実行、提供へ仕事を渡す部門横断業務を説明する。",
+    "message": "仕事の流れと責任の引き渡し条件を合わせて決める。",
+    "reading": [
+      "三つの背景領域は部門の責任範囲。",
+      "横向きの矢印は一つの仕事の流れ。",
+      "境界の縦枠は責任を引き継ぐ場所。"
+    ],
+    "avoid": "境界の記号を承認・否決の分岐として扱わない。"
+  },
+  "kind": "diagram",
+  "schema_version": 2,
+  "id": "strategy/cross-functional-handoffs",
+  "name": "組織運営_責任範囲と部門横断業務_境界を越える実行",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1200,
+    "height": 720
+  },
+  "path": "assets/strategy/cross-functional-handoffs.svg",
+  "metadata_path": "metadata/strategy/cross-functional-handoffs.json",
+  "search_text": "strategy/cross-functional-handoffs\n組織運営_責任範囲と部門横断業務_境界を越える実行\n部門を越えて責任を引き継ぐ\n企画から実行、提供へ仕事を渡す部門横断業務を説明する。\n仕事の流れと責任の引き渡し条件を合わせて決める。\n三つの背景領域は部門の責任範囲。\n横向きの矢印は一つの仕事の流れ。\n境界の縦枠は責任を引き継ぐ場所。\n責任分界 部門横断 組織横断 オーナーシップ RACI 引き継ぎ ハンドオフ 業務分担 協働",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "16bee1d86aba75ecbc6b294595dc413173d641539ec0b9b44b1e0a7bdddd2121",
+  "size_bytes": 2761
+}

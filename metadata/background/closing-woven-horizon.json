@@ -1,0 +1,80 @@
+{
+  "title": "織り重なる流れで結びを印象づける背景",
+  "description": "白と青の繊維の束を編み重ねた流れで、つながりと継続を印象づける。",
+  "kind": "background",
+  "category": "11-背景とフレーム",
+  "width": 1672,
+  "height": 941,
+  "keywords": [
+    "結び",
+    "まとめ",
+    "次の行動",
+    "協業",
+    "継続",
+    "最終ページ",
+    "closing",
+    "conclusion",
+    "collaboration"
+  ],
+  "guidance": {
+    "use_case": "提案の結び、今後の進め方、協業への呼びかけ。",
+    "message": "白と青の繊維の束を編み重ねた流れで、つながりと継続を印象づける。",
+    "reading": [
+      "上中央に短い結論を置き、その下に次の行動や連絡先を添える。"
+    ],
+    "avoid": "装飾の上に文字や図表を重ねない。"
+  },
+  "labels": [],
+  "canvas": {
+    "width": 1600,
+    "height": 900
+  },
+  "content_areas": [
+    {
+      "id": "title",
+      "role": "結論",
+      "purpose": "結論を配置する領域。",
+      "content_type": "text",
+      "x": 275,
+      "y": 115,
+      "width": 1050,
+      "height": 200,
+      "text_color": "#172B4D",
+      "text_align": "center"
+    },
+    {
+      "id": "subtitle",
+      "role": "次の行動と連絡先",
+      "purpose": "次の行動と連絡先を配置する領域。",
+      "content_type": "text",
+      "x": 335,
+      "y": 345,
+      "width": 930,
+      "height": 125,
+      "text_color": "#172B4D",
+      "text_align": "center"
+    }
+  ],
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/backgrounds.json"
+  },
+  "preview_path": "previews/background/closing-woven-horizon.png",
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": false,
+  "schema_version": 2,
+  "id": "background/closing-woven-horizon",
+  "name": "織り重なる流れで結びを印象づける背景_背景",
+  "license": "CC0-1.0",
+  "path": "media/background/closing-woven-horizon.png",
+  "metadata_path": "metadata/background/closing-woven-horizon.json",
+  "search_text": "background/closing-woven-horizon\n織り重なる流れで結びを印象づける背景_背景\n織り重なる流れで結びを印象づける背景\n提案の結び、今後の進め方、協業への呼びかけ。\n白と青の繊維の束を編み重ねた流れで、つながりと継続を印象づける。\n上中央に短い結論を置き、その下に次の行動や連絡先を添える。\n結び まとめ 次の行動 協業 継続 最終ページ closing conclusion collaboration",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "3bc31e030e9480fad2f98bc73a332badd259a5b30a7fe014ca49993139954210",
+  "size_bytes": 1651144
+}

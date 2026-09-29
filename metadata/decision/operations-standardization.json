@@ -1,0 +1,128 @@
+{
+  "category": "02-比較と意思決定",
+  "title": "個別対応から共通の手順へ",
+  "description": "担当者ごとに異なる連携を、受付・判断・実行の共通手順へ整理する。",
+  "keywords": [
+    "改善前後",
+    "ビフォーアフター",
+    "AsIs",
+    "ToBe",
+    "業務改善",
+    "標準化",
+    "簡素化",
+    "共通化",
+    "属人化",
+    "DX"
+  ],
+  "labels": [
+    {
+      "x": 96,
+      "y": 60,
+      "width": 429,
+      "height": 76,
+      "text": "個別の経路で対応",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-1",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 14
+    },
+    {
+      "x": 697,
+      "y": 60,
+      "width": 412,
+      "height": 76,
+      "text": "共通の手順にそろえる",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-2",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 14
+    },
+    {
+      "x": 766,
+      "y": 188,
+      "width": 273,
+      "height": 64,
+      "text": "受付をそろえる",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-3",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 9
+    },
+    {
+      "x": 766,
+      "y": 339,
+      "width": 273,
+      "height": 64,
+      "text": "判断をそろえる",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-4",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 9
+    },
+    {
+      "x": 766,
+      "y": 490,
+      "width": 273,
+      "height": 64,
+      "text": "実行をそろえる",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-5",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 9
+    }
+  ],
+  "width": 1200,
+  "height": 720,
+  "guidance": {
+    "use_case": "問い合わせ対応や受発注業務の標準化を提案する。",
+    "message": "担当ごとの個別対応を共通の手順へ整理する。",
+    "reading": [
+      "左の相互接続は担当間で異なる対応経路。",
+      "右の三段は全員が使う共通の手順。",
+      "下向きの矢印は受付から実行までの順序。"
+    ],
+    "avoid": "線や点の数を実際の業務量として扱わない。"
+  },
+  "kind": "diagram",
+  "schema_version": 2,
+  "id": "decision/operations-standardization",
+  "name": "業務改善_複雑な連携の整理_個別対応から共通運用",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1200,
+    "height": 720
+  },
+  "path": "assets/decision/operations-standardization.svg",
+  "metadata_path": "metadata/decision/operations-standardization.json",
+  "search_text": "decision/operations-standardization\n業務改善_複雑な連携の整理_個別対応から共通運用\n個別対応から共通の手順へ\n問い合わせ対応や受発注業務の標準化を提案する。\n担当ごとの個別対応を共通の手順へ整理する。\n左の相互接続は担当間で異なる対応経路。\n右の三段は全員が使う共通の手順。\n下向きの矢印は受付から実行までの順序。\n改善前後 ビフォーアフター AsIs ToBe 業務改善 標準化 簡素化 共通化 属人化 DX",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "834b37136bc07bbe3cfcd98a63b01bfea92441e9a036372f5b67f3b527005d19",
+  "size_bytes": 3437
+}

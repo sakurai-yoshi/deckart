@@ -1,0 +1,129 @@
+{
+  "category": "01-業務プロセス",
+  "title": "並行検証を揃えて次へ進む",
+  "description": "独立した確認作業を並行で進め、必要な結果が揃う条件を示す。",
+  "keywords": [
+    "並行検証",
+    "並列処理",
+    "同期",
+    "合流",
+    "リリース判定",
+    "品質",
+    "審査"
+  ],
+  "labels": [
+    {
+      "x": 425,
+      "y": 173,
+      "width": 269,
+      "height": 74,
+      "text": "機能・動作を確認",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-1",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 9
+    },
+    {
+      "x": 425,
+      "y": 363,
+      "width": 269,
+      "height": 74,
+      "text": "運用・保守を確認",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-2",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 9
+    },
+    {
+      "x": 425,
+      "y": 553,
+      "width": 269,
+      "height": 74,
+      "text": "安全性を確認",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-3",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 9
+    },
+    {
+      "x": 721,
+      "y": 59,
+      "width": 413,
+      "height": 66,
+      "text": "必要な結果が揃う",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-4",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 14
+    },
+    {
+      "x": 896,
+      "y": 491,
+      "width": 283,
+      "height": 70,
+      "text": "次の工程へ",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-5",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 9
+    }
+  ],
+  "width": 1200,
+  "height": 720,
+  "layout": {
+    "relation": "parallel-synchronization",
+    "reading_direction": "left-to-right"
+  },
+  "guidance": {
+    "use_case": "リリース前に機能・運用・安全性の確認を並行で実施する。",
+    "message": "必要な確認結果がすべて揃ってから次へ進む。",
+    "reading": [
+      "左で三つの確認経路に分かれる。",
+      "右の縦バーが結果を揃える条件。",
+      "共通の出口から次の工程へ進む。"
+    ],
+    "avoid": "一つの結果だけで進める条件には使わない。"
+  },
+  "kind": "diagram",
+  "schema_version": 2,
+  "id": "process/parallel-validation",
+  "name": "品質保証_並行検証を揃えて次へ進む_三系統の同期",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1200,
+    "height": 720
+  },
+  "path": "assets/process/parallel-validation.svg",
+  "metadata_path": "metadata/process/parallel-validation.json",
+  "search_text": "process/parallel-validation\n品質保証_並行検証を揃えて次へ進む_三系統の同期\n並行検証を揃えて次へ進む\nリリース前に機能・運用・安全性の確認を並行で実施する。\n必要な確認結果がすべて揃ってから次へ進む。\n左で三つの確認経路に分かれる。\n右の縦バーが結果を揃える条件。\n共通の出口から次の工程へ進む。\n並行検証 並列処理 同期 合流 リリース判定 品質 審査",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "a1e55e1c562a2543ff74aaba23648f1fb29027ea4628362d7dc9085aefcb85b8",
+  "size_bytes": 6092
+}

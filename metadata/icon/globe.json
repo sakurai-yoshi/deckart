@@ -1,0 +1,51 @@
+{
+  "category": "08-アイコンとピクトグラム",
+  "title": "世界・海外",
+  "description": "海外や世界規模の活動を示す地球の記号。",
+  "keywords": [
+    "世界",
+    "海外",
+    "国際",
+    "グローバル",
+    "地域",
+    "多言語",
+    "globe",
+    "global",
+    "international",
+    "worldwide"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "海外展開や世界とのつながりを示す場面。",
+    "message": "地域を越えた広がりやつながりを示す。",
+    "reading": [
+      "丸い輪郭が地球全体を表す。",
+      "経線と緯線が地域を越える広がりを表す。"
+    ],
+    "avoid": "実際の国境や地理的な範囲を示す地図には使わない。"
+  },
+  "schema_version": 2,
+  "id": "icon/globe",
+  "name": "地域表示_世界とのつながりを示す_グローブ",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/globe.svg",
+  "metadata_path": "metadata/icon/globe.json",
+  "search_text": "icon/globe\n地域表示_世界とのつながりを示す_グローブ\n世界・海外\n海外展開や世界とのつながりを示す場面。\n地域を越えた広がりやつながりを示す。\n丸い輪郭が地球全体を表す。\n経線と緯線が地域を越える広がりを表す。\n世界 海外 国際 グローバル 地域 多言語 globe global international worldwide",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "19dc16ced567b9ed622ee2180cf7731323872db01b369dcfee1615969f70fa9b",
+  "size_bytes": 973
+}

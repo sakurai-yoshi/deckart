@@ -1,0 +1,48 @@
+{
+  "category": "08-アイコンとピクトグラム",
+  "title": "ロット識別",
+  "description": "ラベルを使って製造したまとまりを識別する。",
+  "keywords": [
+    "ロット",
+    "製造番号",
+    "識別",
+    "ラベル",
+    "barcode",
+    "lot",
+    "identification"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "製造ロットや製品識別の管理を示す。",
+    "message": "ラベルを使って製造したまとまりを識別する。",
+    "reading": [
+      "穴付きの札が対象に付ける識別票を表す。",
+      "バーコード風の線が個別の識別情報を表す。"
+    ],
+    "avoid": "記号は業務の種類を示す。数値、認証取得、測定結果を保証する印には使わない。"
+  },
+  "schema_version": 2,
+  "id": "icon/lot-identification",
+  "name": "ロット識別_製造業務の記号",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/lot-identification.svg",
+  "metadata_path": "metadata/icon/lot-identification.json",
+  "search_text": "icon/lot-identification\nロット識別_製造業務の記号\nロット識別\n製造ロットや製品識別の管理を示す。\nラベルを使って製造したまとまりを識別する。\n穴付きの札が対象に付ける識別票を表す。\nバーコード風の線が個別の識別情報を表す。\nロット 製造番号 識別 ラベル barcode lot identification",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "c5211c7fa4574e30e8a37f6dbde3d8908bec0b64dcb7036eec92bba8d38c2328",
+  "size_bytes": 1734
+}

@@ -1,0 +1,61 @@
+{
+  "title": "話を聞く",
+  "kind": "illustration",
+  "category": "06-業務イラスト",
+  "width": 1254,
+  "height": 1254,
+  "keywords": [
+    "傾聴",
+    "理解",
+    "相談",
+    "要望",
+    "聞く",
+    "listen",
+    "understanding"
+  ],
+  "guidance": {
+    "use_case": "要望確認、相談、教育で相手の話を聞く説明に。",
+    "message": "相手の話を受け止め、理解する。",
+    "reading": [
+      "相手へ向けた顔と、手元に閉じて持つノートが傾聴の姿勢を示します。"
+    ],
+    "avoid": "実在の人物・業務実績・承認や確認の完了を証明する画像としては使えません。"
+  },
+  "labels": [],
+  "preview_path": "previews/illustration/listening.png",
+  "placement": {
+    "framing": "waist-up",
+    "facing": "right",
+    "people_count": 1,
+    "recommended_width_cm": [
+      3,
+      6
+    ]
+  },
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/illustrations.json"
+  },
+  "description": "相手の話を受け止め、理解する。",
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": true,
+  "canvas": {
+    "width": 1254,
+    "height": 1254
+  },
+  "schema_version": 2,
+  "id": "illustration/listening",
+  "name": "話を聞く_汎用ビジネスの動作",
+  "license": "CC0-1.0",
+  "path": "media/illustration/listening.png",
+  "metadata_path": "metadata/illustration/listening.json",
+  "search_text": "illustration/listening\n話を聞く_汎用ビジネスの動作\n話を聞く\n要望確認、相談、教育で相手の話を聞く説明に。\n相手の話を受け止め、理解する。\n相手へ向けた顔と、手元に閉じて持つノートが傾聴の姿勢を示します。\n傾聴 理解 相談 要望 聞く listen understanding\nwaist-up 上半身 腰上 right 右向き 1  [3, 6] ",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "3678dffcbab8a4cee4ad303c820635b89e649d57d3e288e5452d02f431d6d30a",
+  "size_bytes": 673875
+}

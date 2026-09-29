@@ -1,0 +1,63 @@
+{
+  "kind": "illustration",
+  "category": "06-業務イラスト",
+  "width": 1254,
+  "height": 1254,
+  "labels": [],
+  "placement": {
+    "framing": "object",
+    "facing": "front",
+    "recommended_width_cm": [
+      4,
+      7
+    ]
+  },
+  "title": "同じ資料を複数の端末で共有する",
+  "description": "パソコンとタブレットに同じ構成の資料が表示され、端末をまたいだ情報共有を表す。",
+  "keywords": [
+    "資料",
+    "共有",
+    "端末",
+    "共同利用",
+    "参照",
+    "情報",
+    "file",
+    "sharing",
+    "devices"
+  ],
+  "guidance": {
+    "use_case": "共通資料の閲覧、拠点間や職場内での情報共有、端末をまたいだ業務の説明。",
+    "message": "利用する端末が違っても、同じ資料を参照できる。",
+    "reading": [
+      "大きさの違う二つの画面が、利用する端末の違いを表す。",
+      "同じ見出しと内容の配置が、共有された同じ資料を表す。"
+    ],
+    "avoid": "特定の同期方式や、リアルタイムの同期完了を示す用途には使わない。"
+  },
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/illustrations.json"
+  },
+  "preview_path": "previews/illustration/file-sharing.png",
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": true,
+  "canvas": {
+    "width": 1254,
+    "height": 1254
+  },
+  "schema_version": 2,
+  "id": "illustration/file-sharing",
+  "name": "同じ資料を複数の端末で共有する_情報と業務のイラスト",
+  "license": "CC0-1.0",
+  "path": "media/illustration/file-sharing.png",
+  "metadata_path": "metadata/illustration/file-sharing.json",
+  "search_text": "illustration/file-sharing\n同じ資料を複数の端末で共有する_情報と業務のイラスト\n同じ資料を複数の端末で共有する\n共通資料の閲覧、拠点間や職場内での情報共有、端末をまたいだ業務の説明。\n利用する端末が違っても、同じ資料を参照できる。\n大きさの違う二つの画面が、利用する端末の違いを表す。\n同じ見出しと内容の配置が、共有された同じ資料を表す。\n資料 共有 端末 共同利用 参照 情報 file sharing devices\nobject 物 道具 front 正面 [4, 7] ",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "a4e0e3f5d8ab3e3905dd1efac61dd1467a0e6b46c05079739f598dcf4b577382",
+  "size_bytes": 661588
+}

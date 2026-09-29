@@ -1,0 +1,125 @@
+{
+  "category": "07-注釈と見出し",
+  "title": "利点と必要な負担を並べる",
+  "description": "得られる価値と必要になる対応を並べ、共通の判断へまとめる部品。",
+  "keywords": [
+    "利点",
+    "負担",
+    "条件",
+    "トレードオフ",
+    "判断",
+    "benefit",
+    "requirement",
+    "tradeoff"
+  ],
+  "labels": [
+    {
+      "x": 28,
+      "y": 65,
+      "width": 492,
+      "height": 45,
+      "text": "得られること",
+      "role": "利点区分",
+      "align": "left",
+      "color": "#2864F0",
+      "font_size": 25,
+      "id": "label-1",
+      "color_role": "accent",
+      "max_lines": 1,
+      "max_fullwidth_chars": 18
+    },
+    {
+      "x": 28,
+      "y": 136,
+      "width": 492,
+      "height": 91,
+      "text": "窓口を統一し、\n回答の経過を追いやすくする",
+      "role": "利点",
+      "align": "left",
+      "color": "#153A6B",
+      "font_size": 30,
+      "id": "label-2",
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 15
+    },
+    {
+      "x": 600,
+      "y": 65,
+      "width": 492,
+      "height": 45,
+      "text": "必要になること",
+      "role": "負担区分",
+      "align": "left",
+      "color": "#607590",
+      "font_size": 25,
+      "id": "label-3",
+      "color_role": "muted",
+      "max_lines": 1,
+      "max_fullwidth_chars": 18
+    },
+    {
+      "x": 600,
+      "y": 136,
+      "width": 492,
+      "height": 91,
+      "text": "引き継ぎの記録と、\n担当間の調整をそろえる",
+      "role": "必要条件",
+      "align": "left",
+      "color": "#153A6B",
+      "font_size": 30,
+      "id": "label-4",
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 15
+    },
+    {
+      "x": 54,
+      "y": 288,
+      "width": 1012,
+      "height": 51,
+      "text": "両方を踏まえて、導入する範囲を決める",
+      "role": "判断",
+      "align": "left",
+      "color": "#153A6B",
+      "font_size": 29,
+      "id": "label-5",
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 32
+    }
+  ],
+  "width": 1120,
+  "height": 382,
+  "kind": "part",
+  "guidance": {
+    "use_case": "提案の価値と実施に必要な負担を説明する場面。",
+    "message": "利点だけでなく、実現の条件も含めて判断する。",
+    "reading": [
+      "左が得られること、右が必要になることを示す。",
+      "下の共通欄が両者を踏まえた判断を受け持つ。"
+    ],
+    "avoid": "負担の大きさを左右の面積で比較する用途には使わない。"
+  },
+  "schema_version": 2,
+  "id": "part/benefit-and-requirement",
+  "name": "利点と必要な負担を並べる_説明パーツ",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1120,
+    "height": 382
+  },
+  "path": "assets/part/benefit-and-requirement.svg",
+  "metadata_path": "metadata/part/benefit-and-requirement.json",
+  "search_text": "part/benefit-and-requirement\n利点と必要な負担を並べる_説明パーツ\n利点と必要な負担を並べる\n提案の価値と実施に必要な負担を説明する場面。\n利点だけでなく、実現の条件も含めて判断する。\n左が得られること、右が必要になることを示す。\n下の共通欄が両者を踏まえた判断を受け持つ。\n利点 負担 条件 トレードオフ 判断 benefit requirement tradeoff",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "5e99aa30fc5a718c3ece24466e78b02093419fcb7dbfeaa31417cf89ac9861fd",
+  "size_bytes": 865
+}

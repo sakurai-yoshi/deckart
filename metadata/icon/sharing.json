@@ -1,0 +1,48 @@
+{
+  "category": "08-アイコンとピクトグラム",
+  "title": "共有",
+  "description": "一つの情報を複数の相手へ共有することを示す。",
+  "keywords": [
+    "共有",
+    "配布",
+    "展開",
+    "情報共有",
+    "share",
+    "sharing",
+    "distribution"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "資料や情報の共有先を示す。",
+    "message": "一つの情報を複数の相手へ広げる。",
+    "reading": [
+      "一つの点が共有元を表す。",
+      "枝分かれする線と二つの点が共有先を表す。"
+    ],
+    "avoid": "公開範囲やアクセス許可の設定完了としては使わない。"
+  },
+  "schema_version": 2,
+  "id": "icon/sharing",
+  "name": "情報共有_複数の相手に届ける_共有ノード",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/sharing.svg",
+  "metadata_path": "metadata/icon/sharing.json",
+  "search_text": "icon/sharing\n情報共有_複数の相手に届ける_共有ノード\n共有\n資料や情報の共有先を示す。\n一つの情報を複数の相手へ広げる。\n一つの点が共有元を表す。\n枝分かれする線と二つの点が共有先を表す。\n共有 配布 展開 情報共有 share sharing distribution",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "a2daecc1b2424f9c3bfdc5699a1f57f7ed875f71c10a3a4106a715cc92813c15",
+  "size_bytes": 922
+}

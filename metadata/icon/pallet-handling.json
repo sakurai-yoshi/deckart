@@ -1,0 +1,48 @@
+{
+  "category": "08-アイコンとピクトグラム",
+  "title": "パレット搬送",
+  "description": "荷物を荷台へまとめて扱う。",
+  "keywords": [
+    "パレット",
+    "搬送",
+    "荷役",
+    "積載",
+    "pallet",
+    "handling",
+    "logistics"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "荷役単位やパレットでの搬送を説明する。",
+    "message": "荷物を荷台へまとめて扱う。",
+    "reading": [
+      "一つの荷物を脚のあるパレットが下から支える。",
+      "底部の隙間が荷役用の差込口を示す。"
+    ],
+    "avoid": "記号は業務の種類を示す。数値、認証取得、測定結果を保証する印には使わない。"
+  },
+  "schema_version": 2,
+  "id": "icon/pallet-handling",
+  "name": "パレット搬送_製造業務の記号",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/pallet-handling.svg",
+  "metadata_path": "metadata/icon/pallet-handling.json",
+  "search_text": "icon/pallet-handling\nパレット搬送_製造業務の記号\nパレット搬送\n荷役単位やパレットでの搬送を説明する。\n荷物を荷台へまとめて扱う。\n一つの荷物を脚のあるパレットが下から支える。\n底部の隙間が荷役用の差込口を示す。\nパレット 搬送 荷役 積載 pallet handling logistics",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "dca42b0418b1c41f4f533e4664906829d6303f2b8bc7ce60c2be0ac751ec05c9",
+  "size_bytes": 1081
+}

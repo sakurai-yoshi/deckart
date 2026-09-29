@@ -1,0 +1,49 @@
+{
+  "category": "08-アイコンとピクトグラム",
+  "title": "周知・告知",
+  "description": "多くの相手へ情報を知らせる周知を示す。",
+  "keywords": [
+    "周知",
+    "告知",
+    "案内",
+    "社内広報",
+    "広報",
+    "announcement",
+    "broadcast",
+    "communication"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "社内告知や広報の見出しに添える。",
+    "message": "広い範囲の相手へ情報を伝える。",
+    "reading": [
+      "拡声器が多くの相手への発信を表す。",
+      "外へ広がる短い線が知らせの広がりを示す。"
+    ],
+    "avoid": "情報の到達や理解が確認済みという意味では使わない。"
+  },
+  "schema_version": 2,
+  "id": "icon/broadcast",
+  "name": "社内周知_広い相手へ伝える_拡声器",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/broadcast.svg",
+  "metadata_path": "metadata/icon/broadcast.json",
+  "search_text": "icon/broadcast\n社内周知_広い相手へ伝える_拡声器\n周知・告知\n社内告知や広報の見出しに添える。\n広い範囲の相手へ情報を伝える。\n拡声器が多くの相手への発信を表す。\n外へ広がる短い線が知らせの広がりを示す。\n周知 告知 案内 社内広報 広報 announcement broadcast communication",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "af7abe6b597724292d39395a3db536a94931647539fad46fed85b9bf483c8434",
+  "size_bytes": 1241
+}

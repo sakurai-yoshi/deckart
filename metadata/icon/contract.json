@@ -1,0 +1,49 @@
+{
+  "category": "08-アイコンとピクトグラム",
+  "title": "契約",
+  "description": "合意した条件を文書で取り交わす手続きを示す。",
+  "keywords": [
+    "契約",
+    "署名",
+    "合意",
+    "契約書",
+    "締結",
+    "contract",
+    "signature",
+    "agreement"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "契約確認や署名の手続きを示す。",
+    "message": "合意した内容を文書に残す。",
+    "reading": [
+      "本文のある紙が合意条件を表す。",
+      "署名とペンが文書を取り交わす行為を表す。"
+    ],
+    "avoid": "法的な有効性や締結完了をこの記号だけで保証しない。"
+  },
+  "schema_version": 2,
+  "id": "icon/contract",
+  "name": "契約手続_合意内容に署名する_契約書とペン",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/contract.svg",
+  "metadata_path": "metadata/icon/contract.json",
+  "search_text": "icon/contract\n契約手続_合意内容に署名する_契約書とペン\n契約\n契約確認や署名の手続きを示す。\n合意した内容を文書に残す。\n本文のある紙が合意条件を表す。\n署名とペンが文書を取り交わす行為を表す。\n契約 署名 合意 契約書 締結 contract signature agreement",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "021e272eb64d8aba644acb6e702c80ea50227a4e40a0ccc17f0d75e5003ee072",
+  "size_bytes": 1396
+}

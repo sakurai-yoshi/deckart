@@ -1,0 +1,148 @@
+{
+  "category": "10-数値とグラフ",
+  "title": "10人中7人の割合を示す",
+  "description": "同じ大きさの人物10体のうち7体を主色で塗り、70%を示すピクトグラムの作例。",
+  "keywords": [
+    "ピクトグラム",
+    "人数",
+    "人物",
+    "割合",
+    "比率",
+    "回答",
+    "該当",
+    "70パーセント",
+    "pictogram"
+  ],
+  "labels": [
+    {
+      "x": 309,
+      "y": 20,
+      "width": 582,
+      "height": 62,
+      "text": "全体に占める対象の割合",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-1",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 20
+    },
+    {
+      "x": 324,
+      "y": 526,
+      "width": 552,
+      "height": 68,
+      "text": "10人中7人が該当する作例",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-2",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 19
+    }
+  ],
+  "width": 1200,
+  "height": 720,
+  "kind": "chart",
+  "data": {
+    "is_sample": true,
+    "unit": "人",
+    "categories": [
+      "該当",
+      "その他"
+    ],
+    "series": [
+      {
+        "label": "人数",
+        "values": [
+          7,
+          3
+        ]
+      }
+    ],
+    "chart_type": "pictogram",
+    "total": 10,
+    "mark_count": 10,
+    "value_per_mark": 1,
+    "selected_marks": 7,
+    "percentage": 70.0,
+    "number_format": {
+      "maximum_significant_digits": 6,
+      "minimum_significant_digits": 3,
+      "large_or_small_values": "E notation",
+      "source_values": "series"
+    }
+  },
+  "guidance": {
+    "use_case": "同じ母集団の中で条件に該当する人数の割合を説明する。",
+    "message": "全体と該当する人数の関係が一目で分かる。",
+    "reading": [
+      "人物1体が1人に対応し、全部で10人。",
+      "主色の7人が該当、淡い3人がその他。",
+      "7人を10人で割った割合が70%。"
+    ],
+    "avoid": "数値は作例。実際の人数と異なる場合は1体が表す人数も含めて更新する。"
+  },
+  "schema_version": 2,
+  "id": "chart/pictogram",
+  "name": "人数比較_全体に占める対象の割合_10人中7人作例",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1200,
+    "height": 720
+  },
+  "path": "assets/chart/pictogram.svg",
+  "metadata_path": "metadata/chart/pictogram.json",
+  "search_text": "chart/pictogram\n人数比較_全体に占める対象の割合_10人中7人作例\n10人中7人の割合を示す\n同じ母集団の中で条件に該当する人数の割合を説明する。\n全体と該当する人数の関係が一目で分かる。\n人物1体が1人に対応し、全部で10人。\n主色の7人が該当、淡い3人がその他。\n7人を10人で割った割合が70%。\nピクトグラム 人数 人物 割合 比率 回答 該当 70パーセント pictogram",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": true
+  },
+  "data_input": {
+    "chart_type": "pictogram",
+    "category_count": 2,
+    "series_count": 1,
+    "values_per_series": 2,
+    "required": [
+      "categories",
+      "series",
+      "unit"
+    ],
+    "constraints": [
+      "表示値は最大6有効桁。丸める場合も3有効桁以上を保つ。E表記で収まらない値は単位か小数桁を調整。入力値はseriesに保持。",
+      "文字は大判24px、小判20px以上で収まる長さ。収まらないカテゴリ名・系列名・単位は短縮して入力。",
+      "有限な数値。絶対値は1兆以下。大きな値は単位を変更して入力。",
+      "categoriesは16文字以内、series.label・unitは12文字以内。",
+      "値は0以上。",
+      "totalを指定する場合は各部分の合計と一致。単位が%の場合は合計100。",
+      "単位は人。2区分は整数で、合計10。"
+    ],
+    "example": {
+      "categories": [
+        "該当",
+        "その他"
+      ],
+      "series": [
+        {
+          "label": "人数",
+          "values": [
+            7,
+            3
+          ]
+        }
+      ],
+      "unit": "人",
+      "total": 10
+    }
+  },
+  "sha256": "b9c7f9568b7706364e17be59e0431245d754d81c477db603c7c2c98af407577a",
+  "size_bytes": 5765
+}

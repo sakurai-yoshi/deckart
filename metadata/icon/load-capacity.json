@@ -1,0 +1,49 @@
+{
+  "category": "08-アイコンとピクトグラム",
+  "title": "耐荷重",
+  "description": "支える面にかかる重量を扱う。",
+  "keywords": [
+    "耐荷重",
+    "荷重",
+    "重量",
+    "強度",
+    "台",
+    "load",
+    "capacity",
+    "weight"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "棚や搬送設備の荷重条件を説明する。",
+    "message": "支える面にかかる重量を扱う。",
+    "reading": [
+      "中央の重りと下の支持台を対応させる。",
+      "左右の下向き矢印が荷重の向きを示す。"
+    ],
+    "avoid": "記号は業務の種類を示す。数値、認証取得、測定結果を保証する印には使わない。"
+  },
+  "schema_version": 2,
+  "id": "icon/load-capacity",
+  "name": "耐荷重_製造業務の記号",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/load-capacity.svg",
+  "metadata_path": "metadata/icon/load-capacity.json",
+  "search_text": "icon/load-capacity\n耐荷重_製造業務の記号\n耐荷重\n棚や搬送設備の荷重条件を説明する。\n支える面にかかる重量を扱う。\n中央の重りと下の支持台を対応させる。\n左右の下向き矢印が荷重の向きを示す。\n耐荷重 荷重 重量 強度 台 load capacity weight",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "00ac7f120ace212f060077498d8441c37ed1f52096c8cffbe38e971caa562b13",
+  "size_bytes": 1550
+}

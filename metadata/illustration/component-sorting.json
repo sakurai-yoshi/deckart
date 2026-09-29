@@ -1,0 +1,64 @@
+{
+  "kind": "illustration",
+  "category": "06-業務イラスト",
+  "labels": [],
+  "preview_path": "previews/illustration/component-sorting.png",
+  "placement": {
+    "framing": "object",
+    "facing": "front",
+    "recommended_width_cm": [
+      4,
+      7
+    ]
+  },
+  "title": "部材を種類別に分ける",
+  "description": "形の異なる部材を別々のトレーにまとめ、種類ごとに分けて扱う。",
+  "keywords": [
+    "部材",
+    "部品",
+    "仕分け",
+    "区分",
+    "混入防止",
+    "整理",
+    "種類",
+    "components",
+    "sorting",
+    "separation"
+  ],
+  "guidance": {
+    "use_case": "部材の仕分け、混入防止、作業中の品種別管理を説明する。",
+    "message": "種類の異なる部材を容器ごとに分け、混在を防ぐ。",
+    "reading": [
+      "二つのトレーに、円柱形と角形の部材をそれぞれまとめる。",
+      "容器を分けることで種類の違いを保ち、選びやすくする。"
+    ],
+    "avoid": "実物の寸法・仕様や、作業手順を示す図としては使用しない。"
+  },
+  "width": 1254,
+  "height": 1254,
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/illustrations.json"
+  },
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": true,
+  "canvas": {
+    "width": 1254,
+    "height": 1254
+  },
+  "schema_version": 2,
+  "id": "illustration/component-sorting",
+  "name": "部材を種類別に分ける_物で伝える業務",
+  "license": "CC0-1.0",
+  "path": "media/illustration/component-sorting.png",
+  "metadata_path": "metadata/illustration/component-sorting.json",
+  "search_text": "illustration/component-sorting\n部材を種類別に分ける_物で伝える業務\n部材を種類別に分ける\n部材の仕分け、混入防止、作業中の品種別管理を説明する。\n種類の異なる部材を容器ごとに分け、混在を防ぐ。\n二つのトレーに、円柱形と角形の部材をそれぞれまとめる。\n容器を分けることで種類の違いを保ち、選びやすくする。\n部材 部品 仕分け 区分 混入防止 整理 種類 components sorting separation\nobject 物 道具 front 正面 [4, 7] ",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "7f459e9dd127350f9eb444b1f39c0db6a39c167a91561b4dfbf9cbe5f856ec99",
+  "size_bytes": 490198
+}

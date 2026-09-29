@@ -1,0 +1,49 @@
+{
+  "category": "08-アイコンとピクトグラム",
+  "title": "バックアップ",
+  "description": "後で復旧できるようにデータの控えを保存する。",
+  "keywords": [
+    "バックアップ",
+    "保存",
+    "復旧",
+    "保全",
+    "backup",
+    "restore",
+    "recovery",
+    "copy"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "バックアップや復旧用データの保存を示す。",
+    "message": "元の状態に戻せる控えを残す。",
+    "reading": [
+      "下の装置がデータの保存先を表す。",
+      "戻る矢印が復旧できる状態を表す。"
+    ],
+    "avoid": "保存の成功や復旧可能性を検証済みの印には使わない。"
+  },
+  "schema_version": 2,
+  "id": "icon/backup",
+  "name": "保全作業_復旧用のデータを保存する_保存装置と戻り",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/backup.svg",
+  "metadata_path": "metadata/icon/backup.json",
+  "search_text": "icon/backup\n保全作業_復旧用のデータを保存する_保存装置と戻り\nバックアップ\nバックアップや復旧用データの保存を示す。\n元の状態に戻せる控えを残す。\n下の装置がデータの保存先を表す。\n戻る矢印が復旧できる状態を表す。\nバックアップ 保存 復旧 保全 backup restore recovery copy",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "44b1b17efca4de2be420aef9b41fbb921a1c3a568be5d21421716a76a106f555",
+  "size_bytes": 1047
+}

@@ -1,0 +1,49 @@
+{
+  "category": "08-アイコンとピクトグラム",
+  "title": "品質",
+  "description": "製品や業務で望ましい品質を保つことを示す。",
+  "keywords": [
+    "品質",
+    "品質管理",
+    "基準",
+    "検証",
+    "信頼",
+    "quality",
+    "assurance",
+    "standard"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "品質への取り組みや品質管理の項目に添える。",
+    "message": "求める基準を満たす品質を目指す。",
+    "reading": [
+      "中央のメダルが望ましい品質を表す。",
+      "星とリボンが価値を認める印を表す。"
+    ],
+    "avoid": "外部認証や受賞実績を証明するマークには使わない。"
+  },
+  "schema_version": 2,
+  "id": "icon/quality",
+  "name": "品質管理_望ましい基準を保つ_品質メダル",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/quality.svg",
+  "metadata_path": "metadata/icon/quality.json",
+  "search_text": "icon/quality\n品質管理_望ましい基準を保つ_品質メダル\n品質\n品質への取り組みや品質管理の項目に添える。\n求める基準を満たす品質を目指す。\n中央のメダルが望ましい品質を表す。\n星とリボンが価値を認める印を表す。\n品質 品質管理 基準 検証 信頼 quality assurance standard",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "7a8978613fb746a1469d91caaa9b2761a9f23a4bf47d74b194eaee520e3cd164",
+  "size_bytes": 961
+}

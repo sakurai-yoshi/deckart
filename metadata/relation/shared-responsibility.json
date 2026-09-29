@@ -1,0 +1,130 @@
+{
+  "category": "03-関係と連携",
+  "title": "共通の成果を両部門で支える",
+  "description": "部門ごとの役割を残しながら、共通成果に対する共同責任を示す。",
+  "keywords": [
+    "共同責任",
+    "部門連携",
+    "共同作業",
+    "役割分担",
+    "境界",
+    "横断",
+    "共通成果",
+    "協業"
+  ],
+  "labels": [
+    {
+      "x": 67,
+      "y": 113,
+      "width": 310,
+      "height": 80,
+      "text": "一方の部門・担当",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-1",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 10
+    },
+    {
+      "x": 823,
+      "y": 113,
+      "width": 310,
+      "height": 80,
+      "text": "もう一方の部門・担当",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-2",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 10
+    },
+    {
+      "x": 403,
+      "y": 272,
+      "width": 394,
+      "height": 75,
+      "text": "共通して実現する成果",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-3",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 13
+    },
+    {
+      "x": 79,
+      "y": 615,
+      "width": 322,
+      "height": 67,
+      "text": "担当する役割",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-4",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 11
+    },
+    {
+      "x": 799,
+      "y": 615,
+      "width": 322,
+      "height": 67,
+      "text": "担当する役割",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-5",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 11
+    }
+  ],
+  "width": 1200,
+  "height": 720,
+  "layout": {
+    "relation": "shared-outcome",
+    "reading_direction": "outside-in"
+  },
+  "guidance": {
+    "use_case": "開発と事業など、二部門が共通の成果を担う体制を説明する。",
+    "message": "部門の役割は分かれていても、目指す成果は共通する。",
+    "reading": [
+      "左右の支柱がそれぞれの部門。",
+      "つながった橋が両者で支える取り組み。",
+      "両側の矢印が中央の共通成果へ向かう。"
+    ],
+    "avoid": "承認権限の上下関係を示す図として使わない。"
+  },
+  "kind": "diagram",
+  "schema_version": 2,
+  "id": "relation/shared-responsibility",
+  "name": "部門連携_共通の成果を両部門で支える_共同責任の橋",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1200,
+    "height": 720
+  },
+  "path": "assets/relation/shared-responsibility.svg",
+  "metadata_path": "metadata/relation/shared-responsibility.json",
+  "search_text": "relation/shared-responsibility\n部門連携_共通の成果を両部門で支える_共同責任の橋\n共通の成果を両部門で支える\n開発と事業など、二部門が共通の成果を担う体制を説明する。\n部門の役割は分かれていても、目指す成果は共通する。\n左右の支柱がそれぞれの部門。\nつながった橋が両者で支える取り組み。\n両側の矢印が中央の共通成果へ向かう。\n共同責任 部門連携 共同作業 役割分担 境界 横断 共通成果 協業",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "2d07bb4ad9a9484acd2ab611f01d4d03174c14cd42f8dc186e9dcfbc66a88087",
+  "size_bytes": 3640
+}

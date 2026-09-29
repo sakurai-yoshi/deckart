@@ -1,0 +1,49 @@
+{
+  "category": "08-アイコンとピクトグラム",
+  "title": "交換部品",
+  "description": "故障時に取り替えられる部品を用意する。",
+  "keywords": [
+    "交換部品",
+    "予備品",
+    "修理",
+    "スペア",
+    "保守",
+    "spare",
+    "parts",
+    "replacement"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "交換部品や予備品の準備を示す。",
+    "message": "故障時に取り替えられる部品を用意する。",
+    "reading": [
+      "主装置と同じ穴を持つ別の部品を対応させる。",
+      "戻る矢印が装置へ取り付けることを表す。"
+    ],
+    "avoid": "記号は業務の種類を示す。数値、認証取得、測定結果を保証する印には使わない。"
+  },
+  "schema_version": 2,
+  "id": "icon/spare-parts",
+  "name": "交換部品_製造業務の記号",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/spare-parts.svg",
+  "metadata_path": "metadata/icon/spare-parts.json",
+  "search_text": "icon/spare-parts\n交換部品_製造業務の記号\n交換部品\n交換部品や予備品の準備を示す。\n故障時に取り替えられる部品を用意する。\n主装置と同じ穴を持つ別の部品を対応させる。\n戻る矢印が装置へ取り付けることを表す。\n交換部品 予備品 修理 スペア 保守 spare parts replacement",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "980dd35e5cb85d9d7f80e8d221667a0694f7a116d9457b606683d05b0f1d1060",
+  "size_bytes": 1176
+}

@@ -1,0 +1,49 @@
+{
+  "category": "08-アイコンとピクトグラム",
+  "title": "寸法測定",
+  "description": "部品の両端を測定具で挟み、寸法を確かめる。",
+  "keywords": [
+    "寸法",
+    "測定",
+    "ノギス",
+    "幅",
+    "長さ",
+    "dimension",
+    "caliper",
+    "measurement"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "寸法確認や測定工程の見出しに添える。",
+    "message": "部品の両端を測定具で挟み、寸法を確かめる。",
+    "reading": [
+      "測定具の二つの爪が部品の両側に接する。",
+      "下の寸法線が測る幅を示す。"
+    ],
+    "avoid": "記号は業務の種類を示す。数値、認証取得、測定結果を保証する印には使わない。"
+  },
+  "schema_version": 2,
+  "id": "icon/dimensional-measurement",
+  "name": "寸法測定_製造業務の記号",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/dimensional-measurement.svg",
+  "metadata_path": "metadata/icon/dimensional-measurement.json",
+  "search_text": "icon/dimensional-measurement\n寸法測定_製造業務の記号\n寸法測定\n寸法確認や測定工程の見出しに添える。\n部品の両端を測定具で挟み、寸法を確かめる。\n測定具の二つの爪が部品の両側に接する。\n下の寸法線が測る幅を示す。\n寸法 測定 ノギス 幅 長さ dimension caliper measurement",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "6ce1bb26c061fadbad569478233b7960e8af9a94496dac4b032b246c68b00895",
+  "size_bytes": 1902
+}

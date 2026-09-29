@@ -1,0 +1,118 @@
+{
+  "category": "12-AIとデータ基盤",
+  "title": "AIの下書きを人が確認する",
+  "description": "生成された下書きを人が確認し、修正または確定へ進める。",
+  "keywords": [
+    "AI",
+    "人手確認",
+    "レビュー",
+    "下書き",
+    "生成",
+    "承認",
+    "修正",
+    "確定",
+    "human",
+    "in",
+    "the",
+    "loop",
+    "review",
+    "draft",
+    "approval"
+  ],
+  "labels": [
+    {
+      "x": 187,
+      "y": 124,
+      "width": 239,
+      "height": 70,
+      "text": "AIの下書き",
+      "role": "生成物",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-1",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 8
+    },
+    {
+      "x": 495,
+      "y": 97,
+      "width": 253,
+      "height": 65,
+      "text": "人による確認",
+      "role": "判断",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-2",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 8
+    },
+    {
+      "x": 853,
+      "y": 124,
+      "width": 285,
+      "height": 70,
+      "text": "確認して確定",
+      "role": "確定結果",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-3",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 9
+    },
+    {
+      "x": 330,
+      "y": 611,
+      "width": 382,
+      "height": 60,
+      "text": "必要に応じて修正へ戻す",
+      "role": "戻り経路",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-4",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 13
+    }
+  ],
+  "width": 1200,
+  "height": 720,
+  "kind": "diagram",
+  "guidance": {
+    "use_case": "AIが作った文書や回答を、利用前に人が確認する運用を説明する。",
+    "message": "下書きの生成と、利用してよいという判断を分ける。",
+    "reading": [
+      "左はAIが生成した確認前の下書き。",
+      "中央の人が内容を確認する。",
+      "確認を終えたものは右へ、修正が必要なものは下の経路で戻る。"
+    ],
+    "avoid": "人が見ただけで内容の正確性を保証できるとは示さない。"
+  },
+  "schema_version": 2,
+  "id": "technology/ai-human-review",
+  "name": "AI運用_下書きを人が確認して確定する_生成と公開の間の判断",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1200,
+    "height": 720
+  },
+  "path": "assets/technology/ai-human-review.svg",
+  "metadata_path": "metadata/technology/ai-human-review.json",
+  "search_text": "technology/ai-human-review\nAI運用_下書きを人が確認して確定する_生成と公開の間の判断\nAIの下書きを人が確認する\nAIが作った文書や回答を、利用前に人が確認する運用を説明する。\n下書きの生成と、利用してよいという判断を分ける。\n左はAIが生成した確認前の下書き。\n中央の人が内容を確認する。\n確認を終えたものは右へ、修正が必要なものは下の経路で戻る。\nAI 人手確認 レビュー 下書き 生成 承認 修正 確定 human in the loop review draft approval",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "d38485aec97fc32cc29ec49875ba09674125cbbce200791a79f6aa835d3ee7ec",
+  "size_bytes": 7490
+}

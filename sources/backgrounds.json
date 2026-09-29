@@ -1,0 +1,1116 @@
+[
+  {
+    "key": "background/agenda-edge-binding",
+    "title": "青い綴じ構造で論点を束ねる目次",
+    "name": "青い綴じ構造で論点を束ねる目次_背景",
+    "description": "左の精密な綴じ構造を見どころに、右へ議題を縦に整理する。",
+    "kind": "background",
+    "category": "11-背景とフレーム",
+    "width": 1672,
+    "height": 941,
+    "keywords": [
+      "目次",
+      "議題",
+      "アジェンダ",
+      "会議",
+      "論点",
+      "agenda",
+      "contents",
+      "meeting"
+    ],
+    "guidance": {
+      "use_case": "会議や提案の冒頭で、扱う論点と進める順序を示す。",
+      "message": "複数の議題を一つの流れとして整理する。",
+      "reading": [
+        "右上に目次の題名、下に4〜6件の議題を縦に配置する。",
+        "青い綴じ部は装飾として残し、項目番号は右の本文領域へ置く。"
+      ],
+      "avoid": "左の綴じ構造を議題数や工程数として読み取らない。"
+    },
+    "labels": [],
+    "canvas": {
+      "width": 1600,
+      "height": 900
+    },
+    "content_areas": [
+      {
+        "id": "title",
+        "role": "目次の題名",
+        "purpose": "目次の題名を配置する白い領域。",
+        "content_type": "text",
+        "x": 520,
+        "y": 95,
+        "width": 960,
+        "height": 110,
+        "text_color": "#172B4D",
+        "text_align": "left"
+      },
+      {
+        "id": "agenda",
+        "role": "議題と所要時間",
+        "purpose": "議題と所要時間を配置する白い領域。",
+        "content_type": "text",
+        "x": 520,
+        "y": 260,
+        "width": 960,
+        "height": 500,
+        "text_color": "#172B4D",
+        "text_align": "left"
+      },
+      {
+        "id": "footer",
+        "role": "日付と会議名",
+        "purpose": "日付と会議名を配置する白い領域。",
+        "content_type": "text",
+        "x": 520,
+        "y": 800,
+        "width": 960,
+        "height": 45,
+        "text_color": "#172B4D",
+        "text_align": "left"
+      }
+    ],
+    "source": "media/background/agenda-edge-binding.png",
+    "preview_path": "previews/background/agenda-edge-binding.png",
+    "generation": {
+      "method": "image-generation",
+      "prompt": "Use case: productivity-visual. Create one finished, original high-design 16:9 corporate PowerPoint AGENDA background, opaque PNG, ideally 2048x1152. White ground with cobalt-blue accent. Purpose: support a right-side list of four to six agenda items. Design a beautifully crafted abstract study of binding and alignment occupying only the LEFT 27 percent of the frame. It is a large, close-up sculptural bookbinding-like edge, without being a literal book: several substantial satin-white curved leaves gathered around one continuous rich cobalt woven spine. Precision-cut edges, smoothly rolled paper thickness, fine cotton-fiber surface texture, deep blue cloth weave, controlled soft local shadows, each leaf distinctly separated with plausible joins. See the carefully connected leaf/spine construction from a shallow angle. Avoid rings, rings of a binder, random tubes, pages filled with marks. The sculptural binding extends beyond upper left and lower left canvas and creates a strong tall rhythm, a premium editorial object that makes a slide memorable. Composition differs from abstract flowing waves. The entire RIGHT 68 percent (x500 to1500 on1600wide), y80 to810, must be an evenly lit nearly-white clean plane free of creases, shadow or colored decoration so long Japanese agenda labels remain readable. Subtle matte material grain may continue in white area but imperceptible at thumbnail size. No text, letters, numbers, logos, watermark, data, UI rectangles, visible products, factory, scenery, people or arrows. White occupies over80percent. Only finished reusable artwork, not a slide mockup."
+    }
+  },
+  {
+    "key": "background/closing-woven-horizon",
+    "title": "織り重なる流れで結びを印象づける背景",
+    "name": "織り重なる流れで結びを印象づける背景_背景",
+    "description": "白と青の繊維の束を編み重ねた流れで、つながりと継続を印象づける。",
+    "kind": "background",
+    "category": "11-背景とフレーム",
+    "width": 1672,
+    "height": 941,
+    "keywords": [
+      "結び",
+      "まとめ",
+      "次の行動",
+      "協業",
+      "継続",
+      "最終ページ",
+      "closing",
+      "conclusion",
+      "collaboration"
+    ],
+    "guidance": {
+      "use_case": "提案の結び、今後の進め方、協業への呼びかけ。",
+      "message": "白と青の繊維の束を編み重ねた流れで、つながりと継続を印象づける。",
+      "reading": [
+        "上中央に短い結論を置き、その下に次の行動や連絡先を添える。"
+      ],
+      "avoid": "装飾の上に文字や図表を重ねない。"
+    },
+    "labels": [],
+    "canvas": {
+      "width": 1600,
+      "height": 900
+    },
+    "content_areas": [
+      {
+        "id": "title",
+        "role": "結論",
+        "purpose": "結論を配置する領域。",
+        "content_type": "text",
+        "x": 275,
+        "y": 115,
+        "width": 1050,
+        "height": 200,
+        "text_color": "#172B4D",
+        "text_align": "center"
+      },
+      {
+        "id": "subtitle",
+        "role": "次の行動と連絡先",
+        "purpose": "次の行動と連絡先を配置する領域。",
+        "content_type": "text",
+        "x": 335,
+        "y": 345,
+        "width": 930,
+        "height": 125,
+        "text_color": "#172B4D",
+        "text_align": "center"
+      }
+    ],
+    "source": "media/background/closing-woven-horizon.png",
+    "generation": {
+      "method": "image-generation",
+      "prompt": "Create one original premium 16:9 presentation closing-slide background. Purpose: a confident final message and next action for a manufacturer/business audience. White background; the upper sixty percent and central left are a smoothly lit empty white field for two centered lines of large navy type and small contact information, but generate NO text. Along the bottom third, a beautifully crafted broad flowing woven surface made of hundreds of extremely fine white and restrained cobalt filaments curves in a long shallow arch from lower left to right, then rises gently at far right. This must feel tactile and substantial: individual fibres gathered into ordered bands, subtle crossing weave structure, soft silk-matte highlights, authentic fine shadowing within the layered strands. Mostly pearl white, one broad cobalt thread-band woven through it, with a smaller blue underside revealed by the curl. The shape is a single continuous sculptural wave occupying roughly thirty five percent of frame, smoothly cropped at bottom, not loose scribbles or disconnected lines. Crisp macro material detail with deep craft, airy calm architectural scale, gentle directional lighting. Restrained luxurious editorial visual, brilliant white with blue accents. No text, logo, watermark, glyphs, cards, icons, factory photo, people, chrome, neon, decorative particles, or computer wallpaper flower."
+    },
+    "preview_path": "previews/background/closing-woven-horizon.png"
+  },
+  {
+    "kind": "background",
+    "category": "11-背景とフレーム",
+    "width": 1672,
+    "height": 941,
+    "labels": [],
+    "canvas": {
+      "width": 1600,
+      "height": 900
+    },
+    "key": "background/comparison-folded-light",
+    "title": "折面の光で二案を分ける背景",
+    "name": "折面の光で二案を分ける背景_背景",
+    "description": "同じ広さの白い面を中央の細い折面で分け、二案を対等に見せる。",
+    "keywords": [
+      "比較",
+      "二案",
+      "選択肢",
+      "並列",
+      "改善施策",
+      "進め方",
+      "導入方式",
+      "方針",
+      "comparison",
+      "alternatives",
+      "options",
+      "parallel",
+      "folded paper"
+    ],
+    "guidance": {
+      "use_case": "二つの提案、導入方式、改善施策の条件や進め方を並べて説明する本文。",
+      "message": "同じ広さの白い面を中央の細い折面で分け、二案を対等に見せる。",
+      "reading": [
+        "共通の見出しの下に、左案と右案を同じ順序の項目で置く。",
+        "中央の光の溝と下端の折面は空け、左右の説明領域だけを使う。"
+      ],
+      "avoid": "中央の折面へ文字や接続線を重ねない。"
+    },
+    "content_areas": [
+      {
+        "id": "title",
+        "role": "共通見出し",
+        "purpose": "比較の主題を1行で配置する領域。",
+        "content_type": "text",
+        "x": 100,
+        "y": 70,
+        "width": 1400,
+        "height": 100,
+        "text_color": "#172B4D",
+        "text_align": "left"
+      },
+      {
+        "id": "left-option",
+        "role": "左の案",
+        "purpose": "案名、進め方、適する条件などを右と同じ順序で配置する。",
+        "content_type": "text",
+        "x": 100,
+        "y": 230,
+        "width": 620,
+        "height": 480,
+        "text_color": "#172B4D",
+        "text_align": "left"
+      },
+      {
+        "id": "right-option",
+        "role": "右の案",
+        "purpose": "案名、進め方、適する条件などを左と同じ順序で配置する。",
+        "content_type": "text",
+        "x": 880,
+        "y": 230,
+        "width": 620,
+        "height": 480,
+        "text_color": "#172B4D",
+        "text_align": "left"
+      }
+    ],
+    "source": "media/background/comparison-folded-light.png",
+    "preview_path": "previews/background/comparison-folded-light.png",
+    "generation": {
+      "method": "image-generation",
+      "prompt": "Create one original finished high-design 16:9 corporate PowerPoint BODY background, opaque wide landscape PNG, white base with restrained cobalt blue light. Purpose: compare two business or technical approaches side by side with equal visual weight, using editable text and evidence added later. This image contains NO words or data. Art direction: one continuous broad sheet of fine white matte sculptural paper, very shallowly folded into two nearly level planes separated by a narrow central valley of light. The central crease starts softly below the shared title area, runs almost vertically through the central gap, and gradually opens into a gorgeous small architectural folded-paper section at the bottom edge. At the bottom only, precise folds reveal slight paper thickness, satin-white highlights, soft layered shadows and a restrained cobalt-blue reflected inner face. Elegant handcrafted material precision with very fine paper texture, no glossy plastic. The quiet left and right planes are equally bright white and equal size; both remain flat enough to carry text. On an imagined 1600x900 canvas keep these regions free of folds and colored shadows: shared title x100 to1500,y70 to170; left content x100 to720,y230 to715; right content x880 to1500,y230 to715. Central sculpted valley confined between x760 and840 from y235 downward; no hard crease crosses the top title zone. The most beautiful dimensional folds and blue material reflections occupy the bottom band y770 to900 and may spread gracefully outward there, creating a well-composed complete image, not only a tiny blue corner. The exposed lower edge may curve gently but the left and right content regions should stay calmly level. White material and subtle controlled light must give this image design value at slide size. Do not surround either text area with a rectangle, a panel, a card, a line frame or a raised box; do not draw a dividing rule. The separation must come only from physically plausible continuous folded material and a delicate shadow in the central gap. Off-white background, near-white illumination, precision art-directed studio light. No text, logos, watermarks, people, products, machines, icons, numbers, arrows, flowers, particles, scenic horizon or chart."
+    }
+  },
+  {
+    "key": "background/cover-prismatic-depth",
+    "title": "屈折する青いガラスで主題を引き立てる表紙",
+    "name": "屈折する青いガラスで主題を引き立てる表紙_背景",
+    "description": "透明な層と光の重なりで、先進性と明瞭さを添える。",
+    "kind": "background",
+    "category": "11-背景とフレーム",
+    "width": 1672,
+    "height": 941,
+    "keywords": [
+      "表紙",
+      "技術",
+      "戦略",
+      "新規事業",
+      "提案",
+      "先進性",
+      "透明",
+      "ガラス",
+      "cover",
+      "technology",
+      "strategy",
+      "glass"
+    ],
+    "guidance": {
+      "use_case": "技術戦略、新規事業、製品価値を伝える提案書の表紙。",
+      "message": "透明な層と光の重なりで、先進性と明瞭さを添える。",
+      "reading": [
+        "左の静かな領域に主題と副題を置き、右の立体は見どころとして残す。"
+      ],
+      "avoid": "装飾の上に文字や図表を重ねない。"
+    },
+    "labels": [],
+    "canvas": {
+      "width": 1600,
+      "height": 900
+    },
+    "content_areas": [
+      {
+        "id": "title",
+        "role": "題名",
+        "purpose": "題名を配置する領域。",
+        "content_type": "text",
+        "x": 100,
+        "y": 165,
+        "width": 600,
+        "height": 275,
+        "text_color": "#172B4D",
+        "text_align": "left"
+      },
+      {
+        "id": "subtitle",
+        "role": "副題",
+        "purpose": "副題を配置する領域。",
+        "content_type": "text",
+        "x": 100,
+        "y": 495,
+        "width": 590,
+        "height": 140,
+        "text_color": "#172B4D",
+        "text_align": "left"
+      },
+      {
+        "id": "footer",
+        "role": "発表者と日付",
+        "purpose": "発表者と日付を反射光より上の白い領域に配置する。",
+        "content_type": "text",
+        "x": 100,
+        "y": 675,
+        "width": 500,
+        "height": 55,
+        "text_color": "#172B4D",
+        "text_align": "left"
+      }
+    ],
+    "source": "media/background/cover-prismatic-depth.png",
+    "generation": {
+      "method": "image-generation",
+      "prompt": "Create an original exceptionally art-directed 16:9 corporate presentation background, wide landscape PNG, white with deep cobalt blue accents. This is final high-design slide art, not a slide mockup. Use case: cover of a technology strategy or new business proposal. Build a stunning sculptural optical-glass composition occupying the right 42% of the frame, tall and closely cropped at the right edge: three substantial curved translucent glass fins, each thick with a beautifully polished rounded bevel, one clear frosted white, one pale ice blue, one deep transparent cobalt. They turn in space in an asymmetric fan, NOT a flower and NOT a computer wallpaper bloom. Important physical detail: complex but restrained real optical refraction, overlapping layers seen through the glass, blue caustic light pooling underneath, delicate surface roughness transition between frosted face and clear edge, impeccable continuous shapes. Strong sculptural silhouette, pronounced dimensionality and luminous material beauty, physically credible studio lighting. At bottom the glass rests on a white seamless plane. The left 55% of the frame is a calm off-white smoothly lit field with nearly uniform brightness, reserved for a two-line dark navy Japanese headline and subtitle, with no objects in that area. Some very faint soft blue reflected light may reach the lower-right part of the text area, but dark details remain only on the right. Compose assertively so glass is large and impressive, not small decorative corner shapes. White base around 65%, blue concentrated within the sculptural shape. Precise premium editorial product-render aesthetics, high detail, sophisticated balance. No text, glyphs, symbols, logo, watermark, frames, UI cards, literal products, machines, people, horizon scenery, glowing particles, diagram arrows. Do not create an empty white image with thin blue border lines."
+    },
+    "preview_path": "previews/background/cover-prismatic-depth.png"
+  },
+  {
+    "key": "background/cover-satin-span",
+    "title": "張りのあるサテンで引き立てる改善提案の表紙",
+    "name": "張りのあるサテンで引き立てる改善提案の表紙_背景",
+    "description": "左側の白と青のサテンの張り・たわみ・光沢を大きく見せ、右側の白い領域に題名と副題を置く表紙背景。",
+    "kind": "background",
+    "category": "11-背景とフレーム",
+    "width": 1672,
+    "height": 941,
+    "keywords": [
+      "表紙",
+      "改善提案",
+      "価値提案",
+      "品質",
+      "生産性",
+      "サテン",
+      "張力",
+      "布",
+      "光沢",
+      "右寄せ",
+      "cover",
+      "proposal",
+      "satin",
+      "tension",
+      "span",
+      "tactile"
+    ],
+    "guidance": {
+      "use_case": "改善提案、価値提案、取り組み方針を説明する資料の表紙。",
+      "message": "提案の主題を、落ち着いた質感と大きな題名で示す。",
+      "reading": [
+        "右側の白い領域に2行の題名と副題を配置する。",
+        "左のサテンを大きな見どころとして残し、発表者情報は右下に置く。"
+      ],
+      "avoid": "左側の布地へ本文・表・細かい注釈を重ねる用途には使わない。"
+    },
+    "labels": [],
+    "canvas": {
+      "width": 1600,
+      "height": 900
+    },
+    "content_areas": [
+      {
+        "id": "title",
+        "role": "題名",
+        "purpose": "題名を配置する白い領域。",
+        "content_type": "text",
+        "x": 850,
+        "y": 180,
+        "width": 650,
+        "height": 250,
+        "text_color": "#172B4D",
+        "text_align": "left"
+      },
+      {
+        "id": "subtitle",
+        "role": "副題",
+        "purpose": "副題を配置する白い領域。",
+        "content_type": "text",
+        "x": 850,
+        "y": 500,
+        "width": 650,
+        "height": 115,
+        "text_color": "#172B4D",
+        "text_align": "left"
+      },
+      {
+        "id": "footer",
+        "role": "発表者と日付",
+        "purpose": "発表者と日付を配置する白い領域。",
+        "content_type": "text",
+        "x": 850,
+        "y": 740,
+        "width": 650,
+        "height": 55,
+        "text_color": "#172B4D",
+        "text_align": "left"
+      }
+    ],
+    "source": "media/background/cover-satin-span.png",
+    "generation": {
+      "method": "image-generation",
+      "prompt": "Use case: productivity-visual. Create ONE premium, high-resolution16:9 opaque PNG background for a corporate PowerPoint COVER. Target2048x1152. White background. The LEFT45% is occupied by a substantial original sculptural structure of taut opaque satin fabric, white on the dominant face and deep cobalt-blue on the reverse and inner folds. Imagine one continuous thick satin membrane held under gentle tension at two unseen points beyond the top-left and bottom-left edges, forming a large elegant saddle-like span with a single sweeping concave valley and two strong raised edges. The structure has physically coherent connected cloth, convincing contact points and folds at the left boundary, clear rolled hem thickness, luminous directional highlights across the white satin face, subtle closely woven material texture and rich blue self-shadow inside the lower-left fold. It must feel like a thoughtfully staged physical studio sculpture with beautiful material and a large visual presence, not a generic ribbon, not a fluttering flag, not flat polygons, not thin border decoration. The fabric occupies the full height of the LEFT side; its sculptural body and deep curve provide the focal attraction, while the RIGHT55% of the canvas remains completely quiet uniform white from top to bottom for a large two-line Japanese title, a subtitle and small presenter information. No colored shadows, fabric ends or tint intrude into the right title field. The tension curve reaches only toward x45%, never crossing to the right half. The palette is pure white, cobalt blue and restrained navy in occluded folds. Use grazing soft studio lighting that reveals surface curvature, fabric thickness and real depth while retaining restrained corporate sophistication. Opaque smooth satin, not transparent gauze, not glass, not layered strata, no crumpled foil. No factories, equipment, people, products, scenery, flowers, petals, rosettes or operating-system wallpaper imitation. No letters, text, numerals, logo, watermark, icons, cards, frames or placeholders. Only the finished reusable background art, no sample headline."
+    },
+    "preview_path": "previews/background/cover-satin-span.png"
+  },
+  {
+    "key": "background/cover-sculpted-strata",
+    "title": "薄層の起伏で示す中期方針の表紙",
+    "name": "薄層の起伏で示す中期方針の表紙_背景",
+    "description": "青と白の薄い層が重なる立体的な起伏を下部から右側に広げ、左上の白い領域に中期方針や改善提案の主題を置く表紙背景。",
+    "kind": "background",
+    "category": "11-背景とフレーム",
+    "width": 1672,
+    "height": 941,
+    "keywords": [
+      "表紙",
+      "中期方針",
+      "改善提案",
+      "事業計画",
+      "積み重ね",
+      "薄層",
+      "起伏",
+      "質感",
+      "奥行き",
+      "cover",
+      "strategy",
+      "improvement",
+      "proposal",
+      "sculpted",
+      "strata",
+      "layered",
+      "tactile"
+    ],
+    "guidance": {
+      "use_case": "中期方針、改善提案、継続的な取り組みを説明する資料の表紙。",
+      "message": "積み重ねていく取り組みと、これから向かう方向を主題として示す。",
+      "reading": [
+        "左上の白い領域に大きな2行の題名を置く。",
+        "副題と発表者情報は左側の白い領域に収め、層の造形には重ねない。"
+      ],
+      "avoid": "層の高さや枚数を数値データとして解釈する用途、下部に長い本文や表を置く用途には使わない。"
+    },
+    "labels": [],
+    "canvas": {
+      "width": 1600,
+      "height": 900
+    },
+    "content_areas": [
+      {
+        "id": "title",
+        "role": "題名",
+        "purpose": "2行の大きな題名を配置する白い領域。",
+        "content_type": "text",
+        "x": 100,
+        "y": 145,
+        "width": 900,
+        "height": 245,
+        "text_color": "#172B4D",
+        "text_align": "left"
+      },
+      {
+        "id": "subtitle",
+        "role": "副題",
+        "purpose": "題名を補足する短い説明を配置する領域。",
+        "content_type": "text",
+        "x": 100,
+        "y": 435,
+        "width": 700,
+        "height": 80,
+        "text_color": "#172B4D",
+        "text_align": "left"
+      },
+      {
+        "id": "footer",
+        "role": "発表者と日付",
+        "purpose": "発表者や日付を短く配置する領域。",
+        "content_type": "text",
+        "x": 100,
+        "y": 600,
+        "width": 400,
+        "height": 45,
+        "text_color": "#172B4D",
+        "text_align": "left"
+      }
+    ],
+    "source": "media/background/cover-sculpted-strata.png",
+    "generation": {
+      "method": "image-generation",
+      "prompt": "Use case: productivity-visual. Create ONE exceptional high-resolution 16:9 opaque PNG background for a Japanese corporate PowerPoint cover about long-term direction and improvement proposals. Target2048x1152. This must have a substantial, visually captivating sculptural focal point, with tactile material, precise layers and strong depth, rather than minimal edge decoration. Main ground luminous white. In the LOWER40% of the image, rising into the RIGHT45%, create an original abstract topography made from DOZENS of very thin closely layered sheets, like an exquisitely crafted fusion of ceramic and matte archival paper. A broad low terrain flows across the bottom and rises into two asymmetrical ridges on the right. Each ridge consists of 40-70 distinct blue and icy-white strata, each with visible physical thickness, precise crisp edges and delicate microscopic fibrous/ceramic surface grain. Layers are mechanically coherent and follow the same underlying landform; their contour is sinuous, terraced and spatial, with valleys, overlapping depth, and clear differences between exposed top surfaces and thin edges. Deep cobalt blue faces and navy shadows in the tight creases, alternating with pale blue/white strata that catch bright raking side light. Grazing studio light from upper left should reveal an extraordinary sculpted relief through real local occlusion shadows. The sculptural terrain fills a meaningful large part of the composition, especially lower right, and extends beyond the lower canvas edge. Not simply several lines, not a flat block, not a few polygons, not a side plate, no stacked rectangular books, no uniform pleated fabric. Keep the UPPER LEFT and LEFT CENTER completely quiet uniform white, including a wide clean rectangle from x0-62% and y0-56%, for a two-line large Japanese title and subtitle. The ridge can climb at the right, but must not intrude into that title rectangle; its shadow must stay local to the sculpture. Use sophisticated natural material realism with editorial restraint, broad view rather than extreme close-up, everything sharply resolved, no blur to hide detail. Strong three-dimensional visual attraction balanced with usable typographic white space. No flowers, petals, floral bloom forms, folded flower or rosette, no imitation of any operating-system wallpaper; no factory, equipment, landscape photograph, people, products, chart, fake dashboard, placeholder cards, symbols, text, letters, numerals, logos or watermark. Render ONLY the finished reusable background artwork, no sample title."
+    },
+    "preview_path": "previews/background/cover-sculpted-strata.png"
+  },
+  {
+    "key": "background/evidence-caustic-margin",
+    "title": "右端の光学ガラスで図表を引き立てる背景",
+    "name": "右端の光学ガラスで図表を引き立てる背景_背景",
+    "description": "細い光学ガラスと局所的な反射を右端に置き、左に図表を大きく見せる。",
+    "kind": "background",
+    "category": "11-背景とフレーム",
+    "width": 1672,
+    "height": 941,
+    "keywords": [
+      "根拠",
+      "図表",
+      "実測",
+      "検証結果",
+      "データ",
+      "効果",
+      "検証",
+      "evidence",
+      "chart",
+      "test result"
+    ],
+    "guidance": {
+      "use_case": "試験結果、効果検証、市場データなど一つの大きな図表を示す本文。",
+      "message": "主張を支える根拠を大きく読みやすく示す。",
+      "reading": [
+        "左上に見出し、中央に実データの図表、左下に要点と出典を置く。",
+        "右下の反射光には注釈や凡例を重ねず、図表の右端を指定領域内に収める。"
+      ],
+      "avoid": "光学模様をデータ系列や区分として説明しない。"
+    },
+    "labels": [],
+    "canvas": {
+      "width": 1600,
+      "height": 900
+    },
+    "content_areas": [
+      {
+        "id": "title",
+        "role": "図表の見出し",
+        "purpose": "図表の見出しを配置する白い領域。",
+        "content_type": "text",
+        "x": 100,
+        "y": 80,
+        "width": 1130,
+        "height": 110,
+        "text_color": "#172B4D",
+        "text_align": "left"
+      },
+      {
+        "id": "evidence",
+        "role": "実データの図表",
+        "purpose": "実データの図表を配置する白い領域。",
+        "content_type": "chart",
+        "x": 100,
+        "y": 245,
+        "width": 1100,
+        "height": 380,
+        "text_color": "#172B4D",
+        "text_align": "left"
+      },
+      {
+        "id": "note",
+        "role": "要点と出典",
+        "purpose": "要点と出典を配置する白い領域。",
+        "content_type": "text",
+        "x": 100,
+        "y": 710,
+        "width": 900,
+        "height": 90,
+        "text_color": "#172B4D",
+        "text_align": "left"
+      }
+    ],
+    "source": "media/background/evidence-caustic-margin.png",
+    "preview_path": "previews/background/evidence-caustic-margin.png",
+    "generation": {
+      "method": "image-generation",
+      "prompt": "Use case: productivity-visual. Create one original finished premium corporate PowerPoint EVIDENCE background, 16:9 landscape opaque PNG, target2048x1152. Intended use: a large data chart, its headline, small explanatory conclusion and source. Main canvas luminous matte white. At the far RIGHT margin, between x87percent and100percent, show the beautifully cut face of a thick optical glass slab rising vertically beyond the top and bottom edges, photographed from a precise oblique angle. It has broad clear frosted-white glass planes and a single rich cobalt internal plane. Its thickness, refraction and subtle bubbles of physical microtexture create a visually rich slim sculptural feature. The slab throws a highly controlled local pattern of delicate caustics only into x83 to100percent, with pale icy-blue triangular light fragments and very soft penumbras, strongest lower-right. This should look like precise high-end material photography, not a flat blue stripe; a substantial recognizable optical cross-section with varying translucency and several broad facets, not scattered particles. Entire LEFT80percent is uninterrupted white with extremely even light. In an imagined1600x900 canvas, keep x100 to1270,y80 to790 totally calm white for long Japanese headline, broad evidence graphic and footnotes. Nothing visually strong enters this area. Maintain large continuous diagram space, do not divide into panels or suggest false data. Render high detail, natural sharp optical edges with plausible connected geometry, thin restrained cobalt color visible through glass rather than neon glow. No text, logo, watermark, numerals, arrows, icons, chart, rectangles for fake data, floating confetti, frame all around, literal products, buildings, people, scenes or factories. Only the reusable background artwork."
+    }
+  },
+  {
+    "key": "background/quote-porcelain-balance",
+    "title": "開いた陶器の造形で顧客の声を引き立てる背景",
+    "name": "開いた陶器の造形で顧客の声を引き立てる背景_背景",
+    "description": "左の白い陶器と青い内面をアクセントに、右へ引用文と出典を置く。",
+    "kind": "background",
+    "category": "11-背景とフレーム",
+    "width": 1672,
+    "height": 941,
+    "keywords": [
+      "顧客の声",
+      "引用",
+      "所感",
+      "インタビュー",
+      "利用者",
+      "課題認識",
+      "quote",
+      "customer voice",
+      "insight"
+    ],
+    "guidance": {
+      "use_case": "顧客や利用者の声、関係者の所感、重要な発言を引用して示す場面。",
+      "message": "一人の具体的な言葉や気づきを、読み手の印象に残す。",
+      "reading": [
+        "右側に引用文を2〜4行で配置し、発言者と出典をその下に置く。",
+        "陶器の造形は左側の見どころとして残す。"
+      ],
+      "avoid": "発言者の承諾が必要な引用や機密情報の公開可否は、素材とは別に確認する。"
+    },
+    "labels": [],
+    "canvas": {
+      "width": 1600,
+      "height": 900
+    },
+    "content_areas": [
+      {
+        "id": "quote",
+        "role": "引用文",
+        "purpose": "引用文を配置する白い領域。",
+        "content_type": "text",
+        "x": 835,
+        "y": 185,
+        "width": 665,
+        "height": 310,
+        "text_color": "#172B4D",
+        "text_align": "left"
+      },
+      {
+        "id": "attribution",
+        "role": "発言者と立場",
+        "purpose": "発言者と立場を配置する白い領域。",
+        "content_type": "text",
+        "x": 835,
+        "y": 555,
+        "width": 665,
+        "height": 85,
+        "text_color": "#172B4D",
+        "text_align": "left"
+      },
+      {
+        "id": "source",
+        "role": "引用の出典",
+        "purpose": "引用の出典を配置する白い領域。",
+        "content_type": "text",
+        "x": 835,
+        "y": 735,
+        "width": 665,
+        "height": 50,
+        "text_color": "#172B4D",
+        "text_align": "left"
+      }
+    ],
+    "source": "media/background/quote-porcelain-balance.png",
+    "preview_path": "previews/background/quote-porcelain-balance.png",
+    "generation": {
+      "method": "image-generation",
+      "prompt": "Use case: productivity-visual. Create one finished original16:9 premium corporate PowerPoint QUOTE / CUSTOMER INSIGHT background, opaque PNG, target2048x1152. Luminous pure white studio ground. Intended slide: one substantial right-side quotation or insight, up to three short Japanese lines, with attribution below. Main artwork in LOWER LEFT third: a beautifully balanced physical sculpture of two substantial satin-white porcelain forms. A broad low oval base rests naturally on white surface; a large flattened offset crescent in porcelain gently leans over it in real stable contact, with a deep cobalt-blue recessed face visible inward. Their contact is unambiguous, weight and balance credible, no floating elements or impossible interpenetration. Sculptural ceramic form with a smooth precise rim, slightly porous outer grain and glazed blue recess, carefully graduated side light and a compact local soft shadow. The crescent opens toward the large white text area on the right and above. It may be partly cropped at left and bottom to give sophisticated editorial composition. This artwork symbolizes listening through an inviting opening, without literal ears, hands, head, quotation marks, speech bubbles or human figures. Use large attractive material form with beautiful negative space rather than multiple decorative pebbles. Keep rectangle imagined1600x900 x650 to1480,y150 to670 completely white and uniform for quote and attribution. Also keep x650 to1480,y730 to790 clean for source. Main sculpture stays left of x550. Over75percent image white. No text, glyphs, logos, watermark, diagram, factory equipment, screens, architecture, flower, rings, mirrored infinity knot, jewelry. Background art only, not a photo of a slide."
+    }
+  },
+  {
+    "kind": "background",
+    "category": "11-背景とフレーム",
+    "width": 1672,
+    "height": 941,
+    "labels": [],
+    "canvas": {
+      "width": 1600,
+      "height": 900
+    },
+    "key": "background/report-embossed-surface",
+    "title": "紙の成形と青い層で報告を支える背景",
+    "name": "紙の成形と青い層で報告を支える背景_背景",
+    "description": "低い隆起と紙の質感で、図表と補足説明を落ち着いて見せる。",
+    "keywords": [
+      "月次報告",
+      "業務報告",
+      "成果",
+      "課題",
+      "実績",
+      "図表",
+      "補足",
+      "品質",
+      "改善",
+      "monthly report",
+      "performance",
+      "chart",
+      "commentary",
+      "embossed paper"
+    ],
+    "guidance": {
+      "use_case": "月次報告、成果と課題、業務改善の進捗を図表と補足で説明する本文。",
+      "message": "低い隆起と紙の質感で、図表と補足説明を落ち着いて見せる。",
+      "reading": [
+        "左の広い領域に実データの図表、右に成果・課題・次の行動を置く。",
+        "下端の青い層と浅い成形は余白として残す。"
+      ],
+      "avoid": "曲面が始まる下端に出典や数値を重ねない。"
+    },
+    "content_areas": [
+      {
+        "id": "title",
+        "role": "見出し",
+        "purpose": "報告の主題を1行で配置する領域。",
+        "content_type": "text",
+        "x": 100,
+        "y": 70,
+        "width": 1300,
+        "height": 100,
+        "text_color": "#172B4D",
+        "text_align": "left"
+      },
+      {
+        "id": "evidence",
+        "role": "図表と出典",
+        "purpose": "実データの図表と出典を配置する。下端を660以内に収める。",
+        "content_type": "chart",
+        "x": 100,
+        "y": 220,
+        "width": 940,
+        "height": 440,
+        "text_color": "#172B4D",
+        "text_align": "left"
+      },
+      {
+        "id": "commentary",
+        "role": "成果と課題",
+        "purpose": "成果、残る課題、次の行動を簡潔に添える領域。",
+        "content_type": "text",
+        "x": 1100,
+        "y": 220,
+        "width": 370,
+        "height": 440,
+        "text_color": "#172B4D",
+        "text_align": "left"
+      }
+    ],
+    "source": "media/background/report-embossed-surface.png",
+    "preview_path": "previews/background/report-embossed-surface.png",
+    "generation": {
+      "method": "image-generation",
+      "prompt": "Create one original finished high-design corporate PowerPoint BODY background, 16:9 wide landscape, opaque PNG. Intended use: manufacturer monthly performance report with a large evidence chart on the left and concise commentary on the right. White base and restrained deep cobalt accents. This is background art only, no text and no slide mockup. Create the tactile beauty of a single broad sheet of dense white cotton paper with shallow precision embossing, its edge softly sculpted in a long asymmetrical low ridge across the entire lower margin. Low raking studio light reveals fine paper grain, gradual moulded curvature, crisp but tiny relief edges and softly graduated white-on-white shadows. The lower edge reveals a very thin substantial cobalt inner lamination, nested between white layers, with an elegant continuous curve spanning much of the width rather than a blue corner or a frame. The far left and far right outer margins may subtly curve upward into the relief; no bulky folded stacks. The whole central surface must feel like carefully manufactured material, not a blank digital rectangle, but remain an exceptionally calm very pale warm-white field. Most of the beautiful sculpted depth is below 82 percent of the image height and at the outermost side margins. Exact placement requirements on an imagined 1600x900 canvas: keep x100 to1400,y70 to170 quiet for title; keep x100 to1040,y220 to720 quiet for chart; keep x1100 to1470,y220 to720 equally quiet for notes. In those three zones, only a barely visible fine material texture and even soft light, with no crease, ridge, dark shadow, colored accent or object crossing them. Low contrast white-on-white relief may guide the eye around these zones without drawing rectangles around them. The finished artwork must have distinctive precision, material craft and sculptural light at actual slide size, with white occupying over ninety percent of the area and blue restricted to the physical exposed edge. Composition should be sophisticated and useful, not generic computer wallpaper, not blank white with a thin blue border. No separate cards, no UI boxes, no typography, numbers, symbols, logos, watermark, objects, machines, people, flowers, particles or charts."
+    }
+  },
+  {
+    "key": "background/roadmap-machined-surface",
+    "title": "精密な金属の流れで実行計画を支える背景",
+    "name": "精密な金属の流れで実行計画を支える背景_背景",
+    "description": "下部の連続した精密金属面を見どころに、上部へ実行計画を横に展開する。",
+    "kind": "background",
+    "category": "11-背景とフレーム",
+    "width": 1672,
+    "height": 941,
+    "keywords": [
+      "ロードマップ",
+      "実行計画",
+      "日程",
+      "進め方",
+      "展開計画",
+      "スケジュール",
+      "roadmap",
+      "implementation",
+      "schedule"
+    ],
+    "guidance": {
+      "use_case": "改善活動や導入プロジェクトの段階・予定・担当を横長に示す本文。",
+      "message": "時間の流れと実行内容を一つの視野で示す。",
+      "reading": [
+        "上部に計画の題名、中央の白い領域に実際の日程と担当を配置する。",
+        "下部の金属面は装飾として残し、工程の矢印や進捗には使わない。"
+      ],
+      "avoid": "金属の穴や起伏の数を工程数や数値として説明しない。"
+    },
+    "labels": [],
+    "canvas": {
+      "width": 1600,
+      "height": 900
+    },
+    "content_areas": [
+      {
+        "id": "title",
+        "role": "計画の見出し",
+        "purpose": "計画の見出しを配置する白い領域。",
+        "content_type": "text",
+        "x": 100,
+        "y": 70,
+        "width": 1400,
+        "height": 105,
+        "text_color": "#172B4D",
+        "text_align": "left"
+      },
+      {
+        "id": "plan",
+        "role": "段階と日程",
+        "purpose": "段階と日程を配置する白い領域。",
+        "content_type": "chart",
+        "x": 100,
+        "y": 225,
+        "width": 1400,
+        "height": 270,
+        "text_color": "#172B4D",
+        "text_align": "left"
+      },
+      {
+        "id": "note",
+        "role": "担当と前提",
+        "purpose": "担当と前提を配置する白い領域。",
+        "content_type": "text",
+        "x": 100,
+        "y": 505,
+        "width": 1200,
+        "height": 40,
+        "text_color": "#172B4D",
+        "text_align": "left"
+      }
+    ],
+    "source": "media/background/roadmap-machined-surface.png",
+    "preview_path": "previews/background/roadmap-machined-surface.png",
+    "generation": {
+      "method": "image-generation",
+      "prompt": "Use case: productivity-visual. Create ONE original finished premium 16:9 PowerPoint ROADMAP background, opaque PNG, target2048x1152. White base with cobalt accent. Purpose: leave a broad large clear upper canvas for the user's implementation schedule. Artwork occupies the bottom quarter, as a sophisticated continuous abstract precision-metal sculpture. A wide perforated satin-white metal membrane curves in a long low S-shaped saddle from left to right. Its face has hundreds of neatly machined tiny elongated slots in strictly coherent parallel rows, fine brushed striations and physical thickness. Beneath this membrane lies a continuous cobalt-blue anodized support surface visible through the slots and in the lower folded reveal, producing a rich finely patterned field with real occlusion and tactile craft. This is one connected physically plausible sculpture, gently twisting at lower-right to reveal white top/blue underside, cropped at bottom and sides. Not literal machinery, not a series of bars or flat lines, not floating shapes. Broad grazing studio daylight creates an extraordinary luminous material study: crisp slot edges, tiny realistic shadows, curved planar reflections, rich blue depth, and a recognizable finely detailed structure at small presentation size. Its highest point is y73percent, most structure lies below y80percent. Keep the entire imagined1600x900 region x100 to1500,y70 to620 even plain white and free of shadows. The entire slide must be calm and readily usable with a broad horizontal schedule, while lower material sculpture feels richly constructed and intentional. No stair steps, graph, arrows, ticks, numbers, text, logos, watermark, fake UI, glowing particles, fabric or paper waves, infinity loops, rings, factory scenery, products or people. Render only the finished background artwork."
+    }
+  },
+  {
+    "key": "background/section-ceramic-aperture",
+    "title": "白い精密な曲面で章の切り替えを示す背景",
+    "name": "白い精密な曲面で章の切り替えを示す背景_背景",
+    "description": "深い青へ続く大きな開口部で、次の論点へ視線を導く。",
+    "kind": "background",
+    "category": "11-背景とフレーム",
+    "width": 1672,
+    "height": 941,
+    "keywords": [
+      "章扉",
+      "章見出し",
+      "技術",
+      "品質",
+      "実行計画",
+      "精密",
+      "曲面",
+      "section",
+      "chapter",
+      "precision"
+    ],
+    "guidance": {
+      "use_case": "技術課題、品質改善、実行計画などの章扉。",
+      "message": "深い青へ続く大きな開口部で、次の論点へ視線を導く。",
+      "reading": [
+        "左に章番号と1行7〜8文字・2行程度の章題を置く。補足は下にまとめる。"
+      ],
+      "avoid": "長文や図表を多く載せる本文には使わない。"
+    },
+    "labels": [],
+    "canvas": {
+      "width": 1600,
+      "height": 900
+    },
+    "content_areas": [
+      {
+        "id": "number",
+        "role": "章番号",
+        "purpose": "章番号を配置する領域。",
+        "content_type": "text",
+        "x": 100,
+        "y": 145,
+        "width": 465,
+        "height": 110,
+        "text_color": "#172B4D",
+        "text_align": "left"
+      },
+      {
+        "id": "title",
+        "role": "章題",
+        "purpose": "章題を配置する領域。",
+        "content_type": "text",
+        "x": 100,
+        "y": 295,
+        "width": 480,
+        "height": 230,
+        "text_color": "#172B4D",
+        "text_align": "left"
+      },
+      {
+        "id": "subtitle",
+        "role": "補足",
+        "purpose": "補足を配置する領域。",
+        "content_type": "text",
+        "x": 100,
+        "y": 595,
+        "width": 465,
+        "height": 115,
+        "text_color": "#172B4D",
+        "text_align": "left"
+      }
+    ],
+    "source": "media/background/section-ceramic-aperture.png",
+    "generation": {
+      "method": "image-generation",
+      "prompt": "Create a finished original high-design 16:9 PowerPoint SECTION DIVIDER background, white base with cobalt accent, no text. The LEFT 48 percent from top to bottom is a calm white/offwhite surface for a very large chapter number and two-line heading, short supporting sentence. On the RIGHT 52 percent, an enormous sculptural offset circular aperture cut through a thick satin-white porcelain shell, cropped on right and bottom, exposing a deep curved cobalt interior. Its cross-section reveals finely milled concentric micro-ridges on the white inner wall, soft long shadows and beautiful controlled blue light bounce inside the opening. This is an abstract study of precision, curvature and light, not a machine or building. Inner opening off-axis elliptical in perspective, not flat rings. Sculptural heroic scale, refined matte microtexture, precise transitions and continuous surfaces. One gorgeous large form, quiet nuanced studio shadows, ample left text space. White dominates, blue only in recess. Premium architectural-material photography aesthetics, natural balanced exposure. No text/logo/watermark, no flat vector shapes or frames, no icons, no scenery, no people, no floating small geometric objects, no bloom flowers. Output background art only, not a photographed slide."
+    },
+    "preview_path": "previews/background/section-ceramic-aperture.png"
+  },
+  {
+    "key": "background/section-lightwell",
+    "title": "青い間接光で次の章へ導く章扉",
+    "name": "青い間接光で次の章へ導く章扉_背景",
+    "description": "白い浅い彫り面と段差に青い間接光を反射させ、上部から中央の白い領域に短い章題を置く章扉背景。",
+    "kind": "background",
+    "category": "11-背景とフレーム",
+    "width": 1672,
+    "height": 941,
+    "keywords": [
+      "章扉",
+      "導入",
+      "切り替え",
+      "次の章",
+      "中央揃え",
+      "間接光",
+      "光庭",
+      "段差",
+      "奥行き",
+      "section",
+      "divider",
+      "lightwell",
+      "indirect",
+      "light",
+      "relief",
+      "centered"
+    ],
+    "guidance": {
+      "use_case": "資料の章の切り替え、次の取り組みや検討テーマの導入。",
+      "message": "新しい章の主題を、短い題名と導入文で明確に示す。",
+      "reading": [
+        "上部中央に章番号、中央に短い章題を配置する。",
+        "導入文は題名の下へ中央揃えで置き、下部の光庭には文字を重ねない。"
+      ],
+      "avoid": "下部の段差を工程数や優先順位の図として解釈する用途には使わない。"
+    },
+    "labels": [],
+    "canvas": {
+      "width": 1600,
+      "height": 900
+    },
+    "content_areas": [
+      {
+        "id": "number",
+        "role": "章番号",
+        "purpose": "章番号を配置する白い領域。",
+        "content_type": "text",
+        "x": 500,
+        "y": 95,
+        "width": 600,
+        "height": 85,
+        "text_color": "#172B4D",
+        "text_align": "center"
+      },
+      {
+        "id": "title",
+        "role": "章題",
+        "purpose": "章題を配置する白い領域。",
+        "content_type": "text",
+        "x": 250,
+        "y": 245,
+        "width": 1100,
+        "height": 140,
+        "text_color": "#172B4D",
+        "text_align": "center"
+      },
+      {
+        "id": "lead",
+        "role": "導入文",
+        "purpose": "導入文を配置する白い領域。",
+        "content_type": "text",
+        "x": 350,
+        "y": 425,
+        "width": 900,
+        "height": 110,
+        "text_color": "#172B4D",
+        "text_align": "center"
+      }
+    ],
+    "source": "media/background/section-lightwell.png",
+    "generation": {
+      "method": "image-generation",
+      "prompt": "Use case: productivity-visual. Create ONE exceptional high-resolution16:9 opaque PNG PowerPoint SECTION DIVIDER background, target2048x1152. White architectural abstract surface, luminous but genuinely three-dimensional. Build a shallow sculpted light court across the LOWER40% of the canvas, like an exquisitely milled and folded continuous white ceramic surface with a broad open U-shaped depression cropped by the bottom edge. The depression has six or seven substantial precise terraces, broad beveled planes and sharply defined tiny step edges, following calm angular contours with clipped corners rather than circular rings. Think a carefully crafted relief of connected surfaces, not a real building or room. The lowest recessed channel contains a hidden indirect cobalt-blue light source; its reflected blue light gradually travels over the white bevels, with beautiful cyan-to-navy occlusion inside the deeper seam and soft white highlights on the raised edges. The sculpture occupies a meaningful large lower foreground; the corners of its connected form rise modestly at left and right, never as isolated decorative pieces. Fine matte ceramic grain, tiny edge thickness, plausible connected geometry, contact shadow, and a controlled raking studio light give clear tactile depth. The broad central plane of the light court leads the eye upward into the quiet title space. Keep the entire upper52% and central70% from y0 to58% completely clean uniform white, with no edges or blue glow crossing that area, for a user-added short centrally aligned Japanese chapter title and lead sentence. This is a majestic calm threshold into the next chapter, with real depth and optical interest, not a blank slide with a few thin corner lines. No multiple small floating pieces, no scattered triangles, no hairline only decoration, no mockup frame or fake cards, no rectangular screen, no product, no factory, machinery, people, scenery, flowers or petals, no words, letters, numbers, icons, logo or watermark. Original abstract ceramic light-and-form artwork, not an imitation of any existing wallpaper. Output only finished reusable background art, no sample heading."
+    },
+    "preview_path": "previews/background/section-lightwell.png"
+  },
+  {
+    "key": "background/statement-open-arc",
+    "title": "開いた弧で方針宣言を引き立てる背景",
+    "name": "開いた弧で方針宣言を引き立てる背景_背景",
+    "description": "白と青の大きな開いた弧で、中央の短い方針宣言を受け止める。",
+    "kind": "background",
+    "category": "11-背景とフレーム",
+    "width": 1672,
+    "height": 941,
+    "keywords": [
+      "方針",
+      "目的",
+      "ビジョン",
+      "宣言",
+      "重点方針",
+      "共通目標",
+      "statement",
+      "vision",
+      "commitment"
+    ],
+    "guidance": {
+      "use_case": "品質方針、共通目標、重点施策の要点を一文で印象づける場面。",
+      "message": "資料を通じて伝える中心的な主張を一つに絞る。",
+      "reading": [
+        "中央に1〜2行の短い方針、その下に補足を中央揃えで配置する。",
+        "下部の弧と左右の端には本文を重ねない。"
+      ],
+      "avoid": "多数の箇条書きや複雑な数値グラフを載せる本文には使わない。"
+    },
+    "labels": [],
+    "canvas": {
+      "width": 1600,
+      "height": 900
+    },
+    "content_areas": [
+      {
+        "id": "title",
+        "role": "方針宣言",
+        "purpose": "方針宣言を配置する白い領域。",
+        "content_type": "text",
+        "x": 230,
+        "y": 170,
+        "width": 1140,
+        "height": 220,
+        "text_color": "#172B4D",
+        "text_align": "center"
+      },
+      {
+        "id": "lead",
+        "role": "方針の補足",
+        "purpose": "方針の補足を配置する白い領域。",
+        "content_type": "text",
+        "x": 350,
+        "y": 455,
+        "width": 900,
+        "height": 105,
+        "text_color": "#172B4D",
+        "text_align": "center"
+      }
+    ],
+    "source": "media/background/statement-open-arc.png",
+    "preview_path": "previews/background/statement-open-arc.png",
+    "generation": {
+      "method": "image-generation",
+      "prompt": "Use case: productivity-visual. Generate a finished original16:9 corporate PowerPoint STATEMENT background, opaque PNG, 2048x1152 target. Intended slide: one central large Japanese sentence stating a shared goal, plus a short supporting line. Build an original abstract ceramic installation that opens space around the statement: a single broad offset ellipse of dense white porcelain with a deep cobalt-blue inner cut edge, viewed from a slightly elevated angle. It is an OPEN ARC, not a complete ring: its broad curved body enters at lower-left, flows across the bottom, and exits at lower-right, with both open ends cropped by the two side edges around mid-height. The entire curve must sit entirely below y65percent except the side ends in the outermost10percent. Thus the uppercenter and center form an expansive plain white field, without any object passing behind text. The arc is substantially wide and possesses precisely beveled edges, a subtle pebbled ceramic grain, continuous physically coherent curvature, restrained local shadows, extraordinary side-lit surface tactility and a richly glazed cobalt blue inside face. The white mass remains dominant; accent blue catches only the inner rim and one small seam, no glowing light. Broad calm symmetry but offset perspective and unequal visible widths create refined asymmetry. The sculptural open span naturally holds the message without being a frame drawn around it. Keep imagined1600x900 rectangle x200 to1400,y90 to530 completely white and uniform for text. Flat camera framing with artwork at the lower perimeter. No text, arrows, diagrams, numbers, icon, marks, logos, watermark, people, literal building/product, factory, digital gradient wallpaper, flowers, liquid blobs. Highly art-directed premium material study; no sample heading, background only."
+    }
+  },
+  {
+    "key": "background/workshop-paper-canopy",
+    "title": "紙のひさしの下に議論を広げる背景",
+    "name": "紙のひさしの下に議論を広げる背景_背景",
+    "description": "上部の折り紙の構造をアクセントに、下の広い白地へ検討内容を横に展開する。",
+    "kind": "background",
+    "category": "11-背景とフレーム",
+    "width": 1672,
+    "height": 941,
+    "keywords": [
+      "議論",
+      "検討",
+      "ワークショップ",
+      "課題整理",
+      "論点整理",
+      "アイデア",
+      "workshop",
+      "discussion",
+      "question"
+    ],
+    "guidance": {
+      "use_case": "検討会やワークショップで、共通の問いと複数の検討項目を提示する本文。",
+      "message": "同じ問いに対する論点を横並びで比較し、議論を促す。",
+      "reading": [
+        "折り紙の下に共通の問いを置き、その下の広い領域に論点を並べる。",
+        "紙の折り目は項目の境界に使わず、項目数は必要に応じて決める。"
+      ],
+      "avoid": "上端の折り紙へ見出しや小さな番号を重ねない。"
+    },
+    "labels": [],
+    "canvas": {
+      "width": 1600,
+      "height": 900
+    },
+    "content_areas": [
+      {
+        "id": "title",
+        "role": "共通の問い",
+        "purpose": "共通の問いを配置する白い領域。",
+        "content_type": "text",
+        "x": 100,
+        "y": 310,
+        "width": 1400,
+        "height": 105,
+        "text_color": "#172B4D",
+        "text_align": "left"
+      },
+      {
+        "id": "discussion",
+        "role": "論点と検討内容",
+        "purpose": "論点と検討内容を配置する白い領域。",
+        "content_type": "text",
+        "x": 100,
+        "y": 485,
+        "width": 1400,
+        "height": 310,
+        "text_color": "#172B4D",
+        "text_align": "left"
+      },
+      {
+        "id": "footer",
+        "role": "進め方と時間",
+        "purpose": "進め方と時間を配置する白い領域。",
+        "content_type": "text",
+        "x": 100,
+        "y": 825,
+        "width": 1400,
+        "height": 40,
+        "text_color": "#172B4D",
+        "text_align": "left"
+      }
+    ],
+    "source": "media/background/workshop-paper-canopy.png",
+    "preview_path": "previews/background/workshop-paper-canopy.png",
+    "generation": {
+      "method": "image-generation",
+      "prompt": "Use case: productivity-visual. Create one finished original16:9 white-and-blue corporate PowerPoint WORKSHOP / DISCUSSION background, opaque PNG, target2048x1152. Intended slide has a modest topic headline and three horizontally arranged editable discussion prompts below. A beautifully engineered paper canopy enters from ABOVE and occupies the TOP 20percent of frame: a broad continuous white thick-paper sheet folded into two sweeping shallow peaks and an asymmetric valley, the visible reverse is rich muted cobalt blue. Closely aligned folds, real thickness, delicate fiber texture, credible contact and layered folds, precise edges with soft raking daylight. The folded surfaces create substantial intricate but controlled sculptural light-and-shadow across the upper margin, like a premium editorial still life seen from below at a shallow angle. It is a continuous paper sculpture, not a real building, not a literal roof. Its lowest edge stays entirely above y23percent. Ends extend beyond top left and right canvas. Underneath it, from y28percent through bottom88percent, keep a completely clean even offwhite field, with no cast shadow bleeding down into this field, for a long Japanese question and several labels and notes. User needs a truly usable broad horizontal content area. White dominates85percent of canvas, cobalt visible in the tucked upper folds only. Sophisticated material detail and large broad planes, with finer crease detail visible on close inspection. Do not bake in boxes or guidelines or arrows or use three shapes that could be mistaken for three process steps. No text, numbers, symbols, watermark, logos, people, factory, charts or photos. Not a blank white slide with a thin blue stripe. Output finished reusable background art only."
+    }
+  }
+]

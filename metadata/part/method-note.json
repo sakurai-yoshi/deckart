@@ -1,0 +1,111 @@
+{
+  "category": "07-注釈と見出し",
+  "title": "数値の対象と集計方法を添える",
+  "description": "左の区分と右の二行で、測定結果の読み取り条件をまとめる部品。",
+  "keywords": [
+    "集計",
+    "条件",
+    "対象",
+    "算出",
+    "方法",
+    "注記",
+    "method",
+    "scope",
+    "calculation"
+  ],
+  "labels": [
+    {
+      "x": 52,
+      "y": 46,
+      "width": 280,
+      "height": 50,
+      "text": "集計の条件",
+      "role": "注記区分",
+      "align": "left",
+      "color": "#153A6B",
+      "font_size": 29,
+      "id": "label-1",
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 9
+    },
+    {
+      "x": 52,
+      "y": 119,
+      "width": 280,
+      "height": 64,
+      "text": "対象・方法を明記",
+      "role": "注記の説明",
+      "align": "left",
+      "color": "#607590",
+      "font_size": 24,
+      "id": "label-2",
+      "color_role": "muted",
+      "max_lines": 1,
+      "max_fullwidth_chars": 11
+    },
+    {
+      "x": 398,
+      "y": 45,
+      "width": 577,
+      "height": 64,
+      "text": "対象：既存の問い合わせ業務",
+      "role": "対象条件",
+      "align": "left",
+      "color": "#153A6B",
+      "font_size": 29,
+      "id": "label-3",
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 18
+    },
+    {
+      "x": 398,
+      "y": 132,
+      "width": 577,
+      "height": 64,
+      "text": "方法：受付から初回回答までを集計",
+      "role": "方法",
+      "align": "left",
+      "color": "#153A6B",
+      "font_size": 27,
+      "id": "label-4",
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 20
+    }
+  ],
+  "width": 1030,
+  "height": 252,
+  "kind": "part",
+  "guidance": {
+    "use_case": "測定値やグラフの近くに、対象と方法を補足する場面。",
+    "message": "何をどう測った値かが分かる。",
+    "reading": [
+      "左の区分で測定条件の注記と示す。",
+      "右の上下で対象と方法を分ける。"
+    ],
+    "avoid": "異なる対象や算出方法を同じ条件としてまとめる用途には使わない。"
+  },
+  "schema_version": 2,
+  "id": "part/method-note",
+  "name": "数値の対象と集計方法を添える_説明パーツ",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1030,
+    "height": 252
+  },
+  "path": "assets/part/method-note.svg",
+  "metadata_path": "metadata/part/method-note.json",
+  "search_text": "part/method-note\n数値の対象と集計方法を添える_説明パーツ\n数値の対象と集計方法を添える\n測定値やグラフの近くに、対象と方法を補足する場面。\n何をどう測った値かが分かる。\n左の区分で測定条件の注記と示す。\n右の上下で対象と方法を分ける。\n集計 条件 対象 算出 方法 注記 method scope calculation",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "d2bcbbc93c81dc40de256a789bdef802bb989a1a88e9276a7761c3f28b0c6693",
+  "size_bytes": 613
+}

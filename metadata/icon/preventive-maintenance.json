@@ -1,0 +1,49 @@
+{
+  "category": "08-アイコンとピクトグラム",
+  "title": "計画保全",
+  "description": "故障前に時期を決めて設備を手入れする。",
+  "keywords": [
+    "保全",
+    "保守",
+    "点検",
+    "定期",
+    "予防",
+    "maintenance",
+    "planned",
+    "preventive"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "設備の定期点検や計画保全を示す。",
+    "message": "故障前に時期を決めて設備を手入れする。",
+    "reading": [
+      "レンチが保全作業を表す。",
+      "時計を添え、実施時期を決めた点検と区別する。"
+    ],
+    "avoid": "記号は業務の種類を示す。数値、認証取得、測定結果を保証する印には使わない。"
+  },
+  "schema_version": 2,
+  "id": "icon/preventive-maintenance",
+  "name": "計画保全_製造業務の記号",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/preventive-maintenance.svg",
+  "metadata_path": "metadata/icon/preventive-maintenance.json",
+  "search_text": "icon/preventive-maintenance\n計画保全_製造業務の記号\n計画保全\n設備の定期点検や計画保全を示す。\n故障前に時期を決めて設備を手入れする。\nレンチが保全作業を表す。\n時計を添え、実施時期を決めた点検と区別する。\n保全 保守 点検 定期 予防 maintenance planned preventive",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "ece8fdd1926bbb651ca212570131f9b6492b10b128aee84f67f2c956273811ac",
+  "size_bytes": 856
+}

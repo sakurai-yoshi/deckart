@@ -1,0 +1,63 @@
+{
+  "kind": "illustration",
+  "category": "06-業務イラスト",
+  "width": 1254,
+  "height": 1254,
+  "labels": [],
+  "placement": {
+    "framing": "object",
+    "facing": "front",
+    "recommended_width_cm": [
+      4,
+      7
+    ]
+  },
+  "title": "整理した資料を取り出す",
+  "description": "収納されたファイルのうち一冊が前へ出た状態で、整理された資料の取り出しを表す。",
+  "keywords": [
+    "資料",
+    "保管",
+    "収納",
+    "検索",
+    "参照",
+    "整理",
+    "archive",
+    "retrieval",
+    "filing"
+  ],
+  "guidance": {
+    "use_case": "資料の保管方法、必要な情報の取り出し、文書管理の説明。",
+    "message": "資料を整理して保管し、必要な一冊を取り出す。",
+    "reading": [
+      "そろえて収納されたファイルが、管理された資料の保管先を表す。",
+      "手前に引き出された一冊が、必要な資料の参照を表す。"
+    ],
+    "avoid": "法定保存や長期保存の要件を満たすことを、この画像だけで示さない。"
+  },
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/illustrations.json"
+  },
+  "preview_path": "previews/illustration/organized-archive.png",
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": true,
+  "canvas": {
+    "width": 1254,
+    "height": 1254
+  },
+  "schema_version": 2,
+  "id": "illustration/organized-archive",
+  "name": "整理した資料を取り出す_情報と業務のイラスト",
+  "license": "CC0-1.0",
+  "path": "media/illustration/organized-archive.png",
+  "metadata_path": "metadata/illustration/organized-archive.json",
+  "search_text": "illustration/organized-archive\n整理した資料を取り出す_情報と業務のイラスト\n整理した資料を取り出す\n資料の保管方法、必要な情報の取り出し、文書管理の説明。\n資料を整理して保管し、必要な一冊を取り出す。\nそろえて収納されたファイルが、管理された資料の保管先を表す。\n手前に引き出された一冊が、必要な資料の参照を表す。\n資料 保管 収納 検索 参照 整理 archive retrieval filing\nobject 物 道具 front 正面 [4, 7] ",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "0cc3d6cf024899443df689fe9c3873c3882ef924d2afbe2a7be92c91d0cc719d",
+  "size_bytes": 811186
+}
