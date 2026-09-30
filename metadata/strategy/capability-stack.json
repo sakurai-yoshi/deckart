@@ -1,5 +1,4 @@
 {
-  "category": "05-組織と戦略",
   "title": "必要な能力を共通の運用で結ぶ",
   "description": "成果に必要な四つの能力を整理し、共通の運用でつながる構造を示す。",
   "keywords": [
@@ -102,6 +101,7 @@
     ]
   },
   "kind": "diagram",
+  "category": "09-組織・人材",
   "schema_version": 3,
   "id": "strategy/capability-stack",
   "name": "組織開発_必要な能力の積層_共通基盤で結ぶ四層",
@@ -124,5 +124,6 @@
     "data": false
   },
   "sha256": "d30fa37178aebbdf6c0188d9678a5243ca86383aab6c7b5a805d27b6ec52c148",
-  "size_bytes": 2688
+  "size_bytes": 2688,
+  "preview_sha256": "c562939dddbd66e4c2ae0ac44cebe02b9f0879b26d9447fbf0c1c8d1e375a6a6"
 }

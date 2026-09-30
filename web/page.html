@@ -10,7 +10,7 @@
 <header><div><h1>DeckArt</h1><p>メーカーの資料へ。用途で選べるPNGとSVG。</p></div><nav aria-label="保存と使い方"><a href="llms.txt">AIで使う</a><a href="web/guide.html">使い方</a><button id="save-all" class="primary">素材をすべて保存</button></nav></header>
 <main id="main">
 <section class="controls" aria-label="素材を探す">
-<div class="search-row"><div class="search"><label for="search">伝えたいこと・使用場面</label><input id="search" name="q" type="search" autocomplete="off" placeholder="例：品質改善の取り組み、部門間の連携…"></div><div class="category-field"><label for="category">分類</label><select id="category" name="category"><option value="">すべての分類</option></select></div></div>
+<div class="search-row"><div class="search"><label for="search">伝えたいこと・使用場面</label><input id="search" name="q" type="search" autocomplete="off" placeholder="例：品質改善の取り組み、部門間の連携…"></div><div class="category-field"><label for="category">業務上の目的</label><select id="category" name="category"><option value="">すべての目的</option></select></div></div>
 <div class="file-filters"><label for="format">形式 <select id="format"><option value="">すべて</option><option value="png">PNG画像</option><option value="svg">SVG図形</option></select></label><label><input type="checkbox" id="transparent">背景透過PNG</label><label><input type="checkbox" id="themeable">配色変更できる素材</label></div>
 <div id="types" class="types" role="group" aria-label="素材の種類"></div>
 <div class="appearance"><fieldset class="palette-field"><legend>SVGの色</legend><div id="palettes"><label class="palette"><input type="radio" name="theme" value="blue" checked>基本の青</label><label class="palette"><input type="radio" name="theme" value="brand">ブランド色</label><label class="palette"><input type="radio" name="theme" value="mono">モノクロ</label></div><div id="brand-control" hidden><label for="accent">ブランド色</label><input id="accent" name="accent" type="text" value="#005BAC" pattern="#[0-9A-Fa-f]{6}" maxlength="7" spellcheck="false" autocomplete="off"><button id="apply-accent" type="button">適用</button></div><p id="theme-note" role="status"></p><p class="format-note">PNGは完成画像です。配色と文字の変更はSVGに適用されます。</p></fieldset><label class="view-toggle"><input type="checkbox" id="examples" checked>プレビューの作例文字</label></div>
@@ -29,7 +29,7 @@
 <p id="format-note" class="format-note"></p>
 <p id="data-note" class="data-note" hidden>数値は作例です。実データは <a href="llms.txt">AI向けの書き出し手順</a>で指定すると、形状と数値を同時に更新できます。</p>
 <div id="detail-save"></div><button id="detail-select" class="secondary"></button>
-<p id="label-explanation">作例文字はプレビュー専用です。保存するSVGは図形のみで、文章はPowerPointで追加できます。文字入りの書き出しは<a href="llms.txt">AI向け手順</a>をご覧ください。</p>
+<p id="label-explanation">作例の内容が合う場合は文字入りSVGを使えます。文章を自分で配置する場合は図形のみSVGを選んでください。文字の変更は<a href="llms.txt">AI向け手順</a>をご覧ください。</p>
 <details id="reading-detail"><summary>描写の意味</summary><ul id="reading" class="reading"></ul></details>
 <details id="data-detail" hidden><summary>作例のデータ</summary><div id="data-values"></div></details>
 <details><summary>素材・検索情報</summary><div class="metadata"><ul id="slots" class="slots"></ul><p id="keywords"></p><p id="asset-id" class="filename"></p><p id="filename" class="filename"></p><button id="copy-metadata" class="text-button">検索情報をコピー</button></div></details>

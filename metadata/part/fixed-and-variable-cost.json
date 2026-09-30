@@ -1,0 +1,142 @@
+{
+  "title": "固定費と数量に応じる費用を分ける",
+  "description": "数量によらない費用と、一単位ごとに発生する費用を足して考える。",
+  "keywords": [
+    "固定費",
+    "変動費",
+    "数量",
+    "単位原価",
+    "cost",
+    "fixed",
+    "variable",
+    "volume"
+  ],
+  "labels": [
+    {
+      "x": 54,
+      "y": 76,
+      "width": 327,
+      "height": 53,
+      "text": "固定する部分",
+      "role": "固定費",
+      "align": "left",
+      "color": "#2864F0",
+      "font_size": 28,
+      "id": "label-1",
+      "color_role": "accent",
+      "max_lines": 1,
+      "max_fullwidth_chars": 11
+    },
+    {
+      "x": 54,
+      "y": 154,
+      "width": 327,
+      "height": 79,
+      "text": "数量によらない費用",
+      "role": "固定費の内容",
+      "align": "left",
+      "color": "#153A6B",
+      "font_size": 28,
+      "id": "label-2",
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 11
+    },
+    {
+      "x": 601,
+      "y": 297,
+      "width": 488,
+      "height": 54,
+      "text": "数量に応じて増減する部分",
+      "role": "変動費",
+      "align": "center",
+      "color": "#153A6B",
+      "font_size": 28,
+      "id": "label-3",
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 16
+    },
+    {
+      "x": 616,
+      "y": 107,
+      "width": 107,
+      "height": 116,
+      "text": "単位\n当たり",
+      "role": "変動単位",
+      "align": "center",
+      "color": "#153A6B",
+      "font_size": 25,
+      "id": "label-4",
+      "color_role": "ink",
+      "max_lines": 3,
+      "max_fullwidth_chars": 4
+    },
+    {
+      "x": 794,
+      "y": 107,
+      "width": 103,
+      "height": 116,
+      "text": "単位\n当たり",
+      "role": "変動単位",
+      "align": "center",
+      "color": "#153A6B",
+      "font_size": 25,
+      "id": "label-5",
+      "color_role": "ink",
+      "max_lines": 3,
+      "max_fullwidth_chars": 3
+    },
+    {
+      "x": 970,
+      "y": 107,
+      "width": 103,
+      "height": 116,
+      "text": "単位\n当たり",
+      "role": "変動単位",
+      "align": "center",
+      "color": "#153A6B",
+      "font_size": 25,
+      "id": "label-6",
+      "color_role": "ink",
+      "max_lines": 3,
+      "max_fullwidth_chars": 3
+    }
+  ],
+  "width": 1120,
+  "height": 380,
+  "kind": "part",
+  "guidance": {
+    "use_case": "原価や収益構造で、数量が変わったときの影響を説明する。",
+    "message": "数量によらない費用と、一単位ごとに発生する費用を足して考える。",
+    "reading": [
+      "左は固定部分、右の反復は数量に応じる費用を表す概念。",
+      "幅や個数は実際の費用額を表さない。"
+    ]
+  },
+  "category": "11-会計・収益",
+  "schema_version": 3,
+  "id": "part/fixed-and-variable-cost",
+  "name": "固定費と数量に応じる費用を分ける_説明パーツ",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1120,
+    "height": 380
+  },
+  "path": "assets/part/fixed-and-variable-cost.svg",
+  "metadata_path": "metadata/part/fixed-and-variable-cost.json",
+  "preview_path": "previews/part/fixed-and-variable-cost.svg",
+  "preview_has_example_labels": true,
+  "search_text": "part/fixed-and-variable-cost\n固定費と数量に応じる費用を分ける_説明パーツ\n固定費と数量に応じる費用を分ける\n原価や収益構造で、数量が変わったときの影響を説明する。\n数量によらない費用と、一単位ごとに発生する費用を足して考える。\n左は固定部分、右の反復は数量に応じる費用を表す概念。\n幅や個数は実際の費用額を表さない。\n固定費 変動費 数量 単位原価 cost fixed variable volume",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "4c60ab5b684a6a7b7912b88c0a84c1aab3f6379f057a71bc3d079bc6ef08fe3d",
+  "size_bytes": 1270,
+  "preview_sha256": "7c3d5734423bfa38342134a4aec32c3b45fc66b884f175748450ad061a277638"
+}

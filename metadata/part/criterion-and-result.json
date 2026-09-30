@@ -1,5 +1,4 @@
 {
-  "category": "07-注釈と見出し",
   "title": "判定基準と検証結果を照合する",
   "description": "同じ横幅の基準と結果を右の判断へ括る照合部品。",
   "keywords": [
@@ -101,6 +100,7 @@
       "右のチェックは、基準と結果を照合して適合と判断する作例。"
     ]
   },
+  "category": "03-品質・改善",
   "schema_version": 3,
   "id": "part/criterion-and-result",
   "name": "判定基準と検証結果を照合する_説明パーツ",
@@ -123,5 +123,6 @@
     "data": false
   },
   "sha256": "48345ad83d16ef21190745fcecaecff9756705f460e5d8d617a3390dbb629e24",
-  "size_bytes": 1306
+  "size_bytes": 1306,
+  "preview_sha256": "141b2e3082c8842dc3f49531a3dec25f5456d210da81d4702709ae47e04d318e"
 }

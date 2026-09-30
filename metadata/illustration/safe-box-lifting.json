@@ -1,0 +1,57 @@
+{
+  "title": "荷物を体に近づけて持つ",
+  "description": "膝を曲げた作業者が、体の近くで箱を両手で支える姿。",
+  "kind": "illustration",
+  "width": 1264,
+  "height": 1244,
+  "labels": [],
+  "composition": {
+    "framing": "full-body",
+    "facing": "down",
+    "people_count": 1
+  },
+  "keywords": [
+    "運搬",
+    "腰痛予防",
+    "持ち上げ",
+    "姿勢",
+    "lifting",
+    "manual handling"
+  ],
+  "guidance": {
+    "use_case": "荷物の取扱いや作業姿勢の説明で、体と荷物の位置関係を伝える場面。",
+    "message": "荷物を体に近づけ、両手で支えて持ち上げる。",
+    "reading": [
+      "作業者が膝を曲げ、箱の下側を両手で支えている。",
+      "箱を胴体の近くに置く姿が、荷物と体の距離を示す。"
+    ]
+  },
+  "preview_path": "previews/illustration/safe-box-lifting.png",
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/enterprise-illustrations.json"
+  },
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": true,
+  "canvas": {
+    "width": 1264,
+    "height": 1244
+  },
+  "category": "07-安全・事業継続",
+  "schema_version": 3,
+  "id": "illustration/safe-box-lifting",
+  "name": "荷物を体に近づけて持つ_業務イラスト",
+  "license": "CC0-1.0",
+  "path": "media/illustration/safe-box-lifting.png",
+  "metadata_path": "metadata/illustration/safe-box-lifting.json",
+  "preview_has_example_labels": false,
+  "search_text": "illustration/safe-box-lifting\n荷物を体に近づけて持つ_業務イラスト\n荷物を体に近づけて持つ\n荷物の取扱いや作業姿勢の説明で、体と荷物の位置関係を伝える場面。\n荷物を体に近づけ、両手で支えて持ち上げる。\n作業者が膝を曲げ、箱の下側を両手で支えている。\n箱を胴体の近くに置く姿が、荷物と体の距離を示す。\n運搬 腰痛予防 持ち上げ 姿勢 lifting manual handling\nfull-body 全身 down 下向き 手元を見る",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "9dd8e05218880b0801148e132d19125190caa361488179d71cfb6e9cfb601007",
+  "size_bytes": 663578
+}

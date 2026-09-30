@@ -1,5 +1,4 @@
 {
-  "category": "09-循環とフレームワーク",
   "title": "気づきから小さな実験を繰り返す",
   "description": "気づき・実験・学習を往復し、改善の確からしさを高める。",
   "keywords": [
@@ -91,6 +90,7 @@
     "relation": "three-stage-cycle",
     "reading_direction": "clockwise"
   },
+  "category": "03-品質・改善",
   "schema_version": 3,
   "id": "framework/learning-cycle",
   "name": "学習改善_気づきから小さな実験を繰り返す_3段階学習サイクル",
@@ -113,5 +113,6 @@
     "data": false
   },
   "sha256": "2cb6dc071c7a394e7ad838b30e63e4774080b6198547ad6de1f6f3dd988be2a0",
-  "size_bytes": 2505
+  "size_bytes": 2505,
+  "preview_sha256": "22b36e80d8a6086220cfaf647b3971958fe8ed53ef8b7893ed7cb93f029f84c0"
 }

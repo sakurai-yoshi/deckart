@@ -1,0 +1,50 @@
+{
+  "title": "現場での処理",
+  "description": "現場の近くで情報を処理する。",
+  "keywords": [
+    "エッジ",
+    "処理",
+    "現場",
+    "分散",
+    "edge",
+    "computing",
+    "local",
+    "processing"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "データが生まれる場所の近くで処理する構成を示す。",
+    "message": "現場の近くで情報を処理する。",
+    "reading": [
+      "周囲の装置から中央の処理器へ短い線が集まる。",
+      "中央の稲妻がその場で行う処理を表す。"
+    ]
+  },
+  "category": "12-情報・データ",
+  "schema_version": 3,
+  "id": "icon/edge-processing",
+  "name": "現場での処理_情報と関係",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/edge-processing.svg",
+  "metadata_path": "metadata/icon/edge-processing.json",
+  "preview_path": "assets/icon/edge-processing.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/edge-processing\n現場での処理_情報と関係\n現場での処理\nデータが生まれる場所の近くで処理する構成を示す。\n現場の近くで情報を処理する。\n周囲の装置から中央の処理器へ短い線が集まる。\n中央の稲妻がその場で行う処理を表す。\nエッジ 処理 現場 分散 edge computing local processing",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "74685fc8f19ffca769762c3d7debffc86cbba234e6121740e6bfc769bb0300fe",
+  "size_bytes": 1388
+}

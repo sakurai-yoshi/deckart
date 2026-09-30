@@ -1,0 +1,49 @@
+{
+  "title": "表面仕上げ",
+  "description": "工具を接触させて表面を整える。",
+  "keywords": [
+    "仕上げ",
+    "研磨",
+    "平滑",
+    "表面",
+    "polishing",
+    "finishing",
+    "surface"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "表面を整える研磨や仕上げ工程を示す。",
+    "message": "工具を接触させて表面を整える。",
+    "reading": [
+      "上の研磨具が対象面に向く。",
+      "材料面の上の短い軌跡が研磨の動きを示す。"
+    ]
+  },
+  "category": "04-生産・設備",
+  "schema_version": 3,
+  "id": "icon/surface-finishing",
+  "name": "表面仕上げ_工程と対象",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/surface-finishing.svg",
+  "metadata_path": "metadata/icon/surface-finishing.json",
+  "preview_path": "assets/icon/surface-finishing.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/surface-finishing\n表面仕上げ_工程と対象\n表面仕上げ\n表面を整える研磨や仕上げ工程を示す。\n工具を接触させて表面を整える。\n上の研磨具が対象面に向く。\n材料面の上の短い軌跡が研磨の動きを示す。\n仕上げ 研磨 平滑 表面 polishing finishing surface",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "81a9a5183d4a263297755705c5b68cbb1a399868dcd0cc29cee61c76c6956932",
+  "size_bytes": 932
+}

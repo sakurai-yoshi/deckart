@@ -1,0 +1,50 @@
+{
+  "title": "オフライン利用",
+  "description": "接続がなくても手元の環境で扱う。",
+  "keywords": [
+    "オフライン",
+    "切断",
+    "通信なし",
+    "ローカル",
+    "offline",
+    "disconnected",
+    "local",
+    "mode"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "ネットワークにつながらない環境での利用を示す。",
+    "message": "接続がなくても手元の環境で扱う。",
+    "reading": [
+      "画面が手元の利用環境を表す。",
+      "電波の模様に重なる線が接続のない状態を示す。"
+    ]
+  },
+  "category": "12-情報・データ",
+  "schema_version": 3,
+  "id": "icon/offline-mode",
+  "name": "オフライン利用_情報と関係",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/offline-mode.svg",
+  "metadata_path": "metadata/icon/offline-mode.json",
+  "preview_path": "assets/icon/offline-mode.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/offline-mode\nオフライン利用_情報と関係\nオフライン利用\nネットワークにつながらない環境での利用を示す。\n接続がなくても手元の環境で扱う。\n画面が手元の利用環境を表す。\n電波の模様に重なる線が接続のない状態を示す。\nオフライン 切断 通信なし ローカル offline disconnected local mode",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "7abfaad25cf057d0699a5a2ce0b922823bc756fb2bf5f31091c19a7707944853",
+  "size_bytes": 932
+}

@@ -1,0 +1,51 @@
+{
+  "title": "処理量の制御",
+  "description": "流入する処理の量を調整する。",
+  "keywords": [
+    "処理量",
+    "制御",
+    "上限",
+    "レート",
+    "制限",
+    "rate",
+    "limit",
+    "throttling",
+    "throughput"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "一定時間に受け付ける処理量を調整する仕組みを示す。",
+    "message": "流入する処理の量を調整する。",
+    "reading": [
+      "段ごとの点が受け付ける処理を表す。",
+      "下ほど少ない点が処理量の調整を表す。"
+    ]
+  },
+  "category": "12-情報・データ",
+  "schema_version": 3,
+  "id": "icon/rate-limit",
+  "name": "処理量の制御_情報と関係",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/rate-limit.svg",
+  "metadata_path": "metadata/icon/rate-limit.json",
+  "preview_path": "assets/icon/rate-limit.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/rate-limit\n処理量の制御_情報と関係\n処理量の制御\n一定時間に受け付ける処理量を調整する仕組みを示す。\n流入する処理の量を調整する。\n段ごとの点が受け付ける処理を表す。\n下ほど少ない点が処理量の調整を表す。\n処理量 制御 上限 レート 制限 rate limit throttling throughput",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "51efe6b817c6b8823603a2a6d6360bd728f7c790f503c3b65c2229b2e0d48113",
+  "size_bytes": 1501
+}

@@ -1,5 +1,4 @@
 {
-  "category": "07-注釈と見出し",
   "title": "最も伝えたい示唆を抜き出す",
   "description": "短い区分と大きな二行の結論を組み合わせた要点表示の部品。",
   "keywords": [
@@ -15,14 +14,14 @@
   "labels": [
     {
       "x": 40,
-      "y": 39,
+      "y": 38,
       "width": 92,
-      "height": 33,
+      "height": 36,
       "text": "示唆",
       "role": "区分",
       "align": "center",
       "color": "#FFFFFF",
-      "font_size": 23.571,
+      "font_size": 24,
       "id": "label-1",
       "color_role": "paper",
       "max_lines": 1,
@@ -55,6 +54,7 @@
       "下の大きな一文へ読み手の視線を集める。"
     ]
   },
+  "category": "13-説明・伝達",
   "schema_version": 3,
   "id": "part/key-finding",
   "name": "最も伝えたい示唆を抜き出す_説明パーツ",
@@ -77,5 +77,6 @@
     "data": false
   },
   "sha256": "8fa671e27ad6626b7a8212fa7cf45d1d222ead38d45f2da03b2699b2d14aaa9f",
-  "size_bytes": 711
+  "size_bytes": 711,
+  "preview_sha256": "fd5265281c5705318c3956432de4ff1fc62186f18770be7a541ec399d1fdf1c5"
 }

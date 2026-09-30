@@ -1,0 +1,140 @@
+{
+  "title": "引継ぎを受領確認まで閉じる",
+  "description": "一方的に渡すだけでなく、受領と理解を返して引継ぎを閉じる。",
+  "keywords": [
+    "引継ぎ",
+    "受領",
+    "確認",
+    "応答",
+    "handover",
+    "acknowledgment",
+    "receipt"
+  ],
+  "labels": [
+    {
+      "x": 58,
+      "y": 72,
+      "width": 285,
+      "height": 52,
+      "text": "渡す側",
+      "role": "送り手",
+      "align": "left",
+      "color": "#607590",
+      "font_size": 28,
+      "id": "label-1",
+      "color_role": "muted",
+      "max_lines": 1,
+      "max_fullwidth_chars": 9
+    },
+    {
+      "x": 58,
+      "y": 157,
+      "width": 285,
+      "height": 83,
+      "text": "内容と条件を伝える",
+      "role": "引継ぎ",
+      "align": "left",
+      "color": "#153A6B",
+      "font_size": 28,
+      "id": "label-2",
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 9
+    },
+    {
+      "x": 779,
+      "y": 72,
+      "width": 283,
+      "height": 52,
+      "text": "受け取る側",
+      "role": "受け手",
+      "align": "left",
+      "color": "#2864F0",
+      "font_size": 28,
+      "id": "label-3",
+      "color_role": "accent",
+      "max_lines": 1,
+      "max_fullwidth_chars": 9
+    },
+    {
+      "x": 779,
+      "y": 157,
+      "width": 283,
+      "height": 83,
+      "text": "受領と理解を返す",
+      "role": "受領確認",
+      "align": "left",
+      "color": "#153A6B",
+      "font_size": 28,
+      "id": "label-4",
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 9
+    },
+    {
+      "x": 401,
+      "y": 57,
+      "width": 319,
+      "height": 50,
+      "text": "作業・記録・注意点",
+      "role": "送る情報",
+      "align": "center",
+      "color": "#2864F0",
+      "font_size": 25,
+      "id": "label-5",
+      "color_role": "accent",
+      "max_lines": 1,
+      "max_fullwidth_chars": 12
+    },
+    {
+      "x": 403,
+      "y": 245,
+      "width": 315,
+      "height": 58,
+      "text": "不明点・受領確認",
+      "role": "戻す情報",
+      "align": "center",
+      "color": "#153A6B",
+      "font_size": 25,
+      "id": "label-6",
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 11
+    }
+  ],
+  "width": 1120,
+  "height": 380,
+  "kind": "part",
+  "guidance": {
+    "use_case": "担当交代や工程間の受け渡しで、相手が受け取ったことまで確かめる。",
+    "message": "一方的に渡すだけでなく、受領と理解を返して引継ぎを閉じる。",
+    "reading": [
+      "上の矢印が引継ぎ情報、下の矢印が受領確認。"
+    ]
+  },
+  "category": "09-組織・人材",
+  "schema_version": 3,
+  "id": "part/handover-and-acknowledgment",
+  "name": "引継ぎを受領確認まで閉じる_説明パーツ",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1120,
+    "height": 380
+  },
+  "path": "assets/part/handover-and-acknowledgment.svg",
+  "metadata_path": "metadata/part/handover-and-acknowledgment.json",
+  "preview_path": "previews/part/handover-and-acknowledgment.svg",
+  "preview_has_example_labels": true,
+  "search_text": "part/handover-and-acknowledgment\n引継ぎを受領確認まで閉じる_説明パーツ\n引継ぎを受領確認まで閉じる\n担当交代や工程間の受け渡しで、相手が受け取ったことまで確かめる。\n一方的に渡すだけでなく、受領と理解を返して引継ぎを閉じる。\n上の矢印が引継ぎ情報、下の矢印が受領確認。\n引継ぎ 受領 確認 応答 handover acknowledgment receipt",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "5977a50734563c27a285c633a3a186f593221e182da747937961d910896fae51",
+  "size_bytes": 1230,
+  "preview_sha256": "33eb365e263f49a20ef4fe20776eebd011a58b4e9d64abc6d5e4cbd0a6b3251d"
+}

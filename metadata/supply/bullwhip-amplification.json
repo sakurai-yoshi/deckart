@@ -1,0 +1,133 @@
+{
+  "title": "需要の小さな変化が上流で大きくなる",
+  "description": "情報の遅れやまとめ発注が、上流に伝わる変動を増幅することがある。",
+  "keywords": [
+    "ブルウィップ",
+    "鞭効果",
+    "需要変動",
+    "発注増幅",
+    "需給",
+    "bullwhip",
+    "demand",
+    "amplification",
+    "orders"
+  ],
+  "labels": [
+    {
+      "x": 92,
+      "y": 100,
+      "width": 310,
+      "height": 63,
+      "text": "最終需要",
+      "role": "説明",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-1",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 10
+    },
+    {
+      "x": 446,
+      "y": 100,
+      "width": 310,
+      "height": 63,
+      "text": "販売側の発注",
+      "role": "説明",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-2",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 10
+    },
+    {
+      "x": 800,
+      "y": 100,
+      "width": 310,
+      "height": 63,
+      "text": "上流側の発注",
+      "role": "説明",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-3",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 10
+    },
+    {
+      "x": 120,
+      "y": 531,
+      "width": 969,
+      "height": 72,
+      "text": "小さな需要変動が、まとめ発注や情報の遅れで増幅",
+      "role": "説明",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-4",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 33
+    },
+    {
+      "x": 246,
+      "y": 620,
+      "width": 714,
+      "height": 60,
+      "text": "需要の情報を共有し、変動をそのまま増やさない",
+      "role": "説明",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-5",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 24
+    }
+  ],
+  "width": 1200,
+  "height": 720,
+  "kind": "diagram",
+  "guidance": {
+    "use_case": "需給会議で、需要と発注の変動が同じではないことを説明する。",
+    "message": "情報の遅れやまとめ発注が、上流に伝わる変動を増幅することがある。",
+    "reading": [
+      "左から最終需要、販売側の発注、上流側の発注。",
+      "波の振れ幅が増える構造が変動の増幅を表す。",
+      "線は概念例で、実際の時系列や変動倍率ではない。"
+    ]
+  },
+  "layout": {
+    "relation": "upstream-order-variability-amplification",
+    "reading_direction": "left-to-right"
+  },
+  "category": "05-調達・物流",
+  "schema_version": 3,
+  "id": "supply/bullwhip-amplification",
+  "name": "需要の小さな変化が上流で大きくなる_業務の関係を示す図解",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1200,
+    "height": 720
+  },
+  "path": "assets/supply/bullwhip-amplification.svg",
+  "metadata_path": "metadata/supply/bullwhip-amplification.json",
+  "preview_path": "previews/supply/bullwhip-amplification.svg",
+  "preview_has_example_labels": true,
+  "search_text": "supply/bullwhip-amplification\n需要の小さな変化が上流で大きくなる_業務の関係を示す図解\n需要の小さな変化が上流で大きくなる\n需給会議で、需要と発注の変動が同じではないことを説明する。\n情報の遅れやまとめ発注が、上流に伝わる変動を増幅することがある。\n左から最終需要、販売側の発注、上流側の発注。\n波の振れ幅が増える構造が変動の増幅を表す。\n線は概念例で、実際の時系列や変動倍率ではない。\nブルウィップ 鞭効果 需要変動 発注増幅 需給 bullwhip demand amplification orders",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "fbd785855346cbf9aa28a61f9b6e17b5e5d879afce1c647f01d22ec8a0084739",
+  "size_bytes": 2437,
+  "preview_sha256": "e19f5018b2f7dedd196641dec4602c8999ac0d9cdd6e523508cf69f20a08770a"
+}

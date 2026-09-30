@@ -7,9 +7,10 @@ import re
 import struct
 import zlib
 from themes import SOURCE_ROLES, resolve_theme, annotate_roles, apply_theme
+from categories import category_for
 
 ROOT=Path(__file__).resolve().parents[1]
-MODULES=('process','strategy','illustration_icons','pictograms','business_icons','frameworks','metrics','parts','operations','planning','technology')
+MODULES=('process','strategy','illustration_icons','pictograms','business_icons','frameworks','metrics','parts','operations','planning','technology','manufacturing_expansion','safety_environment_icons','enterprise_icons','concept_icons','enterprise_parts','enterprise_diagrams')
 KEY_RE=re.compile(r'[a-z][a-z0-9-]*/[a-z][a-z0-9-]*\Z')
 
 
@@ -112,7 +113,8 @@ def artwork():
             items.append(a)
     for a in items:
         assert KEY_RE.fullmatch(a['key']),a.get('key')
-        a.setdefault('kind','illustration' if a['category'].startswith('06-') else 'part' if a['category'].startswith('07-') else 'diagram')
+        a.setdefault('kind', a['key'].split('/',1)[0] if a['key'].split('/',1)[0] in ('icon','part','chart','illustration','background') else 'diagram')
+        a['category']=category_for(a['key'])
     assert len({a['key'] for a in items})==len(items),'Duplicate stable ids'
     assert len({a['id'] for a in items})==len(items),'Duplicate descriptive names'
     return sorted(items,key=lambda a:(a['category'],a['key']))
@@ -129,6 +131,7 @@ def metadata(a):
     format=a.get('format','svg')
     meta={k:v for k,v in a.items() if k not in ('body','id','key','source')}
     meta.update(schema_version=3,id=a['key'],name=a['id'],license='CC0-1.0',format=format,mime_type='image/png' if format=='png' else 'image/svg+xml',transparent=a.get('transparent'),canvas=a.get('canvas',dict(width=a['width'],height=a['height'])),path=f'{"media" if format=="png" else "assets"}/{a["key"]}.{format}',metadata_path=f'metadata/{a["key"]}.json')
+    meta['category']=category_for(a['key'])
     meta.setdefault('preview_path',meta['path'])
     labels=[]
     for i,source in enumerate(a['labels']):

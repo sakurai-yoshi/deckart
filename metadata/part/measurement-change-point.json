@@ -1,0 +1,126 @@
+{
+  "title": "集計条件が変わった時点を注記する",
+  "description": "変更の前後で値をそのまま比較できるか確認する。",
+  "keywords": [
+    "変更点",
+    "集計定義",
+    "制度変更",
+    "比較",
+    "連続性",
+    "change",
+    "point",
+    "measurement"
+  ],
+  "labels": [
+    {
+      "x": 45,
+      "y": 66,
+      "width": 384,
+      "height": 67,
+      "text": "変更前の条件",
+      "role": "変更前",
+      "align": "left",
+      "color": "#153A6B",
+      "font_size": 32,
+      "id": "label-1",
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 11
+    },
+    {
+      "x": 554,
+      "y": 32,
+      "width": 483,
+      "height": 53,
+      "text": "条件を切り替えた後",
+      "role": "変更後",
+      "align": "left",
+      "color": "#2864F0",
+      "font_size": 30,
+      "id": "label-2",
+      "color_role": "accent",
+      "max_lines": 1,
+      "max_fullwidth_chars": 15
+    },
+    {
+      "x": 556,
+      "y": 120,
+      "width": 481,
+      "height": 59,
+      "text": "同じ集計条件か確かめる",
+      "role": "比較時の確認",
+      "align": "left",
+      "color": "#153A6B",
+      "font_size": 29,
+      "id": "label-3",
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 15
+    },
+    {
+      "x": 556,
+      "y": 263,
+      "width": 481,
+      "height": 49,
+      "text": "必要に応じて区切って比較",
+      "role": "比較方法",
+      "align": "left",
+      "color": "#153A6B",
+      "font_size": 28,
+      "id": "label-4",
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 16
+    },
+    {
+      "x": 384,
+      "y": 318,
+      "width": 248,
+      "height": 50,
+      "text": "条件の変更時点",
+      "role": "境界",
+      "align": "center",
+      "color": "#2864F0",
+      "font_size": 26,
+      "id": "label-5",
+      "color_role": "accent",
+      "max_lines": 1,
+      "max_fullwidth_chars": 8
+    }
+  ],
+  "width": 1120,
+  "height": 380,
+  "kind": "part",
+  "guidance": {
+    "use_case": "集計方法や対象を変更した時点を、推移グラフへ添える。",
+    "message": "変更の前後で値をそのまま比較できるか確認する。",
+    "reading": [
+      "縦線が条件の変更、右の二つの注記が比較時の確認内容。"
+    ]
+  },
+  "category": "13-説明・伝達",
+  "schema_version": 3,
+  "id": "part/measurement-change-point",
+  "name": "集計条件が変わった時点を注記する_説明パーツ",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1120,
+    "height": 380
+  },
+  "path": "assets/part/measurement-change-point.svg",
+  "metadata_path": "metadata/part/measurement-change-point.json",
+  "preview_path": "previews/part/measurement-change-point.svg",
+  "preview_has_example_labels": true,
+  "search_text": "part/measurement-change-point\n集計条件が変わった時点を注記する_説明パーツ\n集計条件が変わった時点を注記する\n集計方法や対象を変更した時点を、推移グラフへ添える。\n変更の前後で値をそのまま比較できるか確認する。\n縦線が条件の変更、右の二つの注記が比較時の確認内容。\n変更点 集計定義 制度変更 比較 連続性 change point measurement",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "0995389ca748ecbc8675acc5228aa8f027144805b91f3cca14a7363744a023d8",
+  "size_bytes": 1124,
+  "preview_sha256": "c7d084c565a4ddbdd6eae7d339abc67047888f08682367a390778074af1a5c11"
+}

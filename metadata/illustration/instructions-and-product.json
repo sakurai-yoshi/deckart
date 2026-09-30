@@ -1,7 +1,6 @@
 {
   "title": "手順書と実物を対応させる",
   "kind": "illustration",
-  "category": "06-業務イラスト",
   "width": 1254,
   "height": 1254,
   "keywords": [
@@ -40,6 +39,7 @@
     "width": 1254,
     "height": 1254
   },
+  "category": "04-生産・設備",
   "schema_version": 3,
   "id": "illustration/instructions-and-product",
   "name": "手順書と実物を対応させる_メーカー業務の構成",

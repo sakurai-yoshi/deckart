@@ -1,6 +1,5 @@
 {
   "kind": "illustration",
-  "category": "06-業務イラスト",
   "width": 1254,
   "height": 1254,
   "labels": [],
@@ -41,6 +40,7 @@
     "width": 1254,
     "height": 1254
   },
+  "category": "12-情報・データ",
   "schema_version": 3,
   "id": "illustration/information-consolidation",
   "name": "複数の資料を一冊へまとめる_情報と業務のイラスト",

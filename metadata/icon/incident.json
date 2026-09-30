@@ -1,5 +1,4 @@
 {
-  "category": "08-アイコンとピクトグラム",
   "title": "障害・中断",
   "description": "正常な接続や処理が中断した状態を示す。",
   "keywords": [
@@ -24,6 +23,7 @@
       "上の稲妻が異常の発生を表す。"
     ]
   },
+  "category": "07-安全・事業継続",
   "schema_version": 3,
   "id": "icon/incident",
   "name": "障害対応_接続の中断を扱う_途切れた接続",

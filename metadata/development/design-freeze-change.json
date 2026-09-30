@@ -1,0 +1,134 @@
+{
+  "title": "仕様を確定し、以後の変更を管理する",
+  "description": "確定した仕様を基準に進め、後から必要になった変更は影響を確認して判断する。",
+  "keywords": [
+    "設計凍結",
+    "仕様確定",
+    "変更審議",
+    "基準",
+    "量産準備",
+    "design",
+    "freeze",
+    "baseline",
+    "change",
+    "control"
+  ],
+  "labels": [
+    {
+      "x": 838,
+      "y": 334,
+      "width": 239,
+      "height": 72,
+      "text": "合意した仕様",
+      "role": "対象",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-1",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 8
+    },
+    {
+      "x": 794,
+      "y": 577,
+      "width": 219,
+      "height": 54,
+      "text": "変更を審議",
+      "role": "対象",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-2",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 7
+    },
+    {
+      "x": 129,
+      "y": 77,
+      "width": 338,
+      "height": 63,
+      "text": "検討して変えられる期間",
+      "role": "説明",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-3",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 11
+    },
+    {
+      "x": 625,
+      "y": 77,
+      "width": 415,
+      "height": 63,
+      "text": "基準を定めて作る期間",
+      "role": "説明",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-4",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 14
+    },
+    {
+      "x": 400,
+      "y": 603,
+      "width": 319,
+      "height": 56,
+      "text": "仕様を確定する節目",
+      "role": "確定点",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-5",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 11
+    }
+  ],
+  "width": 1200,
+  "height": 720,
+  "kind": "diagram",
+  "guidance": {
+    "use_case": "設計の検討期間と量産準備で基準を固定する期間の違いを説明する。",
+    "message": "確定した仕様を基準に進め、後から必要になった変更は影響を確認して判断する。",
+    "reading": [
+      "左の揺れる線は検討中の案、右の直線は確定した基準。",
+      "中央の縦線が仕様確定の節目。",
+      "下の別経路が確定後の変更審議を示す。"
+    ]
+  },
+  "layout": {
+    "relation": "baseline-freeze-and-change-route",
+    "reading_direction": "left-to-right"
+  },
+  "category": "06-開発・技術",
+  "schema_version": 3,
+  "id": "development/design-freeze-change",
+  "name": "仕様を確定し、以後の変更を管理する_業務の関係を示す図解",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1200,
+    "height": 720
+  },
+  "path": "assets/development/design-freeze-change.svg",
+  "metadata_path": "metadata/development/design-freeze-change.json",
+  "preview_path": "previews/development/design-freeze-change.svg",
+  "preview_has_example_labels": true,
+  "search_text": "development/design-freeze-change\n仕様を確定し、以後の変更を管理する_業務の関係を示す図解\n仕様を確定し、以後の変更を管理する\n設計の検討期間と量産準備で基準を固定する期間の違いを説明する。\n確定した仕様を基準に進め、後から必要になった変更は影響を確認して判断する。\n左の揺れる線は検討中の案、右の直線は確定した基準。\n中央の縦線が仕様確定の節目。\n下の別経路が確定後の変更審議を示す。\n設計凍結 仕様確定 変更審議 基準 量産準備 design freeze baseline change control",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "6c246511865a00ecf161d0fbb1dfdbb1efed926c5b9a722f64cadd7fa938907a",
+  "size_bytes": 2660,
+  "preview_sha256": "afe8c3672db4e8d5824497f583e79a164d3690f145a74cdc68387307c9949263"
+}

@@ -1,5 +1,4 @@
 {
-  "category": "01-業務プロセス",
   "title": "承認と差戻しを分ける判断ゲート",
   "description": "承認後の前進と、修正して再申請する経路を一つの図で説明する。",
   "keywords": [
@@ -104,6 +103,7 @@
     ]
   },
   "kind": "diagram",
+  "category": "13-説明・伝達",
   "schema_version": 3,
   "id": "process/approval-return",
   "name": "意思決定_承認と差戻しの経路を分ける_判断ゲートと復帰路",
@@ -126,5 +126,6 @@
     "data": false
   },
   "sha256": "9bdbbac40b0797dbb32794dd6d1a9d005859cc6f28958b0118a941361bc5ce3a",
-  "size_bytes": 3637
+  "size_bytes": 3637,
+  "preview_sha256": "156b1aeb8155b9884b1f41a01a243fdc01e658ec094e2f7686a74cd1ea0b2d07"
 }

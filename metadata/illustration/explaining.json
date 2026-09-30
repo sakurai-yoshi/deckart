@@ -1,7 +1,6 @@
 {
   "title": "説明する",
   "kind": "illustration",
-  "category": "06-業務イラスト",
   "width": 1254,
   "height": 1254,
   "keywords": [
@@ -39,6 +38,7 @@
     "width": 1254,
     "height": 1254
   },
+  "category": "13-説明・伝達",
   "schema_version": 3,
   "id": "illustration/explaining",
   "name": "説明する_汎用ビジネスの動作",

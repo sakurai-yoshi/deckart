@@ -1,0 +1,103 @@
+{
+  "title": "ロットから抽出して全体の判断につなげる",
+  "description": "抽出した対象の検査結果を、定めた抜取条件に沿ってロットの判断へ使う。",
+  "keywords": [
+    "抜取検査",
+    "ロット",
+    "標本",
+    "抽出",
+    "検査",
+    "sampling",
+    "lot",
+    "inspection",
+    "population"
+  ],
+  "labels": [
+    {
+      "x": 115,
+      "y": 71,
+      "width": 337,
+      "height": 63,
+      "text": "対象のロット",
+      "role": "母集団",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-1",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 11
+    },
+    {
+      "x": 717,
+      "y": 148,
+      "width": 358,
+      "height": 71,
+      "text": "抽出したものを検査",
+      "role": "標本",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-2",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 12
+    },
+    {
+      "x": 440,
+      "y": 606,
+      "width": 602,
+      "height": 58,
+      "text": "抜取の条件と結果から、ロットを判断",
+      "role": "説明",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-3",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 21
+    }
+  ],
+  "width": 1200,
+  "height": 720,
+  "kind": "diagram",
+  "guidance": {
+    "use_case": "抜取検査で、検査する対象と判断する対象の違いを説明する。",
+    "message": "抽出した対象の検査結果を、定めた抜取条件に沿ってロットの判断へ使う。",
+    "reading": [
+      "左が判断するロット全体、主色の点が抽出対象。",
+      "右の少数の点が実際に検査する対象。",
+      "下の線は検査結果をロット判断へ戻す。点の数は抜取規格の指定ではない。"
+    ]
+  },
+  "layout": {
+    "relation": "sample-inspection-to-lot-decision",
+    "reading_direction": "left-to-right"
+  },
+  "category": "03-品質・改善",
+  "schema_version": 3,
+  "id": "quality/lot-sampling",
+  "name": "ロットから抽出して全体の判断につなげる_業務の関係を示す図解",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1200,
+    "height": 720
+  },
+  "path": "assets/quality/lot-sampling.svg",
+  "metadata_path": "metadata/quality/lot-sampling.json",
+  "preview_path": "previews/quality/lot-sampling.svg",
+  "preview_has_example_labels": true,
+  "search_text": "quality/lot-sampling\nロットから抽出して全体の判断につなげる_業務の関係を示す図解\nロットから抽出して全体の判断につなげる\n抜取検査で、検査する対象と判断する対象の違いを説明する。\n抽出した対象の検査結果を、定めた抜取条件に沿ってロットの判断へ使う。\n左が判断するロット全体、主色の点が抽出対象。\n右の少数の点が実際に検査する対象。\n下の線は検査結果をロット判断へ戻す。点の数は抜取規格の指定ではない。\n抜取検査 ロット 標本 抽出 検査 sampling lot inspection population",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "ff86e277c6f23208135e471d8a59f5477929782bb7e1c52eaf621fb73e71e672",
+  "size_bytes": 4344,
+  "preview_sha256": "8695174f63698766e6c979e52bbbd0259ca7258fe297387b66bf92ac0a3efba4"
+}

@@ -1,5 +1,4 @@
 {
-  "category": "08-アイコンとピクトグラム",
   "title": "製造",
   "description": "原料や部品を製品にする製造工程を示す。",
   "keywords": [
@@ -24,6 +23,7 @@
       "煙突と窓の並びが製造設備のある場所を示す。"
     ]
   },
+  "category": "04-生産・設備",
   "schema_version": 3,
   "id": "icon/manufacturing",
   "name": "生産管理_製品を製造する_工場",

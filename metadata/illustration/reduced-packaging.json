@@ -1,6 +1,5 @@
 {
   "kind": "illustration",
-  "category": "06-業務イラスト",
   "labels": [],
   "preview_path": "previews/illustration/reduced-packaging.png",
   "composition": {
@@ -38,6 +37,7 @@
     "width": 1254,
     "height": 1254
   },
+  "category": "08-環境・資源",
   "schema_version": 3,
   "id": "illustration/reduced-packaging",
   "name": "梱包サイズを適正にする_業務イラスト",

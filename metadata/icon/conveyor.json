@@ -1,0 +1,49 @@
+{
+  "title": "コンベヤ搬送",
+  "description": "搬送面を使って品物を送る。",
+  "keywords": [
+    "コンベヤ",
+    "搬送",
+    "ベルト",
+    "ローラー",
+    "conveyor",
+    "transfer",
+    "roller"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "連続する搬送装置で品物を移動する工程を示す。",
+    "message": "搬送面を使って品物を送る。",
+    "reading": [
+      "下の並んだローラーが搬送面を示す。",
+      "その上の箱が運ぶ対象を示す。"
+    ]
+  },
+  "category": "04-生産・設備",
+  "schema_version": 3,
+  "id": "icon/conveyor",
+  "name": "コンベヤ搬送_工程と対象",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/conveyor.svg",
+  "metadata_path": "metadata/icon/conveyor.json",
+  "preview_path": "assets/icon/conveyor.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/conveyor\nコンベヤ搬送_工程と対象\nコンベヤ搬送\n連続する搬送装置で品物を移動する工程を示す。\n搬送面を使って品物を送る。\n下の並んだローラーが搬送面を示す。\nその上の箱が運ぶ対象を示す。\nコンベヤ 搬送 ベルト ローラー conveyor transfer roller",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "40a3a8866847da608950ea2ec017f06abb30ef559d5bbf721ac4112127ae9ab5",
+  "size_bytes": 1426
+}

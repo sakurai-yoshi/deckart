@@ -1,0 +1,51 @@
+{
+  "title": "アフターサービス",
+  "description": "納入後も製品の利用を支える。",
+  "keywords": [
+    "アフターサービス",
+    "修理",
+    "保証",
+    "納入後",
+    "after",
+    "sales",
+    "service",
+    "support",
+    "repair"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "製品を届けた後の修理や支援を紹介する。",
+    "message": "納入後も製品の利用を支える。",
+    "reading": [
+      "箱が届けた製品を表す。",
+      "右の工具が使用後の整備や修理を表す。"
+    ]
+  },
+  "category": "10-顧客・営業",
+  "schema_version": 3,
+  "id": "icon/after-sales-service",
+  "name": "アフターサービス_仕事と関係",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/after-sales-service.svg",
+  "metadata_path": "metadata/icon/after-sales-service.json",
+  "preview_path": "assets/icon/after-sales-service.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/after-sales-service\nアフターサービス_仕事と関係\nアフターサービス\n製品を届けた後の修理や支援を紹介する。\n納入後も製品の利用を支える。\n箱が届けた製品を表す。\n右の工具が使用後の整備や修理を表す。\nアフターサービス 修理 保証 納入後 after sales service support repair",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "aac2c92a6e4d382c127d6d65cf7ac2e7c9ff8d581e9cdf425a89858b42ab6606",
+  "size_bytes": 1114
+}

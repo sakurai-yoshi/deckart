@@ -1,0 +1,49 @@
+{
+  "title": "工程の冷却",
+  "description": "対象から熱を取り除く。",
+  "keywords": [
+    "冷却",
+    "冷やす",
+    "熱",
+    "除去",
+    "cooling",
+    "chilling",
+    "thermal"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "加工物や材料の熱を下げる工程を示す。",
+    "message": "対象から熱を取り除く。",
+    "reading": [
+      "四角い枠が冷却対象を表す。",
+      "大きな雪の結晶が温度を下げる働きを示す。"
+    ]
+  },
+  "category": "04-生産・設備",
+  "schema_version": 3,
+  "id": "icon/process-cooling",
+  "name": "工程の冷却_工程と対象",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/process-cooling.svg",
+  "metadata_path": "metadata/icon/process-cooling.json",
+  "preview_path": "assets/icon/process-cooling.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/process-cooling\n工程の冷却_工程と対象\n工程の冷却\n加工物や材料の熱を下げる工程を示す。\n対象から熱を取り除く。\n四角い枠が冷却対象を表す。\n大きな雪の結晶が温度を下げる働きを示す。\n冷却 冷やす 熱 除去 cooling chilling thermal",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "cace451650f2c41b256051049f660c7391467f2e795defeccf4eab659ef6bca4",
+  "size_bytes": 712
+}

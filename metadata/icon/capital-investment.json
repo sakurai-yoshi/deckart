@@ -1,0 +1,51 @@
+{
+  "title": "設備投資",
+  "description": "資金を将来の生産やサービスの能力へ変える。",
+  "keywords": [
+    "設備投資",
+    "CAPEX",
+    "投資",
+    "更新",
+    "資本",
+    "capital",
+    "investment",
+    "equipment",
+    "capex"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "設備や長期的に使用する資産への投資を説明する。",
+    "message": "資金を将来の生産やサービスの能力へ変える。",
+    "reading": [
+      "左の硬貨が投じる資金を示す。",
+      "機器へ向く矢印が資金の投入先を示す。"
+    ]
+  },
+  "category": "11-会計・収益",
+  "schema_version": 3,
+  "id": "icon/capital-investment",
+  "name": "設備投資_仕事と関係",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/capital-investment.svg",
+  "metadata_path": "metadata/icon/capital-investment.json",
+  "preview_path": "assets/icon/capital-investment.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/capital-investment\n設備投資_仕事と関係\n設備投資\n設備や長期的に使用する資産への投資を説明する。\n資金を将来の生産やサービスの能力へ変える。\n左の硬貨が投じる資金を示す。\n機器へ向く矢印が資金の投入先を示す。\n設備投資 CAPEX 投資 更新 資本 capital investment equipment capex",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "353f0046afbe5fabd748cef654d86a22a3288a586465b07827d81cbed878ebdf",
+  "size_bytes": 1342
+}

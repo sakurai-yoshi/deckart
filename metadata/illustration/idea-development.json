@@ -1,7 +1,6 @@
 {
   "title": "構想を練る",
   "kind": "illustration",
-  "category": "06-業務イラスト",
   "width": 1254,
   "height": 1254,
   "keywords": [
@@ -40,6 +39,7 @@
     "width": 1254,
     "height": 1254
   },
+  "category": "06-開発・技術",
   "schema_version": 3,
   "id": "illustration/idea-development",
   "name": "構想を練る_物で伝える業務",

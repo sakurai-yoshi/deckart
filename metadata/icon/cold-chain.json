@@ -1,0 +1,51 @@
+{
+  "title": "低温物流",
+  "description": "温度条件を保ったまま品物を運ぶ。",
+  "keywords": [
+    "低温",
+    "冷蔵",
+    "冷凍",
+    "温度",
+    "輸送",
+    "cold",
+    "chain",
+    "refrigerated",
+    "transport"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "輸送中の低温維持が必要な物流を示す。",
+    "message": "温度条件を保ったまま品物を運ぶ。",
+    "reading": [
+      "車体内の雪形が低温の条件を示す。",
+      "車輪付きの車体が移動中の管理を表す。"
+    ]
+  },
+  "category": "05-調達・物流",
+  "schema_version": 3,
+  "id": "icon/cold-chain",
+  "name": "低温物流_工程と対象",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/cold-chain.svg",
+  "metadata_path": "metadata/icon/cold-chain.json",
+  "preview_path": "assets/icon/cold-chain.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/cold-chain\n低温物流_工程と対象\n低温物流\n輸送中の低温維持が必要な物流を示す。\n温度条件を保ったまま品物を運ぶ。\n車体内の雪形が低温の条件を示す。\n車輪付きの車体が移動中の管理を表す。\n低温 冷蔵 冷凍 温度 輸送 cold chain refrigerated transport",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "07a7e90ded5ed5f9c8a0bbf2b4d504bff8219fb190b5f2b28040615e2ed1c253",
+  "size_bytes": 1195
+}

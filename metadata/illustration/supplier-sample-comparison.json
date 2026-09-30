@@ -1,0 +1,57 @@
+{
+  "title": "仕入先のサンプルを比較する",
+  "description": "形と質感の異なる三つの見本を比較票と並べ、調達候補の評価を表す。",
+  "kind": "illustration",
+  "width": 1536,
+  "height": 1024,
+  "labels": [],
+  "composition": {
+    "framing": "object",
+    "facing": "front"
+  },
+  "keywords": [
+    "調達",
+    "仕入先",
+    "比較",
+    "サンプル",
+    "supplier",
+    "sourcing",
+    "evaluation"
+  ],
+  "guidance": {
+    "use_case": "仕入先から届いた材料や加工品の提案を、実物の見本と評価項目で比較する場面。",
+    "message": "見本と情報をそろえ、調達先を選ぶ材料にする。",
+    "reading": [
+      "円柱、成形部品、積層板の見本が、それぞれのケースに収まっている。",
+      "手前の比較票には三つの見本に対応する色と項目が並ぶ。"
+    ]
+  },
+  "preview_path": "previews/illustration/supplier-sample-comparison.png",
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/enterprise-illustrations.json"
+  },
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": true,
+  "canvas": {
+    "width": 1536,
+    "height": 1024
+  },
+  "category": "05-調達・物流",
+  "schema_version": 3,
+  "id": "illustration/supplier-sample-comparison",
+  "name": "仕入先のサンプルを比較する_業務イラスト",
+  "license": "CC0-1.0",
+  "path": "media/illustration/supplier-sample-comparison.png",
+  "metadata_path": "metadata/illustration/supplier-sample-comparison.json",
+  "preview_has_example_labels": false,
+  "search_text": "illustration/supplier-sample-comparison\n仕入先のサンプルを比較する_業務イラスト\n仕入先のサンプルを比較する\n仕入先から届いた材料や加工品の提案を、実物の見本と評価項目で比較する場面。\n見本と情報をそろえ、調達先を選ぶ材料にする。\n円柱、成形部品、積層板の見本が、それぞれのケースに収まっている。\n手前の比較票には三つの見本に対応する色と項目が並ぶ。\n調達 仕入先 比較 サンプル supplier sourcing evaluation\nobject 物 道具 front 正面",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "77c0ffcfde3d7961a3883e5bf8f577b1208522bbec5ef12239d530f1db9745fe",
+  "size_bytes": 1625323
+}

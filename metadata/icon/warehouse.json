@@ -1,5 +1,4 @@
 {
-  "category": "08-アイコンとピクトグラム",
   "title": "倉庫・保管",
   "description": "入出庫する物品の保管場所を示す。",
   "keywords": [
@@ -24,6 +23,7 @@
       "入口付近の箱が保管する荷物を示す。"
     ]
   },
+  "category": "05-調達・物流",
   "schema_version": 3,
   "id": "icon/warehouse",
   "name": "保管管理_物品を倉庫に置く_倉庫と荷物",

@@ -1,0 +1,61 @@
+{
+  "title": "薄い金属片が浮かぶ余白",
+  "description": "白銀と青の薄い金属面が上端と右側で浮かび、柔らかな影を落とす。",
+  "kind": "background",
+  "width": 1664,
+  "height": 936,
+  "labels": [],
+  "keywords": [
+    "背景",
+    "白",
+    "青",
+    "質感",
+    "background",
+    "金属",
+    "薄片",
+    "浮遊",
+    "反射",
+    "metal",
+    "flakes",
+    "技術紹介",
+    "新製品",
+    "軽量",
+    "technology"
+  ],
+  "guidance": {
+    "use_case": "技術や新製品の特長を紹介する資料に、精密な素材感と軽快な印象を添える。",
+    "message": "薄い金属面の精密な質感と浮遊感で、軽さと先進的な印象を添える。",
+    "reading": [
+      "薄い曲面に細かなヘアライン加工が見える。",
+      "上端と右側の金属面が光を反射し、中央から左下へ白い面が広がる。"
+    ]
+  },
+  "preview_path": "previews/background/suspended-metal-flakes.png",
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/enterprise-backgrounds.json"
+  },
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": false,
+  "canvas": {
+    "width": 1664,
+    "height": 936
+  },
+  "category": "14-背景・装飾",
+  "schema_version": 3,
+  "id": "background/suspended-metal-flakes",
+  "name": "薄い金属片が浮かぶ余白_背景",
+  "license": "CC0-1.0",
+  "path": "media/background/suspended-metal-flakes.png",
+  "metadata_path": "metadata/background/suspended-metal-flakes.json",
+  "preview_has_example_labels": false,
+  "search_text": "background/suspended-metal-flakes\n薄い金属片が浮かぶ余白_背景\n薄い金属片が浮かぶ余白\n技術や新製品の特長を紹介する資料に、精密な素材感と軽快な印象を添える。\n薄い金属面の精密な質感と浮遊感で、軽さと先進的な印象を添える。\n薄い曲面に細かなヘアライン加工が見える。\n上端と右側の金属面が光を反射し、中央から左下へ白い面が広がる。\n背景 白 青 質感 background 金属 薄片 浮遊 反射 metal flakes 技術紹介 新製品 軽量 technology",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "86a135da953db468ac442a5f6f825058acbf3bf8d7357e1eb5326f5b3dbf0d8f",
+  "size_bytes": 1381314
+}

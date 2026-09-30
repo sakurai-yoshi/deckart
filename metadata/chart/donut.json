@@ -1,5 +1,4 @@
 {
-  "category": "10-数値とグラフ",
   "title": "合計と内訳を同時に示す",
   "description": "合計200件を80・70・50件に分け、外周に40%・35%・25%を示す作例。",
   "keywords": [
@@ -136,6 +135,7 @@
       "外周の40%・35%・25%は各件数を200件で割った割合。"
     ]
   },
+  "category": "13-説明・伝達",
   "schema_version": 3,
   "id": "chart/donut",
   "name": "内訳確認_合計と構成比を同時に示す_ドーナツグラフ作例",
@@ -197,5 +197,6 @@
     }
   },
   "sha256": "1f6072023e0b4685e535d18d25aaacdf690787d7374aaba70de49caeeece85d1",
-  "size_bytes": 6928
+  "size_bytes": 6928,
+  "preview_sha256": "a560492ce110f857fd6cb8430ee1980add5da1c736e3bb11ca8369c2574a1fce"
 }

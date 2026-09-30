@@ -1,11 +1,10 @@
 """Quantitative chart examples with geometry calculated from explicit sample data."""
-from math import cos, sin, radians
+from math import ceil, cos, sin, radians
 from chart_inputs import normalize, input_contract
 import re
 from vector import INK, BLUE, MID, PALE, FAINT, WHITE, GRAY, AMBER
 from vector import path, rect, circle, line, poly, group, slot, asset
 
-CATEGORY = '10-数値とグラフ'
 POSITIVE = '#137D66'
 NEGATIVE = '#B5473A'
 SERIES_SECONDARY = '#526272'
@@ -75,10 +74,11 @@ def polar(cx, cy, radius, angle):
 def annular_sector(cx,cy,outer,inner,start,end,fill):
     """Exact angular sector with flat radial ends and no angle-changing stroke caps."""
     if end-start <= 1e-10:return ''
-    if end-start > 180:
-        middle=(start+end)/2
-        return (annular_sector(cx,cy,outer,inner,start,middle,fill)
-                +annular_sector(cx,cy,outer,inner,middle,end,fill))
+    if end-start >= 360-1e-10:
+        ox,oy=polar(cx,cy,outer,start);opx,opy=polar(cx,cy,outer,start+180)
+        ix,iy=polar(cx,cy,inner,start);ipx,ipy=polar(cx,cy,inner,start+180)
+        return path(f'M{ox:.6f} {oy:.6f}A{outer} {outer} 0 1 1 {opx:.6f} {opy:.6f}A{outer} {outer} 0 1 1 {ox:.6f} {oy:.6f}Z'
+                    f'M{ix:.6f} {iy:.6f}A{inner} {inner} 0 1 0 {ipx:.6f} {ipy:.6f}A{inner} {inner} 0 1 0 {ix:.6f} {iy:.6f}Z',fill)
     ox1,oy1=polar(cx,cy,outer,start);ox2,oy2=polar(cx,cy,outer,end)
     ix1,iy1=polar(cx,cy,inner,start);ix2,iy2=polar(cx,cy,inner,end)
     large=int(end-start>180)
@@ -86,7 +86,7 @@ def annular_sector(cx,cy,outer,inner,start,end,fill):
 
 
 def chart(name,title,description,keywords,body,labels,data,guidance,size=(1200,720)):
-    a=asset(name,CATEGORY,title,description,keywords,body,labels,size)
+    a=asset(name,title,description,keywords,body,labels,size)
     a['kind']='chart';a['data']={'is_sample':True,**data};a['guidance']=guidance
     a['key']='chart/'+data['chart_type'].replace('_','-')
     a['data']['number_format']={'maximum_significant_digits':6,'minimum_significant_digits':3,'large_or_small_values':'E notation','source_values':'series'}
@@ -95,15 +95,16 @@ def chart(name,title,description,keywords,body,labels,data,guidance,size=(1200,7
         titles={'horizontal_bar':'項目別の値を横棒で比べる','line':'期間ごとの値の変化を線で追う','grouped_bar':'項目ごとに二つの系列を比べる'}
         a['title']=titles.get(data['chart_type'],title)
         a['description']='入力した'+data['unit']+'の値を、'+a['title']+'ために描画する。'
-        lines=[series['label']+'：'+'、'.join(f'{category} {value:g}{data["unit"]}' for category,value in zip(data['categories'],series['values']))+'。' for series in data['series']]
+        lines=[series['label']+'：'+'、'.join(f'{category} {value:g}'+(data['x_unit'] if data['chart_type']=='scatter' and index==0 else data['unit']) for category,value in zip(data['categories'],series['values']))+'。' for index,series in enumerate(data['series'])]
         if data['chart_type'] in ('progress_ring','semicircle_gauge'):
             lines.append(f'強調した範囲は全体の{data["percentage"]:g}%。')
         elif data['chart_type']=='waterfall':
             lines.append('破線は各段階の残高を次の棒へつなぐ。')
         elif data.get('domain'):
-            lines.append(f'共通の尺度は0から{data["domain"][1]:g}{data["unit"]}。')
+            lines.append(f'共通の尺度は{data["domain"][0]:g}から{data["domain"][1]:g}{data["unit"]}。')
         elif data.get('total'):
             lines.append(f'各部分の合計は{data["total"]:g}{data["unit"]}。')
+        if data['chart_type']=='scatter':lines.append(f'横軸は{data["x_domain"][0]:g}から{data["x_domain"][1]:g}{data["x_unit"]}。')
         a['guidance']={k:v.replace('件数','値') if isinstance(v,str) else v for k,v in guidance.items()}
         a['guidance'].update(reading=lines[:4])
         if data['chart_type']=='semicircle_gauge':
@@ -113,7 +114,7 @@ def chart(name,title,description,keywords,body,labels,data,guidance,size=(1200,7
         if data['chart_type']=='grouped_bar':
             a['guidance'].update(use_case='複数項目について二つの系列を同じ尺度で比較する。',message='項目間と系列間の差を同じ目盛りで読める。')
     for label in a['labels']:
-        columns=max(4,int(label['width']/27))
+        columns=max(2,int(label['width']/27))
         if len(label['text'])>columns and '\n' not in label['text']:
             label['text']='\n'.join(label['text'][i:i+columns] for i in range(0,len(label['text']),columns))
     if not a['data']['is_sample']:
@@ -124,6 +125,21 @@ def chart(name,title,description,keywords,body,labels,data,guidance,size=(1200,7
             if fitted<minimum:
                 raise ValueError(f'{data["chart_type"]}: shorten category, series or unit text {label["text"]!r}; this layout requires labels of at least {minimum}px')
     return a
+
+
+def number_pitch(values, size=30, signed=False):
+    widths=[]
+    for value in values:
+        text=format(value,'.3g').upper();text=re.sub(r'E([+-])0+',r'E\1',text).replace('E+','E')
+        if signed and value>=0:text='+'+text
+        widths.append((sum(8 if c=='.' else 18 for c in text)-5)*size/22)
+    return ceil(max(widths)+24)
+
+
+def category_pitch(categories, minimum=96):
+    longest=max(map(len,categories))
+    columns=longest if longest<=3 else (longest+1)//2
+    return max(minimum,longest*27+12 if longest<=3 else columns*30+18)
 
 
 def progress_ring(data=None):
@@ -140,25 +156,26 @@ def progress_ring(data=None):
 def horizontal_bars(data=None):
     data=normalize('horizontal_bar',data)
     categories=data['categories'];values=data['series'][0]['values'];maximum=data['domain'][1];ticks=[maximum*i/4 for i in range(5)]
-    x0=309;plot_width=734;bar_height=46
+    x0=309;plot_width=734;bar_height=46;extra=max(0,len(categories)-4)*103
     b=''
     for tick in ticks:
         x=x0+plot_width*tick/maximum
-        b+=line(x,149,x,558,INK if tick==0 else PALE,3 if tick==0 else 1.5)
-        b+=number(tick,x,592,25,GRAY)
+        b+=line(x,149,x,558+extra,INK if tick==0 else PALE,3 if tick==0 else 1.5)
+        b+=number(tick,x,592+extra,25,GRAY)
     labels=[slot(780,63,355,56,'単位：'+data['unit'])]
     for i,(label,value) in enumerate(zip(categories,values)):
         y=177+i*103
         b+=rect(x0,y,plot_width*value/maximum,bar_height,BLUE)
         b+=number(value,x0+plot_width*value/maximum+26,y+8,30,INK,'left',max_width=117)
         labels.append(slot(67,y-13,211,72,label))
-    return chart('項目比較_件数の大小をそろえて比べる_横棒グラフ作例','項目別の件数を横棒で比べる','ゼロを共通の始点にして80・65・45・30件を比較する横棒グラフの作例。','横棒 棒グラフ 比較 ランキング 件数 カテゴリ horizontal bar',b,labels,dict(is_sample=data['is_sample'],unit=data['unit'],categories=categories,series=data['series'],chart_type='horizontal_bar',baseline=0,domain=data['domain'],ticks=ticks,plot=dict(x=x0,y=149,width=plot_width,height=409)),dict(use_case='同じ単位で集計した項目別の件数を比較する。',message='棒が長い項目ほど件数が多い。',reading=['すべての棒は同じゼロ位置から始まる。','棒の終点に実際の作例値を示す。','横軸は0件から100件までの共通目盛り。']))
+    return chart('項目比較_件数の大小をそろえて比べる_横棒グラフ作例','項目別の件数を横棒で比べる','ゼロを共通の始点にして80・65・45・30件を比較する横棒グラフの作例。','横棒 棒グラフ 比較 ランキング 件数 カテゴリ horizontal bar',b,labels,dict(is_sample=data['is_sample'],unit=data['unit'],categories=categories,series=data['series'],chart_type='horizontal_bar',baseline=0,domain=data['domain'],ticks=ticks,plot=dict(x=x0,y=149,width=plot_width,height=409+extra)),dict(use_case='同じ単位で集計した項目別の件数を比較する。',message='棒が長い項目ほど件数が多い。',reading=['すべての棒は同じゼロ位置から始まる。','棒の終点に実際の作例値を示す。','横軸は0件から100件までの共通目盛り。']),size=(1200,720+extra))
 
 
 def line_chart(data=None):
     data=normalize('line',data)
     categories=data['categories'];values=data['series'][0]['values'];maximum=data['domain'][1];ticks=[maximum*i/4 for i in range(5)]
-    x0=205;y0=559;width=860;height=420
+    x0=205;y0=559;pitch=max(category_pitch(categories),number_pitch(values));width=max(860,pitch*(len(categories)-1));height=420
+    label_width=170 if len(categories)<=5 else min(pitch-12,258)
     b=''
     for tick in ticks:
         y=y0-height*tick/maximum
@@ -170,9 +187,9 @@ def line_chart(data=None):
     for i,((x,y),label,value) in enumerate(zip(points,categories,values)):
         value_x=x+35 if i==0 else x
         value_y=y-54 if i==0 else y-46
-        b+=circle(x,y,8,WHITE,BLUE,4)+number(value,value_x,value_y,29,halo=True)
-        labels.append(slot(x-85,588,170,64,label))
-    return chart('推移確認_期間ごとの増減を見る_折れ線グラフ作例','期間ごとの増減を線で追う','等間隔の五つの期間を直線で結び、20・35・30・55・75件の推移を示す作例。','折れ線 推移 時系列 変化 件数 トレンド line time series',b,labels,dict(is_sample=data['is_sample'],unit=data['unit'],categories=categories,series=data['series'],chart_type='line',baseline=0,domain=data['domain'],ticks=ticks,interpolation='linear',plot=dict(x=x0,y=y0-height,width=width,height=height)),dict(use_case='同じ間隔で集計した期間別の件数の変化を示す。',message='各期間の増減と全体の推移を確認できる。',reading=['点は各期間の作例値、線は隣り合う点の接続。','第3期では前期より減り、その後は増加する。','縦軸は0件から100件までの共通目盛り。']))
+        b+=circle(x,y,8,WHITE,BLUE,4)+number(value,value_x,value_y,29,max_width=160 if len(categories)<=5 else pitch-16,halo=True)
+        labels.append(slot(x-label_width/2,588,label_width,88,label))
+    return chart('推移確認_期間ごとの増減を見る_折れ線グラフ作例','期間ごとの増減を線で追う','等間隔の五つの期間を直線で結び、20・35・30・55・75件の推移を示す作例。','折れ線 推移 時系列 変化 件数 トレンド line time series',b,labels,dict(is_sample=data['is_sample'],unit=data['unit'],categories=categories,series=data['series'],chart_type='line',baseline=0,domain=data['domain'],ticks=ticks,interpolation='linear',plot=dict(x=x0,y=y0-height,width=width,height=height)),dict(use_case='同じ間隔で集計した期間別の件数の変化を示す。',message='各期間の増減と全体の推移を確認できる。',reading=['点は各期間の作例値、線は隣り合う点の接続。','第3期では前期より減り、その後は増加する。','縦軸は0件から100件までの共通目盛り。']),size=(340+width,720))
 
 
 def semicircle_gauge(data=None):
@@ -209,24 +226,25 @@ def pictogram(data=None):
 def vertical_bars(data=None):
     data=normalize('vertical_bar',data)
     categories=data['categories'];values=data['series'][0]['values'];maximum=data['domain'][1];ticks=[maximum*i/4 for i in range(5)]
-    baseline=566;top=146;height=420;centers=[332,556,780,1004]
+    baseline=566;top=146;height=420;pitch=224 if len(categories)<=4 else max(category_pitch(categories),number_pitch(values))
+    plot_width=885 if len(categories)<=4 else max(885,pitch*len(categories));extra=plot_width-885
+    centers=[332+224*i for i in range(len(categories))] if len(categories)<=4 else [205+(i+.5)*plot_width/len(categories) for i in range(len(categories))]
+    bar_width=min(104,pitch*.55);label_width=182 if len(categories)<=4 else pitch-12
     b=''
     for tick in ticks:
         y=baseline-height*tick/maximum
-        b+=line(205,y,1090,y,INK if tick==0 else PALE,3 if tick==0 else 1.5)
+        b+=line(205,y,1090+extra,y,INK if tick==0 else PALE,3 if tick==0 else 1.5)
         b+=number(tick,169,y-12,24,GRAY,'right')
     labels=[slot(65,63,350,57,'単位：'+data['unit'])]
     for x,value,label in zip(centers,values,categories):
         bar_height=height*value/maximum;bar_top=baseline-bar_height
-        b+=rect(x-52,bar_top,104,bar_height,BLUE)+number(value,x,bar_top-44,30)
-        labels.append(slot(x-91,593,182,65,label))
-    return chart('項目比較_値の大きさを高さで比べる_縦棒グラフ作例','同じ基準で値の高さを比べる','共通のゼロ位置から30・55・80・65件の大きさを示す縦棒グラフの作例。','縦棒 棒グラフ 件数 比較 カテゴリ column vertical bar',b,labels,dict(is_sample=data['is_sample'],unit=data['unit'],categories=categories,series=data['series'],chart_type='vertical_bar',baseline=0,domain=data['domain'],ticks=ticks,plot=dict(x=205,y=top,width=885,height=height)),dict(use_case='順序を固定した項目について同じ単位の値を比較する。',message='棒が高い項目ほど値が大きい。',reading=['各棒の底は共通の0件。','縦軸は25件間隔、上端は100件。','棒の上に作例値を直接表示する。']))
+        b+=rect(x-bar_width/2,bar_top,bar_width,bar_height,BLUE)+number(value,x,bar_top-44,30,max_width=label_width)
+        labels.append(slot(x-label_width/2,593,label_width,87,label))
+    return chart('項目比較_値の大きさを高さで比べる_縦棒グラフ作例','同じ基準で値の高さを比べる','共通のゼロ位置から30・55・80・65件の大きさを示す縦棒グラフの作例。','縦棒 棒グラフ 件数 比較 カテゴリ column vertical bar',b,labels,dict(is_sample=data['is_sample'],unit=data['unit'],categories=categories,series=data['series'],chart_type='vertical_bar',baseline=0,domain=data['domain'],ticks=ticks,plot=dict(x=205,y=top,width=885+extra,height=height)),dict(use_case='順序を固定した項目について同じ単位の値を比較する。',message='棒が高い項目ほど値が大きい。',reading=['各棒の底は共通の0件。','縦軸は25件間隔、上端は100件。','棒の上に作例値を直接表示する。']),size=(1200+extra,720))
 
 
 def pie_sector(cx,cy,radius,start,end,fill):
-    if end-start>180:
-        middle=(start+end)/2
-        return pie_sector(cx,cy,radius,start,middle,fill)+pie_sector(cx,cy,radius,middle,end,fill)
+    if end-start>=360-1e-10:return circle(cx,cy,radius,fill)
     p=polar(cx,cy,radius,start);q=polar(cx,cy,radius,end)
     return path(f'M{cx} {cy}L{p[0]:.6f} {p[1]:.6f}A{radius} {radius} 0 {int(end-start>180)} 1 {q[0]:.6f} {q[1]:.6f}Z',fill)
 
@@ -274,26 +292,29 @@ def donut_chart(data=None):
 def grouped_bars(data=None):
     data=normalize('grouped_bar',data)
     categories=data['categories'];previous=data['series'][0]['values'];current=data['series'][1]['values'];maximum=data['domain'][1];ticks=[maximum*i/4 for i in range(5)]
-    baseline=570;height=420;centers=[343,648,953];b=''
+    baseline=570;height=420;pitch=305 if len(categories)<=3 else max(category_pitch(categories,180),number_pitch(previous+current,28)*2+24)
+    plot_width=897 if len(categories)<=3 else max(897,pitch*len(categories));extra=plot_width-897
+    centers=[343+305*i for i in range(len(categories))] if len(categories)<=3 else [198+(i+.5)*plot_width/len(categories) for i in range(len(categories))]
+    label_width=252 if len(categories)<=3 else pitch-20;series_gap=max(100,number_pitch(previous+current,28));b=''
     for tick in ticks:
         y=baseline-height*tick/maximum
-        b+=line(198,y,1095,y,INK if tick==0 else PALE,3 if tick==0 else 1.5)+number(tick,165,y-12,24,GRAY,'right')
+        b+=line(198,y,1095+extra,y,INK if tick==0 else PALE,3 if tick==0 else 1.5)+number(tick,165,y-12,24,GRAY,'right')
     b+=rect(681,67,22,22,MID,3)+rect(897,67,22,22,BLUE,3)
     labels=[slot(65,49,360,63,'単位：'+data['unit']),slot(722,47,151,61,data['series'][0]['label'],align='left'),slot(938,47,210,61,data['series'][1]['label'],align='left')]
     for i,(x,label) in enumerate(zip(centers,categories)):
-        for offset,value,color in [(-84,previous[i],MID),(16,current[i],BLUE)]:
+        for offset,value,color in [(-series_gap/2-34,previous[i],MID),(series_gap/2-34,current[i],BLUE)]:
             bar_height=height*value/maximum;left=x+offset;top=baseline-bar_height
-            b+=rect(left,top,68,bar_height,color)+number(value,left+34,top-42,28,max_width=91)
-        labels.append(slot(x-126,594,252,63,label))
-    return chart('期間比較_項目ごとの前期と当期を比べる_集合棒グラフ作例','項目ごとに前期と当期を比べる','各項目の前期と当期を同じゼロ基準で並べる、二系列の集合棒グラフの作例。','集合棒 グループ 棒グラフ 前期 当期 比較 カテゴリ grouped clustered bar',b,labels,dict(is_sample=data['is_sample'],unit=data['unit'],categories=categories,series=data['series'],chart_type='grouped_bar',baseline=0,domain=data['domain'],ticks=ticks,plot=dict(x=198,y=150,width=897,height=height)),dict(use_case='複数項目について前期と当期の件数を比較する。',message='項目ごとの変化と項目間の差を同じ目盛りで読める。',reading=['各組の左が前期、右が当期。','棒の底は共通の0件、上端の数値は各作例値。','淡色と主色は期間の違いを示す。']))
+            b+=rect(left,top,68,bar_height,color)+number(value,left+34,top-42,28,max_width=series_gap-16)
+        labels.append(slot(x-label_width/2,594,label_width,87,label))
+    return chart('期間比較_項目ごとの前期と当期を比べる_集合棒グラフ作例','項目ごとに前期と当期を比べる','各項目の前期と当期を同じゼロ基準で並べる、二系列の集合棒グラフの作例。','集合棒 グループ 棒グラフ 前期 当期 比較 カテゴリ grouped clustered bar',b,labels,dict(is_sample=data['is_sample'],unit=data['unit'],categories=categories,series=data['series'],chart_type='grouped_bar',baseline=0,domain=data['domain'],ticks=ticks,plot=dict(x=198,y=150,width=897+extra,height=height)),dict(use_case='複数項目について前期と当期の件数を比較する。',message='項目ごとの変化と項目間の差を同じ目盛りで読める。',reading=['各組の左が前期、右が当期。','棒の底は共通の0件、上端の数値は各作例値。','淡色と主色は期間の違いを示す。']),size=(1200+extra,720))
 
 
 def stacked_percent(data=None):
     data=normalize('stacked_percent_bar',data)
-    categories=data['categories'];rows=[[s['values'][i] for s in data['series']] for i in range(3)];names=[s['label'] for s in data['series']];colors=[BLUE,SERIES_SECONDARY,MID]
-    x0=263;width=838;b=''
+    categories=data['categories'];rows=[[s['values'][i] for s in data['series']] for i in range(len(categories))];names=[s['label'] for s in data['series']];colors=[BLUE,SERIES_SECONDARY,MID]
+    x0=263;width=838;extra=max(0,len(categories)-3)*150;b=''
     for tick in [0,25,50,75,100]:
-        x=x0+width*tick/100;b+=line(x,155,x,568,PALE,1.5)+number(f'{tick}%',x,103,23,GRAY)
+        x=x0+width*tick/100;b+=line(x,155,x,568+extra,PALE,1.5)+number(f'{tick}%',x,103,23,GRAY)
     labels=[]
     for i,(category,values) in enumerate(zip(categories,rows)):
         y=189+i*150;left=x0
@@ -306,18 +327,21 @@ def stacked_percent(data=None):
             if x0<boundary<x0+width:b+=line(boundary,y,boundary,y+70,WHITE,1.8)
         assert abs(left-(x0+width))<1e-9
     for i,(label,color) in enumerate(zip(names,colors)):
-        x=294+i*286;b+=rect(x,638,22,22,color,3);labels.append(slot(x+43,618,179,63,label,align='left'))
+        x=294+i*286;b+=rect(x,638+extra,22,22,color,3);labels.append(slot(x+43,618+extra,179,63,label,align='left'))
     series=[dict(label=label,values=[row[i] for row in rows]) for i,label in enumerate(names)]
-    return chart('構成比較_同じ全体にそろえて内訳を比べる_100パーセント積上げ作例','全体を100%にそろえて構成を比べる','各行の合計を100%にそろえ、三つの区分の割合を比較する積上げ棒の作例。','積上げ 100パーセント 構成比 内訳 比較 割合 stacked normalized bar',b,labels,dict(is_sample=data['is_sample'],unit='%',categories=categories,series=series,chart_type='stacked_percent_bar',baseline=0,domain=[0,100],ticks=[0,25,50,75,100],totals=[sum(row) for row in rows],plot=dict(x=x0,y=189,width=width,height=370)),dict(use_case='総量の異なる複数の対象について、内訳の割合を比較する。',message='全体の長さをそろえることで構成の違いを読める。',reading=['どの行も左端が0%、右端が100%。','三つの区分は全行で同じ色と並び順。','各区分の長さは表示した割合と一致する。']))
+    return chart('構成比較_同じ全体にそろえて内訳を比べる_100パーセント積上げ作例','全体を100%にそろえて構成を比べる','各行の合計を100%にそろえ、三つの区分の割合を比較する積上げ棒の作例。','積上げ 100パーセント 構成比 内訳 比較 割合 stacked normalized bar',b,labels,dict(is_sample=data['is_sample'],unit='%',categories=categories,series=series,chart_type='stacked_percent_bar',baseline=0,domain=[0,100],ticks=[0,25,50,75,100],totals=[sum(row) for row in rows],plot=dict(x=x0,y=189,width=width,height=370+extra)),dict(use_case='総量の異なる複数の対象について、内訳の割合を比較する。',message='全体の長さをそろえることで構成の違いを読める。',reading=['どの行も左端が0%、右端が100%。','三つの区分は全行で同じ色と並び順。','各区分の長さは表示した割合と一致する。']),size=(1200,720+extra))
 
 
 def waterfall(data=None):
     data=normalize('waterfall',data)
-    categories=data['categories'];values=data['series'][0]['values'];types=['total','change','change','change','total']
-    baseline=577;height=420;maximum=data['domain'][1];centers=[270,450,630,810,990];bar_width=100
+    categories=data['categories'];values=data['series'][0]['values'];types=['total']+['change']*(len(categories)-2)+['total']
+    baseline=577;height=420;maximum=data['domain'][1];pitch=180 if len(categories)<=5 else max(category_pitch(categories,124),number_pitch(values,28,True))
+    plot_width=898 if len(categories)<=5 else max(898,pitch*len(categories));extra=plot_width-898
+    centers=[270+180*i for i in range(len(categories))] if len(categories)<=5 else [192+(i+.5)*plot_width/len(categories) for i in range(len(categories))]
+    bar_width=min(100,pitch*.56);label_width=176 if len(categories)<=5 else pitch-14
     b=''
     for tick in [maximum*i/4 for i in range(5)]:
-        y=baseline-height*tick/maximum;b+=line(192,y,1090,y,INK if tick==0 else PALE,3 if tick==0 else 1.5)+number(tick,158,y-12,24,GRAY,'right')
+        y=baseline-height*tick/maximum;b+=line(192,y,1090+extra,y,INK if tick==0 else PALE,3 if tick==0 else 1.5)+number(tick,158,y-12,24,GRAY,'right')
     labels=[slot(65,55,350,65,'単位：'+data['unit'])];running=0;totals=[]
     for i,(x,value,kind,label) in enumerate(zip(centers,values,types,categories)):
         before=0 if kind=='total' else running
@@ -326,13 +350,13 @@ def waterfall(data=None):
         top=baseline-height*high/maximum;bar_height=height*(high-low)/maximum
         b+=rect(x-bar_width/2,top,bar_width,bar_height,color)
         display=f'{value:g}' if kind=='total' else f'{value:+g}'
-        b+=number(display,x,top-43,28,color)
-        labels.append(slot(x-88,602,176,63,label))
+        b+=number(display,x,top-43,28,color,max_width=label_width)
+        labels.append(slot(x-label_width/2,602,label_width,88,label))
         running=after;totals.append(running)
         if i<len(centers)-1:
             y=baseline-height*running/maximum;b+=line(x+bar_width/2,y,centers[i+1]-bar_width/2,y,GRAY,2,'5 6')
     assert abs(totals[-1]-(values[0]+sum(values[1:-1])))<=max(1e-9,abs(totals[-1])*1e-9)
-    return chart('増減説明_期初から期末への変化を分解する_ウォーターフォール作例','期初から期末までの増減を分解する','100万円に40万円を加え、25万円を減らし、15万円を加えて130万円になる作例。','ウォーターフォール 滝 増減 差分 要因 分解 ブリッジ 期初 期末 waterfall',b,labels,dict(is_sample=data['is_sample'],unit=data['unit'],categories=categories,series=data['series'],chart_type='waterfall',step_types=types,running_totals=totals,baseline=0,domain=[0,maximum],ticks=[maximum*i/4 for i in range(5)],plot=dict(x=192,y=157,width=898,height=height)),dict(use_case='期初と期末の差を、増加要因と減少要因に分けて説明する。',message='各要因を足し引きすると最終値に一致する。',reading=['左端と右端の棒は期初100万円と期末130万円の合計。','プラスは増加要因、マイナスは減少要因。','破線は各段階の残高を次の棒へつなぐ。','100＋40−25＋15＝130で始点と終点が一致する。']))
+    return chart('増減説明_期初から期末への変化を分解する_ウォーターフォール作例','期初から期末までの増減を分解する','100万円に40万円を加え、25万円を減らし、15万円を加えて130万円になる作例。','ウォーターフォール 滝 増減 差分 要因 分解 ブリッジ 期初 期末 waterfall',b,labels,dict(is_sample=data['is_sample'],unit=data['unit'],categories=categories,series=data['series'],chart_type='waterfall',step_types=types,running_totals=totals,baseline=0,domain=[0,maximum],ticks=[maximum*i/4 for i in range(5)],plot=dict(x=192,y=157,width=898+extra,height=height)),dict(use_case='期初と期末の差を、増加要因と減少要因に分けて説明する。',message='各要因を足し引きすると最終値に一致する。',reading=['左端と右端の棒は期初100万円と期末130万円の合計。','プラスは増加要因、マイナスは減少要因。','破線は各段階の残高を次の棒へつなぐ。','100＋40−25＋15＝130で始点と終点が一致する。']),size=(1200+extra,720))
 
 
 def slope_comparison(data=None):
@@ -366,13 +390,16 @@ def slope_comparison(data=None):
 
 
 def make_assets():
-    return [progress_ring(),semicircle_gauge(),pictogram(),horizontal_bars(),vertical_bars(),line_chart(),pie_chart(),donut_chart(),grouped_bars(),stacked_percent(),waterfall(),slope_comparison()]
+    from sets.advanced_metrics import CHARTS
+    return [progress_ring(),semicircle_gauge(),pictogram(),horizontal_bars(),vertical_bars(),line_chart(),pie_chart(),donut_chart(),grouped_bars(),stacked_percent(),waterfall(),slope_comparison()]+[fn() for fn in CHARTS.values()]
 
 
 _CHARTS = dict(progress_ring=progress_ring, semicircle_gauge=semicircle_gauge, pictogram=pictogram, horizontal_bar=horizontal_bars, vertical_bar=vertical_bars, line=line_chart, pie=pie_chart, donut=donut_chart, grouped_bar=grouped_bars, stacked_percent_bar=stacked_percent, waterfall=waterfall, slope=slope_comparison)
 
 def render_chart(chart_type, data):
     """Render validated supplied data with a fixed, purpose-specific chart layout."""
-    if chart_type not in _CHARTS:raise ValueError(f'Unknown chart_type: {chart_type}')
+    from sets.advanced_metrics import CHARTS
+    available={**_CHARTS,**CHARTS}
+    if chart_type not in available:raise ValueError(f'Unknown chart_type: {chart_type}')
     if data is None:raise ValueError('data must be supplied; call make_assets() for sample artwork')
-    return _CHARTS[chart_type](data)
+    return available[chart_type](data)

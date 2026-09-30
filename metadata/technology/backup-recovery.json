@@ -1,5 +1,4 @@
 {
-  "category": "12-AIとデータ基盤",
   "title": "保存済みの状態から復旧する",
   "description": "障害前に保管したバックアップを使い、業務を再開できる状態へ復元する。",
   "keywords": [
@@ -89,6 +88,7 @@
       "右の矢印が保存済みの状態からの復元を表す。"
     ]
   },
+  "category": "12-情報・データ",
   "schema_version": 3,
   "id": "technology/backup-recovery",
   "name": "事業継続_保存済みの状態から復旧する_事前バックアップと復元",
@@ -111,5 +111,6 @@
     "data": false
   },
   "sha256": "71b0c918357c253053dccfb9d3898ce9a0c21e9c16b9fcb08b1844333e8efefd",
-  "size_bytes": 5543
+  "size_bytes": 5543,
+  "preview_sha256": "9949a1326c9b3f9042512ed0f098a38d489414f3c487f54898d25f0a205695f2"
 }

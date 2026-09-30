@@ -1,7 +1,6 @@
 {
   "title": "設備の状態を見守る",
   "kind": "illustration",
-  "category": "06-業務イラスト",
   "width": 1254,
   "height": 1254,
   "keywords": [
@@ -40,6 +39,7 @@
     "width": 1254,
     "height": 1254
   },
+  "category": "04-生産・設備",
   "schema_version": 3,
   "id": "illustration/machine-monitoring",
   "name": "設備の状態を見守る_メーカー業務の動作",

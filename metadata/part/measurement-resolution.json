@@ -1,0 +1,97 @@
+{
+  "title": "表示桁数と測定の細かさを区別する",
+  "description": "読み取れる刻みを超える桁は、測定の確かさを増やさない。",
+  "keywords": [
+    "有効桁",
+    "分解能",
+    "測定",
+    "精度",
+    "丸め",
+    "resolution",
+    "precision",
+    "digits"
+  ],
+  "labels": [
+    {
+      "x": 247,
+      "y": 29,
+      "width": 549,
+      "height": 57,
+      "text": "測定できる最小の刻み",
+      "role": "分解能",
+      "align": "center",
+      "color": "#2864F0",
+      "font_size": 32,
+      "id": "label-1",
+      "color_role": "accent",
+      "max_lines": 1,
+      "max_fullwidth_chars": 16
+    },
+    {
+      "x": 98,
+      "y": 236,
+      "width": 382,
+      "height": 77,
+      "text": "表示桁数を増やしても",
+      "role": "注意の前半",
+      "align": "left",
+      "color": "#153A6B",
+      "font_size": 30,
+      "id": "label-2",
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 12
+    },
+    {
+      "x": 572,
+      "y": 236,
+      "width": 455,
+      "height": 77,
+      "text": "測定精度は増えない",
+      "role": "注意の後半",
+      "align": "left",
+      "color": "#153A6B",
+      "font_size": 30,
+      "id": "label-3",
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 14
+    }
+  ],
+  "width": 1120,
+  "height": 380,
+  "kind": "part",
+  "guidance": {
+    "use_case": "測定値の小数桁や丸め方を説明する。",
+    "message": "読み取れる刻みを超える桁は、測定の確かさを増やさない。",
+    "reading": [
+      "等間隔の目盛りの一刻みを青い括りで示す。",
+      "丸は測定値を表す記号で、実測データではない。"
+    ]
+  },
+  "category": "03-品質・改善",
+  "schema_version": 3,
+  "id": "part/measurement-resolution",
+  "name": "表示桁数と測定の細かさを区別する_説明パーツ",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1120,
+    "height": 380
+  },
+  "path": "assets/part/measurement-resolution.svg",
+  "metadata_path": "metadata/part/measurement-resolution.json",
+  "preview_path": "previews/part/measurement-resolution.svg",
+  "preview_has_example_labels": true,
+  "search_text": "part/measurement-resolution\n表示桁数と測定の細かさを区別する_説明パーツ\n表示桁数と測定の細かさを区別する\n測定値の小数桁や丸め方を説明する。\n読み取れる刻みを超える桁は、測定の確かさを増やさない。\n等間隔の目盛りの一刻みを青い括りで示す。\n丸は測定値を表す記号で、実測データではない。\n有効桁 分解能 測定 精度 丸め resolution precision digits",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "302b33b30db53b8e86ed78af7559e5b8398426b87665585254fe4d01b4ae3d8d",
+  "size_bytes": 2413,
+  "preview_sha256": "55326bc64c8dcd2334240999580c8e89395d01e83f939939ba7f35f749403f91"
+}

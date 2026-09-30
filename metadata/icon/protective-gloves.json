@@ -1,0 +1,49 @@
+{
+  "title": "保護手袋",
+  "description": "手を覆って保護する。",
+  "keywords": [
+    "手袋",
+    "手",
+    "保護具",
+    "作業",
+    "glove",
+    "hand",
+    "protection"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "作業内容に応じた手の保護具を説明する。",
+    "message": "手を覆って保護する。",
+    "reading": [
+      "五本の指と手首までの輪郭が手袋を表す。",
+      "手首の帯が着用口を示す。"
+    ]
+  },
+  "category": "07-安全・事業継続",
+  "schema_version": 3,
+  "id": "icon/protective-gloves",
+  "name": "保護手袋_設備と働き",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/protective-gloves.svg",
+  "metadata_path": "metadata/icon/protective-gloves.json",
+  "preview_path": "assets/icon/protective-gloves.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/protective-gloves\n保護手袋_設備と働き\n保護手袋\n作業内容に応じた手の保護具を説明する。\n手を覆って保護する。\n五本の指と手首までの輪郭が手袋を表す。\n手首の帯が着用口を示す。\n手袋 手 保護具 作業 glove hand protection",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "942ba4472c6164bf73afc5779c86c35c04af983a455ac23acf6824bfadd83fa1",
+  "size_bytes": 761
+}

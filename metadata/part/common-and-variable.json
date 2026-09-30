@@ -1,0 +1,113 @@
+{
+  "title": "共通の土台と用途ごとの差を分ける",
+  "description": "土台を共通にしながら、用途に必要な違いを持たせる。",
+  "keywords": [
+    "共通化",
+    "標準",
+    "可変",
+    "差異",
+    "共通部分",
+    "variant",
+    "common",
+    "core",
+    "modular"
+  ],
+  "labels": [
+    {
+      "x": 57,
+      "y": 231,
+      "width": 1004,
+      "height": 57,
+      "text": "共通して使う土台",
+      "role": "共通部分",
+      "align": "center",
+      "color": "#FFFFFF",
+      "font_size": 32,
+      "id": "label-1",
+      "color_role": "paper",
+      "max_lines": 1,
+      "max_fullwidth_chars": 29
+    },
+    {
+      "x": 105,
+      "y": 109,
+      "width": 219,
+      "height": 93,
+      "text": "用途 A の\n違い",
+      "role": "可変部分",
+      "align": "center",
+      "color": "#2864F0",
+      "font_size": 29,
+      "id": "label-2",
+      "color_role": "accent",
+      "max_lines": 2,
+      "max_fullwidth_chars": 7
+    },
+    {
+      "x": 450,
+      "y": 80,
+      "width": 219,
+      "height": 113,
+      "text": "用途 B の\n違い",
+      "role": "可変部分",
+      "align": "center",
+      "color": "#2864F0",
+      "font_size": 29,
+      "id": "label-3",
+      "color_role": "accent",
+      "max_lines": 2,
+      "max_fullwidth_chars": 7
+    },
+    {
+      "x": 795,
+      "y": 124,
+      "width": 219,
+      "height": 73,
+      "text": "用途 C の違い",
+      "role": "可変部分",
+      "align": "center",
+      "color": "#2864F0",
+      "font_size": 25.185,
+      "id": "label-4",
+      "color_role": "accent",
+      "max_lines": 2,
+      "max_fullwidth_chars": 8
+    }
+  ],
+  "width": 1120,
+  "height": 380,
+  "kind": "part",
+  "guidance": {
+    "use_case": "標準化の対象と個別に残す違いを説明する。",
+    "message": "土台を共通にしながら、用途に必要な違いを持たせる。",
+    "reading": [
+      "一つにつながる濃い帯が共通部分、上の別々の枠が可変部分。",
+      "高さの違いは量的な値ではなく、形の違いを示す。"
+    ]
+  },
+  "category": "13-説明・伝達",
+  "schema_version": 3,
+  "id": "part/common-and-variable",
+  "name": "共通の土台と用途ごとの差を分ける_説明パーツ",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1120,
+    "height": 380
+  },
+  "path": "assets/part/common-and-variable.svg",
+  "metadata_path": "metadata/part/common-and-variable.json",
+  "preview_path": "previews/part/common-and-variable.svg",
+  "preview_has_example_labels": true,
+  "search_text": "part/common-and-variable\n共通の土台と用途ごとの差を分ける_説明パーツ\n共通の土台と用途ごとの差を分ける\n標準化の対象と個別に残す違いを説明する。\n土台を共通にしながら、用途に必要な違いを持たせる。\n一つにつながる濃い帯が共通部分、上の別々の枠が可変部分。\n高さの違いは量的な値ではなく、形の違いを示す。\n共通化 標準 可変 差異 共通部分 variant common core modular",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "7b39e44baf00f51956b2ec11fe2c1c8fcc24443f70e65f93d34bbc93ae853321",
+  "size_bytes": 947,
+  "preview_sha256": "48ab030351c50d0d8c2973cc888ef77e4e58a814afd2295d62f50ac3accc167b"
+}

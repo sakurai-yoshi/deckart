@@ -1,0 +1,50 @@
+{
+  "title": "見積",
+  "description": "提供条件に対応する価格を示す。",
+  "keywords": [
+    "見積",
+    "提案",
+    "金額",
+    "価格",
+    "quotation",
+    "estimate",
+    "pricing",
+    "offer"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "条件と価格を提示する見積の工程を示す。",
+    "message": "提供条件に対応する価格を示す。",
+    "reading": [
+      "紙の中の項目線が提供する条件を表す。",
+      "大きな金額記号が見積価格を表す。"
+    ]
+  },
+  "category": "10-顧客・営業",
+  "schema_version": 3,
+  "id": "icon/quotation",
+  "name": "見積_仕事と関係",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/quotation.svg",
+  "metadata_path": "metadata/icon/quotation.json",
+  "preview_path": "assets/icon/quotation.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/quotation\n見積_仕事と関係\n見積\n条件と価格を提示する見積の工程を示す。\n提供条件に対応する価格を示す。\n紙の中の項目線が提供する条件を表す。\n大きな金額記号が見積価格を表す。\n見積 提案 金額 価格 quotation estimate pricing offer",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "3ae1f8851ac245a59693a2f5dd4eb6fa596128c9ae52d19fe3221197e4f9cb92",
+  "size_bytes": 804
+}

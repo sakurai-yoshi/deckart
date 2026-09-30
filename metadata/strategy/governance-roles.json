@@ -1,5 +1,4 @@
 {
-  "category": "05-組織と戦略",
   "title": "判断・実行・支援の関係を分ける",
   "description": "意思決定と実行の間で方針と結果を往復し、共通の支援基盤が実行を支える。",
   "keywords": [
@@ -102,6 +101,7 @@
     ]
   },
   "kind": "diagram",
+  "category": "01-経営・意思決定",
   "schema_version": 3,
   "id": "strategy/governance-roles",
   "name": "運営設計_意思決定と実行と支援_循環する統治",
@@ -124,5 +124,6 @@
     "data": false
   },
   "sha256": "3d2647455ecb8781894b99a7263cbf7fcb6b1b33b90328a1b8281997917e29f3",
-  "size_bytes": 1687
+  "size_bytes": 1687,
+  "preview_sha256": "c42f37940de969941162f26b18e73a44daa36fdf3b97d68b5371b97d4518cd27"
 }

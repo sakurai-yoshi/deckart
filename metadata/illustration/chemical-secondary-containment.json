@@ -1,0 +1,56 @@
+{
+  "title": "容器を受け皿に収めて漏れに備える",
+  "description": "液体容器を縁のある受け皿へ収め、漏れの広がりに備える構成。",
+  "kind": "illustration",
+  "width": 1402,
+  "height": 1122,
+  "labels": [],
+  "composition": {
+    "framing": "object",
+    "facing": "front"
+  },
+  "keywords": [
+    "化学品",
+    "漏えい",
+    "二次容器",
+    "保管",
+    "spill containment",
+    "漏えい対策"
+  ],
+  "guidance": {
+    "use_case": "液体を保管・使用する場所で、容器からの漏れに備える方法を説明する場面。",
+    "message": "容器の外側にも、漏れを受ける備えを置く。",
+    "reading": [
+      "蓋をした二つの容器が、周囲に縁のあるトレーの内側へ収まっている。",
+      "トレー内の小さな滴が、こぼれた液体を受ける関係を示す。"
+    ]
+  },
+  "preview_path": "previews/illustration/chemical-secondary-containment.png",
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/enterprise-illustrations.json"
+  },
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": true,
+  "canvas": {
+    "width": 1402,
+    "height": 1122
+  },
+  "category": "07-安全・事業継続",
+  "schema_version": 3,
+  "id": "illustration/chemical-secondary-containment",
+  "name": "容器を受け皿に収めて漏れに備える_業務イラスト",
+  "license": "CC0-1.0",
+  "path": "media/illustration/chemical-secondary-containment.png",
+  "metadata_path": "metadata/illustration/chemical-secondary-containment.json",
+  "preview_has_example_labels": false,
+  "search_text": "illustration/chemical-secondary-containment\n容器を受け皿に収めて漏れに備える_業務イラスト\n容器を受け皿に収めて漏れに備える\n液体を保管・使用する場所で、容器からの漏れに備える方法を説明する場面。\n容器の外側にも、漏れを受ける備えを置く。\n蓋をした二つの容器が、周囲に縁のあるトレーの内側へ収まっている。\nトレー内の小さな滴が、こぼれた液体を受ける関係を示す。\n化学品 漏えい 二次容器 保管 spill containment 漏えい対策\nobject 物 道具 front 正面",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "d491cd17e9dbe7f0cae5c17c806ec664b1b483530fd54b2aa5dcce8e80d032aa",
+  "size_bytes": 742471
+}

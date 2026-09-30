@@ -1,0 +1,56 @@
+{
+  "title": "非常時に必要な備品を整える",
+  "description": "ライトと救急用品を入れたバッグにボトルを添えた、非常時の備品の構成。",
+  "kind": "illustration",
+  "width": 1312,
+  "height": 1199,
+  "labels": [],
+  "composition": {
+    "framing": "object",
+    "facing": "front"
+  },
+  "keywords": [
+    "防災",
+    "非常用",
+    "備蓄",
+    "事業継続",
+    "emergency",
+    "preparedness"
+  ],
+  "guidance": {
+    "use_case": "防災や事業継続の説明で、非常時に持ち出す備品をまとめて用意する場面。",
+    "message": "必要な物をまとめ、持ち出せる状態に備える。",
+    "reading": [
+      "開いた持ち出しバッグの中にライトと救急用品のケースが収まっている。",
+      "隣に置いたボトルを含め、持ち運ぶ備品の組合せを示す。"
+    ]
+  },
+  "preview_path": "previews/illustration/emergency-readiness.png",
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/enterprise-illustrations.json"
+  },
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": true,
+  "canvas": {
+    "width": 1312,
+    "height": 1199
+  },
+  "category": "07-安全・事業継続",
+  "schema_version": 3,
+  "id": "illustration/emergency-readiness",
+  "name": "非常時に必要な備品を整える_業務イラスト",
+  "license": "CC0-1.0",
+  "path": "media/illustration/emergency-readiness.png",
+  "metadata_path": "metadata/illustration/emergency-readiness.json",
+  "preview_has_example_labels": false,
+  "search_text": "illustration/emergency-readiness\n非常時に必要な備品を整える_業務イラスト\n非常時に必要な備品を整える\n防災や事業継続の説明で、非常時に持ち出す備品をまとめて用意する場面。\n必要な物をまとめ、持ち出せる状態に備える。\n開いた持ち出しバッグの中にライトと救急用品のケースが収まっている。\n隣に置いたボトルを含め、持ち運ぶ備品の組合せを示す。\n防災 非常用 備蓄 事業継続 emergency preparedness\nobject 物 道具 front 正面",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "f337bb51431752b5cb51f725a88d0a5c6661a6aebbf96379045e206821fa5c73",
+  "size_bytes": 1565151
+}

@@ -1,0 +1,149 @@
+{
+  "title": "データの出所と変換をたどる",
+  "description": "データの出所と変換処理を記録し、結果から元へたどれるようにする。",
+  "keywords": [
+    "データリネージ",
+    "来歴",
+    "変換",
+    "結合",
+    "派生",
+    "追跡",
+    "data",
+    "lineage",
+    "transformation",
+    "provenance"
+  ],
+  "labels": [
+    {
+      "x": 88,
+      "y": 152,
+      "width": 214,
+      "height": 89,
+      "text": "元データ A",
+      "role": "対象",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-1",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 7
+    },
+    {
+      "x": 88,
+      "y": 445,
+      "width": 214,
+      "height": 89,
+      "text": "元データ B",
+      "role": "対象",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-2",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 7
+    },
+    {
+      "x": 503,
+      "y": 283,
+      "width": 224,
+      "height": 126,
+      "text": "結合・変換",
+      "role": "対象",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-3",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 3,
+      "max_fullwidth_chars": 7
+    },
+    {
+      "x": 888,
+      "y": 283,
+      "width": 227,
+      "height": 126,
+      "text": "派生したデータ",
+      "role": "対象",
+      "align": "center",
+      "color": "#FFFFFF",
+      "id": "label-4",
+      "font_size": 27,
+      "color_role": "paper",
+      "max_lines": 3,
+      "max_fullwidth_chars": 7
+    },
+    {
+      "x": 366,
+      "y": 579,
+      "width": 640,
+      "height": 57,
+      "text": "出所と変換内容をたどれるように残す",
+      "role": "説明",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-5",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 22
+    },
+    {
+      "x": 344,
+      "y": 73,
+      "width": 727,
+      "height": 64,
+      "text": "完成したデータだけでなく、作られた経路も管理",
+      "role": "説明",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-6",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 25
+    }
+  ],
+  "width": 1200,
+  "height": 720,
+  "kind": "diagram",
+  "guidance": {
+    "use_case": "分析結果の確認や修正影響の調査で、派生データの来歴を説明する。",
+    "message": "データの出所と変換処理を記録し、結果から元へたどれるようにする。",
+    "reading": [
+      "二つの元データが結合・変換を通り派生データになる。",
+      "下の破線が来歴をたどる参照関係。",
+      "元の値を保持するだけでなく、どう変換したかも対応させる。"
+    ]
+  },
+  "layout": {
+    "relation": "source-transform-derived-lineage",
+    "reading_direction": "left-to-right"
+  },
+  "category": "12-情報・データ",
+  "schema_version": 3,
+  "id": "data/transformation-lineage",
+  "name": "データの出所と変換をたどる_業務の関係を示す図解",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1200,
+    "height": 720
+  },
+  "path": "assets/data/transformation-lineage.svg",
+  "metadata_path": "metadata/data/transformation-lineage.json",
+  "preview_path": "previews/data/transformation-lineage.svg",
+  "preview_has_example_labels": true,
+  "search_text": "data/transformation-lineage\nデータの出所と変換をたどる_業務の関係を示す図解\nデータの出所と変換をたどる\n分析結果の確認や修正影響の調査で、派生データの来歴を説明する。\nデータの出所と変換処理を記録し、結果から元へたどれるようにする。\n二つの元データが結合・変換を通り派生データになる。\n下の破線が来歴をたどる参照関係。\n元の値を保持するだけでなく、どう変換したかも対応させる。\nデータリネージ 来歴 変換 結合 派生 追跡 data lineage transformation provenance",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "891dbdd88ced43b816a69fceacfb959375eea24a5b6366a3642189170d38179c",
+  "size_bytes": 1798,
+  "preview_sha256": "51649e20cd0a6b807c824bc3cb0cf0107cfb5d536446a573adbcd3c53a04c20a"
+}

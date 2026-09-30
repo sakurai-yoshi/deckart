@@ -1,0 +1,50 @@
+{
+  "title": "水の再利用",
+  "description": "水を一度の使用で終わらせず循環させる。",
+  "keywords": [
+    "水",
+    "再利用",
+    "循環",
+    "再生水",
+    "reuse",
+    "recycled",
+    "water",
+    "circulation"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "工程で使う水を回収して再利用する取り組みを示す。",
+    "message": "水を一度の使用で終わらせず循環させる。",
+    "reading": [
+      "中央の水滴が再利用する水を表す。",
+      "往復する外側の経路が回収と再供給を示す。"
+    ]
+  },
+  "category": "08-環境・資源",
+  "schema_version": 3,
+  "id": "icon/water-reuse",
+  "name": "水の再利用_設備と働き",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/water-reuse.svg",
+  "metadata_path": "metadata/icon/water-reuse.json",
+  "preview_path": "assets/icon/water-reuse.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/water-reuse\n水の再利用_設備と働き\n水の再利用\n工程で使う水を回収して再利用する取り組みを示す。\n水を一度の使用で終わらせず循環させる。\n中央の水滴が再利用する水を表す。\n往復する外側の経路が回収と再供給を示す。\n水 再利用 循環 再生水 reuse recycled water circulation",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "8d7f1bfb666f130eea61ff5f12722aa2cd376c88929dab0d8022989c21f6cff2",
+  "size_bytes": 998
+}

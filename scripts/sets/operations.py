@@ -4,7 +4,7 @@ from vector import path, rect, circle, line, poly, arrow, check, slot, asset
 
 
 def item(key,name,title,description,keywords,body,labels,guidance,relation,direction='left-to-right'):
-    a=asset(name,'01-業務プロセス',title,description,keywords,body,labels)
+    a=asset(name,title,description,keywords,body,labels)
     a.update(key=key,kind='diagram',guidance=guidance,
              layout=dict(relation=relation,reading_direction=direction))
     return a

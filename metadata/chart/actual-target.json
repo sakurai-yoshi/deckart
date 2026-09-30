@@ -1,0 +1,267 @@
+{
+  "title": "実績と目標の位置を同じ尺度で比べる",
+  "description": "実績を横棒、目標を細い縦線として重ね、達成と差を確認する作例。",
+  "keywords": [
+    "実績",
+    "目標",
+    "達成",
+    "ギャップ",
+    "バレット",
+    "actual",
+    "target",
+    "bullet",
+    "comparison",
+    "goal"
+  ],
+  "labels": [
+    {
+      "x": 66,
+      "y": 38,
+      "width": 327,
+      "height": 61,
+      "text": "単位：件",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-1",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 11
+    },
+    {
+      "x": 841,
+      "y": 31,
+      "width": 294,
+      "height": 60,
+      "text": "棒：実績",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-2",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 10
+    },
+    {
+      "x": 841,
+      "y": 91,
+      "width": 294,
+      "height": 60,
+      "text": "線：目標",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-3",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 10
+    },
+    {
+      "x": 60,
+      "y": 207,
+      "width": 207,
+      "height": 80,
+      "text": "項目 A",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-4",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 7
+    },
+    {
+      "x": 60,
+      "y": 331,
+      "width": 207,
+      "height": 80,
+      "text": "項目 B",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-5",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 7
+    },
+    {
+      "x": 60,
+      "y": 455,
+      "width": 207,
+      "height": 80,
+      "text": "項目 C",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-6",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 7
+    }
+  ],
+  "width": 1200,
+  "height": 720,
+  "kind": "chart",
+  "data": {
+    "is_sample": true,
+    "categories": [
+      "項目 A",
+      "項目 B",
+      "項目 C"
+    ],
+    "series": [
+      {
+        "label": "実績",
+        "values": [
+          72,
+          94,
+          60
+        ]
+      },
+      {
+        "label": "目標",
+        "values": [
+          80,
+          90,
+          75
+        ]
+      }
+    ],
+    "unit": "件",
+    "domain": [
+      0,
+      100
+    ],
+    "chart_type": "actual_target",
+    "baseline": 0,
+    "ticks": [
+      0.0,
+      25.0,
+      50.0,
+      75.0,
+      100.0
+    ],
+    "marks": [
+      {
+        "actual_x": 775.96,
+        "target_x": 829.4,
+        "y": 246
+      },
+      {
+        "actual_x": 922.92,
+        "target_x": 896.2,
+        "y": 370
+      },
+      {
+        "actual_x": 695.8,
+        "target_x": 796.0,
+        "y": 494
+      }
+    ],
+    "plot": {
+      "x": 295,
+      "y": 188,
+      "width": 668,
+      "height": 409
+    },
+    "number_format": {
+      "maximum_significant_digits": 6,
+      "minimum_significant_digits": 3,
+      "large_or_small_values": "E notation",
+      "source_values": "series"
+    }
+  },
+  "guidance": {
+    "use_case": "項目ごとの実績と目標を同じ単位で比較し、届いた範囲を共有する。",
+    "message": "実績が目標を超えたか、どの程度届いていないかを同じ尺度で読める。",
+    "reading": [
+      "主色の棒が実績、濃い縦線が目標。",
+      "右端の上の値が実績、下の値が目標。",
+      "目標の線を棒が越える項目も、そのまま比較できる。"
+    ]
+  },
+  "category": "13-説明・伝達",
+  "schema_version": 3,
+  "id": "chart/actual-target",
+  "name": "目標対比_実績の棒と目標線を重ねる_実績目標グラフ作例",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1200,
+    "height": 720
+  },
+  "path": "assets/chart/actual-target.svg",
+  "metadata_path": "metadata/chart/actual-target.json",
+  "preview_path": "previews/chart/actual-target.svg",
+  "preview_has_example_labels": true,
+  "search_text": "chart/actual-target\n目標対比_実績の棒と目標線を重ねる_実績目標グラフ作例\n実績と目標の位置を同じ尺度で比べる\n項目ごとの実績と目標を同じ単位で比較し、届いた範囲を共有する。\n実績が目標を超えたか、どの程度届いていないかを同じ尺度で読める。\n主色の棒が実績、濃い縦線が目標。\n右端の上の値が実績、下の値が目標。\n目標の線を棒が越える項目も、そのまま比較できる。\n実績 目標 達成 ギャップ バレット actual target bullet comparison goal",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": true
+  },
+  "data_input": {
+    "chart_type": "actual_target",
+    "category_count": {
+      "minimum": 1
+    },
+    "series_count": 2,
+    "values_per_series": "categoriesと同数",
+    "required": [
+      "categories",
+      "series",
+      "unit"
+    ],
+    "constraints": [
+      "表示値は最大6有効桁。丸める場合も3有効桁以上を保つ。E表記で収まらない値は単位か小数桁を調整。入力値はseriesに保持。",
+      "文字は大判24px、小判20px以上で収まる長さ。収まらないカテゴリ名・系列名・単位は短縮して入力。",
+      "有限な数値。絶対値は1兆以下。大きな値は単位を変更して入力。",
+      "categoriesは16文字以内、series.label・unitは12文字以内。",
+      "値は0以上。",
+      "domainは[0,上限]。省略時は値から計算。上限は全値・残高以上。",
+      "カテゴリ数に応じて描画領域が拡張される。拡張後のwidth/heightを使って配置。",
+      "series[0]が実績、series[1]が目標。各カテゴリで同じ単位を使う。"
+    ],
+    "example": {
+      "categories": [
+        "項目 A",
+        "項目 B",
+        "項目 C"
+      ],
+      "series": [
+        {
+          "label": "実績",
+          "values": [
+            72,
+            94,
+            60
+          ]
+        },
+        {
+          "label": "目標",
+          "values": [
+            80,
+            90,
+            75
+          ]
+        }
+      ],
+      "unit": "件",
+      "domain": [
+        0,
+        100
+      ]
+    }
+  },
+  "sha256": "1d93286d3c927dc0cb5baf34073c34e1ea778be08b6312d731d6a72d54267b3b",
+  "size_bytes": 7648,
+  "preview_sha256": "5024ad8035edcd1fa488716454729313902822b1ef48058897f4481072b0c6b0"
+}

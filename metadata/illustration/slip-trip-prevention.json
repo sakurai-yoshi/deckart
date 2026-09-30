@@ -1,0 +1,56 @@
+{
+  "title": "足元の配線を保護する",
+  "description": "床上のケーブルを緩い傾斜のカバーに収めた、足元の配線保護。",
+  "kind": "illustration",
+  "width": 1536,
+  "height": 1024,
+  "labels": [],
+  "composition": {
+    "framing": "object",
+    "facing": "front"
+  },
+  "keywords": [
+    "転倒",
+    "つまずき",
+    "配線",
+    "通路",
+    "trip prevention",
+    "cable cover"
+  ],
+  "guidance": {
+    "use_case": "作業場所や通路の配線を見直し、足元の段差やケーブルへの対策を説明する場面。",
+    "message": "むき出しのケーブルを覆い、通る場所を整える。",
+    "reading": [
+      "ケーブルが、両側に傾斜のあるカバーの内部を通っている。",
+      "カバーの外へ続くコードと両端のコネクターで、保護する対象を示す。"
+    ]
+  },
+  "preview_path": "previews/illustration/slip-trip-prevention.png",
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/enterprise-illustrations.json"
+  },
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": true,
+  "canvas": {
+    "width": 1536,
+    "height": 1024
+  },
+  "category": "07-安全・事業継続",
+  "schema_version": 3,
+  "id": "illustration/slip-trip-prevention",
+  "name": "足元の配線を保護する_業務イラスト",
+  "license": "CC0-1.0",
+  "path": "media/illustration/slip-trip-prevention.png",
+  "metadata_path": "metadata/illustration/slip-trip-prevention.json",
+  "preview_has_example_labels": false,
+  "search_text": "illustration/slip-trip-prevention\n足元の配線を保護する_業務イラスト\n足元の配線を保護する\n作業場所や通路の配線を見直し、足元の段差やケーブルへの対策を説明する場面。\nむき出しのケーブルを覆い、通る場所を整える。\nケーブルが、両側に傾斜のあるカバーの内部を通っている。\nカバーの外へ続くコードと両端のコネクターで、保護する対象を示す。\n転倒 つまずき 配線 通路 trip prevention cable cover\nobject 物 道具 front 正面",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "45e56d3e595446536bc900118c62c4fde0b3c6cfdde5fc038e4cbec29a4711de",
+  "size_bytes": 1061313
+}

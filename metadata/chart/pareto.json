@@ -1,0 +1,278 @@
+{
+  "title": "大きい要因から累積の割合を読む",
+  "description": "要因を大きい順へ整列した棒と、全体に占める累積割合の線を重ねる作例。",
+  "keywords": [
+    "パレート",
+    "要因",
+    "重点",
+    "順位",
+    "累積",
+    "構成比",
+    "pareto",
+    "concentration",
+    "cumulative",
+    "causes"
+  ],
+  "labels": [
+    {
+      "x": 62,
+      "y": 30,
+      "width": 410,
+      "height": 63,
+      "text": "棒の単位：件",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-1",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 14
+    },
+    {
+      "x": 602,
+      "y": 30,
+      "width": 434,
+      "height": 63,
+      "text": "線：累積構成比（%）",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-2",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 15
+    },
+    {
+      "x": 193.0,
+      "y": 618,
+      "width": 123,
+      "height": 82,
+      "text": "原因 A",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-3",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 4
+    },
+    {
+      "x": 356.0,
+      "y": 618,
+      "width": 123,
+      "height": 82,
+      "text": "原因 B",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-4",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 4
+    },
+    {
+      "x": 519.0,
+      "y": 618,
+      "width": 123,
+      "height": 82,
+      "text": "原因 C",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-5",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 4
+    },
+    {
+      "x": 682.0,
+      "y": 618,
+      "width": 123,
+      "height": 82,
+      "text": "原因 D",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-6",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 4
+    },
+    {
+      "x": 845.0,
+      "y": 618,
+      "width": 123,
+      "height": 82,
+      "text": "原因 E",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-7",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 4
+    }
+  ],
+  "width": 1200,
+  "height": 720,
+  "kind": "chart",
+  "data": {
+    "is_sample": true,
+    "categories": [
+      "原因 A",
+      "原因 B",
+      "原因 C",
+      "原因 D",
+      "原因 E"
+    ],
+    "series": [
+      {
+        "label": "件数",
+        "values": [
+          40,
+          25,
+          18,
+          10,
+          7
+        ]
+      }
+    ],
+    "unit": "件",
+    "domain": [
+      0,
+      40
+    ],
+    "chart_type": "pareto",
+    "baseline": 0,
+    "ticks": [
+      0.0,
+      10.0,
+      20.0,
+      30.0,
+      40.0
+    ],
+    "sorted_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "ordered_categories": [
+      "原因 A",
+      "原因 B",
+      "原因 C",
+      "原因 D",
+      "原因 E"
+    ],
+    "cumulative_percent": [
+      40.0,
+      65.0,
+      83.0,
+      93.0,
+      100.0
+    ],
+    "cumulative_domain": [
+      0,
+      100
+    ],
+    "plot": {
+      "x": 173,
+      "y": 160,
+      "width": 815,
+      "height": 399
+    },
+    "number_format": {
+      "maximum_significant_digits": 6,
+      "minimum_significant_digits": 3,
+      "large_or_small_values": "E notation",
+      "source_values": "series"
+    }
+  },
+  "guidance": {
+    "use_case": "不良や問い合わせなどの要因を整理し、全体へ大きく寄与する対象を見つける。",
+    "message": "要因の大きさと、上位からどれだけ全体を占めるかを同時に読める。",
+    "reading": [
+      "棒は左の目盛りで読み、大きい順に並ぶ。",
+      "濃い線は右の目盛りで累積構成比を示し、最後は100%。",
+      "棒の下は件数であり、割合の数値ではない。"
+    ]
+  },
+  "category": "13-説明・伝達",
+  "schema_version": 3,
+  "id": "chart/pareto",
+  "name": "重点原因_大きい要因と累積割合を読む_パレート図作例",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1200,
+    "height": 720
+  },
+  "path": "assets/chart/pareto.svg",
+  "metadata_path": "metadata/chart/pareto.json",
+  "preview_path": "previews/chart/pareto.svg",
+  "preview_has_example_labels": true,
+  "search_text": "chart/pareto\n重点原因_大きい要因と累積割合を読む_パレート図作例\n大きい要因から累積の割合を読む\n不良や問い合わせなどの要因を整理し、全体へ大きく寄与する対象を見つける。\n要因の大きさと、上位からどれだけ全体を占めるかを同時に読める。\n棒は左の目盛りで読み、大きい順に並ぶ。\n濃い線は右の目盛りで累積構成比を示し、最後は100%。\n棒の下は件数であり、割合の数値ではない。\nパレート 要因 重点 順位 累積 構成比 pareto concentration cumulative causes",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": true
+  },
+  "data_input": {
+    "chart_type": "pareto",
+    "category_count": {
+      "minimum": 2
+    },
+    "series_count": 1,
+    "values_per_series": "categoriesと同数",
+    "required": [
+      "categories",
+      "series",
+      "unit"
+    ],
+    "constraints": [
+      "表示値は最大6有効桁。丸める場合も3有効桁以上を保つ。E表記で収まらない値は単位か小数桁を調整。入力値はseriesに保持。",
+      "文字は大判24px、小判20px以上で収まる長さ。収まらないカテゴリ名・系列名・単位は短縮して入力。",
+      "有限な数値。絶対値は1兆以下。大きな値は単位を変更して入力。",
+      "categoriesは16文字以内、series.label・unitは12文字以内。",
+      "値は0以上。",
+      "domainは[0,上限]。省略時は値から計算。上限は全値・残高以上。",
+      "カテゴリ数に応じて描画領域が拡張される。拡張後のwidth/heightを使って配置。",
+      "合計は0より大きい値。描画時に降順で整列。categoriesとseriesの元の順序を保持し、sorted_indicesに描画順を記録。"
+    ],
+    "example": {
+      "categories": [
+        "原因 A",
+        "原因 B",
+        "原因 C",
+        "原因 D",
+        "原因 E"
+      ],
+      "series": [
+        {
+          "label": "件数",
+          "values": [
+            40,
+            25,
+            18,
+            10,
+            7
+          ]
+        }
+      ],
+      "unit": "件"
+    }
+  },
+  "sha256": "244eb641b53e30db175955a4e4cbfd95f905ca9e853ea849ae0a6a6a962808d9",
+  "size_bytes": 12036,
+  "preview_sha256": "975af3a6230081db037d7987d609eb55574be63edd50ef716f547b099033465d"
+}

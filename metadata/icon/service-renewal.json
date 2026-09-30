@@ -1,0 +1,50 @@
+{
+  "title": "契約更新",
+  "description": "契約を見直して次の期間へつなぐ。",
+  "keywords": [
+    "更新",
+    "契約",
+    "継続",
+    "サービス",
+    "renewal",
+    "subscription",
+    "extension",
+    "continuity"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "契約期間の終了後に継続を確認する工程を示す。",
+    "message": "契約を見直して次の期間へつなぐ。",
+    "reading": [
+      "中央の書類が契約の内容を表す。",
+      "書類を囲む経路が継続する期間を表す。"
+    ]
+  },
+  "category": "10-顧客・営業",
+  "schema_version": 3,
+  "id": "icon/service-renewal",
+  "name": "契約更新_仕事と関係",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/service-renewal.svg",
+  "metadata_path": "metadata/icon/service-renewal.json",
+  "preview_path": "assets/icon/service-renewal.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/service-renewal\n契約更新_仕事と関係\n契約更新\n契約期間の終了後に継続を確認する工程を示す。\n契約を見直して次の期間へつなぐ。\n中央の書類が契約の内容を表す。\n書類を囲む経路が継続する期間を表す。\n更新 契約 継続 サービス renewal subscription extension continuity",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "97a43e9eb1011f11b037b60f85a0407a742c673b78401f946ce4b6b7b5682724",
+  "size_bytes": 1069
+}

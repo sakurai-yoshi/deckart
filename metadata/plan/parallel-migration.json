@@ -1,5 +1,4 @@
 {
-  "category": "04-計画と進捗",
   "title": "並行運用から稼働系を切り替える",
   "description": "旧環境と新環境の並行期間、データ移行、稼働系の切替点を説明する。",
   "keywords": [
@@ -135,6 +134,7 @@
     ]
   },
   "kind": "diagram",
+  "category": "02-計画・進捗",
   "schema_version": 3,
   "id": "plan/parallel-migration",
   "name": "移行計画_並行運用から稼働系を切り替える_新旧の切替経路",
@@ -157,5 +157,6 @@
     "data": false
   },
   "sha256": "b1e7efe7f2e2b29f1dbb2cd1ff20b8365561b1bad6c3fc64d727c194c7594127",
-  "size_bytes": 3055
+  "size_bytes": 3055,
+  "preview_sha256": "a5fd8ed682169c96801b99152341c716fb66e4df05487942444d958ef5f373f0"
 }

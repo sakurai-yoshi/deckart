@@ -1,5 +1,4 @@
 {
-  "category": "10-数値とグラフ",
   "title": "10人中7人の割合を示す",
   "description": "同じ大きさの人物10体のうち7体を主色で塗り、70%を示すピクトグラムの作例。",
   "keywords": [
@@ -86,6 +85,7 @@
       "7人を10人で割った割合が70%。"
     ]
   },
+  "category": "13-説明・伝達",
   "schema_version": 3,
   "id": "chart/pictogram",
   "name": "人数比較_全体に占める対象の割合_10人中7人作例",
@@ -145,5 +145,6 @@
     }
   },
   "sha256": "b9c7f9568b7706364e17be59e0431245d754d81c477db603c7c2c98af407577a",
-  "size_bytes": 5765
+  "size_bytes": 5765,
+  "preview_sha256": "dc18e9d38239565efc66f242abeb2700d1c78765a3d350a18af4c3480747d6e3"
 }

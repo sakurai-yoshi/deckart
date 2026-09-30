@@ -1,0 +1,49 @@
+{
+  "title": "接着",
+  "description": "接合面へ接着剤を塗る。",
+  "keywords": [
+    "接着",
+    "塗布",
+    "接合",
+    "接着剤",
+    "adhesive",
+    "bonding",
+    "application"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "接着剤を塗布して部品を貼り合わせる工程を示す。",
+    "message": "接合面へ接着剤を塗る。",
+    "reading": [
+      "先端から出る滴が接着剤を表す。",
+      "二枚の部材の間の線が接着面を示す。"
+    ]
+  },
+  "category": "04-生産・設備",
+  "schema_version": 3,
+  "id": "icon/adhesive-bonding",
+  "name": "接着_工程と対象",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/adhesive-bonding.svg",
+  "metadata_path": "metadata/icon/adhesive-bonding.json",
+  "preview_path": "assets/icon/adhesive-bonding.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/adhesive-bonding\n接着_工程と対象\n接着\n接着剤を塗布して部品を貼り合わせる工程を示す。\n接合面へ接着剤を塗る。\n先端から出る滴が接着剤を表す。\n二枚の部材の間の線が接着面を示す。\n接着 塗布 接合 接着剤 adhesive bonding application",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "3c7224ff2886c4bf0d6028a5091fa1cf0c83c0e28016eec87e26c662651b16db",
+  "size_bytes": 1200
+}

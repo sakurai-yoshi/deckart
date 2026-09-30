@@ -1,0 +1,50 @@
+{
+  "title": "データの保存期間",
+  "description": "記録を必要な期間に合わせて保管する。",
+  "keywords": [
+    "保存期間",
+    "保持",
+    "保管",
+    "記録",
+    "retention",
+    "period",
+    "records",
+    "lifecycle"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "業務記録を保持する期間を説明する。",
+    "message": "記録を必要な期間に合わせて保管する。",
+    "reading": [
+      "左の記録票が保管するデータを表す。",
+      "右の砂時計が保存する期間を表す。"
+    ]
+  },
+  "category": "12-情報・データ",
+  "schema_version": 3,
+  "id": "icon/data-retention",
+  "name": "データの保存期間_情報と関係",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/data-retention.svg",
+  "metadata_path": "metadata/icon/data-retention.json",
+  "preview_path": "assets/icon/data-retention.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/data-retention\nデータの保存期間_情報と関係\nデータの保存期間\n業務記録を保持する期間を説明する。\n記録を必要な期間に合わせて保管する。\n左の記録票が保管するデータを表す。\n右の砂時計が保存する期間を表す。\n保存期間 保持 保管 記録 retention period records lifecycle",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "472c0bd55dabcb773685f7becf385f4b0766c0ab8182fb782f27705b7ca52d15",
+  "size_bytes": 1084
+}

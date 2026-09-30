@@ -1,5 +1,4 @@
 {
-  "category": "09-循環とフレームワーク",
   "title": "必要性・実現性・継続性を満たす",
   "description": "三つの条件を満たす案を、中央の共通領域として示す。",
   "keywords": [
@@ -95,6 +94,7 @@
     "relation": "three-set-intersection",
     "reading_direction": "outside-in"
   },
+  "category": "01-経営・意思決定",
   "schema_version": 3,
   "id": "framework/three-set-overlap",
   "name": "企画判断_必要性と実現性と継続性を満たす_3集合の成立領域",
@@ -117,5 +117,6 @@
     "data": false
   },
   "sha256": "a7669c8ec4d1a112b39526ec60f048d8fc13bd326cd5cbd971626ac2e946fc0f",
-  "size_bytes": 1922
+  "size_bytes": 1922,
+  "preview_sha256": "bed1f2789f18a0aeec48008b2dadb5730b0fd851461f128c0c84e7ee423e5b88"
 }

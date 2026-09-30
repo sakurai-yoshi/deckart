@@ -1,0 +1,57 @@
+{
+  "title": "試料の表示と記録を確かめる",
+  "description": "ラベル付きの試料瓶を掲げ、記録ボードと対応を確かめる作業者。",
+  "kind": "illustration",
+  "width": 1312,
+  "height": 1199,
+  "labels": [],
+  "composition": {
+    "framing": "waist-up",
+    "facing": "down",
+    "people_count": 1
+  },
+  "keywords": [
+    "試料",
+    "識別",
+    "照合",
+    "取り違え",
+    "sample identification",
+    "label check"
+  ],
+  "guidance": {
+    "use_case": "試料を受け取るときや検査の前に、容器の表示と記録を照合する場面。",
+    "message": "試料そのものと記録の対応を確かめる。",
+    "reading": [
+      "作業者がラベル付きの小瓶を目の高さに持ち上げている。",
+      "もう一方の手の記録ボードと、手元に並ぶ小瓶が照合する対象を示す。"
+    ]
+  },
+  "preview_path": "previews/illustration/sample-label-verification.png",
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/enterprise-illustrations.json"
+  },
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": true,
+  "canvas": {
+    "width": 1312,
+    "height": 1199
+  },
+  "category": "03-品質・改善",
+  "schema_version": 3,
+  "id": "illustration/sample-label-verification",
+  "name": "試料の表示と記録を確かめる_業務イラスト",
+  "license": "CC0-1.0",
+  "path": "media/illustration/sample-label-verification.png",
+  "metadata_path": "metadata/illustration/sample-label-verification.json",
+  "preview_has_example_labels": false,
+  "search_text": "illustration/sample-label-verification\n試料の表示と記録を確かめる_業務イラスト\n試料の表示と記録を確かめる\n試料を受け取るときや検査の前に、容器の表示と記録を照合する場面。\n試料そのものと記録の対応を確かめる。\n作業者がラベル付きの小瓶を目の高さに持ち上げている。\nもう一方の手の記録ボードと、手元に並ぶ小瓶が照合する対象を示す。\n試料 識別 照合 取り違え sample identification label check\nwaist-up 上半身 腰上 down 下向き 手元を見る",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "acfa5c473adc0d38f4f6ac466d19cd6c70d74c86c865077e330dea79a5c545ae",
+  "size_bytes": 1227248
+}

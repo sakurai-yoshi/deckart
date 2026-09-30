@@ -2,13 +2,12 @@
 from vector import INK, BLUE, MID, PALE, FAINT, WHITE, GRAY, AMBER
 from vector import path, rect, circle, ellipse, line, poly, arrow, check, slot, asset, group
 
-CATEGORY='12-AIとデータ基盤'
 POSITIVE='#137D66'
 NEGATIVE='#B5473A'
 
 
 def _asset(key,name,title,description,keywords,body,labels,guidance):
-    a=asset(name,CATEGORY,title,description,keywords,body,labels)
+    a=asset(name,title,description,keywords,body,labels)
     a.update(key=key,kind='diagram',guidance=guidance)
     return a
 

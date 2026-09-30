@@ -1,0 +1,50 @@
+{
+  "title": "暗号化",
+  "description": "鍵で解くまで内容を保護する。",
+  "keywords": [
+    "暗号化",
+    "暗号",
+    "情報",
+    "保護",
+    "encryption",
+    "cryptography",
+    "data",
+    "confidentiality"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "内容を読み取れない形式に変換して保護する処理を示す。",
+    "message": "鍵で解くまで内容を保護する。",
+    "reading": [
+      "分かれた記号の列が変換された内容を表す。",
+      "記録に重なる錠が鍵による保護を表す。"
+    ]
+  },
+  "category": "12-情報・データ",
+  "schema_version": 3,
+  "id": "icon/encryption",
+  "name": "暗号化_情報と関係",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/encryption.svg",
+  "metadata_path": "metadata/icon/encryption.json",
+  "preview_path": "assets/icon/encryption.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/encryption\n暗号化_情報と関係\n暗号化\n内容を読み取れない形式に変換して保護する処理を示す。\n鍵で解くまで内容を保護する。\n分かれた記号の列が変換された内容を表す。\n記録に重なる錠が鍵による保護を表す。\n暗号化 暗号 情報 保護 encryption cryptography data confidentiality",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "add6588ba8b646daddfdf0064b5e61936f9b4003c500837a38d5cd9194f08b71",
+  "size_bytes": 1382
+}

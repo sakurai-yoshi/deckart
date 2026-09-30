@@ -1,5 +1,4 @@
 {
-  "category": "08-アイコンとピクトグラム",
   "title": "パレット搬送",
   "description": "荷物を荷台へまとめて扱う。",
   "keywords": [
@@ -23,6 +22,7 @@
       "底部の隙間が荷役用の差込口を示す。"
     ]
   },
+  "category": "05-調達・物流",
   "schema_version": 3,
   "id": "icon/pallet-handling",
   "name": "パレット搬送_製造業務の記号",

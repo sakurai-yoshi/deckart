@@ -1,5 +1,4 @@
 {
-  "category": "08-アイコンとピクトグラム",
   "title": "環境への配慮",
   "description": "事業活動で自然資源を守る取り組みを示す。",
   "keywords": [
@@ -23,6 +22,7 @@
       "下の手が保全し支える行為を表す。"
     ]
   },
+  "category": "08-環境・資源",
   "schema_version": 3,
   "id": "icon/sustainability",
   "name": "環境配慮_自然資源を守る_手の上の葉",

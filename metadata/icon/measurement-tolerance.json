@@ -1,0 +1,50 @@
+{
+  "title": "寸法公差",
+  "description": "基準の寸法に対する許容範囲を扱う。",
+  "keywords": [
+    "公差",
+    "許容差",
+    "範囲",
+    "寸法",
+    "tolerance",
+    "dimensional",
+    "allowable",
+    "deviation"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "寸法の許容範囲を説明する項目に添える。",
+    "message": "基準の寸法に対する許容範囲を扱う。",
+    "reading": [
+      "寸法線と材料の幅が測る対象を示す。",
+      "寸法線上の青い帯が許容される幅を象徴する。"
+    ]
+  },
+  "category": "03-品質・改善",
+  "schema_version": 3,
+  "id": "icon/measurement-tolerance",
+  "name": "寸法公差_工程と対象",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/measurement-tolerance.svg",
+  "metadata_path": "metadata/icon/measurement-tolerance.json",
+  "preview_path": "assets/icon/measurement-tolerance.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/measurement-tolerance\n寸法公差_工程と対象\n寸法公差\n寸法の許容範囲を説明する項目に添える。\n基準の寸法に対する許容範囲を扱う。\n寸法線と材料の幅が測る対象を示す。\n寸法線上の青い帯が許容される幅を象徴する。\n公差 許容差 範囲 寸法 tolerance dimensional allowable deviation",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "49347678e90d8560fef3e2d7e8b4fe70763af279664bd43edb998879909e57e2",
+  "size_bytes": 1288
+}

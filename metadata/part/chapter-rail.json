@@ -1,5 +1,4 @@
 {
-  "category": "07-注釈と見出し",
   "title": "章番号と見出しを組にする",
   "description": "章番号を独立した面へ置き、その右に章題をそろえる見出し部品。",
   "keywords": [
@@ -54,6 +53,7 @@
       "右の大きな文字がその章の題名になる。"
     ]
   },
+  "category": "13-説明・伝達",
   "schema_version": 3,
   "id": "part/chapter-rail",
   "name": "章番号と見出しを組にする_説明パーツ",
@@ -76,5 +76,6 @@
     "data": false
   },
   "sha256": "ab3a87a9dc638c47566ea7093c694c3c6d9f114de66af17d82241ad6ad37cdb9",
-  "size_bytes": 605
+  "size_bytes": 605,
+  "preview_sha256": "1b27f755e0c15b3e95f495b9af121a7f0c52a032d715ce201fa3e65a48aa4580"
 }

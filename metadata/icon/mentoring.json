@@ -1,0 +1,49 @@
+{
+  "title": "メンタリング",
+  "description": "経験を持つ人が他の人の成長を支える。",
+  "keywords": [
+    "指導",
+    "メンター",
+    "育成",
+    "助言",
+    "mentoring",
+    "guidance",
+    "coaching"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "経験者から助言を受ける育成の関係を示す。",
+    "message": "経験を持つ人が他の人の成長を支える。",
+    "reading": [
+      "位置の異なる二人が指導する側と学ぶ側を表す。",
+      "一方から他方へ向く経路が助言の受け渡しを表す。"
+    ]
+  },
+  "category": "09-組織・人材",
+  "schema_version": 3,
+  "id": "icon/mentoring",
+  "name": "メンタリング_仕事と関係",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/mentoring.svg",
+  "metadata_path": "metadata/icon/mentoring.json",
+  "preview_path": "assets/icon/mentoring.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/mentoring\nメンタリング_仕事と関係\nメンタリング\n経験者から助言を受ける育成の関係を示す。\n経験を持つ人が他の人の成長を支える。\n位置の異なる二人が指導する側と学ぶ側を表す。\n一方から他方へ向く経路が助言の受け渡しを表す。\n指導 メンター 育成 助言 mentoring guidance coaching",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "3a078f491f5f6e6af26411184ce5b9fe04bf825709a20c60dd8079b37dc27b4a",
+  "size_bytes": 1167
+}

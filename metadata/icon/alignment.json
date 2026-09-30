@@ -1,0 +1,50 @@
+{
+  "title": "基準を揃える",
+  "description": "異なる要素の位置づけを共通基準に合わせる。",
+  "keywords": [
+    "整合",
+    "揃える",
+    "基準",
+    "アラインメント",
+    "alignment",
+    "consistency",
+    "common",
+    "reference"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "異なる仕事や考えを共通の基準へ揃えることを示す。",
+    "message": "異なる要素の位置づけを共通基準に合わせる。",
+    "reading": [
+      "中央の一本の軸が共通の基準を表す。",
+      "軸に接続した要素が基準との整合を表す。"
+    ]
+  },
+  "category": "01-経営・意思決定",
+  "schema_version": 3,
+  "id": "icon/alignment",
+  "name": "基準を揃える_情報と関係",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/alignment.svg",
+  "metadata_path": "metadata/icon/alignment.json",
+  "preview_path": "assets/icon/alignment.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/alignment\n基準を揃える_情報と関係\n基準を揃える\n異なる仕事や考えを共通の基準へ揃えることを示す。\n異なる要素の位置づけを共通基準に合わせる。\n中央の一本の軸が共通の基準を表す。\n軸に接続した要素が基準との整合を表す。\n整合 揃える 基準 アラインメント alignment consistency common reference",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "9b472a9cb276463235bfd5122df950d23ebe825014ced94ac3f403b8457e7274",
+  "size_bytes": 1077
+}

@@ -1,0 +1,49 @@
+{
+  "title": "仮説",
+  "description": "問いを置いて確かめる。",
+  "keywords": [
+    "仮説",
+    "想定",
+    "問い",
+    "検証",
+    "hypothesis",
+    "assumption",
+    "inquiry"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "確かめる前の説明や想定を示す。",
+    "message": "問いを置いて確かめる。",
+    "reading": [
+      "問いの形が未確定の説明を表す。",
+      "下の土台が検討対象として置くことを示す。"
+    ]
+  },
+  "category": "01-経営・意思決定",
+  "schema_version": 3,
+  "id": "icon/hypothesis",
+  "name": "仮説_情報と関係",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/hypothesis.svg",
+  "metadata_path": "metadata/icon/hypothesis.json",
+  "preview_path": "assets/icon/hypothesis.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/hypothesis\n仮説_情報と関係\n仮説\n確かめる前の説明や想定を示す。\n問いを置いて確かめる。\n問いの形が未確定の説明を表す。\n下の土台が検討対象として置くことを示す。\n仮説 想定 問い 検証 hypothesis assumption inquiry",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "3bce4cbca35bd507f508001336801314bb85548958839cf1a646a50ddcdcea58",
+  "size_bytes": 829
+}

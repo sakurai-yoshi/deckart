@@ -1,5 +1,4 @@
 {
-  "category": "07-注釈と見出し",
   "title": "区分と話題を二段で示す",
   "description": "小さな上位区分と具体的な話題を、左の起点にそろえる見出し部品。",
   "keywords": [
@@ -54,6 +53,7 @@
       "下の大きな文字が具体的な話題を示す。"
     ]
   },
+  "category": "13-説明・伝達",
   "schema_version": 3,
   "id": "part/section-topic",
   "name": "区分と話題を二段で示す_説明パーツ",
@@ -76,5 +76,6 @@
     "data": false
   },
   "sha256": "237fec594fb194386d2682ab4bc1ac40e548b42c7831d3f54246136d109ca47c",
-  "size_bytes": 613
+  "size_bytes": 613,
+  "preview_sha256": "db8ffedadf06f010ef4300981c7fd0590c3eaefafa52aad2de11a0a808e8f9da"
 }

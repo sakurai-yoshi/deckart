@@ -1,0 +1,49 @@
+{
+  "title": "経路の振り分け",
+  "description": "対象に応じて送り先を選ぶ。",
+  "keywords": [
+    "振分",
+    "ルーティング",
+    "経路",
+    "宛先",
+    "routing",
+    "dispatch",
+    "destination"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "情報や作業を宛先に応じて送る仕組みを示す。",
+    "message": "対象に応じて送り先を選ぶ。",
+    "reading": [
+      "一つの入口から複数の出口へ分かれる。",
+      "出口ごとの矢印が異なる宛先への配送を示す。"
+    ]
+  },
+  "category": "12-情報・データ",
+  "schema_version": 3,
+  "id": "icon/routing",
+  "name": "経路の振り分け_情報と関係",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/routing.svg",
+  "metadata_path": "metadata/icon/routing.json",
+  "preview_path": "assets/icon/routing.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/routing\n経路の振り分け_情報と関係\n経路の振り分け\n情報や作業を宛先に応じて送る仕組みを示す。\n対象に応じて送り先を選ぶ。\n一つの入口から複数の出口へ分かれる。\n出口ごとの矢印が異なる宛先への配送を示す。\n振分 ルーティング 経路 宛先 routing dispatch destination",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "06c1b55a6dfc1dae1a15575941550e3fc92eb175c8a0195f577ad44e1a0b61fb",
+  "size_bytes": 1030
+}

@@ -1,0 +1,1404 @@
+{
+  "version": "2.1.0",
+  "raw_base": "https://raw.githubusercontent.com/sakurai-yoshi/deckart/v2.1.0/",
+  "category": "10-顧客・営業",
+  "asset_count": 34,
+  "assets": [
+    {
+      "id": "customer/adoption-to-value",
+      "title": "使い始めから日常利用と成果へ進める",
+      "kind": "diagram",
+      "category": "10-顧客・営業",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/customer/adoption-to-value.svg",
+      "preview_path": "previews/customer/adoption-to-value.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/customer/adoption-to-value.json",
+      "sha256": "c2dc3aded40b5bbcef5c98ca328aeffa775d5976bfee635f8cb89b41098cca88",
+      "size_bytes": 1239,
+      "keywords": [
+        "定着",
+        "活用",
+        "導入",
+        "顧客成功",
+        "カスタマーサクセス",
+        "adoption",
+        "activation",
+        "customer",
+        "success",
+        "value"
+      ],
+      "use_case": "導入後の支援を、初期設定だけでなく業務定着まで計画する。",
+      "message": "利用を始めた状態と、仕事に定着して成果を得た状態を区別する。",
+      "sample_data": false,
+      "preview_sha256": "c8dbd49bf554766f03391a6456ab9b5575a891be749345d5f7ae1fa62536c2ce"
+    },
+    {
+      "id": "customer/buying-committee",
+      "title": "顧客の購入に関わる判断者と観点を見渡す",
+      "kind": "diagram",
+      "category": "10-顧客・営業",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/customer/buying-committee.svg",
+      "preview_path": "previews/customer/buying-committee.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/customer/buying-committee.json",
+      "sha256": "fbc9d575b6ca09225a8f6947d944f3aa5a01e7e23e8c94d46a71e3353071f9cc",
+      "size_bytes": 2460,
+      "keywords": [
+        "購買委員会",
+        "意思決定者",
+        "法人営業",
+        "顧客",
+        "関係者",
+        "buying",
+        "committee",
+        "stakeholder",
+        "B2B",
+        "purchase"
+      ],
+      "use_case": "法人営業で、利用者・技術・予算・調達の関係者を整理する。",
+      "message": "同じ購入でも関係者ごとに確認したい内容が異なるため、それぞれの判断を支える。",
+      "sample_data": false,
+      "preview_sha256": "a207892578fdd404e5a2777a2ff755fe982a33b6492d0f10eac4505317fdec71"
+    },
+    {
+      "id": "customer/closed-feedback-loop",
+      "title": "顧客の声を改善し、結果まで確かめる",
+      "kind": "diagram",
+      "category": "10-顧客・営業",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/customer/closed-feedback-loop.svg",
+      "preview_path": "previews/customer/closed-feedback-loop.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/customer/closed-feedback-loop.json",
+      "sha256": "fb86e7ef172c7fb9df6fa365ed6c205dfdfe59ffff189cfd46c42a3e76c997b8",
+      "size_bytes": 1903,
+      "keywords": [
+        "顧客の声",
+        "VOC",
+        "フィードバック",
+        "改善",
+        "満足",
+        "customer",
+        "feedback",
+        "closed",
+        "loop",
+        "improvement"
+      ],
+      "use_case": "顧客フィードバックを商品や業務の改善へつなぐ運用を説明する。",
+      "message": "受け取った声を整理して改善し、顧客の困りごとが解消したか確かめる。",
+      "sample_data": false,
+      "preview_sha256": "bb507927f4dc1e87759e2784172daa183944ea183c846da43d190d6dcc57d646"
+    },
+    {
+      "id": "customer/feature-benefit-evidence",
+      "title": "機能から顧客の便益を示し、根拠を添える",
+      "kind": "diagram",
+      "category": "10-顧客・営業",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/customer/feature-benefit-evidence.svg",
+      "preview_path": "previews/customer/feature-benefit-evidence.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/customer/feature-benefit-evidence.json",
+      "sha256": "d75069156f9eb6287a0e741e62ab6e802b18fd0f361e49339a2d90d0637f57cb",
+      "size_bytes": 1435,
+      "keywords": [
+        "機能",
+        "便益",
+        "根拠",
+        "提案",
+        "訴求",
+        "実証",
+        "feature",
+        "benefit",
+        "evidence",
+        "value",
+        "proposition"
+      ],
+      "use_case": "営業提案で、機能の説明を顧客にとっての価値へ結びつける。",
+      "message": "機能がもたらす便益を示し、その説明を試験や事例などの根拠で支える。",
+      "sample_data": false,
+      "preview_sha256": "08f838954120d903b34de0d2f2fd51a2973f7b16cba37d93a61ceff734865351"
+    },
+    {
+      "id": "customer/installed-base-support",
+      "title": "納入した製品の稼働と支援をつなぐ",
+      "kind": "diagram",
+      "category": "10-顧客・営業",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/customer/installed-base-support.svg",
+      "preview_path": "previews/customer/installed-base-support.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/customer/installed-base-support.json",
+      "sha256": "88d4b9e5b54c5dcac8a28444733ca365f2c1454dab96ebd0d7d00998b3fce7bd",
+      "size_bytes": 2586,
+      "keywords": [
+        "納入実績",
+        "設置台帳",
+        "保守",
+        "履歴",
+        "アフターサービス",
+        "installed",
+        "base",
+        "service",
+        "maintenance",
+        "fleet"
+      ],
+      "use_case": "納入後の保守や更新提案に向け、導入先ごとの情報を共有する。",
+      "message": "導入先ごとの稼働・保守履歴を集め、必要な支援や更新につなげる。",
+      "sample_data": false,
+      "preview_sha256": "03d3992d7fb932bfce43984930b3abc026adeb75f7bcc74e18e483abf1f6e2a9"
+    },
+    {
+      "id": "customer/opportunity-qualification",
+      "title": "商談の確からしさを根拠で確認する",
+      "kind": "diagram",
+      "category": "10-顧客・営業",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/customer/opportunity-qualification.svg",
+      "preview_path": "previews/customer/opportunity-qualification.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/customer/opportunity-qualification.json",
+      "sha256": "16c43b13078d96999d841cb3f06fdd1838a4cce9cba728f6d0d9d5769bf53a1d",
+      "size_bytes": 3270,
+      "keywords": [
+        "商談",
+        "案件",
+        "確度",
+        "営業",
+        "パイプライン",
+        "要件",
+        "opportunity",
+        "qualification",
+        "sales",
+        "evidence"
+      ],
+      "use_case": "案件会議で、営業の感触だけでなく次の行動につながる確認事項を共有する。",
+      "message": "顧客課題・実現性・合意条件の根拠を確認し、足りない情報を次の行動へ変える。",
+      "sample_data": false,
+      "preview_sha256": "c6f94f4322c6d63bb001ab352cf35a6e506bfdf20248452cb1cfdb9d0bc2c261"
+    },
+    {
+      "id": "customer/problem-to-outcome",
+      "title": "困りごとを顧客が得たい状態へ言い換える",
+      "kind": "diagram",
+      "category": "10-顧客・営業",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/customer/problem-to-outcome.svg",
+      "preview_path": "previews/customer/problem-to-outcome.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/customer/problem-to-outcome.json",
+      "sha256": "c98de075c22ff009823c0c3692215bbf68217264d8688782472cae4ad020be22",
+      "size_bytes": 978,
+      "keywords": [
+        "顧客課題",
+        "成果",
+        "ニーズ",
+        "価値提案",
+        "困りごと",
+        "customer",
+        "problem",
+        "outcome",
+        "jobs",
+        "value"
+      ],
+      "use_case": "商品企画や提案で、解決すべき課題と顧客側の成果を整理する。",
+      "message": "自社が何を作るかより先に、顧客の行動や状態がどう変わるかを明確にする。",
+      "sample_data": false,
+      "preview_sha256": "bff7f18689ac77ee1659782fd53ca88acb1078ce64c1fe24d005a5109190c4e8"
+    },
+    {
+      "id": "customer/product-service-envelope",
+      "title": "製品の周りに使い続ける支援を設計する",
+      "kind": "diagram",
+      "category": "10-顧客・営業",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/customer/product-service-envelope.svg",
+      "preview_path": "previews/customer/product-service-envelope.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/customer/product-service-envelope.json",
+      "sha256": "07f63a3445f14e746b94d543be217cc4a5e369a901c0a5de95fd8a399137d20b",
+      "size_bytes": 1515,
+      "keywords": [
+        "サービス化",
+        "導入支援",
+        "保守",
+        "顧客体験",
+        "製品",
+        "servitization",
+        "product",
+        "service",
+        "customer",
+        "success"
+      ],
+      "use_case": "製品販売に導入支援・保守・運用支援を組み合わせる価値を説明する。",
+      "message": "製品の機能を中心に、顧客が成果を得るまでの支援を重ねる。",
+      "sample_data": false,
+      "preview_sha256": "9c561fa5f293af302820495f2615f6b0c84a86379ac7cd4aa53100e8633a7c45"
+    },
+    {
+      "id": "customer/sales-delivery-handoff",
+      "title": "営業の約束と提供側の条件を引き継ぐ",
+      "kind": "diagram",
+      "category": "10-顧客・営業",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/customer/sales-delivery-handoff.svg",
+      "preview_path": "previews/customer/sales-delivery-handoff.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/customer/sales-delivery-handoff.json",
+      "sha256": "57689bc2f0dbf5740f27c5480a18fa91ccfefc3802eefe2e2559a7f6c53b8e96",
+      "size_bytes": 1572,
+      "keywords": [
+        "営業引継ぎ",
+        "導入",
+        "契約",
+        "約束",
+        "提供",
+        "sales",
+        "delivery",
+        "handoff",
+        "commitment",
+        "onboarding"
+      ],
+      "use_case": "契約後の認識違いを減らすため、提案から導入への引継ぎ内容を整理する。",
+      "message": "契約内容だけでなく、顧客の背景や前提を渡し、提供側が条件を確認する。",
+      "sample_data": false,
+      "preview_sha256": "a8ec21bb9286c10f079773208654a0e4578d34544140c7adce07c24302c452e8"
+    },
+    {
+      "id": "customer/voice-to-testable-requirement",
+      "title": "顧客の言葉を確認できる要求へ変える",
+      "kind": "diagram",
+      "category": "10-顧客・営業",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/customer/voice-to-testable-requirement.svg",
+      "preview_path": "previews/customer/voice-to-testable-requirement.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/customer/voice-to-testable-requirement.json",
+      "sha256": "98bc8b3c18efc5557a652e0bf6ca23006a608c9fb34f866a7e828e0afa42e6da",
+      "size_bytes": 1490,
+      "keywords": [
+        "顧客要求",
+        "VOC",
+        "要求定義",
+        "インタビュー",
+        "仕様",
+        "voice",
+        "customer",
+        "requirements",
+        "testable",
+        "needs"
+      ],
+      "use_case": "顧客インタビューから製品やサービスの要求を整理する。",
+      "message": "顧客の言葉の背景を確かめ、使用場面と確認可能な条件へ具体化する。",
+      "sample_data": false,
+      "preview_sha256": "b1fc3efee5dd55d52ed6700c0c103eb01d270c6b2e1c2bff51cdf7361d0eede0"
+    },
+    {
+      "id": "framework/service-delivery",
+      "title": "受付から報告まで一貫して届ける",
+      "kind": "diagram",
+      "category": "10-顧客・営業",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/framework/service-delivery.svg",
+      "preview_path": "previews/framework/service-delivery.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/framework/service-delivery.json",
+      "sha256": "65e657ebb7cf73577c51237698ed9323831d006cf49cf5d94d063788fec85298",
+      "size_bytes": 7463,
+      "keywords": [
+        "サービス提供",
+        "業務フロー",
+        "受付",
+        "要件確認",
+        "提案",
+        "実施",
+        "報告",
+        "5工程",
+        "delivery",
+        "service",
+        "workflow"
+      ],
+      "use_case": "受託サービスや社内支援の提供範囲を、依頼元へ説明する。",
+      "message": "依頼を受けるだけでなく、成果の報告まで一貫して担う。",
+      "sample_data": false,
+      "preview_sha256": "b7fbfd386f5b3907cfddbaa37b64953c994022090fff18ae2f870b79341b85d9"
+    },
+    {
+      "id": "icon/after-sales-service",
+      "title": "アフターサービス",
+      "kind": "icon",
+      "category": "10-顧客・営業",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/after-sales-service.svg",
+      "preview_path": "assets/icon/after-sales-service.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/after-sales-service.json",
+      "sha256": "aac2c92a6e4d382c127d6d65cf7ac2e7c9ff8d581e9cdf425a89858b42ab6606",
+      "size_bytes": 1114,
+      "keywords": [
+        "アフターサービス",
+        "修理",
+        "保証",
+        "納入後",
+        "after",
+        "sales",
+        "service",
+        "support",
+        "repair"
+      ],
+      "use_case": "製品を届けた後の修理や支援を紹介する。",
+      "message": "納入後も製品の利用を支える。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/contract",
+      "title": "契約",
+      "kind": "icon",
+      "category": "10-顧客・営業",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/contract.svg",
+      "preview_path": "assets/icon/contract.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/contract.json",
+      "sha256": "021e272eb64d8aba644acb6e702c80ea50227a4e40a0ccc17f0d75e5003ee072",
+      "size_bytes": 1396,
+      "keywords": [
+        "契約",
+        "署名",
+        "合意",
+        "契約書",
+        "締結",
+        "contract",
+        "signature",
+        "agreement"
+      ],
+      "use_case": "契約確認や署名の手続きを示す。",
+      "message": "合意した内容を文書に残す。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/customer",
+      "title": "顧客",
+      "kind": "icon",
+      "category": "10-顧客・営業",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/customer.svg",
+      "preview_path": "assets/icon/customer.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/customer.json",
+      "sha256": "55a207cb14a8595b75e61dccf7e72219fe780e21452ca66ef7214a4ced98c9c2",
+      "size_bytes": 916,
+      "keywords": [
+        "顧客",
+        "利用者",
+        "購入者",
+        "ユーザー",
+        "customer",
+        "client",
+        "buyer",
+        "consumer"
+      ],
+      "use_case": "顧客の声や購入者を示す見出しに添える。",
+      "message": "商品やサービスを利用する相手がいる。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/customer-feedback",
+      "title": "顧客の声",
+      "kind": "icon",
+      "category": "10-顧客・営業",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/customer-feedback.svg",
+      "preview_path": "assets/icon/customer-feedback.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/customer-feedback.json",
+      "sha256": "cdb5cf4af2f9d3b455e87711570b809ca69274d7c9d929da1c57c5f7924c29f5",
+      "size_bytes": 949,
+      "keywords": [
+        "顧客の声",
+        "フィードバック",
+        "VOC",
+        "感想",
+        "要望",
+        "customer",
+        "feedback",
+        "voice",
+        "opinions"
+      ],
+      "use_case": "顧客から寄せられた意見や感想を紹介する。",
+      "message": "利用者の経験や要望を受け取る。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/customer-support",
+      "title": "顧客サポート",
+      "kind": "icon",
+      "category": "10-顧客・営業",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/customer-support.svg",
+      "preview_path": "assets/icon/customer-support.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/customer-support.json",
+      "sha256": "7336cfd2d9f926243e20aa2253a41ad792d585df1403d93cac85e70b265c07b5",
+      "size_bytes": 1317,
+      "keywords": [
+        "顧客対応",
+        "サポート",
+        "CS",
+        "問合せ",
+        "相談",
+        "customer",
+        "support",
+        "helpdesk",
+        "service"
+      ],
+      "use_case": "顧客向けの相談窓口やサポート工程を示す。",
+      "message": "問い合わせを受けて対応する。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/demand-forecast",
+      "title": "需要予測",
+      "kind": "icon",
+      "category": "10-顧客・営業",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/demand-forecast.svg",
+      "preview_path": "assets/icon/demand-forecast.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/demand-forecast.json",
+      "sha256": "ef48064cb14db8522a22b841ab0a18e9e6b3251a4c5e42377e5cdba37b8de275",
+      "size_bytes": 1025,
+      "keywords": [
+        "需要",
+        "予測",
+        "見通し",
+        "販売",
+        "計画",
+        "demand",
+        "forecast",
+        "projection",
+        "outlook"
+      ],
+      "use_case": "これからの販売や必要量の見通しを説明する。",
+      "message": "実績の先にある需要を見積もる。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/handshake",
+      "title": "協業と合意",
+      "kind": "icon",
+      "category": "10-顧客・営業",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/handshake.svg",
+      "preview_path": "assets/icon/handshake.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/handshake.json",
+      "sha256": "cf2a3f83ffe9ccbf7d309013de8fff5e1a4ff61eb536ab7067aff4bbd72d6483",
+      "size_bytes": 1415,
+      "keywords": [
+        "協業",
+        "合意",
+        "協力",
+        "連携",
+        "パートナー",
+        "提携",
+        "握手",
+        "partnership",
+        "agreement",
+        "handshake"
+      ],
+      "use_case": "協力会社や社内外の協業関係を示す場面。",
+      "message": "双方が合意して協力する。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/market-segmentation",
+      "title": "市場の区分",
+      "kind": "icon",
+      "category": "10-顧客・営業",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/market-segmentation.svg",
+      "preview_path": "assets/icon/market-segmentation.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/market-segmentation.json",
+      "sha256": "bd912380dd8bd3198d993b9091732e1ca456eb63f161ccda38a63195b2a62f0b",
+      "size_bytes": 1004,
+      "keywords": [
+        "市場",
+        "区分",
+        "セグメント",
+        "顧客層",
+        "segmentation",
+        "market",
+        "customer",
+        "groups"
+      ],
+      "use_case": "異なるニーズを持つ市場や顧客層を説明する。",
+      "message": "市場を特徴に応じたまとまりに分ける。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/product-launch",
+      "title": "製品の発売",
+      "kind": "icon",
+      "category": "10-顧客・営業",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/product-launch.svg",
+      "preview_path": "assets/icon/product-launch.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/product-launch.json",
+      "sha256": "509b75da74a76862df5c799156d33c4cd509d03d8ea2792575084fe797d6e462",
+      "size_bytes": 950,
+      "keywords": [
+        "発売",
+        "新製品",
+        "ローンチ",
+        "上市",
+        "product",
+        "launch",
+        "introduction",
+        "release"
+      ],
+      "use_case": "新しい製品やサービスを市場へ送り出すことを示す。",
+      "message": "新しい提供物を公開して届け始める。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/quotation",
+      "title": "見積",
+      "kind": "icon",
+      "category": "10-顧客・営業",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/quotation.svg",
+      "preview_path": "assets/icon/quotation.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/quotation.json",
+      "sha256": "3ae1f8851ac245a59693a2f5dd4eb6fa596128c9ae52d19fe3221197e4f9cb92",
+      "size_bytes": 804,
+      "keywords": [
+        "見積",
+        "提案",
+        "金額",
+        "価格",
+        "quotation",
+        "estimate",
+        "pricing",
+        "offer"
+      ],
+      "use_case": "条件と価格を提示する見積の工程を示す。",
+      "message": "提供条件に対応する価格を示す。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/sales-pipeline",
+      "title": "商談の進捗",
+      "kind": "icon",
+      "category": "10-顧客・営業",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/sales-pipeline.svg",
+      "preview_path": "assets/icon/sales-pipeline.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/sales-pipeline.json",
+      "sha256": "5b6e3684cc1a8a0d7a2575c81857095d1f58316c832cfea9f00f405ddd11d6c9",
+      "size_bytes": 1005,
+      "keywords": [
+        "商談",
+        "パイプライン",
+        "案件",
+        "営業",
+        "成約",
+        "sales",
+        "pipeline",
+        "opportunity",
+        "funnel"
+      ],
+      "use_case": "見込み案件から成約へ進む商談の管理を示す。",
+      "message": "段階が進むにつれて商談を絞り込む。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/service-renewal",
+      "title": "契約更新",
+      "kind": "icon",
+      "category": "10-顧客・営業",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/service-renewal.svg",
+      "preview_path": "assets/icon/service-renewal.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/service-renewal.json",
+      "sha256": "97a43e9eb1011f11b037b60f85a0407a742c673b78401f946ce4b6b7b5682724",
+      "size_bytes": 1069,
+      "keywords": [
+        "更新",
+        "契約",
+        "継続",
+        "サービス",
+        "renewal",
+        "subscription",
+        "extension",
+        "continuity"
+      ],
+      "use_case": "契約期間の終了後に継続を確認する工程を示す。",
+      "message": "契約を見直して次の期間へつなぐ。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/support-desk",
+      "title": "相談に応える窓口",
+      "kind": "icon",
+      "category": "10-顧客・営業",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/support-desk.svg",
+      "preview_path": "assets/icon/support-desk.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/support-desk.json",
+      "sha256": "e0f7859f5f1abb9aedea968e3e51d9440805f0ab3750431d1ea62b00b507ac69",
+      "size_bytes": 1822,
+      "keywords": [
+        "窓口",
+        "相談",
+        "回答",
+        "受付",
+        "ヘルプデスク",
+        "helpdesk",
+        "inquiry",
+        "answer",
+        "support",
+        "desk"
+      ],
+      "use_case": "問い合わせの受付と回答を担う窓口を紹介する。",
+      "message": "相談を受けて回答を返す。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/survey",
+      "title": "アンケート",
+      "kind": "icon",
+      "category": "10-顧客・営業",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/survey.svg",
+      "preview_path": "assets/icon/survey.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/survey.json",
+      "sha256": "8d798724be6cbec744dd38e380c242b62a2a95d31d3e7ed4fb10382e23951a86",
+      "size_bytes": 1478,
+      "keywords": [
+        "アンケート",
+        "調査",
+        "回答",
+        "設問",
+        "質問票",
+        "survey",
+        "questionnaire",
+        "feedback"
+      ],
+      "use_case": "顧客や従業員へのアンケートを示す。",
+      "message": "同じ質問で複数の意見を集める。",
+      "sample_data": false
+    },
+    {
+      "id": "illustration/after-sales-repair",
+      "title": "使っている製品を修理する",
+      "kind": "illustration",
+      "category": "10-顧客・営業",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1536,
+      "height": 1024,
+      "canvas": {
+        "width": 1536,
+        "height": 1024
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/after-sales-repair.png",
+      "preview_path": "previews/illustration/after-sales-repair.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/after-sales-repair.json",
+      "sha256": "d7def2564ecf75d92f26087f1e8b646067dec6e28bcf06cb3a635f66d9905abe",
+      "size_bytes": 1364638,
+      "keywords": [
+        "修理",
+        "アフターサービス",
+        "顧客対応",
+        "repair",
+        "after sales"
+      ],
+      "use_case": "購入後のサポートや保守の説明で、使っている製品の内部を点検・修理する場面。",
+      "message": "製品の中を確かめ、使い続けるために手を入れる。",
+      "sample_data": false,
+      "composition": {
+        "framing": "waist-up",
+        "facing": "down",
+        "people_count": 1
+      }
+    },
+    {
+      "id": "illustration/customer-feedback",
+      "title": "声を集める",
+      "kind": "illustration",
+      "category": "10-顧客・営業",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1254,
+      "height": 1254,
+      "canvas": {
+        "width": 1254,
+        "height": 1254
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/customer-feedback.png",
+      "preview_path": "previews/illustration/customer-feedback.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/customer-feedback.json",
+      "sha256": "fb58bc0cede7e27df417bbf69df90981a4bd9f98d4347b3ce547af39ebe19daf",
+      "size_bytes": 774162,
+      "keywords": [
+        "顧客の声",
+        "フィードバック",
+        "アンケート",
+        "意見",
+        "feedback",
+        "voice",
+        "survey"
+      ],
+      "use_case": "顧客の声、アンケート、意見収集、サービス改善の導入に。",
+      "message": "届いた意見を集めて読み取る。",
+      "sample_data": false,
+      "composition": {
+        "framing": "object",
+        "facing": "front",
+        "people_count": 0
+      }
+    },
+    {
+      "id": "illustration/customer-requirements-review",
+      "title": "顧客の要望を具体物で確認する",
+      "kind": "illustration",
+      "category": "10-顧客・営業",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1536,
+      "height": 1024,
+      "canvas": {
+        "width": 1536,
+        "height": 1024
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/customer-requirements-review.png",
+      "preview_path": "previews/illustration/customer-requirements-review.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/customer-requirements-review.json",
+      "sha256": "87d1f62158a30ee48080abeff48f51eab95f2f54ea2c0d9529eeb30d3dcae69c",
+      "size_bytes": 1506410,
+      "keywords": [
+        "顧客要望",
+        "要求",
+        "仕様",
+        "ヒアリング",
+        "requirements",
+        "customer needs"
+      ],
+      "use_case": "打合せで色や仕上げの見本を見ながら、顧客が求める条件を具体化する場面。",
+      "message": "見本を一緒に見て、求める内容を確かめる。",
+      "sample_data": false,
+      "composition": {
+        "framing": "waist-up",
+        "facing": "inward",
+        "people_count": 2
+      }
+    },
+    {
+      "id": "illustration/product-demonstration",
+      "title": "実物を見せて使い方を説明する",
+      "kind": "illustration",
+      "category": "10-顧客・営業",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1536,
+      "height": 1024,
+      "canvas": {
+        "width": 1536,
+        "height": 1024
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/product-demonstration.png",
+      "preview_path": "previews/illustration/product-demonstration.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/product-demonstration.json",
+      "sha256": "a35141bce90042bc903e3d7d1cd17d2b9375b9a2ade1f67074a2bed6a4ff1513",
+      "size_bytes": 1434166,
+      "keywords": [
+        "実演",
+        "製品説明",
+        "顧客",
+        "提案",
+        "demonstration",
+        "customer"
+      ],
+      "use_case": "製品紹介や導入説明で、実物の操作箇所を示しながら使い方を伝える場面。",
+      "message": "実物を見せて、使い方を共有する。",
+      "sample_data": false,
+      "composition": {
+        "framing": "waist-up",
+        "facing": "inward",
+        "people_count": 2
+      }
+    },
+    {
+      "id": "illustration/service-appointment",
+      "title": "点検の予定を予約する",
+      "kind": "illustration",
+      "category": "10-顧客・営業",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1278,
+      "height": 1230,
+      "canvas": {
+        "width": 1278,
+        "height": 1230
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/service-appointment.png",
+      "preview_path": "previews/illustration/service-appointment.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/service-appointment.json",
+      "sha256": "b625b0c7948f287ec58390ed178dc17d3177cfaf930ae77e3b46bfb66bcf6302",
+      "size_bytes": 716498,
+      "keywords": [
+        "予約",
+        "点検",
+        "サービス",
+        "日程",
+        "appointment",
+        "service"
+      ],
+      "use_case": "点検や訪問サービスを申し込む流れで、対象と予約日を確認する場面。",
+      "message": "サービスを受ける対象と日程をそろえる。",
+      "sample_data": false,
+      "composition": {
+        "framing": "object",
+        "facing": "front"
+      }
+    },
+    {
+      "id": "illustration/welcoming-visitor",
+      "title": "相手を迎えて案内する",
+      "kind": "illustration",
+      "category": "10-顧客・営業",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1254,
+      "height": 1254,
+      "canvas": {
+        "width": 1254,
+        "height": 1254
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/welcoming-visitor.png",
+      "preview_path": "previews/illustration/welcoming-visitor.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/welcoming-visitor.json",
+      "sha256": "9bdd3b2a83ca30687382540d0508006708e77e035f9ae5d04e938f02ff70b632",
+      "size_bytes": 503847,
+      "keywords": [
+        "案内",
+        "来客",
+        "歓迎",
+        "導入",
+        "迎える",
+        "接遇",
+        "welcome",
+        "guidance"
+      ],
+      "use_case": "来客対応、導入案内、説明の始まりを伝える。",
+      "message": "相手を迎え、次の行動へ案内する。",
+      "sample_data": false,
+      "composition": {
+        "framing": "waist-up",
+        "facing": "right",
+        "people_count": 2
+      }
+    },
+    {
+      "id": "planning/customer-journey-support",
+      "title": "顧客の行動と支える業務を結ぶ",
+      "kind": "diagram",
+      "category": "10-顧客・営業",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/planning/customer-journey-support.svg",
+      "preview_path": "previews/planning/customer-journey-support.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/planning/customer-journey-support.json",
+      "sha256": "719496dbc6c18e7a1f2340119704561056f4b99b90b17ed6a8f7153be6824c70",
+      "size_bytes": 4709,
+      "keywords": [
+        "顧客体験",
+        "顧客行動",
+        "カスタマージャーニー",
+        "サービスブループリント",
+        "接点",
+        "裏側",
+        "継続利用",
+        "customer",
+        "journey",
+        "touchpoint",
+        "service",
+        "blueprint"
+      ],
+      "use_case": "顧客接点の改善を検討し、その体験を支える社内業務を決める。",
+      "message": "顧客の行動だけでなく、その裏側の業務も一緒に設計する。",
+      "sample_data": false,
+      "preview_sha256": "0880ead2ec8f4801bf1c9d567a03d871d739c96bdc6fbf0fe431ac1c07b08709"
+    },
+    {
+      "id": "process/inquiry-triage",
+      "title": "問い合わせを担当へ振り分ける",
+      "kind": "diagram",
+      "category": "10-顧客・営業",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/process/inquiry-triage.svg",
+      "preview_path": "previews/process/inquiry-triage.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/process/inquiry-triage.json",
+      "sha256": "d0b74768344d380d7ae949a718e2b589e8e62f1c4d7b4853778fa0c454ce5fc1",
+      "size_bytes": 2821,
+      "keywords": [
+        "問い合わせ",
+        "トリアージ",
+        "振り分け",
+        "受付",
+        "窓口",
+        "分類",
+        "緊急度",
+        "ルーティング"
+      ],
+      "use_case": "問い合わせ窓口で、依頼の内容に応じた対応先を決める。",
+      "message": "依頼を一つの窓口で受け、適切な経路へ振り分ける。",
+      "sample_data": false,
+      "preview_sha256": "768cf8ca375a854f61a7a9e54af94498596dbd0399e48b6629b8349f5ce7fbed"
+    },
+    {
+      "id": "strategy/customer-value-roles",
+      "title": "三つの役割で顧客価値を支える",
+      "kind": "diagram",
+      "category": "10-顧客・営業",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/strategy/customer-value-roles.svg",
+      "preview_path": "previews/strategy/customer-value-roles.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/strategy/customer-value-roles.json",
+      "sha256": "7510d14632f1fe32e25f69cb8670682d30fee210c8e7ae2d845c5d6e2310558e",
+      "size_bytes": 2930,
+      "keywords": [
+        "顧客中心",
+        "カスタマーセントリック",
+        "CX",
+        "顧客体験",
+        "部門連携",
+        "価値提供",
+        "顧客価値",
+        "協働"
+      ],
+      "use_case": "顧客体験の改善に向け、企画・提供・支援の役割を説明する。",
+      "message": "三つの役割が同じ顧客価値を目指して連携する。",
+      "sample_data": false,
+      "preview_sha256": "85a182cc141fe1c7ee851cebe02842f66238a23894b592cff38bc25c1c391a8c"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "title": "現在の水準と変化の方向を分ける",
+  "description": "現在の位置と今後につながる変化は別の観点で読む。",
+  "keywords": [
+    "水準",
+    "傾向",
+    "トレンド",
+    "増減",
+    "現状",
+    "level",
+    "trend",
+    "direction"
+  ],
+  "labels": [
+    {
+      "x": 59,
+      "y": 9,
+      "width": 387,
+      "height": 51,
+      "text": "今の水準",
+      "role": "水準",
+      "align": "center",
+      "color": "#153A6B",
+      "font_size": 30,
+      "id": "label-1",
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 12
+    },
+    {
+      "x": 636,
+      "y": 9,
+      "width": 441,
+      "height": 51,
+      "text": "変化の方向",
+      "role": "傾向",
+      "align": "center",
+      "color": "#2864F0",
+      "font_size": 30,
+      "id": "label-2",
+      "color_role": "accent",
+      "max_lines": 1,
+      "max_fullwidth_chars": 13
+    },
+    {
+      "x": 53,
+      "y": 281,
+      "width": 410,
+      "height": 66,
+      "text": "高いか、低いか",
+      "role": "水準の読み方",
+      "align": "center",
+      "color": "#153A6B",
+      "font_size": 31,
+      "id": "label-3",
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 12
+    },
+    {
+      "x": 643,
+      "y": 281,
+      "width": 434,
+      "height": 66,
+      "text": "上がるか、下がるか",
+      "role": "傾向の読み方",
+      "align": "center",
+      "color": "#153A6B",
+      "font_size": 30,
+      "id": "label-4",
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 13
+    }
+  ],
+  "width": 1120,
+  "height": 380,
+  "kind": "part",
+  "guidance": {
+    "use_case": "指標の現状が良くても悪化傾向にある、など二つの見方を添える。",
+    "message": "現在の位置と今後につながる変化は別の観点で読む。",
+    "reading": [
+      "左は高さ、右は傾きで見る観点を示す概念図。",
+      "実際の数値や時系列を表すグラフではない。"
+    ]
+  },
+  "category": "13-説明・伝達",
+  "schema_version": 3,
+  "id": "part/level-and-direction",
+  "name": "現在の水準と変化の方向を分ける_説明パーツ",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1120,
+    "height": 380
+  },
+  "path": "assets/part/level-and-direction.svg",
+  "metadata_path": "metadata/part/level-and-direction.json",
+  "preview_path": "previews/part/level-and-direction.svg",
+  "preview_has_example_labels": true,
+  "search_text": "part/level-and-direction\n現在の水準と変化の方向を分ける_説明パーツ\n現在の水準と変化の方向を分ける\n指標の現状が良くても悪化傾向にある、など二つの見方を添える。\n現在の位置と今後につながる変化は別の観点で読む。\n左は高さ、右は傾きで見る観点を示す概念図。\n実際の数値や時系列を表すグラフではない。\n水準 傾向 トレンド 増減 現状 level trend direction",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "f0d67a4122346bfa1804d82f3fb15936b4de1ace87a6a2d3b47d49048bc5fa73",
+  "size_bytes": 1426,
+  "preview_sha256": "3db3a41507f4214e54d01fa16035a511e916de0a5f40847a743186d425b76deb"
+}

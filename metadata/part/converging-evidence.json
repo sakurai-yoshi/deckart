@@ -1,5 +1,4 @@
 {
-  "category": "07-注釈と見出し",
   "title": "二つの根拠から結論を導く",
   "description": "上下の根拠を括り、右の結論へ接続する説明部品。",
   "keywords": [
@@ -116,6 +115,7 @@
       "括り線と接続で右の結論へつなぐ。"
     ]
   },
+  "category": "13-説明・伝達",
   "schema_version": 3,
   "id": "part/converging-evidence",
   "name": "二つの根拠から結論を導く_説明パーツ",
@@ -138,5 +138,6 @@
     "data": false
   },
   "sha256": "4749c27801650b25aaac10ced175bff31ed09f545f03dacbadbac368acb56817",
-  "size_bytes": 1324
+  "size_bytes": 1324,
+  "preview_sha256": "baa90d9fe9825a2555970a5fcd7d491c277f88829f411e6024f4bd7627e00b74"
 }

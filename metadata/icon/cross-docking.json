@@ -1,0 +1,51 @@
+{
+  "title": "通過型物流",
+  "description": "拠点を通して荷物を次の輸送へ渡す。",
+  "keywords": [
+    "クロスドック",
+    "通過",
+    "物流",
+    "積替",
+    "入荷",
+    "出荷",
+    "cross",
+    "docking",
+    "transshipment"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "保管せず入荷から出荷へつなぐ物流を説明する。",
+    "message": "拠点を通して荷物を次の輸送へ渡す。",
+    "reading": [
+      "屋根のある拠点が積み替え場所を表す。",
+      "同じ向きの入出の矢印が通過する流れを示す。"
+    ]
+  },
+  "category": "05-調達・物流",
+  "schema_version": 3,
+  "id": "icon/cross-docking",
+  "name": "通過型物流_工程と対象",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/cross-docking.svg",
+  "metadata_path": "metadata/icon/cross-docking.json",
+  "preview_path": "assets/icon/cross-docking.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/cross-docking\n通過型物流_工程と対象\n通過型物流\n保管せず入荷から出荷へつなぐ物流を説明する。\n拠点を通して荷物を次の輸送へ渡す。\n屋根のある拠点が積み替え場所を表す。\n同じ向きの入出の矢印が通過する流れを示す。\nクロスドック 通過 物流 積替 入荷 出荷 cross docking transshipment",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "319782cabacdf2c829d38657a495181fb73f97b6044f2c6e55ad236dde0509ce",
+  "size_bytes": 1248
+}

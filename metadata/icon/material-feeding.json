@@ -1,0 +1,50 @@
+{
+  "title": "材料供給",
+  "description": "必要な材料を使用場所へ送る。",
+  "keywords": [
+    "供給",
+    "材料",
+    "投入",
+    "部品供給",
+    "feeding",
+    "replenishment",
+    "input",
+    "material"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "工程へ必要な材料や部品を供給する場面を示す。",
+    "message": "必要な材料を使用場所へ送る。",
+    "reading": [
+      "上の部材が供給する材料を表す。",
+      "機器へ入る矢印が投入を示す。"
+    ]
+  },
+  "category": "04-生産・設備",
+  "schema_version": 3,
+  "id": "icon/material-feeding",
+  "name": "材料供給_工程と対象",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/material-feeding.svg",
+  "metadata_path": "metadata/icon/material-feeding.json",
+  "preview_path": "assets/icon/material-feeding.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/material-feeding\n材料供給_工程と対象\n材料供給\n工程へ必要な材料や部品を供給する場面を示す。\n必要な材料を使用場所へ送る。\n上の部材が供給する材料を表す。\n機器へ入る矢印が投入を示す。\n供給 材料 投入 部品供給 feeding replenishment input material",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "c4de026a3b71566d3586130efda52ffabc0fa90b5848c2dc4ce9ca3b896ad974",
+  "size_bytes": 1146
+}

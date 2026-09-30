@@ -1,10 +1,9 @@
 {
   "title": "白と青の繊維が織り重なる流れ",
-  "description": "白と青の繊維の束が下端を横切り、右端で持ち上がる。",
+  "description": "白と青の細い繊維が織り重なり、低く横長の帯として下部を流れる。",
   "kind": "background",
-  "category": "11-背景とフレーム",
-  "width": 1672,
-  "height": 941,
+  "width": 1664,
+  "height": 936,
   "keywords": [
     "背景",
     "白",
@@ -27,8 +26,8 @@
     "use_case": "まとめ、方針、協業、継続的な取り組みなど。",
     "message": "織り重なる繊維で、つながりと継続を印象づける。",
     "reading": [
-      "繊維の束が下部で交差し、右へ流れる。",
-      "上部には広い白い面がある。"
+      "精密な繊維の束が低い波をつくり、横方向へ連続する。",
+      "上部と中央には広い白い面がある。"
     ]
   },
   "labels": [],
@@ -41,9 +40,10 @@
   "mime_type": "image/png",
   "transparent": false,
   "canvas": {
-    "width": 1672,
-    "height": 941
+    "width": 1664,
+    "height": 936
   },
+  "category": "14-背景・装飾",
   "schema_version": 3,
   "id": "background/closing-woven-horizon",
   "name": "白と青の繊維が織り重なる流れ_背景",
@@ -51,12 +51,12 @@
   "path": "media/background/closing-woven-horizon.png",
   "metadata_path": "metadata/background/closing-woven-horizon.json",
   "preview_has_example_labels": false,
-  "search_text": "background/closing-woven-horizon\n白と青の繊維が織り重なる流れ_背景\n白と青の繊維が織り重なる流れ\nまとめ、方針、協業、継続的な取り組みなど。\n織り重なる繊維で、つながりと継続を印象づける。\n繊維の束が下部で交差し、右へ流れる。\n上部には広い白い面がある。\n背景 白 青 余白 質感 background 繊維 織物 交差 下装飾 上余白 結び まとめ woven fibers closing",
+  "search_text": "background/closing-woven-horizon\n白と青の繊維が織り重なる流れ_背景\n白と青の繊維が織り重なる流れ\nまとめ、方針、協業、継続的な取り組みなど。\n織り重なる繊維で、つながりと継続を印象づける。\n精密な繊維の束が低い波をつくり、横方向へ連続する。\n上部と中央には広い白い面がある。\n背景 白 青 余白 質感 background 繊維 織物 交差 下装飾 上余白 結び まとめ woven fibers closing",
   "render": {
     "theme": false,
     "labels": false,
     "data": false
   },
-  "sha256": "3bc31e030e9480fad2f98bc73a332badd259a5b30a7fe014ca49993139954210",
-  "size_bytes": 1651144
+  "sha256": "3781647cdaf9647069460f1048e3ab333342136f4ec16cb654e43c37f9e9790c",
+  "size_bytes": 1358017
 }

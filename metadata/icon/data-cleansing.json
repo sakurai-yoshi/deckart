@@ -1,0 +1,49 @@
+{
+  "title": "データの整備",
+  "description": "記録の誤りやばらつきを整える。",
+  "keywords": [
+    "データ整備",
+    "クレンジング",
+    "修正",
+    "品質",
+    "cleansing",
+    "cleanup",
+    "normalization"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "表記揺れや誤りを整えるデータ整備を説明する。",
+    "message": "記録の誤りやばらつきを整える。",
+    "reading": [
+      "行のある表が整備するデータを表す。",
+      "行にかかるブラシが不要な部分を取り除く処理を示す。"
+    ]
+  },
+  "category": "12-情報・データ",
+  "schema_version": 3,
+  "id": "icon/data-cleansing",
+  "name": "データの整備_情報と関係",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/data-cleansing.svg",
+  "metadata_path": "metadata/icon/data-cleansing.json",
+  "preview_path": "assets/icon/data-cleansing.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/data-cleansing\nデータの整備_情報と関係\nデータの整備\n表記揺れや誤りを整えるデータ整備を説明する。\n記録の誤りやばらつきを整える。\n行のある表が整備するデータを表す。\n行にかかるブラシが不要な部分を取り除く処理を示す。\nデータ整備 クレンジング 修正 品質 cleansing cleanup normalization",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "cfeab3115a794821bba8c9f1bca25f087068fc843f4c4111efc01095c4f5ced7",
+  "size_bytes": 991
+}

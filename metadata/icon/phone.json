@@ -1,5 +1,4 @@
 {
-  "category": "08-アイコンとピクトグラム",
   "title": "電話",
   "description": "電話で直接話す連絡手段を示す。",
   "keywords": [
@@ -25,6 +24,7 @@
       "外側の波が音声のやり取りを表す。"
     ]
   },
+  "category": "13-説明・伝達",
   "schema_version": 3,
   "id": "icon/phone",
   "name": "連絡手段_音声で話す_電話",

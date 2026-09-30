@@ -2,7 +2,6 @@
   "title": "白と青の開いた弧",
   "description": "下端を横切る白い弧の内側に青が見え、両端が左右で立ち上がる。",
   "kind": "background",
-  "category": "11-背景とフレーム",
   "width": 1672,
   "height": 941,
   "keywords": [
@@ -45,6 +44,7 @@
     "width": 1672,
     "height": 941
   },
+  "category": "14-背景・装飾",
   "schema_version": 3,
   "id": "background/statement-open-arc",
   "name": "白と青の開いた弧_背景",

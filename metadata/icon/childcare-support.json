@@ -1,0 +1,52 @@
+{
+  "title": "育児との両立",
+  "description": "家族のケアと仕事を両立できる環境を整える。",
+  "keywords": [
+    "育児",
+    "両立",
+    "支援",
+    "子育て",
+    "家庭",
+    "childcare",
+    "parenting",
+    "work",
+    "life",
+    "support"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "仕事と育児の両立を支える制度を紹介する。",
+    "message": "家族のケアと仕事を両立できる環境を整える。",
+    "reading": [
+      "大人と小さい人の大小が親子の関係を表す。",
+      "つながる手が支える関係を示す。"
+    ]
+  },
+  "category": "09-組織・人材",
+  "schema_version": 3,
+  "id": "icon/childcare-support",
+  "name": "育児との両立_仕事と関係",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/childcare-support.svg",
+  "metadata_path": "metadata/icon/childcare-support.json",
+  "preview_path": "assets/icon/childcare-support.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/childcare-support\n育児との両立_仕事と関係\n育児との両立\n仕事と育児の両立を支える制度を紹介する。\n家族のケアと仕事を両立できる環境を整える。\n大人と小さい人の大小が親子の関係を表す。\nつながる手が支える関係を示す。\n育児 両立 支援 子育て 家庭 childcare parenting work life support",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "a198805c9b6d6f2a4aaeddbfc2f6566da6ccfcb4ae9b18561c8f0c84965db7de",
+  "size_bytes": 1042
+}

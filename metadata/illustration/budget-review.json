@@ -1,7 +1,6 @@
 {
   "title": "費用を検討する",
   "kind": "illustration",
-  "category": "06-業務イラスト",
   "width": 1254,
   "height": 1254,
   "keywords": [
@@ -39,6 +38,7 @@
     "width": 1254,
     "height": 1254
   },
+  "category": "11-会計・収益",
   "schema_version": 3,
   "id": "illustration/budget-review",
   "name": "費用を検討する_物で伝える業務",

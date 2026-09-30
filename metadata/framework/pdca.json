@@ -1,5 +1,4 @@
 {
-  "category": "09-循環とフレームワーク",
   "title": "計画・実行・評価・改善を回す",
   "description": "四つの活動を繰り返し、改善を次の計画へ反映する。",
   "keywords": [
@@ -167,6 +166,7 @@
     "relation": "four-stage-cycle",
     "reading_direction": "clockwise"
   },
+  "category": "03-品質・改善",
   "schema_version": 3,
   "id": "framework/pdca",
   "name": "継続改善_計画と実行と評価と改善を回す_4段階PDCA",
@@ -189,5 +189,6 @@
     "data": false
   },
   "sha256": "85103f05238230e881d847000b0f6661e2234e2d29339b60127867d97f1ad04e",
-  "size_bytes": 2106
+  "size_bytes": 2106,
+  "preview_sha256": "b2b2e5c58a87def4701f55b46b3e9e4463aed4b3daf47e42048c7a4779733aa0"
 }

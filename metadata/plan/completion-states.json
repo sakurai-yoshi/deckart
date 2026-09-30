@@ -1,5 +1,4 @@
 {
-  "category": "04-計画と進捗",
   "title": "成果を状態で分けて報告する",
   "description": "数量や達成率を仮定せず、完了・進行中・未着手の成果を整理する。",
   "keywords": [
@@ -76,6 +75,7 @@
     ]
   },
   "kind": "diagram",
+  "category": "02-計画・進捗",
   "schema_version": 3,
   "id": "plan/completion-states",
   "name": "進捗報告_完了と進行中と未着手を分ける_成果の状態別整理",
@@ -98,5 +98,6 @@
     "data": false
   },
   "sha256": "cf0b5f71324b0513fad83a087f3d416e8fe6700fefdba95b1220b27dbd10525e",
-  "size_bytes": 4658
+  "size_bytes": 4658,
+  "preview_sha256": "fe978e313bac71e6c012a6de236c3bb46b162b062410f8fc845b3ed92227efe6"
 }

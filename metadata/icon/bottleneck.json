@@ -1,0 +1,49 @@
+{
+  "title": "ボトルネック",
+  "description": "一部分の狭さが全体の流れを制約する。",
+  "keywords": [
+    "ボトルネック",
+    "制約",
+    "狭窄",
+    "滞留",
+    "throughput",
+    "constraint",
+    "bottleneck"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "全体の流れを制約する工程や箇所を示す。",
+    "message": "一部分の狭さが全体の流れを制約する。",
+    "reading": [
+      "中央の細い通路が制約となる部分を表す。",
+      "左右を通る矢印が全体の流れを示す。"
+    ]
+  },
+  "category": "02-計画・進捗",
+  "schema_version": 3,
+  "id": "icon/bottleneck",
+  "name": "ボトルネック_情報と関係",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/bottleneck.svg",
+  "metadata_path": "metadata/icon/bottleneck.json",
+  "preview_path": "assets/icon/bottleneck.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/bottleneck\nボトルネック_情報と関係\nボトルネック\n全体の流れを制約する工程や箇所を示す。\n一部分の狭さが全体の流れを制約する。\n中央の細い通路が制約となる部分を表す。\n左右を通る矢印が全体の流れを示す。\nボトルネック 制約 狭窄 滞留 throughput constraint bottleneck",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "b1e7257356bbe37f7498d82206dcfdd8e0cbf39ad5e50c65c5c1c2f860f1594b",
+  "size_bytes": 1002
+}

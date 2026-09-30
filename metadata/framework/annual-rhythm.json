@@ -1,5 +1,4 @@
 {
-  "category": "09-循環とフレームワーク",
   "title": "四半期の活動を毎年繰り返す",
   "description": "4月から翌3月までの活動を、四半期と月の循環として示す。",
   "keywords": [
@@ -288,6 +287,7 @@
     "relation": "twelve-month-cycle",
     "reading_direction": "clockwise"
   },
+  "category": "02-計画・進捗",
   "schema_version": 3,
   "id": "framework/annual-rhythm",
   "name": "年間運営_四半期の活動を毎年繰り返す_4月始まりの年間サイクル",
@@ -310,5 +310,6 @@
     "data": false
   },
   "sha256": "d090b8fb9af5948ab9ef0f345064b380fe286e37a59c13554b99e822a878abff",
-  "size_bytes": 4600
+  "size_bytes": 4600,
+  "preview_sha256": "ddd49af520b21df6c683816e31057f57ddace6aee368cdb98f9ad89aed017f4f"
 }

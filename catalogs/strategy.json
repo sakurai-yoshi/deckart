@@ -1,0 +1,1752 @@
+{
+  "version": "2.1.0",
+  "raw_base": "https://raw.githubusercontent.com/sakurai-yoshi/deckart/v2.1.0/",
+  "category": "01-経営・意思決定",
+  "asset_count": 43,
+  "assets": [
+    {
+      "id": "decision/current-target-bridge",
+      "title": "三つの施策で目標へ近づく",
+      "kind": "diagram",
+      "category": "01-経営・意思決定",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/decision/current-target-bridge.svg",
+      "preview_path": "previews/decision/current-target-bridge.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/decision/current-target-bridge.json",
+      "sha256": "7aa28dd16db53fb248bc967df7cbec5647fd6ba079c81cd6d67ba3fa67dbc4fb",
+      "size_bytes": 1978,
+      "keywords": [
+        "ギャップ分析",
+        "現状",
+        "目標",
+        "理想",
+        "改革",
+        "変革",
+        "課題",
+        "施策",
+        "実現方法",
+        "ロードマップ"
+      ],
+      "use_case": "改革提案で、現状から目標へ進むための三つの施策を説明する。",
+      "message": "目標との差は具体的な施策で埋める。",
+      "sample_data": false,
+      "preview_sha256": "9735b80c312b6907160922ab9f888680e30ccb9797bc2353dc3853b2b360c78e"
+    },
+    {
+      "id": "decision/diminishing-return-tradeoff",
+      "title": "効果の上積みと負担を見比べる",
+      "kind": "diagram",
+      "category": "01-経営・意思決定",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/decision/diminishing-return-tradeoff.svg",
+      "preview_path": "previews/decision/diminishing-return-tradeoff.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/decision/diminishing-return-tradeoff.json",
+      "sha256": "fd041d3f5c6f0e925faf4ba16617519b6dfb3bc0f6af084d7b7291cd4f1dda9d",
+      "size_bytes": 2870,
+      "keywords": [
+        "トレードオフ",
+        "費用対効果",
+        "効率",
+        "最適化",
+        "均衡",
+        "限界効用",
+        "投資対効果",
+        "施策選定"
+      ],
+      "use_case": "設備やシステムへの投資案について、追加負担に見合う効果を説明する。",
+      "message": "負担を増やしたときの効果の上積みを見て選ぶ。",
+      "sample_data": false,
+      "preview_sha256": "f92311dd9e0059dac6606102fd724ecf52580c9a37a0981cd4a0ccdff6134fca"
+    },
+    {
+      "id": "decision/impact-feasibility-priority",
+      "title": "効果と実行しやすさで優先する",
+      "kind": "diagram",
+      "category": "01-経営・意思決定",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/decision/impact-feasibility-priority.svg",
+      "preview_path": "previews/decision/impact-feasibility-priority.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/decision/impact-feasibility-priority.json",
+      "sha256": "fc49892807270f6f53d3d3480296a57cc5d44aca1f6b319b5bc52a00fd667c85",
+      "size_bytes": 2460,
+      "keywords": [
+        "優先順位",
+        "優先度",
+        "二軸",
+        "マトリクス",
+        "マトリックス",
+        "期待効果",
+        "実現性",
+        "施策",
+        "ポジショニング"
+      ],
+      "use_case": "改善施策を期待効果と実行しやすさで整理する。",
+      "message": "効果が高く実行しやすい施策から取り組む。",
+      "sample_data": false,
+      "preview_sha256": "ca09ecad56d2cec54aed1d905234900cabda64d107e4ea872e5421eae87c57cd"
+    },
+    {
+      "id": "decision/operations-standardization",
+      "title": "個別対応から共通の手順へ",
+      "kind": "diagram",
+      "category": "01-経営・意思決定",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/decision/operations-standardization.svg",
+      "preview_path": "previews/decision/operations-standardization.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/decision/operations-standardization.json",
+      "sha256": "834b37136bc07bbe3cfcd98a63b01bfea92441e9a036372f5b67f3b527005d19",
+      "size_bytes": 3437,
+      "keywords": [
+        "改善前後",
+        "ビフォーアフター",
+        "AsIs",
+        "ToBe",
+        "業務改善",
+        "標準化",
+        "簡素化",
+        "共通化",
+        "属人化",
+        "DX"
+      ],
+      "use_case": "問い合わせ対応や受発注業務の標準化を提案する。",
+      "message": "担当ごとの個別対応を共通の手順へ整理する。",
+      "sample_data": false,
+      "preview_sha256": "efc37eaf3f43f8d641a416ab35026c5b9736fff3b8dd810acad33318ee4abad4"
+    },
+    {
+      "id": "decision/option-selection",
+      "title": "比較して一案を選ぶ",
+      "kind": "diagram",
+      "category": "01-経営・意思決定",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/decision/option-selection.svg",
+      "preview_path": "previews/decision/option-selection.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/decision/option-selection.json",
+      "sha256": "fb3139bcb4ff6b1a2f0c8b9ad4af9da5b8c1f351fb0ecb24b0a93279359c1f9a",
+      "size_bytes": 2372,
+      "keywords": [
+        "比較",
+        "選定",
+        "採用案",
+        "企画",
+        "選択肢",
+        "意思決定",
+        "判断基準",
+        "コンペ"
+      ],
+      "use_case": "企画会議で複数の提案から採用案を決める。",
+      "message": "同じ基準で比べ、選んだ一案だけを実行する。",
+      "sample_data": false,
+      "preview_sha256": "8ef6a79c8ab5a03fb85fba5fe10f83b8730766bae99bf969d45f34a7142add80"
+    },
+    {
+      "id": "decision/resource-allocation",
+      "title": "資源の使い道を目的で分ける",
+      "kind": "diagram",
+      "category": "01-経営・意思決定",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/decision/resource-allocation.svg",
+      "preview_path": "previews/decision/resource-allocation.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/decision/resource-allocation.json",
+      "sha256": "286f858cce79c5551cb2f516b79510bf4116a1b3ef336418a9ecfb1a1252980b",
+      "size_bytes": 2278,
+      "keywords": [
+        "ポートフォリオ",
+        "資源配分",
+        "経営資源",
+        "投資配分",
+        "人員配分",
+        "重点",
+        "維持",
+        "探索",
+        "事業計画"
+      ],
+      "use_case": "事業計画で人員や予算を使う方針を説明する。",
+      "message": "成長・安定・探索の狙いを分けて資源を使う。",
+      "sample_data": false,
+      "preview_sha256": "c4c5bce4ec3f470bfc38cc81cad9c114456dcc64550f01c39d2cd38d4635a1e2"
+    },
+    {
+      "id": "decision/risk-benefit-balance",
+      "title": "効果と懸念を同じ場で判断する",
+      "kind": "diagram",
+      "category": "01-経営・意思決定",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/decision/risk-benefit-balance.svg",
+      "preview_path": "previews/decision/risk-benefit-balance.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/decision/risk-benefit-balance.json",
+      "sha256": "49b9cb33f891052bb63716dc4db2df605f313531854ec67f448c3e820b6c1b81",
+      "size_bytes": 2845,
+      "keywords": [
+        "費用対効果",
+        "リスク",
+        "リターン",
+        "メリット",
+        "デメリット",
+        "懸念",
+        "ベネフィット",
+        "判断",
+        "稟議"
+      ],
+      "use_case": "稟議や投資判断で、期待効果とリスク対策を同時に説明する。",
+      "message": "効果だけでなく懸念への備えも判断材料にする。",
+      "sample_data": false,
+      "preview_sha256": "5798da0784bb7dc16ff8dac34312918e7eded4866056f01871e52581ff094091"
+    },
+    {
+      "id": "decision/selection-filters",
+      "title": "条件を重ねて候補を絞る",
+      "kind": "diagram",
+      "category": "01-経営・意思決定",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/decision/selection-filters.svg",
+      "preview_path": "previews/decision/selection-filters.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/decision/selection-filters.json",
+      "sha256": "d68c54c3ee991f28997c2a38462ca240236811ccc66f6b9bccda9e6443d9a7ef",
+      "size_bytes": 2927,
+      "keywords": [
+        "選定",
+        "調達",
+        "ベンダー",
+        "製品評価",
+        "条件",
+        "必須要件",
+        "フィルター",
+        "選考",
+        "絞り込み"
+      ],
+      "use_case": "製品や委託先の選定で、候補を絞る確認順序を共有する。",
+      "message": "条件を順番に満たす候補を残す。",
+      "sample_data": false,
+      "preview_sha256": "bbe3fa883e457b0dae2747ab1722969f062ca7809d1ca5de77eabcaacd20e27a"
+    },
+    {
+      "id": "framework/decision-tree",
+      "title": "二つの質問で対応先を決める",
+      "kind": "diagram",
+      "category": "01-経営・意思決定",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/framework/decision-tree.svg",
+      "preview_path": "previews/framework/decision-tree.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/framework/decision-tree.json",
+      "sha256": "7d10e8b6912773e869c4ff0764a6bf3c540fbf14fe2d3933f9ba6e3fdf436b12",
+      "size_bytes": 2862,
+      "keywords": [
+        "決定木",
+        "判断条件",
+        "分岐",
+        "はい",
+        "いいえ",
+        "対応先",
+        "振り分け",
+        "decision",
+        "tree",
+        "routing"
+      ],
+      "use_case": "問い合わせや依頼の対応先を、担当者が同じ基準で判断する。",
+      "message": "質問に順番に答えると、必要な対応先にたどり着く。",
+      "sample_data": false,
+      "preview_sha256": "1e8180beacda921ff6e6dcba99d0e58ba066abaca44ce4932652a92b38cb8e4c"
+    },
+    {
+      "id": "framework/swot",
+      "title": "内部と外部の有利・不利を整理する",
+      "kind": "diagram",
+      "category": "01-経営・意思決定",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/framework/swot.svg",
+      "preview_path": "previews/framework/swot.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/framework/swot.json",
+      "sha256": "738ea7afbd31ba734e1bd60b6a6ff44874032e8f5577bc3d55c7cc8322e1fac8",
+      "size_bytes": 2929,
+      "keywords": [
+        "SWOT",
+        "強み",
+        "弱み",
+        "機会",
+        "脅威",
+        "内部環境",
+        "外部環境",
+        "戦略",
+        "4象限",
+        "analysis"
+      ],
+      "use_case": "事業や施策の現状を整理し、戦略上の論点を出す。",
+      "message": "自社の内側と外側、有利と不利を分けて考える。",
+      "sample_data": false,
+      "preview_sha256": "b89a88bd9d0aae5898261fdae9cdcecd0274a2a4290199c074074083e6ff5aa8"
+    },
+    {
+      "id": "framework/three-set-overlap",
+      "title": "必要性・実現性・継続性を満たす",
+      "kind": "diagram",
+      "category": "01-経営・意思決定",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/framework/three-set-overlap.svg",
+      "preview_path": "previews/framework/three-set-overlap.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/framework/three-set-overlap.json",
+      "sha256": "a7669c8ec4d1a112b39526ec60f048d8fc13bd326cd5cbd971626ac2e946fc0f",
+      "size_bytes": 1922,
+      "keywords": [
+        "ベン図",
+        "Venn",
+        "3集合",
+        "企画判断",
+        "必要性",
+        "実現性",
+        "継続性",
+        "事業性",
+        "共通領域",
+        "feasibility",
+        "viability",
+        "desirability"
+      ],
+      "use_case": "新規サービス案が顧客・技術・事業の三つの条件を満たすか検討する。",
+      "message": "一つの条件だけでなく、三つが重なる案を選ぶ。",
+      "sample_data": false,
+      "preview_sha256": "bed1f2789f18a0aeec48008b2dadb5730b0fd851461f128c0c84e7ee423e5b88"
+    },
+    {
+      "id": "framework/two-set-overlap",
+      "title": "顧客の期待と自社の強みを重ねる",
+      "kind": "diagram",
+      "category": "01-経営・意思決定",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/framework/two-set-overlap.svg",
+      "preview_path": "previews/framework/two-set-overlap.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/framework/two-set-overlap.json",
+      "sha256": "82fa77ab4643b0177cdbbaa08ba67fa8aae7bd8e837bbe2767ebb3a304da0ff1",
+      "size_bytes": 1016,
+      "keywords": [
+        "ベン図",
+        "Venn",
+        "共通領域",
+        "重なり",
+        "価値提案",
+        "顧客ニーズ",
+        "強み",
+        "条件",
+        "overlap",
+        "intersection"
+      ],
+      "use_case": "商品提案で、顧客の期待と自社の強みが重なる領域を検討する。",
+      "message": "顧客が求め、自社が提供できる領域に価値が生まれる。",
+      "sample_data": false,
+      "preview_sha256": "1b467faca1793d9643b7b5a6bcdaf3a98e690ecc5ab0ce9b7801017e4fbef556"
+    },
+    {
+      "id": "icon/alignment",
+      "title": "基準を揃える",
+      "kind": "icon",
+      "category": "01-経営・意思決定",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/alignment.svg",
+      "preview_path": "assets/icon/alignment.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/alignment.json",
+      "sha256": "9b472a9cb276463235bfd5122df950d23ebe825014ced94ac3f403b8457e7274",
+      "size_bytes": 1077,
+      "keywords": [
+        "整合",
+        "揃える",
+        "基準",
+        "アラインメント",
+        "alignment",
+        "consistency",
+        "common",
+        "reference"
+      ],
+      "use_case": "異なる仕事や考えを共通の基準へ揃えることを示す。",
+      "message": "異なる要素の位置づけを共通基準に合わせる。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/company",
+      "title": "企業・事業所",
+      "kind": "icon",
+      "category": "01-経営・意思決定",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/company.svg",
+      "preview_path": "assets/icon/company.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/company.json",
+      "sha256": "30ef6d14d8097bb7ce4ce671baa6e7f51ab27545c69a8fca6bd0224c75425897",
+      "size_bytes": 1315,
+      "keywords": [
+        "企業",
+        "会社",
+        "事業所",
+        "オフィス",
+        "法人",
+        "建物",
+        "company",
+        "enterprise",
+        "office",
+        "building"
+      ],
+      "use_case": "取引先、会社、事業所を人物と区別する場面。",
+      "message": "組織としての会社や事業所を示す。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/company-network",
+      "title": "本社と拠点",
+      "kind": "icon",
+      "category": "01-経営・意思決定",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/company-network.svg",
+      "preview_path": "assets/icon/company-network.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/company-network.json",
+      "sha256": "60d3524174d09715efe2fd4a347af7be0496adf74ba667ff1d6dc0da70701bd9",
+      "size_bytes": 1301,
+      "keywords": [
+        "本社",
+        "支社",
+        "拠点",
+        "事業所",
+        "組織",
+        "headquarters",
+        "branch",
+        "sites",
+        "network"
+      ],
+      "use_case": "本社と支社、複数の事業拠点の関係を説明する。",
+      "message": "複数の拠点を一つのネットワークで結ぶ。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/competitive-comparison",
+      "title": "競争力の比較",
+      "kind": "icon",
+      "category": "01-経営・意思決定",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/competitive-comparison.svg",
+      "preview_path": "assets/icon/competitive-comparison.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/competitive-comparison.json",
+      "sha256": "361106845f88e097c51d4d2eab0ff93e0ffef93d85830b70f8a92412e6d8cfbe",
+      "size_bytes": 902,
+      "keywords": [
+        "競合",
+        "競争力",
+        "比較",
+        "強み",
+        "差別化",
+        "competitive",
+        "comparison",
+        "benchmark",
+        "advantage"
+      ],
+      "use_case": "異なる企業や製品の特性を並べて比較する。",
+      "message": "比較する観点を揃えて違いを見る。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/decision",
+      "title": "意思決定",
+      "kind": "icon",
+      "category": "01-経営・意思決定",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/decision.svg",
+      "preview_path": "assets/icon/decision.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/decision.json",
+      "sha256": "e3fee624e5238df8c6f91753960d59530ec55fe7a5b04ea0be8ed89bf6f5fdc5",
+      "size_bytes": 1052,
+      "keywords": [
+        "判断",
+        "意思決定",
+        "選択",
+        "分岐",
+        "条件",
+        "decision",
+        "choice",
+        "condition"
+      ],
+      "use_case": "判断が必要な工程や意思決定の項目に添える。",
+      "message": "条件を確かめて進む選択肢を決める。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/evidence",
+      "title": "根拠の確認",
+      "kind": "icon",
+      "category": "01-経営・意思決定",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/evidence.svg",
+      "preview_path": "assets/icon/evidence.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/evidence.json",
+      "sha256": "0bcbe426abf0d4af8730714bc0f5133610ab96679a7c09d48eac4bfd6d9d9450",
+      "size_bytes": 1174,
+      "keywords": [
+        "根拠",
+        "証拠",
+        "事実",
+        "裏付",
+        "検証",
+        "evidence",
+        "facts",
+        "verification",
+        "support"
+      ],
+      "use_case": "主張を支える事実や記録を確認する場面を示す。",
+      "message": "主張の裏付けとなる記録を確かめる。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/governance",
+      "title": "企業統治",
+      "kind": "icon",
+      "category": "01-経営・意思決定",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/governance.svg",
+      "preview_path": "assets/icon/governance.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/governance.json",
+      "sha256": "3474e138a5df0716af3273b21c45333cc1271bd1296b03920d5847b5ef06f19d",
+      "size_bytes": 1300,
+      "keywords": [
+        "企業統治",
+        "ガバナンス",
+        "監督",
+        "経営",
+        "governance",
+        "oversight",
+        "stewardship"
+      ],
+      "use_case": "意思決定と監督の仕組みを説明する。",
+      "message": "複数の責任と仕組みで経営を支える。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/hypothesis",
+      "title": "仮説",
+      "kind": "icon",
+      "category": "01-経営・意思決定",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/hypothesis.svg",
+      "preview_path": "assets/icon/hypothesis.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/hypothesis.json",
+      "sha256": "3bce4cbca35bd507f508001336801314bb85548958839cf1a646a50ddcdcea58",
+      "size_bytes": 829,
+      "keywords": [
+        "仮説",
+        "想定",
+        "問い",
+        "検証",
+        "hypothesis",
+        "assumption",
+        "inquiry"
+      ],
+      "use_case": "確かめる前の説明や想定を示す。",
+      "message": "問いを置いて確かめる。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/scope-boundary",
+      "title": "対象範囲",
+      "kind": "icon",
+      "category": "01-経営・意思決定",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/scope-boundary.svg",
+      "preview_path": "assets/icon/scope-boundary.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/scope-boundary.json",
+      "sha256": "b20540c6be6853d76871dcf33b5a2299cd27c197a001ca94684f859582a95bc1",
+      "size_bytes": 803,
+      "keywords": [
+        "スコープ",
+        "対象",
+        "範囲",
+        "境界",
+        "scope",
+        "boundary",
+        "inclusion",
+        "focus"
+      ],
+      "use_case": "今回扱う対象や確認する範囲を明らかにする。",
+      "message": "扱う範囲と中心となる対象を示す。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/succession-planning",
+      "title": "後継者育成",
+      "kind": "icon",
+      "category": "01-経営・意思決定",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/succession-planning.svg",
+      "preview_path": "assets/icon/succession-planning.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/succession-planning.json",
+      "sha256": "216e20bfff01daa9ed4953d858ee8b360ea729bd368bcf58afcc138f0f1c7366",
+      "size_bytes": 1112,
+      "keywords": [
+        "後継者",
+        "後継",
+        "育成",
+        "事業承継",
+        "succession",
+        "continuity",
+        "leadership"
+      ],
+      "use_case": "役割を次の担当へ引き継ぐための育成を示す。",
+      "message": "現在の役割を次の担い手へつなぐ。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/target",
+      "title": "目標",
+      "kind": "icon",
+      "category": "01-経営・意思決定",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/target.svg",
+      "preview_path": "assets/icon/target.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/target.json",
+      "sha256": "bea819f642b3ee6e76810a5c774e1829a6360b3c7b46147ee48899ac77519058",
+      "size_bytes": 929,
+      "keywords": [
+        "目標",
+        "達成",
+        "KPI",
+        "目的",
+        "到達",
+        "target",
+        "objective",
+        "goal"
+      ],
+      "use_case": "事業目標や達成指標の見出しに添える。",
+      "message": "目指す到達点を明確にする。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/tradeoff",
+      "title": "トレードオフ",
+      "kind": "icon",
+      "category": "01-経営・意思決定",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/tradeoff.svg",
+      "preview_path": "assets/icon/tradeoff.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/tradeoff.json",
+      "sha256": "1bc56e17402e90ad7ea47f53845684882b7296451a8573b63b33901c6474bde4",
+      "size_bytes": 892,
+      "keywords": [
+        "トレードオフ",
+        "両立",
+        "バランス",
+        "選択",
+        "得失",
+        "tradeoff",
+        "compromise",
+        "balance",
+        "choice"
+      ],
+      "use_case": "一方を選ぶと他方へ影響する判断を説明する。",
+      "message": "複数の価値の釣り合いを考えて選ぶ。",
+      "sample_data": false
+    },
+    {
+      "id": "illustration/agreement-documents",
+      "title": "合意を文書にする",
+      "kind": "illustration",
+      "category": "01-経営・意思決定",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1254,
+      "height": 1254,
+      "canvas": {
+        "width": 1254,
+        "height": 1254
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/agreement-documents.png",
+      "preview_path": "previews/illustration/agreement-documents.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/agreement-documents.json",
+      "sha256": "c78544d77e8b5edcf7eca056ee630b3fb7af57a4f76ca57f129bbc6905523240",
+      "size_bytes": 1001460,
+      "keywords": [
+        "合意",
+        "契約",
+        "条件",
+        "文書",
+        "agreement",
+        "contract"
+      ],
+      "use_case": "合意形成、契約準備、取引条件の整理に。",
+      "message": "共通の条件を文書にまとめて共有する。",
+      "sample_data": false,
+      "composition": {
+        "framing": "object",
+        "facing": "front",
+        "people_count": 0
+      }
+    },
+    {
+      "id": "illustration/thinking",
+      "title": "考える",
+      "kind": "illustration",
+      "category": "01-経営・意思決定",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1254,
+      "height": 1254,
+      "canvas": {
+        "width": 1254,
+        "height": 1254
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/thinking.png",
+      "preview_path": "previews/illustration/thinking.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/thinking.json",
+      "sha256": "17f652663a968a9d6b7522e7110d2008ff6d0a3c18d372f94d6c4ac9e5fac8a1",
+      "size_bytes": 695379,
+      "keywords": [
+        "思考",
+        "検討",
+        "課題",
+        "判断",
+        "考える",
+        "thinking",
+        "consideration"
+      ],
+      "use_case": "検討、課題整理、意思決定の前段階を説明する挿絵に。",
+      "message": "立ち止まって考えを整理する。",
+      "sample_data": false,
+      "composition": {
+        "framing": "waist-up",
+        "facing": "left",
+        "people_count": 1
+      }
+    },
+    {
+      "id": "part/absolute-and-relative",
+      "title": "基準への適合と他者との順位を分ける",
+      "kind": "part",
+      "category": "01-経営・意思決定",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1120,
+      "height": 380,
+      "canvas": {
+        "width": 1120,
+        "height": 380
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/part/absolute-and-relative.svg",
+      "preview_path": "previews/part/absolute-and-relative.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/part/absolute-and-relative.json",
+      "sha256": "17e47e3096f4128673afa21d8c3e7119304c7c53234fe175beb0cd118a3d3dac",
+      "size_bytes": 700,
+      "keywords": [
+        "絶対評価",
+        "相対評価",
+        "順位",
+        "基準",
+        "適合",
+        "absolute",
+        "relative",
+        "benchmark"
+      ],
+      "use_case": "目標の達成とランキング上の位置を区別して報告する。",
+      "message": "基準を満たすことと、他より上位にあることは別の評価になる。",
+      "sample_data": false,
+      "preview_sha256": "ed164a143c8df3b5fab565a357ff967cd4823cf9bfdaed2a4359ec827f481a8a"
+    },
+    {
+      "id": "part/control-and-context",
+      "title": "変えられることと外部条件を分ける",
+      "kind": "part",
+      "category": "01-経営・意思決定",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1120,
+      "height": 380,
+      "canvas": {
+        "width": 1120,
+        "height": 380
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/part/control-and-context.svg",
+      "preview_path": "previews/part/control-and-context.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/part/control-and-context.json",
+      "sha256": "c28f28880675e60edba5e02f444154eedfc01335dff03471f88f594695f130ed",
+      "size_bytes": 1078,
+      "keywords": [
+        "管理可能",
+        "外部要因",
+        "制御",
+        "影響",
+        "環境",
+        "controllable",
+        "external",
+        "context"
+      ],
+      "use_case": "課題のうち、自分たちで変えられる部分と観測する外部条件を整理する。",
+      "message": "直接変えられる範囲へ行動し、外部条件には備える。",
+      "sample_data": false,
+      "preview_sha256": "2ed4fda6e26b1169031f3c3cee0386be8e6ed0759ad3bd14ef6ab6db192ba3cb"
+    },
+    {
+      "id": "part/decision-reversibility",
+      "title": "判断を戻せるかで検証の厚さを変える",
+      "kind": "part",
+      "category": "01-経営・意思決定",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1120,
+      "height": 380,
+      "canvas": {
+        "width": 1120,
+        "height": 380
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/part/decision-reversibility.svg",
+      "preview_path": "previews/part/decision-reversibility.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/part/decision-reversibility.json",
+      "sha256": "dbe275ba1a3adc89bd6b5d44d48ef2f403a498d5634978dc9932741efa82a71e",
+      "size_bytes": 1257,
+      "keywords": [
+        "可逆",
+        "不可逆",
+        "意思決定",
+        "試行",
+        "検証",
+        "reversible",
+        "irreversible",
+        "decision"
+      ],
+      "use_case": "判断の影響に応じて、試行と事前検証の進め方を説明する。",
+      "message": "元へ戻す負担が大きい判断ほど、実行前に検証する。",
+      "sample_data": false,
+      "preview_sha256": "8b4848f4b41af723962ac660e5229cff5a83060832ac534addb6fdb0d7f97223"
+    },
+    {
+      "id": "part/decision-review-trigger",
+      "title": "決定に見直しの条件を添える",
+      "kind": "part",
+      "category": "01-経営・意思決定",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1120,
+      "height": 380,
+      "canvas": {
+        "width": 1120,
+        "height": 380
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/part/decision-review-trigger.svg",
+      "preview_path": "previews/part/decision-review-trigger.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/part/decision-review-trigger.json",
+      "sha256": "c3bab58afa47346dd30b6b9dda312e854d71fe75ca100191f41ba741d97959a5",
+      "size_bytes": 1084,
+      "keywords": [
+        "決定",
+        "期限",
+        "見直し",
+        "トリガー",
+        "条件",
+        "review",
+        "trigger",
+        "expiry",
+        "decision"
+      ],
+      "use_case": "暫定判断や期限付きの運用に、再確認する時点と条件を添える。",
+      "message": "決定の有効性を、期限や前提の変化に応じて確かめ直す。",
+      "sample_data": false,
+      "preview_sha256": "be5aa470d12b5b978ec5a79fecd67d55fdf7c1dc41db031a4b21a849987ed4c1"
+    },
+    {
+      "id": "part/delegated-decision-boundary",
+      "title": "任せる判断と相談する境界を示す",
+      "kind": "part",
+      "category": "01-経営・意思決定",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1120,
+      "height": 380,
+      "canvas": {
+        "width": 1120,
+        "height": 380
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/part/delegated-decision-boundary.svg",
+      "preview_path": "previews/part/delegated-decision-boundary.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/part/delegated-decision-boundary.json",
+      "sha256": "305c6d1cdca0daa96ecbac7f3c011c72b787c9ad99acb230dbb9c6e4743deee6",
+      "size_bytes": 1118,
+      "keywords": [
+        "権限委譲",
+        "決裁",
+        "相談",
+        "エスカレーション",
+        "autonomy",
+        "delegation",
+        "boundary"
+      ],
+      "use_case": "担当者に任せる判断の範囲と相談する条件を示す。",
+      "message": "決めた条件の内側では自律的に動き、超えるときは相談する。",
+      "sample_data": false,
+      "preview_sha256": "232a7bb7b2c417ce64ffaa43071a47c8b982986ead678d54ef98fa2e8589833b"
+    },
+    {
+      "id": "part/necessary-and-sufficient",
+      "title": "必要な条件と成立させる条件を区別する",
+      "kind": "part",
+      "category": "01-経営・意思決定",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1120,
+      "height": 380,
+      "canvas": {
+        "width": 1120,
+        "height": 380
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/part/necessary-and-sufficient.svg",
+      "preview_path": "previews/part/necessary-and-sufficient.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/part/necessary-and-sufficient.json",
+      "sha256": "c28c8509b968c4877a9116b73df9d5d958f6bb6489b08c54bbdba265c80e7fbb",
+      "size_bytes": 1767,
+      "keywords": [
+        "必要条件",
+        "十分条件",
+        "成立",
+        "論理",
+        "必要十分",
+        "necessary",
+        "sufficient",
+        "condition"
+      ],
+      "use_case": "条件を満たしただけで結論を出してよいか説明する。",
+      "message": "必要条件は欠けると成立せず、十分条件は満たせば成立する。",
+      "sample_data": false,
+      "preview_sha256": "7fe084d884ba553dfcc8614d80dfb404253bb5699b7cb4853307d704da94fd2a"
+    },
+    {
+      "id": "relation/coordination-hub",
+      "title": "調整役を中心に情報と判断を往復する",
+      "kind": "diagram",
+      "category": "01-経営・意思決定",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/relation/coordination-hub.svg",
+      "preview_path": "previews/relation/coordination-hub.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/relation/coordination-hub.json",
+      "sha256": "74e4775f399d4f5365c12e84afa912c5dcafe6a4f2f8c5a219201c6578b2c7b9",
+      "size_bytes": 5672,
+      "keywords": [
+        "調整役",
+        "ハブ",
+        "PMO",
+        "部門連携",
+        "情報共有",
+        "司令塔",
+        "コーディネーション"
+      ],
+      "use_case": "部門横断のプロジェクトでPMOや調整担当の役割を共有する。",
+      "message": "調整役が情報を集め、判断を各担当へ返す。",
+      "sample_data": false,
+      "preview_sha256": "2f6acbce1baa86b72328b4d061a88a8486b8d1825d2069eba12d82c82f62dccd"
+    },
+    {
+      "id": "relation/strategy-cascade",
+      "title": "方針を重点領域と実務へ落とす",
+      "kind": "diagram",
+      "category": "01-経営・意思決定",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/relation/strategy-cascade.svg",
+      "preview_path": "previews/relation/strategy-cascade.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/relation/strategy-cascade.json",
+      "sha256": "a34a8682b707a9fa400dea7e5c2c60aac55cf4a8e718e2ed462f2a61707c62b6",
+      "size_bytes": 3413,
+      "keywords": [
+        "戦略",
+        "方針展開",
+        "カスケード",
+        "経営計画",
+        "重点施策",
+        "実行",
+        "業務",
+        "アラインメント"
+      ],
+      "use_case": "経営方針を重点施策と現場の活動に結びつける。",
+      "message": "日々の活動が、どの重点領域と経営方針につながるかを示す。",
+      "sample_data": false,
+      "preview_sha256": "350ddceee2d100fd8b7dc9815f68f148ff3536c159994fd10c305ed701ce1373"
+    },
+    {
+      "id": "relationship/reciprocal-ecosystem",
+      "title": "三者の間で価値が往復する",
+      "kind": "diagram",
+      "category": "01-経営・意思決定",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/relationship/reciprocal-ecosystem.svg",
+      "preview_path": "previews/relationship/reciprocal-ecosystem.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/relationship/reciprocal-ecosystem.json",
+      "sha256": "c1b7009f828c020e9c3c1ff5596a59f2f30e0c13d1a96e863cd92e10ccb725bb",
+      "size_bytes": 2633,
+      "keywords": [
+        "エコシステム",
+        "事業連携",
+        "パートナー",
+        "共創",
+        "相互利益",
+        "価値交換",
+        "プラットフォーム",
+        "三者関係"
+      ],
+      "use_case": "顧客、事業者、協力者が参加する事業モデルを説明する。",
+      "message": "三者の各関係で価値が双方向に交換される。",
+      "sample_data": false,
+      "preview_sha256": "73e74b508128de38e8668cd86b008767850b35d19adc88d9110349522446c090"
+    },
+    {
+      "id": "relationship/required-foundations",
+      "title": "二つの前提がそろって成果を生む",
+      "kind": "diagram",
+      "category": "01-経営・意思決定",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/relationship/required-foundations.svg",
+      "preview_path": "previews/relationship/required-foundations.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/relationship/required-foundations.json",
+      "sha256": "dff483e648276ba02dfd92104ea0533d7adae4cc0f056054fbd8f6c00af0fc8e",
+      "size_bytes": 2437,
+      "keywords": [
+        "依存関係",
+        "前提条件",
+        "必要条件",
+        "基盤整備",
+        "共通機能",
+        "両輪",
+        "インフラ",
+        "運用",
+        "実現条件"
+      ],
+      "use_case": "共通機能を導入する前に、情報整備と運用整備の両方が必要だと説明する。",
+      "message": "一方の基盤だけでは共通機能を支えられない。",
+      "sample_data": false,
+      "preview_sha256": "833b16b89c060ead3bab9c0f31d8d54cc3965c368c8763cef16e211cb9f984f6"
+    },
+    {
+      "id": "strategy/business-horizons",
+      "title": "現在の事業と次の成長へ取り組みを配分する",
+      "kind": "diagram",
+      "category": "01-経営・意思決定",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/strategy/business-horizons.svg",
+      "preview_path": "previews/strategy/business-horizons.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/strategy/business-horizons.json",
+      "sha256": "bfa9ae834dcf5a96a1e1df527371ffe1dd78abaf920b5a6dcdfe58bc5dedb68e",
+      "size_bytes": 1352,
+      "keywords": [
+        "事業ポートフォリオ",
+        "成長",
+        "既存",
+        "新規",
+        "探索",
+        "horizon",
+        "portfolio",
+        "growth",
+        "exploration"
+      ],
+      "use_case": "事業ポートフォリオで短期の収益と将来の探索の役割を整理する。",
+      "message": "既存事業を支えながら、次の成長と新しい可能性を異なる時間軸で育てる。",
+      "sample_data": false,
+      "preview_sha256": "d588ed696bd840ded15a1cc8dddc8daa3bac4ed0e1001b644d7759d02cea9373"
+    },
+    {
+      "id": "strategy/common-standard-local-action",
+      "title": "共通の基準と現場ごとの実行を分ける",
+      "kind": "diagram",
+      "category": "01-経営・意思決定",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/strategy/common-standard-local-action.svg",
+      "preview_path": "previews/strategy/common-standard-local-action.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/strategy/common-standard-local-action.json",
+      "sha256": "5670bf2b4bb137e2202097eb403c7ea284c3c5b1f9dea25251eb1f3172054120",
+      "size_bytes": 1554,
+      "keywords": [
+        "本社",
+        "現場",
+        "分権",
+        "集権",
+        "標準",
+        "裁量",
+        "common",
+        "standard",
+        "local",
+        "adaptation",
+        "autonomy"
+      ],
+      "use_case": "複数拠点の運営で、統一する内容と現場へ委ねる内容を整理する。",
+      "message": "共通の基準を保ちながら、現場の条件に合った実行を可能にする。",
+      "sample_data": false,
+      "preview_sha256": "350cacf9bede3228b210014f3b5ac56e575ae360d21420fa13aa2abdca9c2cae"
+    },
+    {
+      "id": "strategy/execution-cascade",
+      "title": "方針を施策と日々の実行へ落とす",
+      "kind": "diagram",
+      "category": "01-経営・意思決定",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/strategy/execution-cascade.svg",
+      "preview_path": "previews/strategy/execution-cascade.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/strategy/execution-cascade.json",
+      "sha256": "0d58140423c940e07edca5eed7af2f734604ec6b5ffe02d316d194c73f0c53d4",
+      "size_bytes": 2270,
+      "keywords": [
+        "戦略",
+        "方針展開",
+        "実行施策",
+        "ブレイクダウン",
+        "カスケード",
+        "戦略実行",
+        "経営計画",
+        "フィードバック"
+      ],
+      "use_case": "年度方針を部門施策と日々の活動へ展開する。",
+      "message": "方針を具体化し、実行の学びを方針へ戻す。",
+      "sample_data": false,
+      "preview_sha256": "6342a2e09783316a2f713ce7fd2217a115319e998677d9bc173964379d04f142"
+    },
+    {
+      "id": "strategy/focus-and-tradeoffs",
+      "title": "重点と後にする範囲を同時に決める",
+      "kind": "diagram",
+      "category": "01-経営・意思決定",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/strategy/focus-and-tradeoffs.svg",
+      "preview_path": "previews/strategy/focus-and-tradeoffs.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/strategy/focus-and-tradeoffs.json",
+      "sha256": "1613c1820d2054b7fbc122bec8efdc7e2c3fb6bcc73dabbb4aa54ecda2ca2deb",
+      "size_bytes": 1391,
+      "keywords": [
+        "戦略",
+        "集中",
+        "選択",
+        "トレードオフ",
+        "資源",
+        "優先",
+        "strategy",
+        "focus",
+        "tradeoffs",
+        "resource",
+        "priority"
+      ],
+      "use_case": "戦略の優先順位を資源配分に結びつけ、選択の意味を説明する。",
+      "message": "すべてを同じ強さで進めず、重点と見送る範囲を明確にする。",
+      "sample_data": false,
+      "preview_sha256": "8d1b5819959847811288965cebdfd21ca1ede767453c4255bec3f77d04dada8d"
+    },
+    {
+      "id": "strategy/governance-roles",
+      "title": "判断・実行・支援の関係を分ける",
+      "kind": "diagram",
+      "category": "01-経営・意思決定",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/strategy/governance-roles.svg",
+      "preview_path": "previews/strategy/governance-roles.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/strategy/governance-roles.json",
+      "sha256": "3d2647455ecb8781894b99a7263cbf7fcb6b1b33b90328a1b8281997917e29f3",
+      "size_bytes": 1687,
+      "keywords": [
+        "ガバナンス",
+        "統治",
+        "意思決定",
+        "実行",
+        "支援",
+        "決裁",
+        "役割分担",
+        "運営体制",
+        "推進体制"
+      ],
+      "use_case": "プロジェクト運営で意思決定者、実行担当、支援組織の役割を説明する。",
+      "message": "権限の委譲、結果の報告、実行支援を分けて設計する。",
+      "sample_data": false,
+      "preview_sha256": "c42f37940de969941162f26b18e73a44daa36fdf3b97d68b5371b97d4518cd27"
+    },
+    {
+      "id": "strategy/value-chain-support",
+      "title": "価値を生む活動と共通の支援を結ぶ",
+      "kind": "diagram",
+      "category": "01-経営・意思決定",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/strategy/value-chain-support.svg",
+      "preview_path": "previews/strategy/value-chain-support.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/strategy/value-chain-support.json",
+      "sha256": "6e9307e4b16707ecaffffde2fcae3ccf2a3508bbcc090104368f30af79b5fd97",
+      "size_bytes": 2510,
+      "keywords": [
+        "価値連鎖",
+        "バリューチェーン",
+        "支援活動",
+        "事業",
+        "活動",
+        "value",
+        "chain",
+        "primary",
+        "support",
+        "activities"
+      ],
+      "use_case": "事業の活動を俯瞰し、横断する機能との関係を説明する。",
+      "message": "開発から保守までの活動が連携し、人材や情報などの共通機能が全体を支える。",
+      "sample_data": false,
+      "preview_sha256": "155869e17212cd8f86fe2f6456f81277698ead91537d7e4b0324def61999d8fc"
+    },
+    {
+      "id": "strategy/value-creation-pyramid",
+      "title": "組織の基盤から顧客の成果へ",
+      "kind": "diagram",
+      "category": "01-経営・意思決定",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/strategy/value-creation-pyramid.svg",
+      "preview_path": "previews/strategy/value-creation-pyramid.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/strategy/value-creation-pyramid.json",
+      "sha256": "9a8dbafa0bcdc5ae85cf40d314cab6d4d884f97c7c216ca796a2eda9a248c72a",
+      "size_bytes": 1793,
+      "keywords": [
+        "価値創造",
+        "バリューチェーン",
+        "ピラミッド",
+        "価値体系",
+        "基盤",
+        "顧客成果",
+        "組織能力",
+        "経営理念"
+      ],
+      "use_case": "組織への投資が、提供価値を通じて顧客の成果へつながることを説明する。",
+      "message": "顧客の成果は価値提供と組織基盤の上に成り立つ。",
+      "sample_data": false,
+      "preview_sha256": "c2761c747f55ecdda7320121bc9a483a1af2144a870f8d8c88c783f1e67f645e"
+    }
+  ]
+}

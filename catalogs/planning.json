@@ -1,0 +1,1300 @@
+{
+  "version": "2.1.0",
+  "raw_base": "https://raw.githubusercontent.com/sakurai-yoshi/deckart/v2.1.0/",
+  "category": "02-計画・進捗",
+  "asset_count": 32,
+  "assets": [
+    {
+      "id": "framework/annual-rhythm",
+      "title": "四半期の活動を毎年繰り返す",
+      "kind": "diagram",
+      "category": "02-計画・進捗",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/framework/annual-rhythm.svg",
+      "preview_path": "previews/framework/annual-rhythm.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/framework/annual-rhythm.json",
+      "sha256": "d090b8fb9af5948ab9ef0f345064b380fe286e37a59c13554b99e822a878abff",
+      "size_bytes": 4600,
+      "keywords": [
+        "年間計画",
+        "年度",
+        "四半期",
+        "月次",
+        "年間サイクル",
+        "4月始まり",
+        "定例",
+        "運営",
+        "annual",
+        "rhythm",
+        "calendar"
+      ],
+      "use_case": "年度の計画・実行・評価・翌年度準備を、年間の運営リズムとして共有する。",
+      "message": "月ごとの活動を四半期にまとめ、翌年度へつなげる。",
+      "sample_data": false,
+      "preview_sha256": "ddd49af520b21df6c683816e31057f57ddace6aee368cdb98f9ad89aed017f4f"
+    },
+    {
+      "id": "framework/company-timeline",
+      "title": "事業の節目を時系列で伝える",
+      "kind": "diagram",
+      "category": "02-計画・進捗",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/framework/company-timeline.svg",
+      "preview_path": "previews/framework/company-timeline.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/framework/company-timeline.json",
+      "sha256": "5f3e56b15f7c9325502676b277368470cb5235e749e66da93c550304341cbec7",
+      "size_bytes": 3432,
+      "keywords": [
+        "沿革",
+        "企業紹介",
+        "歴史",
+        "年表",
+        "タイムライン",
+        "成長",
+        "節目",
+        "history",
+        "timeline",
+        "milestones"
+      ],
+      "use_case": "会社紹介で、創業から現在までの事業の歩みを伝える。",
+      "message": "事業の成長を、主要な節目の連なりとして示す。",
+      "sample_data": false,
+      "preview_sha256": "83e0d287c8bc7a603e1262415549e262ec99f373080194f7a529197b8e8df831"
+    },
+    {
+      "id": "framework/phased-roadmap",
+      "title": "時期ごとの目標と施策を揃える",
+      "kind": "diagram",
+      "category": "02-計画・進捗",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/framework/phased-roadmap.svg",
+      "preview_path": "previews/framework/phased-roadmap.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/framework/phased-roadmap.json",
+      "sha256": "45c706f82099d7c8c4789a3031aca64e1358a62d3c3bd4fd425ffd0878b96919",
+      "size_bytes": 3280,
+      "keywords": [
+        "ロードマップ",
+        "段階計画",
+        "短期",
+        "中期",
+        "長期",
+        "実行計画",
+        "施策",
+        "目標",
+        "roadmap",
+        "phased",
+        "plan"
+      ],
+      "use_case": "施策を立ち上げ、定着させ、改善するまでの見通しを共有する。",
+      "message": "各時期に何を目指し、何に取り組むかを揃える。",
+      "sample_data": false,
+      "preview_sha256": "e21a0f4c5e2521d932791c6cda6ec79c4308788d0bed0457b2a1da9d6bf8fb98"
+    },
+    {
+      "id": "icon/bottleneck",
+      "title": "ボトルネック",
+      "kind": "icon",
+      "category": "02-計画・進捗",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/bottleneck.svg",
+      "preview_path": "assets/icon/bottleneck.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/bottleneck.json",
+      "sha256": "b1e7257356bbe37f7498d82206dcfdd8e0cbf39ad5e50c65c5c1c2f860f1594b",
+      "size_bytes": 1002,
+      "keywords": [
+        "ボトルネック",
+        "制約",
+        "狭窄",
+        "滞留",
+        "throughput",
+        "constraint",
+        "bottleneck"
+      ],
+      "use_case": "全体の流れを制約する工程や箇所を示す。",
+      "message": "一部分の狭さが全体の流れを制約する。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/calendar",
+      "title": "日程・予定",
+      "kind": "icon",
+      "category": "02-計画・進捗",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/calendar.svg",
+      "preview_path": "assets/icon/calendar.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/calendar.json",
+      "sha256": "78b086b42fdbddaad64000f89d19cc97311839c6f0b81de5596cbba9a0c2bb64",
+      "size_bytes": 1475,
+      "keywords": [
+        "予定",
+        "日程",
+        "日付",
+        "会議",
+        "スケジュール",
+        "期限",
+        "calendar",
+        "schedule",
+        "date",
+        "deadline"
+      ],
+      "use_case": "会議日や作業期限など、日付に関わる項目を示す場面。",
+      "message": "予定として確認する日がある。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/convergence",
+      "title": "合流",
+      "kind": "icon",
+      "category": "02-計画・進捗",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/convergence.svg",
+      "preview_path": "assets/icon/convergence.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/convergence.json",
+      "sha256": "b54bbe2bf5a65c1d2c014e8d2a4f03187f33edecb06220f44a5564057327ecd7",
+      "size_bytes": 974,
+      "keywords": [
+        "合流",
+        "統合",
+        "集約",
+        "一本化",
+        "convergence",
+        "merge",
+        "combine",
+        "consolidate"
+      ],
+      "use_case": "別々に進めた仕事や情報を一つへまとめる場面を示す。",
+      "message": "複数の流れを一つへまとめる。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/decomposition",
+      "title": "分解",
+      "kind": "icon",
+      "category": "02-計画・進捗",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/decomposition.svg",
+      "preview_path": "assets/icon/decomposition.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/decomposition.json",
+      "sha256": "35ebd420a5bf4943324f36246abd4db1f873fdb20a11932c781e827dbbda7674",
+      "size_bytes": 854,
+      "keywords": [
+        "分解",
+        "分割",
+        "細分化",
+        "枝分かれ",
+        "decomposition",
+        "split",
+        "breakdown"
+      ],
+      "use_case": "一つの仕事や課題を小さい要素へ分ける場面を示す。",
+      "message": "全体を扱える単位に分ける。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/dependency",
+      "title": "依存関係",
+      "kind": "icon",
+      "category": "02-計画・進捗",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/dependency.svg",
+      "preview_path": "assets/icon/dependency.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/dependency.json",
+      "sha256": "985b939d353648764a085ddaf423906a79145e4d652888f8c79677832edff2ec",
+      "size_bytes": 864,
+      "keywords": [
+        "依存",
+        "関連",
+        "つながり",
+        "前提",
+        "dependency",
+        "linked",
+        "prerequisite",
+        "relation"
+      ],
+      "use_case": "作業や要素が他の要素に依存する関係を示す。",
+      "message": "一つの要素が他の要素と結びついている。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/gradual-rollout",
+      "title": "段階展開",
+      "kind": "icon",
+      "category": "02-計画・進捗",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/gradual-rollout.svg",
+      "preview_path": "assets/icon/gradual-rollout.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/gradual-rollout.json",
+      "sha256": "becc27b723dd252b935385f5dfcb4772863cc3a0221ad54d309e89d898d7a019",
+      "size_bytes": 1034,
+      "keywords": [
+        "段階展開",
+        "導入",
+        "拡大",
+        "ロールアウト",
+        "gradual",
+        "rollout",
+        "phased",
+        "deployment",
+        "adoption"
+      ],
+      "use_case": "小さい範囲から段階的に適用を広げる計画を示す。",
+      "message": "適用範囲を確かめながら広げる。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/milestone",
+      "title": "マイルストーン",
+      "kind": "icon",
+      "category": "02-計画・進捗",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/milestone.svg",
+      "preview_path": "assets/icon/milestone.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/milestone.json",
+      "sha256": "f91a9e1f59dc3edec990198b57345c6aa84a6a501fcd87ce15fe64a40d20b654",
+      "size_bytes": 1115,
+      "keywords": [
+        "マイルストーン",
+        "節目",
+        "到達点",
+        "進行",
+        "納期",
+        "milestone",
+        "checkpoint",
+        "project"
+      ],
+      "use_case": "プロジェクトの節目や重要な到達点を示す。",
+      "message": "途中の重要な到達点を共有する。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/parallel-work",
+      "title": "並行作業",
+      "kind": "icon",
+      "category": "02-計画・進捗",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/parallel-work.svg",
+      "preview_path": "assets/icon/parallel-work.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/parallel-work.json",
+      "sha256": "790674e8262280c8ffc0bdf49fa482fbaeef6ffc60fbb0b48f5cf5d28c9135a3",
+      "size_bytes": 1305,
+      "keywords": [
+        "並行",
+        "並列",
+        "同時",
+        "作業",
+        "parallel",
+        "concurrent",
+        "simultaneous"
+      ],
+      "use_case": "複数の仕事を同時に進める構成を示す。",
+      "message": "複数の流れを並行して進める。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/priority",
+      "title": "優先順位",
+      "kind": "icon",
+      "category": "02-計画・進捗",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/priority.svg",
+      "preview_path": "assets/icon/priority.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/priority.json",
+      "sha256": "8cb127dcde6864b7add36a5eea7ec10ca4a49caea2b2437c4e70eff61c3757d6",
+      "size_bytes": 963,
+      "keywords": [
+        "優先順位",
+        "順位",
+        "重要度",
+        "順序",
+        "優先",
+        "priority",
+        "ranking",
+        "order"
+      ],
+      "use_case": "施策や作業の優先順位を説明する。",
+      "message": "重要な項目から取り組む順を決める。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/readiness-gate",
+      "title": "開始条件の確認",
+      "kind": "icon",
+      "category": "02-計画・進捗",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/readiness-gate.svg",
+      "preview_path": "assets/icon/readiness-gate.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/readiness-gate.json",
+      "sha256": "1d572148f3c21ccfb9c612f1c39fc85d64976c325b496ca2aeae8cc60b1e3b84",
+      "size_bytes": 1030,
+      "keywords": [
+        "開始条件",
+        "判定",
+        "ゲート",
+        "準備",
+        "着手",
+        "readiness",
+        "gate",
+        "go",
+        "no",
+        "go",
+        "prerequisite"
+      ],
+      "use_case": "次の段階を始める条件が揃ったかを確認する。",
+      "message": "準備条件を確認して先へ進む。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/work-queue",
+      "title": "処理待ちの列",
+      "kind": "icon",
+      "category": "02-計画・進捗",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/work-queue.svg",
+      "preview_path": "assets/icon/work-queue.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/work-queue.json",
+      "sha256": "48bd13863a13482527ece48097a49997d2ab1b384a7d6e62823b4b71fc098eda",
+      "size_bytes": 1162,
+      "keywords": [
+        "待ち行列",
+        "キュー",
+        "順番",
+        "処理",
+        "順送り",
+        "queue",
+        "backlog",
+        "waiting",
+        "order"
+      ],
+      "use_case": "順番待ちしている作業やメッセージを説明する。",
+      "message": "到着した処理を順に扱う。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/workflow",
+      "title": "ワークフロー",
+      "kind": "icon",
+      "category": "02-計画・進捗",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/workflow.svg",
+      "preview_path": "assets/icon/workflow.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/workflow.json",
+      "sha256": "633884a95683470d5436a1f5431502bffb6a63dd73077e77362da9472399bf99",
+      "size_bytes": 1304,
+      "keywords": [
+        "ワークフロー",
+        "手順",
+        "工程",
+        "処理",
+        "受渡",
+        "workflow",
+        "process",
+        "routing"
+      ],
+      "use_case": "業務手順や工程間の受け渡しを示す。",
+      "message": "工程をつないで仕事を進める。",
+      "sample_data": false
+    },
+    {
+      "id": "illustration/change-adoption",
+      "title": "新しい道具を試して使い方を覚える",
+      "kind": "illustration",
+      "category": "02-計画・進捗",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1536,
+      "height": 1024,
+      "canvas": {
+        "width": 1536,
+        "height": 1024
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/change-adoption.png",
+      "preview_path": "previews/illustration/change-adoption.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/change-adoption.json",
+      "sha256": "6e5d93810fbd47b8fecb6ca5788f46572255775a95c84b3439a2c1699400ac5f",
+      "size_bytes": 1264276,
+      "keywords": [
+        "変化",
+        "導入",
+        "デジタル化",
+        "定着",
+        "change adoption"
+      ],
+      "use_case": "新しい端末や仕組みを導入するときに、従来の記録と見比べて使い方を覚える場面。",
+      "message": "慣れた仕事と新しい道具を結び付ける。",
+      "sample_data": false,
+      "composition": {
+        "framing": "waist-up",
+        "facing": "down",
+        "people_count": 1
+      }
+    },
+    {
+      "id": "illustration/planning",
+      "title": "段取りを考える",
+      "kind": "illustration",
+      "category": "02-計画・進捗",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1254,
+      "height": 1254,
+      "canvas": {
+        "width": 1254,
+        "height": 1254
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/planning.png",
+      "preview_path": "previews/illustration/planning.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/planning.json",
+      "sha256": "b1b311dfc907e6934161a8de1ffe7ec711e3e689215953b0826271d95df5c088",
+      "size_bytes": 738554,
+      "keywords": [
+        "計画",
+        "準備",
+        "段取り",
+        "工程",
+        "planning",
+        "preparation"
+      ],
+      "use_case": "着手前の作業計画や段取りの説明に。",
+      "message": "始める前に進め方を整える。",
+      "sample_data": false,
+      "composition": {
+        "framing": "waist-up",
+        "facing": "down",
+        "people_count": 1
+      }
+    },
+    {
+      "id": "illustration/project-planning",
+      "title": "計画を組み立てる",
+      "kind": "illustration",
+      "category": "02-計画・進捗",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1254,
+      "height": 1254,
+      "canvas": {
+        "width": 1254,
+        "height": 1254
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/project-planning.png",
+      "preview_path": "previews/illustration/project-planning.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/project-planning.json",
+      "sha256": "e1f77f18d63adbe3c67f9c626f2eab01f5955f54140c67c0cc2acfefc67e9ea0",
+      "size_bytes": 944682,
+      "keywords": [
+        "計画",
+        "予定",
+        "タスク",
+        "スケジュール",
+        "planning",
+        "schedule"
+      ],
+      "use_case": "計画策定、タスク整理、スケジュールの導入に。",
+      "message": "予定と実行項目を一緒に整理する。",
+      "sample_data": false,
+      "composition": {
+        "framing": "object",
+        "facing": "front",
+        "people_count": 0
+      }
+    },
+    {
+      "id": "part/action-commitment",
+      "title": "行動に担当と期限を添える",
+      "kind": "part",
+      "category": "02-計画・進捗",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1090,
+      "height": 303,
+      "canvas": {
+        "width": 1090,
+        "height": 303
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/part/action-commitment.svg",
+      "preview_path": "previews/part/action-commitment.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/part/action-commitment.json",
+      "sha256": "3e3c8a2d636b7a451b769625d1c6fabced315ea06059bcdeb8922ff4d52b5c33",
+      "size_bytes": 749,
+      "keywords": [
+        "行動",
+        "担当",
+        "期限",
+        "次の一歩",
+        "合意",
+        "action",
+        "owner",
+        "deadline"
+      ],
+      "use_case": "会議で決めた次の行動を一行で残す場面。",
+      "message": "何を、誰が、いつまでに行うかが分かる。",
+      "sample_data": false,
+      "preview_sha256": "2b04abde0effa8587afb6c0261e174c37d005955958bcc896a75e57f56c30431"
+    },
+    {
+      "id": "part/delayed-effect",
+      "title": "実施から効果が現れるまでの時間を示す",
+      "kind": "part",
+      "category": "02-計画・進捗",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1120,
+      "height": 380,
+      "canvas": {
+        "width": 1120,
+        "height": 380
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/part/delayed-effect.svg",
+      "preview_path": "previews/part/delayed-effect.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/part/delayed-effect.json",
+      "sha256": "dd9e223257e07dfc6a0557b96160bf7de57bb352536e0addc4802a1e8ae972c9",
+      "size_bytes": 1120,
+      "keywords": [
+        "遅延",
+        "効果",
+        "時間差",
+        "評価",
+        "時点",
+        "lag",
+        "delayed",
+        "effect",
+        "time"
+      ],
+      "use_case": "教育や設備投資など、成果が表れるまで時間を要する施策を説明する。",
+      "message": "実施直後の状態だけで効果を判断せず、評価する時点を定める。",
+      "sample_data": false,
+      "preview_sha256": "1db79329f49b98f5b3a078a9a7a6b4873ae69b08d4219bb4e00bc3a0f20fff90"
+    },
+    {
+      "id": "part/dependency-condition",
+      "title": "着手前に必要な条件を示す",
+      "kind": "part",
+      "category": "02-計画・進捗",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1100,
+      "height": 364,
+      "canvas": {
+        "width": 1100,
+        "height": 364
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/part/dependency-condition.svg",
+      "preview_path": "previews/part/dependency-condition.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/part/dependency-condition.json",
+      "sha256": "371724e42c8ccbc45d760c496ea9597033f2f5ce044ef00b184a58f7b2ba926e",
+      "size_bytes": 1429,
+      "keywords": [
+        "依存",
+        "条件",
+        "前提",
+        "着手",
+        "待ち",
+        "dependency",
+        "prerequisite",
+        "blocker"
+      ],
+      "use_case": "遅延や着手待ちの理由を工程の近くに注記する。",
+      "message": "先行条件を満たすまで後続作業を進めない。",
+      "sample_data": false,
+      "preview_sha256": "8908cd414e0296c25dc2641b0ebb9f3cf68784684e953a26712e25a0cc423e10"
+    },
+    {
+      "id": "part/leading-and-lagging",
+      "title": "先行する行動と結果を分けて測る",
+      "kind": "part",
+      "category": "02-計画・進捗",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1120,
+      "height": 380,
+      "canvas": {
+        "width": 1120,
+        "height": 380
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/part/leading-and-lagging.svg",
+      "preview_path": "previews/part/leading-and-lagging.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/part/leading-and-lagging.json",
+      "sha256": "f8f09a9a052bb476211da44e32829aaaccb40df49adcd3c0f1bbf7c7a24326c9",
+      "size_bytes": 1075,
+      "keywords": [
+        "先行指標",
+        "結果指標",
+        "KPI",
+        "行動",
+        "成果",
+        "leading",
+        "lagging",
+        "indicator"
+      ],
+      "use_case": "目標管理で、今の行動と後で得られる結果を併記する。",
+      "message": "結果を待つ間にも、成果へつながる行動を確認できる。",
+      "sample_data": false,
+      "preview_sha256": "f45ad80beee9c028cb746b316b3ca82672aa937464841f25a96dca77caa03db4"
+    },
+    {
+      "id": "plan/completion-states",
+      "title": "成果を状態で分けて報告する",
+      "kind": "diagram",
+      "category": "02-計画・進捗",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/plan/completion-states.svg",
+      "preview_path": "previews/plan/completion-states.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/plan/completion-states.json",
+      "sha256": "cf0b5f71324b0513fad83a087f3d416e8fe6700fefdba95b1220b27dbd10525e",
+      "size_bytes": 4658,
+      "keywords": [
+        "進捗",
+        "完了",
+        "進行中",
+        "未着手",
+        "残作業",
+        "成果",
+        "状態",
+        "ステータス"
+      ],
+      "use_case": "週次報告で成果を完了・進行中・未着手に分けて共有する。",
+      "message": "成果の状態を分け、現在の仕事と残りの範囲を見せる。",
+      "sample_data": false,
+      "preview_sha256": "fe978e313bac71e6c012a6de236c3bb46b162b062410f8fc845b3ed92227efe6"
+    },
+    {
+      "id": "plan/converging-launch",
+      "title": "部門の準備を一つの公開日に揃える",
+      "kind": "diagram",
+      "category": "02-計画・進捗",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/plan/converging-launch.svg",
+      "preview_path": "previews/plan/converging-launch.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/plan/converging-launch.json",
+      "sha256": "d4cb325631b029771518779ed290afb42f7c10c557915a16ecbde2979f2d24b0",
+      "size_bytes": 2382,
+      "keywords": [
+        "リリース",
+        "公開",
+        "ローンチ",
+        "部門連携",
+        "準備",
+        "合流",
+        "開発",
+        "運用",
+        "営業"
+      ],
+      "use_case": "開発・運用・事業部門の準備を共通の公開日に合わせる。",
+      "message": "部門ごとの準備を揃えて、ひとつの公開判断につなぐ。",
+      "sample_data": false,
+      "preview_sha256": "b4ca783166d45c06363d81a304dae1692da4daa43c03e25e49d0ac7fb8344627"
+    },
+    {
+      "id": "plan/critical-dependencies",
+      "title": "完了日を左右する依存関係",
+      "kind": "diagram",
+      "category": "02-計画・進捗",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/plan/critical-dependencies.svg",
+      "preview_path": "previews/plan/critical-dependencies.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/plan/critical-dependencies.json",
+      "sha256": "4364fa28106c527ab6ff52f75795bcd14808247d55dc45d9e2b9352cde324822",
+      "size_bytes": 4234,
+      "keywords": [
+        "クリティカルパス",
+        "依存関係",
+        "先行工程",
+        "マイルストーン",
+        "納期",
+        "工程",
+        "計画"
+      ],
+      "use_case": "納期を守るために優先して管理する工程と前提条件を共有する。",
+      "message": "主要経路の節目は、必要な条件が揃わないと進めない。",
+      "sample_data": false,
+      "preview_sha256": "61424f90bf86e924a74b08874b9fa2f97045fabb4824f5ec8934c6efe9426dce"
+    },
+    {
+      "id": "plan/expanding-rollout",
+      "title": "利用範囲を確かめながら広げる",
+      "kind": "diagram",
+      "category": "02-計画・進捗",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/plan/expanding-rollout.svg",
+      "preview_path": "previews/plan/expanding-rollout.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/plan/expanding-rollout.json",
+      "sha256": "e26c94b044e3e2d7cc34a87d5ca97912ffa4119d2ea8abf5f366acf3e6b92145",
+      "size_bytes": 2109,
+      "keywords": [
+        "段階展開",
+        "ロールアウト",
+        "パイロット",
+        "全社導入",
+        "試行",
+        "利用範囲",
+        "横展開"
+      ],
+      "use_case": "新しい業務ツールを一部チームから全社へ展開する。",
+      "message": "小さな範囲で確認しながら、利用対象を広げる。",
+      "sample_data": false,
+      "preview_sha256": "5d0ebf2d910e2ddaf6f86bbc8d101ac0f2802a31c95cf7c93105702442838138"
+    },
+    {
+      "id": "plan/parallel-migration",
+      "title": "並行運用から稼働系を切り替える",
+      "kind": "diagram",
+      "category": "02-計画・進捗",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/plan/parallel-migration.svg",
+      "preview_path": "previews/plan/parallel-migration.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/plan/parallel-migration.json",
+      "sha256": "b1e7efe7f2e2b29f1dbb2cd1ff20b8365561b1bad6c3fc64d727c194c7594127",
+      "size_bytes": 3055,
+      "keywords": [
+        "システム移行",
+        "切替",
+        "並行運用",
+        "データ移行",
+        "カットオーバー",
+        "新旧",
+        "更改"
+      ],
+      "use_case": "既存システムから新環境への更改手順を共有する。",
+      "message": "新環境を準備し、データを引き継いで稼働系を移す。",
+      "sample_data": false,
+      "preview_sha256": "a5fd8ed682169c96801b99152341c716fb66e4df05487942444d958ef5f373f0"
+    },
+    {
+      "id": "plan/workstream-handoffs",
+      "title": "作業期間と引継ぎを同時に見る",
+      "kind": "diagram",
+      "category": "02-計画・進捗",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/plan/workstream-handoffs.svg",
+      "preview_path": "previews/plan/workstream-handoffs.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/plan/workstream-handoffs.json",
+      "sha256": "462b272249bcc310d1d32a7542f31252fb2263b78d8fddec6f1ac2b715586395",
+      "size_bytes": 4289,
+      "keywords": [
+        "スケジュール",
+        "ガント",
+        "作業計画",
+        "ワークストリーム",
+        "引継ぎ",
+        "並行作業",
+        "期間"
+      ],
+      "use_case": "要件・制作・検証を並行して進める計画の引継ぎ点を示す。",
+      "message": "作業を重ねながら、必要な成果を次の担当へ渡す。",
+      "sample_data": false,
+      "preview_sha256": "59a26da9a7f4e6a08a54ae6a085ea3767b0105521812d2f22cfa06309f3dc300"
+    },
+    {
+      "id": "planning/controlled-scope-boundary",
+      "title": "追加要望を一つの入口で判断する",
+      "kind": "diagram",
+      "category": "02-計画・進捗",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/planning/controlled-scope-boundary.svg",
+      "preview_path": "previews/planning/controlled-scope-boundary.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/planning/controlled-scope-boundary.json",
+      "sha256": "1b1a46a92c8d38a0c4d667c3caeaa71a03b3bb4dba89dca98babdcd3114eb918",
+      "size_bytes": 3227,
+      "keywords": [
+        "スコープ",
+        "範囲",
+        "対象外",
+        "追加要望",
+        "変更管理",
+        "合意",
+        "受入条件",
+        "要件",
+        "scope",
+        "boundary",
+        "change",
+        "control",
+        "requirements"
+      ],
+      "use_case": "プロジェクト途中の追加要望を整理し、今回の対応範囲を合意する。",
+      "message": "要望をそのまま足さず、範囲の入口で合意してから追加する。",
+      "sample_data": false,
+      "preview_sha256": "c2365c9a1e1351827fc34edb843e19227787fe0694ab38fb0949f6698345a7be"
+    },
+    {
+      "id": "planning/outcome-measure-tree",
+      "title": "目指す成果を観測する指標へ分ける",
+      "kind": "diagram",
+      "category": "02-計画・進捗",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/planning/outcome-measure-tree.svg",
+      "preview_path": "previews/planning/outcome-measure-tree.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/planning/outcome-measure-tree.json",
+      "sha256": "f4d34c5ef63d5d8378421f30cd5d9461b2e8c814d045140e9aabfebbbdc5b11c",
+      "size_bytes": 2272,
+      "keywords": [
+        "目標管理",
+        "KGI",
+        "KPI",
+        "成果指標",
+        "指標ツリー",
+        "測定",
+        "評価",
+        "成果分解",
+        "outcome",
+        "measures",
+        "metric",
+        "tree",
+        "goals",
+        "indicators"
+      ],
+      "use_case": "成果目標を設定し、達成状況を何で確認するかを整理する。",
+      "message": "目標の言葉だけで終えず、観測できる指標まで決める。",
+      "sample_data": false,
+      "preview_sha256": "ba857afdd34643b719626e072236e0e9210b018e415a3858e96de0657b6b4706"
+    },
+    {
+      "id": "process/parallel-validation",
+      "title": "並行検証を揃えて次へ進む",
+      "kind": "diagram",
+      "category": "02-計画・進捗",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/process/parallel-validation.svg",
+      "preview_path": "previews/process/parallel-validation.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/process/parallel-validation.json",
+      "sha256": "a1e55e1c562a2543ff74aaba23648f1fb29027ea4628362d7dc9085aefcb85b8",
+      "size_bytes": 6092,
+      "keywords": [
+        "並行検証",
+        "並列処理",
+        "同期",
+        "合流",
+        "リリース判定",
+        "品質",
+        "審査"
+      ],
+      "use_case": "リリース前に機能・運用・安全性の確認を並行で実施する。",
+      "message": "必要な確認結果がすべて揃ってから次へ進む。",
+      "sample_data": false,
+      "preview_sha256": "a26f003bf4ff4ae0713da6d11c509e5e320526e25ea173e59a53c738563c12f2"
+    },
+    {
+      "id": "process/phased-acceptance",
+      "title": "受入確認を重ねる段階納品",
+      "kind": "diagram",
+      "category": "02-計画・進捗",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/process/phased-acceptance.svg",
+      "preview_path": "previews/process/phased-acceptance.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/process/phased-acceptance.json",
+      "sha256": "d6553448be807533c95a661372347937d95557457b10ba6b28ec902e5959fb97",
+      "size_bytes": 5392,
+      "keywords": [
+        "段階納品",
+        "受入検査",
+        "段階導入",
+        "フェーズ",
+        "インクリメント",
+        "検収",
+        "納品"
+      ],
+      "use_case": "システム導入で、合意した機能から段階的に引き渡す。",
+      "message": "確認できた成果を積み上げ、完成範囲を広げる。",
+      "sample_data": false,
+      "preview_sha256": "c1b54d86013177d53d0e0833b379f59387ed4c9af7cda1b28598aaa6b4641121"
+    }
+  ]
+}

@@ -1,5 +1,4 @@
 {
-  "category": "08-アイコンとピクトグラム",
   "title": "通い箱",
   "description": "容器を使い捨てず繰り返し使う。",
   "keywords": [
@@ -24,6 +23,7 @@
       "上に戻る矢印が次の利用へ回すことを示す。"
     ]
   },
+  "category": "05-調達・物流",
   "schema_version": 3,
   "id": "icon/returnable-container",
   "name": "通い箱_製造業務の記号",

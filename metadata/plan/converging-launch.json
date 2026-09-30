@@ -1,5 +1,4 @@
 {
-  "category": "04-計画と進捗",
   "title": "部門の準備を一つの公開日に揃える",
   "description": "開発・運用・事業の準備を合流させ、共通の公開条件へつなぐ。",
   "keywords": [
@@ -107,6 +106,7 @@
     ]
   },
   "kind": "diagram",
+  "category": "02-計画・進捗",
   "schema_version": 3,
   "id": "plan/converging-launch",
   "name": "リリース計画_部門の準備を一つの公開日に揃える_三系統の合流",
@@ -129,5 +129,6 @@
     "data": false
   },
   "sha256": "d4cb325631b029771518779ed290afb42f7c10c557915a16ecbde2979f2d24b0",
-  "size_bytes": 2382
+  "size_bytes": 2382,
+  "preview_sha256": "b4ca783166d45c06363d81a304dae1692da4daa43c03e25e49d0ac7fb8344627"
 }

@@ -1,5 +1,4 @@
 {
-  "category": "10-数値とグラフ",
   "title": "全体を100%にそろえて構成を比べる",
   "description": "各行の合計を100%にそろえ、三つの区分の割合を比較する積上げ棒の作例。",
   "keywords": [
@@ -182,6 +181,7 @@
       "各区分の長さは表示した割合と一致する。"
     ]
   },
+  "category": "13-説明・伝達",
   "schema_version": 3,
   "id": "chart/stacked-percent-bar",
   "name": "構成比較_同じ全体にそろえて内訳を比べる_100パーセント積上げ作例",
@@ -205,9 +205,11 @@
   },
   "data_input": {
     "chart_type": "stacked_percent_bar",
-    "category_count": 3,
+    "category_count": {
+      "minimum": 1
+    },
     "series_count": 3,
-    "values_per_series": 3,
+    "values_per_series": "categoriesと同数",
     "required": [
       "categories",
       "series",
@@ -219,7 +221,8 @@
       "有限な数値。絶対値は1兆以下。大きな値は単位を変更して入力。",
       "categoriesは16文字以内、series.label・unitは12文字以内。",
       "値は0以上。",
-      "単位は%。各カテゴリの3系列を足すと100。"
+      "単位は%。各カテゴリの3系列を足すと100。",
+      "カテゴリ数に応じて描画領域が拡張される。拡張後のwidth/heightを使って配置。"
     ],
     "example": {
       "categories": [
@@ -257,5 +260,6 @@
     }
   },
   "sha256": "562a489cfc1b53db40352fd9035de46848748531ee5d8877624fd9a8d0b6859b",
-  "size_bytes": 16253
+  "size_bytes": 16253,
+  "preview_sha256": "b98810fc0502e7c23fc842f101de69c4b45788e492854f4caea39ac5c032c390"
 }

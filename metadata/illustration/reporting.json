@@ -1,7 +1,6 @@
 {
   "title": "状況を伝える",
   "kind": "illustration",
-  "category": "06-業務イラスト",
   "width": 1254,
   "height": 1254,
   "keywords": [
@@ -16,7 +15,7 @@
     "use_case": "進捗・対応・確認結果を共有する説明に。",
     "message": "現在の状況を相手へ伝える。",
     "reading": [
-      "差し出した資料と落ち着いた姿勢が、結果を相手へ伝える動作を示します。"
+      "片手で掲げた資料をもう一方の手で指し、内容を相手へ伝える動作を示す。"
     ]
   },
   "labels": [],
@@ -38,6 +37,7 @@
     "width": 1254,
     "height": 1254
   },
+  "category": "13-説明・伝達",
   "schema_version": 3,
   "id": "illustration/reporting",
   "name": "状況を伝える_汎用ビジネスの動作",
@@ -45,7 +45,7 @@
   "path": "media/illustration/reporting.png",
   "metadata_path": "metadata/illustration/reporting.json",
   "preview_has_example_labels": false,
-  "search_text": "illustration/reporting\n状況を伝える_汎用ビジネスの動作\n状況を伝える\n進捗・対応・確認結果を共有する説明に。\n現在の状況を相手へ伝える。\n差し出した資料と落ち着いた姿勢が、結果を相手へ伝える動作を示します。\n報告 状況 進捗 共有 report update\nwaist-up 上半身 腰上 front 正面",
+  "search_text": "illustration/reporting\n状況を伝える_汎用ビジネスの動作\n状況を伝える\n進捗・対応・確認結果を共有する説明に。\n現在の状況を相手へ伝える。\n片手で掲げた資料をもう一方の手で指し、内容を相手へ伝える動作を示す。\n報告 状況 進捗 共有 report update\nwaist-up 上半身 腰上 front 正面",
   "render": {
     "theme": false,
     "labels": false,

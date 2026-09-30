@@ -1,0 +1,55 @@
+{
+  "title": "供給が止まった時の代替を備える",
+  "description": "空の箱、参照用のフィルター、同形の部品を備えた別の箱で代替調達を表す。",
+  "kind": "illustration",
+  "width": 1774,
+  "height": 887,
+  "labels": [],
+  "composition": {
+    "framing": "object",
+    "facing": "front"
+  },
+  "keywords": [
+    "代替調達",
+    "供給継続",
+    "BCP",
+    "substitution",
+    "supply continuity"
+  ],
+  "guidance": {
+    "use_case": "供給が途切れる状況への備えとして、代わりに調達できる部品を用意する場面。",
+    "message": "必要な部品の代替を備え、供給の継続につなげる。",
+    "reading": [
+      "左の箱は空で、右の箱には青いフィルターが収まっている。",
+      "中央に置いた同形のフィルターが、補う必要のある部品を示す。"
+    ]
+  },
+  "preview_path": "previews/illustration/supplier-continuity.png",
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/enterprise-illustrations.json"
+  },
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": true,
+  "canvas": {
+    "width": 1774,
+    "height": 887
+  },
+  "category": "05-調達・物流",
+  "schema_version": 3,
+  "id": "illustration/supplier-continuity",
+  "name": "供給が止まった時の代替を備える_業務イラスト",
+  "license": "CC0-1.0",
+  "path": "media/illustration/supplier-continuity.png",
+  "metadata_path": "metadata/illustration/supplier-continuity.json",
+  "preview_has_example_labels": false,
+  "search_text": "illustration/supplier-continuity\n供給が止まった時の代替を備える_業務イラスト\n供給が止まった時の代替を備える\n供給が途切れる状況への備えとして、代わりに調達できる部品を用意する場面。\n必要な部品の代替を備え、供給の継続につなげる。\n左の箱は空で、右の箱には青いフィルターが収まっている。\n中央に置いた同形のフィルターが、補う必要のある部品を示す。\n代替調達 供給継続 BCP substitution supply continuity\nobject 物 道具 front 正面",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "128312e54d10c35b034a37337d4aae55aad69c547e501a6d0c4e98efa6b9da27",
+  "size_bytes": 805117
+}

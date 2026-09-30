@@ -1,5 +1,4 @@
 {
-  "category": "08-アイコンとピクトグラム",
   "title": "換気",
   "description": "空気を外へ流して作業環境を整える。",
   "keywords": [
@@ -23,6 +22,7 @@
       "外向きの三本の流れが排気する方向を示す。"
     ]
   },
+  "category": "07-安全・事業継続",
   "schema_version": 3,
   "id": "icon/ventilation",
   "name": "換気_製造業務の記号",

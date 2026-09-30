@@ -1,0 +1,126 @@
+{
+  "title": "基準への適合と他者との順位を分ける",
+  "description": "基準を満たすことと、他より上位にあることは別の評価になる。",
+  "keywords": [
+    "絶対評価",
+    "相対評価",
+    "順位",
+    "基準",
+    "適合",
+    "absolute",
+    "relative",
+    "benchmark"
+  ],
+  "labels": [
+    {
+      "x": 59,
+      "y": 63,
+      "width": 397,
+      "height": 53,
+      "text": "基準そのものとの比較",
+      "role": "絶対評価",
+      "align": "left",
+      "color": "#153A6B",
+      "font_size": 28,
+      "id": "label-1",
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 13
+    },
+    {
+      "x": 59,
+      "y": 145,
+      "width": 397,
+      "height": 90,
+      "text": "決めた条件を\n満たしているか",
+      "role": "絶対評価の問い",
+      "align": "left",
+      "color": "#153A6B",
+      "font_size": 32,
+      "id": "label-2",
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 11
+    },
+    {
+      "x": 665,
+      "y": 63,
+      "width": 397,
+      "height": 53,
+      "text": "他の対象との比較",
+      "role": "相対評価",
+      "align": "left",
+      "color": "#2864F0",
+      "font_size": 28,
+      "id": "label-3",
+      "color_role": "accent",
+      "max_lines": 1,
+      "max_fullwidth_chars": 13
+    },
+    {
+      "x": 665,
+      "y": 145,
+      "width": 397,
+      "height": 90,
+      "text": "他と比べて\nどの位置にいるか",
+      "role": "相対評価の問い",
+      "align": "left",
+      "color": "#153A6B",
+      "font_size": 32,
+      "id": "label-4",
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 11
+    },
+    {
+      "x": 309,
+      "y": 320,
+      "width": 499,
+      "height": 48,
+      "text": "目的に応じて両方を読む",
+      "role": "評価の扱い",
+      "align": "center",
+      "color": "#153A6B",
+      "font_size": 27,
+      "id": "label-5",
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 17
+    }
+  ],
+  "width": 1120,
+  "height": 380,
+  "kind": "part",
+  "guidance": {
+    "use_case": "目標の達成とランキング上の位置を区別して報告する。",
+    "message": "基準を満たすことと、他より上位にあることは別の評価になる。",
+    "reading": [
+      "左右の枠が二つの評価基準を表す。"
+    ]
+  },
+  "category": "01-経営・意思決定",
+  "schema_version": 3,
+  "id": "part/absolute-and-relative",
+  "name": "基準への適合と他者との順位を分ける_説明パーツ",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1120,
+    "height": 380
+  },
+  "path": "assets/part/absolute-and-relative.svg",
+  "metadata_path": "metadata/part/absolute-and-relative.json",
+  "preview_path": "previews/part/absolute-and-relative.svg",
+  "preview_has_example_labels": true,
+  "search_text": "part/absolute-and-relative\n基準への適合と他者との順位を分ける_説明パーツ\n基準への適合と他者との順位を分ける\n目標の達成とランキング上の位置を区別して報告する。\n基準を満たすことと、他より上位にあることは別の評価になる。\n左右の枠が二つの評価基準を表す。\n絶対評価 相対評価 順位 基準 適合 absolute relative benchmark",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "17e47e3096f4128673afa21d8c3e7119304c7c53234fe175beb0cd118a3d3dac",
+  "size_bytes": 700,
+  "preview_sha256": "ed164a143c8df3b5fab565a357ff967cd4823cf9bfdaed2a4359ec827f481a8a"
+}

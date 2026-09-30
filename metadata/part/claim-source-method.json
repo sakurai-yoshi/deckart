@@ -1,0 +1,126 @@
+{
+  "title": "主張から情報源と加工方法をたどる",
+  "description": "出典だけでなく、元の記録をどう結論へ変えたかも追跡できる。",
+  "keywords": [
+    "根拠",
+    "追跡",
+    "出典",
+    "集計方法",
+    "トレーサビリティ",
+    "provenance",
+    "source",
+    "method"
+  ],
+  "labels": [
+    {
+      "x": 62,
+      "y": 59,
+      "width": 341,
+      "height": 55,
+      "text": "資料中の主張",
+      "role": "主張",
+      "align": "left",
+      "color": "#2864F0",
+      "font_size": 27,
+      "id": "label-1",
+      "color_role": "accent",
+      "max_lines": 1,
+      "max_fullwidth_chars": 11
+    },
+    {
+      "x": 62,
+      "y": 136,
+      "width": 341,
+      "height": 97,
+      "text": "根拠までたどれる\n記述",
+      "role": "主張の内容",
+      "align": "left",
+      "color": "#153A6B",
+      "font_size": 31,
+      "id": "label-2",
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 10
+    },
+    {
+      "x": 745,
+      "y": 49,
+      "width": 336,
+      "height": 78,
+      "text": "元の記録・資料",
+      "role": "情報源",
+      "align": "left",
+      "color": "#153A6B",
+      "font_size": 30,
+      "id": "label-3",
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 10
+    },
+    {
+      "x": 745,
+      "y": 179,
+      "width": 336,
+      "height": 113,
+      "text": "集計や判断の方法",
+      "role": "変換方法",
+      "align": "left",
+      "color": "#153A6B",
+      "font_size": 30,
+      "id": "label-4",
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 10
+    },
+    {
+      "x": 388,
+      "y": 310,
+      "width": 350,
+      "height": 49,
+      "text": "情報源と加工方法を残す",
+      "role": "追跡の要点",
+      "align": "center",
+      "color": "#153A6B",
+      "font_size": 26,
+      "id": "label-5",
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 12
+    }
+  ],
+  "width": 1120,
+  "height": 380,
+  "kind": "part",
+  "guidance": {
+    "use_case": "集計値や結論に、元の記録と加工方法の二つを対応づける。",
+    "message": "出典だけでなく、元の記録をどう結論へ変えたかも追跡できる。",
+    "reading": [
+      "左の主張から二本の枝が情報源と方法へ分かれる。"
+    ]
+  },
+  "category": "13-説明・伝達",
+  "schema_version": 3,
+  "id": "part/claim-source-method",
+  "name": "主張から情報源と加工方法をたどる_説明パーツ",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1120,
+    "height": 380
+  },
+  "path": "assets/part/claim-source-method.svg",
+  "metadata_path": "metadata/part/claim-source-method.json",
+  "preview_path": "previews/part/claim-source-method.svg",
+  "preview_has_example_labels": true,
+  "search_text": "part/claim-source-method\n主張から情報源と加工方法をたどる_説明パーツ\n主張から情報源と加工方法をたどる\n集計値や結論に、元の記録と加工方法の二つを対応づける。\n出典だけでなく、元の記録をどう結論へ変えたかも追跡できる。\n左の主張から二本の枝が情報源と方法へ分かれる。\n根拠 追跡 出典 集計方法 トレーサビリティ provenance source method",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "01422534c80ae1819dac7035aef6739db1a0b768cd03fdcf118a7968b3079225",
+  "size_bytes": 1042,
+  "preview_sha256": "e7c071166d3829cb698faaccd195854d79a5b274152c558b7ce718f24d55fa26"
+}

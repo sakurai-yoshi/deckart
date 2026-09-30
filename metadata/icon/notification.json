@@ -1,5 +1,4 @@
 {
-  "category": "08-アイコンとピクトグラム",
   "title": "通知",
   "description": "更新や連絡に気付くための通知を示す。",
   "keywords": [
@@ -23,6 +22,7 @@
       "左右の短い線が鳴って知らせる行為を表す。"
     ]
   },
+  "category": "13-説明・伝達",
   "schema_version": 3,
   "id": "icon/notification",
   "name": "通知管理_注意を促す知らせを送る_ベル",

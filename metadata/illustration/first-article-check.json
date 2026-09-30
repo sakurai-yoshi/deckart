@@ -1,0 +1,56 @@
+{
+  "title": "初回の製品を基準と照合する",
+  "description": "図面と見本を脇に置き、L字部品の穴の位置を指して確認する場面。",
+  "kind": "illustration",
+  "width": 1536,
+  "height": 1024,
+  "labels": [],
+  "composition": {
+    "framing": "object",
+    "facing": "front"
+  },
+  "keywords": [
+    "初回品",
+    "初品",
+    "承認",
+    "品質",
+    "first article",
+    "inspection"
+  ],
+  "guidance": {
+    "use_case": "作り始めの製品を確認し、見本や図面との対応を説明する場面。",
+    "message": "初回の品物を見本と図面に照らして確かめる。",
+    "reading": [
+      "同じL字形の白い部品と青い見本を並べ、後ろにその形を描いた図面を置いている。",
+      "部品を支える手と穴を指す手が、具体的な確認箇所を示す。"
+    ]
+  },
+  "preview_path": "previews/illustration/first-article-check.png",
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/enterprise-illustrations.json"
+  },
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": true,
+  "canvas": {
+    "width": 1536,
+    "height": 1024
+  },
+  "category": "03-品質・改善",
+  "schema_version": 3,
+  "id": "illustration/first-article-check",
+  "name": "初回の製品を基準と照合する_業務イラスト",
+  "license": "CC0-1.0",
+  "path": "media/illustration/first-article-check.png",
+  "metadata_path": "metadata/illustration/first-article-check.json",
+  "preview_has_example_labels": false,
+  "search_text": "illustration/first-article-check\n初回の製品を基準と照合する_業務イラスト\n初回の製品を基準と照合する\n作り始めの製品を確認し、見本や図面との対応を説明する場面。\n初回の品物を見本と図面に照らして確かめる。\n同じL字形の白い部品と青い見本を並べ、後ろにその形を描いた図面を置いている。\n部品を支える手と穴を指す手が、具体的な確認箇所を示す。\n初回品 初品 承認 品質 first article inspection\nobject 物 道具 front 正面",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "513b1ccb21e945cb3f504c4bd407847c0ffea96cf227844db6ce503216b397a3",
+  "size_bytes": 1322262
+}

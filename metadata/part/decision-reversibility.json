@@ -1,0 +1,111 @@
+{
+  "title": "判断を戻せるかで検証の厚さを変える",
+  "description": "元へ戻す負担が大きい判断ほど、実行前に検証する。",
+  "keywords": [
+    "可逆",
+    "不可逆",
+    "意思決定",
+    "試行",
+    "検証",
+    "reversible",
+    "irreversible",
+    "decision"
+  ],
+  "labels": [
+    {
+      "x": 62,
+      "y": 41,
+      "width": 400,
+      "height": 64,
+      "text": "戻せる判断",
+      "role": "可逆性",
+      "align": "left",
+      "color": "#2864F0",
+      "font_size": 34,
+      "id": "label-1",
+      "color_role": "accent",
+      "max_lines": 1,
+      "max_fullwidth_chars": 11
+    },
+    {
+      "x": 62,
+      "y": 278,
+      "width": 412,
+      "height": 75,
+      "text": "試してから調整する",
+      "role": "進め方",
+      "align": "left",
+      "color": "#153A6B",
+      "font_size": 29,
+      "id": "label-2",
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 13
+    },
+    {
+      "x": 649,
+      "y": 41,
+      "width": 409,
+      "height": 64,
+      "text": "戻すコストが大きい判断",
+      "role": "可逆性",
+      "align": "left",
+      "color": "#153A6B",
+      "font_size": 28,
+      "id": "label-3",
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 13
+    },
+    {
+      "x": 649,
+      "y": 278,
+      "width": 409,
+      "height": 75,
+      "text": "事前の検証を厚くする",
+      "role": "進め方",
+      "align": "left",
+      "color": "#153A6B",
+      "font_size": 29,
+      "id": "label-4",
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 13
+    }
+  ],
+  "width": 1120,
+  "height": 380,
+  "kind": "part",
+  "guidance": {
+    "use_case": "判断の影響に応じて、試行と事前検証の進め方を説明する。",
+    "message": "元へ戻す負担が大きい判断ほど、実行前に検証する。",
+    "reading": [
+      "左は戻る経路がある判断、右は進んだ後の戻しに負担がある判断。"
+    ]
+  },
+  "category": "01-経営・意思決定",
+  "schema_version": 3,
+  "id": "part/decision-reversibility",
+  "name": "判断を戻せるかで検証の厚さを変える_説明パーツ",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1120,
+    "height": 380
+  },
+  "path": "assets/part/decision-reversibility.svg",
+  "metadata_path": "metadata/part/decision-reversibility.json",
+  "preview_path": "previews/part/decision-reversibility.svg",
+  "preview_has_example_labels": true,
+  "search_text": "part/decision-reversibility\n判断を戻せるかで検証の厚さを変える_説明パーツ\n判断を戻せるかで検証の厚さを変える\n判断の影響に応じて、試行と事前検証の進め方を説明する。\n元へ戻す負担が大きい判断ほど、実行前に検証する。\n左は戻る経路がある判断、右は進んだ後の戻しに負担がある判断。\n可逆 不可逆 意思決定 試行 検証 reversible irreversible decision",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "dbe275ba1a3adc89bd6b5d44d48ef2f403a498d5634978dc9932741efa82a71e",
+  "size_bytes": 1257,
+  "preview_sha256": "8b4848f4b41af723962ac660e5229cff5a83060832ac534addb6fdb0d7f97223"
+}

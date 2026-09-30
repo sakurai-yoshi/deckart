@@ -1,0 +1,133 @@
+{
+  "title": "利用・保管・処分を情報のライフサイクルで考える",
+  "description": "作成時から利用と保管の目的を定め、必要性と適用条件を確認して処分する。",
+  "keywords": [
+    "保存期間",
+    "保管",
+    "廃棄",
+    "ライフサイクル",
+    "文書情報",
+    "retention",
+    "lifecycle",
+    "archive",
+    "disposal"
+  ],
+  "labels": [
+    {
+      "x": 119,
+      "y": 289,
+      "width": 304,
+      "height": 92,
+      "text": "業務で利用する",
+      "role": "情報の状態",
+      "align": "center",
+      "color": "#FFFFFF",
+      "id": "label-1",
+      "font_size": 27,
+      "color_role": "paper",
+      "max_lines": 2,
+      "max_fullwidth_chars": 10
+    },
+    {
+      "x": 495,
+      "y": 289,
+      "width": 255,
+      "height": 92,
+      "text": "必要な期間保管",
+      "role": "情報の状態",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-2",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 8
+    },
+    {
+      "x": 822,
+      "y": 289,
+      "width": 261,
+      "height": 92,
+      "text": "見直して処分",
+      "role": "情報の状態",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-3",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 9
+    },
+    {
+      "x": 171,
+      "y": 68,
+      "width": 864,
+      "height": 70,
+      "text": "情報の利用目的と、保管する期間を一緒に決める",
+      "role": "説明",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-4",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 30
+    },
+    {
+      "x": 311,
+      "y": 610,
+      "width": 612,
+      "height": 62,
+      "text": "必要性・定めた期間・例外を確認して判断",
+      "role": "説明",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-5",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 21
+    }
+  ],
+  "width": 1200,
+  "height": 720,
+  "kind": "diagram",
+  "guidance": {
+    "use_case": "文書やデータの整理で、利用目的と保管の終了条件を共有する。",
+    "message": "作成時から利用と保管の目的を定め、必要性と適用条件を確認して処分する。",
+    "reading": [
+      "左から利用中・保管・見直しと処分の状態。",
+      "縦の境界が状態を切り替える確認点。",
+      "図は年数を指定せず、適用される条件に基づき管理する構造を表す。"
+    ]
+  },
+  "layout": {
+    "relation": "information-use-retain-review-dispose",
+    "reading_direction": "left-to-right"
+  },
+  "category": "12-情報・データ",
+  "schema_version": 3,
+  "id": "data/retention-lifecycle",
+  "name": "利用・保管・処分を情報のライフサイクルで考える_業務の関係を示す図解",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1200,
+    "height": 720
+  },
+  "path": "assets/data/retention-lifecycle.svg",
+  "metadata_path": "metadata/data/retention-lifecycle.json",
+  "preview_path": "previews/data/retention-lifecycle.svg",
+  "preview_has_example_labels": true,
+  "search_text": "data/retention-lifecycle\n利用・保管・処分を情報のライフサイクルで考える_業務の関係を示す図解\n利用・保管・処分を情報のライフサイクルで考える\n文書やデータの整理で、利用目的と保管の終了条件を共有する。\n作成時から利用と保管の目的を定め、必要性と適用条件を確認して処分する。\n左から利用中・保管・見直しと処分の状態。\n縦の境界が状態を切り替える確認点。\n図は年数を指定せず、適用される条件に基づき管理する構造を表す。\n保存期間 保管 廃棄 ライフサイクル 文書情報 retention lifecycle archive disposal",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "2b4ecbd6ffe876ad9f587779acce6766d3898d7e86e3f459eb0cb8a9f22cd270",
+  "size_bytes": 1527,
+  "preview_sha256": "d70ce66fed5a84e3a30482828fc8d79eea97ef5ecd5fc7090932e0ca48932857"
+}

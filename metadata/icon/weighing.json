@@ -1,0 +1,49 @@
+{
+  "title": "計量",
+  "description": "対象の重さを量る。",
+  "keywords": [
+    "計量",
+    "重量",
+    "重さ",
+    "秤",
+    "weighing",
+    "mass",
+    "scale"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "投入量や製品重量を確かめる工程を示す。",
+    "message": "対象の重さを量る。",
+    "reading": [
+      "皿の上の対象が測定物を表す。",
+      "下の表示窓が計量結果を表す。"
+    ]
+  },
+  "category": "04-生産・設備",
+  "schema_version": 3,
+  "id": "icon/weighing",
+  "name": "計量_工程と対象",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/weighing.svg",
+  "metadata_path": "metadata/icon/weighing.json",
+  "preview_path": "assets/icon/weighing.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/weighing\n計量_工程と対象\n計量\n投入量や製品重量を確かめる工程を示す。\n対象の重さを量る。\n皿の上の対象が測定物を表す。\n下の表示窓が計量結果を表す。\n計量 重量 重さ 秤 weighing mass scale",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "996108a03e61cad4736ce1cc606129e955d6bacec2c77a17a51b271cf585a54d",
+  "size_bytes": 1033
+}

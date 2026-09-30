@@ -1,184 +1,62 @@
-"""Twelve business illustrations whose objects express the intended use."""
-from vector import INK, BLUE, MID, PALE, FAINT, WHITE, path, rect, circle, ellipse, line, poly, check, asset
+"""Compact symbols for concepts formerly drawn as detailed SVG scenes."""
+from vector import INK, BLUE, MID, PALE, WHITE, path, rect, circle, ellipse, line, poly, arrow
+from sets.business_icons import _icon
 
-def _coin(x, y, width=36, height=12, face=PALE, side=MID):
-    """A coin with a readable edge and a quiet centre impression."""
-    return path(f'M{x - width / 2} {y}v7a{width / 2} {height / 2} 0 0 0 {width} 0v-7', side) + ellipse(x, y, width / 2, height / 2, face) + ellipse(x, y, width * 0.23, height * 0.25, 'none', side, 1.4)
-
-def _building(x, y, w, h, depth, focus=False):
-    front = BLUE if focus else WHITE
-    side = INK if focus else MID
-    rise = 0.45
-
-    def face(u, v):
-        return f'{x + u},{y + rise * u + v}'
-    b = poly(f'{x},{y} {x + depth},{y - rise * depth} {x + w + depth},{y + rise * (w - depth)} {x + w},{y + rise * w}', PALE)
-    b += poly(f'{x + w},{y + rise * w} {x + w + depth},{y + rise * (w - depth)} {x + w + depth},{y + rise * (w - depth) + h} {x + w},{y + rise * w + h}', side)
-    b += poly(f'{face(0, 0)} {face(w, 0)} {face(w, h)} {face(0, h)}', front)
-    ww = (w - 20) / 3
-    wh = min(12, (h - 22) / 5)
-    for row in range(3):
-        for col in range(3):
-            u = 5 + col * (ww + 5)
-            v = 11 + row * (wh + 7)
-            b += poly(f'{face(u, v)} {face(u + ww, v)} {face(u + ww, v + wh)} {face(u, v + wh)}', WHITE if focus else INK)
-    if focus:
-        b += poly(f'{face(w * 0.4, h - 24)} {face(w * 0.66, h - 24)} {face(w * 0.66, h)} {face(w * 0.4, h)}', INK)
-    return b
 
 def make_assets():
-    result = []
-    category = '08-アイコンとピクトグラム'
-    b = poly('48,231 213,207 297,235 129,263', FAINT)
-    b += poly('151,63 263,46 263,208 151,225', MID)
-    b += poly('139,73 252,56 252,218 139,235', WHITE, INK, 3)
-    b += poly('139,73 150,71 150,233 139,235', INK)
-    b += poly('171,88 230,79 230,111 171,120', PALE)
-    b += path('M181 107l12-15 12 8 17-15', stroke=BLUE, sw=3)
-    b += line(172, 134, 231, 125, MID, 3) + line(172, 148, 216, 141, MID, 3)
-    b += path('M172 171l5 5 9-12M175 192l5 5 9-12', stroke=BLUE, sw=3)
-    b += line(194, 169, 229, 164, MID, 3) + line(197, 190, 232, 185, MID, 3)
-    b += path('M36 225v-33q0-20 21-28l24-9h23l24 9q22 8 22 29v32z', INK)
-    b += path('M69 156l23 53 23-53-12-10H80z', WHITE)
-    b += poly('85,160 100,160 96,174 102,194 92,209 82,194 88,174', BLUE)
-    b += rect(81, 137, 22, 25, MID, 4)
-    b += path('M65 100q0-31 28-31 28 0 29 31v23q-2 27-29 29-28-2-28-29z', PALE)
-    b += path('M63 109V98q1-35 33-35 27 0 30 26l-12 17-3-18q-14 12-36 11v14z', INK)
-    b += path('M68 225v-32M127 225v-32', stroke=MID, sw=2)
-    b += poly('244,178 261,181 270,196 263,212 249,217 234,211 227,196 233,181', BLUE)
-    b += poly('236,209 246,216 239,238 232,230 223,232', INK)
-    b += poly('252,215 262,209 275,231 265,230 261,240', MID)
-    b += circle(249, 197, 15, WHITE) + check(240, 191, 0.56, BLUE)
-    result.append(asset('人材紹介_専門性と実務_人物とポートフォリオ', category, '専門性と実務', '専門知識と実務経験を備えた担当者を紹介する。', '人材 専門家 スキル 資格 経験 コンサルタント professional expertise portfolio', b, size=(320, 280)))
-    b = poly('24,210 180,142 336,213 180,286', FAINT)
-    b += path('M76 207V224L179 260L281 224V207M179 260V176', stroke=MID, sw=5)
-    b += circle(179, 260, 9, WHITE, BLUE, 3)
-    b += _building(38, 134, 43, 59, 26)
-    b += _building(244, 135, 42, 59, 26)
-    b += _building(135, 49, 59, 111, 35, True)
-    result.append(asset('企業紹介_拠点ネットワーク_本社と支社', category, '本社と拠点', '本社と複数拠点のつながりや事業ネットワークを表す。', '企業 本社 支社 拠点 グループ会社 組織 拠点網 enterprise company network headquarters', b, size=(360, 300)))
-    b = path('M35 208V120a99 99 0 0 1 198 0v88z', FAINT)
-    b += path('M178 49h106q16 0 16 16v52q0 16-16 16h-45l-23 22v-22h-38q-16 0-16-16V65q0-16 16-16z', BLUE)
-    b += line(184, 78, 266, 78, WHITE, 5) + line(184, 93, 249, 93, WHITE, 5)
-    b += circle(275, 112, 17, INK) + check(266, 106, 0.53, WHITE)
-    b += path('M65 216v-34q1-27 29-35h45q27 8 28 35v34z', INK)
-    b += rect(105, 130, 21, 26, MID, 5)
-    b += path('M89 87q1-26 28-26t28 26v28q-1 26-28 28t-28-28z', PALE)
-    b += path('M87 99V87q0-33 31-33 31 0 32 35v10l-11-21q-20 9-42 9v15z', INK)
-    b += path('M80 109V92a37 37 0 0 1 74 0v21', stroke=BLUE, sw=7)
-    b += rect(75, 101, 13, 29, BLUE, 6) + rect(146, 101, 13, 29, BLUE, 6)
-    b += path('M152 125q0 16-17 16h-13', stroke=BLUE, sw=4) + rect(119, 137, 16, 7, BLUE, 3)
-    b += poly('93,148 117,177 139,148 128,169 117,185 104,168', WHITE)
-    b += path('M74 183L93 211M158 185L153 201', stroke=MID, sw=13)
-    b += poly('37,213 159,200 280,220 167,239', PALE)
-    b += poly('37,213 167,239 280,220 280,233 167,252 37,226', INK)
-    b += poly('111,207 149,202 170,214 132,222', WHITE)
-    b += path('M93 211L125 214M153 201L149 213', stroke=MID, sw=10)
-    b += ellipse(128, 214, 6, 4, PALE) + ellipse(149, 216, 5, 5, PALE)
-    b += path('M177 164h75l-10 55h-75z', WHITE, INK, 3)
-    b += path('M172 219h75l14 7-79 5-21-4z', MID)
-    b += circle(211, 190, 8, BLUE)
-    result.append(asset('顧客対応_相談サポート_応答する窓口', category, '相談に応える窓口', '問い合わせを受け、回答まで伴走する顧客サポートを示す。', '顧客対応 相談 問い合わせ カスタマーサポート 窓口 ヘルプデスク customer support helpdesk', b, size=(330, 280)))
-    b = poly('44,231 180,255 284,225 147,201', FAINT)
-    b += poly('76,40 251,65 242,236 64,212', PALE)
-    b += poly('54,61 228,41 248,222 72,242', MID)
-    b += path('M76 48h154v196H76q-17 0-17-17V65q0-17 17-17z', WHITE, INK, 3)
-    b += path('M59 65q0-17 17-17h9v196h-9q-17 0-17-17z', INK)
-    b += rect(96, 64, 117, 36, BLUE, 0) + rect(109, 77, 65, 5, WHITE, 0) + rect(109, 86, 91, 3, MID, 0)
-    b += rect(96, 115, 54, 54, FAINT, 0) + rect(158, 115, 55, 54, FAINT, 0)
-    b += rect(106, 145, 8, 14, MID, 0) + rect(120, 132, 8, 27, BLUE, 0) + rect(134, 122, 8, 37, INK, 0)
-    b += circle(185, 141, 19, PALE) + path('M185 141v-19a19 19 0 0 1 18 25z', BLUE)
-    b += line(96, 188, 210, 188, MID, 3) + line(96, 202, 195, 202, MID, 3) + line(96, 216, 205, 216, MID, 3)
-    b += path('M230 76h18v24h-18z', BLUE) + path('M230 111h18v24h-18z', MID) + path('M230 146h18v24h-18z', INK)
-    b += path('M59 227q0-10 16-10h10v27H75q-16 0-16-17z', INK)
-    b += line(75, 225, 83, 225, PALE, 2) + line(75, 233, 83, 233, PALE, 2)
-    result.append(asset('資料作成_構造化レポート_索引付き冊子', category, '構造化されたレポート', '調査結果や業務情報を章と図表に整理した資料を表す。', '資料 報告書 レポート 調査 分析 ドキュメント 索引 report document structured', b, size=(310, 280)))
-    b = poly('29,215 166,245 285,213 146,184', FAINT)
-    b += poly('51,79 190,59 206,215 65,235', MID)
-    b += poly('41,62 176,43 195,207 61,227', WHITE, INK, 3)
-    b += poly('41,62 176,43 180,77 45,96', PALE)
-    b += line(63, 77, 144, 66, BLUE, 5)
-    b += line(66, 115, 161, 102, MID, 3) + line(69, 132, 146, 121, MID, 3)
-    b += path('M72 159l8 7 13-17', stroke=BLUE, sw=4) + line(105, 155, 164, 147, MID, 3)
-    b += path('M76 181l8 7 13-17', stroke=BLUE, sw=4) + line(109, 177, 158, 170, MID, 3)
-    b += ellipse(142, 191, 23, 17, 'none', BLUE, 3) + check(130, 185, 0.67, BLUE)
-    b += path('M209 70q0-15 22-15t22 15v19q0 14-13 20l3 27h-24l3-27q-13-6-13-20z', INK)
-    b += ellipse(231, 68, 21, 10, BLUE)
-    b += path('M202 136h58q8 0 11 8l10 24q2 8-6 9h-85q-8-1-6-9l10-24q2-8 8-8z', BLUE)
-    b += path('M187 174h91v11q0 8-11 8h-69q-11 0-11-8z', INK)
-    b += line(202, 153, 261, 153, MID, 3)
-    result.append(asset('申請業務_確認と承認_書類と決裁印', category, '確認と承認', '書類のチェックを経て決裁が完了することを示す。', '承認 決裁 稟議 確認 認証 審査 検証 approval verification stamp', b, size=(320, 280)))
-    b = poly('36,231 178,254 296,219 158,197', FAINT)
-    b += path('M142 198v33l-33 9h89l-31-9v-33z', INK)
-    b += rect(40, 52, 225, 155, INK, 8) + rect(49, 61, 207, 126, WHITE, 2)
-    b += line(70, 165, 230, 165, MID, 2) + line(70, 78, 70, 165, MID, 2)
-    b += rect(84, 127, 18, 38, PALE, 0) + rect(115, 108, 18, 57, PALE, 0) + rect(146, 121, 18, 44, PALE, 0) + rect(177, 92, 18, 73, MID, 0) + rect(208, 78, 18, 87, PALE, 0)
-    b += path('M84 117l37-19 31 11 34-27 38-12', stroke=BLUE, sw=4)
-    b += circle(121, 98, 4, BLUE) + circle(152, 109, 4, BLUE) + circle(186, 82, 4, BLUE)
-    b += circle(152, 109, 9, 'none', BLUE, 1.8)
-    b += line(160, 113, 188, 125, MID, 2)
-    b += line(251, 172, 291, 214, INK, 19) + line(257, 178, 286, 208, BLUE, 11)
-    b += circle(226, 140, 50, INK) + circle(226, 140, 41, WHITE)
-    b += path('M189 148.548L210 156L252.5 122.25L259 120.197', stroke=BLUE, sw=5)
-    b += circle(210, 156, 6, BLUE) + circle(210, 156, 11, 'none', MID, 2)
-    b += path('M198 114a36 36 0 0 1 24-9', stroke=PALE, sw=4)
-    b += circle(153, 197, 3, MID)
-    result.append(asset('データ分析_変化点の発見_グラフを読み解く', category, '変化点を見つける', '画面上の変化点を拡大し、前後の傾きを詳しく確かめる分析を表す。', '分析 発見 示唆 インサイト 可視化 データ グラフ 傾向 analytic insight data analytics', b, size=(330, 280)))
-    b = poly('22,209 161,275 320,207 180,145', FAINT)
-    b += path('M176 106v35M176 141L62 187M176 141L166 209M176 141L277 187', stroke=MID, sw=5)
-    b += circle(176, 140, 8, WHITE, BLUE, 3)
-    b += poly('126,95 176,72 226,95 176,122', INK)
-    b += poly('126,95 176,117 226,95 226,106 176,131 126,107', INK)
-    b += _coin(176, 91, 73, 25, PALE, MID) + _coin(176, 80, 73, 25, PALE, MID) + _coin(176, 69, 73, 25, BLUE, INK)
-    b += path('M166 63L176 68L186 63M176 68V76M168 69H184M168 73H184', stroke=WHITE, sw=1.8)
-    for x, y, w in [(62, 200, 70), (166, 233, 77), (277, 193, 67)]:
-        b += poly(f'{x - w / 2},{y} {x},{y - 17} {x + w / 2},{y} {x},{y + 17}', PALE)
-        b += poly(f'{x - w / 2},{y} {x},{y + 17} {x + w / 2},{y} {x + w / 2},{y + 9} {x},{y + 26} {x - w / 2},{y + 9}', INK)
-    b += _coin(62, 192, 43, 15, PALE, MID) + _coin(62, 183, 43, 15, PALE, MID)
-    b += _coin(166, 227, 48, 17, PALE, MID) + _coin(166, 217, 48, 17, PALE, MID) + _coin(166, 207, 48, 17, BLUE, INK)
-    b += _coin(277, 187, 40, 14, PALE, MID)
-    result.append(asset('予算管理_資金の配分_総額から用途へ', category, '用途に応じた資金配分', 'ひとつの予算を複数の用途へ配分する考え方を示す。', '予算 配分 投資 資金 費用 コスト 予算管理 budget allocation funding investment', b, size=(350, 290)))
-    b = poly('34,248 165,276 297,242 169,211', FAINT)
-    b += poly('75,36 106,56 249,56 218,36', PALE)
-    b += poly('75,36 106,56 106,251 75,231', MID)
-    b += rect(106, 56, 143, 195, INK, 5)
-    b += rect(125, 76, 105, 155, PALE, 3)
-    b += path('M161 109H196L211 124V188H161Z', WHITE)
-    b += poly('196,109 196,124 211,124', MID)
-    b += line(172, 140, 199, 140, MID, 3) + line(172, 152, 197, 152, MID, 3) + line(172, 164, 191, 164, MID, 3)
-    b += poly('112,80 53,106 53,264 112,238', BLUE, INK, 2)
-    b += poly('53,106 46,102 46,260 53,264', INK)
-    b += path('M112 80L53 106L46 102L105 76Z', MID)
-    lock = circle(50, 81, 12, WHITE) + poly('44,90 56,90 61,118 39,118', WHITE)
-    b += f'<g transform="matrix(.59 -.26 0 1 53 106)">{lock}</g>'
-    b += line(107, 109, 107, 129, INK, 4) + line(107, 196, 107, 216, INK, 4)
-    b += circle(273, 193, 17, WHITE, BLUE, 7)
-    b += path('M260 206L232 234L221 223M243 223L235 215', stroke=BLUE, sw=9)
-    result.append(asset('情報管理_アクセス保護_許可された入口', category, '許可された入口', '情報へのアクセスを権限に応じて保護する仕組みを示す。', '権限 認証 アクセス制御 保護 情報管理 セキュリティ security access protection authorization', b, size=(330, 290)))
-    b = poly('23,207 177,139 337,211 180,280', FAINT)
-    b += path('M77 182V218L177 261L279 218V188M177 261V189M177 76V174', stroke=MID, sw=5)
-    b += circle(177, 261, 8, WHITE, BLUE, 3)
-    b += poly('34,92 72,73 111,92 73,111', PALE)
-    b += poly('34,92 73,111 73,197 34,178', INK)
-    b += poly('73,111 111,92 111,178 73,197', BLUE)
-    for y in (104, 130, 156):
-        b += path(f'M40 {y}L66 {y + 13}', stroke=MID, sw=3)
-        b += circle(87, y + 12, 2, WHITE) + circle(100, y + 6, 2, WHITE)
-        if y < 156:
-            b += path(f'M34 {y + 16}L73 {y + 35}L111 {y + 16}', stroke=WHITE, sw=2)
-    b += poly('229,76 310,103 310,182 229,155', INK)
-    b += poly('237,88 302,110 302,169 237,147', WHITE)
-    b += path('M247 129L259 122L273 144L291 133', stroke=BLUE, sw=4)
-    b += poly('263,166 277,171 277,193 301,205 284,213 246,200 263,191', INK)
-    b += poly('135,191 177,171 219,191 177,213', BLUE)
-    b += poly('135,191 177,213 219,191 219,203 177,225 135,203', INK)
-    b += poly('160,191 177,183 194,191 177,200', WHITE)
-    b += path('M143 75C128 75 118 65 118 52C118 40 127 31 140 31C145 19 155 12 168 12C185 12 198 22 202 36C219 35 231 44 231 57C231 69 222 77 208 77H143Z', PALE)
-    result.append(asset('システム構成_サービス連携_データをつなぐ基盤', category, 'データをつなぐ基盤', 'サーバー・端末・クラウドを結び、データを受け渡す基盤を示す。', 'システム サービス連携 接続 データ 基盤 サーバー クラウド system integration connected network', b, size=(360, 290)))
-    guidance = [dict(use_case='担当者や支援チームの専門性を紹介する場面。', message='専門知識を実務に生かす人材がいる。', reading=['人物は担当者、冊子は実務経験を表す。', 'チェック付きの記章は確かな仕事への期待を表す。']), dict(use_case='本社・支社や複数拠点の連携を紹介する場面。', message='拠点ごとの仕事を、ひとつのネットワークで結ぶ。', reading=['大きな建物が中核拠点、小さな建物が各拠点を表す。', '地面の接続線が拠点間のつながりを表す。']), dict(use_case='顧客窓口や社内ヘルプデスクを紹介する場面。', message='問い合わせを受け、回答まで支える。', reading=['ヘッドセットを着けた担当者が相談窓口を表す。', '回答の吹き出しとチェックが応答・解決を表す。']), dict(use_case='調査報告書や定期レポートを案内する場面。', message='情報を整理し、参照しやすい資料にまとめる。', reading=['図表と本文を備えた冊子が報告書を表す。', '章のタブが情報へのアクセスのしやすさを表す。']), dict(use_case='申請の確認や決裁の段階を説明する場面。', message='必要な確認を経て、承認を確定する。', reading=['チェックの付いた書類が確認済みの項目を表す。', '決裁印が承認を確定する行為を表す。']), dict(use_case='業務データの分析や改善の発見を紹介する場面。', message='データを詳しく見て、変化の手掛かりをつかむ。', reading=['画面のグラフが分析対象のデータを表す。', '画面上の丸で選んだ折り返し点を、拡大鏡で詳しく確かめる。']), dict(use_case='予算や投資を用途に振り分ける考え方を説明する場面。', message='共通の資金を、目的に応じて配分する。', reading=['上の硬貨が配分元の予算を表す。', '分かれた経路と受け皿が資金の用途を表す。']), dict(use_case='情報へのアクセス権限や保護を紹介する場面。', message='大切な情報は、権限を持つ人にだけ開く。', reading=['保管庫の中の書類が守る対象を表す。', '鍵と鍵穴のある扉が許可に基づくアクセスを表す。']), dict(use_case='システム同士の接続や共通基盤を紹介する場面。', message='サーバー・端末・クラウドを結び、情報を扱う。', reading=['サーバー、端末、雲が接続する対象を表す。', '中央の基盤へ続く線がサービス間の連携を表す。'])]
-    keys = ['icon/professional-expertise', 'icon/company-network', 'icon/support-desk', 'icon/structured-report', 'icon/document-approval', 'icon/analytic-insight', 'icon/budget-allocation', 'icon/access-protection', 'icon/connected-systems']
-    for item, guide, key in zip(result, guidance, keys):
-        item['guidance'] = guide
-        item['key'] = key
-        item['kind'] = 'icon'
-    return result
+    out=[]
+    def add(key,title,words,b,scene,message,reading):
+        out.append(_icon(key,title+'_業務の象徴',title,message,words,b,scene,message,reading))
+
+    b=circle(45,45,20,INK)+path('M16 131V109Q16 79 45 79Q68 79 74 98V131Z',PALE,INK,7)
+    b+=path('M93 24H137V104L115 92L93 104Z',WHITE,INK,7)
+    b+=path('M101 56L112 67L130 45',stroke=BLUE,sw=7)+line(87,125,141,125,BLUE,7)+line(87,140,125,140,INK,6)
+    add('professional-expertise','専門性と実務','専門家 専門性 資格 経験 人材 professional expertise qualification',b,'担当者の専門性や実務を裏付ける資格・経歴を紹介する。','人の経験と専門知識を仕事に生かす。',['左の人物が専門性を持つ担当者を表す。','資格のしおりと経歴の線が専門知識と実務経験を表す。'])
+
+    b=path('M80 78V100M31 100H129M31 100V114M129 100V114',stroke=INK,sw=6)
+    b+=rect(54,17,52,62,WHITE,3,INK,7)+rect(70,54,20,25,BLUE)
+    b+=rect(16,114,30,29,PALE,2,INK,6)+rect(114,114,30,29,PALE,2,INK,6)
+    b+=rect(66,30,9,10,BLUE)+rect(85,30,9,10,BLUE)
+    add('company-network','本社と拠点','本社 支社 拠点 事業所 組織 headquarters branch sites network',b,'本社と支社、複数の事業拠点の関係を説明する。','複数の拠点を一つのネットワークで結ぶ。',['中央上の大きな建物が本社を示す。','下の二つの拠点へ接続線が分かれる。'])
+
+    b=circle(51,54,21,PALE,INK,7)+path('M22 61V48A29 29 0 0 1 80 48V72Q80 87 65 87',stroke=BLUE,sw=6)
+    b+=rect(16,47,11,25,BLUE,4)+rect(75,47,11,25,BLUE,4)+rect(56,83,14,9,BLUE,4)
+    b+=path('M21 128V119Q21 100 51 100Q77 100 81 119',stroke=INK,sw=7)
+    b+=path('M101 24H132Q142 24 142 34V64Q142 74 132 74H120L103 88V74H99Q94 74 94 67V34Q94 24 101 24Z',PALE,INK,6)
+    b+=line(107,41,130,41,BLUE,5)+line(107,57,123,57,BLUE,5)+line(15,140,145,140,INK,7)
+    add('support-desk','相談に応える窓口','窓口 相談 回答 受付 ヘルプデスク helpdesk inquiry answer support desk',b,'問い合わせの受付と回答を担う窓口を紹介する。','相談を受けて回答を返す。',['ヘッドセットを着けた担当者が受付窓口を表す。','内容のある吹き出しが返す回答を示す。'])
+
+    b=rect(27,18,94,126,WHITE,5,INK,7)+rect(27,18,17,126,INK,3)
+    b+=rect(121,38,17,18,BLUE,2)+rect(121,71,17,18,MID,2)+rect(121,104,17,18,INK,2)
+    b+=line(58,38,106,38,BLUE,7)+rect(58,71,10,29,PALE,1)+rect(76,58,10,42,BLUE,1)+rect(94,79,10,21,INK,1)
+    b+=line(58,116,105,116,INK,5)+line(58,131,91,131,INK,5)
+    add('structured-report','構造化されたレポート','報告書 レポート 章 索引 図表 report structured index chapters',b,'章や図表に整理した業務レポートを案内する。','情報を整理して参照しやすくする。',['冊子の中の図表と本文が報告内容を表す。','側面の三つのタブが章の区切りを表す。'])
+
+    b=rect(22,18,85,123,WHITE,3,INK,7)+path('M38 49L47 58L63 38M38 88L47 97L63 77',stroke=BLUE,sw=6)
+    b+=line(76,49,91,49,INK,5)+line(76,88,91,88,INK,5)
+    b+=path('M114 75V66Q99 60 99 46Q99 29 117 29Q135 29 135 46Q135 60 122 66V75Z',PALE,INK,6)
+    b+=path('M99 83H137L147 110H89Z',BLUE,INK,6)+line(94,124,142,124,INK,6)
+    add('document-approval','確認と承認','確認 承認 書類 決裁 稟議 document review approval signoff',b,'書類の項目確認から決裁へ進む手続きを説明する。','内容を確認したうえで承認を確定する。',['チェックの付いた紙が項目の確認を表す。','右の印が決裁を確定する行為を表す。'])
+
+    b=path('M19 25V137H142',stroke=INK,sw=7)+path('M30 117L55 89L76 104L116 45',stroke=BLUE,sw=7)
+    b+=circle(87,71,35,WHITE,INK,7)+path('M59 90L75 65L89 78L110 46',stroke=BLUE,sw=6)+line(112,98,141,127,INK,11)
+    add('analytic-insight','変化点を見つける','変化点 傾向 分析 発見 インサイト trend change point analytic insight',b,'データの変化に注目して原因や改善の手掛かりを探す。','変化の前後を詳しく確かめる。',['折れ線が前後で変わるデータを表す。','拡大鏡が折れ曲がる部分へ注意を向ける。'])
+
+    b=circle(80,37,24,PALE,INK,6)+path('M69 27L80 39L91 27M80 39V51M68 39H92M68 46H92',stroke=BLUE,sw=4)
+    b+=path('M80 63V88M30 88H130M30 88V108M80 88V108M130 88V108',stroke=INK,sw=6)
+    b+=ellipse(30,126,18,10,PALE,INK,5)+ellipse(80,132,18,10,BLUE,INK,5)+ellipse(130,126,18,10,PALE,INK,5)
+    b+=ellipse(80,118,18,10,BLUE,INK,5)
+    add('budget-allocation','用途に応じた資金配分','予算 配分 資金 用途 投資 budget allocation funding distribution',b,'一つの予算を複数の用途へ振り分ける方針を説明する。','共通の資金を目的に応じて配分する。',['上の硬貨が配分元の予算を示す。','枝分かれする線と下の硬貨が用途別の配分を表す。'])
+
+    b=rect(32,19,91,123,PALE,4,INK,7)+rect(50,38,56,85,WHITE,2,INK,5)
+    b+=line(64,61,91,61,BLUE,5)+line(64,79,91,79,BLUE,5)
+    b+=path('M51 39L17 59V140L51 121Z',BLUE,INK,6)+circle(35,92,5,WHITE)
+    b+=circle(122,106,17,WHITE,INK,6)+path('M111 119L87 143M97 133L103 139',stroke=BLUE,sw=7)
+    add('access-protection','許可された入口','アクセス 権限 許可 情報 保管庫 access protection authorization vault',b,'保管情報へのアクセスを権限に応じて開く仕組みを示す。','権限を持つ人が保管情報へアクセスする。',['扉の奥の紙が保管された情報を表す。','開いた扉と鍵が許可に基づく入口を表す。'])
+
+    b=path('M48 109H80V67M80 109H112',stroke=BLUE,sw=6)
+    b+=path('M55 59C40 59 34 50 38 39Q42 28 54 30Q59 13 76 18Q93 15 99 32Q119 30 121 46Q121 60 105 60Z',PALE,INK,6)
+    b+=rect(14,87,35,57,WHITE,4,INK,6)+line(23,103,39,103,BLUE,5)+line(23,122,39,122,BLUE,5)
+    b+=rect(110,87,38,37,WHITE,3,INK,6)+path('M129 127V141M117 143H142',stroke=INK,sw=5)
+    add('connected-systems','データをつなぐ基盤','システム 基盤 クラウド サーバー 端末 system integration infrastructure connected',b,'サーバー・端末・クラウド間のデータ連携を説明する。','異なるシステムを接続して情報を扱う。',['サーバー、画面、雲が異なる接続先を表す。','中央の線がデータのつながりを表す。'])
+    return out

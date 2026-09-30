@@ -1,0 +1,149 @@
+{
+  "title": "入荷までの時間を見込んで補充する",
+  "description": "在庫がなくなってから頼むのではなく、入荷までに使う分を見込んで補充を始める。",
+  "keywords": [
+    "発注点",
+    "補充",
+    "在庫",
+    "安全在庫",
+    "リードタイム",
+    "reorder",
+    "point",
+    "lead",
+    "time",
+    "replenishment"
+  ],
+  "labels": [
+    {
+      "x": 18,
+      "y": 83,
+      "width": 207,
+      "height": 55,
+      "text": "在庫の量",
+      "role": "説明",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-1",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 7
+    },
+    {
+      "x": 946,
+      "y": 597,
+      "width": 199,
+      "height": 56,
+      "text": "時間の経過",
+      "role": "説明",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-2",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 6
+    },
+    {
+      "x": 130,
+      "y": 603,
+      "width": 322,
+      "height": 56,
+      "text": "破線：補充を頼む水準",
+      "role": "説明",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-3",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 11
+    },
+    {
+      "x": 723,
+      "y": 130,
+      "width": 333,
+      "height": 64,
+      "text": "入荷して在庫が増える",
+      "role": "説明",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-4",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 11
+    },
+    {
+      "x": 345,
+      "y": 46,
+      "width": 420,
+      "height": 65,
+      "text": "入荷までの時間を見込んで発注",
+      "role": "説明",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-5",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 14
+    },
+    {
+      "x": 411,
+      "y": 438,
+      "width": 216,
+      "height": 60,
+      "text": "入荷までの期間",
+      "role": "説明",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-6",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 7
+    }
+  ],
+  "width": 1200,
+  "height": 720,
+  "kind": "diagram",
+  "guidance": {
+    "use_case": "在庫切れを防ぐため、発注点と調達リードタイムの関係を説明する。",
+    "message": "在庫がなくなってから頼むのではなく、入荷までに使う分を見込んで補充を始める。",
+    "reading": [
+      "右下がりは在庫の使用、立ち上がりは入荷。",
+      "破線の水準に達した丸印で補充を依頼する。",
+      "横の括りが入荷までの期間。数量や日数は概念例。"
+    ]
+  },
+  "layout": {
+    "relation": "inventory-trigger-before-receipt",
+    "reading_direction": "left-to-right"
+  },
+  "category": "05-調達・物流",
+  "schema_version": 3,
+  "id": "supply/reorder-point-lead-time",
+  "name": "入荷までの時間を見込んで補充する_業務の関係を示す図解",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1200,
+    "height": 720
+  },
+  "path": "assets/supply/reorder-point-lead-time.svg",
+  "metadata_path": "metadata/supply/reorder-point-lead-time.json",
+  "preview_path": "previews/supply/reorder-point-lead-time.svg",
+  "preview_has_example_labels": true,
+  "search_text": "supply/reorder-point-lead-time\n入荷までの時間を見込んで補充する_業務の関係を示す図解\n入荷までの時間を見込んで補充する\n在庫切れを防ぐため、発注点と調達リードタイムの関係を説明する。\n在庫がなくなってから頼むのではなく、入荷までに使う分を見込んで補充を始める。\n右下がりは在庫の使用、立ち上がりは入荷。\n破線の水準に達した丸印で補充を依頼する。\n横の括りが入荷までの期間。数量や日数は概念例。\n発注点 補充 在庫 安全在庫 リードタイム reorder point lead time replenishment",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "accacb4b5960b97660c890e36be575f3aa0e43d16ece234e72e5097eca0686af",
+  "size_bytes": 1981,
+  "preview_sha256": "73fd64b68db387a4d0bde82a17847b1b5d5db8f35382b51d6c9f864857a3ad56"
+}

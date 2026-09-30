@@ -1,0 +1,51 @@
+{
+  "title": "設備のガード",
+  "description": "危険な動作部と人との間を隔てる。",
+  "keywords": [
+    "ガード",
+    "防護",
+    "柵",
+    "可動部",
+    "機械",
+    "machine",
+    "guard",
+    "barrier",
+    "enclosure"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "可動部への接触を防ぐ防護設備を説明する。",
+    "message": "危険な動作部と人との間を隔てる。",
+    "reading": [
+      "中央の回転部を縦格子が囲む。",
+      "周囲の支柱が設備の境界を表す。"
+    ]
+  },
+  "category": "07-安全・事業継続",
+  "schema_version": 3,
+  "id": "icon/machine-guard",
+  "name": "設備のガード_設備と働き",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/machine-guard.svg",
+  "metadata_path": "metadata/icon/machine-guard.json",
+  "preview_path": "assets/icon/machine-guard.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/machine-guard\n設備のガード_設備と働き\n設備のガード\n可動部への接触を防ぐ防護設備を説明する。\n危険な動作部と人との間を隔てる。\n中央の回転部を縦格子が囲む。\n周囲の支柱が設備の境界を表す。\nガード 防護 柵 可動部 機械 machine guard barrier enclosure",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "71df11817742fff2d613f2c6dfdf35d8aa2eb4a0f719663bf3f44095737aca6e",
+  "size_bytes": 1289
+}

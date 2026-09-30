@@ -2,7 +2,6 @@
   "title": "相手を迎えて案内する",
   "description": "迎える人が来客に目を向け、開いた手で進む方向を案内する。",
   "kind": "illustration",
-  "category": "06-業務イラスト",
   "width": 1254,
   "height": 1254,
   "keywords": [
@@ -41,6 +40,7 @@
     "width": 1254,
     "height": 1254
   },
+  "category": "10-顧客・営業",
   "schema_version": 3,
   "id": "illustration/welcoming-visitor",
   "name": "相手を迎えて案内する_汎用ビジネスの動作",

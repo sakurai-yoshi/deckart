@@ -1,5 +1,4 @@
 {
-  "category": "01-業務プロセス",
   "title": "並行検証を揃えて次へ進む",
   "description": "独立した確認作業を並行で進め、必要な結果が揃う条件を示す。",
   "keywords": [
@@ -104,6 +103,7 @@
     ]
   },
   "kind": "diagram",
+  "category": "02-計画・進捗",
   "schema_version": 3,
   "id": "process/parallel-validation",
   "name": "品質保証_並行検証を揃えて次へ進む_三系統の同期",
@@ -126,5 +126,6 @@
     "data": false
   },
   "sha256": "a1e55e1c562a2543ff74aaba23648f1fb29027ea4628362d7dc9085aefcb85b8",
-  "size_bytes": 6092
+  "size_bytes": 6092,
+  "preview_sha256": "a26f003bf4ff4ae0713da6d11c509e5e320526e25ea173e59a53c738563c12f2"
 }

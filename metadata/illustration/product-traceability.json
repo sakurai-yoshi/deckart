@@ -1,7 +1,6 @@
 {
   "title": "製品と記録を結び付ける",
   "kind": "illustration",
-  "category": "06-業務イラスト",
   "width": 1254,
   "height": 1254,
   "keywords": [
@@ -41,6 +40,7 @@
     "width": 1254,
     "height": 1254
   },
+  "category": "03-品質・改善",
   "schema_version": 3,
   "id": "illustration/product-traceability",
   "name": "製品と記録を結び付ける_メーカー業務の構成",

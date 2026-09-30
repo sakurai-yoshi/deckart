@@ -1,0 +1,51 @@
+{
+  "title": "トレードオフ",
+  "description": "複数の価値の釣り合いを考えて選ぶ。",
+  "keywords": [
+    "トレードオフ",
+    "両立",
+    "バランス",
+    "選択",
+    "得失",
+    "tradeoff",
+    "compromise",
+    "balance",
+    "choice"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "一方を選ぶと他方へ影響する判断を説明する。",
+    "message": "複数の価値の釣り合いを考えて選ぶ。",
+    "reading": [
+      "傾いたはかりが二つの価値の釣り合いを示す。",
+      "異なる形が比べる観点の違いを表す。"
+    ]
+  },
+  "category": "01-経営・意思決定",
+  "schema_version": 3,
+  "id": "icon/tradeoff",
+  "name": "トレードオフ_情報と関係",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/tradeoff.svg",
+  "metadata_path": "metadata/icon/tradeoff.json",
+  "preview_path": "assets/icon/tradeoff.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/tradeoff\nトレードオフ_情報と関係\nトレードオフ\n一方を選ぶと他方へ影響する判断を説明する。\n複数の価値の釣り合いを考えて選ぶ。\n傾いたはかりが二つの価値の釣り合いを示す。\n異なる形が比べる観点の違いを表す。\nトレードオフ 両立 バランス 選択 得失 tradeoff compromise balance choice",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "1bc56e17402e90ad7ea47f53845684882b7296451a8573b63b33901c6474bde4",
+  "size_bytes": 892
+}

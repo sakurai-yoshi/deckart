@@ -1,0 +1,56 @@
+{
+  "title": "一つの条件を変えて試験する",
+  "description": "同形の治具に並ぶ試料と測定子、比較用の記録枠で条件をそろえた実験を表す。",
+  "kind": "illustration",
+  "width": 1536,
+  "height": 1024,
+  "labels": [],
+  "composition": {
+    "framing": "object",
+    "facing": "front"
+  },
+  "keywords": [
+    "実験",
+    "比較試験",
+    "条件",
+    "評価",
+    "controlled experiment",
+    "testing"
+  ],
+  "guidance": {
+    "use_case": "試作や評価の進め方を説明し、比較する条件をそろえて違いを確かめる場面。",
+    "message": "共通の条件をそろえ、変えた要素の影響を見る。",
+    "reading": [
+      "同じ形の治具に三つの試料を置き、そのうち一つを青く描き分けている。",
+      "中央の測定子と三欄の記録枠が、同じ手順で測って結果を比べる意図を示す。"
+    ]
+  },
+  "preview_path": "previews/illustration/controlled-experiment.png",
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/enterprise-illustrations.json"
+  },
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": true,
+  "canvas": {
+    "width": 1536,
+    "height": 1024
+  },
+  "category": "06-開発・技術",
+  "schema_version": 3,
+  "id": "illustration/controlled-experiment",
+  "name": "一つの条件を変えて試験する_業務イラスト",
+  "license": "CC0-1.0",
+  "path": "media/illustration/controlled-experiment.png",
+  "metadata_path": "metadata/illustration/controlled-experiment.json",
+  "preview_has_example_labels": false,
+  "search_text": "illustration/controlled-experiment\n一つの条件を変えて試験する_業務イラスト\n一つの条件を変えて試験する\n試作や評価の進め方を説明し、比較する条件をそろえて違いを確かめる場面。\n共通の条件をそろえ、変えた要素の影響を見る。\n同じ形の治具に三つの試料を置き、そのうち一つを青く描き分けている。\n中央の測定子と三欄の記録枠が、同じ手順で測って結果を比べる意図を示す。\n実験 比較試験 条件 評価 controlled experiment testing\nobject 物 道具 front 正面",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "7f73bd84a4ed8278112ce5fb6790138e9e9ecbbbf241c8abd1dd4954b17b2c1b",
+  "size_bytes": 1105914
+}

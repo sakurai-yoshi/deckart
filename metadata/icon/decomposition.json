@@ -1,0 +1,49 @@
+{
+  "title": "分解",
+  "description": "全体を扱える単位に分ける。",
+  "keywords": [
+    "分解",
+    "分割",
+    "細分化",
+    "枝分かれ",
+    "decomposition",
+    "split",
+    "breakdown"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "一つの仕事や課題を小さい要素へ分ける場面を示す。",
+    "message": "全体を扱える単位に分ける。",
+    "reading": [
+      "上の一つの入口が元の全体を表す。",
+      "左右へ分かれる出口が分けた要素を示す。"
+    ]
+  },
+  "category": "02-計画・進捗",
+  "schema_version": 3,
+  "id": "icon/decomposition",
+  "name": "分解_情報と関係",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/decomposition.svg",
+  "metadata_path": "metadata/icon/decomposition.json",
+  "preview_path": "assets/icon/decomposition.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/decomposition\n分解_情報と関係\n分解\n一つの仕事や課題を小さい要素へ分ける場面を示す。\n全体を扱える単位に分ける。\n上の一つの入口が元の全体を表す。\n左右へ分かれる出口が分けた要素を示す。\n分解 分割 細分化 枝分かれ decomposition split breakdown",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "35ebd420a5bf4943324f36246abd4db1f873fdb20a11932c781e827dbbda7674",
+  "size_bytes": 854
+}

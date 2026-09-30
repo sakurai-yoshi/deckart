@@ -1,0 +1,56 @@
+{
+  "title": "仕事を分けて受け持つ",
+  "description": "ファイルを持つ三人が会話し、仕事の分担を確認する場面。",
+  "kind": "illustration",
+  "width": 1536,
+  "height": 1024,
+  "labels": [],
+  "composition": {
+    "framing": "waist-up",
+    "facing": "front",
+    "people_count": 3
+  },
+  "keywords": [
+    "分担",
+    "業務量",
+    "割り振り",
+    "workload",
+    "delegation"
+  ],
+  "guidance": {
+    "use_case": "チームで仕事を割り振り、誰が何を受け持つか話し合う場面。",
+    "message": "担当を分け、それぞれの仕事を確認する。",
+    "reading": [
+      "三人がそれぞれのファイルを持って向き合っている。",
+      "中央の人が手を広げて話す姿が、受け持つ仕事の調整を表す。"
+    ]
+  },
+  "preview_path": "previews/illustration/workload-distribution.png",
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/enterprise-illustrations.json"
+  },
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": true,
+  "canvas": {
+    "width": 1536,
+    "height": 1024
+  },
+  "category": "09-組織・人材",
+  "schema_version": 3,
+  "id": "illustration/workload-distribution",
+  "name": "仕事を分けて受け持つ_業務イラスト",
+  "license": "CC0-1.0",
+  "path": "media/illustration/workload-distribution.png",
+  "metadata_path": "metadata/illustration/workload-distribution.json",
+  "preview_has_example_labels": false,
+  "search_text": "illustration/workload-distribution\n仕事を分けて受け持つ_業務イラスト\n仕事を分けて受け持つ\nチームで仕事を割り振り、誰が何を受け持つか話し合う場面。\n担当を分け、それぞれの仕事を確認する。\n三人がそれぞれのファイルを持って向き合っている。\n中央の人が手を広げて話す姿が、受け持つ仕事の調整を表す。\n分担 業務量 割り振り workload delegation\nwaist-up 上半身 腰上 front 正面",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "384f5f5ffeb3778bfbc35d17b8aa8f9d68b5dd8d64ecf014cccddf6522a862ba",
+  "size_bytes": 1554262
+}

@@ -1,5 +1,4 @@
 {
-  "category": "08-アイコンとピクトグラム",
   "title": "同期",
   "description": "複数の場所にある情報の状態をそろえる処理を示す。",
   "keywords": [
@@ -23,6 +22,7 @@
       "一周する経路が繰り返し同期することを表す。"
     ]
   },
+  "category": "12-情報・データ",
   "schema_version": 3,
   "id": "icon/synchronization",
   "name": "同期処理_情報の状態をそろえる_双方向の循環",

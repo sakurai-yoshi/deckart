@@ -6,11 +6,10 @@ from vector import (
 )
 
 
-CATEGORY = '09-循環とフレームワーク'
 
 
 def _item(name, title, description, keywords, body, labels, guidance):
-    item = asset(name, CATEGORY, title, description, keywords, body, labels)
+    item = asset(name, title, description, keywords, body, labels)
     item['kind'] = 'diagram'
     item['guidance'] = guidance
     return item

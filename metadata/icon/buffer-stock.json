@@ -1,0 +1,51 @@
+{
+  "title": "バッファ在庫",
+  "description": "変動を吸収するために予備を持つ。",
+  "keywords": [
+    "安全在庫",
+    "緩衝",
+    "在庫",
+    "予備",
+    "バッファ",
+    "buffer",
+    "safety",
+    "stock",
+    "reserve"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "需要変動や供給の遅れに備える在庫を説明する。",
+    "message": "変動を吸収するために予備を持つ。",
+    "reading": [
+      "左の二つの箱が通常使う在庫を表す。",
+      "区切りの右に確保された箱が予備の在庫を表す。"
+    ]
+  },
+  "category": "05-調達・物流",
+  "schema_version": 3,
+  "id": "icon/buffer-stock",
+  "name": "バッファ在庫_工程と対象",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/buffer-stock.svg",
+  "metadata_path": "metadata/icon/buffer-stock.json",
+  "preview_path": "assets/icon/buffer-stock.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/buffer-stock\nバッファ在庫_工程と対象\nバッファ在庫\n需要変動や供給の遅れに備える在庫を説明する。\n変動を吸収するために予備を持つ。\n左の二つの箱が通常使う在庫を表す。\n区切りの右に確保された箱が予備の在庫を表す。\n安全在庫 緩衝 在庫 予備 バッファ buffer safety stock reserve",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "f61cae5c7c4a52aeabbd219e6e86b304eb503dd2e0a33311a465a5735ab33df7",
+  "size_bytes": 1234
+}

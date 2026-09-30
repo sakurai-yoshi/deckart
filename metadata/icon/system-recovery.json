@@ -1,0 +1,50 @@
+{
+  "title": "システム復旧",
+  "description": "止まっていた機能を利用可能な状態へ戻す。",
+  "keywords": [
+    "復旧",
+    "回復",
+    "再開",
+    "システム",
+    "recovery",
+    "restore",
+    "resume",
+    "service"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "障害から利用可能な状態へ戻す工程を示す。",
+    "message": "止まっていた機能を利用可能な状態へ戻す。",
+    "reading": [
+      "中央の機器とチェックが利用可能な状態を表す。",
+      "外側の戻る経路が復旧の処理を表す。"
+    ]
+  },
+  "category": "12-情報・データ",
+  "schema_version": 3,
+  "id": "icon/system-recovery",
+  "name": "システム復旧_情報と関係",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/system-recovery.svg",
+  "metadata_path": "metadata/icon/system-recovery.json",
+  "preview_path": "assets/icon/system-recovery.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/system-recovery\nシステム復旧_情報と関係\nシステム復旧\n障害から利用可能な状態へ戻す工程を示す。\n止まっていた機能を利用可能な状態へ戻す。\n中央の機器とチェックが利用可能な状態を表す。\n外側の戻る経路が復旧の処理を表す。\n復旧 回復 再開 システム recovery restore resume service",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "a015999121b1004f7df0d354fe68cd7b1b199e5fbfd200bc3f09543883080599",
+  "size_bytes": 1071
+}

@@ -1,0 +1,50 @@
+{
+  "title": "材料リサイクル",
+  "description": "材料を回収して再び資源へ戻す。",
+  "keywords": [
+    "リサイクル",
+    "再資源化",
+    "材料",
+    "循環",
+    "recycling",
+    "material",
+    "recovery",
+    "circular"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "使用済みの材料を資源として回す仕組みを示す。",
+    "message": "材料を回収して再び資源へ戻す。",
+    "reading": [
+      "中央のかたまりが循環させる材料を表す。",
+      "周りの三つの経路が資源循環を表す。"
+    ]
+  },
+  "category": "08-環境・資源",
+  "schema_version": 3,
+  "id": "icon/material-recycling",
+  "name": "材料リサイクル_設備と働き",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/material-recycling.svg",
+  "metadata_path": "metadata/icon/material-recycling.json",
+  "preview_path": "assets/icon/material-recycling.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/material-recycling\n材料リサイクル_設備と働き\n材料リサイクル\n使用済みの材料を資源として回す仕組みを示す。\n材料を回収して再び資源へ戻す。\n中央のかたまりが循環させる材料を表す。\n周りの三つの経路が資源循環を表す。\nリサイクル 再資源化 材料 循環 recycling material recovery circular",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "2d50443092078e8dcf560baeffe26e9f21dcc209feb96803e79786db8f3c4fa2",
+  "size_bytes": 1261
+}

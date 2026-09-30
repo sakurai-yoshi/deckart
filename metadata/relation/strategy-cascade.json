@@ -1,5 +1,4 @@
 {
-  "category": "03-関係と連携",
   "title": "方針を重点領域と実務へ落とす",
   "description": "経営方針を重点領域に分解し、現場の活動へつなぐ関係を示す。",
   "keywords": [
@@ -135,6 +134,7 @@
     ]
   },
   "kind": "diagram",
+  "category": "01-経営・意思決定",
   "schema_version": 3,
   "id": "relation/strategy-cascade",
   "name": "戦略実行_方針を重点領域と実務へ落とす_戦略の展開",
@@ -157,5 +157,6 @@
     "data": false
   },
   "sha256": "a34a8682b707a9fa400dea7e5c2c60aac55cf4a8e718e2ed462f2a61707c62b6",
-  "size_bytes": 3413
+  "size_bytes": 3413,
+  "preview_sha256": "350ddceee2d100fd8b7dc9815f68f148ff3536c159994fd10c305ed701ce1373"
 }

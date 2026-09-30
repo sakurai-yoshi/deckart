@@ -1,6 +1,5 @@
 {
   "kind": "illustration",
-  "category": "06-業務イラスト",
   "labels": [],
   "preview_path": "previews/illustration/cable-management.png",
   "composition": {
@@ -39,6 +38,7 @@
     "width": 1254,
     "height": 1254
   },
+  "category": "04-生産・設備",
   "schema_version": 3,
   "id": "illustration/cable-management",
   "name": "配線を整理する_業務イラスト",

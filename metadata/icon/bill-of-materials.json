@@ -1,5 +1,4 @@
 {
-  "category": "08-アイコンとピクトグラム",
   "title": "部品構成",
   "description": "一つの製品が複数種類の部品から成る。",
   "keywords": [
@@ -24,6 +23,7 @@
       "異なる形が異なる部品種類を示す。"
     ]
   },
+  "category": "06-開発・技術",
   "schema_version": 3,
   "id": "icon/bill-of-materials",
   "name": "部品構成_製造業務の記号",

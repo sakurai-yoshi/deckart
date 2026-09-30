@@ -1,0 +1,61 @@
+{
+  "title": "白い面を横切る薄青の光",
+  "description": "柔らかな二方向の斜光が白い面を横切り、淡い青の重なりをつくる。",
+  "kind": "background",
+  "width": 1664,
+  "height": 936,
+  "labels": [],
+  "keywords": [
+    "背景",
+    "白",
+    "青",
+    "質感",
+    "background",
+    "光",
+    "斜光",
+    "交差",
+    "白い面",
+    "方針",
+    "技術",
+    "見通し",
+    "light",
+    "diagonal",
+    "outlook"
+  ],
+  "guidance": {
+    "use_case": "新しい事業方針や技術の見通しを説明する資料に、明るさと広がりを添える。",
+    "message": "薄い青の光が交わることで、開けた空間と前向きな印象をつくる。",
+    "reading": [
+      "二方向の柔らかな青い光が白い面で重なる。",
+      "光の境目がぼけ、面の細かな質感が穏やかに見える。"
+    ]
+  },
+  "preview_path": "previews/background/crossing-light-beams.png",
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/enterprise-backgrounds.json"
+  },
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": false,
+  "canvas": {
+    "width": 1664,
+    "height": 936
+  },
+  "category": "14-背景・装飾",
+  "schema_version": 3,
+  "id": "background/crossing-light-beams",
+  "name": "白い面を横切る薄青の光_背景",
+  "license": "CC0-1.0",
+  "path": "media/background/crossing-light-beams.png",
+  "metadata_path": "metadata/background/crossing-light-beams.json",
+  "preview_has_example_labels": false,
+  "search_text": "background/crossing-light-beams\n白い面を横切る薄青の光_背景\n白い面を横切る薄青の光\n新しい事業方針や技術の見通しを説明する資料に、明るさと広がりを添える。\n薄い青の光が交わることで、開けた空間と前向きな印象をつくる。\n二方向の柔らかな青い光が白い面で重なる。\n光の境目がぼけ、面の細かな質感が穏やかに見える。\n背景 白 青 質感 background 光 斜光 交差 白い面 方針 技術 見通し light diagonal outlook",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "6f788584df65df6aad498538b95b1b08a50db1c1142491af880e32bc4c02c766",
+  "size_bytes": 1359648
+}

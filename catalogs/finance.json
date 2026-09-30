@@ -1,0 +1,1148 @@
+{
+  "version": "2.1.0",
+  "raw_base": "https://raw.githubusercontent.com/sakurai-yoshi/deckart/v2.1.0/",
+  "category": "11-会計・収益",
+  "asset_count": 28,
+  "assets": [
+    {
+      "id": "finance/cost-structure",
+      "title": "直接原価と共通費用を分けて原価を読む",
+      "kind": "diagram",
+      "category": "11-会計・収益",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/finance/cost-structure.svg",
+      "preview_path": "previews/finance/cost-structure.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/finance/cost-structure.json",
+      "sha256": "3fa7dfb4e10d288b05bd2374105b455eaa5af5c5f291dc70ea91fdc389d61769",
+      "size_bytes": 1919,
+      "keywords": [
+        "原価",
+        "直接費",
+        "間接費",
+        "配賦",
+        "材料",
+        "加工",
+        "cost",
+        "structure",
+        "direct",
+        "indirect",
+        "overhead"
+      ],
+      "use_case": "製品原価の説明で、直接費と共通費の違いを整理する。",
+      "message": "原価の全体を、対象に直接ひも付く費用と共通で支える費用へ分ける。",
+      "sample_data": false,
+      "preview_sha256": "cd212c0c7101e35509429a181140a1c26cf97ae08c6c8ac0ffc013f7e4b8c9e8"
+    },
+    {
+      "id": "finance/fixed-variable-cost",
+      "title": "量で変わる費用と基盤を維持する費用を分ける",
+      "kind": "diagram",
+      "category": "11-会計・収益",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/finance/fixed-variable-cost.svg",
+      "preview_path": "previews/finance/fixed-variable-cost.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/finance/fixed-variable-cost.json",
+      "sha256": "7370c2deefdca42004a1f0fd6424d86f8e7f6f631cd577f4cacc25582e6af9f3",
+      "size_bytes": 1452,
+      "keywords": [
+        "固定費",
+        "変動費",
+        "操業度",
+        "損益",
+        "費用構造",
+        "fixed",
+        "variable",
+        "cost",
+        "utilization"
+      ],
+      "use_case": "操業度の変化が原価や利益へどう関わるかを説明する。",
+      "message": "仕事量に応じた費用と、仕事量にかかわらず持つ費用を分けて見る。",
+      "sample_data": false,
+      "preview_sha256": "a060038224224fd551be1299f2bf58df4dee1faf6575eb2991c2b0b1a720d5b8"
+    },
+    {
+      "id": "finance/profit-cash-timing",
+      "title": "売上を認識する時点と入金の時点を分ける",
+      "kind": "diagram",
+      "category": "11-会計・収益",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/finance/profit-cash-timing.svg",
+      "preview_path": "previews/finance/profit-cash-timing.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/finance/profit-cash-timing.json",
+      "sha256": "2bc0cf8b3983c5a07788eaa0cb57bc371886b704e5fcbb070221459a67896f65",
+      "size_bytes": 1698,
+      "keywords": [
+        "損益",
+        "現金",
+        "キャッシュ",
+        "売上",
+        "入金",
+        "タイミング",
+        "profit",
+        "cash",
+        "accrual",
+        "collection",
+        "timing"
+      ],
+      "use_case": "損益と資金繰りの違いを、身近な取引の時点で説明する。",
+      "message": "取引の成果と代金の受け取りは時点が異なり、両方を確認する必要がある。",
+      "sample_data": false,
+      "preview_sha256": "092d49ffe662809df63df354435a00eb3ca8312c17366d9c1297050754817d9d"
+    },
+    {
+      "id": "finance/profit-drivers",
+      "title": "収益と費用の要因から利益を考える",
+      "kind": "diagram",
+      "category": "11-会計・収益",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/finance/profit-drivers.svg",
+      "preview_path": "previews/finance/profit-drivers.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/finance/profit-drivers.json",
+      "sha256": "074dec2639e7d1e8cbe563843786bac2a7279374eb57f42a362af5ca6c2ee3ab",
+      "size_bytes": 2978,
+      "keywords": [
+        "利益構造",
+        "利益改善",
+        "売上",
+        "原価",
+        "単価",
+        "数量",
+        "profit",
+        "drivers",
+        "revenue",
+        "cost",
+        "margin"
+      ],
+      "use_case": "収益改善の会議で、売上拡大と費用改善の両面を整理する。",
+      "message": "単価・販売量による収益と、使用量・単位費用による費用の変化を分ける。",
+      "sample_data": false,
+      "preview_sha256": "a9e03717771d5a581d88b0f6748fc6c2bcb11dc6ea99fd7e7c5e262e394abc23"
+    },
+    {
+      "id": "finance/staged-investment-options",
+      "title": "検証結果を見て投資を広げる・待つ・止める",
+      "kind": "diagram",
+      "category": "11-会計・収益",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/finance/staged-investment-options.svg",
+      "preview_path": "previews/finance/staged-investment-options.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/finance/staged-investment-options.json",
+      "sha256": "499c72beff3ea4a73b667809641db2d63284202d6e6e3e4e1393ae24f134fc06",
+      "size_bytes": 2347,
+      "keywords": [
+        "段階投資",
+        "リアルオプション",
+        "投資判断",
+        "不確実性",
+        "撤退",
+        "staged",
+        "investment",
+        "real",
+        "options",
+        "uncertainty"
+      ],
+      "use_case": "不確実性の高い新規事業や設備投資を段階的に判断する。",
+      "message": "得られた結果で次の選択を行い、判断の余地を残して投資する。",
+      "sample_data": false,
+      "preview_sha256": "5919e2c1eb2198cbae1e5cf4f5ffb625858ad507fc39bfcff0c95389a2ca2f10"
+    },
+    {
+      "id": "finance/working-capital-cycle",
+      "title": "購入・在庫・請求・回収の資金循環を見る",
+      "kind": "diagram",
+      "category": "11-会計・収益",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/finance/working-capital-cycle.svg",
+      "preview_path": "previews/finance/working-capital-cycle.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/finance/working-capital-cycle.json",
+      "sha256": "8546b0f15f6209428eb070fdc5f2670c8421000f4094d1b5c6603c5d2f7fc86b",
+      "size_bytes": 1770,
+      "keywords": [
+        "運転資金",
+        "キャッシュ",
+        "在庫",
+        "売掛",
+        "回収",
+        "資金繰り",
+        "working",
+        "capital",
+        "cash",
+        "conversion",
+        "inventory",
+        "receivable"
+      ],
+      "use_case": "運転資金を説明し、在庫や売掛の期間が資金需要につながることを共有する。",
+      "message": "販売が成立しても代金を回収するまで資金は戻らず、循環全体を管理する。",
+      "sample_data": false,
+      "preview_sha256": "beae336c6a93440da46bc6912fbab4e899a97603e042ec218251b7fa31fad9b9"
+    },
+    {
+      "id": "icon/break-even",
+      "title": "損益分岐点",
+      "kind": "icon",
+      "category": "11-会計・収益",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/break-even.svg",
+      "preview_path": "assets/icon/break-even.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/break-even.json",
+      "sha256": "78095ee9af76f5661e3c2ab55aa13ea570164e102280b88e1438ecb88745142c",
+      "size_bytes": 1019,
+      "keywords": [
+        "損益分岐",
+        "採算",
+        "利益",
+        "費用",
+        "売上",
+        "break",
+        "even",
+        "revenue",
+        "cost",
+        "profitability"
+      ],
+      "use_case": "売上と費用が釣り合う点を説明する。",
+      "message": "収支が釣り合う境目を把握する。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/budget",
+      "title": "予算",
+      "kind": "icon",
+      "category": "11-会計・収益",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/budget.svg",
+      "preview_path": "assets/icon/budget.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/budget.json",
+      "sha256": "caeffd6aed73b41a45a6c2913c507f37c902f80334be0e3a3e834cee0b20b5b5",
+      "size_bytes": 1627,
+      "keywords": [
+        "予算",
+        "計画",
+        "見積",
+        "金額",
+        "配分",
+        "budget",
+        "planning",
+        "estimate",
+        "finance"
+      ],
+      "use_case": "予算策定や費用計画の項目を示す。",
+      "message": "使える金額と必要な費用を計画する。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/budget-allocation",
+      "title": "用途に応じた資金配分",
+      "kind": "icon",
+      "category": "11-会計・収益",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/budget-allocation.svg",
+      "preview_path": "assets/icon/budget-allocation.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/budget-allocation.json",
+      "sha256": "e3cb0d7c8e3536bd601327f8a0cb8352b9f27c3e5ac0c409001bbabc8d911846",
+      "size_bytes": 1380,
+      "keywords": [
+        "予算",
+        "配分",
+        "資金",
+        "用途",
+        "投資",
+        "budget",
+        "allocation",
+        "funding",
+        "distribution"
+      ],
+      "use_case": "一つの予算を複数の用途へ振り分ける方針を説明する。",
+      "message": "共通の資金を目的に応じて配分する。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/capital-investment",
+      "title": "設備投資",
+      "kind": "icon",
+      "category": "11-会計・収益",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/capital-investment.svg",
+      "preview_path": "assets/icon/capital-investment.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/capital-investment.json",
+      "sha256": "353f0046afbe5fabd748cef654d86a22a3288a586465b07827d81cbed878ebdf",
+      "size_bytes": 1342,
+      "keywords": [
+        "設備投資",
+        "CAPEX",
+        "投資",
+        "更新",
+        "資本",
+        "capital",
+        "investment",
+        "equipment",
+        "capex"
+      ],
+      "use_case": "設備や長期的に使用する資産への投資を説明する。",
+      "message": "資金を将来の生産やサービスの能力へ変える。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/cash-flow",
+      "title": "資金繰り",
+      "kind": "icon",
+      "category": "11-会計・収益",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/cash-flow.svg",
+      "preview_path": "assets/icon/cash-flow.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/cash-flow.json",
+      "sha256": "36a9e22afc18242a07a2cd1e7c7f1ca916bcc8589840f55f65f95c85d849c1df",
+      "size_bytes": 1564,
+      "keywords": [
+        "資金繰り",
+        "資金",
+        "キャッシュフロー",
+        "入金",
+        "出金",
+        "cash",
+        "flow",
+        "liquidity",
+        "finance"
+      ],
+      "use_case": "入出金や運転資金の流れを説明する。",
+      "message": "資金が入出金を通じて動く。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/contingency-fund",
+      "title": "予備資金",
+      "kind": "icon",
+      "category": "11-会計・収益",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/contingency-fund.svg",
+      "preview_path": "assets/icon/contingency-fund.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/contingency-fund.json",
+      "sha256": "9023793f8599466b22dfba2718f2dc084f41ef758d83f65367e15206cba3901f",
+      "size_bytes": 957,
+      "keywords": [
+        "予備費",
+        "備え",
+        "資金",
+        "蓄え",
+        "緊急",
+        "contingency",
+        "fund",
+        "reserve",
+        "savings"
+      ],
+      "use_case": "予定外の事態に備えて確保する資金を説明する。",
+      "message": "必要時に使える蓄えを持つ。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/cost-reduction",
+      "title": "費用の低減",
+      "kind": "icon",
+      "category": "11-会計・収益",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/cost-reduction.svg",
+      "preview_path": "assets/icon/cost-reduction.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/cost-reduction.json",
+      "sha256": "517f73319d3d50e7af72b5d0fd5397a97ef010b1d5a9f5c4d8b12f0e60234a30",
+      "size_bytes": 1067,
+      "keywords": [
+        "費用",
+        "コスト",
+        "削減",
+        "低減",
+        "原価",
+        "cost",
+        "reduction",
+        "saving",
+        "expense"
+      ],
+      "use_case": "業務で発生する費用を下げる取り組みを示す。",
+      "message": "必要な費用を見直して減らす。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/depreciation",
+      "title": "減価償却",
+      "kind": "icon",
+      "category": "11-会計・収益",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/depreciation.svg",
+      "preview_path": "assets/icon/depreciation.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/depreciation.json",
+      "sha256": "78c01f1563b9c59732349b09664dd921156a54cb950bf451fc34d03f2fa66ca1",
+      "size_bytes": 877,
+      "keywords": [
+        "減価償却",
+        "資産",
+        "費用",
+        "配分",
+        "耐用年数",
+        "depreciation",
+        "amortization",
+        "asset"
+      ],
+      "use_case": "資産価値や費用の期間配分を説明する。",
+      "message": "使用期間に応じて資産の価値を配分する。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/expense",
+      "title": "経費",
+      "kind": "icon",
+      "category": "11-会計・収益",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/expense.svg",
+      "preview_path": "assets/icon/expense.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/expense.json",
+      "sha256": "5e7841d5d9c139155173fb3a94514056caf74b2da68174bc8f349822efbef41d",
+      "size_bytes": 1195,
+      "keywords": [
+        "経費",
+        "支出",
+        "費用",
+        "精算",
+        "立替",
+        "expense",
+        "cost",
+        "reimbursement",
+        "spending"
+      ],
+      "use_case": "経費精算や支出項目の見出しに添える。",
+      "message": "仕事に必要な費用が発生する。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/foreign-exchange",
+      "title": "為替",
+      "kind": "icon",
+      "category": "11-会計・収益",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/foreign-exchange.svg",
+      "preview_path": "assets/icon/foreign-exchange.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/foreign-exchange.json",
+      "sha256": "1c73812ec36b7d3962d4dbb13b96b42dd81877ef90a3e955c93d3d3536e2e6cd",
+      "size_bytes": 1328,
+      "keywords": [
+        "為替",
+        "通貨",
+        "外貨",
+        "交換",
+        "currency",
+        "foreign",
+        "exchange",
+        "conversion"
+      ],
+      "use_case": "異なる通貨の換算や為替の影響を説明する。",
+      "message": "通貨を交換し価値を換算する。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/invoice",
+      "title": "請求",
+      "kind": "icon",
+      "category": "11-会計・収益",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/invoice.svg",
+      "preview_path": "assets/icon/invoice.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/invoice.json",
+      "sha256": "6a56dd532f323fac65d4e2efa403150aa893ac7c17a5bf744ea3c51942fe07f9",
+      "size_bytes": 1499,
+      "keywords": [
+        "請求",
+        "請求書",
+        "明細",
+        "売掛",
+        "支払依頼",
+        "invoice",
+        "billing",
+        "receivable"
+      ],
+      "use_case": "取引の請求書発行や請求内容の確認を示す。",
+      "message": "項目別の明細をまとめ、支払を求める。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/payment",
+      "title": "支払・決済",
+      "kind": "icon",
+      "category": "11-会計・収益",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/payment.svg",
+      "preview_path": "assets/icon/payment.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/payment.json",
+      "sha256": "c58d6b3873a07ba1a876d28bbacb84d1269a41ff62b0e285f1482358ecbcfc59",
+      "size_bytes": 950,
+      "keywords": [
+        "支払",
+        "決済",
+        "代金",
+        "カード",
+        "振込",
+        "payment",
+        "settlement",
+        "checkout"
+      ],
+      "use_case": "代金支払や決済の工程に配置する。",
+      "message": "取引の代金を支払う。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/profit-margin",
+      "title": "利益率",
+      "kind": "icon",
+      "category": "11-会計・収益",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/profit-margin.svg",
+      "preview_path": "assets/icon/profit-margin.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/profit-margin.json",
+      "sha256": "b38ff5778b3b72664752ddb7528b7183c5f717ea14ead3852b3707a452bc6bdd",
+      "size_bytes": 1106,
+      "keywords": [
+        "利益率",
+        "採算",
+        "売上",
+        "利益",
+        "margin",
+        "profitability",
+        "ratio"
+      ],
+      "use_case": "売上に対する利益の割合を説明する。",
+      "message": "全体の中で利益が占める割合を見る。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/tax",
+      "title": "税務",
+      "kind": "icon",
+      "category": "11-会計・収益",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/tax.svg",
+      "preview_path": "assets/icon/tax.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/tax.json",
+      "sha256": "aead07688314b7acb2df565984824c9d76e7f2d9df92eec52f0004f18d8265c9",
+      "size_bytes": 1364,
+      "keywords": [
+        "税",
+        "税務",
+        "税金",
+        "申告",
+        "納税",
+        "消費税",
+        "tax",
+        "taxation",
+        "filing"
+      ],
+      "use_case": "税務処理や申告・納付の項目を示す。",
+      "message": "公的な税の負担を扱う。",
+      "sample_data": false
+    },
+    {
+      "id": "illustration/budget-review",
+      "title": "費用を検討する",
+      "kind": "illustration",
+      "category": "11-会計・収益",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1254,
+      "height": 1254,
+      "canvas": {
+        "width": 1254,
+        "height": 1254
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/budget-review.png",
+      "preview_path": "previews/illustration/budget-review.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/budget-review.json",
+      "sha256": "87344c036a5c775f6a6eaefc4a05255af765df665bdf4ab153cdbed613e19120",
+      "size_bytes": 982296,
+      "keywords": [
+        "費用",
+        "予算",
+        "見積",
+        "コスト",
+        "budget",
+        "estimate",
+        "expenses"
+      ],
+      "use_case": "予算、見積、費用確認、購買計画の説明に。",
+      "message": "支出の根拠を並べて費用を確認する。",
+      "sample_data": false,
+      "composition": {
+        "framing": "object",
+        "facing": "front",
+        "people_count": 0
+      }
+    },
+    {
+      "id": "illustration/cash-flow-planning",
+      "title": "入出金のタイミングを考える",
+      "kind": "illustration",
+      "category": "11-会計・収益",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1536,
+      "height": 1024,
+      "canvas": {
+        "width": 1536,
+        "height": 1024
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/cash-flow-planning.png",
+      "preview_path": "previews/illustration/cash-flow-planning.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/cash-flow-planning.json",
+      "sha256": "bdda22f2889c920bea3aedd9a8aa94c3c00cfea6f367c7e83ec3ca468d32a01c",
+      "size_bytes": 1497390,
+      "keywords": [
+        "資金繰り",
+        "現金",
+        "入出金",
+        "支払",
+        "cash flow",
+        "liquidity"
+      ],
+      "use_case": "入金と支払いの時期を確認し、必要な資金をいつ用意するか説明する場面。",
+      "message": "金額だけでなく、資金が動く時期を考える。",
+      "sample_data": false,
+      "composition": {
+        "framing": "object",
+        "facing": "front"
+      }
+    },
+    {
+      "id": "illustration/expense-receipt-check",
+      "title": "領収書をまとめて精算する",
+      "kind": "illustration",
+      "category": "11-会計・収益",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1536,
+      "height": 1024,
+      "canvas": {
+        "width": 1536,
+        "height": 1024
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/expense-receipt-check.png",
+      "preview_path": "previews/illustration/expense-receipt-check.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/expense-receipt-check.json",
+      "sha256": "30e77a3d17f89a66a60bfae80a50eba6a0ae3c3a1e9b1ed1bb94462c0ae6c132",
+      "size_bytes": 1255162,
+      "keywords": [
+        "経費",
+        "精算",
+        "領収書",
+        "費用",
+        "expense",
+        "reimbursement"
+      ],
+      "use_case": "経費精算の説明で、支出を示す領収書を集めて一覧と確認する場面。",
+      "message": "支出の記録をまとめ、精算内容を確かめる。",
+      "sample_data": false,
+      "composition": {
+        "framing": "object",
+        "facing": "front"
+      }
+    },
+    {
+      "id": "illustration/investment-evaluation",
+      "title": "設備への投資を検討する",
+      "kind": "illustration",
+      "category": "11-会計・収益",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1312,
+      "height": 1199,
+      "canvas": {
+        "width": 1312,
+        "height": 1199
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/investment-evaluation.png",
+      "preview_path": "previews/illustration/investment-evaluation.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/investment-evaluation.json",
+      "sha256": "eae2db45cf78f107c4dd38706cdffbecf12fd191c070978ce874a98c9204a6b8",
+      "size_bytes": 795738,
+      "keywords": [
+        "設備投資",
+        "投資評価",
+        "予算",
+        "ROI",
+        "capital investment"
+      ],
+      "use_case": "設備導入の提案で、購入対象と見積金額を見比べながら投資を検討する場面。",
+      "message": "導入するものと費用を一緒に見て判断する。",
+      "sample_data": false,
+      "composition": {
+        "framing": "waist-up",
+        "facing": "down",
+        "people_count": 1
+      }
+    },
+    {
+      "id": "illustration/invoice-reconciliation",
+      "title": "請求書と受領記録を照合する",
+      "kind": "illustration",
+      "category": "11-会計・収益",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1536,
+      "height": 1024,
+      "canvas": {
+        "width": 1536,
+        "height": 1024
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/invoice-reconciliation.png",
+      "preview_path": "previews/illustration/invoice-reconciliation.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/invoice-reconciliation.json",
+      "sha256": "e83ab5ec63be0cd80505ed198c155de1fbcbc99698ed0ccedb474bef4a3e9c18",
+      "size_bytes": 1144041,
+      "keywords": [
+        "請求",
+        "照合",
+        "受領",
+        "経理",
+        "invoice",
+        "reconciliation"
+      ],
+      "use_case": "請求内容と受領記録を照らし合わせ、対応する項目や金額を確認する場面。",
+      "message": "二つの記録を対応させて内容を確かめる。",
+      "sample_data": false,
+      "composition": {
+        "framing": "object",
+        "facing": "front"
+      }
+    },
+    {
+      "id": "part/fixed-and-variable-cost",
+      "title": "固定費と数量に応じる費用を分ける",
+      "kind": "part",
+      "category": "11-会計・収益",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1120,
+      "height": 380,
+      "canvas": {
+        "width": 1120,
+        "height": 380
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/part/fixed-and-variable-cost.svg",
+      "preview_path": "previews/part/fixed-and-variable-cost.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/part/fixed-and-variable-cost.json",
+      "sha256": "4c60ab5b684a6a7b7912b88c0a84c1aab3f6379f057a71bc3d079bc6ef08fe3d",
+      "size_bytes": 1270,
+      "keywords": [
+        "固定費",
+        "変動費",
+        "数量",
+        "単位原価",
+        "cost",
+        "fixed",
+        "variable",
+        "volume"
+      ],
+      "use_case": "原価や収益構造で、数量が変わったときの影響を説明する。",
+      "message": "数量によらない費用と、一単位ごとに発生する費用を足して考える。",
+      "sample_data": false,
+      "preview_sha256": "7c3d5734423bfa38342134a4aec32c3b45fc66b884f175748450ad061a277638"
+    },
+    {
+      "id": "part/one-time-and-recurring-cost",
+      "title": "一度の費用と繰り返す費用を分ける",
+      "kind": "part",
+      "category": "11-会計・収益",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1120,
+      "height": 380,
+      "canvas": {
+        "width": 1120,
+        "height": 380
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/part/one-time-and-recurring-cost.svg",
+      "preview_path": "previews/part/one-time-and-recurring-cost.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/part/one-time-and-recurring-cost.json",
+      "sha256": "24467763bb7da77dd38fd9511a0fe2b991b8f839677abe477378d88905a95a9b",
+      "size_bytes": 1935,
+      "keywords": [
+        "初期費用",
+        "継続費用",
+        "導入費",
+        "運用費",
+        "総保有費用",
+        "TCO",
+        "one-time",
+        "recurring",
+        "operating",
+        "cost"
+      ],
+      "use_case": "導入案の費用を、準備時の支出と利用期間中の支出に分けて見積もる。",
+      "message": "導入時だけでなく、利用を続ける期間の費用も含めて評価する。",
+      "sample_data": false,
+      "preview_sha256": "c83a41b7b4be420b9ec32f601eb19fa0e9f2a2a4f13bb89703070d49c6c9fc0e"
+    },
+    {
+      "id": "part/sunk-and-future-cost",
+      "title": "過去の支出と今後変わる費用を分ける",
+      "kind": "part",
+      "category": "11-会計・収益",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1120,
+      "height": 380,
+      "canvas": {
+        "width": 1120,
+        "height": 380
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/part/sunk-and-future-cost.svg",
+      "preview_path": "previews/part/sunk-and-future-cost.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/part/sunk-and-future-cost.json",
+      "sha256": "dad5a2ea0294926dc1989085d6b7f017fee5381201805929d65548b4986afe6e",
+      "size_bytes": 1112,
+      "keywords": [
+        "埋没費用",
+        "サンクコスト",
+        "将来費用",
+        "差額",
+        "意思決定",
+        "sunk",
+        "future",
+        "cost"
+      ],
+      "use_case": "継続・中止の判断で、支払い済みの費用と選択肢で変わる費用を分ける。",
+      "message": "今後の選択によって変わる費用と効果に着目する。",
+      "sample_data": false,
+      "preview_sha256": "69cbccd7dc0ea5196c181eb3bc1b3ffd6a17f9d538980aa30c89103ea8e74674"
+    }
+  ]
+}

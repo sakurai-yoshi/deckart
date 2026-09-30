@@ -2,7 +2,6 @@
   "title": "要点をチームへ伝える",
   "description": "手元のメモを持つ話し手に二人の同僚が向き合い、短い共有説明を聞く。",
   "kind": "illustration",
-  "category": "06-業務イラスト",
   "width": 1254,
   "height": 1254,
   "keywords": [
@@ -41,6 +40,7 @@
     "width": 1254,
     "height": 1254
   },
+  "category": "09-組織・人材",
   "schema_version": 3,
   "id": "illustration/team-briefing",
   "name": "要点をチームへ伝える_汎用ビジネスの動作",

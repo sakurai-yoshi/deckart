@@ -1,0 +1,57 @@
+{
+  "title": "需要の見通しを検討する",
+  "description": "実績と予測を描き分けた棒グラフを見ながら、今後の予定を考える人。",
+  "kind": "illustration",
+  "width": 1536,
+  "height": 1024,
+  "labels": [],
+  "composition": {
+    "framing": "waist-up",
+    "facing": "down",
+    "people_count": 1
+  },
+  "keywords": [
+    "需要予測",
+    "販売計画",
+    "見通し",
+    "forecast",
+    "demand",
+    "planning"
+  ],
+  "guidance": {
+    "use_case": "過去の実績と今後の見通しを区別し、販売や生産の予定を検討する場面。",
+    "message": "実績を踏まえて、これからの需要を見通す。",
+    "reading": [
+      "手にした資料では、濃い棒の後に点線枠の棒が続き、実績と予測を描き分けている。",
+      "資料を見て考える姿勢と卓上カレンダーが、先の計画を検討する場面を示す。"
+    ]
+  },
+  "preview_path": "previews/illustration/demand-forecast-review.png",
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/enterprise-illustrations.json"
+  },
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": true,
+  "canvas": {
+    "width": 1536,
+    "height": 1024
+  },
+  "category": "05-調達・物流",
+  "schema_version": 3,
+  "id": "illustration/demand-forecast-review",
+  "name": "需要の見通しを検討する_業務イラスト",
+  "license": "CC0-1.0",
+  "path": "media/illustration/demand-forecast-review.png",
+  "metadata_path": "metadata/illustration/demand-forecast-review.json",
+  "preview_has_example_labels": false,
+  "search_text": "illustration/demand-forecast-review\n需要の見通しを検討する_業務イラスト\n需要の見通しを検討する\n過去の実績と今後の見通しを区別し、販売や生産の予定を検討する場面。\n実績を踏まえて、これからの需要を見通す。\n手にした資料では、濃い棒の後に点線枠の棒が続き、実績と予測を描き分けている。\n資料を見て考える姿勢と卓上カレンダーが、先の計画を検討する場面を示す。\n需要予測 販売計画 見通し forecast demand planning\nwaist-up 上半身 腰上 down 下向き 手元を見る",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "bb045871b1d9b97704891d412b27e412523a73f71580c0b989b6b5d88da0eb20",
+  "size_bytes": 1323529
+}

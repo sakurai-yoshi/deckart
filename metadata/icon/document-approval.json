@@ -1,52 +1,51 @@
 {
-  "category": "08-アイコンとピクトグラム",
   "title": "確認と承認",
-  "description": "書類のチェックを経て決裁が完了することを示す。",
+  "description": "内容を確認したうえで承認を確定する。",
   "keywords": [
+    "確認",
     "承認",
+    "書類",
     "決裁",
     "稟議",
-    "確認",
-    "認証",
-    "審査",
-    "検証",
+    "document",
+    "review",
     "approval",
-    "verification",
-    "stamp"
+    "signoff"
   ],
   "labels": [],
-  "width": 320,
-  "height": 280,
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
   "guidance": {
-    "use_case": "申請の確認や決裁の段階を説明する場面。",
-    "message": "必要な確認を経て、承認を確定する。",
+    "use_case": "書類の項目確認から決裁へ進む手続きを説明する。",
+    "message": "内容を確認したうえで承認を確定する。",
     "reading": [
-      "チェックの付いた書類が確認済みの項目を表す。",
-      "決裁印が承認を確定する行為を表す。"
+      "チェックの付いた紙が項目の確認を表す。",
+      "右の印が決裁を確定する行為を表す。"
     ]
   },
-  "kind": "icon",
+  "category": "13-説明・伝達",
   "schema_version": 3,
   "id": "icon/document-approval",
-  "name": "申請業務_確認と承認_書類と決裁印",
+  "name": "確認と承認_業務の象徴",
   "license": "CC0-1.0",
   "format": "svg",
   "mime_type": "image/svg+xml",
   "transparent": null,
   "canvas": {
-    "width": 320,
-    "height": 280
+    "width": 160,
+    "height": 160
   },
   "path": "assets/icon/document-approval.svg",
   "metadata_path": "metadata/icon/document-approval.json",
   "preview_path": "assets/icon/document-approval.svg",
   "preview_has_example_labels": false,
-  "search_text": "icon/document-approval\n申請業務_確認と承認_書類と決裁印\n確認と承認\n申請の確認や決裁の段階を説明する場面。\n必要な確認を経て、承認を確定する。\nチェックの付いた書類が確認済みの項目を表す。\n決裁印が承認を確定する行為を表す。\n承認 決裁 稟議 確認 認証 審査 検証 approval verification stamp",
+  "search_text": "icon/document-approval\n確認と承認_業務の象徴\n確認と承認\n書類の項目確認から決裁へ進む手続きを説明する。\n内容を確認したうえで承認を確定する。\nチェックの付いた紙が項目の確認を表す。\n右の印が決裁を確定する行為を表す。\n確認 承認 書類 決裁 稟議 document review approval signoff",
   "render": {
     "theme": true,
     "labels": false,
     "data": false
   },
-  "sha256": "4b0f31d314b97826cfa4e870b3734e6ec9f5c45dee859ced2157838885602d3b",
-  "size_bytes": 3040
+  "sha256": "6e70d289c436fe374c4106fdef8aa732f9e0204876f0df5496548d47fa06c03b",
+  "size_bytes": 1463
 }

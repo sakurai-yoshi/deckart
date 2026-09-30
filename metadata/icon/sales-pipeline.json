@@ -1,0 +1,51 @@
+{
+  "title": "商談の進捗",
+  "description": "段階が進むにつれて商談を絞り込む。",
+  "keywords": [
+    "商談",
+    "パイプライン",
+    "案件",
+    "営業",
+    "成約",
+    "sales",
+    "pipeline",
+    "opportunity",
+    "funnel"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "見込み案件から成約へ進む商談の管理を示す。",
+    "message": "段階が進むにつれて商談を絞り込む。",
+    "reading": [
+      "広い入口の複数の点が見込み案件を表す。",
+      "細くなる流れが次の段階へ進む案件を表す。"
+    ]
+  },
+  "category": "10-顧客・営業",
+  "schema_version": 3,
+  "id": "icon/sales-pipeline",
+  "name": "商談の進捗_仕事と関係",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/sales-pipeline.svg",
+  "metadata_path": "metadata/icon/sales-pipeline.json",
+  "preview_path": "assets/icon/sales-pipeline.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/sales-pipeline\n商談の進捗_仕事と関係\n商談の進捗\n見込み案件から成約へ進む商談の管理を示す。\n段階が進むにつれて商談を絞り込む。\n広い入口の複数の点が見込み案件を表す。\n細くなる流れが次の段階へ進む案件を表す。\n商談 パイプライン 案件 営業 成約 sales pipeline opportunity funnel",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "5b6e3684cc1a8a0d7a2575c81857095d1f58316c832cfea9f00f405ddd11d6c9",
+  "size_bytes": 1005
+}

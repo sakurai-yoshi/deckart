@@ -1,7 +1,6 @@
 {
   "title": "交換できる部品で保守する",
   "kind": "illustration",
-  "category": "06-業務イラスト",
   "width": 1254,
   "height": 1254,
   "keywords": [
@@ -40,6 +39,7 @@
     "width": 1254,
     "height": 1254
   },
+  "category": "04-生産・設備",
   "schema_version": 3,
   "id": "illustration/replaceable-module",
   "name": "交換できる部品で保守する_メーカー業務の構成",

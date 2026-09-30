@@ -82,7 +82,15 @@
     "create",
     "make",
     "using",
-    "use"
+    "use",
+    "説明する",
+    "説明したい",
+    "紹介する",
+    "示したい",
+    "整理したい",
+    "使用する",
+    "作成する",
+    "作りたい"
   ],
   "groups": [
     [
@@ -288,7 +296,9 @@
       "予防",
       "予防保全",
       "preventive",
-      "prevention"
+      "prevention",
+      "防ぐ",
+      "防止"
     ],
     [
       "校正",
@@ -360,15 +370,6 @@
       "包装",
       "packaging",
       "packing"
-    ],
-    [
-      "標準化",
-      "共通化",
-      "標準",
-      "standardization",
-      "standardise",
-      "standardize",
-      "standard"
     ],
     [
       "進捗",
@@ -482,6 +483,193 @@
       "management",
       "manage",
       "managing"
+    ],
+    [
+      "共通部品",
+      "共有部品",
+      "shared components",
+      "common components",
+      "部品共通化",
+      "部品の共通化",
+      "部品を共通化",
+      "共通の部品"
+    ],
+    [
+      "予備部品",
+      "交換部品",
+      "spare parts",
+      "replacement parts"
+    ],
+    [
+      "人材育成",
+      "技能育成",
+      "skill development",
+      "employee development"
+    ],
+    [
+      "引継ぎ",
+      "引き継ぎ",
+      "引継",
+      "handover",
+      "hand-off",
+      "引き継ぐ",
+      "引き継いで",
+      "引き継いだ"
+    ],
+    [
+      "資金繰り",
+      "キャッシュフロー",
+      "cash flow",
+      "cash-flow"
+    ],
+    [
+      "会計",
+      "経理",
+      "accounting"
+    ],
+    [
+      "収益",
+      "利益",
+      "採算",
+      "profit",
+      "profitability"
+    ],
+    [
+      "投資",
+      "設備投資",
+      "investment",
+      "capital investment"
+    ],
+    [
+      "需要予測",
+      "demand forecast",
+      "demand forecasting"
+    ],
+    [
+      "要求",
+      "要件",
+      "requirements",
+      "requirement"
+    ],
+    [
+      "事業継続",
+      "業務継続",
+      "BCP",
+      "business continuity"
+    ],
+    [
+      "復旧",
+      "回復",
+      "recovery",
+      "restoration"
+    ],
+    [
+      "危険",
+      "ハザード",
+      "hazard",
+      "hazards"
+    ],
+    [
+      "権限",
+      "認可",
+      "authorization",
+      "permission",
+      "permissions"
+    ],
+    [
+      "試作",
+      "試作品",
+      "prototype",
+      "prototyping"
+    ],
+    [
+      "抜取",
+      "抜き取り",
+      "抜取り",
+      "sampling"
+    ],
+    [
+      "トレーサビリティ",
+      "traceability"
+    ],
+    [
+      "原因",
+      "要因",
+      "cause",
+      "causes"
+    ],
+    [
+      "保管",
+      "保存",
+      "storage",
+      "retention"
+    ],
+    [
+      "標準化",
+      "共通化",
+      "standardization",
+      "standardise",
+      "standardize",
+      "standard"
+    ],
+    [
+      "可逆",
+      "戻せる",
+      "元に戻せる",
+      "reversible",
+      "reversibility"
+    ],
+    [
+      "不可逆",
+      "戻せない",
+      "元に戻せない",
+      "irreversible"
+    ],
+    [
+      "改訂",
+      "最新版",
+      "最新の版",
+      "改訂版",
+      "revision",
+      "revised",
+      "revisions",
+      "version"
+    ],
+    [
+      "変換",
+      "transform",
+      "transformation",
+      "transformations"
+    ],
+    [
+      "追跡",
+      "追える",
+      "たどる",
+      "trace",
+      "tracing",
+      "tracking"
+    ],
+    [
+      "歩車分離",
+      "人車分離",
+      "作業者とフォークリフト",
+      "人とフォークリフト",
+      "人と車両",
+      "pedestrian separation",
+      "pedestrian vehicle separation"
+    ],
+    [
+      "知識",
+      "ノウハウ",
+      "ナレッジ",
+      "knowledge",
+      "know-how"
+    ],
+    [
+      "事故",
+      "事故防止",
+      "accident",
+      "accidents"
     ]
   ],
   "composition_terms": {
@@ -523,6 +711,17 @@
     "報告",
     "比較",
     "工程",
-    "管理"
+    "管理",
+    "判断",
+    "担当",
+    "担当者",
+    "現場",
+    "作業",
+    "結果",
+    "案内",
+    "関係",
+    "整理",
+    "変化",
+    "導入"
   ]
 }

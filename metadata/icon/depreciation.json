@@ -1,0 +1,50 @@
+{
+  "title": "減価償却",
+  "description": "使用期間に応じて資産の価値を配分する。",
+  "keywords": [
+    "減価償却",
+    "資産",
+    "費用",
+    "配分",
+    "耐用年数",
+    "depreciation",
+    "amortization",
+    "asset"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "資産価値や費用の期間配分を説明する。",
+    "message": "使用期間に応じて資産の価値を配分する。",
+    "reading": [
+      "下へ段階的に変わる線が価値の推移を表す。",
+      "横軸が期間の経過を表す。"
+    ]
+  },
+  "category": "11-会計・収益",
+  "schema_version": 3,
+  "id": "icon/depreciation",
+  "name": "減価償却_仕事と関係",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/depreciation.svg",
+  "metadata_path": "metadata/icon/depreciation.json",
+  "preview_path": "assets/icon/depreciation.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/depreciation\n減価償却_仕事と関係\n減価償却\n資産価値や費用の期間配分を説明する。\n使用期間に応じて資産の価値を配分する。\n下へ段階的に変わる線が価値の推移を表す。\n横軸が期間の経過を表す。\n減価償却 資産 費用 配分 耐用年数 depreciation amortization asset",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "78c01f1563b9c59732349b09664dd921156a54cb950bf451fc34d03f2fa66ca1",
+  "size_bytes": 877
+}

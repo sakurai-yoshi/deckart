@@ -1,0 +1,49 @@
+{
+  "title": "受け入れと定着",
+  "description": "新しい環境に入り仕事を始める。",
+  "keywords": [
+    "受け入れ",
+    "入社",
+    "定着",
+    "オンボーディング",
+    "onboarding",
+    "induction",
+    "orientation"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "新たなメンバーの受け入れや業務への適応を説明する。",
+    "message": "新しい環境に入り仕事を始める。",
+    "reading": [
+      "人物を囲む入口が受け入れ先を表す。",
+      "次へ向かう矢印が仕事を始める流れを示す。"
+    ]
+  },
+  "category": "09-組織・人材",
+  "schema_version": 3,
+  "id": "icon/onboarding",
+  "name": "受け入れと定着_仕事と関係",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/onboarding.svg",
+  "metadata_path": "metadata/icon/onboarding.json",
+  "preview_path": "assets/icon/onboarding.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/onboarding\n受け入れと定着_仕事と関係\n受け入れと定着\n新たなメンバーの受け入れや業務への適応を説明する。\n新しい環境に入り仕事を始める。\n人物を囲む入口が受け入れ先を表す。\n次へ向かう矢印が仕事を始める流れを示す。\n受け入れ 入社 定着 オンボーディング onboarding induction orientation",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "de0ccddc01ea8e4599fa81748ab7c58bed7a8cf1a0186cbdb2758404891562a9",
+  "size_bytes": 1201
+}

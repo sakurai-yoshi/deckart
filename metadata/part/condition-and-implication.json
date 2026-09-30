@@ -1,5 +1,4 @@
 {
-  "category": "07-注釈と見出し",
   "title": "条件が成立した場合の意味を示す",
   "description": "上の前提から下の成立内容へ、折れた接続でつなぐ部品。",
   "keywords": [
@@ -69,6 +68,7 @@
       "接続の先は、条件を満たすと成立する内容の領域。"
     ]
   },
+  "category": "13-説明・伝達",
   "schema_version": 3,
   "id": "part/condition-and-implication",
   "name": "条件が成立した場合の意味を示す_説明パーツ",
@@ -91,5 +91,6 @@
     "data": false
   },
   "sha256": "209e2d4f79a9fd944bf04954a3f505020d63130e0eb04f225390cb29adf0ad76",
-  "size_bytes": 1053
+  "size_bytes": 1053,
+  "preview_sha256": "bb75bff94e87293ce5b086103ff4023f196a451d39133d72dd7dcfecc46177d9"
 }

@@ -1,5 +1,4 @@
 {
-  "category": "08-アイコンとピクトグラム",
   "title": "協業と合意",
   "description": "互いに手を取り、協力する関係を示す。",
   "keywords": [
@@ -26,6 +25,7 @@
       "中央の握手が合意と協力を表す。"
     ]
   },
+  "category": "10-顧客・営業",
   "schema_version": 3,
   "id": "icon/handshake",
   "name": "協業表示_合意と協力を示す_握手",

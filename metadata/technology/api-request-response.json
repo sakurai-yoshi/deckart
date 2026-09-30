@@ -1,5 +1,4 @@
 {
-  "category": "12-AIとデータ基盤",
   "title": "APIの要求と応答を対応させる",
   "description": "呼び出す側と提供する側の間で、要求と応答を別の経路として示す。",
   "keywords": [
@@ -103,6 +102,7 @@
       "下の矢印が元のアプリへ戻る応答。"
     ]
   },
+  "category": "12-情報・データ",
   "schema_version": 3,
   "id": "technology/api-request-response",
   "name": "システム連携_要求と応答を対応させる_APIの往復",
@@ -125,5 +125,6 @@
     "data": false
   },
   "sha256": "df38343c1d13444156f2869dbf9cc7347cc7c4bd72b1ceb560dfcc1f358cc130",
-  "size_bytes": 5089
+  "size_bytes": 5089,
+  "preview_sha256": "6885b0bb66a9bf0d91f7575593e276d90328f3a34010432b0f7aa57e04aeb490"
 }

@@ -1,5 +1,4 @@
 {
-  "category": "08-アイコンとピクトグラム",
   "title": "納期管理",
   "description": "配送物と届ける時期を一組で管理する。",
   "keywords": [
@@ -24,6 +23,7 @@
       "時計が時期や期限という管理観点を示す。"
     ]
   },
+  "category": "05-調達・物流",
   "schema_version": 3,
   "id": "icon/delivery-deadline",
   "name": "納期管理_製造業務の記号",

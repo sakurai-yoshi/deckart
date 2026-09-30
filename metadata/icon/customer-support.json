@@ -1,5 +1,4 @@
 {
-  "category": "08-アイコンとピクトグラム",
   "title": "顧客サポート",
   "description": "顧客からの問い合わせに対応する窓口を示す。",
   "keywords": [
@@ -25,6 +24,7 @@
       "人物とマイクが対応する担当者を表す。"
     ]
   },
+  "category": "10-顧客・営業",
   "schema_version": 3,
   "id": "icon/customer-support",
   "name": "顧客対応_問い合わせを受ける_ヘッドセット担当者",

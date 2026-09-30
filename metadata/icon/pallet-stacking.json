@@ -1,0 +1,50 @@
+{
+  "title": "積み付け",
+  "description": "荷物を安定するまとまりとして積む。",
+  "keywords": [
+    "積付",
+    "積載",
+    "荷姿",
+    "荷崩れ",
+    "stacking",
+    "palletizing",
+    "load",
+    "arrangement"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "パレット上の荷物の積み方や荷姿を説明する。",
+    "message": "荷物を安定するまとまりとして積む。",
+    "reading": [
+      "上下にずらした箱の配置が積み付けを表す。",
+      "一つの台が荷物をまとめて支える。"
+    ]
+  },
+  "category": "05-調達・物流",
+  "schema_version": 3,
+  "id": "icon/pallet-stacking",
+  "name": "積み付け_工程と対象",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/pallet-stacking.svg",
+  "metadata_path": "metadata/icon/pallet-stacking.json",
+  "preview_path": "assets/icon/pallet-stacking.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/pallet-stacking\n積み付け_工程と対象\n積み付け\nパレット上の荷物の積み方や荷姿を説明する。\n荷物を安定するまとまりとして積む。\n上下にずらした箱の配置が積み付けを表す。\n一つの台が荷物をまとめて支える。\n積付 積載 荷姿 荷崩れ stacking palletizing load arrangement",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "31be18508d73d436a301e34eb3c908005f247ef0d20d94ee8c3d9327334565eb",
+  "size_bytes": 1320
+}

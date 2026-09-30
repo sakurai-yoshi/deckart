@@ -1,0 +1,51 @@
+{
+  "title": "出張",
+  "description": "業務のために普段の拠点から移動する。",
+  "keywords": [
+    "出張",
+    "移動",
+    "訪問",
+    "海外",
+    "旅費",
+    "business",
+    "travel",
+    "trip",
+    "visit"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "訪問や移動を伴う業務を説明する。",
+    "message": "業務のために普段の拠点から移動する。",
+    "reading": [
+      "持ち手のある荷物が出張の準備を表す。",
+      "上向きの飛行機が拠点を離れる移動を示す。"
+    ]
+  },
+  "category": "09-組織・人材",
+  "schema_version": 3,
+  "id": "icon/business-travel",
+  "name": "出張_仕事と関係",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/business-travel.svg",
+  "metadata_path": "metadata/icon/business-travel.json",
+  "preview_path": "assets/icon/business-travel.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/business-travel\n出張_仕事と関係\n出張\n訪問や移動を伴う業務を説明する。\n業務のために普段の拠点から移動する。\n持ち手のある荷物が出張の準備を表す。\n上向きの飛行機が拠点を離れる移動を示す。\n出張 移動 訪問 海外 旅費 business travel trip visit",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "902b66de782bf679df2ef62550772f17745fa2a349084c9c260f2e8522ee758a",
+  "size_bytes": 1082
+}

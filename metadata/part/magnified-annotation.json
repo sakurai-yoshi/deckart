@@ -1,5 +1,4 @@
 {
-  "category": "07-注釈と見出し",
   "title": "一箇所を選び説明を拡大する",
   "description": "対象を丸で選び、二本の補助線で詳しい説明へ対応させる部品。",
   "keywords": [
@@ -71,6 +70,7 @@
       "左の文書線は、拡大元の資料を表す作例。"
     ]
   },
+  "category": "13-説明・伝達",
   "schema_version": 3,
   "id": "part/magnified-annotation",
   "name": "一箇所を選び説明を拡大する_説明パーツ",
@@ -93,5 +93,6 @@
     "data": false
   },
   "sha256": "d8c41aceea1841dda252ed5214587e372794167215f2be67c4e5704e284f3e84",
-  "size_bytes": 1684
+  "size_bytes": 1684,
+  "preview_sha256": "04e596b21ad5030a06845bd5ba6eee14c483749c2d5135a07161a420207a157e"
 }

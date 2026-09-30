@@ -1,5 +1,4 @@
 {
-  "category": "09-循環とフレームワーク",
   "title": "内部と外部の有利・不利を整理する",
   "description": "強み・弱み・機会・脅威を、要因の出所と影響に分けて整理する。",
   "keywords": [
@@ -212,6 +211,7 @@
     "relation": "two-by-two-classification",
     "reading_direction": "row-by-row"
   },
+  "category": "01-経営・意思決定",
   "schema_version": 3,
   "id": "framework/swot",
   "name": "戦略検討_内部と外部の有利不利を整理する_SWOT4象限",
@@ -234,5 +234,6 @@
     "data": false
   },
   "sha256": "738ea7afbd31ba734e1bd60b6a6ff44874032e8f5577bc3d55c7cc8322e1fac8",
-  "size_bytes": 2929
+  "size_bytes": 2929,
+  "preview_sha256": "b89a88bd9d0aae5898261fdae9cdcecd0274a2a4290199c074074083e6ff5aa8"
 }

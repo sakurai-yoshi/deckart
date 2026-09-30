@@ -1,5 +1,4 @@
 {
-  "category": "08-アイコンとピクトグラム",
   "title": "ロット識別",
   "description": "ラベルを使って製造したまとまりを識別する。",
   "keywords": [
@@ -23,6 +22,7 @@
       "バーコード風の線が個別の識別情報を表す。"
     ]
   },
+  "category": "05-調達・物流",
   "schema_version": 3,
   "id": "icon/lot-identification",
   "name": "ロット識別_製造業務の記号",

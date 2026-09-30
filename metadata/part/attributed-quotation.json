@@ -1,5 +1,4 @@
 {
-  "category": "07-注釈と見出し",
   "title": "発言と出典を一組にする",
   "description": "引用符の横に発言を置き、その下に出典を分ける引用部品。",
   "keywords": [
@@ -54,6 +53,7 @@
       "下の独立した欄で発言者と出典を確認する。"
     ]
   },
+  "category": "13-説明・伝達",
   "schema_version": 3,
   "id": "part/attributed-quotation",
   "name": "発言と出典を一組にする_説明パーツ",
@@ -76,5 +76,6 @@
     "data": false
   },
   "sha256": "42e62a49f1da14b18b6c9ea7eaf255212688c8e66c3e9e5b679419bc5c8a7a7c",
-  "size_bytes": 880
+  "size_bytes": 880,
+  "preview_sha256": "1c4e0b7b43c95138df2112b1d8f40e284bca4a00a27f326e762effbde802e2ad"
 }

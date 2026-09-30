@@ -1,5 +1,4 @@
 {
-  "category": "07-注釈と見出し",
   "title": "集計する期間を両端で定める",
   "description": "開始と終了の二つの境界で今回の対象期間を切り出す部品。",
   "keywords": [
@@ -116,6 +115,7 @@
       "二つの境界とその間の帯が対象期間を表す概念的な時間軸。"
     ]
   },
+  "category": "13-説明・伝達",
   "schema_version": 3,
   "id": "part/observation-window",
   "name": "集計する期間を両端で定める_説明パーツ",
@@ -138,5 +138,6 @@
     "data": false
   },
   "sha256": "3878126f5841fba00b6590d4f28d5127607299cc4149d622f4153e03f6e300d6",
-  "size_bytes": 1497
+  "size_bytes": 1497,
+  "preview_sha256": "fd5c09b5f09605b12be6f9f7827f5e8cbc4e0969312e029022fb40c23b3afcb6"
 }

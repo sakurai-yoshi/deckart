@@ -1,0 +1,57 @@
+{
+  "title": "仲間の貢献を認め合う",
+  "description": "中央の仲間へ両側から拍手を送り、貢献への感謝を表す三人。",
+  "kind": "illustration",
+  "width": 1536,
+  "height": 1024,
+  "labels": [],
+  "composition": {
+    "framing": "waist-up",
+    "facing": "inward",
+    "people_count": 3
+  },
+  "keywords": [
+    "承認",
+    "感謝",
+    "貢献",
+    "チーム",
+    "recognition",
+    "appreciation"
+  ],
+  "guidance": {
+    "use_case": "チームの活動紹介や振り返りで、仲間の成果や貢献へ感謝を伝える場面。",
+    "message": "仲間の貢献を言葉と行動で認め合う。",
+    "reading": [
+      "ファイルを持つ一人を挟み、両側の二人が拍手している。",
+      "互いに向けた笑顔が、成果を共有して喜ぶ関係を示す。"
+    ]
+  },
+  "preview_path": "previews/illustration/team-recognition.png",
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/enterprise-illustrations.json"
+  },
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": true,
+  "canvas": {
+    "width": 1536,
+    "height": 1024
+  },
+  "category": "09-組織・人材",
+  "schema_version": 3,
+  "id": "illustration/team-recognition",
+  "name": "仲間の貢献を認め合う_業務イラスト",
+  "license": "CC0-1.0",
+  "path": "media/illustration/team-recognition.png",
+  "metadata_path": "metadata/illustration/team-recognition.json",
+  "preview_has_example_labels": false,
+  "search_text": "illustration/team-recognition\n仲間の貢献を認め合う_業務イラスト\n仲間の貢献を認め合う\nチームの活動紹介や振り返りで、仲間の成果や貢献へ感謝を伝える場面。\n仲間の貢献を言葉と行動で認め合う。\nファイルを持つ一人を挟み、両側の二人が拍手している。\n互いに向けた笑顔が、成果を共有して喜ぶ関係を示す。\n承認 感謝 貢献 チーム recognition appreciation\nwaist-up 上半身 腰上 inward 向かい合う 対話",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "9786f3ae094e81b734b062819429e5d450bb316f46eef828c106c462cac5acc4",
+  "size_bytes": 1957239
+}

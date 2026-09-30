@@ -1,0 +1,51 @@
+{
+  "title": "負荷の平準化",
+  "description": "偏った負荷を釣り合わせる。",
+  "keywords": [
+    "負荷",
+    "平準化",
+    "工数",
+    "仕事量",
+    "バランス",
+    "workload",
+    "balancing",
+    "leveling",
+    "capacity"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "担当者や工程間の仕事量を整える考え方を示す。",
+    "message": "偏った負荷を釣り合わせる。",
+    "reading": [
+      "左右の同じ高さの皿が釣り合いを表す。",
+      "両側の荷物が配分する仕事量を表す。"
+    ]
+  },
+  "category": "09-組織・人材",
+  "schema_version": 3,
+  "id": "icon/workload-balance",
+  "name": "負荷の平準化_仕事と関係",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/workload-balance.svg",
+  "metadata_path": "metadata/icon/workload-balance.json",
+  "preview_path": "assets/icon/workload-balance.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/workload-balance\n負荷の平準化_仕事と関係\n負荷の平準化\n担当者や工程間の仕事量を整える考え方を示す。\n偏った負荷を釣り合わせる。\n左右の同じ高さの皿が釣り合いを表す。\n両側の荷物が配分する仕事量を表す。\n負荷 平準化 工数 仕事量 バランス workload balancing leveling capacity",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "391afedf4f95702e04a2a48c844a4ca437954795a64d2dabce7d961777c67f67",
+  "size_bytes": 903
+}

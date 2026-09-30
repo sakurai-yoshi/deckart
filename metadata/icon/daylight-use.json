@@ -1,0 +1,50 @@
+{
+  "title": "自然光の活用",
+  "description": "外の光を仕事場へ取り入れる。",
+  "keywords": [
+    "自然光",
+    "採光",
+    "日射",
+    "省エネ",
+    "daylight",
+    "natural",
+    "light",
+    "lighting"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "自然光を取り入れる職場環境や省エネの施策を示す。",
+    "message": "外の光を仕事場へ取り入れる。",
+    "reading": [
+      "大きな窓が光の入口を表す。",
+      "入ってくる光線と内側の明るい面が採光を示す。"
+    ]
+  },
+  "category": "08-環境・資源",
+  "schema_version": 3,
+  "id": "icon/daylight-use",
+  "name": "自然光の活用_設備と働き",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/daylight-use.svg",
+  "metadata_path": "metadata/icon/daylight-use.json",
+  "preview_path": "assets/icon/daylight-use.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/daylight-use\n自然光の活用_設備と働き\n自然光の活用\n自然光を取り入れる職場環境や省エネの施策を示す。\n外の光を仕事場へ取り入れる。\n大きな窓が光の入口を表す。\n入ってくる光線と内側の明るい面が採光を示す。\n自然光 採光 日射 省エネ daylight natural light lighting",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "81836336ae6f17e7fda8e69bad3035f0ae5e41b793dd4ce541894d820ad6df64",
+  "size_bytes": 1029
+}

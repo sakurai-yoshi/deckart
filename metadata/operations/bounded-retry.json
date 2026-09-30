@@ -1,5 +1,4 @@
 {
-  "category": "01-業務プロセス",
   "title": "再試行と手動復旧を分ける",
   "description": "失敗した処理を条件付きで再試行し、解消しない場合は担当者へ引き継ぐ。",
   "keywords": [
@@ -153,6 +152,7 @@
     "relation": "bounded-retry-with-recovery",
     "reading_direction": "left-to-right"
   },
+  "category": "12-情報・データ",
   "schema_version": 3,
   "id": "operations/bounded-retry",
   "name": "例外対応_再試行と手動復旧を分ける_回数を制限した復帰路",
@@ -175,5 +175,6 @@
     "data": false
   },
   "sha256": "ada9691c491c5c09e01279294c242094e4e79bce67ea53d5d07c7fcfcb6d4e58",
-  "size_bytes": 3547
+  "size_bytes": 3547,
+  "preview_sha256": "413a90225b7fc907c62c7bbd29fa5a5e6bad529b4082624b7b2ab9bbd357aeab"
 }

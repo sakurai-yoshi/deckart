@@ -1,5 +1,4 @@
 {
-  "category": "08-アイコンとピクトグラム",
   "title": "寸法測定",
   "description": "部品の両端を測定具で挟み、寸法を確かめる。",
   "keywords": [
@@ -24,6 +23,7 @@
       "下の寸法線が測る幅を示す。"
     ]
   },
+  "category": "03-品質・改善",
   "schema_version": 3,
   "id": "icon/dimensional-measurement",
   "name": "寸法測定_製造業務の記号",

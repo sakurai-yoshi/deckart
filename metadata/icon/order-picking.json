@@ -1,0 +1,49 @@
+{
+  "title": "ピッキング",
+  "description": "必要な品を在庫から選んで取り出す。",
+  "keywords": [
+    "ピッキング",
+    "出庫",
+    "棚",
+    "取り出し",
+    "picking",
+    "fulfillment",
+    "selection"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "注文に必要な品を棚から取り出す工程を示す。",
+    "message": "必要な品を在庫から選んで取り出す。",
+    "reading": [
+      "棚の中に複数の品が並ぶ。",
+      "一つの箱が棚から外へ移る経路を示す。"
+    ]
+  },
+  "category": "05-調達・物流",
+  "schema_version": 3,
+  "id": "icon/order-picking",
+  "name": "ピッキング_工程と対象",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/order-picking.svg",
+  "metadata_path": "metadata/icon/order-picking.json",
+  "preview_path": "assets/icon/order-picking.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/order-picking\nピッキング_工程と対象\nピッキング\n注文に必要な品を棚から取り出す工程を示す。\n必要な品を在庫から選んで取り出す。\n棚の中に複数の品が並ぶ。\n一つの箱が棚から外へ移る経路を示す。\nピッキング 出庫 棚 取り出し picking fulfillment selection",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "c5f8017d4f22d938ee1153f410cff82bff88edf9af5be57494b9937ed5409c11",
+  "size_bytes": 1360
+}

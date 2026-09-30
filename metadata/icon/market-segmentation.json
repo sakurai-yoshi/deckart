@@ -1,0 +1,50 @@
+{
+  "title": "市場の区分",
+  "description": "市場を特徴に応じたまとまりに分ける。",
+  "keywords": [
+    "市場",
+    "区分",
+    "セグメント",
+    "顧客層",
+    "segmentation",
+    "market",
+    "customer",
+    "groups"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "異なるニーズを持つ市場や顧客層を説明する。",
+    "message": "市場を特徴に応じたまとまりに分ける。",
+    "reading": [
+      "円の全体が市場を表す。",
+      "区切られた領域が異なる顧客層を表す。"
+    ]
+  },
+  "category": "10-顧客・営業",
+  "schema_version": 3,
+  "id": "icon/market-segmentation",
+  "name": "市場の区分_仕事と関係",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/market-segmentation.svg",
+  "metadata_path": "metadata/icon/market-segmentation.json",
+  "preview_path": "assets/icon/market-segmentation.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/market-segmentation\n市場の区分_仕事と関係\n市場の区分\n異なるニーズを持つ市場や顧客層を説明する。\n市場を特徴に応じたまとまりに分ける。\n円の全体が市場を表す。\n区切られた領域が異なる顧客層を表す。\n市場 区分 セグメント 顧客層 segmentation market customer groups",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "bd912380dd8bd3198d993b9091732e1ca456eb63f161ccda38a63195b2a62f0b",
+  "size_bytes": 1004
+}

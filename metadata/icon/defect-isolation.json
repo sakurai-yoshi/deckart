@@ -1,0 +1,50 @@
+{
+  "title": "不適合品の隔離",
+  "description": "対象を通常の流れから切り離す。",
+  "keywords": [
+    "不適合",
+    "隔離",
+    "不良品",
+    "分離",
+    "defect",
+    "isolation",
+    "quarantine",
+    "nonconforming"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "不適合の疑いがある製品を分けて管理する工程を示す。",
+    "message": "対象を通常の流れから切り離す。",
+    "reading": [
+      "左のまとまりが通常の製品を表す。",
+      "離れた枠に移す経路が隔離を表す。"
+    ]
+  },
+  "category": "03-品質・改善",
+  "schema_version": 3,
+  "id": "icon/defect-isolation",
+  "name": "不適合品の隔離_工程と対象",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/defect-isolation.svg",
+  "metadata_path": "metadata/icon/defect-isolation.json",
+  "preview_path": "assets/icon/defect-isolation.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/defect-isolation\n不適合品の隔離_工程と対象\n不適合品の隔離\n不適合の疑いがある製品を分けて管理する工程を示す。\n対象を通常の流れから切り離す。\n左のまとまりが通常の製品を表す。\n離れた枠に移す経路が隔離を表す。\n不適合 隔離 不良品 分離 defect isolation quarantine nonconforming",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "6105536cda7c03721f5d97fda97bd4cfc040ce6a67ba1ac5a585225d1ded27d2",
+  "size_bytes": 1463
+}

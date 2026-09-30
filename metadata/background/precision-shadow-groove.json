@@ -1,0 +1,61 @@
+{
+  "title": "白い面に走る精密な溝",
+  "description": "白い面の非常に浅い溝が斜めに走り、端の短い部分に青い光が見える。",
+  "kind": "background",
+  "width": 1664,
+  "height": 936,
+  "labels": [],
+  "keywords": [
+    "背景",
+    "白",
+    "青",
+    "質感",
+    "background",
+    "溝",
+    "精密",
+    "斜め",
+    "白面",
+    "groove",
+    "precision",
+    "設計",
+    "品質",
+    "報告",
+    "quality"
+  ],
+  "guidance": {
+    "use_case": "設計方針や品質活動の報告に、精密で整った素材感を添える。",
+    "message": "浅い溝と精密な表面仕上げで、整った技術的な印象を添える。",
+    "reading": [
+      "白い表面の微細な粒子と、ごく浅い斜めの溝が見える。",
+      "左下の短い青い部分以外は、淡い光と陰影で溝の深さを示す。"
+    ]
+  },
+  "preview_path": "previews/background/precision-shadow-groove.png",
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/enterprise-backgrounds.json"
+  },
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": false,
+  "canvas": {
+    "width": 1664,
+    "height": 936
+  },
+  "category": "14-背景・装飾",
+  "schema_version": 3,
+  "id": "background/precision-shadow-groove",
+  "name": "白い面に走る精密な溝_背景",
+  "license": "CC0-1.0",
+  "path": "media/background/precision-shadow-groove.png",
+  "metadata_path": "metadata/background/precision-shadow-groove.json",
+  "preview_has_example_labels": false,
+  "search_text": "background/precision-shadow-groove\n白い面に走る精密な溝_背景\n白い面に走る精密な溝\n設計方針や品質活動の報告に、精密で整った素材感を添える。\n浅い溝と精密な表面仕上げで、整った技術的な印象を添える。\n白い表面の微細な粒子と、ごく浅い斜めの溝が見える。\n左下の短い青い部分以外は、淡い光と陰影で溝の深さを示す。\n背景 白 青 質感 background 溝 精密 斜め 白面 groove precision 設計 品質 報告 quality",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "6441c2066fd82d243b567af5f74715b9ec7c62b19d20a4849fe3ce7ed77d5731",
+  "size_bytes": 1550583
+}

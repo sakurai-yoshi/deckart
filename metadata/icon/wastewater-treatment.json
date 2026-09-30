@@ -1,0 +1,50 @@
+{
+  "title": "排水処理",
+  "description": "水中の物質を分離して処理する。",
+  "keywords": [
+    "排水",
+    "水処理",
+    "沈殿",
+    "浄化",
+    "wastewater",
+    "treatment",
+    "purification",
+    "settling"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "工程排水を処理する設備や環境対策を示す。",
+    "message": "水中の物質を分離して処理する。",
+    "reading": [
+      "上下に区切られた槽が処理工程を表す。",
+      "中の粒と下の水面が分離する物質と水を示す。"
+    ]
+  },
+  "category": "08-環境・資源",
+  "schema_version": 3,
+  "id": "icon/wastewater-treatment",
+  "name": "排水処理_設備と働き",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/wastewater-treatment.svg",
+  "metadata_path": "metadata/icon/wastewater-treatment.json",
+  "preview_path": "assets/icon/wastewater-treatment.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/wastewater-treatment\n排水処理_設備と働き\n排水処理\n工程排水を処理する設備や環境対策を示す。\n水中の物質を分離して処理する。\n上下に区切られた槽が処理工程を表す。\n中の粒と下の水面が分離する物質と水を示す。\n排水 水処理 沈殿 浄化 wastewater treatment purification settling",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "104277faa5d2a923f2c3eee6f5d703647106c0e503a44fb9e909e44e03753f0c",
+  "size_bytes": 1334
+}

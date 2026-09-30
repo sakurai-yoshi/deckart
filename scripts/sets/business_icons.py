@@ -5,7 +5,7 @@ from vector import path, rect, circle, ellipse, line, poly, arrow, group, asset
 
 
 def _icon(key, name, title, description, keywords, body, use_case, message, reading):
-    item=asset(name,'08-アイコンとピクトグラム',title,description,keywords,body,size=(160,160))
+    item=asset(name,title,description,keywords,body,size=(160,160))
     item.update(key='icon/'+key,kind='icon',guidance=dict(use_case=use_case,message=message,reading=reading))
     return item
 

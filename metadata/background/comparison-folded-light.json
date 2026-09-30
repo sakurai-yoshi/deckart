@@ -1,11 +1,10 @@
 {
   "kind": "background",
-  "category": "11-背景とフレーム",
-  "width": 1672,
-  "height": 941,
+  "width": 1664,
+  "height": 936,
   "labels": [],
   "title": "折面の光が広がる白い紙",
-  "description": "白い紙の中央に細い谷があり、下端の折面に青い光が見える。",
+  "description": "薄い白い紙の折面が下端近くで低く広がり、内側に青い反射が見える。",
   "keywords": [
     "背景",
     "白",
@@ -15,9 +14,9 @@
     "background",
     "紙",
     "折り目",
-    "中央の谷",
+    "低い折面",
     "下装飾",
-    "左右対称",
+    "左右の広がり",
     "比較",
     "本文",
     "folded paper",
@@ -25,10 +24,10 @@
   ],
   "guidance": {
     "use_case": "比較、報告、説明、提案など。",
-    "message": "対称に近い白い面と中央の光で、端正な印象を添える。",
+    "message": "低く広がる白い折面と青い光で、端正な印象を添える。",
     "reading": [
-      "中央の細い谷が下端の折り重なりへ続く。",
-      "左右と上部は明るく、下端に影と青い反射がある。"
+      "低い折面と青い反射が、下端近くで横に広がる。",
+      "上部と中央は均一な白い面でつながっている。"
     ]
   },
   "preview_path": "previews/background/comparison-folded-light.png",
@@ -40,9 +39,10 @@
   "mime_type": "image/png",
   "transparent": false,
   "canvas": {
-    "width": 1672,
-    "height": 941
+    "width": 1664,
+    "height": 936
   },
+  "category": "14-背景・装飾",
   "schema_version": 3,
   "id": "background/comparison-folded-light",
   "name": "折面の光が広がる白い紙_背景",
@@ -50,12 +50,12 @@
   "path": "media/background/comparison-folded-light.png",
   "metadata_path": "metadata/background/comparison-folded-light.json",
   "preview_has_example_labels": false,
-  "search_text": "background/comparison-folded-light\n折面の光が広がる白い紙_背景\n折面の光が広がる白い紙\n比較、報告、説明、提案など。\n対称に近い白い面と中央の光で、端正な印象を添える。\n中央の細い谷が下端の折り重なりへ続く。\n左右と上部は明るく、下端に影と青い反射がある。\n背景 白 青 余白 質感 background 紙 折り目 中央の谷 下装飾 左右対称 比較 本文 folded paper comparison",
+  "search_text": "background/comparison-folded-light\n折面の光が広がる白い紙_背景\n折面の光が広がる白い紙\n比較、報告、説明、提案など。\n低く広がる白い折面と青い光で、端正な印象を添える。\n低い折面と青い反射が、下端近くで横に広がる。\n上部と中央は均一な白い面でつながっている。\n背景 白 青 余白 質感 background 紙 折り目 低い折面 下装飾 左右の広がり 比較 本文 folded paper comparison",
   "render": {
     "theme": false,
     "labels": false,
     "data": false
   },
-  "sha256": "b8fa3c701880beccdf422f4eb2b18d6db70bb78deff33a488bc876cb238d5cbe",
-  "size_bytes": 1596284
+  "sha256": "0ec7ca7d94de8ac1f8338ece35c7843c4c2c7cad0aa71de0b62c36de19821b64",
+  "size_bytes": 1434702
 }

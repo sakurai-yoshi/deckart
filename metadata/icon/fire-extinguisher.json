@@ -1,0 +1,49 @@
+{
+  "title": "消火器",
+  "description": "火災への初期対応に用いる消火設備を備える。",
+  "keywords": [
+    "消火器",
+    "防火",
+    "初期消火",
+    "火災",
+    "extinguisher",
+    "fire",
+    "response"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "防災設備や初期対応用の備品を紹介する。",
+    "message": "火災への初期対応に用いる消火設備を備える。",
+    "reading": [
+      "円筒形の本体と上のレバーが消火器を表す。",
+      "側面のホースとノズルが放射する部分を表す。"
+    ]
+  },
+  "category": "07-安全・事業継続",
+  "schema_version": 3,
+  "id": "icon/fire-extinguisher",
+  "name": "消火器_設備と働き",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/fire-extinguisher.svg",
+  "metadata_path": "metadata/icon/fire-extinguisher.json",
+  "preview_path": "assets/icon/fire-extinguisher.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/fire-extinguisher\n消火器_設備と働き\n消火器\n防災設備や初期対応用の備品を紹介する。\n火災への初期対応に用いる消火設備を備える。\n円筒形の本体と上のレバーが消火器を表す。\n側面のホースとノズルが放射する部分を表す。\n消火器 防火 初期消火 火災 extinguisher fire response",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "2904a8dde229eaefe906d002bf368c9d3ff803eeaa0aa0d846de4af63d4fe84b",
+  "size_bytes": 1043
+}

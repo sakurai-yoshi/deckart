@@ -1,7 +1,6 @@
 {
   "title": "共通部品を複数製品に使う",
   "kind": "illustration",
-  "category": "06-業務イラスト",
   "width": 1254,
   "height": 1254,
   "keywords": [
@@ -40,6 +39,7 @@
     "width": 1254,
     "height": 1254
   },
+  "category": "06-開発・技術",
   "schema_version": 3,
   "id": "illustration/shared-components",
   "name": "共通部品を複数製品に使う_メーカー業務の構成",

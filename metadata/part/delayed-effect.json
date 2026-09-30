@@ -1,0 +1,97 @@
+{
+  "title": "実施から効果が現れるまでの時間を示す",
+  "description": "実施直後の状態だけで効果を判断せず、評価する時点を定める。",
+  "keywords": [
+    "遅延",
+    "効果",
+    "時間差",
+    "評価",
+    "時点",
+    "lag",
+    "delayed",
+    "effect",
+    "time"
+  ],
+  "labels": [
+    {
+      "x": 35,
+      "y": 251,
+      "width": 320,
+      "height": 66,
+      "text": "実施した時点",
+      "role": "実施時点",
+      "align": "center",
+      "color": "#153A6B",
+      "font_size": 31,
+      "id": "label-1",
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 9
+    },
+    {
+      "x": 312,
+      "y": 41,
+      "width": 379,
+      "height": 59,
+      "text": "効果が現れるまでの時間",
+      "role": "時間差",
+      "align": "center",
+      "color": "#607590",
+      "font_size": 28,
+      "id": "label-2",
+      "color_role": "muted",
+      "max_lines": 1,
+      "max_fullwidth_chars": 12
+    },
+    {
+      "x": 685,
+      "y": 253,
+      "width": 396,
+      "height": 64,
+      "text": "効果を確かめる時点",
+      "role": "評価時点",
+      "align": "center",
+      "color": "#2864F0",
+      "font_size": 30,
+      "id": "label-3",
+      "color_role": "accent",
+      "max_lines": 1,
+      "max_fullwidth_chars": 12
+    }
+  ],
+  "width": 1120,
+  "height": 380,
+  "kind": "part",
+  "guidance": {
+    "use_case": "教育や設備投資など、成果が表れるまで時間を要する施策を説明する。",
+    "message": "実施直後の状態だけで効果を判断せず、評価する時点を定める。",
+    "reading": [
+      "塗った丸は実施、白抜きの丸は効果を評価する時点。"
+    ]
+  },
+  "category": "02-計画・進捗",
+  "schema_version": 3,
+  "id": "part/delayed-effect",
+  "name": "実施から効果が現れるまでの時間を示す_説明パーツ",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1120,
+    "height": 380
+  },
+  "path": "assets/part/delayed-effect.svg",
+  "metadata_path": "metadata/part/delayed-effect.json",
+  "preview_path": "previews/part/delayed-effect.svg",
+  "preview_has_example_labels": true,
+  "search_text": "part/delayed-effect\n実施から効果が現れるまでの時間を示す_説明パーツ\n実施から効果が現れるまでの時間を示す\n教育や設備投資など、成果が表れるまで時間を要する施策を説明する。\n実施直後の状態だけで効果を判断せず、評価する時点を定める。\n塗った丸は実施、白抜きの丸は効果を評価する時点。\n遅延 効果 時間差 評価 時点 lag delayed effect time",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "dd9e223257e07dfc6a0557b96160bf7de57bb352536e0addc4802a1e8ae972c9",
+  "size_bytes": 1120,
+  "preview_sha256": "1db79329f49b98f5b3a078a9a7a6b4873ae69b08d4219bb4e00bc3a0f20fff90"
+}

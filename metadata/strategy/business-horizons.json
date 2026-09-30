@@ -1,0 +1,148 @@
+{
+  "title": "現在の事業と次の成長へ取り組みを配分する",
+  "description": "既存事業を支えながら、次の成長と新しい可能性を異なる時間軸で育てる。",
+  "keywords": [
+    "事業ポートフォリオ",
+    "成長",
+    "既存",
+    "新規",
+    "探索",
+    "horizon",
+    "portfolio",
+    "growth",
+    "exploration"
+  ],
+  "labels": [
+    {
+      "x": 334,
+      "y": 537,
+      "width": 532,
+      "height": 55,
+      "text": "現在の事業が全体を支える",
+      "role": "現在",
+      "align": "center",
+      "color": "#FFFFFF",
+      "id": "label-1",
+      "font_size": 27,
+      "color_role": "paper",
+      "max_lines": 1,
+      "max_fullwidth_chars": 18
+    },
+    {
+      "x": 161,
+      "y": 421,
+      "width": 290,
+      "height": 58,
+      "text": "既存を強くする",
+      "role": "投資の狙い",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-2",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 10
+    },
+    {
+      "x": 468,
+      "y": 407,
+      "width": 338,
+      "height": 65,
+      "text": "次の成長を育てる",
+      "role": "投資の狙い",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-3",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 11
+    },
+    {
+      "x": 803,
+      "y": 300,
+      "width": 350,
+      "height": 60,
+      "text": "新しい可能性を試す",
+      "role": "投資の狙い",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-4",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 12
+    },
+    {
+      "x": 109,
+      "y": 62,
+      "width": 645,
+      "height": 64,
+      "text": "現在の収益と、将来の成長へ配分する",
+      "role": "説明",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-5",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 22
+    },
+    {
+      "x": 428,
+      "y": 640,
+      "width": 676,
+      "height": 49,
+      "text": "取り組みごとに期待する成果と判断時点を分ける",
+      "role": "説明",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-6",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 23
+    }
+  ],
+  "width": 1200,
+  "height": 720,
+  "kind": "diagram",
+  "guidance": {
+    "use_case": "事業ポートフォリオで短期の収益と将来の探索の役割を整理する。",
+    "message": "既存事業を支えながら、次の成長と新しい可能性を異なる時間軸で育てる。",
+    "reading": [
+      "下の基盤が現在の事業、上の経路が次の成長へ向かう取り組み。",
+      "経路上の三つの点が狙いの異なる活動。",
+      "曲線の高さは売上予測ではなく、取り組む時間軸の広がり。"
+    ]
+  },
+  "layout": {
+    "relation": "current-business-and-future-horizons",
+    "reading_direction": "left-to-right"
+  },
+  "category": "01-経営・意思決定",
+  "schema_version": 3,
+  "id": "strategy/business-horizons",
+  "name": "現在の事業と次の成長へ取り組みを配分する_業務の関係を示す図解",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1200,
+    "height": 720
+  },
+  "path": "assets/strategy/business-horizons.svg",
+  "metadata_path": "metadata/strategy/business-horizons.json",
+  "preview_path": "previews/strategy/business-horizons.svg",
+  "preview_has_example_labels": true,
+  "search_text": "strategy/business-horizons\n現在の事業と次の成長へ取り組みを配分する_業務の関係を示す図解\n現在の事業と次の成長へ取り組みを配分する\n事業ポートフォリオで短期の収益と将来の探索の役割を整理する。\n既存事業を支えながら、次の成長と新しい可能性を異なる時間軸で育てる。\n下の基盤が現在の事業、上の経路が次の成長へ向かう取り組み。\n経路上の三つの点が狙いの異なる活動。\n曲線の高さは売上予測ではなく、取り組む時間軸の広がり。\n事業ポートフォリオ 成長 既存 新規 探索 horizon portfolio growth exploration",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "bfa9ae834dcf5a96a1e1df527371ffe1dd78abaf920b5a6dcdfe58bc5dedb68e",
+  "size_bytes": 1352,
+  "preview_sha256": "d588ed696bd840ded15a1cc8dddc8daa3bac4ed0e1001b644d7759d02cea9373"
+}

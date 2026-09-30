@@ -1,0 +1,50 @@
+{
+  "title": "排出量の測定",
+  "description": "排出の状態を測って記録する。",
+  "keywords": [
+    "排出量",
+    "測定",
+    "排ガス",
+    "環境",
+    "emissions",
+    "measurement",
+    "monitoring",
+    "exhaust"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "排出量の把握や環境データの測定を示す。",
+    "message": "排出の状態を測って記録する。",
+    "reading": [
+      "左の排出口が測定対象を示す。",
+      "接続された表示器が測定結果を表す。"
+    ]
+  },
+  "category": "08-環境・資源",
+  "schema_version": 3,
+  "id": "icon/emissions-measurement",
+  "name": "排出量の測定_設備と働き",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/emissions-measurement.svg",
+  "metadata_path": "metadata/icon/emissions-measurement.json",
+  "preview_path": "assets/icon/emissions-measurement.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/emissions-measurement\n排出量の測定_設備と働き\n排出量の測定\n排出量の把握や環境データの測定を示す。\n排出の状態を測って記録する。\n左の排出口が測定対象を示す。\n接続された表示器が測定結果を表す。\n排出量 測定 排ガス 環境 emissions measurement monitoring exhaust",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "ff51877f2e66ba10b38c45cb07f37cf5d2d810d40d5f385be93d7757df553f27",
+  "size_bytes": 1089
+}

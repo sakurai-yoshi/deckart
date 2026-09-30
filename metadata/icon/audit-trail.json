@@ -1,0 +1,52 @@
+{
+  "title": "操作の証跡",
+  "description": "実施した操作を時系列で追えるように残す。",
+  "keywords": [
+    "証跡",
+    "操作履歴",
+    "監査",
+    "記録",
+    "ログ",
+    "audit",
+    "trail",
+    "activity",
+    "log",
+    "evidence"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "操作や判断を後から追える記録を説明する。",
+    "message": "実施した操作を時系列で追えるように残す。",
+    "reading": [
+      "左の記録票が保存する情報を示す。",
+      "右の連続する節点がたどれる履歴を表す。"
+    ]
+  },
+  "category": "12-情報・データ",
+  "schema_version": 3,
+  "id": "icon/audit-trail",
+  "name": "操作の証跡_仕事と関係",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/audit-trail.svg",
+  "metadata_path": "metadata/icon/audit-trail.json",
+  "preview_path": "assets/icon/audit-trail.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/audit-trail\n操作の証跡_仕事と関係\n操作の証跡\n操作や判断を後から追える記録を説明する。\n実施した操作を時系列で追えるように残す。\n左の記録票が保存する情報を示す。\n右の連続する節点がたどれる履歴を表す。\n証跡 操作履歴 監査 記録 ログ audit trail activity log evidence",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "56e5d2251e0a402050a5703f01fc08562e3fa7ee37361e50d0e9badc0d8feb8a",
+  "size_bytes": 1116
+}

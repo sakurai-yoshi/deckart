@@ -2,7 +2,6 @@
   "title": "手を挙げて質問する",
   "description": "会議や説明の途中で片手を挙げ、発言して確認したい意思を示す。",
   "kind": "illustration",
-  "category": "06-業務イラスト",
   "width": 1254,
   "height": 1254,
   "keywords": [
@@ -41,6 +40,7 @@
     "width": 1254,
     "height": 1254
   },
+  "category": "13-説明・伝達",
   "schema_version": 3,
   "id": "illustration/asking-question",
   "name": "手を挙げて質問する_汎用ビジネスの動作",

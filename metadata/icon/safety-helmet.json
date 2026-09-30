@@ -1,0 +1,51 @@
+{
+  "title": "保護帽",
+  "description": "頭部を保護する用具を使う。",
+  "keywords": [
+    "保護帽",
+    "ヘルメット",
+    "頭部",
+    "保護具",
+    "helmet",
+    "hard",
+    "hat",
+    "head",
+    "protection"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "作業で用いる頭部の保護具を紹介する。",
+    "message": "頭部を保護する用具を使う。",
+    "reading": [
+      "丸い外殻とつばが保護帽を表す。",
+      "中央の隆起が頭を覆う堅い形を強調する。"
+    ]
+  },
+  "category": "07-安全・事業継続",
+  "schema_version": 3,
+  "id": "icon/safety-helmet",
+  "name": "保護帽_設備と働き",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/safety-helmet.svg",
+  "metadata_path": "metadata/icon/safety-helmet.json",
+  "preview_path": "assets/icon/safety-helmet.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/safety-helmet\n保護帽_設備と働き\n保護帽\n作業で用いる頭部の保護具を紹介する。\n頭部を保護する用具を使う。\n丸い外殻とつばが保護帽を表す。\n中央の隆起が頭を覆う堅い形を強調する。\n保護帽 ヘルメット 頭部 保護具 helmet hard hat head protection",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "fcd753ec7f84b7671038e0052b01af518093de50f9b6939f61e38e4c3c9ee6d2",
+  "size_bytes": 1056
+}

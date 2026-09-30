@@ -1,6 +1,5 @@
 {
   "kind": "illustration",
-  "category": "06-業務イラスト",
   "labels": [],
   "preview_path": "previews/illustration/component-sorting.png",
   "composition": {
@@ -42,6 +41,7 @@
     "width": 1254,
     "height": 1254
   },
+  "category": "04-生産・設備",
   "schema_version": 3,
   "id": "illustration/component-sorting",
   "name": "部材を種類別に分ける_物で伝える業務",

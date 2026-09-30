@@ -1,0 +1,150 @@
+{
+  "title": "工程へ入るエネルギーと有効利用・損失を分ける",
+  "description": "対象範囲をそろえ、入るエネルギーが仕事と損失へどう分かれるかを見る。",
+  "keywords": [
+    "省エネ",
+    "エネルギー",
+    "熱損失",
+    "境界",
+    "有効利用",
+    "energy",
+    "balance",
+    "boundary",
+    "useful",
+    "work",
+    "loss"
+  ],
+  "labels": [
+    {
+      "x": 482,
+      "y": 175,
+      "width": 313,
+      "height": 64,
+      "text": "対象とする工程",
+      "role": "対象範囲",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-1",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 10
+    },
+    {
+      "x": 59,
+      "y": 252,
+      "width": 287,
+      "height": 70,
+      "text": "投入するエネルギー",
+      "role": "説明",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-2",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 10
+    },
+    {
+      "x": 910,
+      "y": 180,
+      "width": 237,
+      "height": 68,
+      "text": "仕事に使う分",
+      "role": "説明",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-3",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 8
+    },
+    {
+      "x": 867,
+      "y": 599,
+      "width": 267,
+      "height": 59,
+      "text": "外へ逃げる分",
+      "role": "説明",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-4",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 9
+    },
+    {
+      "x": 470,
+      "y": 330,
+      "width": 334,
+      "height": 73,
+      "text": "変換・加工・移動",
+      "role": "説明",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-5",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 11
+    },
+    {
+      "x": 147,
+      "y": 627,
+      "width": 660,
+      "height": 56,
+      "text": "同じ対象範囲で、投入と有効利用と損失を見る",
+      "role": "説明",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-6",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 23
+    }
+  ],
+  "width": 1200,
+  "height": 720,
+  "kind": "diagram",
+  "guidance": {
+    "use_case": "省エネルギーの検討で、対象範囲とエネルギーの行き先を整理する。",
+    "message": "対象範囲をそろえ、入るエネルギーが仕事と損失へどう分かれるかを見る。",
+    "reading": [
+      "囲みが対象工程、左からが投入。",
+      "右上が仕事に使う分、右下が外へ逃げる分。",
+      "矢印は行き先を示す概念図で、流量の比率を表さない。"
+    ]
+  },
+  "layout": {
+    "relation": "energy-input-use-loss-boundary",
+    "reading_direction": "left-to-right"
+  },
+  "category": "08-環境・資源",
+  "schema_version": 3,
+  "id": "environment/energy-use-boundary",
+  "name": "工程へ入るエネルギーと有効利用・損失を分ける_業務の関係を示す図解",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1200,
+    "height": 720
+  },
+  "path": "assets/environment/energy-use-boundary.svg",
+  "metadata_path": "metadata/environment/energy-use-boundary.json",
+  "preview_path": "previews/environment/energy-use-boundary.svg",
+  "preview_has_example_labels": true,
+  "search_text": "environment/energy-use-boundary\n工程へ入るエネルギーと有効利用・損失を分ける_業務の関係を示す図解\n工程へ入るエネルギーと有効利用・損失を分ける\n省エネルギーの検討で、対象範囲とエネルギーの行き先を整理する。\n対象範囲をそろえ、入るエネルギーが仕事と損失へどう分かれるかを見る。\n囲みが対象工程、左からが投入。\n右上が仕事に使う分、右下が外へ逃げる分。\n矢印は行き先を示す概念図で、流量の比率を表さない。\n省エネ エネルギー 熱損失 境界 有効利用 energy balance boundary useful work loss",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "3a8b14fa5eea001dbcb78051fef9dee7f196ccef9cefbabbc5675daf9c8bdcbe",
+  "size_bytes": 1633,
+  "preview_sha256": "1143812cea861b52db0406d535455786ca55b1ab87b1a243b566f81f4d4a2512"
+}

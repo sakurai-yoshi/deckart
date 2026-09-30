@@ -1,0 +1,51 @@
+{
+  "title": "立入区画",
+  "description": "注意が必要な作業範囲を区切る。",
+  "keywords": [
+    "立入",
+    "区画",
+    "バリケード",
+    "危険",
+    "境界",
+    "barricade",
+    "restricted",
+    "hazard",
+    "zone"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "作業区画や立ち入りを区切る境界を示す。",
+    "message": "注意が必要な作業範囲を区切る。",
+    "reading": [
+      "横棒と二本の支柱が物理的な区切りを表す。",
+      "交互の帯が境界への注意を促す。"
+    ]
+  },
+  "category": "07-安全・事業継続",
+  "schema_version": 3,
+  "id": "icon/hazard-zone",
+  "name": "立入区画_設備と働き",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/hazard-zone.svg",
+  "metadata_path": "metadata/icon/hazard-zone.json",
+  "preview_path": "assets/icon/hazard-zone.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/hazard-zone\n立入区画_設備と働き\n立入区画\n作業区画や立ち入りを区切る境界を示す。\n注意が必要な作業範囲を区切る。\n横棒と二本の支柱が物理的な区切りを表す。\n交互の帯が境界への注意を促す。\n立入 区画 バリケード 危険 境界 barricade restricted hazard zone",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "254ae61a4daf27a21b3473a6fc594ed03b13fc15a639e7bc0e3b16a987a84f7f",
+  "size_bytes": 1161
+}

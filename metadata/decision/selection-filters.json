@@ -1,5 +1,4 @@
 {
-  "category": "02-比較と意思決定",
   "title": "条件を重ねて候補を絞る",
   "description": "必須条件、運用への適合、期待する価値を順に確認し、候補を絞り込む。",
   "keywords": [
@@ -88,6 +87,7 @@
     ]
   },
   "kind": "diagram",
+  "category": "01-経営・意思決定",
   "schema_version": 3,
   "id": "decision/selection-filters",
   "name": "調達選定_判断条件による絞り込み_段階式フィルター",
@@ -110,5 +110,6 @@
     "data": false
   },
   "sha256": "d68c54c3ee991f28997c2a38462ca240236811ccc66f6b9bccda9e6443d9a7ef",
-  "size_bytes": 2927
+  "size_bytes": 2927,
+  "preview_sha256": "bbe3fa883e457b0dae2747ab1722969f062ca7809d1ca5de77eabcaacd20e27a"
 }

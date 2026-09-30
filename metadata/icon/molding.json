@@ -1,0 +1,49 @@
+{
+  "title": "成形",
+  "description": "金型の内側の形を製品に写す。",
+  "keywords": [
+    "成形",
+    "金型",
+    "型",
+    "成型",
+    "molding",
+    "forming",
+    "mold"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "型を用いて材料に形を与える工程を示す。",
+    "message": "金型の内側の形を製品に写す。",
+    "reading": [
+      "左右の型が製品の輪郭を囲む。",
+      "中央の青い材料が型に沿って成形される。"
+    ]
+  },
+  "category": "04-生産・設備",
+  "schema_version": 3,
+  "id": "icon/molding",
+  "name": "成形_工程と対象",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/molding.svg",
+  "metadata_path": "metadata/icon/molding.json",
+  "preview_path": "assets/icon/molding.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/molding\n成形_工程と対象\n成形\n型を用いて材料に形を与える工程を示す。\n金型の内側の形を製品に写す。\n左右の型が製品の輪郭を囲む。\n中央の青い材料が型に沿って成形される。\n成形 金型 型 成型 molding forming mold",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "a0f3a65cbab64b766dffc1ea1b913302d9a29dcfe276d5ccfea75687bd3cf345",
+  "size_bytes": 1374
+}

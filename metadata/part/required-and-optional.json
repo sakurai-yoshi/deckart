@@ -1,0 +1,111 @@
+{
+  "title": "必須条件と選べる追加を分ける",
+  "description": "成立に必要な条件を押さえたうえで、追加する要素を選ぶ。",
+  "keywords": [
+    "必須",
+    "任意",
+    "要件",
+    "選択",
+    "オプション",
+    "required",
+    "optional",
+    "mandatory"
+  ],
+  "labels": [
+    {
+      "x": 114,
+      "y": 67,
+      "width": 369,
+      "height": 66,
+      "text": "必ず満たす条件",
+      "role": "必須",
+      "align": "left",
+      "color": "#153A6B",
+      "font_size": 31,
+      "id": "label-1",
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 11
+    },
+    {
+      "x": 60,
+      "y": 177,
+      "width": 419,
+      "height": 83,
+      "text": "目的の成立に必要",
+      "role": "必須の理由",
+      "align": "left",
+      "color": "#153A6B",
+      "font_size": 32,
+      "id": "label-2",
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 12
+    },
+    {
+      "x": 720,
+      "y": 67,
+      "width": 341,
+      "height": 66,
+      "text": "状況に応じて選ぶ",
+      "role": "任意",
+      "align": "left",
+      "color": "#607590",
+      "font_size": 29,
+      "id": "label-3",
+      "color_role": "muted",
+      "max_lines": 1,
+      "max_fullwidth_chars": 11
+    },
+    {
+      "x": 662,
+      "y": 177,
+      "width": 398,
+      "height": 83,
+      "text": "効果に応じて加える",
+      "role": "追加の扱い",
+      "align": "left",
+      "color": "#153A6B",
+      "font_size": 30,
+      "id": "label-4",
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 12
+    }
+  ],
+  "width": 1120,
+  "height": 380,
+  "kind": "part",
+  "guidance": {
+    "use_case": "提案や要件で、必須の条件と選択できる追加事項を区別する。",
+    "message": "成立に必要な条件を押さえたうえで、追加する要素を選ぶ。",
+    "reading": [
+      "実線とチェックが必須、破線と空の丸が選択できる追加。"
+    ]
+  },
+  "category": "13-説明・伝達",
+  "schema_version": 3,
+  "id": "part/required-and-optional",
+  "name": "必須条件と選べる追加を分ける_説明パーツ",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1120,
+    "height": 380
+  },
+  "path": "assets/part/required-and-optional.svg",
+  "metadata_path": "metadata/part/required-and-optional.json",
+  "preview_path": "previews/part/required-and-optional.svg",
+  "preview_has_example_labels": true,
+  "search_text": "part/required-and-optional\n必須条件と選べる追加を分ける_説明パーツ\n必須条件と選べる追加を分ける\n提案や要件で、必須の条件と選択できる追加事項を区別する。\n成立に必要な条件を押さえたうえで、追加する要素を選ぶ。\n実線とチェックが必須、破線と空の丸が選択できる追加。\n必須 任意 要件 選択 オプション required optional mandatory",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "be19b0777ba4cb9b4a42294b2fda3f6f774af000244542a0e8a2f61d1662a62e",
+  "size_bytes": 1142,
+  "preview_sha256": "1c4857c25cd98c363c299d0be769ccb53c7f3ded0b5ce488e0f79dcf11872641"
+}

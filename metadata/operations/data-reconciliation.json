@@ -1,5 +1,4 @@
 {
-  "category": "01-業務プロセス",
   "title": "転記元と転記先の対応を照合する",
   "description": "同じ項目を左右で対応づけ、一致した項目と修正が必要な項目を分ける。",
   "keywords": [
@@ -109,6 +108,7 @@
     "relation": "pairwise-reconciliation-with-correction",
     "reading_direction": "left-to-right"
   },
+  "category": "12-情報・データ",
   "schema_version": 3,
   "id": "operations/data-reconciliation",
   "name": "移行検証_転記元と転記先の対応を照合する_不一致の検出と修正",
@@ -131,5 +131,6 @@
     "data": false
   },
   "sha256": "27651475db33554b988ad85b47c7ba565c71da29c73366426aa70c9292e2ad2d",
-  "size_bytes": 5409
+  "size_bytes": 5409,
+  "preview_sha256": "da20d664c175bc53859b71f4e43a470d5c95159968eee9b5a6ef6fe187d9e9b7"
 }

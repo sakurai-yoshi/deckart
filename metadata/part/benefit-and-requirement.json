@@ -1,5 +1,4 @@
 {
-  "category": "07-注釈と見出し",
   "title": "利点と必要な負担を並べる",
   "description": "得られる価値と必要になる対応を並べ、共通の判断へまとめる部品。",
   "keywords": [
@@ -100,6 +99,7 @@
       "下の共通欄が両者を踏まえた判断を受け持つ。"
     ]
   },
+  "category": "13-説明・伝達",
   "schema_version": 3,
   "id": "part/benefit-and-requirement",
   "name": "利点と必要な負担を並べる_説明パーツ",
@@ -122,5 +122,6 @@
     "data": false
   },
   "sha256": "5e99aa30fc5a718c3ece24466e78b02093419fcb7dbfeaa31417cf89ac9861fd",
-  "size_bytes": 865
+  "size_bytes": 865,
+  "preview_sha256": "b29c6a4a8086072713e66d86815ff7b43754fc239f686dd4f9b74974e470de1d"
 }

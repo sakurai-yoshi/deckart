@@ -1,5 +1,4 @@
 {
-  "category": "07-注釈と見出し",
   "title": "着手前に必要な条件を示す",
   "description": "先行作業と後続作業を一つの停止線で分ける依存条件の部品。",
   "keywords": [
@@ -100,6 +99,7 @@
       "中央の太い境界が着手条件を示す。"
     ]
   },
+  "category": "02-計画・進捗",
   "schema_version": 3,
   "id": "part/dependency-condition",
   "name": "着手前に必要な条件を示す_説明パーツ",
@@ -122,5 +122,6 @@
     "data": false
   },
   "sha256": "371724e42c8ccbc45d760c496ea9597033f2f5ce044ef00b184a58f7b2ba926e",
-  "size_bytes": 1429
+  "size_bytes": 1429,
+  "preview_sha256": "8908cd414e0296c25dc2641b0ebb9f3cf68784684e953a26712e25a0cc423e10"
 }

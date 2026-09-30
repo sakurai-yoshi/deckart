@@ -1,0 +1,50 @@
+{
+  "title": "高さ調整作業台",
+  "description": "身体や仕事に合わせて作業高さを調整する。",
+  "keywords": [
+    "作業台",
+    "高さ",
+    "調整",
+    "姿勢",
+    "人間工学",
+    "adjustable",
+    "workbench",
+    "ergonomics"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "作業者や工程に合わせて作業面の高さを整える設備を示す。",
+    "message": "身体や仕事に合わせて作業高さを調整する。",
+    "reading": [
+      "広い天板が作業面を表す。",
+      "脚の横の上下方向が高さ調整を示す。"
+    ]
+  },
+  "category": "04-生産・設備",
+  "schema_version": 3,
+  "id": "icon/adjustable-workbench",
+  "name": "高さ調整作業台_工程と対象",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/adjustable-workbench.svg",
+  "metadata_path": "metadata/icon/adjustable-workbench.json",
+  "preview_path": "assets/icon/adjustable-workbench.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/adjustable-workbench\n高さ調整作業台_工程と対象\n高さ調整作業台\n作業者や工程に合わせて作業面の高さを整える設備を示す。\n身体や仕事に合わせて作業高さを調整する。\n広い天板が作業面を表す。\n脚の横の上下方向が高さ調整を示す。\n作業台 高さ 調整 姿勢 人間工学 adjustable workbench ergonomics",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "849a11fc1ccd1cbaa648a28fd85085a3e19e33ee31842c4b533db608f790b44f",
+  "size_bytes": 1390
+}

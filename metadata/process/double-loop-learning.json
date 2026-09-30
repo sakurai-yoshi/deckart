@@ -1,5 +1,4 @@
 {
-  "category": "01-業務プロセス",
   "title": "実行の改善と前提の見直し",
   "description": "結果から手順を直す学習と、方針そのものを見直す学習を分けて示す。",
   "keywords": [
@@ -106,6 +105,7 @@
     ]
   },
   "kind": "diagram",
+  "category": "03-品質・改善",
   "schema_version": 3,
   "id": "process/double-loop-learning",
   "name": "組織学習_実行改善と前提見直しを分ける_二重のフィードバック",
@@ -128,5 +128,6 @@
     "data": false
   },
   "sha256": "0b35ce105ec5c660e8cf1311a3b4f3a49ada8f1645cd58ca7a84aad30a8c49f2",
-  "size_bytes": 3126
+  "size_bytes": 3126,
+  "preview_sha256": "4991f01fad5dc247c3ae5287fd400926233a0c153bb7981c6cac516b262d045d"
 }

@@ -1,0 +1,57 @@
+{
+  "title": "作業面を整えて清潔に保つ",
+  "description": "スプレーボトルを脇に置き、布で作業台の表面を拭く人。",
+  "kind": "illustration",
+  "width": 1536,
+  "height": 1024,
+  "labels": [],
+  "composition": {
+    "framing": "waist-up",
+    "facing": "down",
+    "people_count": 1
+  },
+  "keywords": [
+    "清掃",
+    "作業台",
+    "衛生",
+    "5S",
+    "cleaning",
+    "work surface"
+  ],
+  "guidance": {
+    "use_case": "作業準備や日常の清掃を説明し、次に使う作業面を拭いて整える場面。",
+    "message": "作業面を拭き、次の仕事に備える。",
+    "reading": [
+      "作業者が布を作業台へ当て、片手で表面を拭いている。",
+      "脇のスプレーボトルが、拭き掃除に使う道具を示す。"
+    ]
+  },
+  "preview_path": "previews/illustration/clean-work-surface.png",
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/enterprise-illustrations.json"
+  },
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": true,
+  "canvas": {
+    "width": 1536,
+    "height": 1024
+  },
+  "category": "04-生産・設備",
+  "schema_version": 3,
+  "id": "illustration/clean-work-surface",
+  "name": "作業面を整えて清潔に保つ_業務イラスト",
+  "license": "CC0-1.0",
+  "path": "media/illustration/clean-work-surface.png",
+  "metadata_path": "metadata/illustration/clean-work-surface.json",
+  "preview_has_example_labels": false,
+  "search_text": "illustration/clean-work-surface\n作業面を整えて清潔に保つ_業務イラスト\n作業面を整えて清潔に保つ\n作業準備や日常の清掃を説明し、次に使う作業面を拭いて整える場面。\n作業面を拭き、次の仕事に備える。\n作業者が布を作業台へ当て、片手で表面を拭いている。\n脇のスプレーボトルが、拭き掃除に使う道具を示す。\n清掃 作業台 衛生 5S cleaning work surface\nwaist-up 上半身 腰上 down 下向き 手元を見る",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "1a50e66fc500f1bdbfe280abfac62114ad334914e6aea57f67c5eab1a4780d32",
+  "size_bytes": 1225866
+}

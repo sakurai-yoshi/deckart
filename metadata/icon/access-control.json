@@ -1,5 +1,4 @@
 {
-  "category": "08-アイコンとピクトグラム",
   "title": "アクセス権限",
   "description": "利用者ごとに許可する操作と制限する操作を分ける。",
   "keywords": [
@@ -26,6 +25,7 @@
       "チェックと交差線が許可と制限を表す。"
     ]
   },
+  "category": "12-情報・データ",
   "schema_version": 3,
   "id": "icon/access-control",
   "name": "権限管理_できる操作を分ける_利用者と許可",

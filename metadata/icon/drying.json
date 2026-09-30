@@ -1,0 +1,49 @@
+{
+  "title": "乾燥",
+  "description": "水分を外へ逃がして乾かす。",
+  "keywords": [
+    "乾燥",
+    "水分",
+    "除去",
+    "蒸発",
+    "drying",
+    "evaporation",
+    "moisture"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "製品や材料から水分を取り除く工程を示す。",
+    "message": "水分を外へ逃がして乾かす。",
+    "reading": [
+      "下の枠が乾燥する材料を表す。",
+      "上へ抜ける三本の曲線が水分の放出を表す。"
+    ]
+  },
+  "category": "04-生産・設備",
+  "schema_version": 3,
+  "id": "icon/drying",
+  "name": "乾燥_工程と対象",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/drying.svg",
+  "metadata_path": "metadata/icon/drying.json",
+  "preview_path": "assets/icon/drying.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/drying\n乾燥_工程と対象\n乾燥\n製品や材料から水分を取り除く工程を示す。\n水分を外へ逃がして乾かす。\n下の枠が乾燥する材料を表す。\n上へ抜ける三本の曲線が水分の放出を表す。\n乾燥 水分 除去 蒸発 drying evaporation moisture",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "a6e724596bea98692b22a5da151f141825b7a4ec986c51e4b797700353dd9a02",
+  "size_bytes": 1056
+}

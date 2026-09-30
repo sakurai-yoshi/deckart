@@ -1,7 +1,6 @@
 {
   "title": "工具を定位置へ収める",
   "kind": "illustration",
-  "category": "06-業務イラスト",
   "width": 1254,
   "height": 1254,
   "keywords": [
@@ -41,6 +40,7 @@
     "width": 1254,
     "height": 1254
   },
+  "category": "04-生産・設備",
   "schema_version": 3,
   "id": "illustration/organized-tool-storage",
   "name": "工具を定位置へ収める_メーカー業務の構成",

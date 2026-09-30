@@ -1,5 +1,4 @@
 {
-  "category": "09-循環とフレームワーク",
   "title": "受付から報告まで一貫して届ける",
   "description": "依頼の受付から要件確認・提案・実施・報告までを一続きで示す。",
   "keywords": [
@@ -108,6 +107,7 @@
     "relation": "five-step-sequence",
     "reading_direction": "left-to-right"
   },
+  "category": "10-顧客・営業",
   "schema_version": 3,
   "id": "framework/service-delivery",
   "name": "業務提供_受付から報告まで一貫して届ける_5工程サービス",
@@ -130,5 +130,6 @@
     "data": false
   },
   "sha256": "65e657ebb7cf73577c51237698ed9323831d006cf49cf5d94d063788fec85298",
-  "size_bytes": 7463
+  "size_bytes": 7463,
+  "preview_sha256": "b7fbfd386f5b3907cfddbaa37b64953c994022090fff18ae2f870b79341b85d9"
 }

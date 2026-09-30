@@ -1,0 +1,51 @@
+{
+  "title": "顧客の声",
+  "description": "利用者の経験や要望を受け取る。",
+  "keywords": [
+    "顧客の声",
+    "フィードバック",
+    "VOC",
+    "感想",
+    "要望",
+    "customer",
+    "feedback",
+    "voice",
+    "opinions"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "顧客から寄せられた意見や感想を紹介する。",
+    "message": "利用者の経験や要望を受け取る。",
+    "reading": [
+      "発言欄の表情が体験への感想を表す。",
+      "短い文章線が具体的な要望を表す。"
+    ]
+  },
+  "category": "10-顧客・営業",
+  "schema_version": 3,
+  "id": "icon/customer-feedback",
+  "name": "顧客の声_仕事と関係",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/customer-feedback.svg",
+  "metadata_path": "metadata/icon/customer-feedback.json",
+  "preview_path": "assets/icon/customer-feedback.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/customer-feedback\n顧客の声_仕事と関係\n顧客の声\n顧客から寄せられた意見や感想を紹介する。\n利用者の経験や要望を受け取る。\n発言欄の表情が体験への感想を表す。\n短い文章線が具体的な要望を表す。\n顧客の声 フィードバック VOC 感想 要望 customer feedback voice opinions",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "cdb5cf4af2f9d3b455e87711570b809ca69274d7c9d929da1c57c5f7924c29f5",
+  "size_bytes": 949
+}

@@ -1,5 +1,4 @@
 {
-  "category": "02-比較と意思決定",
   "title": "発生と影響から対応を決める",
   "description": "発生しやすさと影響の大きさでリスクを配置し、監視・計画・重点対策を分ける。",
   "keywords": [
@@ -105,6 +104,7 @@
       "右上の注意記号は、重点的な低減が必要な領域。"
     ]
   },
+  "category": "07-安全・事業継続",
   "schema_version": 3,
   "id": "planning/risk-response-matrix",
   "name": "リスク対応_発生しやすさと影響を見分ける_三段階の対応領域",
@@ -127,5 +127,6 @@
     "data": false
   },
   "sha256": "68f1e23cad7acd98effe16e888292555e00f6aca18ddcbd615f9be99f47d17c3",
-  "size_bytes": 2629
+  "size_bytes": 2629,
+  "preview_sha256": "ab9a016a73458e7a5706343c3fcc397558ce8b032bd309da05673abb43f851b9"
 }

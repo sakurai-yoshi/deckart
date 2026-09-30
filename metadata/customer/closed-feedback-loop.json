@@ -1,0 +1,134 @@
+{
+  "title": "顧客の声を改善し、結果まで確かめる",
+  "description": "受け取った声を整理して改善し、顧客の困りごとが解消したか確かめる。",
+  "keywords": [
+    "顧客の声",
+    "VOC",
+    "フィードバック",
+    "改善",
+    "満足",
+    "customer",
+    "feedback",
+    "closed",
+    "loop",
+    "improvement"
+  ],
+  "labels": [
+    {
+      "x": 81,
+      "y": 267,
+      "width": 215,
+      "height": 127,
+      "text": "顧客の声",
+      "role": "対象",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-1",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 3,
+      "max_fullwidth_chars": 7
+    },
+    {
+      "x": 492,
+      "y": 160,
+      "width": 232,
+      "height": 99,
+      "text": "原因と背景を整理",
+      "role": "対象",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-2",
+      "font_size": 26.68,
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 8
+    },
+    {
+      "x": 894,
+      "y": 267,
+      "width": 223,
+      "height": 127,
+      "text": "改善して届ける",
+      "role": "対象",
+      "align": "center",
+      "color": "#FFFFFF",
+      "id": "label-3",
+      "font_size": 27,
+      "color_role": "paper",
+      "max_lines": 3,
+      "max_fullwidth_chars": 7
+    },
+    {
+      "x": 457,
+      "y": 533,
+      "width": 306,
+      "height": 73,
+      "text": "顧客の結果を確かめる",
+      "role": "対象",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-4",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 10
+    },
+    {
+      "x": 345,
+      "y": 50,
+      "width": 514,
+      "height": 61,
+      "text": "集めて終わらず、改善後の結果まで返す",
+      "role": "説明",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-5",
+      "font_size": 26.271,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 18
+    }
+  ],
+  "width": 1200,
+  "height": 720,
+  "kind": "diagram",
+  "guidance": {
+    "use_case": "顧客フィードバックを商品や業務の改善へつなぐ運用を説明する。",
+    "message": "受け取った声を整理して改善し、顧客の困りごとが解消したか確かめる。",
+    "reading": [
+      "上の経路が顧客の声から改善まで。",
+      "下の戻り線が改善後の顧客の結果確認。",
+      "結果確認によって次の声や課題を更新する。"
+    ]
+  },
+  "layout": {
+    "relation": "customer-feedback-result-loop",
+    "reading_direction": "left-to-right"
+  },
+  "category": "10-顧客・営業",
+  "schema_version": 3,
+  "id": "customer/closed-feedback-loop",
+  "name": "顧客の声を改善し、結果まで確かめる_業務の関係を示す図解",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1200,
+    "height": 720
+  },
+  "path": "assets/customer/closed-feedback-loop.svg",
+  "metadata_path": "metadata/customer/closed-feedback-loop.json",
+  "preview_path": "previews/customer/closed-feedback-loop.svg",
+  "preview_has_example_labels": true,
+  "search_text": "customer/closed-feedback-loop\n顧客の声を改善し、結果まで確かめる_業務の関係を示す図解\n顧客の声を改善し、結果まで確かめる\n顧客フィードバックを商品や業務の改善へつなぐ運用を説明する。\n受け取った声を整理して改善し、顧客の困りごとが解消したか確かめる。\n上の経路が顧客の声から改善まで。\n下の戻り線が改善後の顧客の結果確認。\n結果確認によって次の声や課題を更新する。\n顧客の声 VOC フィードバック 改善 満足 customer feedback closed loop improvement",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "fb86e7ef172c7fb9df6fa365ed6c205dfdfe59ffff189cfd46c42a3e76c997b8",
+  "size_bytes": 1903,
+  "preview_sha256": "bb507927f4dc1e87759e2784172daa183944ea183c846da43d190d6dcc57d646"
+}

@@ -1,0 +1,56 @@
+{
+  "title": "確認済みの版を配布できる状態にする",
+  "description": "版を示すタブと確認印のある書類にスタンプを添え、確認済み資料の発行を表す。",
+  "kind": "illustration",
+  "width": 1536,
+  "height": 1024,
+  "labels": [],
+  "composition": {
+    "framing": "object",
+    "facing": "front"
+  },
+  "keywords": [
+    "版管理",
+    "確定",
+    "発行",
+    "承認",
+    "release",
+    "revision"
+  ],
+  "guidance": {
+    "use_case": "資料や手順書を改訂した後に、確認済みの版を発行・共有する流れを説明する場面。",
+    "message": "確認した版を明らかにし、配布できる状態へ整える。",
+    "reading": [
+      "まとめた書類の表紙に青い確認印があり、上端には版を区別するタブが付いている。",
+      "隣のスタンプが、書類に確認の印を付ける行為を示す。"
+    ]
+  },
+  "preview_path": "previews/illustration/revision-release.png",
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/enterprise-illustrations.json"
+  },
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": true,
+  "canvas": {
+    "width": 1536,
+    "height": 1024
+  },
+  "category": "12-情報・データ",
+  "schema_version": 3,
+  "id": "illustration/revision-release",
+  "name": "確認済みの版を配布できる状態にする_業務イラスト",
+  "license": "CC0-1.0",
+  "path": "media/illustration/revision-release.png",
+  "metadata_path": "metadata/illustration/revision-release.json",
+  "preview_has_example_labels": false,
+  "search_text": "illustration/revision-release\n確認済みの版を配布できる状態にする_業務イラスト\n確認済みの版を配布できる状態にする\n資料や手順書を改訂した後に、確認済みの版を発行・共有する流れを説明する場面。\n確認した版を明らかにし、配布できる状態へ整える。\nまとめた書類の表紙に青い確認印があり、上端には版を区別するタブが付いている。\n隣のスタンプが、書類に確認の印を付ける行為を示す。\n版管理 確定 発行 承認 release revision\nobject 物 道具 front 正面",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "3f7011b947708ecd8b5139aa630232c0a56265e8c04bd34736c3b3b206c1b3d0",
+  "size_bytes": 1325868
+}

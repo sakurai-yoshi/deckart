@@ -1,0 +1,49 @@
+{
+  "title": "後継者育成",
+  "description": "現在の役割を次の担い手へつなぐ。",
+  "keywords": [
+    "後継者",
+    "後継",
+    "育成",
+    "事業承継",
+    "succession",
+    "continuity",
+    "leadership"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "役割を次の担当へ引き継ぐための育成を示す。",
+    "message": "現在の役割を次の担い手へつなぐ。",
+    "reading": [
+      "二つの椅子が現在と次の担当者の役割を表す。",
+      "一方から次の席へ向く経路が役割を受け継ぐことを示す。"
+    ]
+  },
+  "category": "01-経営・意思決定",
+  "schema_version": 3,
+  "id": "icon/succession-planning",
+  "name": "後継者育成_仕事と関係",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/succession-planning.svg",
+  "metadata_path": "metadata/icon/succession-planning.json",
+  "preview_path": "assets/icon/succession-planning.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/succession-planning\n後継者育成_仕事と関係\n後継者育成\n役割を次の担当へ引き継ぐための育成を示す。\n現在の役割を次の担い手へつなぐ。\n二つの椅子が現在と次の担当者の役割を表す。\n一方から次の席へ向く経路が役割を受け継ぐことを示す。\n後継者 後継 育成 事業承継 succession continuity leadership",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "216e20bfff01daa9ed4953d858ee8b360ea729bd368bcf58afcc138f0f1c7366",
+  "size_bytes": 1112
+}

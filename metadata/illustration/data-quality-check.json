@@ -1,0 +1,56 @@
+{
+  "title": "記録の抜けや違いを確かめる",
+  "description": "紙の元資料と端末の表を並べ、入力の抜けを確認する構成。",
+  "kind": "illustration",
+  "width": 1536,
+  "height": 1024,
+  "labels": [],
+  "composition": {
+    "framing": "object",
+    "facing": "front"
+  },
+  "keywords": [
+    "データ品質",
+    "欠損",
+    "記録",
+    "チェック",
+    "data quality",
+    "completeness"
+  ],
+  "guidance": {
+    "use_case": "集計や分析の前に、入力済みの記録と元資料を照らして抜けを確認する場面。",
+    "message": "元の記録と比べ、データの抜けに気付く。",
+    "reading": [
+      "紙の表と端末の表に対応する行・列が並んでいる。",
+      "端末側の一つの空欄を青い枠で囲み、確認が必要な箇所を示す。"
+    ]
+  },
+  "preview_path": "previews/illustration/data-quality-check.png",
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/enterprise-illustrations.json"
+  },
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": true,
+  "canvas": {
+    "width": 1536,
+    "height": 1024
+  },
+  "category": "12-情報・データ",
+  "schema_version": 3,
+  "id": "illustration/data-quality-check",
+  "name": "記録の抜けや違いを確かめる_業務イラスト",
+  "license": "CC0-1.0",
+  "path": "media/illustration/data-quality-check.png",
+  "metadata_path": "metadata/illustration/data-quality-check.json",
+  "preview_has_example_labels": false,
+  "search_text": "illustration/data-quality-check\n記録の抜けや違いを確かめる_業務イラスト\n記録の抜けや違いを確かめる\n集計や分析の前に、入力済みの記録と元資料を照らして抜けを確認する場面。\n元の記録と比べ、データの抜けに気付く。\n紙の表と端末の表に対応する行・列が並んでいる。\n端末側の一つの空欄を青い枠で囲み、確認が必要な箇所を示す。\nデータ品質 欠損 記録 チェック data quality completeness\nobject 物 道具 front 正面",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "3d357f195365ceadf7240bc5621b167b8fc7c03ee81ce37e80e979badd5621c3",
+  "size_bytes": 1187141
+}

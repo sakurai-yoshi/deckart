@@ -1,5 +1,4 @@
 {
-  "category": "08-アイコンとピクトグラム",
   "title": "採用",
   "description": "新しい人材を組織に迎えることを示す。",
   "keywords": [
@@ -24,6 +23,7 @@
       "右の加号が新たに加わることを表す。"
     ]
   },
+  "category": "09-組織・人材",
   "schema_version": 3,
   "id": "icon/recruitment",
   "name": "採用活動_新たな人材を迎える_人物と追加",

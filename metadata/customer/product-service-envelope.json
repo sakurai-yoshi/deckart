@@ -1,0 +1,119 @@
+{
+  "title": "製品の周りに使い続ける支援を設計する",
+  "description": "製品の機能を中心に、顧客が成果を得るまでの支援を重ねる。",
+  "keywords": [
+    "サービス化",
+    "導入支援",
+    "保守",
+    "顧客体験",
+    "製品",
+    "servitization",
+    "product",
+    "service",
+    "customer",
+    "success"
+  ],
+  "labels": [
+    {
+      "x": 435,
+      "y": 329,
+      "width": 331,
+      "height": 64,
+      "text": "製品が果たす機能",
+      "role": "製品",
+      "align": "center",
+      "color": "#FFFFFF",
+      "id": "label-1",
+      "font_size": 27,
+      "color_role": "paper",
+      "max_lines": 1,
+      "max_fullwidth_chars": 11
+    },
+    {
+      "x": 304,
+      "y": 236,
+      "width": 595,
+      "height": 57,
+      "text": "導入・運用・保全を支えるサービス",
+      "role": "支援",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-2",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 20
+    },
+    {
+      "x": 194,
+      "y": 129,
+      "width": 813,
+      "height": 61,
+      "text": "顧客が使い続けて成果を得る体験",
+      "role": "顧客の成果",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-3",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 28
+    },
+    {
+      "x": 213,
+      "y": 542,
+      "width": 774,
+      "height": 59,
+      "text": "機能だけでなく、使い始めと使い続ける間も設計",
+      "role": "説明",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-4",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 27
+    }
+  ],
+  "width": 1200,
+  "height": 720,
+  "kind": "diagram",
+  "guidance": {
+    "use_case": "製品販売に導入支援・保守・運用支援を組み合わせる価値を説明する。",
+    "message": "製品の機能を中心に、顧客が成果を得るまでの支援を重ねる。",
+    "reading": [
+      "中央が製品の機能、その周りがサービス。",
+      "一番外側が顧客が成果を得る体験全体。",
+      "入れ子は提供範囲の広がりで、金額の内訳ではない。"
+    ]
+  },
+  "layout": {
+    "relation": "product-service-outcome-envelope",
+    "reading_direction": "left-to-right"
+  },
+  "category": "10-顧客・営業",
+  "schema_version": 3,
+  "id": "customer/product-service-envelope",
+  "name": "製品の周りに使い続ける支援を設計する_業務の関係を示す図解",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1200,
+    "height": 720
+  },
+  "path": "assets/customer/product-service-envelope.svg",
+  "metadata_path": "metadata/customer/product-service-envelope.json",
+  "preview_path": "previews/customer/product-service-envelope.svg",
+  "preview_has_example_labels": true,
+  "search_text": "customer/product-service-envelope\n製品の周りに使い続ける支援を設計する_業務の関係を示す図解\n製品の周りに使い続ける支援を設計する\n製品販売に導入支援・保守・運用支援を組み合わせる価値を説明する。\n製品の機能を中心に、顧客が成果を得るまでの支援を重ねる。\n中央が製品の機能、その周りがサービス。\n一番外側が顧客が成果を得る体験全体。\n入れ子は提供範囲の広がりで、金額の内訳ではない。\nサービス化 導入支援 保守 顧客体験 製品 servitization product service customer success",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "07f63a3445f14e746b94d543be217cc4a5e369a901c0a5de95fd8a399137d20b",
+  "size_bytes": 1515,
+  "preview_sha256": "9c561fa5f293af302820495f2615f6b0c84a86379ac7cd4aa53100e8633a7c45"
+}

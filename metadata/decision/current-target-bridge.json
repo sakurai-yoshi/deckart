@@ -1,5 +1,4 @@
 {
-  "category": "02-比較と意思決定",
   "title": "三つの施策で目標へ近づく",
   "description": "現在と目指す状態をつなぐ三つの施策を、橋渡しする段階として示す。",
   "keywords": [
@@ -119,6 +118,7 @@
     ]
   },
   "kind": "diagram",
+  "category": "01-経営・意思決定",
   "schema_version": 3,
   "id": "decision/current-target-bridge",
   "name": "変革計画_現状と目標の差を埋める_三つの橋渡し",
@@ -141,5 +141,6 @@
     "data": false
   },
   "sha256": "7aa28dd16db53fb248bc967df7cbec5647fd6ba079c81cd6d67ba3fa67dbc4fb",
-  "size_bytes": 1978
+  "size_bytes": 1978,
+  "preview_sha256": "9735b80c312b6907160922ab9f888680e30ccb9797bc2353dc3853b2b360c78e"
 }

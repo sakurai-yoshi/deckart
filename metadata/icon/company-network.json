@@ -1,53 +1,51 @@
 {
-  "category": "08-アイコンとピクトグラム",
   "title": "本社と拠点",
-  "description": "本社と複数拠点のつながりや事業ネットワークを表す。",
+  "description": "複数の拠点を一つのネットワークで結ぶ。",
   "keywords": [
-    "企業",
     "本社",
     "支社",
     "拠点",
-    "グループ会社",
+    "事業所",
     "組織",
-    "拠点網",
-    "enterprise",
-    "company",
-    "network",
-    "headquarters"
+    "headquarters",
+    "branch",
+    "sites",
+    "network"
   ],
   "labels": [],
-  "width": 360,
-  "height": 300,
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
   "guidance": {
-    "use_case": "本社・支社や複数拠点の連携を紹介する場面。",
-    "message": "拠点ごとの仕事を、ひとつのネットワークで結ぶ。",
+    "use_case": "本社と支社、複数の事業拠点の関係を説明する。",
+    "message": "複数の拠点を一つのネットワークで結ぶ。",
     "reading": [
-      "大きな建物が中核拠点、小さな建物が各拠点を表す。",
-      "地面の接続線が拠点間のつながりを表す。"
+      "中央上の大きな建物が本社を示す。",
+      "下の二つの拠点へ接続線が分かれる。"
     ]
   },
-  "kind": "icon",
+  "category": "01-経営・意思決定",
   "schema_version": 3,
   "id": "icon/company-network",
-  "name": "企業紹介_拠点ネットワーク_本社と支社",
+  "name": "本社と拠点_業務の象徴",
   "license": "CC0-1.0",
   "format": "svg",
   "mime_type": "image/svg+xml",
   "transparent": null,
   "canvas": {
-    "width": 360,
-    "height": 300
+    "width": 160,
+    "height": 160
   },
   "path": "assets/icon/company-network.svg",
   "metadata_path": "metadata/icon/company-network.json",
   "preview_path": "assets/icon/company-network.svg",
   "preview_has_example_labels": false,
-  "search_text": "icon/company-network\n企業紹介_拠点ネットワーク_本社と支社\n本社と拠点\n本社・支社や複数拠点の連携を紹介する場面。\n拠点ごとの仕事を、ひとつのネットワークで結ぶ。\n大きな建物が中核拠点、小さな建物が各拠点を表す。\n地面の接続線が拠点間のつながりを表す。\n企業 本社 支社 拠点 グループ会社 組織 拠点網 enterprise company network headquarters",
+  "search_text": "icon/company-network\n本社と拠点_業務の象徴\n本社と拠点\n本社と支社、複数の事業拠点の関係を説明する。\n複数の拠点を一つのネットワークで結ぶ。\n中央上の大きな建物が本社を示す。\n下の二つの拠点へ接続線が分かれる。\n本社 支社 拠点 事業所 組織 headquarters branch sites network",
   "render": {
     "theme": true,
     "labels": false,
     "data": false
   },
-  "sha256": "1693efd81da1bb2b3203cc8632b0c05ed464bc6f3fa7410fd140e597b4874bef",
-  "size_bytes": 6728
+  "sha256": "60d3524174d09715efe2fd4a347af7be0496adf74ba667ff1d6dc0da70701bd9",
+  "size_bytes": 1301
 }

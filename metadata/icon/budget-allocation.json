@@ -1,53 +1,51 @@
 {
-  "category": "08-アイコンとピクトグラム",
   "title": "用途に応じた資金配分",
-  "description": "ひとつの予算を複数の用途へ配分する考え方を示す。",
+  "description": "共通の資金を目的に応じて配分する。",
   "keywords": [
     "予算",
     "配分",
-    "投資",
     "資金",
-    "費用",
-    "コスト",
-    "予算管理",
+    "用途",
+    "投資",
     "budget",
     "allocation",
     "funding",
-    "investment"
+    "distribution"
   ],
   "labels": [],
-  "width": 350,
-  "height": 290,
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
   "guidance": {
-    "use_case": "予算や投資を用途に振り分ける考え方を説明する場面。",
-    "message": "共通の資金を、目的に応じて配分する。",
+    "use_case": "一つの予算を複数の用途へ振り分ける方針を説明する。",
+    "message": "共通の資金を目的に応じて配分する。",
     "reading": [
-      "上の硬貨が配分元の予算を表す。",
-      "分かれた経路と受け皿が資金の用途を表す。"
+      "上の硬貨が配分元の予算を示す。",
+      "枝分かれする線と下の硬貨が用途別の配分を表す。"
     ]
   },
-  "kind": "icon",
+  "category": "11-会計・収益",
   "schema_version": 3,
   "id": "icon/budget-allocation",
-  "name": "予算管理_資金の配分_総額から用途へ",
+  "name": "用途に応じた資金配分_業務の象徴",
   "license": "CC0-1.0",
   "format": "svg",
   "mime_type": "image/svg+xml",
   "transparent": null,
   "canvas": {
-    "width": 350,
-    "height": 290
+    "width": 160,
+    "height": 160
   },
   "path": "assets/icon/budget-allocation.svg",
   "metadata_path": "metadata/icon/budget-allocation.json",
   "preview_path": "assets/icon/budget-allocation.svg",
   "preview_has_example_labels": false,
-  "search_text": "icon/budget-allocation\n予算管理_資金の配分_総額から用途へ\n用途に応じた資金配分\n予算や投資を用途に振り分ける考え方を説明する場面。\n共通の資金を、目的に応じて配分する。\n上の硬貨が配分元の予算を表す。\n分かれた経路と受け皿が資金の用途を表す。\n予算 配分 投資 資金 費用 コスト 予算管理 budget allocation funding investment",
+  "search_text": "icon/budget-allocation\n用途に応じた資金配分_業務の象徴\n用途に応じた資金配分\n一つの予算を複数の用途へ振り分ける方針を説明する。\n共通の資金を目的に応じて配分する。\n上の硬貨が配分元の予算を示す。\n枝分かれする線と下の硬貨が用途別の配分を表す。\n予算 配分 資金 用途 投資 budget allocation funding distribution",
   "render": {
     "theme": true,
     "labels": false,
     "data": false
   },
-  "sha256": "fadfffcef4e867ffd0ce4f14f20d64ddec9903b6cd0623b49d1dd024e0269596",
-  "size_bytes": 5765
+  "sha256": "e3cb0d7c8e3536bd601327f8a0cb8352b9f27c3e5ac0c409001bbabc8d911846",
+  "size_bytes": 1380
 }

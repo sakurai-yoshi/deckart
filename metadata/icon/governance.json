@@ -1,0 +1,49 @@
+{
+  "title": "企業統治",
+  "description": "複数の責任と仕組みで経営を支える。",
+  "keywords": [
+    "企業統治",
+    "ガバナンス",
+    "監督",
+    "経営",
+    "governance",
+    "oversight",
+    "stewardship"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "意思決定と監督の仕組みを説明する。",
+    "message": "複数の責任と仕組みで経営を支える。",
+    "reading": [
+      "屋根が経営全体を表す。",
+      "複数の柱が全体を支える責任と監督を表す。"
+    ]
+  },
+  "category": "01-経営・意思決定",
+  "schema_version": 3,
+  "id": "icon/governance",
+  "name": "企業統治_仕事と関係",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/governance.svg",
+  "metadata_path": "metadata/icon/governance.json",
+  "preview_path": "assets/icon/governance.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/governance\n企業統治_仕事と関係\n企業統治\n意思決定と監督の仕組みを説明する。\n複数の責任と仕組みで経営を支える。\n屋根が経営全体を表す。\n複数の柱が全体を支える責任と監督を表す。\n企業統治 ガバナンス 監督 経営 governance oversight stewardship",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "3474e138a5df0716af3273b21c45333cc1271bd1296b03920d5847b5ef06f19d",
+  "size_bytes": 1300
+}

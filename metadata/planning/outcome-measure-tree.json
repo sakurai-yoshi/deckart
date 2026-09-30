@@ -1,5 +1,4 @@
 {
-  "category": "05-組織と戦略",
   "title": "目指す成果を観測する指標へ分ける",
   "description": "事業で得たい成果を二つの要素に分け、それぞれを確認する指標へ結び付ける。",
   "keywords": [
@@ -182,6 +181,7 @@
       "右の端点は、それぞれの要素を確認する指標。"
     ]
   },
+  "category": "02-計画・進捗",
   "schema_version": 3,
   "id": "planning/outcome-measure-tree",
   "name": "目標管理_成果を観測できる指標へ分ける_成果要素と測定の樹形",
@@ -204,5 +204,6 @@
     "data": false
   },
   "sha256": "f4d34c5ef63d5d8378421f30cd5d9461b2e8c814d045140e9aabfebbbdc5b11c",
-  "size_bytes": 2272
+  "size_bytes": 2272,
+  "preview_sha256": "ba857afdd34643b719626e072236e0e9210b018e415a3858e96de0657b6b4706"
 }

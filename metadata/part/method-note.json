@@ -1,5 +1,4 @@
 {
-  "category": "07-注釈と見出し",
   "title": "数値の対象と集計方法を添える",
   "description": "左の区分と右の二行で、測定結果の読み取り条件をまとめる部品。",
   "keywords": [
@@ -86,6 +85,7 @@
       "右の上下で対象と方法を分ける。"
     ]
   },
+  "category": "13-説明・伝達",
   "schema_version": 3,
   "id": "part/method-note",
   "name": "数値の対象と集計方法を添える_説明パーツ",
@@ -108,5 +108,6 @@
     "data": false
   },
   "sha256": "d2bcbbc93c81dc40de256a789bdef802bb989a1a88e9276a7761c3f28b0c6693",
-  "size_bytes": 613
+  "size_bytes": 613,
+  "preview_sha256": "1f81187d51dd6b31fedb48731b0052e288cf2837e3198be06baecfce8518b642"
 }

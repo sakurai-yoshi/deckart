@@ -1,5 +1,4 @@
 {
-  "category": "08-アイコンとピクトグラム",
   "title": "人事評価",
   "description": "個人の成果や行動を評価する場面を示す。",
   "keywords": [
@@ -24,6 +23,7 @@
       "上の星の並びが評価という観点を表す。"
     ]
   },
+  "category": "09-組織・人材",
   "schema_version": 3,
   "id": "icon/performance",
   "name": "人事評価_個人の成果を振り返る_人物と評価",

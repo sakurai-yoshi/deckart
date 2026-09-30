@@ -1,5 +1,4 @@
 {
-  "category": "07-注釈と見出し",
   "title": "本文と出典を脚注で区切る",
   "description": "細い区切り線と参照番号で、本文の下に出典を添える部品。",
   "keywords": [
@@ -54,6 +53,7 @@
       "参照番号と情報源を横に対応させる。"
     ]
   },
+  "category": "13-説明・伝達",
   "schema_version": 3,
   "id": "part/source-footnote",
   "name": "本文と出典を脚注で区切る_説明パーツ",
@@ -76,5 +76,6 @@
     "data": false
   },
   "sha256": "89e1fdee7a7f90e3007e8be851b0f0814e338191a3c9c1a92803a009d94a2a0a",
-  "size_bytes": 745
+  "size_bytes": 745,
+  "preview_sha256": "1d578e930d4cd41871e78ea9509fa45659858025816ecc08ab48575bb9d0604c"
 }

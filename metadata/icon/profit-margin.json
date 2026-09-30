@@ -1,0 +1,49 @@
+{
+  "title": "利益率",
+  "description": "全体の中で利益が占める割合を見る。",
+  "keywords": [
+    "利益率",
+    "採算",
+    "売上",
+    "利益",
+    "margin",
+    "profitability",
+    "ratio"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "売上に対する利益の割合を説明する。",
+    "message": "全体の中で利益が占める割合を見る。",
+    "reading": [
+      "全体の枠が売上などの基準を表す。",
+      "下の青い領域と比率記号が利益の占める割合を表す。"
+    ]
+  },
+  "category": "11-会計・収益",
+  "schema_version": 3,
+  "id": "icon/profit-margin",
+  "name": "利益率_仕事と関係",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/profit-margin.svg",
+  "metadata_path": "metadata/icon/profit-margin.json",
+  "preview_path": "assets/icon/profit-margin.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/profit-margin\n利益率_仕事と関係\n利益率\n売上に対する利益の割合を説明する。\n全体の中で利益が占める割合を見る。\n全体の枠が売上などの基準を表す。\n下の青い領域と比率記号が利益の占める割合を表す。\n利益率 採算 売上 利益 margin profitability ratio",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "b38ff5778b3b72664752ddb7528b7183c5f717ea14ead3852b3707a452bc6bdd",
+  "size_bytes": 1106
+}

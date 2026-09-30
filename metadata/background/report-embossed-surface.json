@@ -1,6 +1,5 @@
 {
   "kind": "background",
-  "category": "11-背景とフレーム",
   "width": 1672,
   "height": 941,
   "labels": [],
@@ -44,6 +43,7 @@
     "width": 1672,
     "height": 941
   },
+  "category": "14-背景・装飾",
   "schema_version": 3,
   "id": "background/report-embossed-surface",
   "name": "紙の浅い成形と青い縁_背景",

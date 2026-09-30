@@ -1,0 +1,51 @@
+{
+  "title": "予備資金",
+  "description": "必要時に使える蓄えを持つ。",
+  "keywords": [
+    "予備費",
+    "備え",
+    "資金",
+    "蓄え",
+    "緊急",
+    "contingency",
+    "fund",
+    "reserve",
+    "savings"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "予定外の事態に備えて確保する資金を説明する。",
+    "message": "必要時に使える蓄えを持つ。",
+    "reading": [
+      "貯金箱の形が蓄えを表す。",
+      "上の投入口が資金を確保していくことを示す。"
+    ]
+  },
+  "category": "11-会計・収益",
+  "schema_version": 3,
+  "id": "icon/contingency-fund",
+  "name": "予備資金_仕事と関係",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/contingency-fund.svg",
+  "metadata_path": "metadata/icon/contingency-fund.json",
+  "preview_path": "assets/icon/contingency-fund.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/contingency-fund\n予備資金_仕事と関係\n予備資金\n予定外の事態に備えて確保する資金を説明する。\n必要時に使える蓄えを持つ。\n貯金箱の形が蓄えを表す。\n上の投入口が資金を確保していくことを示す。\n予備費 備え 資金 蓄え 緊急 contingency fund reserve savings",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "9023793f8599466b22dfba2718f2dc084f41ef758d83f65367e15206cba3901f",
+  "size_bytes": 957
+}

@@ -1,5 +1,4 @@
 {
-  "category": "08-アイコンとピクトグラム",
   "title": "検品",
   "description": "物品の状態を調べて受入基準を確認する。",
   "keywords": [
@@ -24,6 +23,7 @@
       "拡大鏡とチェックが状態を確かめる行為を表す。"
     ]
   },
+  "category": "03-品質・改善",
   "schema_version": 3,
   "id": "icon/inspection",
   "name": "検品作業_受け取った品物を確認する_荷物と検査",

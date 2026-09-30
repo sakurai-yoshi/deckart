@@ -1,0 +1,56 @@
+{
+  "title": "手元の認証器でアクセスを確かめる",
+  "description": "端末に接続した認証器へ触れる手と、画面の確認印で本人確認の操作を表す。",
+  "kind": "illustration",
+  "width": 1536,
+  "height": 1024,
+  "labels": [],
+  "composition": {
+    "framing": "object",
+    "facing": "front"
+  },
+  "keywords": [
+    "認証",
+    "本人確認",
+    "多要素",
+    "パスキー",
+    "authentication",
+    "security key"
+  ],
+  "guidance": {
+    "use_case": "システムへのログインやアクセス管理を説明し、手元の認証器を使う場面。",
+    "message": "手元の認証器を操作して、アクセスを確認する。",
+    "reading": [
+      "端末に差した小型の認証器へ、指先を当てて操作している。",
+      "端末の画面にある確認印が、認証の応答を表す。"
+    ]
+  },
+  "preview_path": "previews/illustration/secure-authentication.png",
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/enterprise-illustrations.json"
+  },
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": true,
+  "canvas": {
+    "width": 1536,
+    "height": 1024
+  },
+  "category": "12-情報・データ",
+  "schema_version": 3,
+  "id": "illustration/secure-authentication",
+  "name": "手元の認証器でアクセスを確かめる_業務イラスト",
+  "license": "CC0-1.0",
+  "path": "media/illustration/secure-authentication.png",
+  "metadata_path": "metadata/illustration/secure-authentication.json",
+  "preview_has_example_labels": false,
+  "search_text": "illustration/secure-authentication\n手元の認証器でアクセスを確かめる_業務イラスト\n手元の認証器でアクセスを確かめる\nシステムへのログインやアクセス管理を説明し、手元の認証器を使う場面。\n手元の認証器を操作して、アクセスを確認する。\n端末に差した小型の認証器へ、指先を当てて操作している。\n端末の画面にある確認印が、認証の応答を表す。\n認証 本人確認 多要素 パスキー authentication security key\nobject 物 道具 front 正面",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "36965d725f82e4ae6f23c6c05a7f14e734471961ea3628173c8ef14b0d1f3fbe",
+  "size_bytes": 1205694
+}

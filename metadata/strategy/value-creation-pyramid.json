@@ -1,5 +1,4 @@
 {
-  "category": "05-組織と戦略",
   "title": "組織の基盤から顧客の成果へ",
   "description": "組織の基盤が価値の提供を支え、その先で顧客の成果につながる関係を示す。",
   "keywords": [
@@ -87,6 +86,7 @@
     ]
   },
   "kind": "diagram",
+  "category": "01-経営・意思決定",
   "schema_version": 3,
   "id": "strategy/value-creation-pyramid",
   "name": "価値創造_基盤から顧客成果へ_一体型ピラミッド",
@@ -109,5 +109,6 @@
     "data": false
   },
   "sha256": "9a8dbafa0bcdc5ae85cf40d314cab6d4d884f97c7c216ca796a2eda9a248c72a",
-  "size_bytes": 1793
+  "size_bytes": 1793,
+  "preview_sha256": "c2761c747f55ecdda7320121bc9a483a1af2144a870f8d8c88c783f1e67f645e"
 }

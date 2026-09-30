@@ -1,5 +1,4 @@
 {
-  "category": "08-アイコンとピクトグラム",
   "title": "段取り替え",
   "description": "工程に使う道具を次の製品に合わせて入れ替える。",
   "keywords": [
@@ -24,6 +23,7 @@
       "逆向きの経路が取り外しと取り付けを表す。"
     ]
   },
+  "category": "04-生産・設備",
   "schema_version": 3,
   "id": "icon/tooling-changeover",
   "name": "段取り替え_製造業務の記号",

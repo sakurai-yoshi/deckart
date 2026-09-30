@@ -1,0 +1,50 @@
+{
+  "title": "漏れ検査",
+  "description": "接続部の密閉性を確かめる。",
+  "keywords": [
+    "漏れ",
+    "漏洩",
+    "気密",
+    "配管",
+    "leak",
+    "testing",
+    "tightness",
+    "leakage"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "配管や接続部からの漏れを確認する工程を示す。",
+    "message": "接続部の密閉性を確かめる。",
+    "reading": [
+      "つながる管の中央が確認する継ぎ目を表す。",
+      "継ぎ目の下の滴が見つける漏れを表す。"
+    ]
+  },
+  "category": "03-品質・改善",
+  "schema_version": 3,
+  "id": "icon/leak-testing",
+  "name": "漏れ検査_工程と対象",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/leak-testing.svg",
+  "metadata_path": "metadata/icon/leak-testing.json",
+  "preview_path": "assets/icon/leak-testing.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/leak-testing\n漏れ検査_工程と対象\n漏れ検査\n配管や接続部からの漏れを確認する工程を示す。\n接続部の密閉性を確かめる。\nつながる管の中央が確認する継ぎ目を表す。\n継ぎ目の下の滴が見つける漏れを表す。\n漏れ 漏洩 気密 配管 leak testing tightness leakage",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "a2f5592ac94b9eee64899bd6a4b46e5d4aa2a18b8aa1b503f10251bf2685ba49",
+  "size_bytes": 861
+}

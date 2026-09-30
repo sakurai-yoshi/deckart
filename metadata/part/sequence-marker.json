@@ -1,5 +1,4 @@
 {
-  "category": "07-注釈と見出し",
   "title": "番号と手順名をつなぐ",
   "description": "番号の丸と隣の説明を一本の線でつないだ、手順用の見出し部品。",
   "keywords": [
@@ -55,6 +54,7 @@
       "接続の先は、対応する手順名の領域。"
     ]
   },
+  "category": "13-説明・伝達",
   "schema_version": 3,
   "id": "part/sequence-marker",
   "name": "番号と手順名をつなぐ_説明パーツ",
@@ -77,5 +77,6 @@
     "data": false
   },
   "sha256": "06b102192f31625105516b2d259deeb74b90a31885345a98a63586656b2d5b3b",
-  "size_bytes": 714
+  "size_bytes": 714,
+  "preview_sha256": "37724e2b401b05c7b71b649afddb2615ce05b1d32fef91462a257740404a5cfb"
 }

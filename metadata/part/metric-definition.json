@@ -1,5 +1,4 @@
 {
-  "category": "07-注釈と見出し",
   "title": "指標の分子と分母をそろえる",
   "description": "一つの指標を分子・分母・単位へ分解する定義部品。",
   "keywords": [
@@ -102,6 +101,7 @@
       "中央の上下が分子と分母、右の100倍が百分率への換算。"
     ]
   },
+  "category": "13-説明・伝達",
   "schema_version": 3,
   "id": "part/metric-definition",
   "name": "指標の分子と分母をそろえる_説明パーツ",
@@ -124,5 +124,6 @@
     "data": false
   },
   "sha256": "7a1f40b95c59119647b5814561d66fe6ef1756b58081affcef61e5d051a1f934",
-  "size_bytes": 916
+  "size_bytes": 916,
+  "preview_sha256": "1a5fec2c8f23683dc45937807fb59ec51163fa542383a9cd6620c47dc135af41"
 }

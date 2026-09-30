@@ -1,5 +1,4 @@
 {
-  "category": "10-数値とグラフ",
   "title": "上限に対する到達度を示す",
   "description": "0から100の半円を等間隔の目盛りに分け、65%を示すゲージの作例。",
   "keywords": [
@@ -92,6 +91,7 @@
       "主色の弧と針の位置はどちらも65%に対応する。"
     ]
   },
+  "category": "13-説明・伝達",
   "schema_version": 3,
   "id": "chart/semicircle-gauge",
   "name": "指標確認_上限に対する到達度_65パーセントゲージ作例",
@@ -151,5 +151,6 @@
     }
   },
   "sha256": "64a8cd80c3e864b1bc702e189b99a3393b5b43c0f1193dff91356f2c85702014",
-  "size_bytes": 4357
+  "size_bytes": 4357,
+  "preview_sha256": "d703d999fe43497da3f0192544ebfb24a4cf27dc9b25a606388cd82b18fee53e"
 }

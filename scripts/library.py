@@ -103,7 +103,8 @@ def render(request):
     meta,svg=load_asset(asset_id);meta=deepcopy(meta)
     if 'format' in request and request['format']!=meta['format']:raise ValueError('Requested format is unavailable; use metadata.format')
     config=project()
-    source={'id':asset_id,'version':config['version'],'raw_base':f'https://raw.githubusercontent.com/{config["repository"]}/v{config["version"]}/','path':meta['path'],'sha256':meta['sha256']}
+    source={'id':asset_id,'version':config['version'],'raw_base':f'https://raw.githubusercontent.com/{config["repository"]}/v{config["version"]}/','path':meta['path'],'sha256':meta['sha256'],'preview_path':meta['preview_path'],'preview_has_example_labels':meta['preview_has_example_labels']}
+    if meta.get('preview_sha256'):source['preview_sha256']=meta['preview_sha256']
     if meta['format']=='png':
         unsupported={name for name in ('accent','data') if name in request}
         unsupported.update(name for name in ('monochrome','labels','include_example_labels') if request.get(name))
@@ -144,7 +145,10 @@ def export_files(svg,meta,destination,force=False):
     if any(p.exists() and (not p.is_file() or p.is_symlink()) for p in (destination,sidecar)):
         raise ValueError('Both output paths must be regular files or new paths')
     destination.parent.mkdir(parents=True,exist_ok=True)
-    output_meta=dict(meta,path=destination.name,metadata_path=sidecar.name)
+    output_meta=dict(meta,path=destination.name,preview_path=destination.name,preview_has_example_labels=False,metadata_path=sidecar.name)
+    # A standalone export contains one artwork file. The catalog preview and
+    # its digest remain under source; they are not a second exported file.
+    output_meta.pop('preview_sha256',None)
     original=destination.read_bytes() if destination.exists() else None
     with tempfile.TemporaryDirectory(prefix='.asset-export-',dir=destination.parent) as temporary:
         staged_svg=Path(temporary)/('asset.'+meta['format']);staged_json=Path(temporary)/'asset.json'

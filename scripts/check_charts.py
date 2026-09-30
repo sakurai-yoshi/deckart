@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Compare the 12 chart examples' exported SVG geometry with catalog values."""
+"""Compare exported chart geometry with the underlying numeric data."""
 import json
 import math
 from pathlib import Path
@@ -315,6 +315,123 @@ def waterfall_check(drawing,data):
         running=after
 
 
+def scaled_axis(drawing, data, horizontal=False):
+    """Check all tick positions, including a signed or nonzero lower bound."""
+    p=data['plot']; lo,hi=data['domain']; span=hi-lo
+    assert span>0, 'Axis domain must increase'
+    for tick in data['ticks']:
+        if horizontal:
+            x=p['x']+p['width']*(tick-lo)/span
+            drawing.segment((x,p['y']),(x,p['y']+p['height']),'Horizontal tick position')
+        else:
+            y=p['y']+p['height']*(hi-tick)/span
+            drawing.segment((p['x'],y),(p['x']+p['width'],y),'Vertical tick position')
+
+
+def dot_check(drawing,data):
+    scaled_axis(drawing,data,True)
+    p=data['plot']; lo,hi=data['domain']; values=data['series'][0]['values']
+    dots=drawing.tags('circle'); assert len(dots)==len(values), 'One dot per category'
+    previous_y=None
+    for dot,value in zip(dots,values):
+        a=dot.attrib; x=float(a['cx']); y=float(a['cy'])
+        close(x,p['x']+p['width']*(value-lo)/(hi-lo),'Dot value position')
+        close(float(a['r']),12,'Equal dot radius')
+        assert a['fill']==BLUE and p['y']<=y<=p['y']+p['height'], 'Dot color and plot bounds'
+        assert previous_y is None or y>previous_y, 'Category order'
+        drawing.segment((p['x'],y),(p['x']+p['width'],y),'Dot category guide')
+        previous_y=y
+
+
+def actual_target_check(drawing,data):
+    scaled_axis(drawing,data,True); p=data['plot']; maximum=data['domain'][1]
+    actual,target=[s['values'] for s in data['series']]
+    bars=[e for e in drawing.tags('rect') if e.attrib.get('fill')==BLUE]
+    assert len(bars)==len(actual), 'One actual bar per category'
+    target_marks=[e for e in drawing.paths if e.attrib.get('stroke')==INK and e.attrib.get('stroke-width')=='5']
+    assert len(target_marks)==len(target), 'One target mark per category'
+    for bar,a,t in zip(bars,actual,target):
+        r={k:float(bar.attrib[k]) for k in ('x','y','width','height')}
+        close(r['x'],p['x'],'Actual common zero origin')
+        close(r['width'],p['width']*a/maximum,'Actual value length')
+        close(r['height'],44,'Equal actual bar thickness')
+        tx=p['x']+p['width']*t/maximum; cy=r['y']+r['height']/2
+        drawing.segment((tx,cy-39),(tx,cy+39),'Target value marker')
+
+
+def range_check(drawing,data):
+    scaled_axis(drawing,data,True); p=data['plot']; maximum=data['domain'][1]
+    lower,middle,upper=[s['values'] for s in data['series']]
+    intervals=[e for e in drawing.paths if e.attrib.get('stroke')==BLUE and e.attrib.get('stroke-width')=='7']
+    dots=drawing.tags('circle')
+    assert len(intervals)==len(dots)==len(lower), 'One interval and representative per category'
+    for interval,dot,lo,mid,hi in zip(intervals,dots,lower,middle,upper):
+        assert lo<=mid<=hi, 'Ordered interval bounds'
+        c=commands(interval.attrib['d']); assert [k for k,_ in c]==['M','L'], 'Straight range interval'
+        y=float(dot.attrib['cy']); xs=[p['x']+p['width']*v/maximum for v in (lo,mid,hi)]
+        point(c[0][1],(xs[0],y),'Range lower endpoint'); point(c[1][1],(xs[2],y),'Range upper endpoint')
+        close(float(dot.attrib['cx']),xs[1],'Representative position'); close(float(dot.attrib['r']),10,'Equal representative radius')
+        for x in (xs[0],xs[2]):drawing.segment((x,y-18),(x,y+18),'Range endpoint cap')
+
+
+def diverging_check(drawing,data):
+    scaled_axis(drawing,data,True); p=data['plot']; lo,hi=data['domain']; values=data['series'][0]['values']
+    zero=p['x']-p['width']*lo/(hi-lo)
+    bars=[e for e in drawing.tags('rect') if e.attrib.get('fill') in (BLUE,INK)]
+    assert len(bars)==len(values), 'One signed bar per category'
+    drawing.segment((zero,p['y']),(zero,p['y']+p['height']),'Signed zero reference')
+    for bar,value in zip(bars,values):
+        r={k:float(bar.attrib[k]) for k in ('x','y','width','height')}
+        endpoint=p['x']+p['width']*(value-lo)/(hi-lo)
+        close(r['x'],min(zero,endpoint),'Signed bar left boundary')
+        close(r['width'],abs(endpoint-zero),'Signed magnitude')
+        close(r['height'],43,'Equal signed bar thickness')
+        assert bar.attrib['fill']==(BLUE if value>=0 else INK), 'Signed direction color'
+        if value==0:
+            assert any(abs(float(e.attrib['cx'])-zero)<.0001 and abs(float(e.attrib['cy'])-r['y']-21.5)<.0001
+                       for e in drawing.tags('circle')), 'Visible zero value marker'
+
+
+def pareto_check(drawing,data):
+    scaled_axis(drawing,data); p=data['plot']; maximum=data['domain'][1]
+    values=data['series'][0]['values']; total=sum(values); assert total>0, 'Positive Pareto total'
+    order=sorted(range(len(values)),key=lambda i:(-values[i],i))
+    assert data['sorted_indices']==order, 'Stable descending order'
+    assert data['ordered_categories']==[data['categories'][i] for i in order], 'Category-value association'
+    bars=[e for e in drawing.tags('rect') if e.attrib.get('fill')==MID]
+    curves=[e for e in drawing.paths if e.attrib.get('stroke')==INK and e.attrib.get('stroke-width')=='4']
+    assert len(bars)==len(values) and len(curves)==1, 'Pareto bar and cumulative line count'
+    c=commands(curves[0].attrib['d']); assert [k for k,_ in c]==['M']+['L']*(len(values)-1), 'Cumulative line points'
+    dots=drawing.tags('circle'); assert len(dots)==len(values), 'Cumulative point marker count'
+    running=0
+    for j,(bar,(_,xy),dot,i) in enumerate(zip(bars,c,dots,order)):
+        r={k:float(bar.attrib[k]) for k in ('x','y','width','height')}; value=values[i]
+        x=p['x']+(j+.5)*p['width']/len(values)
+        close(r['x']+r['width']/2,x,'Pareto category center')
+        close(r['height'],p['height']*value/maximum,'Pareto value height')
+        close(r['y']+r['height'],p['y']+p['height'],'Pareto zero baseline')
+        running+=value; percentage=100*running/total
+        expected=(x,p['y']+p['height']*(1-percentage/100))
+        point(xy,expected,'Cumulative percentage position')
+        point((float(dot.attrib['cx']),float(dot.attrib['cy'])),expected,'Cumulative marker position')
+        close(data['cumulative_percent'][j],percentage,'Cumulative metadata percentage')
+    close(data['cumulative_percent'][-1],100,'Complete cumulative total')
+
+
+def scatter_check(drawing,data):
+    scaled_axis(drawing,data); p=data['plot']; xlo,xhi=data['x_domain']; ylo,yhi=data['domain']
+    for tick in data['x_ticks']:
+        x=p['x']+p['width']*(tick-xlo)/(xhi-xlo)
+        drawing.segment((x,p['y']),(x,p['y']+p['height']),'Scatter x tick position')
+    values=list(zip(*(s['values'] for s in data['series'])))
+    dots=drawing.tags('circle'); assert len(dots)==len(values), 'One point per observation'
+    for dot,(xv,yv) in zip(dots,values):
+        expected=(p['x']+p['width']*(xv-xlo)/(xhi-xlo),p['y']+p['height']*(yhi-yv)/(yhi-ylo))
+        point((float(dot.attrib['cx']),float(dot.attrib['cy'])),expected,'Independent x and y mapping')
+        close(float(dot.attrib['r']),10,'Equal scatter point radius')
+        assert dot.attrib['stroke']==BLUE, 'Scatter point outline'
+
+
 CHECKS = {
     'progress_ring': radial_check,
     'semicircle_gauge': lambda drawing,data: radial_check(drawing,data,True),
@@ -328,6 +445,12 @@ CHECKS = {
     'stacked_percent_bar': stacked_check,
     'waterfall': waterfall_check,
     'slope': lambda drawing,data: line_check(drawing,data,True),
+    'dot': dot_check,
+    'actual_target': actual_target_check,
+    'range': range_check,
+    'diverging_bar': diverging_check,
+    'pareto': pareto_check,
+    'scatter': scatter_check,
 }
 
 
@@ -337,7 +460,7 @@ def validate_charts(root=ROOT, records=None):
         rows=json.loads((root/'catalog.json').read_text(encoding='utf-8'))['assets']
         records=[json.loads((root/a['metadata_path']).read_text(encoding='utf-8')) for a in rows]
     charts=[a for a in records if a.get('kind')=='chart']
-    assert len(charts)==12 and {a['data']['chart_type'] for a in charts}==set(CHECKS), 'Expected 12 chart examples'
+    assert len(charts)==len(CHECKS) and {a['data']['chart_type'] for a in charts}==set(CHECKS), f'Expected {len(CHECKS)} distinct chart examples'
     for a in charts:
         try:
             CHECKS[a['data']['chart_type']](Drawing(ET.parse(root/a['path']).getroot()),a['data'])

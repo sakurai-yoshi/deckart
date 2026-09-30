@@ -1,0 +1,126 @@
+{
+  "title": "先行する行動と結果を分けて測る",
+  "description": "結果を待つ間にも、成果へつながる行動を確認できる。",
+  "keywords": [
+    "先行指標",
+    "結果指標",
+    "KPI",
+    "行動",
+    "成果",
+    "leading",
+    "lagging",
+    "indicator"
+  ],
+  "labels": [
+    {
+      "x": 60,
+      "y": 72,
+      "width": 329,
+      "height": 53,
+      "text": "先行指標",
+      "role": "先行する指標",
+      "align": "left",
+      "color": "#2864F0",
+      "font_size": 27,
+      "id": "label-1",
+      "color_role": "accent",
+      "max_lines": 1,
+      "max_fullwidth_chars": 11
+    },
+    {
+      "x": 60,
+      "y": 145,
+      "width": 329,
+      "height": 90,
+      "text": "結果につながる\n行動を確認",
+      "role": "先行指標の内容",
+      "align": "left",
+      "color": "#153A6B",
+      "font_size": 31,
+      "id": "label-2",
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 10
+    },
+    {
+      "x": 735,
+      "y": 72,
+      "width": 325,
+      "height": 53,
+      "text": "結果指標",
+      "role": "後から分かる指標",
+      "align": "left",
+      "color": "#607590",
+      "font_size": 27,
+      "id": "label-3",
+      "color_role": "muted",
+      "max_lines": 1,
+      "max_fullwidth_chars": 11
+    },
+    {
+      "x": 735,
+      "y": 145,
+      "width": 325,
+      "height": 90,
+      "text": "実現した成果を\n確認",
+      "role": "結果指標の内容",
+      "align": "left",
+      "color": "#153A6B",
+      "font_size": 31,
+      "id": "label-4",
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 9
+    },
+    {
+      "x": 433,
+      "y": 276,
+      "width": 274,
+      "height": 58,
+      "text": "結果が出るまでの時間",
+      "role": "時間差",
+      "align": "center",
+      "color": "#153A6B",
+      "font_size": 24,
+      "id": "label-5",
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 10
+    }
+  ],
+  "width": 1120,
+  "height": 380,
+  "kind": "part",
+  "guidance": {
+    "use_case": "目標管理で、今の行動と後で得られる結果を併記する。",
+    "message": "結果を待つ間にも、成果へつながる行動を確認できる。",
+    "reading": [
+      "左の行動指標が先に観測され、右の成果は時間差を伴う。"
+    ]
+  },
+  "category": "02-計画・進捗",
+  "schema_version": 3,
+  "id": "part/leading-and-lagging",
+  "name": "先行する行動と結果を分けて測る_説明パーツ",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1120,
+    "height": 380
+  },
+  "path": "assets/part/leading-and-lagging.svg",
+  "metadata_path": "metadata/part/leading-and-lagging.json",
+  "preview_path": "previews/part/leading-and-lagging.svg",
+  "preview_has_example_labels": true,
+  "search_text": "part/leading-and-lagging\n先行する行動と結果を分けて測る_説明パーツ\n先行する行動と結果を分けて測る\n目標管理で、今の行動と後で得られる結果を併記する。\n結果を待つ間にも、成果へつながる行動を確認できる。\n左の行動指標が先に観測され、右の成果は時間差を伴う。\n先行指標 結果指標 KPI 行動 成果 leading lagging indicator",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "f8f09a9a052bb476211da44e32829aaaccb40df49adcd3c0f1bbf7c7a24326c9",
+  "size_bytes": 1075,
+  "preview_sha256": "f45ad80beee9c028cb746b316b3ca82672aa937464841f25a96dca77caa03db4"
+}

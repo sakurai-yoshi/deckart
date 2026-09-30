@@ -1,0 +1,50 @@
+{
+  "title": "避難経路",
+  "description": "出口へ向かって移動する。",
+  "keywords": [
+    "避難",
+    "出口",
+    "退避",
+    "経路",
+    "evacuation",
+    "exit",
+    "escape",
+    "route"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "出口への経路や退避の考え方を説明する。",
+    "message": "出口へ向かって移動する。",
+    "reading": [
+      "開いた出入口が向かう場所を表す。",
+      "入口の外へ向く大きな矢印が退避方向を示す。"
+    ]
+  },
+  "category": "07-安全・事業継続",
+  "schema_version": 3,
+  "id": "icon/evacuation-route",
+  "name": "避難経路_設備と働き",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/evacuation-route.svg",
+  "metadata_path": "metadata/icon/evacuation-route.json",
+  "preview_path": "assets/icon/evacuation-route.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/evacuation-route\n避難経路_設備と働き\n避難経路\n出口への経路や退避の考え方を説明する。\n出口へ向かって移動する。\n開いた出入口が向かう場所を表す。\n入口の外へ向く大きな矢印が退避方向を示す。\n避難 出口 退避 経路 evacuation exit escape route",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "b96cfa55d2c20887853822ccbe4ce19a4c7bb7f8c779177656d01c0bb33eb80a",
+  "size_bytes": 1166
+}

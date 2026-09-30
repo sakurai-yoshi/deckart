@@ -1,5 +1,4 @@
 {
-  "category": "08-アイコンとピクトグラム",
   "title": "人材育成",
   "description": "能力や経験を段階的に伸ばす育成を示す。",
   "keywords": [
@@ -25,6 +24,7 @@
       "上向きの矢印が成長する方向を示す。"
     ]
   },
+  "category": "09-組織・人材",
   "schema_version": 3,
   "id": "icon/development",
   "name": "人材育成_能力を段階的に伸ばす_人物と成長段階",

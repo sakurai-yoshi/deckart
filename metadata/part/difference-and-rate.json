@@ -1,0 +1,143 @@
+{
+  "title": "増減量と増減率を分ける",
+  "description": "同じ変化から、差と増減率という別の指標が得られる。",
+  "keywords": [
+    "差",
+    "差分",
+    "増減量",
+    "増減率",
+    "比率",
+    "percentage",
+    "point",
+    "difference",
+    "rate"
+  ],
+  "labels": [
+    {
+      "x": 48,
+      "y": 65,
+      "width": 254,
+      "height": 80,
+      "text": "変更前 → 変更後",
+      "role": "比較する値",
+      "align": "left",
+      "color": "#153A6B",
+      "font_size": 25.964,
+      "id": "label-1",
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 9
+    },
+    {
+      "x": 48,
+      "y": 185,
+      "width": 254,
+      "height": 90,
+      "text": "同じ二つの値",
+      "role": "共通の対象",
+      "align": "left",
+      "color": "#153A6B",
+      "font_size": 29,
+      "id": "label-2",
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 8
+    },
+    {
+      "x": 383,
+      "y": 69,
+      "width": 351,
+      "height": 62,
+      "text": "後 − 前",
+      "role": "差の計算",
+      "align": "center",
+      "color": "#153A6B",
+      "font_size": 35,
+      "id": "label-3",
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 9
+    },
+    {
+      "x": 383,
+      "y": 230,
+      "width": 351,
+      "height": 62,
+      "text": "（後 − 前）÷ 前",
+      "role": "率の計算",
+      "align": "center",
+      "color": "#153A6B",
+      "font_size": 29,
+      "id": "label-4",
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 11
+    },
+    {
+      "x": 805,
+      "y": 65,
+      "width": 265,
+      "height": 68,
+      "text": "増減した量",
+      "role": "差",
+      "align": "center",
+      "color": "#2864F0",
+      "font_size": 33,
+      "id": "label-5",
+      "color_role": "accent",
+      "max_lines": 1,
+      "max_fullwidth_chars": 7
+    },
+    {
+      "x": 805,
+      "y": 229,
+      "width": 265,
+      "height": 68,
+      "text": "元の値に対する率",
+      "role": "増減率",
+      "align": "center",
+      "color": "#FFFFFF",
+      "font_size": 28,
+      "id": "label-6",
+      "color_role": "paper",
+      "max_lines": 1,
+      "max_fullwidth_chars": 8
+    }
+  ],
+  "width": 1120,
+  "height": 380,
+  "kind": "part",
+  "guidance": {
+    "use_case": "増減を報告するときに、量の差と元の値に対する割合を区別する。",
+    "message": "同じ変化から、差と増減率という別の指標が得られる。",
+    "reading": [
+      "上の枝は差、下の枝は変更前を分母にした率。",
+      "元の値がゼロのとき増減率は定義できない。"
+    ]
+  },
+  "category": "13-説明・伝達",
+  "schema_version": 3,
+  "id": "part/difference-and-rate",
+  "name": "増減量と増減率を分ける_説明パーツ",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1120,
+    "height": 380
+  },
+  "path": "assets/part/difference-and-rate.svg",
+  "metadata_path": "metadata/part/difference-and-rate.json",
+  "preview_path": "previews/part/difference-and-rate.svg",
+  "preview_has_example_labels": true,
+  "search_text": "part/difference-and-rate\n増減量と増減率を分ける_説明パーツ\n増減量と増減率を分ける\n増減を報告するときに、量の差と元の値に対する割合を区別する。\n同じ変化から、差と増減率という別の指標が得られる。\n上の枝は差、下の枝は変更前を分母にした率。\n元の値がゼロのとき増減率は定義できない。\n差 差分 増減量 増減率 比率 percentage point difference rate",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "5fc9d80f1726df39b0646665cc86195416f9b31fa3c903d47cb64507fb7239b4",
+  "size_bytes": 1497,
+  "preview_sha256": "ef62d6c5067fe781e2490c12e6cd992851e27af66b90280434144c5d6d430a00"
+}

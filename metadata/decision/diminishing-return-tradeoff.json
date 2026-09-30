@@ -1,5 +1,4 @@
 {
-  "category": "02-比較と意思決定",
   "title": "効果の上積みと負担を見比べる",
   "description": "負担を増やしたときの効果の上積みを比べ、どの案を選ぶか説明する。",
   "keywords": [
@@ -101,6 +100,7 @@
     ]
   },
   "kind": "diagram",
+  "category": "01-経営・意思決定",
   "schema_version": 3,
   "id": "decision/diminishing-return-tradeoff",
   "name": "施策選定_効果と負担の均衡点_定性的な選択境界",
@@ -123,5 +123,6 @@
     "data": false
   },
   "sha256": "fd041d3f5c6f0e925faf4ba16617519b6dfb3bc0f6af084d7b7291cd4f1dda9d",
-  "size_bytes": 2870
+  "size_bytes": 2870,
+  "preview_sha256": "f92311dd9e0059dac6606102fd724ecf52580c9a37a0981cd4a0ccdff6134fca"
 }

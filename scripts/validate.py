@@ -28,6 +28,24 @@ def validate():
     # Bound retrieval overhead per asset while allowing the library to grow.
     assert len(json.dumps(catalog,ensure_ascii=False).encode())<=1024*len(rows),'Keep the AI index compact per asset'
     records=[json.loads(asset_path(a['metadata_path'],'metadata').read_text(encoding='utf-8')) for a in rows]
+    png_records=[a for a in records if a['format']=='png']
+    assert len({a['sha256'] for a in png_records})==len(png_records),'A PNG image must have one asset id'
+    from categories import SPECS, category_for
+    overview=json.loads((ROOT/'categories.json').read_text(encoding='utf-8'))
+    assert catalog['categories_path']=='categories.json'
+    assert overview['version']==catalog['version'] and overview['raw_base']==catalog['raw_base']
+    assert overview['asset_count']==len(rows)
+    assert [item['category'] for item in overview['categories']]==[spec[0] for spec in SPECS]
+    covered=[]
+    for item,spec in zip(overview['categories'],SPECS):
+        assert item['index_path']==f'catalogs/{spec[1]}.json'
+        subset=json.loads(asset_path(item['index_path'],'catalogs').read_text(encoding='utf-8'))
+        expected=[a for a in rows if a['category']==item['category']]
+        assert subset['assets']==expected and item['asset_count']==subset['asset_count']==len(expected)
+        assert subset['raw_base']==catalog['raw_base'] and subset['version']==catalog['version']
+        assert item['kinds']==sorted({a['kind'] for a in expected})
+        covered.extend(a['id'] for a in expected)
+    assert len(covered)==len(set(covered))==len(rows)
     assert {a['path'] for a in records}=={p.relative_to(ROOT).as_posix() for folder,pattern in [('assets','*.svg'),('media','*.png')] for p in (ROOT/folder).rglob(pattern)},'Unregistered asset'
     assert {a['metadata_path'] for a in records}=={p.relative_to(ROOT).as_posix() for p in (ROOT/'metadata').rglob('*.json')},'Unregistered metadata'
     assert {a['kind'] for a in records}==KINDS
@@ -41,6 +59,7 @@ def validate():
     for a,row in zip(records,rows):
         file=asset_path(a['path'],'media' if a['format']=='png' else 'assets');content=file.read_bytes()
         assert KEY_RE.fullmatch(a['id']) and a['id']==row['id']
+        assert a['category']==category_for(a['id'])
         assert a['format'] in ('svg','png')
         assert a['path']==f'{"media" if a["format"]=="png" else "assets"}/{a["id"]}.{a["format"]}' and a['metadata_path']==f'metadata/{a["id"]}.json'
         assert hashlib.sha256(content).hexdigest()==a['sha256']==row['sha256'],file
@@ -96,13 +115,15 @@ def validate():
             preview,_=add_labels(content.decode(),deepcopy(a),{},include_examples=True)
             assert a['preview_has_example_labels'] is True and a['preview_path']==f'previews/{a["id"]}.svg',file
             assert asset_path(a['preview_path'],'previews').read_bytes()==preview.encode('utf-8'),file
+            assert a['preview_sha256']==row['preview_sha256']==hashlib.sha256(preview.encode('utf-8')).hexdigest(),file
         else:
             assert a['preview_has_example_labels'] is False,file
         if a['kind']=='background':
             assert a['canvas']==dict(width=a['width'],height=a['height']) and abs(a['width']/a['height']-16/9)<.005,file
         if a['kind']=='chart':
             data=a['data'];assert data['is_sample'] is True and '作例' in a['name'] and data['unit']
-            assert a['data_input']['category_count']==len(data['categories'])
+            count=a['data_input']['category_count']
+            assert len(data['categories'])>=count['minimum'] if isinstance(count,dict) else len(data['categories'])==count
             assert all(len(s['values'])==len(data['categories']) for s in data['series'])
         if a['format']=='svg':
             for theme in (resolve_theme('#005BAC'),resolve_theme(monochrome=True)):ET.fromstring(apply_theme(content.decode(),theme))
@@ -125,7 +146,8 @@ def validate():
         names=archive.namelist();assert len(names)==len(set(names))
         assert names==sorted(names),'Release ZIP entries must use identical path ordering on every OS'
         assert all(info.create_system==3 for info in archive.infolist()),'Release ZIP metadata must be independent of the build host'
-        assert {'index.html','web/themes.js','web/catalog.js','web/search.js','llms.txt','scripts/library.py','scripts/search.py','search.json','catalog.txt','catalog.json','request.schema.json'}<=set(names)
+        assert {'index.html','web/themes.js','web/catalog.js','web/search.js','llms.txt','scripts/library.py','scripts/search.py','search.json','catalog.txt','catalog.json','categories.json','request.schema.json'}<=set(names)
+        assert {item['index_path'] for item in overview['categories']}<=set(names)
         for name in names:
             assert not Path(name).is_absolute() and '..' not in Path(name).parts,name
             assert archive.read(name)==(ROOT/name).read_bytes(),name

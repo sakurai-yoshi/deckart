@@ -3,9 +3,9 @@ from vector import INK, BLUE, MID, PALE, FAINT, WHITE
 from vector import path, rect, circle, line, poly, arrow, check, slot, asset
 
 
-def _diagram(key, name, category, title, description, keywords, body, labels,
+def _diagram(key, name, title, description, keywords, body, labels,
              use_case, message, reading):
-    item = asset(name, category, title, description, keywords, body, labels)
+    item = asset(name, title, description, keywords, body, labels)
     item['key'] = key
     item['kind'] = 'diagram'
     item['guidance'] = dict(use_case=use_case, message=message,
@@ -32,7 +32,7 @@ def risk_response():
     return _diagram(
         'planning/risk-response-matrix',
         'リスク対応_発生しやすさと影響を見分ける_三段階の対応領域',
-        '02-比較と意思決定', '発生と影響から対応を決める',
+        '発生と影響から対応を決める',
         '発生しやすさと影響の大きさでリスクを配置し、監視・計画・重点対策を分ける。',
         'リスク リスクマトリクス 発生可能性 影響 対応 優先度 予防 risk matrix likelihood impact mitigation',
         b,
@@ -69,7 +69,7 @@ def customer_journey():
     return _diagram(
         'planning/customer-journey-support',
         '顧客体験_行動と接点を支える業務_表と裏のジャーニー',
-        '04-計画と進捗', '顧客の行動と支える業務を結ぶ',
+        '顧客の行動と支える業務を結ぶ',
         '知る・比べる・使い始める・使い続ける流れに、各接点を支える業務を対応させる。',
         '顧客体験 顧客行動 カスタマージャーニー サービスブループリント 接点 裏側 継続利用 customer journey touchpoint service blueprint',
         b,
@@ -107,7 +107,7 @@ def scenario_response():
     return _diagram(
         'planning/scenario-triggered-response',
         'シナリオ計画_先の変化に対応を用意する_三つの分岐と打ち手',
-        '04-計画と進捗', '状況の変化に応じた打ち手を持つ',
+        '状況の変化に応じた打ち手を持つ',
         '共通の出発点から複数の将来を想定し、変化を捉えた後の対応を先に用意する。',
         'シナリオ計画 不確実性 将来 需要変動 代替計画 トリガー 対応策 scenario planning uncertainty contingency trigger',
         b,
@@ -140,7 +140,7 @@ def outcome_measures():
     return _diagram(
         'planning/outcome-measure-tree',
         '目標管理_成果を観測できる指標へ分ける_成果要素と測定の樹形',
-        '05-組織と戦略', '目指す成果を観測する指標へ分ける',
+        '目指す成果を観測する指標へ分ける',
         '事業で得たい成果を二つの要素に分け、それぞれを確認する指標へ結び付ける。',
         '目標管理 KGI KPI 成果指標 指標ツリー 測定 評価 成果分解 outcome measures metric tree goals indicators',
         b,
@@ -178,7 +178,7 @@ def scope_boundary():
     return _diagram(
         'planning/controlled-scope-boundary',
         'スコープ管理_追加要望を合意した範囲へ通す_変更の入口と対象外',
-        '04-計画と進捗', '追加要望を一つの入口で判断する',
+        '追加要望を一つの入口で判断する',
         '合意した範囲と追加要望を分け、変更として受け入れるものと今回の対象外を示す。',
         'スコープ 範囲 対象外 追加要望 変更管理 合意 受入条件 要件 scope boundary change control requirements',
         b,

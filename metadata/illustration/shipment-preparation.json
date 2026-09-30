@@ -1,7 +1,6 @@
 {
   "title": "出荷する荷物を整える",
   "kind": "illustration",
-  "category": "06-業務イラスト",
   "width": 1254,
   "height": 1254,
   "keywords": [
@@ -40,6 +39,7 @@
     "width": 1254,
     "height": 1254
   },
+  "category": "05-調達・物流",
   "schema_version": 3,
   "id": "illustration/shipment-preparation",
   "name": "出荷する荷物を整える_メーカー業務の動作",

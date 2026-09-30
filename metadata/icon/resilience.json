@@ -1,0 +1,49 @@
+{
+  "title": "回復力",
+  "description": "負荷に応じて変化しながら支える。",
+  "keywords": [
+    "回復力",
+    "レジリエンス",
+    "しなやか",
+    "継続",
+    "resilience",
+    "recovery",
+    "adaptability"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "外からの変化を受け止め、働きを保つ性質を説明する。",
+    "message": "負荷に応じて変化しながら支える。",
+    "reading": [
+      "弓なりの部材が柔軟に変形する性質を表す。",
+      "上からの荷重と下の土台が耐える関係を示す。"
+    ]
+  },
+  "category": "07-安全・事業継続",
+  "schema_version": 3,
+  "id": "icon/resilience",
+  "name": "回復力_情報と関係",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/resilience.svg",
+  "metadata_path": "metadata/icon/resilience.json",
+  "preview_path": "assets/icon/resilience.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/resilience\n回復力_情報と関係\n回復力\n外からの変化を受け止め、働きを保つ性質を説明する。\n負荷に応じて変化しながら支える。\n弓なりの部材が柔軟に変形する性質を表す。\n上からの荷重と下の土台が耐える関係を示す。\n回復力 レジリエンス しなやか 継続 resilience recovery adaptability",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "256d06e6b1260f894ac510e876eafa664f6307be17eab9735d031238833ae3bf",
+  "size_bytes": 1063
+}

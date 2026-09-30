@@ -1,7 +1,6 @@
 {
   "title": "試作品を検討する",
   "kind": "illustration",
-  "category": "06-業務イラスト",
   "width": 1254,
   "height": 1254,
   "keywords": [
@@ -40,6 +39,7 @@
     "width": 1254,
     "height": 1254
   },
+  "category": "06-開発・技術",
   "schema_version": 3,
   "id": "illustration/prototype-development",
   "name": "試作品を検討する_メーカー業務の動作",

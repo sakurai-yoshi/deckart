@@ -91,7 +91,7 @@ class PNGExportTests(unittest.TestCase):
         self.root=Path(self.stack.enter_context(tempfile.TemporaryDirectory()))
         self.stack.enter_context(patch.object(registry,'ROOT',self.root));self.stack.enter_context(patch.object(library,'ROOT',self.root))
         self.content=sample_png()
-        declaration=dict(key='illustration/explaining',id='説明を伝える',title='説明',kind='illustration',category='06-業務イラスト',width=3,height=2,format='png',transparent=True,labels=[],description='相手に説明する',keywords=['説明','案内','共有'],guidance=dict(use_case='会議で説明する',message='相手に伝える',reading=['人物が説明する','手が内容へ向く']),composition=dict(framing='waist-up',facing='right',people_count=1))
+        declaration=dict(key='illustration/explaining',id='説明を伝える',title='説明',kind='illustration',width=3,height=2,format='png',transparent=True,labels=[],description='相手に説明する',keywords=['説明','案内','共有'],guidance=dict(use_case='会議で説明する',message='相手に伝える',reading=['人物が説明する','手が内容へ向く']),composition=dict(framing='waist-up',facing='right',people_count=1))
         self.declaration={**declaration,'name':declaration['id'],'source':'media/illustration/explaining.png','generation':{'method':'image-generation','prompt':'Synthetic transport test only.'}}
         del self.declaration['id']
         self.meta=registry.metadata(declaration);self.meta['sha256']=hashlib.sha256(self.content).hexdigest();self.meta['size_bytes']=len(self.content)

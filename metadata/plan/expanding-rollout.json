@@ -1,5 +1,4 @@
 {
-  "category": "04-計画と進捗",
   "title": "利用範囲を確かめながら広げる",
   "description": "検証対象から全社利用へ、確認を重ねて展開範囲を広げる計画を示す。",
   "keywords": [
@@ -90,6 +89,7 @@
     ]
   },
   "kind": "diagram",
+  "category": "02-計画・進捗",
   "schema_version": 3,
   "id": "plan/expanding-rollout",
   "name": "展開計画_利用範囲を確かめながら広げる_段階的な展開範囲",
@@ -112,5 +112,6 @@
     "data": false
   },
   "sha256": "e26c94b044e3e2d7cc34a87d5ca97912ffa4119d2ea8abf5f366acf3e6b92145",
-  "size_bytes": 2109
+  "size_bytes": 2109,
+  "preview_sha256": "5d0ebf2d910e2ddaf6f86bbc8d101ac0f2802a31c95cf7c93105702442838138"
 }

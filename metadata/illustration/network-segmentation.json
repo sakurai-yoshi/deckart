@@ -1,0 +1,55 @@
+{
+  "title": "ネットワークを分けて接続する",
+  "description": "二組の接続口と色を分けた配線で、機器の接続グループを描き分けた構成。",
+  "kind": "illustration",
+  "width": 1536,
+  "height": 1024,
+  "labels": [],
+  "composition": {
+    "framing": "object",
+    "facing": "front"
+  },
+  "keywords": [
+    "ネットワーク",
+    "分離",
+    "通信",
+    "セキュリティ",
+    "network segmentation"
+  ],
+  "guidance": {
+    "use_case": "情報機器の接続構成を説明し、接続する機器をグループごとに整理する場面。",
+    "message": "接続先を分け、通信の構成を整理する。",
+    "reading": [
+      "中央の機器には、濃い青と淡い青で区別した二組の接続口がある。",
+      "左右の機器は色の対応するコードでそれぞれの接続口へつながっている。"
+    ]
+  },
+  "preview_path": "previews/illustration/network-segmentation.png",
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/enterprise-illustrations.json"
+  },
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": true,
+  "canvas": {
+    "width": 1536,
+    "height": 1024
+  },
+  "category": "12-情報・データ",
+  "schema_version": 3,
+  "id": "illustration/network-segmentation",
+  "name": "ネットワークを分けて接続する_業務イラスト",
+  "license": "CC0-1.0",
+  "path": "media/illustration/network-segmentation.png",
+  "metadata_path": "metadata/illustration/network-segmentation.json",
+  "preview_has_example_labels": false,
+  "search_text": "illustration/network-segmentation\nネットワークを分けて接続する_業務イラスト\nネットワークを分けて接続する\n情報機器の接続構成を説明し、接続する機器をグループごとに整理する場面。\n接続先を分け、通信の構成を整理する。\n中央の機器には、濃い青と淡い青で区別した二組の接続口がある。\n左右の機器は色の対応するコードでそれぞれの接続口へつながっている。\nネットワーク 分離 通信 セキュリティ network segmentation\nobject 物 道具 front 正面",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "2904dffa358f2b84b881282891e116e2e9d512db6313063456d8c5aa60f32f70",
+  "size_bytes": 1035400
+}

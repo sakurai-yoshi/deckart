@@ -1,5 +1,4 @@
 {
-  "category": "09-循環とフレームワーク",
   "title": "所属と指揮命令系統を示す",
   "description": "責任者・部門・担当の三階層を、正式な所属関係として示す。",
   "keywords": [
@@ -182,6 +181,7 @@
     "relation": "three-level-hierarchy",
     "reading_direction": "top-to-bottom"
   },
+  "category": "09-組織・人材",
   "schema_version": 3,
   "id": "framework/organization-tree",
   "name": "組織紹介_所属と指揮命令系統を示す_3階層組織図",
@@ -204,5 +204,6 @@
     "data": false
   },
   "sha256": "b203ad6fe2cf201dc28529bd5f6d345de60180abf2336d4a9ab90486eb2c1845",
-  "size_bytes": 3679
+  "size_bytes": 3679,
+  "preview_sha256": "a3410546cbd3d90903cd213e29d3fb05770ee438f2886fd1ece8423e35d20248"
 }

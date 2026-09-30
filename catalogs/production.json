@@ -1,0 +1,2111 @@
+{
+  "version": "2.1.0",
+  "raw_base": "https://raw.githubusercontent.com/sakurai-yoshi/deckart/v2.1.0/",
+  "category": "04-生産・設備",
+  "asset_count": 52,
+  "assets": [
+    {
+      "id": "icon/adhesive-bonding",
+      "title": "接着",
+      "kind": "icon",
+      "category": "04-生産・設備",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/adhesive-bonding.svg",
+      "preview_path": "assets/icon/adhesive-bonding.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/adhesive-bonding.json",
+      "sha256": "3c7224ff2886c4bf0d6028a5091fa1cf0c83c0e28016eec87e26c662651b16db",
+      "size_bytes": 1200,
+      "keywords": [
+        "接着",
+        "塗布",
+        "接合",
+        "接着剤",
+        "adhesive",
+        "bonding",
+        "application"
+      ],
+      "use_case": "接着剤を塗布して部品を貼り合わせる工程を示す。",
+      "message": "接合面へ接着剤を塗る。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/adjustable-workbench",
+      "title": "高さ調整作業台",
+      "kind": "icon",
+      "category": "04-生産・設備",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/adjustable-workbench.svg",
+      "preview_path": "assets/icon/adjustable-workbench.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/adjustable-workbench.json",
+      "sha256": "849a11fc1ccd1cbaa648a28fd85085a3e19e33ee31842c4b533db608f790b44f",
+      "size_bytes": 1390,
+      "keywords": [
+        "作業台",
+        "高さ",
+        "調整",
+        "姿勢",
+        "人間工学",
+        "adjustable",
+        "workbench",
+        "ergonomics"
+      ],
+      "use_case": "作業者や工程に合わせて作業面の高さを整える設備を示す。",
+      "message": "身体や仕事に合わせて作業高さを調整する。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/conveyor",
+      "title": "コンベヤ搬送",
+      "kind": "icon",
+      "category": "04-生産・設備",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/conveyor.svg",
+      "preview_path": "assets/icon/conveyor.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/conveyor.json",
+      "sha256": "40a3a8866847da608950ea2ec017f06abb30ef559d5bbf721ac4112127ae9ab5",
+      "size_bytes": 1426,
+      "keywords": [
+        "コンベヤ",
+        "搬送",
+        "ベルト",
+        "ローラー",
+        "conveyor",
+        "transfer",
+        "roller"
+      ],
+      "use_case": "連続する搬送装置で品物を移動する工程を示す。",
+      "message": "搬送面を使って品物を送る。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/drilling",
+      "title": "穴あけ加工",
+      "kind": "icon",
+      "category": "04-生産・設備",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/drilling.svg",
+      "preview_path": "assets/icon/drilling.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/drilling.json",
+      "sha256": "9af84b886d541ef985f9636eef433348a3ded3f9b90fd3ef139954c8b82ceda3",
+      "size_bytes": 1066,
+      "keywords": [
+        "穴あけ",
+        "ドリル",
+        "加工",
+        "穴",
+        "drilling",
+        "boring",
+        "machining"
+      ],
+      "use_case": "部材に取り付け穴や通し穴を加工する工程を示す。",
+      "message": "工具を材料に送り込んで穴を作る。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/drying",
+      "title": "乾燥",
+      "kind": "icon",
+      "category": "04-生産・設備",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/drying.svg",
+      "preview_path": "assets/icon/drying.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/drying.json",
+      "sha256": "a6e724596bea98692b22a5da151f141825b7a4ec986c51e4b797700353dd9a02",
+      "size_bytes": 1056,
+      "keywords": [
+        "乾燥",
+        "水分",
+        "除去",
+        "蒸発",
+        "drying",
+        "evaporation",
+        "moisture"
+      ],
+      "use_case": "製品や材料から水分を取り除く工程を示す。",
+      "message": "水分を外へ逃がして乾かす。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/fastening",
+      "title": "締結",
+      "kind": "icon",
+      "category": "04-生産・設備",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/fastening.svg",
+      "preview_path": "assets/icon/fastening.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/fastening.json",
+      "sha256": "3585e83e3c11e51a9b2c9f2380fde831a76d1aa8abc7ee79dee496f4a6033a09",
+      "size_bytes": 1114,
+      "keywords": [
+        "締結",
+        "ボルト",
+        "ネジ",
+        "固定",
+        "tightening",
+        "fastening",
+        "bolt",
+        "screw"
+      ],
+      "use_case": "部材同士をボルトなどで固定する組立工程を示す。",
+      "message": "回転して締め込み、部材を固定する。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/filtration",
+      "title": "ろ過",
+      "kind": "icon",
+      "category": "04-生産・設備",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/filtration.svg",
+      "preview_path": "assets/icon/filtration.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/filtration.json",
+      "sha256": "af78aa843137c282fe2c7f0e6e0023ce823eef1068a55cea66c2b2369cf96c9b",
+      "size_bytes": 1332,
+      "keywords": [
+        "ろ過",
+        "フィルター",
+        "分離",
+        "不純物",
+        "filtration",
+        "filter",
+        "separation"
+      ],
+      "use_case": "液体や粒子をフィルターで分ける工程を示す。",
+      "message": "通過させるものと取り除くものを分ける。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/gear",
+      "title": "業務の仕組み",
+      "kind": "icon",
+      "category": "04-生産・設備",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/gear.svg",
+      "preview_path": "assets/icon/gear.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/gear.json",
+      "sha256": "46edb9c97f396b15e031811ce34de1a1fac85adb23e237e9ddf20594442c4f4e",
+      "size_bytes": 1298,
+      "keywords": [
+        "業務",
+        "プロセス",
+        "仕組み",
+        "設定",
+        "運用",
+        "工程",
+        "gear",
+        "process",
+        "operation",
+        "settings"
+      ],
+      "use_case": "業務を動かす仕組みや、設定に関わる項目を示す場面。",
+      "message": "仕事を進めるための仕組みがある。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/humidity-control",
+      "title": "湿度管理",
+      "kind": "icon",
+      "category": "04-生産・設備",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/humidity-control.svg",
+      "preview_path": "assets/icon/humidity-control.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/humidity-control.json",
+      "sha256": "64989893bcbe6c718053c3f9212f332f48d95719f27cb4107526ce8eda729e73",
+      "size_bytes": 1197,
+      "keywords": [
+        "湿度",
+        "水分",
+        "結露",
+        "管理",
+        "humidity",
+        "moisture",
+        "control"
+      ],
+      "use_case": "湿度条件や防湿保管の項目を示す。",
+      "message": "空気中の水分量を確かめて管理する。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/load-capacity",
+      "title": "耐荷重",
+      "kind": "icon",
+      "category": "04-生産・設備",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/load-capacity.svg",
+      "preview_path": "assets/icon/load-capacity.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/load-capacity.json",
+      "sha256": "00ac7f120ace212f060077498d8441c37ed1f52096c8cffbe38e971caa562b13",
+      "size_bytes": 1550,
+      "keywords": [
+        "耐荷重",
+        "荷重",
+        "重量",
+        "強度",
+        "台",
+        "load",
+        "capacity",
+        "weight"
+      ],
+      "use_case": "棚や搬送設備の荷重条件を説明する。",
+      "message": "支える面にかかる重量を扱う。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/manufacturing",
+      "title": "製造",
+      "kind": "icon",
+      "category": "04-生産・設備",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/manufacturing.svg",
+      "preview_path": "assets/icon/manufacturing.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/manufacturing.json",
+      "sha256": "ca56a5130e452bf5ecd601ba14876eb7747e33220b923361eb5ebcc02c5b7c6c",
+      "size_bytes": 1229,
+      "keywords": [
+        "製造",
+        "工場",
+        "生産",
+        "加工",
+        "製品",
+        "manufacturing",
+        "factory",
+        "production"
+      ],
+      "use_case": "製造部門や生産工程を業務フローに配置する。",
+      "message": "工場で製品を生産する。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/material-cutting",
+      "title": "材料の切断",
+      "kind": "icon",
+      "category": "04-生産・設備",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/material-cutting.svg",
+      "preview_path": "assets/icon/material-cutting.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/material-cutting.json",
+      "sha256": "189e4e94e21bd7de91113c9497e571d31ff479893613c518b110a115b8be3946",
+      "size_bytes": 1219,
+      "keywords": [
+        "切断",
+        "切削",
+        "分割",
+        "材料",
+        "cutting",
+        "separation",
+        "saw"
+      ],
+      "use_case": "材料を所定の長さや形に切り分ける工程を示す。",
+      "message": "一つの材料を切り離す。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/material-feeding",
+      "title": "材料供給",
+      "kind": "icon",
+      "category": "04-生産・設備",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/material-feeding.svg",
+      "preview_path": "assets/icon/material-feeding.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/material-feeding.json",
+      "sha256": "c4de026a3b71566d3586130efda52ffabc0fa90b5848c2dc4ce9ca3b896ad974",
+      "size_bytes": 1146,
+      "keywords": [
+        "供給",
+        "材料",
+        "投入",
+        "部品供給",
+        "feeding",
+        "replenishment",
+        "input",
+        "material"
+      ],
+      "use_case": "工程へ必要な材料や部品を供給する場面を示す。",
+      "message": "必要な材料を使用場所へ送る。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/mixing",
+      "title": "混合",
+      "kind": "icon",
+      "category": "04-生産・設備",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/mixing.svg",
+      "preview_path": "assets/icon/mixing.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/mixing.json",
+      "sha256": "613fe8f1b6dd97d03f94d53251b6e77f28538fbe520d8d7a24a20e109f89ec78",
+      "size_bytes": 1050,
+      "keywords": [
+        "混合",
+        "撹拌",
+        "配合",
+        "材料",
+        "mixing",
+        "blending",
+        "agitation"
+      ],
+      "use_case": "原料を混ぜ合わせる工程を示す。",
+      "message": "複数の原料を均一に混ぜる。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/molding",
+      "title": "成形",
+      "kind": "icon",
+      "category": "04-生産・設備",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/molding.svg",
+      "preview_path": "assets/icon/molding.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/molding.json",
+      "sha256": "a0f3a65cbab64b766dffc1ea1b913302d9a29dcfe276d5ccfea75687bd3cf345",
+      "size_bytes": 1374,
+      "keywords": [
+        "成形",
+        "金型",
+        "型",
+        "成型",
+        "molding",
+        "forming",
+        "mold"
+      ],
+      "use_case": "型を用いて材料に形を与える工程を示す。",
+      "message": "金型の内側の形を製品に写す。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/preventive-maintenance",
+      "title": "計画保全",
+      "kind": "icon",
+      "category": "04-生産・設備",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/preventive-maintenance.svg",
+      "preview_path": "assets/icon/preventive-maintenance.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/preventive-maintenance.json",
+      "sha256": "ece8fdd1926bbb651ca212570131f9b6492b10b128aee84f67f2c956273811ac",
+      "size_bytes": 856,
+      "keywords": [
+        "保全",
+        "保守",
+        "点検",
+        "定期",
+        "予防",
+        "maintenance",
+        "planned",
+        "preventive"
+      ],
+      "use_case": "設備の定期点検や計画保全を示す。",
+      "message": "故障前に時期を決めて設備を手入れする。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/process-cooling",
+      "title": "工程の冷却",
+      "kind": "icon",
+      "category": "04-生産・設備",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/process-cooling.svg",
+      "preview_path": "assets/icon/process-cooling.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/process-cooling.json",
+      "sha256": "cace451650f2c41b256051049f660c7391467f2e795defeccf4eab659ef6bca4",
+      "size_bytes": 712,
+      "keywords": [
+        "冷却",
+        "冷やす",
+        "熱",
+        "除去",
+        "cooling",
+        "chilling",
+        "thermal"
+      ],
+      "use_case": "加工物や材料の熱を下げる工程を示す。",
+      "message": "対象から熱を取り除く。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/process-heating",
+      "title": "工程の加熱",
+      "kind": "icon",
+      "category": "04-生産・設備",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/process-heating.svg",
+      "preview_path": "assets/icon/process-heating.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/process-heating.json",
+      "sha256": "2fda1daa79b42a660d465b8a2cde086c577e0c6904668bda1c661d38821629c1",
+      "size_bytes": 1003,
+      "keywords": [
+        "加熱",
+        "熱",
+        "処理",
+        "温める",
+        "heating",
+        "thermal",
+        "process"
+      ],
+      "use_case": "材料へ熱を加える処理を示す。",
+      "message": "対象へ熱を与えて状態を変える。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/spare-parts",
+      "title": "交換部品",
+      "kind": "icon",
+      "category": "04-生産・設備",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/spare-parts.svg",
+      "preview_path": "assets/icon/spare-parts.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/spare-parts.json",
+      "sha256": "980dd35e5cb85d9d7f80e8d221667a0694f7a116d9457b606683d05b0f1d1060",
+      "size_bytes": 1176,
+      "keywords": [
+        "交換部品",
+        "予備品",
+        "修理",
+        "スペア",
+        "保守",
+        "spare",
+        "parts",
+        "replacement"
+      ],
+      "use_case": "交換部品や予備品の準備を示す。",
+      "message": "故障時に取り替えられる部品を用意する。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/standard-work",
+      "title": "標準作業",
+      "kind": "icon",
+      "category": "04-生産・設備",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/standard-work.svg",
+      "preview_path": "assets/icon/standard-work.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/standard-work.json",
+      "sha256": "f6a21fdcd7f1a9c2f8dcf446591f5eb5310a3947dc69268abf68da0bfb09a6a3",
+      "size_bytes": 1601,
+      "keywords": [
+        "標準",
+        "手順",
+        "作業標準",
+        "作業票",
+        "standard",
+        "work",
+        "procedure"
+      ],
+      "use_case": "作業標準や共通の手順を紹介する。",
+      "message": "決めた順序で同じ作業を再現する。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/surface-finishing",
+      "title": "表面仕上げ",
+      "kind": "icon",
+      "category": "04-生産・設備",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/surface-finishing.svg",
+      "preview_path": "assets/icon/surface-finishing.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/surface-finishing.json",
+      "sha256": "81a9a5183d4a263297755705c5b68cbb1a399868dcd0cc29cee61c76c6956932",
+      "size_bytes": 932,
+      "keywords": [
+        "仕上げ",
+        "研磨",
+        "平滑",
+        "表面",
+        "polishing",
+        "finishing",
+        "surface"
+      ],
+      "use_case": "表面を整える研磨や仕上げ工程を示す。",
+      "message": "工具を接触させて表面を整える。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/temperature-control",
+      "title": "温度管理",
+      "kind": "icon",
+      "category": "04-生産・設備",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/temperature-control.svg",
+      "preview_path": "assets/icon/temperature-control.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/temperature-control.json",
+      "sha256": "21926a3028852869b3abd10c7fc289ec0d3855bf2405a67a6393bf7ddb1e23fe",
+      "size_bytes": 1318,
+      "keywords": [
+        "温度",
+        "管理",
+        "加熱",
+        "冷却",
+        "計測",
+        "temperature",
+        "thermal",
+        "control"
+      ],
+      "use_case": "保管温度や工程温度の管理を示す。",
+      "message": "温度を確認して適切な範囲に保つ。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/tooling-changeover",
+      "title": "段取り替え",
+      "kind": "icon",
+      "category": "04-生産・設備",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/tooling-changeover.svg",
+      "preview_path": "assets/icon/tooling-changeover.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/tooling-changeover.json",
+      "sha256": "100ecf5b592f0c286a39dc4a20aaaf10c51852aedb1da3e53b4e8db684fa3156",
+      "size_bytes": 1502,
+      "keywords": [
+        "段取り",
+        "金型",
+        "治具",
+        "切替",
+        "交換",
+        "setup",
+        "changeover",
+        "tooling"
+      ],
+      "use_case": "製品切替時の金型や治具の段取り替えを示す。",
+      "message": "工程に使う道具を次の製品に合わせて入れ替える。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/vibration-monitoring",
+      "title": "振動監視",
+      "kind": "icon",
+      "category": "04-生産・設備",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/vibration-monitoring.svg",
+      "preview_path": "assets/icon/vibration-monitoring.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/vibration-monitoring.json",
+      "sha256": "a89a52e1ce753357476db276ccd54f46f0ba8cf9f86116bb2bb6abbfed40e11b",
+      "size_bytes": 1014,
+      "keywords": [
+        "振動",
+        "監視",
+        "状態",
+        "設備",
+        "予兆",
+        "vibration",
+        "monitoring",
+        "condition"
+      ],
+      "use_case": "回転機器などの状態監視を示す。",
+      "message": "設備から発生する振動の変化を確認する。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/weighing",
+      "title": "計量",
+      "kind": "icon",
+      "category": "04-生産・設備",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/weighing.svg",
+      "preview_path": "assets/icon/weighing.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/weighing.json",
+      "sha256": "996108a03e61cad4736ce1cc606129e955d6bacec2c77a17a51b271cf585a54d",
+      "size_bytes": 1033,
+      "keywords": [
+        "計量",
+        "重量",
+        "重さ",
+        "秤",
+        "weighing",
+        "mass",
+        "scale"
+      ],
+      "use_case": "投入量や製品重量を確かめる工程を示す。",
+      "message": "対象の重さを量る。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/welding",
+      "title": "溶接",
+      "kind": "icon",
+      "category": "04-生産・設備",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/welding.svg",
+      "preview_path": "assets/icon/welding.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/welding.json",
+      "sha256": "68024ecc295c71f057a149e0cb82a8686c24c936037a1b6a55aad1ebe89bc906",
+      "size_bytes": 1122,
+      "keywords": [
+        "溶接",
+        "接合",
+        "金属",
+        "継手",
+        "welding",
+        "joining",
+        "metal"
+      ],
+      "use_case": "金属の部材を接合する工程や技能を紹介する。",
+      "message": "二つの部材を継ぎ目で接合する。",
+      "sample_data": false
+    },
+    {
+      "id": "illustration/assembly-work",
+      "title": "部品を組み立てる",
+      "kind": "illustration",
+      "category": "04-生産・設備",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1254,
+      "height": 1254,
+      "canvas": {
+        "width": 1254,
+        "height": 1254
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/assembly-work.png",
+      "preview_path": "previews/illustration/assembly-work.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/assembly-work.json",
+      "sha256": "979fd7d81e264db6184185e0575dd8f97666e9b63b805bb04b13947cb5cb4795",
+      "size_bytes": 911408,
+      "keywords": [
+        "組立",
+        "製造",
+        "作業",
+        "生産",
+        "assembly",
+        "manufacturing",
+        "production"
+      ],
+      "use_case": "製造工程、組立作業、標準作業の説明。",
+      "message": "部品を正しい位置に合わせ、製品を組み立てる。",
+      "sample_data": false,
+      "composition": {
+        "framing": "waist-up",
+        "facing": "right",
+        "people_count": 1
+      }
+    },
+    {
+      "id": "illustration/cable-management",
+      "title": "配線を整理する",
+      "kind": "illustration",
+      "category": "04-生産・設備",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1254,
+      "height": 1254,
+      "canvas": {
+        "width": 1254,
+        "height": 1254
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/cable-management.png",
+      "preview_path": "previews/illustration/cable-management.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/cable-management.json",
+      "sha256": "38db6da042fceeae2493b0d8b04ff6b88f7c177f5fa77622540373ded948ddf6",
+      "size_bytes": 727598,
+      "keywords": [
+        "配線",
+        "整理",
+        "保守",
+        "ケーブル",
+        "5S",
+        "cable",
+        "management"
+      ],
+      "use_case": "配線整理、保守しやすい環境、足元の整理を説明する。",
+      "message": "ケーブルをまとめ、接続先と経路を追いやすくする。",
+      "sample_data": false,
+      "composition": {
+        "framing": "object",
+        "facing": "front"
+      }
+    },
+    {
+      "id": "illustration/clean-work-surface",
+      "title": "作業面を整えて清潔に保つ",
+      "kind": "illustration",
+      "category": "04-生産・設備",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1536,
+      "height": 1024,
+      "canvas": {
+        "width": 1536,
+        "height": 1024
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/clean-work-surface.png",
+      "preview_path": "previews/illustration/clean-work-surface.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/clean-work-surface.json",
+      "sha256": "1a50e66fc500f1bdbfe280abfac62114ad334914e6aea57f67c5eab1a4780d32",
+      "size_bytes": 1225866,
+      "keywords": [
+        "清掃",
+        "作業台",
+        "衛生",
+        "5S",
+        "cleaning",
+        "work surface"
+      ],
+      "use_case": "作業準備や日常の清掃を説明し、次に使う作業面を拭いて整える場面。",
+      "message": "作業面を拭き、次の仕事に備える。",
+      "sample_data": false,
+      "composition": {
+        "framing": "waist-up",
+        "facing": "down",
+        "people_count": 1
+      }
+    },
+    {
+      "id": "illustration/component-sorting",
+      "title": "部材を種類別に分ける",
+      "kind": "illustration",
+      "category": "04-生産・設備",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1254,
+      "height": 1254,
+      "canvas": {
+        "width": 1254,
+        "height": 1254
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/component-sorting.png",
+      "preview_path": "previews/illustration/component-sorting.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/component-sorting.json",
+      "sha256": "7f459e9dd127350f9eb444b1f39c0db6a39c167a91561b4dfbf9cbe5f856ec99",
+      "size_bytes": 490198,
+      "keywords": [
+        "部材",
+        "部品",
+        "仕分け",
+        "区分",
+        "混入防止",
+        "整理",
+        "種類",
+        "components",
+        "sorting",
+        "separation"
+      ],
+      "use_case": "部材の仕分け、混入防止、作業中の品種別管理を説明する。",
+      "message": "種類の異なる部材を容器ごとに分け、混在を防ぐ。",
+      "sample_data": false,
+      "composition": {
+        "framing": "object",
+        "facing": "front"
+      }
+    },
+    {
+      "id": "illustration/equipment-maintenance",
+      "title": "設備を整備する",
+      "kind": "illustration",
+      "category": "04-生産・設備",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1254,
+      "height": 1254,
+      "canvas": {
+        "width": 1254,
+        "height": 1254
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/equipment-maintenance.png",
+      "preview_path": "previews/illustration/equipment-maintenance.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/equipment-maintenance.json",
+      "sha256": "33d4873c45f273224e509f0ba35e835b63f5de4294fed417558649558619f1da",
+      "size_bytes": 811196,
+      "keywords": [
+        "保全",
+        "整備",
+        "保守",
+        "設備",
+        "maintenance",
+        "equipment",
+        "repair"
+      ],
+      "use_case": "予防保全、日常点検、保守体制の説明。",
+      "message": "設備の状態を確認し、安定稼働を支える。",
+      "sample_data": false,
+      "composition": {
+        "framing": "waist-up",
+        "facing": "left",
+        "people_count": 1
+      }
+    },
+    {
+      "id": "illustration/instructions-and-product",
+      "title": "手順書と実物を対応させる",
+      "kind": "illustration",
+      "category": "04-生産・設備",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1254,
+      "height": 1254,
+      "canvas": {
+        "width": 1254,
+        "height": 1254
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/instructions-and-product.png",
+      "preview_path": "previews/illustration/instructions-and-product.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/instructions-and-product.json",
+      "sha256": "bc8d85bc51e596a534cfd34b6a298a76adbe495c63097be3383fae28b75088c1",
+      "size_bytes": 476169,
+      "keywords": [
+        "手順書",
+        "説明書",
+        "実物",
+        "作業標準",
+        "マニュアル",
+        "instructions",
+        "product manual"
+      ],
+      "use_case": "手順書の整備、標準作業、製品の使い方の説明。",
+      "message": "記載内容と実物を照らし合わせ、理解して扱う。",
+      "sample_data": false,
+      "composition": {
+        "framing": "object",
+        "facing": "front",
+        "people_count": 0
+      }
+    },
+    {
+      "id": "illustration/machine-monitoring",
+      "title": "設備の状態を見守る",
+      "kind": "illustration",
+      "category": "04-生産・設備",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1254,
+      "height": 1254,
+      "canvas": {
+        "width": 1254,
+        "height": 1254
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/machine-monitoring.png",
+      "preview_path": "previews/illustration/machine-monitoring.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/machine-monitoring.json",
+      "sha256": "98fe6a819449cf797aff6400c8e42a692d7f3e36e3acb441a956b96992a49ca4",
+      "size_bytes": 918924,
+      "keywords": [
+        "設備監視",
+        "稼働",
+        "確認",
+        "オペレーター",
+        "monitoring",
+        "operation",
+        "machine"
+      ],
+      "use_case": "設備監視、運転管理、現場の状態把握の説明。",
+      "message": "設備の状態を把握し、安定した稼働を見守る。",
+      "sample_data": false,
+      "composition": {
+        "framing": "waist-up",
+        "facing": "right",
+        "people_count": 1
+      }
+    },
+    {
+      "id": "illustration/material-to-product",
+      "title": "材料から形をつくる",
+      "kind": "illustration",
+      "category": "04-生産・設備",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1254,
+      "height": 1254,
+      "canvas": {
+        "width": 1254,
+        "height": 1254
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/material-to-product.png",
+      "preview_path": "previews/illustration/material-to-product.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/material-to-product.json",
+      "sha256": "2f5531c41eec82cd57a7d455948a86c22e2a167614e883b13e163b2599d3cc6a",
+      "size_bytes": 549816,
+      "keywords": [
+        "材料",
+        "加工",
+        "成形",
+        "製造",
+        "板材",
+        "material to product",
+        "forming"
+      ],
+      "use_case": "加工工程、ものづくり、材料から製品への変換の説明。",
+      "message": "材料に加工を加え、必要な形をつくる。",
+      "sample_data": false,
+      "composition": {
+        "framing": "object",
+        "facing": "front",
+        "people_count": 0
+      }
+    },
+    {
+      "id": "illustration/organized-tool-storage",
+      "title": "工具を定位置へ収める",
+      "kind": "illustration",
+      "category": "04-生産・設備",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1254,
+      "height": 1254,
+      "canvas": {
+        "width": 1254,
+        "height": 1254
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/organized-tool-storage.png",
+      "preview_path": "previews/illustration/organized-tool-storage.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/organized-tool-storage.json",
+      "sha256": "914d2cf021bf767a5965f1857508b0206ba6a08f0a58570527a27f653c102cba",
+      "size_bytes": 999655,
+      "keywords": [
+        "工具",
+        "定位置",
+        "整理",
+        "整頓",
+        "5S",
+        "収納",
+        "tool storage",
+        "organization"
+      ],
+      "use_case": "5S、工具管理、作業準備、使いやすい現場の説明。",
+      "message": "道具ごとの置き場所を決め、すぐ使える状態に整える。",
+      "sample_data": false,
+      "composition": {
+        "framing": "object",
+        "facing": "front",
+        "people_count": 0
+      }
+    },
+    {
+      "id": "illustration/preventive-maintenance",
+      "title": "予定を決めて保全する",
+      "kind": "illustration",
+      "category": "04-生産・設備",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1254,
+      "height": 1254,
+      "canvas": {
+        "width": 1254,
+        "height": 1254
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/preventive-maintenance.png",
+      "preview_path": "previews/illustration/preventive-maintenance.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/preventive-maintenance.json",
+      "sha256": "b4834878ba7c05d8fb066057e8a37d2cf034eb13a65142dc0e44e8339f52515f",
+      "size_bytes": 981886,
+      "keywords": [
+        "定期点検",
+        "予防保全",
+        "点検計画",
+        "設備",
+        "maintenance",
+        "schedule"
+      ],
+      "use_case": "定期点検、予防保全、設備の点検計画を説明する。",
+      "message": "不具合が起きる前に、点検の時期と準備を決める。",
+      "sample_data": false,
+      "composition": {
+        "framing": "object",
+        "facing": "front"
+      }
+    },
+    {
+      "id": "illustration/production-coordination",
+      "title": "作業の段取りを共有する",
+      "kind": "illustration",
+      "category": "04-生産・設備",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1254,
+      "height": 1254,
+      "canvas": {
+        "width": 1254,
+        "height": 1254
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/production-coordination.png",
+      "preview_path": "previews/illustration/production-coordination.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/production-coordination.json",
+      "sha256": "deb076bee0f4efc81e3a18e63481450463117f257bf8c9f13cb2947e0c547380",
+      "size_bytes": 954469,
+      "keywords": [
+        "段取り",
+        "生産",
+        "連携",
+        "調整",
+        "production",
+        "coordination",
+        "planning"
+      ],
+      "use_case": "工程間連携、段取り確認、生産チームの打合せの説明。",
+      "message": "作業の進め方を共有し、次の工程に備える。",
+      "sample_data": false,
+      "composition": {
+        "framing": "waist-up",
+        "facing": "inward",
+        "people_count": 2
+      }
+    },
+    {
+      "id": "illustration/replaceable-module",
+      "title": "交換できる部品で保守する",
+      "kind": "illustration",
+      "category": "04-生産・設備",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1254,
+      "height": 1254,
+      "canvas": {
+        "width": 1254,
+        "height": 1254
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/replaceable-module.png",
+      "preview_path": "previews/illustration/replaceable-module.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/replaceable-module.json",
+      "sha256": "eb2326d277645ec7e1fd80a8bf6df663a7bfb75b1cf1dda55b2703973a32675e",
+      "size_bytes": 514123,
+      "keywords": [
+        "交換",
+        "保守",
+        "モジュール",
+        "部品",
+        "修理",
+        "replaceable module",
+        "serviceability"
+      ],
+      "use_case": "保守しやすい設計、部品交換、製品寿命の説明。",
+      "message": "必要な部品を交換し、製品を使い続けられるようにする。",
+      "sample_data": false,
+      "composition": {
+        "framing": "object",
+        "facing": "front",
+        "people_count": 0
+      }
+    },
+    {
+      "id": "illustration/spare-parts-readiness",
+      "title": "予備部品を備える",
+      "kind": "illustration",
+      "category": "04-生産・設備",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1254,
+      "height": 1254,
+      "canvas": {
+        "width": 1254,
+        "height": 1254
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/spare-parts-readiness.png",
+      "preview_path": "previews/illustration/spare-parts-readiness.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/spare-parts-readiness.json",
+      "sha256": "d2af9a0e6d6c17162f0f7652f080339c112cb218c495620c32b2410c81cc4ac5",
+      "size_bytes": 912109,
+      "keywords": [
+        "予備品",
+        "交換部品",
+        "保全",
+        "備品",
+        "欠品",
+        "spare",
+        "parts"
+      ],
+      "use_case": "消耗品・交換部品の備え、保全体制や欠品への備えを説明する。",
+      "message": "同じ規格の予備部品を、使える状態で用意しておく。",
+      "sample_data": false,
+      "composition": {
+        "framing": "object",
+        "facing": "front"
+      }
+    },
+    {
+      "id": "illustration/workplace-organization",
+      "title": "工具を定位置へ戻す",
+      "kind": "illustration",
+      "category": "04-生産・設備",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1254,
+      "height": 1254,
+      "canvas": {
+        "width": 1254,
+        "height": 1254
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/workplace-organization.png",
+      "preview_path": "previews/illustration/workplace-organization.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/workplace-organization.json",
+      "sha256": "d0c6ac56b6c18801528128114527a5666d7049fc15285db5a2c813de61119dde",
+      "size_bytes": 801133,
+      "keywords": [
+        "整理",
+        "整頓",
+        "5S",
+        "工具",
+        "organization",
+        "workplace",
+        "tools"
+      ],
+      "use_case": "5S活動、作業環境の改善、工具管理の説明。",
+      "message": "道具を定位置へ戻し、使いやすい作業場を保つ。",
+      "sample_data": false,
+      "composition": {
+        "framing": "waist-up",
+        "facing": "right",
+        "people_count": 1
+      }
+    },
+    {
+      "id": "manufacturing/workload-leveling",
+      "title": "仕事の集中を余力のある時期へ分散する",
+      "kind": "diagram",
+      "category": "04-生産・設備",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/manufacturing/workload-leveling.svg",
+      "preview_path": "previews/manufacturing/workload-leveling.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/manufacturing/workload-leveling.json",
+      "sha256": "23db7954d609e18bc2f17e5d0ba3c51c23bbb3721c2e0468a36baa1db05f2394",
+      "size_bytes": 2924,
+      "keywords": [
+        "負荷平準化",
+        "需給",
+        "余力",
+        "能力",
+        "納期",
+        "調整",
+        "capacity",
+        "workload",
+        "leveling"
+      ],
+      "use_case": "処理できる量と納期を確認し、時期を動かせる仕事の集中を解く。",
+      "message": "仕事を無条件に移さず、期限と移動先の処理能力を確認して平準化する。",
+      "sample_data": false,
+      "preview_sha256": "ef3f7b09cbd4786c4cdc1775465ed7f650950ac630bb6fe709bd0f4bb5722c2d"
+    },
+    {
+      "id": "process/bottleneck-bypass",
+      "title": "ボトルネックと負荷の逃がし方",
+      "kind": "diagram",
+      "category": "04-生産・設備",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/process/bottleneck-bypass.svg",
+      "preview_path": "previews/process/bottleneck-bypass.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/process/bottleneck-bypass.json",
+      "sha256": "5bb1d9af2d30af0e2e17ead18ad069f6c82c62eab2bb0cd17f0245264e5007ff",
+      "size_bytes": 3243,
+      "keywords": [
+        "ボトルネック",
+        "待ち行列",
+        "混雑",
+        "負荷分散",
+        "迂回",
+        "処理能力",
+        "業務改善"
+      ],
+      "use_case": "審査や処理の集中に対し、別担当への振り分けを提案する。",
+      "message": "処理の制約に集まる負荷を、別経路で吸収する。",
+      "sample_data": false,
+      "preview_sha256": "322889658921a7d378c04926a744290f5443de4106e464738c987de6fcaefc8d"
+    },
+    {
+      "id": "production/batch-and-piece-flow",
+      "title": "まとめ渡しと一個流しの待ち方を比べる",
+      "kind": "diagram",
+      "category": "04-生産・設備",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/production/batch-and-piece-flow.svg",
+      "preview_path": "previews/production/batch-and-piece-flow.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/production/batch-and-piece-flow.json",
+      "sha256": "d0b0cb9c6cb24c0d198864e8e2b7a507d2c232274f1662979fffe997fc75a203",
+      "size_bytes": 4284,
+      "keywords": [
+        "一個流し",
+        "バッチ",
+        "ロット",
+        "受渡",
+        "待ち",
+        "リードタイム",
+        "batch",
+        "one",
+        "piece",
+        "flow",
+        "transfer"
+      ],
+      "use_case": "工程間の受け渡し量が待ち時間や仕掛に与える違いを説明する。",
+      "message": "同じ処理でも、まとめて渡すか完成ごとに渡すかで後工程の待ちが変わる。",
+      "sample_data": false,
+      "preview_sha256": "45f4680c92f1add6ebf1c46224cc0928e490dd2e7b7e0412cd242b25c4259806"
+    },
+    {
+      "id": "production/constraint-buffer-release",
+      "title": "制約工程を基準に投入と余裕を調整する",
+      "kind": "diagram",
+      "category": "04-生産・設備",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/production/constraint-buffer-release.svg",
+      "preview_path": "previews/production/constraint-buffer-release.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/production/constraint-buffer-release.json",
+      "sha256": "06be8f063f7b980845d576839780175547758d0c49d823f12fed4cb523ed7a63",
+      "size_bytes": 2520,
+      "keywords": [
+        "制約理論",
+        "TOC",
+        "ドラム",
+        "バッファ",
+        "ロープ",
+        "ボトルネック",
+        "投入",
+        "constraint",
+        "drum",
+        "buffer",
+        "rope"
+      ],
+      "use_case": "全体の生産量を左右する工程に合わせて、仕掛と投入を管理する。",
+      "message": "制約工程の前に必要な余裕を持ち、上流の投入を同じペースへ合わせる。",
+      "sample_data": false,
+      "preview_sha256": "5d5df878607baa56069ec0b5da7d08ea961ba7ff7437496b88249751bafc499d"
+    },
+    {
+      "id": "production/equipment-loss-layers",
+      "title": "設備の時間損失を段階に分けて見る",
+      "kind": "diagram",
+      "category": "04-生産・設備",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/production/equipment-loss-layers.svg",
+      "preview_path": "previews/production/equipment-loss-layers.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/production/equipment-loss-layers.json",
+      "sha256": "a3a990327f496e8637c7ffb90e91cca4a1fa98e7e2862461621a11dced57561c",
+      "size_bytes": 1909,
+      "keywords": [
+        "設備効率",
+        "OEE",
+        "稼働",
+        "停止",
+        "速度",
+        "不良",
+        "ロス",
+        "equipment",
+        "effectiveness",
+        "downtime",
+        "speed",
+        "quality",
+        "loss"
+      ],
+      "use_case": "設備改善の会議で、停止・速度低下・不良を分けて優先課題を整理する。",
+      "message": "使える時間から、実際に良品を作る時間までの減少要因を分ける。",
+      "sample_data": false,
+      "preview_sha256": "4bed1e82f44fabd9be09f7aeab9f98dd0981c18566ae4c28aa5ad7d33a89c85d"
+    },
+    {
+      "id": "production/internal-external-setup",
+      "title": "止めて行う段取りと事前準備を分ける",
+      "kind": "diagram",
+      "category": "04-生産・設備",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/production/internal-external-setup.svg",
+      "preview_path": "previews/production/internal-external-setup.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/production/internal-external-setup.json",
+      "sha256": "0e5f4b16a8e28a15c61d51e357dbff6e97dc562f67ef4e68de37bb708e80cf8f",
+      "size_bytes": 1695,
+      "keywords": [
+        "段取り替え",
+        "内段取り",
+        "外段取り",
+        "SMED",
+        "停止時間",
+        "setup",
+        "changeover",
+        "external",
+        "internal"
+      ],
+      "use_case": "品種切替や設備交換の停止時間を短くする考え方を説明する。",
+      "message": "設備を止める必要がある作業だけを停止中に残し、準備は稼働中に進める。",
+      "sample_data": false,
+      "preview_sha256": "5db364937b66c07f233326d073f0b5cf13b59990a882624909e620d2b624200e"
+    },
+    {
+      "id": "production/kanban-pull",
+      "title": "後工程の使用を合図に補充する",
+      "kind": "diagram",
+      "category": "04-生産・設備",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/production/kanban-pull.svg",
+      "preview_path": "previews/production/kanban-pull.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/production/kanban-pull.json",
+      "sha256": "40b510f3971a24dccf94109671d0a6882302a8f97e0b54ae30609669de5ef51c",
+      "size_bytes": 2332,
+      "keywords": [
+        "かんばん",
+        "引取",
+        "補充",
+        "プル生産",
+        "後工程",
+        "kanban",
+        "pull",
+        "replenishment"
+      ],
+      "use_case": "作り過ぎを抑えるため、物の流れと補充指示の流れを分けて説明する。",
+      "message": "後工程が使ったことを前工程へ伝え、必要な分を補充する。",
+      "sample_data": false,
+      "preview_sha256": "f22002b44d64fa86b983eda1eb52341c57276cd0912b751490ef185aa5de3c22"
+    },
+    {
+      "id": "production/line-work-balance",
+      "title": "長い工程の作業を余力のある工程へ分担する",
+      "kind": "diagram",
+      "category": "04-生産・設備",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/production/line-work-balance.svg",
+      "preview_path": "previews/production/line-work-balance.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/production/line-work-balance.json",
+      "sha256": "0b0a0ffb8a258f21c0fda189885c8ca64d4028d3e3f07795f047744eba329b0b",
+      "size_bytes": 2564,
+      "keywords": [
+        "ラインバランス",
+        "作業配分",
+        "工程",
+        "工数",
+        "負荷",
+        "line",
+        "balancing",
+        "workload",
+        "allocation"
+      ],
+      "use_case": "ライン設計で、工程ごとの作業量と再配分できる範囲を共有する。",
+      "message": "長い工程だけを急がせず、作業を分けて全体の処理ペースをそろえる。",
+      "sample_data": false,
+      "preview_sha256": "ef6f16ecc89681109bf6a2ed0fe77a8d7b217b2bbfb07e8fb6110a804523a72a"
+    },
+    {
+      "id": "production/maintenance-window",
+      "title": "保全のための停止枠と復帰条件を確保する",
+      "kind": "diagram",
+      "category": "04-生産・設備",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/production/maintenance-window.svg",
+      "preview_path": "previews/production/maintenance-window.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/production/maintenance-window.json",
+      "sha256": "7c71dc999f2c5a14b7eb306ca5d0e3659ed4f8f4b36793b09ff5b3a28ed415ef",
+      "size_bytes": 1558,
+      "keywords": [
+        "計画保全",
+        "停止計画",
+        "定修",
+        "保全窓",
+        "再開",
+        "maintenance",
+        "shutdown",
+        "window",
+        "restart"
+      ],
+      "use_case": "計画保全を生産計画へ組み込み、停止前後に必要な準備を共有する。",
+      "message": "保全作業の時間だけでなく、停止前の準備と再開前の確認を計画する。",
+      "sample_data": false,
+      "preview_sha256": "767d1f196327bd6f9e7fc11910f9c3ce07f0c42141303178b74b5f296f3574fa"
+    },
+    {
+      "id": "production/skill-capacity-coverage",
+      "title": "工程に対応できる人材と不足を見渡す",
+      "kind": "diagram",
+      "category": "04-生産・設備",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/production/skill-capacity-coverage.svg",
+      "preview_path": "previews/production/skill-capacity-coverage.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/production/skill-capacity-coverage.json",
+      "sha256": "b2f6858db6ce762831567eaeeb4a201876424fc0556a2de86f7a28ca06a80eeb",
+      "size_bytes": 3126,
+      "keywords": [
+        "多能工",
+        "技能",
+        "要員",
+        "能力",
+        "工程",
+        "配置",
+        "capacity",
+        "skills",
+        "cross",
+        "training",
+        "coverage"
+      ],
+      "use_case": "生産要員の計画で、人数と技能の組み合わせを確認する。",
+      "message": "人数の合計だけでなく、各工程を担当できる人と不足している技能を確認する。",
+      "sample_data": false,
+      "preview_sha256": "1d0bac782dfd97c771f0aad46db696b3b2b8f3baf37ceda67ec9b654ee553301"
+    },
+    {
+      "id": "production/takt-alignment",
+      "title": "必要な間隔と完成する間隔を合わせる",
+      "kind": "diagram",
+      "category": "04-生産・設備",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/production/takt-alignment.svg",
+      "preview_path": "previews/production/takt-alignment.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/production/takt-alignment.json",
+      "sha256": "45c8e546a23a184063388ad9236c9bae431691ae32f1af42fb1a4acbea585f2d",
+      "size_bytes": 3290,
+      "keywords": [
+        "タクトタイム",
+        "サイクルタイム",
+        "需要",
+        "ペース",
+        "生産",
+        "takt",
+        "cycle",
+        "time",
+        "production",
+        "rhythm"
+      ],
+      "use_case": "生産計画で、顧客の需要から工程の目標ペースを考える。",
+      "message": "必要な数を必要な間隔で届けられるよう、需要のペースと工程のペースを照合する。",
+      "sample_data": false,
+      "preview_sha256": "148e1abed94e810a16bc599afb6195c998b559cf454a76aa142be9d491e82403"
+    },
+    {
+      "id": "production/wip-limit",
+      "title": "着手中の量を決めて仕事の滞留を抑える",
+      "kind": "diagram",
+      "category": "04-生産・設備",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/production/wip-limit.svg",
+      "preview_path": "previews/production/wip-limit.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/production/wip-limit.json",
+      "sha256": "15461f9e93e7730719385c8d24f149bbae612d7cb4722f4f236cf3932deec1ad",
+      "size_bytes": 3062,
+      "keywords": [
+        "仕掛",
+        "上限",
+        "WIP",
+        "滞留",
+        "着手制限",
+        "カンバン",
+        "work",
+        "in",
+        "progress",
+        "limit",
+        "flow"
+      ],
+      "use_case": "作業の掛け持ちや仕掛品の増加を抑える運用を説明する。",
+      "message": "進行中の枠が空いてから次の仕事を始め、着手し過ぎを抑える。",
+      "sample_data": false,
+      "preview_sha256": "80215ac9c20cf3b98a81cf1056ec3d455151a10d665a3e6df70260083e0767cb"
+    }
+  ]
+}

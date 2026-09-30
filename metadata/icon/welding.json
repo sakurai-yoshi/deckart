@@ -1,0 +1,49 @@
+{
+  "title": "溶接",
+  "description": "二つの部材を継ぎ目で接合する。",
+  "keywords": [
+    "溶接",
+    "接合",
+    "金属",
+    "継手",
+    "welding",
+    "joining",
+    "metal"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "金属の部材を接合する工程や技能を紹介する。",
+    "message": "二つの部材を継ぎ目で接合する。",
+    "reading": [
+      "上のトーチが継ぎ目に向く。",
+      "中央の溶融部と周囲の光が接合作業を表す。"
+    ]
+  },
+  "category": "04-生産・設備",
+  "schema_version": 3,
+  "id": "icon/welding",
+  "name": "溶接_工程と対象",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/welding.svg",
+  "metadata_path": "metadata/icon/welding.json",
+  "preview_path": "assets/icon/welding.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/welding\n溶接_工程と対象\n溶接\n金属の部材を接合する工程や技能を紹介する。\n二つの部材を継ぎ目で接合する。\n上のトーチが継ぎ目に向く。\n中央の溶融部と周囲の光が接合作業を表す。\n溶接 接合 金属 継手 welding joining metal",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "68024ecc295c71f057a149e0cb82a8686c24c936037a1b6a55aad1ebe89bc906",
+  "size_bytes": 1122
+}

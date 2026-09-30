@@ -1,0 +1,149 @@
+{
+  "title": "共同実践で判断理由まで引き継ぐ",
+  "description": "手順書を渡すだけでなく、一緒に実践し判断の理由と例外への対応を確かめる。",
+  "keywords": [
+    "技能伝承",
+    "暗黙知",
+    "引継ぎ",
+    "熟練",
+    "ナレッジ",
+    "knowledge",
+    "transfer",
+    "tacit",
+    "handover",
+    "mentoring"
+  ],
+  "labels": [
+    {
+      "x": 111,
+      "y": 181,
+      "width": 251,
+      "height": 59,
+      "text": "経験を持つ人",
+      "role": "伝える側",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-1",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 8
+    },
+    {
+      "x": 849,
+      "y": 495,
+      "width": 233,
+      "height": 59,
+      "text": "引き継ぐ人",
+      "role": "受け取る側",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-2",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 8
+    },
+    {
+      "x": 389,
+      "y": 332,
+      "width": 402,
+      "height": 66,
+      "text": "一緒に行い、判断理由を言葉にする",
+      "role": "共同実践",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-3",
+      "font_size": 23.115,
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 16
+    },
+    {
+      "x": 574,
+      "y": 165,
+      "width": 444,
+      "height": 79,
+      "text": "手順にない気づき・例外の判断",
+      "role": "説明",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-4",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 15
+    },
+    {
+      "x": 96,
+      "y": 495,
+      "width": 410,
+      "height": 63,
+      "text": "再現して、不明点を確かめる",
+      "role": "説明",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-5",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 14
+    },
+    {
+      "x": 455,
+      "y": 600,
+      "width": 420,
+      "height": 51,
+      "text": "できたかを双方で確認",
+      "role": "説明",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-6",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 14
+    }
+  ],
+  "width": 1200,
+  "height": 720,
+  "kind": "diagram",
+  "guidance": {
+    "use_case": "業務の引継ぎや熟練技能の継承で、文書にない判断を共有する。",
+    "message": "手順書を渡すだけでなく、一緒に実践し判断の理由と例外への対応を確かめる。",
+    "reading": [
+      "上段が経験を持つ側、下段が引き継ぐ側。",
+      "中央の共同行為が判断理由を言葉にする場。",
+      "下の戻り線で受け手が再現できたかを確認する。"
+    ]
+  },
+  "layout": {
+    "relation": "joint-practice-knowledge-transfer",
+    "reading_direction": "left-to-right"
+  },
+  "category": "09-組織・人材",
+  "schema_version": 3,
+  "id": "people/knowledge-handover",
+  "name": "共同実践で判断理由まで引き継ぐ_業務の関係を示す図解",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1200,
+    "height": 720
+  },
+  "path": "assets/people/knowledge-handover.svg",
+  "metadata_path": "metadata/people/knowledge-handover.json",
+  "preview_path": "previews/people/knowledge-handover.svg",
+  "preview_has_example_labels": true,
+  "search_text": "people/knowledge-handover\n共同実践で判断理由まで引き継ぐ_業務の関係を示す図解\n共同実践で判断理由まで引き継ぐ\n業務の引継ぎや熟練技能の継承で、文書にない判断を共有する。\n手順書を渡すだけでなく、一緒に実践し判断の理由と例外への対応を確かめる。\n上段が経験を持つ側、下段が引き継ぐ側。\n中央の共同行為が判断理由を言葉にする場。\n下の戻り線で受け手が再現できたかを確認する。\n技能伝承 暗黙知 引継ぎ 熟練 ナレッジ knowledge transfer tacit handover mentoring",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "4e809cf099ca37a4205595f13f22bae0ccf9f5f140181299d9698b4071f4790d",
+  "size_bytes": 1408,
+  "preview_sha256": "3e8bb7395c3798a3cb69ea9212a4bc6bd3c3b90ff79b287efdaf63f7eae01394"
+}

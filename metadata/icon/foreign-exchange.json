@@ -1,0 +1,50 @@
+{
+  "title": "為替",
+  "description": "通貨を交換し価値を換算する。",
+  "keywords": [
+    "為替",
+    "通貨",
+    "外貨",
+    "交換",
+    "currency",
+    "foreign",
+    "exchange",
+    "conversion"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "異なる通貨の換算や為替の影響を説明する。",
+    "message": "通貨を交換し価値を換算する。",
+    "reading": [
+      "異なる通貨の記号が換算する二つの通貨を表す。",
+      "逆向きの経路が双方向の交換を示す。"
+    ]
+  },
+  "category": "11-会計・収益",
+  "schema_version": 3,
+  "id": "icon/foreign-exchange",
+  "name": "為替_仕事と関係",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/foreign-exchange.svg",
+  "metadata_path": "metadata/icon/foreign-exchange.json",
+  "preview_path": "assets/icon/foreign-exchange.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/foreign-exchange\n為替_仕事と関係\n為替\n異なる通貨の換算や為替の影響を説明する。\n通貨を交換し価値を換算する。\n異なる通貨の記号が換算する二つの通貨を表す。\n逆向きの経路が双方向の交換を示す。\n為替 通貨 外貨 交換 currency foreign exchange conversion",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "1c73812ec36b7d3962d4dbb13b96b42dd81877ef90a3e955c93d3d3536e2e6cd",
+  "size_bytes": 1328
+}

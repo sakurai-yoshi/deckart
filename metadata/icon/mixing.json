@@ -1,0 +1,49 @@
+{
+  "title": "混合",
+  "description": "複数の原料を均一に混ぜる。",
+  "keywords": [
+    "混合",
+    "撹拌",
+    "配合",
+    "材料",
+    "mixing",
+    "blending",
+    "agitation"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "原料を混ぜ合わせる工程を示す。",
+    "message": "複数の原料を均一に混ぜる。",
+    "reading": [
+      "容器内の液面と撹拌羽根が混合を表す。",
+      "軸の周りの矢印が撹拌の回転を示す。"
+    ]
+  },
+  "category": "04-生産・設備",
+  "schema_version": 3,
+  "id": "icon/mixing",
+  "name": "混合_工程と対象",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/mixing.svg",
+  "metadata_path": "metadata/icon/mixing.json",
+  "preview_path": "assets/icon/mixing.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/mixing\n混合_工程と対象\n混合\n原料を混ぜ合わせる工程を示す。\n複数の原料を均一に混ぜる。\n容器内の液面と撹拌羽根が混合を表す。\n軸の周りの矢印が撹拌の回転を示す。\n混合 撹拌 配合 材料 mixing blending agitation",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "613fe8f1b6dd97d03f94d53251b6e77f28538fbe520d8d7a24a20e109f89ec78",
+  "size_bytes": 1050
+}

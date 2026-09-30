@@ -1,0 +1,120 @@
+{
+  "title": "まとめ渡しと一個流しの待ち方を比べる",
+  "description": "同じ処理でも、まとめて渡すか完成ごとに渡すかで後工程の待ちが変わる。",
+  "keywords": [
+    "一個流し",
+    "バッチ",
+    "ロット",
+    "受渡",
+    "待ち",
+    "リードタイム",
+    "batch",
+    "one",
+    "piece",
+    "flow",
+    "transfer"
+  ],
+  "labels": [
+    {
+      "x": 82,
+      "y": 79,
+      "width": 281,
+      "height": 64,
+      "text": "まとめて渡す",
+      "role": "説明",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-1",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 9
+    },
+    {
+      "x": 82,
+      "y": 398,
+      "width": 281,
+      "height": 64,
+      "text": "一つずつ渡す",
+      "role": "説明",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-2",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 9
+    },
+    {
+      "x": 364,
+      "y": 290,
+      "width": 412,
+      "height": 70,
+      "text": "全部そろうまで次が待つ",
+      "role": "説明",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-3",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 14
+    },
+    {
+      "x": 610,
+      "y": 600,
+      "width": 482,
+      "height": 69,
+      "text": "完成したものから先へ渡す",
+      "role": "説明",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-4",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 16
+    }
+  ],
+  "width": 1200,
+  "height": 720,
+  "kind": "diagram",
+  "guidance": {
+    "use_case": "工程間の受け渡し量が待ち時間や仕掛に与える違いを説明する。",
+    "message": "同じ処理でも、まとめて渡すか完成ごとに渡すかで後工程の待ちが変わる。",
+    "reading": [
+      "上段は一つの工程にまとまった処理対象がたまる。",
+      "下段は対象が工程間に順に流れる。",
+      "丸が工程、四角が対象で、矢印は同じ進行方向。"
+    ]
+  },
+  "layout": {
+    "relation": "batch-versus-piece-transfer",
+    "reading_direction": "left-to-right"
+  },
+  "category": "04-生産・設備",
+  "schema_version": 3,
+  "id": "production/batch-and-piece-flow",
+  "name": "まとめ渡しと一個流しの待ち方を比べる_業務の関係を示す図解",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1200,
+    "height": 720
+  },
+  "path": "assets/production/batch-and-piece-flow.svg",
+  "metadata_path": "metadata/production/batch-and-piece-flow.json",
+  "preview_path": "previews/production/batch-and-piece-flow.svg",
+  "preview_has_example_labels": true,
+  "search_text": "production/batch-and-piece-flow\nまとめ渡しと一個流しの待ち方を比べる_業務の関係を示す図解\nまとめ渡しと一個流しの待ち方を比べる\n工程間の受け渡し量が待ち時間や仕掛に与える違いを説明する。\n同じ処理でも、まとめて渡すか完成ごとに渡すかで後工程の待ちが変わる。\n上段は一つの工程にまとまった処理対象がたまる。\n下段は対象が工程間に順に流れる。\n丸が工程、四角が対象で、矢印は同じ進行方向。\n一個流し バッチ ロット 受渡 待ち リードタイム batch one piece flow transfer",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "d0b0cb9c6cb24c0d198864e8e2b7a507d2c232274f1662979fffe997fc75a203",
+  "size_bytes": 4284,
+  "preview_sha256": "45f4680c92f1add6ebf1c46224cc0928e490dd2e7b7e0412cd242b25c4259806"
+}

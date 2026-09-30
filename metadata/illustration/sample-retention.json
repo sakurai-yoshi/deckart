@@ -1,6 +1,5 @@
 {
   "kind": "illustration",
-  "category": "06-業務イラスト",
   "labels": [],
   "preview_path": "previews/illustration/sample-retention.png",
   "composition": {
@@ -38,6 +37,7 @@
     "width": 1254,
     "height": 1254
   },
+  "category": "03-品質・改善",
   "schema_version": 3,
   "id": "illustration/sample-retention",
   "name": "見本を保管する_業務イラスト",

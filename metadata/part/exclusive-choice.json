@@ -1,0 +1,97 @@
+{
+  "title": "同時に選ばない選択肢を区別する",
+  "description": "両方を同時に実行するのではなく、どちらかを選ぶ。",
+  "keywords": [
+    "排他",
+    "選択",
+    "肢",
+    "方針",
+    "分岐",
+    "XOR",
+    "mutually",
+    "exclusive",
+    "choice"
+  ],
+  "labels": [
+    {
+      "x": 54,
+      "y": 135,
+      "width": 246,
+      "height": 95,
+      "text": "いずれかを\n選ぶ",
+      "role": "選択条件",
+      "align": "center",
+      "color": "#FFFFFF",
+      "font_size": 31,
+      "id": "label-1",
+      "color_role": "paper",
+      "max_lines": 2,
+      "max_fullwidth_chars": 7
+    },
+    {
+      "x": 616,
+      "y": 49,
+      "width": 449,
+      "height": 74,
+      "text": "選択した方針",
+      "role": "選択",
+      "align": "left",
+      "color": "#2864F0",
+      "font_size": 33,
+      "id": "label-2",
+      "color_role": "accent",
+      "max_lines": 1,
+      "max_fullwidth_chars": 12
+    },
+    {
+      "x": 616,
+      "y": 248,
+      "width": 449,
+      "height": 74,
+      "text": "同時には採用しない方針",
+      "role": "非選択",
+      "align": "left",
+      "color": "#607590",
+      "font_size": 28,
+      "id": "label-3",
+      "color_role": "muted",
+      "max_lines": 1,
+      "max_fullwidth_chars": 15
+    }
+  ],
+  "width": 1120,
+  "height": 380,
+  "kind": "part",
+  "guidance": {
+    "use_case": "方針や運用方式のうち、一つを選んで進める場面を説明する。",
+    "message": "両方を同時に実行するのではなく、どちらかを選ぶ。",
+    "reading": [
+      "塗った丸が選択、空の丸が非選択を示す。"
+    ]
+  },
+  "category": "13-説明・伝達",
+  "schema_version": 3,
+  "id": "part/exclusive-choice",
+  "name": "同時に選ばない選択肢を区別する_説明パーツ",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1120,
+    "height": 380
+  },
+  "path": "assets/part/exclusive-choice.svg",
+  "metadata_path": "metadata/part/exclusive-choice.json",
+  "preview_path": "previews/part/exclusive-choice.svg",
+  "preview_has_example_labels": true,
+  "search_text": "part/exclusive-choice\n同時に選ばない選択肢を区別する_説明パーツ\n同時に選ばない選択肢を区別する\n方針や運用方式のうち、一つを選んで進める場面を説明する。\n両方を同時に実行するのではなく、どちらかを選ぶ。\n塗った丸が選択、空の丸が非選択を示す。\n排他 選択 肢 方針 分岐 XOR mutually exclusive choice",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "4c4e9032d925d3d8f044b55e16a493fb74bbdfc87552ef118728503869e672ba",
+  "size_bytes": 1168,
+  "preview_sha256": "f9bb5d234e7ca8581f6108a78769156567b0fa10169f2c475532e49d252b5a5c"
+}

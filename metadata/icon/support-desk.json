@@ -1,51 +1,52 @@
 {
-  "category": "08-アイコンとピクトグラム",
   "title": "相談に応える窓口",
-  "description": "問い合わせを受け、回答まで伴走する顧客サポートを示す。",
+  "description": "相談を受けて回答を返す。",
   "keywords": [
-    "顧客対応",
-    "相談",
-    "問い合わせ",
-    "カスタマーサポート",
     "窓口",
+    "相談",
+    "回答",
+    "受付",
     "ヘルプデスク",
-    "customer",
+    "helpdesk",
+    "inquiry",
+    "answer",
     "support",
-    "helpdesk"
+    "desk"
   ],
   "labels": [],
-  "width": 330,
-  "height": 280,
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
   "guidance": {
-    "use_case": "顧客窓口や社内ヘルプデスクを紹介する場面。",
-    "message": "問い合わせを受け、回答まで支える。",
+    "use_case": "問い合わせの受付と回答を担う窓口を紹介する。",
+    "message": "相談を受けて回答を返す。",
     "reading": [
-      "ヘッドセットを着けた担当者が相談窓口を表す。",
-      "回答の吹き出しとチェックが応答・解決を表す。"
+      "ヘッドセットを着けた担当者が受付窓口を表す。",
+      "内容のある吹き出しが返す回答を示す。"
     ]
   },
-  "kind": "icon",
+  "category": "10-顧客・営業",
   "schema_version": 3,
   "id": "icon/support-desk",
-  "name": "顧客対応_相談サポート_応答する窓口",
+  "name": "相談に応える窓口_業務の象徴",
   "license": "CC0-1.0",
   "format": "svg",
   "mime_type": "image/svg+xml",
   "transparent": null,
   "canvas": {
-    "width": 330,
-    "height": 280
+    "width": 160,
+    "height": 160
   },
   "path": "assets/icon/support-desk.svg",
   "metadata_path": "metadata/icon/support-desk.json",
   "preview_path": "assets/icon/support-desk.svg",
   "preview_has_example_labels": false,
-  "search_text": "icon/support-desk\n顧客対応_相談サポート_応答する窓口\n相談に応える窓口\n顧客窓口や社内ヘルプデスクを紹介する場面。\n問い合わせを受け、回答まで支える。\nヘッドセットを着けた担当者が相談窓口を表す。\n回答の吹き出しとチェックが応答・解決を表す。\n顧客対応 相談 問い合わせ カスタマーサポート 窓口 ヘルプデスク customer support helpdesk",
+  "search_text": "icon/support-desk\n相談に応える窓口_業務の象徴\n相談に応える窓口\n問い合わせの受付と回答を担う窓口を紹介する。\n相談を受けて回答を返す。\nヘッドセットを着けた担当者が受付窓口を表す。\n内容のある吹き出しが返す回答を示す。\n窓口 相談 回答 受付 ヘルプデスク helpdesk inquiry answer support desk",
   "render": {
     "theme": true,
     "labels": false,
     "data": false
   },
-  "sha256": "8e5327d576cbf7ea41f227ce3722e09cc568bfd711331b0820f148060e00a087",
-  "size_bytes": 4201
+  "sha256": "e0f7859f5f1abb9aedea968e3e51d9440805f0ab3750431d1ea62b00b507ac69",
+  "size_bytes": 1822
 }

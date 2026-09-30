@@ -1,5 +1,4 @@
 {
-  "category": "08-アイコンとピクトグラム",
   "title": "配送",
   "description": "荷物を目的地へ運ぶ配送を示す。",
   "keywords": [
@@ -25,6 +24,7 @@
       "車輪と前方の窓が移動する向きを示す。"
     ]
   },
+  "category": "05-調達・物流",
   "schema_version": 3,
   "id": "icon/delivery",
   "name": "配送管理_荷物を届ける_配送トラック",

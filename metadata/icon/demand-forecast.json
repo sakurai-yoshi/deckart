@@ -1,0 +1,51 @@
+{
+  "title": "需要予測",
+  "description": "実績の先にある需要を見積もる。",
+  "keywords": [
+    "需要",
+    "予測",
+    "見通し",
+    "販売",
+    "計画",
+    "demand",
+    "forecast",
+    "projection",
+    "outlook"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "これからの販売や必要量の見通しを説明する。",
+    "message": "実績の先にある需要を見積もる。",
+    "reading": [
+      "実線が得られた実績を表す。",
+      "先へ続く破線が将来の予測を表す。"
+    ]
+  },
+  "category": "10-顧客・営業",
+  "schema_version": 3,
+  "id": "icon/demand-forecast",
+  "name": "需要予測_仕事と関係",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/demand-forecast.svg",
+  "metadata_path": "metadata/icon/demand-forecast.json",
+  "preview_path": "assets/icon/demand-forecast.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/demand-forecast\n需要予測_仕事と関係\n需要予測\nこれからの販売や必要量の見通しを説明する。\n実績の先にある需要を見積もる。\n実線が得られた実績を表す。\n先へ続く破線が将来の予測を表す。\n需要 予測 見通し 販売 計画 demand forecast projection outlook",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "ef48064cb14db8522a22b841ab0a18e9e6b3251a4c5e42377e5cdba37b8de275",
+  "size_bytes": 1025
+}

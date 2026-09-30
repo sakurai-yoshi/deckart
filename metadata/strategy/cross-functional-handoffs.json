@@ -1,5 +1,4 @@
 {
-  "category": "05-組織と戦略",
   "title": "部門を越えて責任を引き継ぐ",
   "description": "一つの仕事が部門を越えるとき、責任を受け渡す場所と条件を明確にする。",
   "keywords": [
@@ -102,6 +101,7 @@
     ]
   },
   "kind": "diagram",
+  "category": "09-組織・人材",
   "schema_version": 3,
   "id": "strategy/cross-functional-handoffs",
   "name": "組織運営_責任範囲と部門横断業務_境界を越える実行",
@@ -124,5 +124,6 @@
     "data": false
   },
   "sha256": "16bee1d86aba75ecbc6b294595dc413173d641539ec0b9b44b1e0a7bdddd2121",
-  "size_bytes": 2761
+  "size_bytes": 2761,
+  "preview_sha256": "a6eb7d6b05f32135ed13c3378d652eecfa10a4632e917c264e22a53ef822fe23"
 }

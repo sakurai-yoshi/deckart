@@ -1,5 +1,4 @@
 {
-  "category": "08-アイコンとピクトグラム",
   "title": "耐荷重",
   "description": "支える面にかかる重量を扱う。",
   "keywords": [
@@ -24,6 +23,7 @@
       "左右の下向き矢印が荷重の向きを示す。"
     ]
   },
+  "category": "04-生産・設備",
   "schema_version": 3,
   "id": "icon/load-capacity",
   "name": "耐荷重_製造業務の記号",
