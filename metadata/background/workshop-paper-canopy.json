@@ -1,73 +1,38 @@
 {
-  "title": "紙のひさしの下に議論を広げる背景",
-  "description": "上部の折り紙の構造をアクセントに、下の広い白地へ検討内容を横に展開する。",
+  "title": "上端に連なる白と青の折り紙",
+  "description": "上端の白い折り紙の曲面に青い裏面が見え、その下へ白い面が広がる。",
   "kind": "background",
   "category": "11-背景とフレーム",
   "width": 1672,
   "height": 941,
   "keywords": [
+    "背景",
+    "白",
+    "青",
+    "余白",
+    "質感",
+    "background",
+    "紙",
+    "折り目",
+    "曲面",
+    "上装飾",
+    "下余白",
+    "本文",
+    "比較",
     "議論",
-    "検討",
-    "ワークショップ",
-    "課題整理",
-    "論点整理",
-    "アイデア",
-    "workshop",
-    "discussion",
-    "question"
+    "paper",
+    "canopy",
+    "discussion"
   ],
   "guidance": {
-    "use_case": "検討会やワークショップで、共通の問いと複数の検討項目を提示する本文。",
-    "message": "同じ問いに対する論点を横並びで比較し、議論を促す。",
+    "use_case": "議論、検討、説明、比較など。",
+    "message": "紙の折り重なりで、軽やかな奥行きを添える。",
     "reading": [
-      "折り紙の下に共通の問いを置き、その下の広い領域に論点を並べる。",
-      "紙の折り目は項目の境界に使わず、項目数は必要に応じて決める。"
-    ],
-    "avoid": "上端の折り紙へ見出しや小さな番号を重ねない。"
+      "折り紙の造形と影は上端に集まる。",
+      "中央から下部には広い白い面がある。"
+    ]
   },
   "labels": [],
-  "canvas": {
-    "width": 1600,
-    "height": 900
-  },
-  "content_areas": [
-    {
-      "id": "title",
-      "role": "共通の問い",
-      "purpose": "共通の問いを配置する白い領域。",
-      "content_type": "text",
-      "x": 100,
-      "y": 310,
-      "width": 1400,
-      "height": 105,
-      "text_color": "#172B4D",
-      "text_align": "left"
-    },
-    {
-      "id": "discussion",
-      "role": "論点と検討内容",
-      "purpose": "論点と検討内容を配置する白い領域。",
-      "content_type": "text",
-      "x": 100,
-      "y": 485,
-      "width": 1400,
-      "height": 310,
-      "text_color": "#172B4D",
-      "text_align": "left"
-    },
-    {
-      "id": "footer",
-      "role": "進め方と時間",
-      "purpose": "進め方と時間を配置する白い領域。",
-      "content_type": "text",
-      "x": 100,
-      "y": 825,
-      "width": 1400,
-      "height": 40,
-      "text_color": "#172B4D",
-      "text_align": "left"
-    }
-  ],
   "preview_path": "previews/background/workshop-paper-canopy.png",
   "generation": {
     "method": "image-generation",
@@ -76,13 +41,18 @@
   "format": "png",
   "mime_type": "image/png",
   "transparent": false,
-  "schema_version": 2,
+  "canvas": {
+    "width": 1672,
+    "height": 941
+  },
+  "schema_version": 3,
   "id": "background/workshop-paper-canopy",
-  "name": "紙のひさしの下に議論を広げる背景_背景",
+  "name": "上端に連なる白と青の折り紙_背景",
   "license": "CC0-1.0",
   "path": "media/background/workshop-paper-canopy.png",
   "metadata_path": "metadata/background/workshop-paper-canopy.json",
-  "search_text": "background/workshop-paper-canopy\n紙のひさしの下に議論を広げる背景_背景\n紙のひさしの下に議論を広げる背景\n検討会やワークショップで、共通の問いと複数の検討項目を提示する本文。\n同じ問いに対する論点を横並びで比較し、議論を促す。\n折り紙の下に共通の問いを置き、その下の広い領域に論点を並べる。\n紙の折り目は項目の境界に使わず、項目数は必要に応じて決める。\n議論 検討 ワークショップ 課題整理 論点整理 アイデア workshop discussion question",
+  "preview_has_example_labels": false,
+  "search_text": "background/workshop-paper-canopy\n上端に連なる白と青の折り紙_背景\n上端に連なる白と青の折り紙\n議論、検討、説明、比較など。\n紙の折り重なりで、軽やかな奥行きを添える。\n折り紙の造形と影は上端に集まる。\n中央から下部には広い白い面がある。\n背景 白 青 余白 質感 background 紙 折り目 曲面 上装飾 下余白 本文 比較 議論 paper canopy discussion",
   "render": {
     "theme": false,
     "labels": false,

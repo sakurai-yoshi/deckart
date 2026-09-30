@@ -22,10 +22,9 @@
     "reading": [
       "箱の上端から続く帯が封緘用のテープを表す。",
       "チェックが封の確認という行為を示す。"
-    ],
-    "avoid": "記号は業務の種類を示す。数値、認証取得、測定結果を保証する印には使わない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "icon/package-sealing",
   "name": "封緘確認_製造業務の記号",
   "license": "CC0-1.0",
@@ -38,6 +37,8 @@
   },
   "path": "assets/icon/package-sealing.svg",
   "metadata_path": "metadata/icon/package-sealing.json",
+  "preview_path": "assets/icon/package-sealing.svg",
+  "preview_has_example_labels": false,
   "search_text": "icon/package-sealing\n封緘確認_製造業務の記号\n封緘確認\n梱包後に封が閉じていることを確認する工程に添える。\n荷物の開口を閉じた状態を確認する。\n箱の上端から続く帯が封緘用のテープを表す。\nチェックが封の確認という行為を示す。\n封緘 梱包 テープ 開封 防止 sealing package closure",
   "render": {
     "theme": true,

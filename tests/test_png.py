@@ -91,7 +91,7 @@ class PNGExportTests(unittest.TestCase):
         self.root=Path(self.stack.enter_context(tempfile.TemporaryDirectory()))
         self.stack.enter_context(patch.object(registry,'ROOT',self.root));self.stack.enter_context(patch.object(library,'ROOT',self.root))
         self.content=sample_png()
-        declaration=dict(key='illustration/explaining',id='説明を伝える',title='説明',kind='illustration',category='06-業務イラスト',width=3,height=2,format='png',transparent=True,labels=[],description='相手に説明する',keywords=['説明','案内','共有'],guidance=dict(use_case='会議で説明する',message='相手に伝える',reading=['人物が説明する','手が内容へ向く'],avoid='認証の証明には使わない'),placement=dict(framing='waist-up',facing='right',people_count=1,recommended_width_cm=[3,6]))
+        declaration=dict(key='illustration/explaining',id='説明を伝える',title='説明',kind='illustration',category='06-業務イラスト',width=3,height=2,format='png',transparent=True,labels=[],description='相手に説明する',keywords=['説明','案内','共有'],guidance=dict(use_case='会議で説明する',message='相手に伝える',reading=['人物が説明する','手が内容へ向く']),composition=dict(framing='waist-up',facing='right',people_count=1))
         self.declaration={**declaration,'name':declaration['id'],'source':'media/illustration/explaining.png','generation':{'method':'image-generation','prompt':'Synthetic transport test only.'}}
         del self.declaration['id']
         self.meta=registry.metadata(declaration);self.meta['sha256']=hashlib.sha256(self.content).hexdigest();self.meta['size_bytes']=len(self.content)
@@ -134,8 +134,13 @@ class PNGExportTests(unittest.TestCase):
         with self.assertRaises(ValueError):library.export_files(content,meta,destination)
         with self.assertRaises(ValueError):library.export_files(content,meta,self.root/'exports'/'wrong.svg')
 
-    def test_png_unsupported_options_are_errors_even_if_empty(self):
-        for option,value in [('accent','#005BAC'),('monochrome',False),('labels',{}),('include_example_labels',False),('data',{}),('format','svg')]:
+    def test_png_accepts_disabled_options_without_changing_pixels(self):
+        content,meta=library.render({'id':'illustration/explaining','monochrome':False,'include_example_labels':False,'labels':{}})
+        self.assertEqual(content,self.content)
+        self.assertEqual(meta['sha256'],hashlib.sha256(content).hexdigest())
+
+    def test_png_rejects_actual_transforms_and_malformed_options(self):
+        for option,value in [('accent','#005BAC'),('monochrome',True),('labels',{'label-1':'新しい文字'}),('include_example_labels',True),('data',{}),('format','svg'),('labels',[]),('labels',None),('data',[]),('monochrome',0),('include_example_labels','false')]:
             with self.subTest(option=option):
                 with self.assertRaises(ValueError):library.render({'id':'illustration/explaining',option:value})
 

@@ -132,11 +132,10 @@
       "太い経路が実際に稼働する環境の切替。",
       "下向きの点線がデータの引継ぎ。",
       "上段の終端バーが旧環境の終了。"
-    ],
-    "avoid": "障害時の切戻し手順をこの一方向の経路で説明しない。"
+    ]
   },
   "kind": "diagram",
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "plan/parallel-migration",
   "name": "移行計画_並行運用から稼働系を切り替える_新旧の切替経路",
   "license": "CC0-1.0",
@@ -149,6 +148,8 @@
   },
   "path": "assets/plan/parallel-migration.svg",
   "metadata_path": "metadata/plan/parallel-migration.json",
+  "preview_path": "previews/plan/parallel-migration.svg",
+  "preview_has_example_labels": true,
   "search_text": "plan/parallel-migration\n移行計画_並行運用から稼働系を切り替える_新旧の切替経路\n並行運用から稼働系を切り替える\n既存システムから新環境への更改手順を共有する。\n新環境を準備し、データを引き継いで稼働系を移す。\n上段が旧環境、下段が新環境。\n太い経路が実際に稼働する環境の切替。\n下向きの点線がデータの引継ぎ。\n上段の終端バーが旧環境の終了。\nシステム移行 切替 並行運用 データ移行 カットオーバー 新旧 更改",
   "render": {
     "theme": true,

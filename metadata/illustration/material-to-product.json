@@ -19,19 +19,14 @@
     "reading": [
       "板材から切り出した帯と、同じ帯を曲げた形を並べる。",
       "同じ材質と厚みを保ち、加工前後の関係を示す。"
-    ],
-    "avoid": "具体的な展開図、加工寸法、歩留まりの説明には使用しない。"
+    ]
   },
   "labels": [],
   "preview_path": "previews/illustration/material-to-product.png",
-  "placement": {
+  "composition": {
     "framing": "object",
     "facing": "front",
-    "people_count": 0,
-    "recommended_width_cm": [
-      4,
-      7
-    ]
+    "people_count": 0
   },
   "generation": {
     "method": "image-generation",
@@ -45,13 +40,14 @@
     "width": 1254,
     "height": 1254
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "illustration/material-to-product",
   "name": "材料から形をつくる_メーカー業務の構成",
   "license": "CC0-1.0",
   "path": "media/illustration/material-to-product.png",
   "metadata_path": "metadata/illustration/material-to-product.json",
-  "search_text": "illustration/material-to-product\n材料から形をつくる_メーカー業務の構成\n材料から形をつくる\n加工工程、ものづくり、材料から製品への変換の説明。\n材料に加工を加え、必要な形をつくる。\n板材から切り出した帯と、同じ帯を曲げた形を並べる。\n同じ材質と厚みを保ち、加工前後の関係を示す。\n材料 加工 成形 製造 板材 material to product forming\nobject 物 道具 front 正面 0  [4, 7] ",
+  "preview_has_example_labels": false,
+  "search_text": "illustration/material-to-product\n材料から形をつくる_メーカー業務の構成\n材料から形をつくる\n加工工程、ものづくり、材料から製品への変換の説明。\n材料に加工を加え、必要な形をつくる。\n板材から切り出した帯と、同じ帯を曲げた形を並べる。\n同じ材質と厚みを保ち、加工前後の関係を示す。\n材料 加工 成形 製造 板材 material to product forming\nobject 物 道具 front 正面",
   "render": {
     "theme": false,
     "labels": false,

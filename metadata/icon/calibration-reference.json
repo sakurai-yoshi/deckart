@@ -21,10 +21,9 @@
     "reading": [
       "上の計器が校正する測定器を表す。",
       "接触する下のブロックが測定の基準を表す。"
-    ],
-    "avoid": "記号は業務の種類を示す。数値、認証取得、測定結果を保証する印には使わない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "icon/calibration-reference",
   "name": "基準器による校正_製造業務の記号",
   "license": "CC0-1.0",
@@ -37,6 +36,8 @@
   },
   "path": "assets/icon/calibration-reference.svg",
   "metadata_path": "metadata/icon/calibration-reference.json",
+  "preview_path": "assets/icon/calibration-reference.svg",
+  "preview_has_example_labels": false,
   "search_text": "icon/calibration-reference\n基準器による校正_製造業務の記号\n基準器による校正\n測定器の校正や基準器の管理を説明する。\n測定器を既知の基準と照らし合わせる。\n上の計器が校正する測定器を表す。\n接触する下のブロックが測定の基準を表す。\n校正 基準器 測定器 精度 calibration reference instrument",
   "render": {
     "theme": true,

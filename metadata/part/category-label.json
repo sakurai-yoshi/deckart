@@ -51,11 +51,10 @@
     "message": "この内容がどの区分に属するかが分かる。",
     "reading": [
       "左上の帯が分類名を受け持つ。",
-      "下にその分類で扱う内容を短く添える。"
-    ],
-    "avoid": "複数の分類名を一つの帯へ詰め込む用途には使わない。"
+      "下の領域は、その分類で扱う内容を表す。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "part/category-label",
   "name": "内容の分類を短く添える_説明パーツ",
   "license": "CC0-1.0",
@@ -68,7 +67,9 @@
   },
   "path": "assets/part/category-label.svg",
   "metadata_path": "metadata/part/category-label.json",
-  "search_text": "part/category-label\n内容の分類を短く添える_説明パーツ\n内容の分類を短く添える\n説明のまとまりに、同じ分類名を継続して添える場面。\nこの内容がどの区分に属するかが分かる。\n左上の帯が分類名を受け持つ。\n下にその分類で扱う内容を短く添える。\n分類 カテゴリ 区分 整理 label category classification",
+  "preview_path": "previews/part/category-label.svg",
+  "preview_has_example_labels": true,
+  "search_text": "part/category-label\n内容の分類を短く添える_説明パーツ\n内容の分類を短く添える\n説明のまとまりに、同じ分類名を継続して添える場面。\nこの内容がどの区分に属するかが分かる。\n左上の帯が分類名を受け持つ。\n下の領域は、その分類で扱う内容を表す。\n分類 カテゴリ 区分 整理 label category classification",
   "render": {
     "theme": true,
     "labels": true,

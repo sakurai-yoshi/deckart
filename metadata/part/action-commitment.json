@@ -126,12 +126,11 @@
     "use_case": "会議で決めた次の行動を一行で残す場面。",
     "message": "何を、誰が、いつまでに行うかが分かる。",
     "reading": [
-      "左の主欄に具体的な行動と目的を置く。",
+      "左の主欄は、具体的な行動と目的の領域。",
       "右の小さな二欄で担当と期限を確認する。"
-    ],
-    "avoid": "担当者の合意がない期限を確定事項として示す用途には使わない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "part/action-commitment",
   "name": "行動に担当と期限を添える_説明パーツ",
   "license": "CC0-1.0",
@@ -144,7 +143,9 @@
   },
   "path": "assets/part/action-commitment.svg",
   "metadata_path": "metadata/part/action-commitment.json",
-  "search_text": "part/action-commitment\n行動に担当と期限を添える_説明パーツ\n行動に担当と期限を添える\n会議で決めた次の行動を一行で残す場面。\n何を、誰が、いつまでに行うかが分かる。\n左の主欄に具体的な行動と目的を置く。\n右の小さな二欄で担当と期限を確認する。\n行動 担当 期限 次の一歩 合意 action owner deadline",
+  "preview_path": "previews/part/action-commitment.svg",
+  "preview_has_example_labels": true,
+  "search_text": "part/action-commitment\n行動に担当と期限を添える_説明パーツ\n行動に担当と期限を添える\n会議で決めた次の行動を一行で残す場面。\n何を、誰が、いつまでに行うかが分かる。\n左の主欄は、具体的な行動と目的の領域。\n右の小さな二欄で担当と期限を確認する。\n行動 担当 期限 次の一歩 合意 action owner deadline",
   "render": {
     "theme": true,
     "labels": true,

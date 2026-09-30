@@ -22,10 +22,9 @@
     "reading": [
       "連続する鋸屋根が工場の作業棟を表す。",
       "煙突と窓の並びが製造設備のある場所を示す。"
-    ],
-    "avoid": "生産量や工場の排出量を表す用途には使わない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "icon/manufacturing",
   "name": "生産管理_製品を製造する_工場",
   "license": "CC0-1.0",
@@ -38,6 +37,8 @@
   },
   "path": "assets/icon/manufacturing.svg",
   "metadata_path": "metadata/icon/manufacturing.json",
+  "preview_path": "assets/icon/manufacturing.svg",
+  "preview_has_example_labels": false,
   "search_text": "icon/manufacturing\n生産管理_製品を製造する_工場\n製造\n製造部門や生産工程を業務フローに配置する。\n工場で製品を生産する。\n連続する鋸屋根が工場の作業棟を表す。\n煙突と窓の並びが製造設備のある場所を示す。\n製造 工場 生産 加工 製品 manufacturing factory production",
   "render": {
     "theme": true,

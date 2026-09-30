@@ -1,51 +1,48 @@
 # DeckArt
 
-Purpose: assets for manufacturers' business presentations. General-purpose transparent PNG illustrations, white-and-blue 16:9 PNG backgrounds, and editable SVG icons, diagrams, charts and explanation parts. Japanese usage metadata; stable English IDs. Assets: CC0-1.0. Code: MIT.
+Purpose: reusable assets for manufacturers' business presentations. Transparent PNG illustrations, opaque PNG backgrounds, and SVG icons, diagrams, charts and explanation parts. Japanese usage descriptions and Japanese/English search terms; stable English IDs. Assets and metadata: CC0-1.0. Code: MIT.
 
+Entry to share: https://raw.githubusercontent.com/sakurai-yoshi/deckart/main/llms.txt
 Repository: https://github.com/sakurai-yoshi/deckart
-Pinned raw base: https://raw.githubusercontent.com/sakurai-yoshi/deckart/v1.0.0/
+Pinned raw base for this edition: https://raw.githubusercontent.com/sakurai-yoshi/deckart/v2.0.0/
 
-## Select and retrieve
+## Select, retrieve and compose
 
-1. Read catalog.json under the raw base. Match use_case, message, keywords and kind. One ID is one asset; formats and recolors are not duplicate search results.
-2. Check format, mime_type, transparent, width/height, size_bytes, render capabilities and optional placement. PNG dimensions are pixels. SVG dimensions are viewBox units. transparent=true means actual PNG alpha; false means opaque PNG; null means SVG transparency is not classified.
-3. Read metadata_path. Check guidance.avoid and reading. For illustrations, placement describes framing, facing and recommended_width_cm; people_count is optional descriptive information. Choose a subject whose facing direction leads toward the slide content. For backgrounds, check canvas and content_areas.
-4. Retrieve path from the SAME raw base and write the response bytes with the declared format extension. Verify sha256. PNG paths start with media/; SVG paths start with assets/. Do not turn a PNG into an SVG wrapper or redraw the supplied artwork.
-5. Keep the aspect ratio when placing the image. Backgrounds fill a 16:9 slide; other assets fit their intended content area. PNG text and color are fixed. Add presentation text separately.
+1. Identify what the slide needs to communicate. Browse catalog.txt under the pinned raw base: it lists every asset ID and title, grouped by kind. Consider illustrations, backgrounds, icons, diagrams, charts and explanation parts as appropriate to that purpose. Kind, format and recolor filters are optional choices, not defaults.
+2. Use catalog.json to compare candidates by use_case, message and keywords. These describe examples and pictured meaning, not an allowed-use list. An asset can support other contexts that fit its appearance. Select assets for their contribution to the slide; there is no required quantity or category mix.
+3. Open preview_path for candidates. If preview_has_example_labels=true, the preview includes example text to show how the diagram, chart or part communicates; that text is for selection. Read metadata_path for the depicted relationships and available editing features. Choose from the image and the slide's content together. Illustrations' composition describes framing, facing and people count; it does not specify position or size.
+4. Download path, the original asset rather than the selection preview, from the SAME pinned raw base and save the response bytes with the declared format extension. Verify sha256. PNG files live under media/; SVG files under assets/. The supplied file can be inserted directly. RAG bulk metadata is catalog.ndjson, one asset per line. Generation definitions under sources/ are historical production records; their prompts do not set conditions on using the artwork.
+5. Compose around the actual text, data and visual hierarchy. Keep the image's proportions when scaling. Backgrounds can fill the slide, occupy part of it, or be cropped; a white panel or other overlay can improve text contrast. Position and size are decided in the presentation. View the rendered slide and adjust text fit, contrast, unintended overlaps, clipping and the meaning conveyed by the combination.
 
-Example PNG: media/illustration/explaining.png
-Example PNG metadata: metadata/illustration/explaining.json
-Example background: media/background/cover-prismatic-depth.png
-Example SVG: assets/process/approval-return.svg
-RAG bulk metadata: catalog.ndjson (one complete asset per line).
-Generation prompts live once in sources/; metadata.generation.definition_path points to the declaration list. Select its item by key=id. Prompts describe provenance, not an instruction to regenerate a file during retrieval.
+width/height describe pixels for PNG and viewBox units for SVG; canvas describes the asset's own coordinate system. These fields do not prescribe slide layout. transparent=true indicates PNG alpha; false indicates opaque PNG; null means SVG transparency is not classified. preview_path is a lightweight PNG preview, an SVG with example labels, or the original SVG where labels are unnecessary. preview_has_example_labels identifies labeled examples. A labeled preview does not mean those words are embedded in path: SVG source files may contain geometry without explanatory text. Use path for the final image and add the slide's actual text.
+
+CC0 permits editing, cropping and recoloring in your own software. The export tool's supported operations below describe its capabilities, not restrictions on using the artwork.
 
 ## Local search and export
 
-Python 3.10+ and the repository checkout or unpacked release ZIP are sufficient. No package, account or API key is needed.
+Python 3.10+ and a repository checkout or unpacked release ZIP are sufficient. No package, account or API key is needed.
 
-Search terms separated by spaces are matched with AND. Start with one or two short purpose words; if no result matches, broaden the terms before changing the requested asset kind.
+Search by purpose in Japanese or English. Related candidates are ranked; filters are optional. The default page has 20 results. Use next_offset for the next page, or --limit 0 for all matches. Review alternatives across kinds when the subject supports more than one visual treatment.
 
-    python3 scripts/library.py search '説明' --format png
-    python3 scripts/library.py search '情報' --kind illustration
-    python3 scripts/library.py search '承認 差戻し' --themeable --limit 3
+    python3 scripts/library.py search '品質改善の流れを説明する'
+    python3 scripts/library.py search 'quality improvement' --offset 20
+    python3 scripts/library.py search '' --limit 0
     python3 scripts/library.py show illustration/explaining
     python3 scripts/library.py export illustration/explaining --output ./exports/explaining.png
     python3 scripts/library.py export background/cover-prismatic-depth --output ./exports/cover.png
     python3 scripts/library.py export icon/person --accent '#005BAC' --output ./exports/person.svg
+    python3 scripts/library.py export process/approval-return --example-labels --output ./exports/approval-preview.svg
     python3 scripts/library.py export --request examples/progress-data.json --output ./exports/progress.svg
 
-search/show/export return UTF-8 JSON. Errors return JSON on stderr and exit code 2. Export writes an image plus JSON sidecar recording source ID, version, original raw_base, path and SHA-256. In exported sidecars, generation.definition_path and preview_path resolve against source.raw_base. The result uses file, format, mime_type, metadata, sha256 and render. --stdout emits only the image bytes. Existing files require --force.
+Search returns UTF-8 JSON with total, returned, next_offset, filters and assets. Show returns detailed metadata. Export writes an image plus a JSON sidecar and returns file, format, mime_type, metadata, sha256 and render. The sidecar records source ID, version, raw_base, path and hash; generation.definition_path and preview_path resolve against source.raw_base. --stdout emits image bytes. Existing output files require --force. Errors return JSON on stderr and exit code 2.
 
-## Capabilities
+## Export capabilities
 
-request.schema.json defines id (required), optional format (must match the asset), accent, monochrome, labels, include_example_labels and data. Read metadata.render before adapting an asset.
+request.schema.json defines id, optional format (matching the source), accent, monochrome, labels, include_example_labels and data. metadata.render describes each asset's supported operations.
 
-- PNG: exact-byte copy with original alpha. No recolor, labels, data, monochrome or format conversion. These options are errors even if empty or false; omit them. Theme is null in the export result.
-- SVG theme: default blue, arbitrary #RRGGBB accent or monochrome. Semantic signal colors remain distinct. Pale brand colors are adjusted for contrast; resolved colors and adjustments are returned. themes.json describes paint roles.
-- SVG labels: metadata.labels provides label-N IDs, boxes, font size and limits. Supply labels as {"label-1":"申請","label-2":"確認"}. Overflow is an error. Optional SVG text needs the listed system fonts; geometry-only SVG has no font dependency. Editable presentation text can use the same boxes separately.
-- SVG charts: catalog values are explicitly sample data. Read metadata.data_input before supplying data. Export recalculates geometry and numeric labels together. Actual supplied values are marked is_sample=false, without claiming data-source verification.
-- PNG backgrounds: canvas is the logical design coordinate system, independent of actual pixels. Scale x, y, width and height in content_areas by slide_width/canvas.width and slide_height/canvas.height. The regions specify where to put editable text or supplied charts; they are not raster labels.
-- PNG illustrations: placement describes the artwork rather than restricting the business scenario. Reuse a general action for any matching use_case, but do not infer actual certification, measured performance or a named company from the drawing.
+- PNG: copies the original file and alpha. Recoloring, drawing text into the image, data rendering and format conversion are outside this tool. False monochrome/include_example_labels and empty labels leave the image unchanged. Add text separately in the presentation or edit the image with your own software.
+- SVG theme: default blue, arbitrary #RRGGBB accent or monochrome. Semantic signal colors remain distinct. Pale brand colors are adjusted for contrast; resolved colors and adjustments are returned. See themes.json.
+- SVG labels: an optional way to include text inside the exported SVG. metadata.labels lists label-N IDs, internal boxes, font sizes and text limits. Supply labels such as {"label-1":"申請","label-2":"確認"}. The tool reports text that exceeds those boxes. Write the slide's actual text freely in PowerPoint, or use labels when it fits the supplied geometry. With a data request, include_example_labels=true adds the labels computed from that data. SVG text uses the listed system-font fallbacks; geometry-only export has no font dependency.
+- SVG charts: distributed values are sample data. metadata.data_input describes supported inputs. Export recalculates geometry and numeric labels together; supplied values are marked is_sample=false.
 
-Search paths and hashes refer to original assets. Keep lookup, metadata and downloaded bytes pinned to the same tag or commit. Never silently substitute a different format or an invented local filename extension.
+Use one tag or commit consistently for lookup, metadata and original image bytes. A modified export records both its output hash and its source so the final file remains traceable.

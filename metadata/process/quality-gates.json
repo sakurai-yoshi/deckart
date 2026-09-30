@@ -100,12 +100,12 @@
     "reading": [
       "横の帯が受付から納品への流れ。",
       "二つのチェックゲートが着手条件と完成基準。",
-      "中央の文書とペンが成果をつくる作業。"
-    ],
-    "avoid": "帯の長さを作業時間の比率として扱わない。"
+      "中央の文書とペンが成果をつくる作業。",
+      "帯の長さは各段階を区別する概念的な表現。"
+    ]
   },
   "kind": "diagram",
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "process/quality-gates",
   "name": "業務改善_検査で品質を守る価値の流れ_二段階ゲート",
   "license": "CC0-1.0",
@@ -118,7 +118,9 @@
   },
   "path": "assets/process/quality-gates.svg",
   "metadata_path": "metadata/process/quality-gates.json",
-  "search_text": "process/quality-gates\n業務改善_検査で品質を守る価値の流れ_二段階ゲート\n検査で品質を守る価値の流れ\n受注から成果物の納品までに必要な品質確認を説明する。\n作業の前後で確認し、手戻りを防ぐ。\n横の帯が受付から納品への流れ。\n二つのチェックゲートが着手条件と完成基準。\n中央の文書とペンが成果をつくる作業。\n工程 品質保証 品質管理 検査 ゲート バリューストリーム 手戻り",
+  "preview_path": "previews/process/quality-gates.svg",
+  "preview_has_example_labels": true,
+  "search_text": "process/quality-gates\n業務改善_検査で品質を守る価値の流れ_二段階ゲート\n検査で品質を守る価値の流れ\n受注から成果物の納品までに必要な品質確認を説明する。\n作業の前後で確認し、手戻りを防ぐ。\n横の帯が受付から納品への流れ。\n二つのチェックゲートが着手条件と完成基準。\n中央の文書とペンが成果をつくる作業。\n帯の長さは各段階を区別する概念的な表現。\n工程 品質保証 品質管理 検査 ゲート バリューストリーム 手戻り",
   "render": {
     "theme": true,
     "labels": true,

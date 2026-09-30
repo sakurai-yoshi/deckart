@@ -71,12 +71,12 @@
     "reading": [
       "チェック付きの文書が受入済み。",
       "回転矢印の文書が現在進行中。",
-      "点線の文書がこれから取り組む範囲。"
-    ],
-    "avoid": "三つの図の大きさを件数や達成率の比率として扱わない。"
+      "点線の文書がこれから取り組む範囲。",
+      "三つの図は完了・進行中・未着手の状態を区別する。"
+    ]
   },
   "kind": "diagram",
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "plan/completion-states",
   "name": "進捗報告_完了と進行中と未着手を分ける_成果の状態別整理",
   "license": "CC0-1.0",
@@ -89,7 +89,9 @@
   },
   "path": "assets/plan/completion-states.svg",
   "metadata_path": "metadata/plan/completion-states.json",
-  "search_text": "plan/completion-states\n進捗報告_完了と進行中と未着手を分ける_成果の状態別整理\n成果を状態で分けて報告する\n週次報告で成果を完了・進行中・未着手に分けて共有する。\n成果の状態を分け、現在の仕事と残りの範囲を見せる。\nチェック付きの文書が受入済み。\n回転矢印の文書が現在進行中。\n点線の文書がこれから取り組む範囲。\n進捗 完了 進行中 未着手 残作業 成果 状態 ステータス",
+  "preview_path": "previews/plan/completion-states.svg",
+  "preview_has_example_labels": true,
+  "search_text": "plan/completion-states\n進捗報告_完了と進行中と未着手を分ける_成果の状態別整理\n成果を状態で分けて報告する\n週次報告で成果を完了・進行中・未着手に分けて共有する。\n成果の状態を分け、現在の仕事と残りの範囲を見せる。\nチェック付きの文書が受入済み。\n回転矢印の文書が現在進行中。\n点線の文書がこれから取り組む範囲。\n三つの図は完了・進行中・未着手の状態を区別する。\n進捗 完了 進行中 未着手 残作業 成果 状態 ステータス",
   "render": {
     "theme": true,
     "labels": true,

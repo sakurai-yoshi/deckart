@@ -145,14 +145,13 @@
       "上の通常経路は標準の範囲で完了する仕事。",
       "下の経路は標準内で扱えない例外の記録と判断。",
       "戻る経路には標準を変えるかという判断がある。"
-    ],
-    "avoid": "例外が起きるたびに標準を自動で変更するという意味ではない。"
+    ]
   },
   "layout": {
     "relation": "standard-and-exception-learning",
     "reading_direction": "left-to-right"
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "manufacturing/standard-exception-improvement",
   "name": "例外の学びを標準へ戻す_製造業務の関係図",
   "license": "CC0-1.0",
@@ -165,6 +164,8 @@
   },
   "path": "assets/manufacturing/standard-exception-improvement.svg",
   "metadata_path": "metadata/manufacturing/standard-exception-improvement.json",
+  "preview_path": "previews/manufacturing/standard-exception-improvement.svg",
+  "preview_has_example_labels": true,
   "search_text": "manufacturing/standard-exception-improvement\n例外の学びを標準へ戻す_製造業務の関係図\n例外の学びを標準へ戻す\n共通の手順を適用し、標準内で扱えない例外から手順を見直す。\n例外を記録して判断し、必要なものだけを標準の改善に生かす。\n上の通常経路は標準の範囲で完了する仕事。\n下の経路は標準内で扱えない例外の記録と判断。\n戻る経路には標準を変えるかという判断がある。\n標準化 例外 改善 学習 手順 見直し standard exception improvement",
   "render": {
     "theme": true,

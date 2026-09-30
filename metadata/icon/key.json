@@ -23,10 +23,9 @@
     "reading": [
       "丸い持ち手と歯が鍵の道具を表す。",
       "先端へ伸びる軸が解錠に使う部分を表す。"
-    ],
-    "avoid": "秘密情報そのものや権限付与済みの証明としては使わない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "icon/key",
   "name": "アクセス管理_解錠に使う情報を扱う_鍵",
   "license": "CC0-1.0",
@@ -39,6 +38,8 @@
   },
   "path": "assets/icon/key.svg",
   "metadata_path": "metadata/icon/key.json",
+  "preview_path": "assets/icon/key.svg",
+  "preview_has_example_labels": false,
   "search_text": "icon/key\nアクセス管理_解錠に使う情報を扱う_鍵\n鍵・認証情報\nアクセスに必要な鍵や認証情報の項目に添える。\n開くために管理する鍵が必要になる。\n丸い持ち手と歯が鍵の道具を表す。\n先端へ伸びる軸が解錠に使う部分を表す。\n鍵 秘密鍵 キー 認証情報 パスワード key credentials secret password",
   "render": {
     "theme": true,

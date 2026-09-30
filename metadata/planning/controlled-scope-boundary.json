@@ -134,10 +134,9 @@
       "大きな閉じた枠が、今回合意した範囲。",
       "枠の境界にある菱形が、追加要望を判断する入口。",
       "左の経路は合意して追加し、外側の経路は今回の対象外へ分ける。"
-    ],
-    "avoid": "対象外の要望を永久に却下した決定や、契約内容の証明として扱わない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "planning/controlled-scope-boundary",
   "name": "スコープ管理_追加要望を合意した範囲へ通す_変更の入口と対象外",
   "license": "CC0-1.0",
@@ -150,6 +149,8 @@
   },
   "path": "assets/planning/controlled-scope-boundary.svg",
   "metadata_path": "metadata/planning/controlled-scope-boundary.json",
+  "preview_path": "previews/planning/controlled-scope-boundary.svg",
+  "preview_has_example_labels": true,
   "search_text": "planning/controlled-scope-boundary\nスコープ管理_追加要望を合意した範囲へ通す_変更の入口と対象外\n追加要望を一つの入口で判断する\nプロジェクト途中の追加要望を整理し、今回の対応範囲を合意する。\n要望をそのまま足さず、範囲の入口で合意してから追加する。\n大きな閉じた枠が、今回合意した範囲。\n枠の境界にある菱形が、追加要望を判断する入口。\n左の経路は合意して追加し、外側の経路は今回の対象外へ分ける。\nスコープ 範囲 対象外 追加要望 変更管理 合意 受入条件 要件 scope boundary change control requirements",
   "render": {
     "theme": true,

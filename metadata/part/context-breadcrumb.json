@@ -67,10 +67,9 @@
     "reading": [
       "左から右へ対象の範囲を絞る。",
       "右の塗りつぶした領域が現在扱う話題を示す。"
-    ],
-    "avoid": "時系列や業務の実行順を示す用途には使わない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "part/context-breadcrumb",
   "name": "全体の中で今の話題を示す_説明パーツ",
   "license": "CC0-1.0",
@@ -83,6 +82,8 @@
   },
   "path": "assets/part/context-breadcrumb.svg",
   "metadata_path": "metadata/part/context-breadcrumb.json",
+  "preview_path": "previews/part/context-breadcrumb.svg",
+  "preview_has_example_labels": true,
   "search_text": "part/context-breadcrumb\n全体の中で今の話題を示す_説明パーツ\n全体の中で今の話題を示す\n詳細な説明が資料全体のどこに属するかを示す場面。\nいま扱う話題の上位区分をたどれる。\n左から右へ対象の範囲を絞る。\n右の塗りつぶした領域が現在扱う話題を示す。\n位置づけ 階層 ナビゲーション 現在地 breadcrumb context hierarchy",
   "render": {
     "theme": true,

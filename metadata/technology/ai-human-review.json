@@ -91,10 +91,9 @@
       "左はAIが生成した確認前の下書き。",
       "中央の人が内容を確認する。",
       "確認を終えたものは右へ、修正が必要なものは下の経路で戻る。"
-    ],
-    "avoid": "人が見ただけで内容の正確性を保証できるとは示さない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "technology/ai-human-review",
   "name": "AI運用_下書きを人が確認して確定する_生成と公開の間の判断",
   "license": "CC0-1.0",
@@ -107,6 +106,8 @@
   },
   "path": "assets/technology/ai-human-review.svg",
   "metadata_path": "metadata/technology/ai-human-review.json",
+  "preview_path": "previews/technology/ai-human-review.svg",
+  "preview_has_example_labels": true,
   "search_text": "technology/ai-human-review\nAI運用_下書きを人が確認して確定する_生成と公開の間の判断\nAIの下書きを人が確認する\nAIが作った文書や回答を、利用前に人が確認する運用を説明する。\n下書きの生成と、利用してよいという判断を分ける。\n左はAIが生成した確認前の下書き。\n中央の人が内容を確認する。\n確認を終えたものは右へ、修正が必要なものは下の経路で戻る。\nAI 人手確認 レビュー 下書き 生成 承認 修正 確定 human in the loop review draft approval",
   "render": {
     "theme": true,

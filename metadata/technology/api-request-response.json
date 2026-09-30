@@ -101,10 +101,9 @@
       "上の矢印がアプリからサービスへの要求。",
       "中央の二つの入口がAPIで受け渡す窓口。",
       "下の矢印が元のアプリへ戻る応答。"
-    ],
-    "avoid": "非同期イベントや一方向の通知を、この往復と同じものとして扱わない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "technology/api-request-response",
   "name": "システム連携_要求と応答を対応させる_APIの往復",
   "license": "CC0-1.0",
@@ -117,6 +116,8 @@
   },
   "path": "assets/technology/api-request-response.svg",
   "metadata_path": "metadata/technology/api-request-response.json",
+  "preview_path": "previews/technology/api-request-response.svg",
+  "preview_has_example_labels": true,
   "search_text": "technology/api-request-response\nシステム連携_要求と応答を対応させる_APIの往復\nAPIの要求と応答を対応させる\n二つのシステムをAPIで連携する際の基本的な通信方向を説明する。\n要求を受けたサービスが、呼び出したアプリへ応答を返す。\n上の矢印がアプリからサービスへの要求。\n中央の二つの入口がAPIで受け渡す窓口。\n下の矢印が元のアプリへ戻る応答。\nAPI 連携 要求 応答 接続 インターフェース request response integration service",
   "render": {
     "theme": true,

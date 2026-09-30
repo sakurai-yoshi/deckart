@@ -19,19 +19,14 @@
     "reading": [
       "両手で部品の両端を持ち、対応する本体へ合わせる。",
       "部品の位置関係で組立工程を示す。"
-    ],
-    "avoid": "特定製品の正確な組立手順を示す資料には使用しない。"
+    ]
   },
   "labels": [],
   "preview_path": "previews/illustration/assembly-work.png",
-  "placement": {
+  "composition": {
     "framing": "waist-up",
     "facing": "right",
-    "people_count": 1,
-    "recommended_width_cm": [
-      4,
-      8
-    ]
+    "people_count": 1
   },
   "generation": {
     "method": "image-generation",
@@ -45,13 +40,14 @@
     "width": 1254,
     "height": 1254
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "illustration/assembly-work",
   "name": "部品を組み立てる_メーカー業務の動作",
   "license": "CC0-1.0",
   "path": "media/illustration/assembly-work.png",
   "metadata_path": "metadata/illustration/assembly-work.json",
-  "search_text": "illustration/assembly-work\n部品を組み立てる_メーカー業務の動作\n部品を組み立てる\n製造工程、組立作業、標準作業の説明。\n部品を正しい位置に合わせ、製品を組み立てる。\n両手で部品の両端を持ち、対応する本体へ合わせる。\n部品の位置関係で組立工程を示す。\n組立 製造 作業 生産 assembly manufacturing production\nwaist-up 上半身 腰上 right 右向き 1  [4, 8] ",
+  "preview_has_example_labels": false,
+  "search_text": "illustration/assembly-work\n部品を組み立てる_メーカー業務の動作\n部品を組み立てる\n製造工程、組立作業、標準作業の説明。\n部品を正しい位置に合わせ、製品を組み立てる。\n両手で部品の両端を持ち、対応する本体へ合わせる。\n部品の位置関係で組立工程を示す。\n組立 製造 作業 生産 assembly manufacturing production\nwaist-up 上半身 腰上 right 右向き",
   "render": {
     "theme": false,
     "labels": false,

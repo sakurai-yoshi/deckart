@@ -68,11 +68,10 @@
     "message": "未決の内容を明確にし、次の確認へつなぐ。",
     "reading": [
       "左の記号が回答待ちの問いを示す。",
-      "右の上段に問い、下段に確認方法を置く。"
-    ],
-    "avoid": "回答がある事項を不明扱いして判断を先延ばしにする用途には使わない。"
+      "右の上段は問い、下段は確認方法の領域。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "part/open-question",
   "name": "未決事項と確認方法を残す_説明パーツ",
   "license": "CC0-1.0",
@@ -85,7 +84,9 @@
   },
   "path": "assets/part/open-question.svg",
   "metadata_path": "metadata/part/open-question.json",
-  "search_text": "part/open-question\n未決事項と確認方法を残す_説明パーツ\n未決事項と確認方法を残す\n議論の中で残った確認事項を記録する場面。\n未決の内容を明確にし、次の確認へつなぐ。\n左の記号が回答待ちの問いを示す。\n右の上段に問い、下段に確認方法を置く。\n未決 課題 問い 確認 残課題 open question pending issue",
+  "preview_path": "previews/part/open-question.svg",
+  "preview_has_example_labels": true,
+  "search_text": "part/open-question\n未決事項と確認方法を残す_説明パーツ\n未決事項と確認方法を残す\n議論の中で残った確認事項を記録する場面。\n未決の内容を明確にし、次の確認へつなぐ。\n左の記号が回答待ちの問いを示す。\n右の上段は問い、下段は確認方法の領域。\n未決 課題 問い 確認 残課題 open question pending issue",
   "render": {
     "theme": true,
     "labels": true,

@@ -21,10 +21,9 @@
     "reading": [
       "穴付きの札が対象に付ける識別票を表す。",
       "バーコード風の線が個別の識別情報を表す。"
-    ],
-    "avoid": "記号は業務の種類を示す。数値、認証取得、測定結果を保証する印には使わない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "icon/lot-identification",
   "name": "ロット識別_製造業務の記号",
   "license": "CC0-1.0",
@@ -37,6 +36,8 @@
   },
   "path": "assets/icon/lot-identification.svg",
   "metadata_path": "metadata/icon/lot-identification.json",
+  "preview_path": "assets/icon/lot-identification.svg",
+  "preview_has_example_labels": false,
   "search_text": "icon/lot-identification\nロット識別_製造業務の記号\nロット識別\n製造ロットや製品識別の管理を示す。\nラベルを使って製造したまとまりを識別する。\n穴付きの札が対象に付ける識別票を表す。\nバーコード風の線が個別の識別情報を表す。\nロット 製造番号 識別 ラベル barcode lot identification",
   "render": {
     "theme": true,

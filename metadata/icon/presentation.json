@@ -22,10 +22,9 @@
     "reading": [
       "画面が説明する資料を表す。",
       "横の人物と指す腕が発表する行為を表す。"
-    ],
-    "avoid": "画面の棒を実際の成果や統計値として示さない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "icon/presentation",
   "name": "説明活動_相手へ内容を発表する_発表者と画面",
   "license": "CC0-1.0",
@@ -38,6 +37,8 @@
   },
   "path": "assets/icon/presentation.svg",
   "metadata_path": "metadata/icon/presentation.json",
+  "preview_path": "assets/icon/presentation.svg",
+  "preview_has_example_labels": false,
   "search_text": "icon/presentation\n説明活動_相手へ内容を発表する_発表者と画面\n発表・説明\n発表や説明会の項目に添える。\n資料を示しながら相手へ説明する。\n画面が説明する資料を表す。\n横の人物と指す腕が発表する行為を表す。\n発表 説明 プレゼン 報告 登壇 presentation briefing speaker",
   "render": {
     "theme": true,

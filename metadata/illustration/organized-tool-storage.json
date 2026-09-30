@@ -20,19 +20,14 @@
     "reading": [
       "工具に対応した形の区画が、それぞれの定位置を示す。",
       "トレー外の工具と空いた区画が対応する。"
-    ],
-    "avoid": "特定工具の仕様や安全な使用方法を示す図としては使用しない。"
+    ]
   },
   "labels": [],
   "preview_path": "previews/illustration/organized-tool-storage.png",
-  "placement": {
+  "composition": {
     "framing": "object",
     "facing": "front",
-    "people_count": 0,
-    "recommended_width_cm": [
-      4,
-      7
-    ]
+    "people_count": 0
   },
   "generation": {
     "method": "image-generation",
@@ -46,13 +41,14 @@
     "width": 1254,
     "height": 1254
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "illustration/organized-tool-storage",
   "name": "工具を定位置へ収める_メーカー業務の構成",
   "license": "CC0-1.0",
   "path": "media/illustration/organized-tool-storage.png",
   "metadata_path": "metadata/illustration/organized-tool-storage.json",
-  "search_text": "illustration/organized-tool-storage\n工具を定位置へ収める_メーカー業務の構成\n工具を定位置へ収める\n5S、工具管理、作業準備、使いやすい現場の説明。\n道具ごとの置き場所を決め、すぐ使える状態に整える。\n工具に対応した形の区画が、それぞれの定位置を示す。\nトレー外の工具と空いた区画が対応する。\n工具 定位置 整理 整頓 5S 収納 tool storage organization\nobject 物 道具 front 正面 0  [4, 7] ",
+  "preview_has_example_labels": false,
+  "search_text": "illustration/organized-tool-storage\n工具を定位置へ収める_メーカー業務の構成\n工具を定位置へ収める\n5S、工具管理、作業準備、使いやすい現場の説明。\n道具ごとの置き場所を決め、すぐ使える状態に整える。\n工具に対応した形の区画が、それぞれの定位置を示す。\nトレー外の工具と空いた区画が対応する。\n工具 定位置 整理 整頓 5S 収納 tool storage organization\nobject 物 道具 front 正面",
   "render": {
     "theme": false,
     "labels": false,

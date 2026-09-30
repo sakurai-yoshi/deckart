@@ -21,10 +21,9 @@
     "reading": [
       "一つの荷物を脚のあるパレットが下から支える。",
       "底部の隙間が荷役用の差込口を示す。"
-    ],
-    "avoid": "記号は業務の種類を示す。数値、認証取得、測定結果を保証する印には使わない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "icon/pallet-handling",
   "name": "パレット搬送_製造業務の記号",
   "license": "CC0-1.0",
@@ -37,6 +36,8 @@
   },
   "path": "assets/icon/pallet-handling.svg",
   "metadata_path": "metadata/icon/pallet-handling.json",
+  "preview_path": "assets/icon/pallet-handling.svg",
+  "preview_has_example_labels": false,
   "search_text": "icon/pallet-handling\nパレット搬送_製造業務の記号\nパレット搬送\n荷役単位やパレットでの搬送を説明する。\n荷物を荷台へまとめて扱う。\n一つの荷物を脚のあるパレットが下から支える。\n底部の隙間が荷役用の差込口を示す。\nパレット 搬送 荷役 積載 pallet handling logistics",
   "render": {
     "theme": true,

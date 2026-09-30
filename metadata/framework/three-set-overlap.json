@@ -87,15 +87,15 @@
     "reading": [
       "上の二つの円が顧客の必要性と実現性。",
       "下の円が事業としての継続性。",
-      "中央の主色が三つをすべて満たす領域。"
-    ],
-    "avoid": "円の大きさや重なりを定量評価の点数として扱わない。"
+      "中央の主色が三つをすべて満たす領域。",
+      "三つの円と重なりは条件の組み合わせを示す概念的な表現。"
+    ]
   },
   "layout": {
     "relation": "three-set-intersection",
     "reading_direction": "outside-in"
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "framework/three-set-overlap",
   "name": "企画判断_必要性と実現性と継続性を満たす_3集合の成立領域",
   "license": "CC0-1.0",
@@ -108,7 +108,9 @@
   },
   "path": "assets/framework/three-set-overlap.svg",
   "metadata_path": "metadata/framework/three-set-overlap.json",
-  "search_text": "framework/three-set-overlap\n企画判断_必要性と実現性と継続性を満たす_3集合の成立領域\n必要性・実現性・継続性を満たす\n新規サービス案が顧客・技術・事業の三つの条件を満たすか検討する。\n一つの条件だけでなく、三つが重なる案を選ぶ。\n上の二つの円が顧客の必要性と実現性。\n下の円が事業としての継続性。\n中央の主色が三つをすべて満たす領域。\nベン図 Venn 3集合 企画判断 必要性 実現性 継続性 事業性 共通領域 feasibility viability desirability",
+  "preview_path": "previews/framework/three-set-overlap.svg",
+  "preview_has_example_labels": true,
+  "search_text": "framework/three-set-overlap\n企画判断_必要性と実現性と継続性を満たす_3集合の成立領域\n必要性・実現性・継続性を満たす\n新規サービス案が顧客・技術・事業の三つの条件を満たすか検討する。\n一つの条件だけでなく、三つが重なる案を選ぶ。\n上の二つの円が顧客の必要性と実現性。\n下の円が事業としての継続性。\n中央の主色が三つをすべて満たす領域。\n三つの円と重なりは条件の組み合わせを示す概念的な表現。\nベン図 Venn 3集合 企画判断 必要性 実現性 継続性 事業性 共通領域 feasibility viability desirability",
   "render": {
     "theme": true,
     "labels": true,

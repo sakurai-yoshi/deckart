@@ -67,11 +67,11 @@
     "message": "右側の補足が元資料のどの箇所についてのものか分かる。",
     "reading": [
       "左の丸を確認する箇所へ重ねる。",
-      "広がる点線の先に詳細な説明を置く。"
-    ],
-    "avoid": "左の仮の文書線は実データではない。実資料に重ねるときは文書部分を適切に置き換える。"
+      "広がる点線の先は、選んだ箇所の詳細を説明する領域。",
+      "左の文書線は、拡大元の資料を表す作例。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "part/magnified-annotation",
   "name": "一箇所を選び説明を拡大する_説明パーツ",
   "license": "CC0-1.0",
@@ -84,7 +84,9 @@
   },
   "path": "assets/part/magnified-annotation.svg",
   "metadata_path": "metadata/part/magnified-annotation.json",
-  "search_text": "part/magnified-annotation\n一箇所を選び説明を拡大する_説明パーツ\n一箇所を選び説明を拡大する\n図面や表の一箇所について詳しく説明する。\n右側の補足が元資料のどの箇所についてのものか分かる。\n左の丸を確認する箇所へ重ねる。\n広がる点線の先に詳細な説明を置く。\n拡大 注釈 詳細 フォーカス 確認箇所 zoom detail annotation",
+  "preview_path": "previews/part/magnified-annotation.svg",
+  "preview_has_example_labels": true,
+  "search_text": "part/magnified-annotation\n一箇所を選び説明を拡大する_説明パーツ\n一箇所を選び説明を拡大する\n図面や表の一箇所について詳しく説明する。\n右側の補足が元資料のどの箇所についてのものか分かる。\n左の丸を確認する箇所へ重ねる。\n広がる点線の先は、選んだ箇所の詳細を説明する領域。\n左の文書線は、拡大元の資料を表す作例。\n拡大 注釈 詳細 フォーカス 確認箇所 zoom detail annotation",
   "render": {
     "theme": true,
     "labels": true,

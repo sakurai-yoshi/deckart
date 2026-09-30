@@ -25,10 +25,9 @@
     "reading": [
       "左右に開いたページが読書と学習を表す。",
       "ページの内容線が参照する知識を表す。"
-    ],
-    "avoid": "研修の修了や知識習得の評価結果を示す用途には使わない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "icon/book",
   "name": "学習表示_知識を身につける_開いた本",
   "license": "CC0-1.0",
@@ -41,6 +40,8 @@
   },
   "path": "assets/icon/book.svg",
   "metadata_path": "metadata/icon/book.json",
+  "preview_path": "assets/icon/book.svg",
+  "preview_has_example_labels": false,
   "search_text": "icon/book\n学習表示_知識を身につける_開いた本\n学習・知識\n研修、手順書、知識を参照する項目を示す場面。\n知識を読み、学び、仕事に生かす。\n左右に開いたページが読書と学習を表す。\nページの内容線が参照する知識を表す。\n学習 知識 研修 教育 マニュアル 本 learning education knowledge book training",
   "render": {
     "theme": true,

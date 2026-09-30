@@ -83,11 +83,10 @@
     "message": "括った項目には共通の扱いがある。",
     "reading": [
       "左の項目を一つの括りでまとめる。",
-      "右の欄に共通の説明を置く。"
-    ],
-    "avoid": "項目のうち一部だけに当てはまる説明を付ける用途には使わない。"
+      "右の欄は、括った項目に共通する説明の領域。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "part/range-bracket",
   "name": "複数の項目を一つの説明で括る_説明パーツ",
   "license": "CC0-1.0",
@@ -100,7 +99,9 @@
   },
   "path": "assets/part/range-bracket.svg",
   "metadata_path": "metadata/part/range-bracket.json",
-  "search_text": "part/range-bracket\n複数の項目を一つの説明で括る_説明パーツ\n複数の項目を一つの説明で括る\n複数の項目へ共通の説明を付ける場面。\n括った項目には共通の扱いがある。\n左の項目を一つの括りでまとめる。\n右の欄に共通の説明を置く。\n括弧 範囲 共通条件 側注 まとめ bracket range shared condition",
+  "preview_path": "previews/part/range-bracket.svg",
+  "preview_has_example_labels": true,
+  "search_text": "part/range-bracket\n複数の項目を一つの説明で括る_説明パーツ\n複数の項目を一つの説明で括る\n複数の項目へ共通の説明を付ける場面。\n括った項目には共通の扱いがある。\n左の項目を一つの括りでまとめる。\n右の欄は、括った項目に共通する説明の領域。\n括弧 範囲 共通条件 側注 まとめ bracket range shared condition",
   "render": {
     "theme": true,
     "labels": true,

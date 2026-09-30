@@ -22,10 +22,9 @@
     "reading": [
       "測定具の二つの爪が部品の両側に接する。",
       "下の寸法線が測る幅を示す。"
-    ],
-    "avoid": "記号は業務の種類を示す。数値、認証取得、測定結果を保証する印には使わない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "icon/dimensional-measurement",
   "name": "寸法測定_製造業務の記号",
   "license": "CC0-1.0",
@@ -38,6 +37,8 @@
   },
   "path": "assets/icon/dimensional-measurement.svg",
   "metadata_path": "metadata/icon/dimensional-measurement.json",
+  "preview_path": "assets/icon/dimensional-measurement.svg",
+  "preview_has_example_labels": false,
   "search_text": "icon/dimensional-measurement\n寸法測定_製造業務の記号\n寸法測定\n寸法確認や測定工程の見出しに添える。\n部品の両端を測定具で挟み、寸法を確かめる。\n測定具の二つの爪が部品の両側に接する。\n下の寸法線が測る幅を示す。\n寸法 測定 ノギス 幅 長さ dimension caliper measurement",
   "render": {
     "theme": true,

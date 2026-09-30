@@ -24,10 +24,9 @@
     "reading": [
       "丸いレンズが対象を拡大して見る行為を表す。",
       "持ち手が検索・調査の道具として見分けやすくする。"
-    ],
-    "avoid": "検索結果の正しさや網羅性を保証する用途には使わない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "icon/search",
   "name": "検索表示_情報を探す_拡大鏡",
   "license": "CC0-1.0",
@@ -40,6 +39,8 @@
   },
   "path": "assets/icon/search.svg",
   "metadata_path": "metadata/icon/search.json",
+  "preview_path": "assets/icon/search.svg",
+  "preview_has_example_labels": false,
   "search_text": "icon/search\n検索表示_情報を探す_拡大鏡\n検索・調査\n検索する項目や、調査する工程を示す場面。\n必要な情報を探して詳しく見る。\n丸いレンズが対象を拡大して見る行為を表す。\n持ち手が検索・調査の道具として見分けやすくする。\n検索 調査 探索 発見 確認 拡大 search find inspect research",
   "render": {
     "theme": true,

@@ -23,10 +23,9 @@
     "reading": [
       "開いた財布が支払に使う資金を表す。",
       "下向きの矢印が資金の支出を表す。"
-    ],
-    "avoid": "損失や売上減少そのものを示す用途には使わない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "icon/expense",
   "name": "経費管理_業務に必要な費用を支出する_財布と支出",
   "license": "CC0-1.0",
@@ -39,6 +38,8 @@
   },
   "path": "assets/icon/expense.svg",
   "metadata_path": "metadata/icon/expense.json",
+  "preview_path": "assets/icon/expense.svg",
+  "preview_has_example_labels": false,
   "search_text": "icon/expense\n経費管理_業務に必要な費用を支出する_財布と支出\n経費\n経費精算や支出項目の見出しに添える。\n仕事に必要な費用が発生する。\n開いた財布が支払に使う資金を表す。\n下向きの矢印が資金の支出を表す。\n経費 支出 費用 精算 立替 expense cost reimbursement spending",
   "render": {
     "theme": true,

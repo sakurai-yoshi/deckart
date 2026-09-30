@@ -99,11 +99,10 @@
       "左の円は意思決定、右の円は実行担当。",
       "上の右向き矢印は方針と権限、下の左向き矢印は状況と結果。",
       "下の基盤から実行を支える。"
-    ],
-    "avoid": "承認の全手順や具体的な決裁権限の一覧には使わない。"
+    ]
   },
   "kind": "diagram",
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "strategy/governance-roles",
   "name": "運営設計_意思決定と実行と支援_循環する統治",
   "license": "CC0-1.0",
@@ -116,6 +115,8 @@
   },
   "path": "assets/strategy/governance-roles.svg",
   "metadata_path": "metadata/strategy/governance-roles.json",
+  "preview_path": "previews/strategy/governance-roles.svg",
+  "preview_has_example_labels": true,
   "search_text": "strategy/governance-roles\n運営設計_意思決定と実行と支援_循環する統治\n判断・実行・支援の関係を分ける\nプロジェクト運営で意思決定者、実行担当、支援組織の役割を説明する。\n権限の委譲、結果の報告、実行支援を分けて設計する。\n左の円は意思決定、右の円は実行担当。\n上の右向き矢印は方針と権限、下の左向き矢印は状況と結果。\n下の基盤から実行を支える。\nガバナンス 統治 意思決定 実行 支援 決裁 役割分担 運営体制 推進体制",
   "render": {
     "theme": true,

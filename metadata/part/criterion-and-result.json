@@ -96,12 +96,12 @@
     "use_case": "検証報告で、合格という結論の根拠を併記する。",
     "message": "事前に決めた基準と確認した結果を照合して判断する。",
     "reading": [
-      "上段に判定基準、下段に確認結果を置く。",
-      "右の括りで両方を使った判断だと示す。"
-    ],
-    "avoid": "チェックは適合を説明する作例。不適合の結果をそのまま書き込む用途には使わない。"
+      "上段は判定基準、下段は確認結果の領域。",
+      "右の括りで両方を使った判断だと示す。",
+      "右のチェックは、基準と結果を照合して適合と判断する作例。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "part/criterion-and-result",
   "name": "判定基準と検証結果を照合する_説明パーツ",
   "license": "CC0-1.0",
@@ -114,7 +114,9 @@
   },
   "path": "assets/part/criterion-and-result.svg",
   "metadata_path": "metadata/part/criterion-and-result.json",
-  "search_text": "part/criterion-and-result\n判定基準と検証結果を照合する_説明パーツ\n判定基準と検証結果を照合する\n検証報告で、合格という結論の根拠を併記する。\n事前に決めた基準と確認した結果を照合して判断する。\n上段に判定基準、下段に確認結果を置く。\n右の括りで両方を使った判断だと示す。\n判定基準 結果 検証 照合 受入 criterion result acceptance",
+  "preview_path": "previews/part/criterion-and-result.svg",
+  "preview_has_example_labels": true,
+  "search_text": "part/criterion-and-result\n判定基準と検証結果を照合する_説明パーツ\n判定基準と検証結果を照合する\n検証報告で、合格という結論の根拠を併記する。\n事前に決めた基準と確認した結果を照合して判断する。\n上段は判定基準、下段は確認結果の領域。\n右の括りで両方を使った判断だと示す。\n右のチェックは、基準と結果を照合して適合と判断する作例。\n判定基準 結果 検証 照合 受入 criterion result acceptance",
   "render": {
     "theme": true,
     "labels": true,

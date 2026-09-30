@@ -22,10 +22,9 @@
     "reading": [
       "大きな入口を持つ建物が倉庫を表す。",
       "入口付近の箱が保管する荷物を示す。"
-    ],
-    "avoid": "保管容量や在庫数量を図の箱数で示さない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "icon/warehouse",
   "name": "保管管理_物品を倉庫に置く_倉庫と荷物",
   "license": "CC0-1.0",
@@ -38,6 +37,8 @@
   },
   "path": "assets/icon/warehouse.svg",
   "metadata_path": "metadata/icon/warehouse.json",
+  "preview_path": "assets/icon/warehouse.svg",
+  "preview_has_example_labels": false,
   "search_text": "icon/warehouse\n保管管理_物品を倉庫に置く_倉庫と荷物\n倉庫・保管\n物品の保管場所や物流拠点を示す。\n物品をまとめて保管する場所がある。\n大きな入口を持つ建物が倉庫を表す。\n入口付近の箱が保管する荷物を示す。\n倉庫 保管 物流 拠点 ストック warehouse storage depot",
   "render": {
     "theme": true,

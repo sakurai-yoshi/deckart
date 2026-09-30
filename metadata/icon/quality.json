@@ -22,10 +22,9 @@
     "reading": [
       "中央のメダルが望ましい品質を表す。",
       "星とリボンが価値を認める印を表す。"
-    ],
-    "avoid": "外部認証や受賞実績を証明するマークには使わない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "icon/quality",
   "name": "品質管理_望ましい基準を保つ_品質メダル",
   "license": "CC0-1.0",
@@ -38,6 +37,8 @@
   },
   "path": "assets/icon/quality.svg",
   "metadata_path": "metadata/icon/quality.json",
+  "preview_path": "assets/icon/quality.svg",
+  "preview_has_example_labels": false,
   "search_text": "icon/quality\n品質管理_望ましい基準を保つ_品質メダル\n品質\n品質への取り組みや品質管理の項目に添える。\n求める基準を満たす品質を目指す。\n中央のメダルが望ましい品質を表す。\n星とリボンが価値を認める印を表す。\n品質 品質管理 基準 検証 信頼 quality assurance standard",
   "render": {
     "theme": true,

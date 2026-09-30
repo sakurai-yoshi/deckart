@@ -21,10 +21,9 @@
     "reading": [
       "二枚の記録票が材料と製品の記録を表す。",
       "往復する経路が前後両方向の追跡を表す。"
-    ],
-    "avoid": "記号は業務の種類を示す。数値、認証取得、測定結果を保証する印には使わない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "icon/material-traceability",
   "name": "材料の履歴追跡_製造業務の記号",
   "license": "CC0-1.0",
@@ -37,6 +36,8 @@
   },
   "path": "assets/icon/material-traceability.svg",
   "metadata_path": "metadata/icon/material-traceability.json",
+  "preview_path": "assets/icon/material-traceability.svg",
+  "preview_has_example_labels": false,
   "search_text": "icon/material-traceability\n材料の履歴追跡_製造業務の記号\n材料の履歴追跡\n材料と製品の対応や履歴を追える仕組みを示す。\n材料から製品へ、製品から材料へ対応をたどれる。\n二枚の記録票が材料と製品の記録を表す。\n往復する経路が前後両方向の追跡を表す。\n材料 履歴 追跡 トレーサビリティ traceability provenance material",
   "render": {
     "theme": true,

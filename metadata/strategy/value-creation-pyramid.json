@@ -82,12 +82,12 @@
     "reading": [
       "下段は人材・情報・仕組みなどの組織基盤。",
       "中段は顧客に提供する価値。",
-      "上段は顧客が得る成果。"
-    ],
-    "avoid": "面積を構成比や投資配分として扱わない。"
+      "上段は顧客が得る成果。",
+      "各段の面積は基盤・価値・成果の関係を示す概念的な表現。"
+    ]
   },
   "kind": "diagram",
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "strategy/value-creation-pyramid",
   "name": "価値創造_基盤から顧客成果へ_一体型ピラミッド",
   "license": "CC0-1.0",
@@ -100,7 +100,9 @@
   },
   "path": "assets/strategy/value-creation-pyramid.svg",
   "metadata_path": "metadata/strategy/value-creation-pyramid.json",
-  "search_text": "strategy/value-creation-pyramid\n価値創造_基盤から顧客成果へ_一体型ピラミッド\n組織の基盤から顧客の成果へ\n組織への投資が、提供価値を通じて顧客の成果へつながることを説明する。\n顧客の成果は価値提供と組織基盤の上に成り立つ。\n下段は人材・情報・仕組みなどの組織基盤。\n中段は顧客に提供する価値。\n上段は顧客が得る成果。\n価値創造 バリューチェーン ピラミッド 価値体系 基盤 顧客成果 組織能力 経営理念",
+  "preview_path": "previews/strategy/value-creation-pyramid.svg",
+  "preview_has_example_labels": true,
+  "search_text": "strategy/value-creation-pyramid\n価値創造_基盤から顧客成果へ_一体型ピラミッド\n組織の基盤から顧客の成果へ\n組織への投資が、提供価値を通じて顧客の成果へつながることを説明する。\n顧客の成果は価値提供と組織基盤の上に成り立つ。\n下段は人材・情報・仕組みなどの組織基盤。\n中段は顧客に提供する価値。\n上段は顧客が得る成果。\n各段の面積は基盤・価値・成果の関係を示す概念的な表現。\n価値創造 バリューチェーン ピラミッド 価値体系 基盤 顧客成果 組織能力 経営理念",
   "render": {
     "theme": true,
     "labels": true,

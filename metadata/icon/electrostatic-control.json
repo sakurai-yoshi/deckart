@@ -22,10 +22,9 @@
     "reading": [
       "チップ内部の稲妻が静電気による影響を表す。",
       "斜線がその影響を抑える意図を示す。"
-    ],
-    "avoid": "説明資料向けの記号。法令・規格に適合した安全標識や現場掲示の代用には使わない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "icon/electrostatic-control",
   "name": "静電気対策_製造業務の記号",
   "license": "CC0-1.0",
@@ -38,6 +37,8 @@
   },
   "path": "assets/icon/electrostatic-control.svg",
   "metadata_path": "metadata/icon/electrostatic-control.json",
+  "preview_path": "assets/icon/electrostatic-control.svg",
+  "preview_has_example_labels": false,
   "search_text": "icon/electrostatic-control\n静電気対策_製造業務の記号\n静電気対策\n電子部品を静電気から守る対策の見出しに添える。\n静電気による部品への影響を抑える。\nチップ内部の稲妻が静電気による影響を表す。\n斜線がその影響を抑える意図を示す。\n静電気 ESD 電子部品 放電 帯電 electrostatic discharge control",
   "render": {
     "theme": true,

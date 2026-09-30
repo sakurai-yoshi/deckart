@@ -100,11 +100,10 @@
       "左の相互接続は担当間で異なる対応経路。",
       "右の三段は全員が使う共通の手順。",
       "下向きの矢印は受付から実行までの順序。"
-    ],
-    "avoid": "線や点の数を実際の業務量として扱わない。"
+    ]
   },
   "kind": "diagram",
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "decision/operations-standardization",
   "name": "業務改善_複雑な連携の整理_個別対応から共通運用",
   "license": "CC0-1.0",
@@ -117,6 +116,8 @@
   },
   "path": "assets/decision/operations-standardization.svg",
   "metadata_path": "metadata/decision/operations-standardization.json",
+  "preview_path": "previews/decision/operations-standardization.svg",
+  "preview_has_example_labels": true,
   "search_text": "decision/operations-standardization\n業務改善_複雑な連携の整理_個別対応から共通運用\n個別対応から共通の手順へ\n問い合わせ対応や受発注業務の標準化を提案する。\n担当ごとの個別対応を共通の手順へ整理する。\n左の相互接続は担当間で異なる対応経路。\n右の三段は全員が使う共通の手順。\n下向きの矢印は受付から実行までの順序。\n改善前後 ビフォーアフター AsIs ToBe 業務改善 標準化 簡素化 共通化 属人化 DX",
   "render": {
     "theme": true,

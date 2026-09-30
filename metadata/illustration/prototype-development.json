@@ -19,19 +19,14 @@
     "reading": [
       "二人が同じ試作品と部品を見て検討する。",
       "分離したカバーで未完成の検討段階を示す。"
-    ],
-    "avoid": "特定製品の構造や完成仕様の説明には使用しない。"
+    ]
   },
   "labels": [],
   "preview_path": "previews/illustration/prototype-development.png",
-  "placement": {
+  "composition": {
     "framing": "waist-up",
     "facing": "inward",
-    "people_count": 2,
-    "recommended_width_cm": [
-      5.5,
-      11
-    ]
+    "people_count": 2
   },
   "generation": {
     "method": "image-generation",
@@ -45,13 +40,14 @@
     "width": 1254,
     "height": 1254
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "illustration/prototype-development",
   "name": "試作品を検討する_メーカー業務の動作",
   "license": "CC0-1.0",
   "path": "media/illustration/prototype-development.png",
   "metadata_path": "metadata/illustration/prototype-development.json",
-  "search_text": "illustration/prototype-development\n試作品を検討する_メーカー業務の動作\n試作品を検討する\n製品開発、試作レビュー、設計と現場の対話の説明。\n形にした試作品を見ながら、改善点を検討する。\n二人が同じ試作品と部品を見て検討する。\n分離したカバーで未完成の検討段階を示す。\n試作 開発 検討 製品 prototype development design\nwaist-up 上半身 腰上 inward 向かい合う 対話 2  [5.5, 11] ",
+  "preview_has_example_labels": false,
+  "search_text": "illustration/prototype-development\n試作品を検討する_メーカー業務の動作\n試作品を検討する\n製品開発、試作レビュー、設計と現場の対話の説明。\n形にした試作品を見ながら、改善点を検討する。\n二人が同じ試作品と部品を見て検討する。\n分離したカバーで未完成の検討段階を示す。\n試作 開発 検討 製品 prototype development design\nwaist-up 上半身 腰上 inward 向かい合う 対話",
   "render": {
     "theme": false,
     "labels": false,

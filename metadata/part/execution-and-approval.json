@@ -98,10 +98,9 @@
     "reading": [
       "上の帯が共通の対象業務を示す。",
       "下の左右で実行担当と判断担当を分ける。"
-    ],
-    "avoid": "組織上の上下関係や全責任分担を示す組織図には使わない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "part/execution-and-approval",
   "name": "実行する人と判断する人を分ける_説明パーツ",
   "license": "CC0-1.0",
@@ -114,6 +113,8 @@
   },
   "path": "assets/part/execution-and-approval.svg",
   "metadata_path": "metadata/part/execution-and-approval.json",
+  "preview_path": "previews/part/execution-and-approval.svg",
+  "preview_has_example_labels": true,
   "search_text": "part/execution-and-approval\n実行する人と判断する人を分ける_説明パーツ\n実行する人と判断する人を分ける\n仕事の担当と判断権限を短く確認する場面。\n手を動かす人と、決める人を区別する。\n上の帯が共通の対象業務を示す。\n下の左右で実行担当と判断担当を分ける。\n担当 責任 実行 承認 役割 ownership execution approval",
   "render": {
     "theme": true,

@@ -81,12 +81,11 @@
     "use_case": "観察や調査結果から示唆を述べる場面。",
     "message": "見つかった事実と、それをどう読んだかを区別する。",
     "reading": [
-      "左に直接確認した事実を置く。",
-      "右には解釈や可能性を別の文章で置く。"
-    ],
-    "avoid": "解釈を確認済みの事実として記載する用途には使わない。"
+      "左は直接確認した事実の領域。",
+      "右は解釈や可能性を示す独立した領域。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "part/fact-and-interpretation",
   "name": "事実と解釈を分けて置く_説明パーツ",
   "license": "CC0-1.0",
@@ -99,7 +98,9 @@
   },
   "path": "assets/part/fact-and-interpretation.svg",
   "metadata_path": "metadata/part/fact-and-interpretation.json",
-  "search_text": "part/fact-and-interpretation\n事実と解釈を分けて置く_説明パーツ\n事実と解釈を分けて置く\n観察や調査結果から示唆を述べる場面。\n見つかった事実と、それをどう読んだかを区別する。\n左に直接確認した事実を置く。\n右には解釈や可能性を別の文章で置く。\n事実 解釈 観測 示唆 分析 fact interpretation observation",
+  "preview_path": "previews/part/fact-and-interpretation.svg",
+  "preview_has_example_labels": true,
+  "search_text": "part/fact-and-interpretation\n事実と解釈を分けて置く_説明パーツ\n事実と解釈を分けて置く\n観察や調査結果から示唆を述べる場面。\n見つかった事実と、それをどう読んだかを区別する。\n左は直接確認した事実の領域。\n右は解釈や可能性を示す独立した領域。\n事実 解釈 観測 示唆 分析 fact interpretation observation",
   "render": {
     "theme": true,
     "labels": true,

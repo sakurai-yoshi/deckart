@@ -175,14 +175,13 @@
       "左側を下へ進み要求から試作へ具体化する。",
       "右側を上へ進み設計と要求の適合を確認する。",
       "同じ高さの破線は確認対象の対応で、作業を飛ばす矢印ではない。"
-    ],
-    "avoid": "特定業界の規格適合手順を網羅した図ではない。"
+    ]
   },
   "layout": {
     "relation": "requirements-and-test-correspondence",
     "reading_direction": "left-to-right"
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "manufacturing/design-verification",
   "name": "要求と設計に対応した検証を行う_製造業務の関係図",
   "license": "CC0-1.0",
@@ -195,6 +194,8 @@
   },
   "path": "assets/manufacturing/design-verification.svg",
   "metadata_path": "metadata/manufacturing/design-verification.json",
+  "preview_path": "previews/manufacturing/design-verification.svg",
+  "preview_has_example_labels": true,
   "search_text": "manufacturing/design-verification\n要求と設計に対応した検証を行う_製造業務の関係図\n要求と設計に対応した検証を行う\n要求から設計・試作へ具体化し、それぞれの条件に対応する確認を行う。\n作った結果を、事前に決めた要求と設計条件に対応させて確かめる。\n左側を下へ進み要求から試作へ具体化する。\n右側を上へ進み設計と要求の適合を確認する。\n同じ高さの破線は確認対象の対応で、作業を飛ばす矢印ではない。\n要求 設計 検証 妥当性確認 試作 Vモデル design verification validation",
   "render": {
     "theme": true,

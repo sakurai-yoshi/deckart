@@ -99,11 +99,10 @@
       "二つの支柱は両方必要な前提。",
       "上の梁は前提を使って実現する共通機能。",
       "右への矢印は機能から成果へのつながり。"
-    ],
-    "avoid": "どちらか一方で成立する代替条件には使わない。"
+    ]
   },
   "kind": "diagram",
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "relationship/required-foundations",
   "name": "基盤整備_成果を支える二つの前提_依存関係の構造",
   "license": "CC0-1.0",
@@ -116,6 +115,8 @@
   },
   "path": "assets/relationship/required-foundations.svg",
   "metadata_path": "metadata/relationship/required-foundations.json",
+  "preview_path": "previews/relationship/required-foundations.svg",
+  "preview_has_example_labels": true,
   "search_text": "relationship/required-foundations\n基盤整備_成果を支える二つの前提_依存関係の構造\n二つの前提がそろって成果を生む\n共通機能を導入する前に、情報整備と運用整備の両方が必要だと説明する。\n一方の基盤だけでは共通機能を支えられない。\n二つの支柱は両方必要な前提。\n上の梁は前提を使って実現する共通機能。\n右への矢印は機能から成果へのつながり。\n依存関係 前提条件 必要条件 基盤整備 共通機能 両輪 インフラ 運用 実現条件",
   "render": {
     "theme": true,

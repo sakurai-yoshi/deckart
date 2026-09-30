@@ -22,10 +22,9 @@
     "reading": [
       "綴じた用紙が質問票を表す。",
       "行ごとの選択欄が回答を表す。"
-    ],
-    "avoid": "調査結果の代表性や回答数を示す用途には使わない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "icon/survey",
   "name": "意見収集_回答を集める_選択式アンケート",
   "license": "CC0-1.0",
@@ -38,6 +37,8 @@
   },
   "path": "assets/icon/survey.svg",
   "metadata_path": "metadata/icon/survey.json",
+  "preview_path": "assets/icon/survey.svg",
+  "preview_has_example_labels": false,
   "search_text": "icon/survey\n意見収集_回答を集める_選択式アンケート\nアンケート\n顧客や従業員へのアンケートを示す。\n同じ質問で複数の意見を集める。\n綴じた用紙が質問票を表す。\n行ごとの選択欄が回答を表す。\nアンケート 調査 回答 設問 質問票 survey questionnaire feedback",
   "render": {
     "theme": true,

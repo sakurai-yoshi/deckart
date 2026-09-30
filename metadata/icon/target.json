@@ -22,10 +22,9 @@
     "reading": [
       "同心円が目指す中心を表す。",
       "中心へ向かう矢が目標に取り組む行為を表す。"
-    ],
-    "avoid": "実際の達成率や達成済みの状態としては使わない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "icon/target",
   "name": "目標設定_目指す到達点を定める_的と矢",
   "license": "CC0-1.0",
@@ -38,6 +37,8 @@
   },
   "path": "assets/icon/target.svg",
   "metadata_path": "metadata/icon/target.json",
+  "preview_path": "assets/icon/target.svg",
+  "preview_has_example_labels": false,
   "search_text": "icon/target\n目標設定_目指す到達点を定める_的と矢\n目標\n事業目標や達成指標の見出しに添える。\n目指す到達点を明確にする。\n同心円が目指す中心を表す。\n中心へ向かう矢が目標に取り組む行為を表す。\n目標 達成 KPI 目的 到達 target objective goal",
   "render": {
     "theme": true,

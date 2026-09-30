@@ -22,10 +22,9 @@
     "reading": [
       "上の一つの製品から下の構成部品へ枝分かれする。",
       "異なる形が異なる部品種類を示す。"
-    ],
-    "avoid": "記号は業務の種類を示す。数値、認証取得、測定結果を保証する印には使わない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "icon/bill-of-materials",
   "name": "部品構成_製造業務の記号",
   "license": "CC0-1.0",
@@ -38,6 +37,8 @@
   },
   "path": "assets/icon/bill-of-materials.svg",
   "metadata_path": "metadata/icon/bill-of-materials.json",
+  "preview_path": "assets/icon/bill-of-materials.svg",
+  "preview_has_example_labels": false,
   "search_text": "icon/bill-of-materials\n部品構成_製造業務の記号\n部品構成\n部品構成や部品表の見出しに添える。\n一つの製品が複数種類の部品から成る。\n上の一つの製品から下の構成部品へ枝分かれする。\n異なる形が異なる部品種類を示す。\n部品表 構成 BOM 製品 部材 bill materials components",
   "render": {
     "theme": true,

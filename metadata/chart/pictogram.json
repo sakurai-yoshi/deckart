@@ -84,10 +84,9 @@
       "人物1体が1人に対応し、全部で10人。",
       "主色の7人が該当、淡い3人がその他。",
       "7人を10人で割った割合が70%。"
-    ],
-    "avoid": "数値は作例。実際の人数と異なる場合は1体が表す人数も含めて更新する。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "chart/pictogram",
   "name": "人数比較_全体に占める対象の割合_10人中7人作例",
   "license": "CC0-1.0",
@@ -100,6 +99,8 @@
   },
   "path": "assets/chart/pictogram.svg",
   "metadata_path": "metadata/chart/pictogram.json",
+  "preview_path": "previews/chart/pictogram.svg",
+  "preview_has_example_labels": true,
   "search_text": "chart/pictogram\n人数比較_全体に占める対象の割合_10人中7人作例\n10人中7人の割合を示す\n同じ母集団の中で条件に該当する人数の割合を説明する。\n全体と該当する人数の関係が一目で分かる。\n人物1体が1人に対応し、全部で10人。\n主色の7人が該当、淡い3人がその他。\n7人を10人で割った割合が70%。\nピクトグラム 人数 人物 割合 比率 回答 該当 70パーセント pictogram",
   "render": {
     "theme": true,

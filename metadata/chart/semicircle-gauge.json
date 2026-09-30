@@ -90,10 +90,9 @@
     "reading": [
       "左端は0、上端は50、右端は100。",
       "主色の弧と針の位置はどちらも65%に対応する。"
-    ],
-    "avoid": "数値は作例。主色は良否を表さず、上限を超える指標には使わない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "chart/semicircle-gauge",
   "name": "指標確認_上限に対する到達度_65パーセントゲージ作例",
   "license": "CC0-1.0",
@@ -106,6 +105,8 @@
   },
   "path": "assets/chart/semicircle-gauge.svg",
   "metadata_path": "metadata/chart/semicircle-gauge.json",
+  "preview_path": "previews/chart/semicircle-gauge.svg",
+  "preview_has_example_labels": true,
   "search_text": "chart/semicircle-gauge\n指標確認_上限に対する到達度_65パーセントゲージ作例\n上限に対する到達度を示す\n上限が明確な指標について現在の到達度を示す。\n0から100の範囲で現在値がどこにあるかを示す。\n左端は0、上端は50、右端は100。\n主色の弧と針の位置はどちらも65%に対応する。\nゲージ 到達度 達成率 指標 メーター 半円 gauge",
   "render": {
     "theme": true,

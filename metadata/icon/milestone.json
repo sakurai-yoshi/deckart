@@ -22,10 +22,9 @@
     "reading": [
       "下の線が進行の流れを表す。",
       "旗の立つ点が重要な節目を示す。"
-    ],
-    "avoid": "点の間隔を実際の日数や工数として読ませない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "icon/milestone",
   "name": "進行管理_重要な到達点を置く_進行線と旗",
   "license": "CC0-1.0",
@@ -38,6 +37,8 @@
   },
   "path": "assets/icon/milestone.svg",
   "metadata_path": "metadata/icon/milestone.json",
+  "preview_path": "assets/icon/milestone.svg",
+  "preview_has_example_labels": false,
   "search_text": "icon/milestone\n進行管理_重要な到達点を置く_進行線と旗\nマイルストーン\nプロジェクトの節目や重要な到達点を示す。\n途中の重要な到達点を共有する。\n下の線が進行の流れを表す。\n旗の立つ点が重要な節目を示す。\nマイルストーン 節目 到達点 進行 納期 milestone checkpoint project",
   "render": {
     "theme": true,

@@ -83,10 +83,9 @@
     "reading": [
       "左の括りに今回の対象をまとめる。",
       "右の独立した欄に対象外を明示する。"
-    ],
-    "avoid": "対象外を不要な業務という意味で使う用途には使わない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "part/included-and-excluded",
   "name": "囲った対象と対象外を区別する_説明パーツ",
   "license": "CC0-1.0",
@@ -99,6 +98,8 @@
   },
   "path": "assets/part/included-and-excluded.svg",
   "metadata_path": "metadata/part/included-and-excluded.json",
+  "preview_path": "previews/part/included-and-excluded.svg",
+  "preview_has_example_labels": true,
   "search_text": "part/included-and-excluded\n囲った対象と対象外を区別する_説明パーツ\n囲った対象と対象外を区別する\n説明の対象を短く区切って共有する場面。\n括った対象だけを今回の範囲として扱う。\n左の括りに今回の対象をまとめる。\n右の独立した欄に対象外を明示する。\n対象 対象外 範囲 除外 スコープ include exclude scope",
   "render": {
     "theme": true,

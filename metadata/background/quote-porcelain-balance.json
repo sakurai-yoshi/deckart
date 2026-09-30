@@ -1,73 +1,37 @@
 {
-  "title": "開いた陶器の造形で顧客の声を引き立てる背景",
-  "description": "左の白い陶器と青い内面をアクセントに、右へ引用文と出典を置く。",
+  "title": "開いた青い陶器の曲面",
+  "description": "左側に白い陶器の弧と丸い台座があり、弧の内側に深い青が見える。",
   "kind": "background",
   "category": "11-背景とフレーム",
   "width": 1672,
   "height": 941,
   "keywords": [
-    "顧客の声",
+    "背景",
+    "白",
+    "青",
+    "余白",
+    "質感",
+    "background",
+    "陶器",
+    "弧",
+    "台座",
+    "左装飾",
+    "右余白",
     "引用",
-    "所感",
-    "インタビュー",
-    "利用者",
-    "課題認識",
-    "quote",
-    "customer voice",
-    "insight"
+    "見出し",
+    "porcelain",
+    "arc",
+    "quote"
   ],
   "guidance": {
-    "use_case": "顧客や利用者の声、関係者の所感、重要な発言を引用して示す場面。",
-    "message": "一人の具体的な言葉や気づきを、読み手の印象に残す。",
+    "use_case": "引用、紹介、要点、提案など。",
+    "message": "開いた弧と台座の組み合わせで、落ち着きと余韻を添える。",
     "reading": [
-      "右側に引用文を2〜4行で配置し、発言者と出典をその下に置く。",
-      "陶器の造形は左側の見どころとして残す。"
-    ],
-    "avoid": "発言者の承諾が必要な引用や機密情報の公開可否は、素材とは別に確認する。"
+      "白い弧が左側で立ち上がり、内側は深い青。",
+      "右側に白い面が広がり、造形の下には淡い影がある。"
+    ]
   },
   "labels": [],
-  "canvas": {
-    "width": 1600,
-    "height": 900
-  },
-  "content_areas": [
-    {
-      "id": "quote",
-      "role": "引用文",
-      "purpose": "引用文を配置する白い領域。",
-      "content_type": "text",
-      "x": 835,
-      "y": 185,
-      "width": 665,
-      "height": 310,
-      "text_color": "#172B4D",
-      "text_align": "left"
-    },
-    {
-      "id": "attribution",
-      "role": "発言者と立場",
-      "purpose": "発言者と立場を配置する白い領域。",
-      "content_type": "text",
-      "x": 835,
-      "y": 555,
-      "width": 665,
-      "height": 85,
-      "text_color": "#172B4D",
-      "text_align": "left"
-    },
-    {
-      "id": "source",
-      "role": "引用の出典",
-      "purpose": "引用の出典を配置する白い領域。",
-      "content_type": "text",
-      "x": 835,
-      "y": 735,
-      "width": 665,
-      "height": 50,
-      "text_color": "#172B4D",
-      "text_align": "left"
-    }
-  ],
   "preview_path": "previews/background/quote-porcelain-balance.png",
   "generation": {
     "method": "image-generation",
@@ -76,13 +40,18 @@
   "format": "png",
   "mime_type": "image/png",
   "transparent": false,
-  "schema_version": 2,
+  "canvas": {
+    "width": 1672,
+    "height": 941
+  },
+  "schema_version": 3,
   "id": "background/quote-porcelain-balance",
-  "name": "開いた陶器の造形で顧客の声を引き立てる背景_背景",
+  "name": "開いた青い陶器の曲面_背景",
   "license": "CC0-1.0",
   "path": "media/background/quote-porcelain-balance.png",
   "metadata_path": "metadata/background/quote-porcelain-balance.json",
-  "search_text": "background/quote-porcelain-balance\n開いた陶器の造形で顧客の声を引き立てる背景_背景\n開いた陶器の造形で顧客の声を引き立てる背景\n顧客や利用者の声、関係者の所感、重要な発言を引用して示す場面。\n一人の具体的な言葉や気づきを、読み手の印象に残す。\n右側に引用文を2〜4行で配置し、発言者と出典をその下に置く。\n陶器の造形は左側の見どころとして残す。\n顧客の声 引用 所感 インタビュー 利用者 課題認識 quote customer voice insight",
+  "preview_has_example_labels": false,
+  "search_text": "background/quote-porcelain-balance\n開いた青い陶器の曲面_背景\n開いた青い陶器の曲面\n引用、紹介、要点、提案など。\n開いた弧と台座の組み合わせで、落ち着きと余韻を添える。\n白い弧が左側で立ち上がり、内側は深い青。\n右側に白い面が広がり、造形の下には淡い影がある。\n背景 白 青 余白 質感 background 陶器 弧 台座 左装飾 右余白 引用 見出し porcelain arc quote",
   "render": {
     "theme": false,
     "labels": false,

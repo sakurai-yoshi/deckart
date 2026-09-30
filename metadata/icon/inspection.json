@@ -22,10 +22,9 @@
     "reading": [
       "箱が検品する物品を表す。",
       "拡大鏡とチェックが状態を確かめる行為を表す。"
-    ],
-    "avoid": "検査済み製品の保証マークとしては使わない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "icon/inspection",
   "name": "検品作業_受け取った品物を確認する_荷物と検査",
   "license": "CC0-1.0",
@@ -38,6 +37,8 @@
   },
   "path": "assets/icon/inspection.svg",
   "metadata_path": "metadata/icon/inspection.json",
+  "preview_path": "assets/icon/inspection.svg",
+  "preview_has_example_labels": false,
   "search_text": "icon/inspection\n検品作業_受け取った品物を確認する_荷物と検査\n検品\n納品された品物の検品工程を示す。\n品物の状態を確認して受け入れる。\n箱が検品する物品を表す。\n拡大鏡とチェックが状態を確かめる行為を表す。\n検品 検査 受入 不良 確認 inspection checking acceptance",
   "render": {
     "theme": true,

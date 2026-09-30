@@ -112,11 +112,10 @@
     "message": "最初に要点をつかみ、根拠と詳細へ進める。",
     "reading": [
       "左から右への連番が読み順を示す。",
-      "各番号の下に読む内容を置く。"
-    ],
-    "avoid": "実際の業務工程や所要時間を示す用途には使わない。"
+      "各番号の下は、その順番で読む内容の領域。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "part/reading-order",
   "name": "要点から詳細へ読む順番を添える_説明パーツ",
   "license": "CC0-1.0",
@@ -129,7 +128,9 @@
   },
   "path": "assets/part/reading-order.svg",
   "metadata_path": "metadata/part/reading-order.json",
-  "search_text": "part/reading-order\n要点から詳細へ読む順番を添える_説明パーツ\n要点から詳細へ読む順番を添える\n情報量の多い図版へ読み方を添える場面。\n最初に要点をつかみ、根拠と詳細へ進める。\n左から右への連番が読み順を示す。\n各番号の下に読む内容を置く。\n読み順 要点 根拠 詳細 案内 reading order hierarchy",
+  "preview_path": "previews/part/reading-order.svg",
+  "preview_has_example_labels": true,
+  "search_text": "part/reading-order\n要点から詳細へ読む順番を添える_説明パーツ\n要点から詳細へ読む順番を添える\n情報量の多い図版へ読み方を添える場面。\n最初に要点をつかみ、根拠と詳細へ進める。\n左から右への連番が読み順を示す。\n各番号の下は、その順番で読む内容の領域。\n読み順 要点 根拠 詳細 案内 reading order hierarchy",
   "render": {
     "theme": true,
     "labels": true,

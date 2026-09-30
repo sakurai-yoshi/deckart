@@ -81,12 +81,11 @@
     "use_case": "方針を担当別の実行内容へ具体化する場面。",
     "message": "同じ方針を、それぞれの役割で実行する。",
     "reading": [
-      "左の濃い面に共通方針を置く。",
+      "左の濃い面は、共通方針を表す領域。",
       "一本の接続から右の三つの実行内容へ分ける。"
-    ],
-    "avoid": "三つの排他的な選択肢を示す用途には使わない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "part/three-way-expansion",
   "name": "一つの方針を役割別に展開する_説明パーツ",
   "license": "CC0-1.0",
@@ -99,7 +98,9 @@
   },
   "path": "assets/part/three-way-expansion.svg",
   "metadata_path": "metadata/part/three-way-expansion.json",
-  "search_text": "part/three-way-expansion\n一つの方針を役割別に展開する_説明パーツ\n一つの方針を役割別に展開する\n方針を担当別の実行内容へ具体化する場面。\n同じ方針を、それぞれの役割で実行する。\n左の濃い面に共通方針を置く。\n一本の接続から右の三つの実行内容へ分ける。\n展開 方針 役割 共通化 分岐 policy deployment roles",
+  "preview_path": "previews/part/three-way-expansion.svg",
+  "preview_has_example_labels": true,
+  "search_text": "part/three-way-expansion\n一つの方針を役割別に展開する_説明パーツ\n一つの方針を役割別に展開する\n方針を担当別の実行内容へ具体化する場面。\n同じ方針を、それぞれの役割で実行する。\n左の濃い面は、共通方針を表す領域。\n一本の接続から右の三つの実行内容へ分ける。\n展開 方針 役割 共通化 分岐 policy deployment roles",
   "render": {
     "theme": true,
     "labels": true,

@@ -101,14 +101,13 @@
       "上の太い経路は影響のない提供を続ける範囲。",
       "下の破線の囲みが切り離して対処する影響範囲。",
       "原因の除去と確認を経た経路だけが上段へ戻る。"
-    ],
-    "avoid": "分離できない共有基盤の障害にもそのまま適用できるとは限らない。"
+    ]
   },
   "layout": {
     "relation": "isolation-and-verified-rejoin",
     "reading_direction": "left-to-right"
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "operations/incident-containment",
   "name": "障害対応_影響箇所を隔離して通常提供を続ける_封じ込めと復旧確認",
   "license": "CC0-1.0",
@@ -121,6 +120,8 @@
   },
   "path": "assets/operations/incident-containment.svg",
   "metadata_path": "metadata/operations/incident-containment.json",
+  "preview_path": "previews/operations/incident-containment.svg",
+  "preview_has_example_labels": true,
   "search_text": "operations/incident-containment\n障害対応_影響箇所を隔離して通常提供を続ける_封じ込めと復旧確認\n影響箇所を隔離して提供を続ける\n障害対応で、全体を止めずに影響箇所を切り離す方針と復旧条件を説明する。\n影響範囲を限定し、確認が済むまで通常系へ戻さない。\n上の太い経路は影響のない提供を続ける範囲。\n下の破線の囲みが切り離して対処する影響範囲。\n原因の除去と確認を経た経路だけが上段へ戻る。\n障害 影響範囲 隔離 封じ込め 復旧 サービス継続 インシデント containment incident isolation",
   "render": {
     "theme": true,

@@ -101,15 +101,15 @@
     "reading": [
       "左右の同じ記号が対応する項目。",
       "チェックの行は一致し、注意色の行は不一致。",
-      "不一致の行を転記先で修正し、同じ対応で再照合する。"
-    ],
-    "avoid": "行の長さは値の大小を表さない。件数や金額の集計結果を示すグラフではない。"
+      "不一致の行を転記先で修正し、同じ対応で再照合する。",
+      "行の長さは照合対象を区別する概念的な表現。"
+    ]
   },
   "layout": {
     "relation": "pairwise-reconciliation-with-correction",
     "reading_direction": "left-to-right"
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "operations/data-reconciliation",
   "name": "移行検証_転記元と転記先の対応を照合する_不一致の検出と修正",
   "license": "CC0-1.0",
@@ -122,7 +122,9 @@
   },
   "path": "assets/operations/data-reconciliation.svg",
   "metadata_path": "metadata/operations/data-reconciliation.json",
-  "search_text": "operations/data-reconciliation\n移行検証_転記元と転記先の対応を照合する_不一致の検出と修正\n転記元と転記先の対応を照合する\n移行や転記の検証で、元データと反映先の不一致を確認して修正する。\n全体を見比べるだけでなく、同じ項目の対応と不一致を確かめる。\n左右の同じ記号が対応する項目。\nチェックの行は一致し、注意色の行は不一致。\n不一致の行を転記先で修正し、同じ対応で再照合する。\n照合 突合 検算 データ移行 転記 不一致 整合性 差異 修正 reconciliation matching",
+  "preview_path": "previews/operations/data-reconciliation.svg",
+  "preview_has_example_labels": true,
+  "search_text": "operations/data-reconciliation\n移行検証_転記元と転記先の対応を照合する_不一致の検出と修正\n転記元と転記先の対応を照合する\n移行や転記の検証で、元データと反映先の不一致を確認して修正する。\n全体を見比べるだけでなく、同じ項目の対応と不一致を確かめる。\n左右の同じ記号が対応する項目。\nチェックの行は一致し、注意色の行は不一致。\n不一致の行を転記先で修正し、同じ対応で再照合する。\n行の長さは照合対象を区別する概念的な表現。\n照合 突合 検算 データ移行 転記 不一致 整合性 差異 修正 reconciliation matching",
   "render": {
     "theme": true,
     "labels": true,

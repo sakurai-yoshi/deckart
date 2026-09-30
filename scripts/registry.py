@@ -78,9 +78,9 @@ def png_info(content):
     return dict(width=width,height=height,transparent=alpha_min<255,alpha_min=alpha_min,alpha_max=alpha_max)
 
 
-def placement_text(placement):
+def composition_text(composition):
     words={'waist-up':'上半身 腰上','full-body':'全身','object':'物 道具','left':'左向き','right':'右向き','front':'正面','inward':'向かい合う 対話','down':'下向き 手元を見る'}
-    return ' '.join(str(value)+' '+words.get(str(value),'') for value in placement.values())
+    return ' '.join(str(value)+' '+words.get(str(value),'') for key,value in composition.items() if key in ('framing','facing'))
 
 
 def artwork():
@@ -128,7 +128,8 @@ def svg_document(a):
 def metadata(a):
     format=a.get('format','svg')
     meta={k:v for k,v in a.items() if k not in ('body','id','key','source')}
-    meta.update(schema_version=2,id=a['key'],name=a['id'],license='CC0-1.0',format=format,mime_type='image/png' if format=='png' else 'image/svg+xml',transparent=a.get('transparent'),canvas=a.get('canvas',dict(width=a['width'],height=a['height'])),path=f'{"media" if format=="png" else "assets"}/{a["key"]}.{format}',metadata_path=f'metadata/{a["key"]}.json')
+    meta.update(schema_version=3,id=a['key'],name=a['id'],license='CC0-1.0',format=format,mime_type='image/png' if format=='png' else 'image/svg+xml',transparent=a.get('transparent'),canvas=a.get('canvas',dict(width=a['width'],height=a['height'])),path=f'{"media" if format=="png" else "assets"}/{a["key"]}.{format}',metadata_path=f'metadata/{a["key"]}.json')
+    meta.setdefault('preview_path',meta['path'])
     labels=[]
     for i,source in enumerate(a['labels']):
         label=dict(source);lines=label['text'].split('\n')
@@ -137,9 +138,11 @@ def metadata(a):
         label['color']=resolve_theme()['colors'][label['color_role']]
         labels.append(label)
     meta['labels']=labels
+    meta['preview_has_example_labels']=bool(format=='svg' and labels)
+    if meta['preview_has_example_labels']:meta['preview_path']=f'previews/{a["key"]}.svg'
     guide=a['guidance']
     meta['search_text']='\n'.join([a['key'],a['id'],a['title'],guide['use_case'],guide['message'],*guide['reading'],' '.join(a['keywords'])])
-    if a.get('placement'):meta['search_text']+='\n'+placement_text(a['placement'])
+    if a.get('composition'):meta['search_text']+='\n'+composition_text(a['composition'])
     meta['render']={'theme':format=='svg','labels':format=='svg' and bool(labels),'data':a['kind']=='chart'}
     if a['kind']=='chart':
         from sets.metrics import input_contract

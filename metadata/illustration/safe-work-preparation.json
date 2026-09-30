@@ -19,19 +19,14 @@
     "reading": [
       "作業者が保護眼鏡を正しく装着する。",
       "準備段階の落ち着いた姿勢を示す。"
-    ],
-    "avoid": "全ての作業に必要な保護具を網羅した図としては使用しない。"
+    ]
   },
   "labels": [],
   "preview_path": "previews/illustration/safe-work-preparation.png",
-  "placement": {
+  "composition": {
     "framing": "waist-up",
     "facing": "front",
-    "people_count": 1,
-    "recommended_width_cm": [
-      3.5,
-      8
-    ]
+    "people_count": 1
   },
   "generation": {
     "method": "image-generation",
@@ -45,13 +40,14 @@
     "width": 1254,
     "height": 1254
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "illustration/safe-work-preparation",
   "name": "作業前に保護具を整える_メーカー業務の動作",
   "license": "CC0-1.0",
   "path": "media/illustration/safe-work-preparation.png",
   "metadata_path": "metadata/illustration/safe-work-preparation.json",
-  "search_text": "illustration/safe-work-preparation\n作業前に保護具を整える_メーカー業務の動作\n作業前に保護具を整える\n安全教育、始業前準備、保護具の基本姿勢の説明。\n作業前に保護具を整え、安全に備える。\n作業者が保護眼鏡を正しく装着する。\n準備段階の落ち着いた姿勢を示す。\n安全 準備 保護具 作業前 safety preparation PPE\nwaist-up 上半身 腰上 front 正面 1  [3.5, 8] ",
+  "preview_has_example_labels": false,
+  "search_text": "illustration/safe-work-preparation\n作業前に保護具を整える_メーカー業務の動作\n作業前に保護具を整える\n安全教育、始業前準備、保護具の基本姿勢の説明。\n作業前に保護具を整え、安全に備える。\n作業者が保護眼鏡を正しく装着する。\n準備段階の落ち着いた姿勢を示す。\n安全 準備 保護具 作業前 safety preparation PPE\nwaist-up 上半身 腰上 front 正面",
   "render": {
     "theme": false,
     "labels": false,

@@ -46,13 +46,14 @@ def validate():
         assert hashlib.sha256(content).hexdigest()==a['sha256']==row['sha256'],file
         assert len(content)==a['size_bytes']==row['size_bytes'],file
         assert a['name'] and a['description'] and len(a['keywords'])>=3 and a['search_text'],file
-        assert a['schema_version']==2 and a['license']=='CC0-1.0'
-        guide=a['guidance'];assert set(guide)=={'use_case','message','reading','avoid'}
+        assert a['schema_version']==3 and a['license']=='CC0-1.0'
+        guide=a['guidance'];assert set(guide)=={'use_case','message','reading'}
         assert all(isinstance(guide[k],str) and guide[k] for k in ('use_case','message')),file
         assert 1<=len(guide['reading'])<=4 and all(guide['reading']),file
         assert row['use_case']==guide['use_case'] and row['message']==guide['message'],file
         assert a['format']==('png' if a['kind'] in ('illustration','background') else 'svg'),file
-        assert all(row[field]==a[field] for field in ('format','mime_type','transparent','canvas','render')),file
+        assert all(row[field]==a[field] for field in ('kind','category','format','mime_type','transparent','canvas','render','preview_path','preview_has_example_labels')),file
+        assert not {'content_areas','placement','recommended_width_cm'} & a.keys(),file
         if a['format']=='png':
             info=png_info(content)
             assert (a['width'],a['height'],a['transparent'])==(info['width'],info['height'],info['transparent']),file
@@ -79,12 +80,12 @@ def validate():
                     if value and value!='none':assert role in colors and value==colors[role],(file,value,role)
                 for name in ('width','height','r','rx','ry','stroke-width'):
                     if name in el.attrib:assert math.isfinite(float(el.attrib[name])) and float(el.attrib[name])>=0,(file,name)
-        if a.get('placement'):
-            placement=a['placement']
-            assert placement==row['placement'] and placement['framing'] in ('waist-up','full-body','object'),file
-            assert placement['facing'] in ('left','right','front','inward','down'),file
-            if 'people_count' in placement:assert type(placement['people_count']) is int and 0<=placement['people_count']<=10,file
-            size=placement['recommended_width_cm'];assert len(size)==2 and 0<size[0]<=size[1]<=34,file
+        if a.get('composition'):
+            composition=a['composition']
+            assert composition==row['composition'] and composition['framing'] in ('waist-up','full-body','object'),file
+            assert set(composition)<={'framing','facing','people_count'},file
+            assert composition['facing'] in ('left','right','front','inward','down'),file
+            if 'people_count' in composition:assert type(composition['people_count']) is int and composition['people_count']>=0,file
         for i,label in enumerate(a['labels']):
             assert label['id']==f'label-{i+1}' and bounds(label,a['width'],a['height']),(file,label)
             assert label['text'] and label['role'] and label['align'] in ('left','center')
@@ -92,16 +93,13 @@ def validate():
             assert label['color']==colors[label['color_role']]
         if a['labels']:
             from library import add_labels
-            add_labels(content.decode(),deepcopy(a),{},include_examples=True)
+            preview,_=add_labels(content.decode(),deepcopy(a),{},include_examples=True)
+            assert a['preview_has_example_labels'] is True and a['preview_path']==f'previews/{a["id"]}.svg',file
+            assert asset_path(a['preview_path'],'previews').read_bytes()==preview.encode('utf-8'),file
+        else:
+            assert a['preview_has_example_labels'] is False,file
         if a['kind']=='background':
-            canvas=a['canvas'];assert canvas['width']/canvas['height']==16/9 and abs(a['width']/a['height']-16/9)<.005,file
-            areas=a['content_areas'];assert areas and len({area['id'] for area in areas})==len(areas),file
-            for i,area in enumerate(areas):
-                assert re.fullmatch(r'[a-z][a-z0-9-]*',area['id']) and area['role'] and area['purpose'],file
-                assert bounds(area,canvas['width'],canvas['height']),(file,area)
-                for other in areas[i+1:]:
-                    overlap=min(area['x']+area['width'],other['x']+other['width'])>max(area['x'],other['x']) and min(area['y']+area['height'],other['y']+other['height'])>max(area['y'],other['y'])
-                    assert not overlap,(file,'Overlapping content areas',area['id'],other['id'])
+            assert a['canvas']==dict(width=a['width'],height=a['height']) and abs(a['width']/a['height']-16/9)<.005,file
         if a['kind']=='chart':
             data=a['data'];assert data['is_sample'] is True and '作例' in a['name'] and data['unit']
             assert a['data_input']['category_count']==len(data['categories'])
@@ -109,8 +107,15 @@ def validate():
         if a['format']=='svg':
             for theme in (resolve_theme('#005BAC'),resolve_theme(monochrome=True)):ET.fromstring(apply_theme(content.decode(),theme))
     assert [json.loads(line) for line in (ROOT/'catalog.ndjson').read_text(encoding='utf-8').splitlines()]==records
+    from build import browse_text
+    inventory=(ROOT/'catalog.txt').read_text(encoding='utf-8')
+    assert inventory==browse_text(records)
+    assert {line.split(' | ',1)[0] for line in inventory.splitlines() if ' | ' in line}=={a['id'] for a in records}
+    assert len(inventory.encode('utf-8'))<=160*len(records),'Keep the complete browsing inventory small'
     page=(ROOT/'index.html').read_text(encoding='utf-8')
     embedded=json.loads(re.search(r'<script id="library" type="application/json">(.*?)</script>',page,re.S).group(1))
+    settings=json.loads(re.search(r'<script id="settings" type="application/json">(.*?)</script>',page,re.S).group(1))
+    assert settings['search']==json.loads((ROOT/'search.json').read_text(encoding='utf-8'))
     assert [{k:v for k,v in a.items() if k!='download'} for a in embedded]==records,'Gallery metadata mismatch'
     for a in embedded:
         if a['format']=='svg':assert base64.b64decode(a['download'])==(ROOT/a['path']).read_bytes(),a['id']
@@ -120,14 +125,14 @@ def validate():
         names=archive.namelist();assert len(names)==len(set(names))
         assert names==sorted(names),'Release ZIP entries must use identical path ordering on every OS'
         assert all(info.create_system==3 for info in archive.infolist()),'Release ZIP metadata must be independent of the build host'
-        assert {'index.html','web/themes.js','web/catalog.js','llms.txt','scripts/library.py','catalog.json','request.schema.json'}<=set(names)
+        assert {'index.html','web/themes.js','web/catalog.js','web/search.js','llms.txt','scripts/library.py','scripts/search.py','search.json','catalog.txt','catalog.json','request.schema.json'}<=set(names)
         for name in names:
             assert not Path(name).is_absolute() and '..' not in Path(name).parts,name
             assert archive.read(name)==(ROOT/name).read_bytes(),name
         assert {a['path'] for a in records}<=set(names)
     from check_charts import validate_charts
     validate_charts(ROOT,records)
-    print(f'PASS: {len(rows)} SVG/PNG assets; AI index and sidecars; paint roles; placement bounds; chart geometry; offline archive')
+    print(f'PASS: {len(rows)} SVG/PNG assets; complete browsing inventory; AI index and sidecars; paint roles; internal label bounds; chart geometry; offline archive')
 
 
 if __name__=='__main__':validate()

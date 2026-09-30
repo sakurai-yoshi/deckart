@@ -23,10 +23,9 @@
     "reading": [
       "計算機が金額の検討を表す。",
       "横の硬貨が計画する資金を表す。"
-    ],
-    "avoid": "計算結果や予算承認済みの状態を示す印には使わない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "icon/budget",
   "name": "予算管理_必要な金額を計画する_計算機と資金",
   "license": "CC0-1.0",
@@ -39,6 +38,8 @@
   },
   "path": "assets/icon/budget.svg",
   "metadata_path": "metadata/icon/budget.json",
+  "preview_path": "assets/icon/budget.svg",
+  "preview_has_example_labels": false,
   "search_text": "icon/budget\n予算管理_必要な金額を計画する_計算機と資金\n予算\n予算策定や費用計画の項目を示す。\n使える金額と必要な費用を計画する。\n計算機が金額の検討を表す。\n横の硬貨が計画する資金を表す。\n予算 計画 見積 金額 配分 budget planning estimate finance",
   "render": {
     "theme": true,

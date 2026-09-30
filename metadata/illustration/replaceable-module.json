@@ -19,19 +19,14 @@
     "reading": [
       "開いた差込口と同じ形の部品を対応させる。",
       "部品の取っ手が取り外しやすさを示す。"
-    ],
-    "avoid": "実際の交換手順や通電中の交換可否を示す図としては使用しない。"
+    ]
   },
   "labels": [],
   "preview_path": "previews/illustration/replaceable-module.png",
-  "placement": {
+  "composition": {
     "framing": "object",
     "facing": "front",
-    "people_count": 0,
-    "recommended_width_cm": [
-      4,
-      7
-    ]
+    "people_count": 0
   },
   "generation": {
     "method": "image-generation",
@@ -45,13 +40,14 @@
     "width": 1254,
     "height": 1254
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "illustration/replaceable-module",
   "name": "交換できる部品で保守する_メーカー業務の構成",
   "license": "CC0-1.0",
   "path": "media/illustration/replaceable-module.png",
   "metadata_path": "metadata/illustration/replaceable-module.json",
-  "search_text": "illustration/replaceable-module\n交換できる部品で保守する_メーカー業務の構成\n交換できる部品で保守する\n保守しやすい設計、部品交換、製品寿命の説明。\n必要な部品を交換し、製品を使い続けられるようにする。\n開いた差込口と同じ形の部品を対応させる。\n部品の取っ手が取り外しやすさを示す。\n交換 保守 モジュール 部品 修理 replaceable module serviceability\nobject 物 道具 front 正面 0  [4, 7] ",
+  "preview_has_example_labels": false,
+  "search_text": "illustration/replaceable-module\n交換できる部品で保守する_メーカー業務の構成\n交換できる部品で保守する\n保守しやすい設計、部品交換、製品寿命の説明。\n必要な部品を交換し、製品を使い続けられるようにする。\n開いた差込口と同じ形の部品を対応させる。\n部品の取っ手が取り外しやすさを示す。\n交換 保守 モジュール 部品 修理 replaceable module serviceability\nobject 物 道具 front 正面",
   "render": {
     "theme": false,
     "labels": false,

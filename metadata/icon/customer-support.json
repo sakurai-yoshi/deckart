@@ -23,10 +23,9 @@
     "reading": [
       "ヘッドセットが相手との通話を表す。",
       "人物とマイクが対応する担当者を表す。"
-    ],
-    "avoid": "営業時間や即時回答を保証する印には使わない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "icon/customer-support",
   "name": "顧客対応_問い合わせを受ける_ヘッドセット担当者",
   "license": "CC0-1.0",
@@ -39,6 +38,8 @@
   },
   "path": "assets/icon/customer-support.svg",
   "metadata_path": "metadata/icon/customer-support.json",
+  "preview_path": "assets/icon/customer-support.svg",
+  "preview_has_example_labels": false,
   "search_text": "icon/customer-support\n顧客対応_問い合わせを受ける_ヘッドセット担当者\n顧客サポート\n顧客向けの相談窓口やサポート工程を示す。\n問い合わせを受けて対応する。\nヘッドセットが相手との通話を表す。\n人物とマイクが対応する担当者を表す。\n顧客対応 サポート CS 問合せ 相談 customer support helpdesk service",
   "render": {
     "theme": true,

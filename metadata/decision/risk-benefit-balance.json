@@ -98,12 +98,12 @@
     "reading": [
       "左のプラスは期待する価値。",
       "右の注意記号は確認する懸念。",
-      "中央の支点は両面を扱う意思決定。"
-    ],
-    "avoid": "天秤の高さを金額や評価点の大小として使わない。"
+      "中央の支点は両面を扱う意思決定。",
+      "水平な天秤は両面を同じ場で検討する姿勢を表す。"
+    ]
   },
   "kind": "diagram",
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "decision/risk-benefit-balance",
   "name": "意思決定_期待効果と懸念の比較_均衡する天秤",
   "license": "CC0-1.0",
@@ -116,7 +116,9 @@
   },
   "path": "assets/decision/risk-benefit-balance.svg",
   "metadata_path": "metadata/decision/risk-benefit-balance.json",
-  "search_text": "decision/risk-benefit-balance\n意思決定_期待効果と懸念の比較_均衡する天秤\n効果と懸念を同じ場で判断する\n稟議や投資判断で、期待効果とリスク対策を同時に説明する。\n効果だけでなく懸念への備えも判断材料にする。\n左のプラスは期待する価値。\n右の注意記号は確認する懸念。\n中央の支点は両面を扱う意思決定。\n費用対効果 リスク リターン メリット デメリット 懸念 ベネフィット 判断 稟議",
+  "preview_path": "previews/decision/risk-benefit-balance.svg",
+  "preview_has_example_labels": true,
+  "search_text": "decision/risk-benefit-balance\n意思決定_期待効果と懸念の比較_均衡する天秤\n効果と懸念を同じ場で判断する\n稟議や投資判断で、期待効果とリスク対策を同時に説明する。\n効果だけでなく懸念への備えも判断材料にする。\n左のプラスは期待する価値。\n右の注意記号は確認する懸念。\n中央の支点は両面を扱う意思決定。\n水平な天秤は両面を同じ場で検討する姿勢を表す。\n費用対効果 リスク リターン メリット デメリット 懸念 ベネフィット 判断 稟議",
   "render": {
     "theme": true,
     "labels": true,

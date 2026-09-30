@@ -22,10 +22,9 @@
     "reading": [
       "軸のある機器と、その下の波形を一組にする。",
       "波形が設備の動きから得られる信号を表す。"
-    ],
-    "avoid": "記号は業務の種類を示す。数値、認証取得、測定結果を保証する印には使わない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "icon/vibration-monitoring",
   "name": "振動監視_製造業務の記号",
   "license": "CC0-1.0",
@@ -38,6 +37,8 @@
   },
   "path": "assets/icon/vibration-monitoring.svg",
   "metadata_path": "metadata/icon/vibration-monitoring.json",
+  "preview_path": "assets/icon/vibration-monitoring.svg",
+  "preview_has_example_labels": false,
   "search_text": "icon/vibration-monitoring\n振動監視_製造業務の記号\n振動監視\n回転機器などの状態監視を示す。\n設備から発生する振動の変化を確認する。\n軸のある機器と、その下の波形を一組にする。\n波形が設備の動きから得られる信号を表す。\n振動 監視 状態 設備 予兆 vibration monitoring condition",
   "render": {
     "theme": true,

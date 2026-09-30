@@ -67,10 +67,9 @@
     "reading": [
       "上の濃い帯が共通の原則を示す。",
       "枝分かれした下の欄が例外の扱いを示す。"
-    ],
-    "avoid": "例外が原則より広くなる運用を簡略化して示す用途には使わない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "part/rule-and-exception",
   "name": "原則から例外を分けて示す_説明パーツ",
   "license": "CC0-1.0",
@@ -83,6 +82,8 @@
   },
   "path": "assets/part/rule-and-exception.svg",
   "metadata_path": "metadata/part/rule-and-exception.json",
+  "preview_path": "previews/part/rule-and-exception.svg",
+  "preview_has_example_labels": true,
   "search_text": "part/rule-and-exception\n原則から例外を分けて示す_説明パーツ\n原則から例外を分けて示す\n共通ルールと異なる扱いが必要な場面。\n原則を明示したうえで、例外の条件を分ける。\n上の濃い帯が共通の原則を示す。\n枝分かれした下の欄が例外の扱いを示す。\n原則 例外 運用 ルール rule exception policy",
   "render": {
     "theme": true,

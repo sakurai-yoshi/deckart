@@ -81,11 +81,10 @@
     "message": "仮説を事実と分け、検証の方法を示す。",
     "reading": [
       "左の破線が未確認の仮説を示す。",
-      "右の淡い欄に仮説を確かめる方法を置く。"
-    ],
-    "avoid": "未検証の仮説を結論として利用する用途には使わない。"
+      "右の淡い欄は、仮説を確かめる方法の領域。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "part/hypothesis-and-test",
   "name": "仮説と確かめ方を一組にする_説明パーツ",
   "license": "CC0-1.0",
@@ -98,7 +97,9 @@
   },
   "path": "assets/part/hypothesis-and-test.svg",
   "metadata_path": "metadata/part/hypothesis-and-test.json",
-  "search_text": "part/hypothesis-and-test\n仮説と確かめ方を一組にする_説明パーツ\n仮説と確かめ方を一組にする\n調査前に何をどう確かめるかを共有する場面。\n仮説を事実と分け、検証の方法を示す。\n左の破線が未確認の仮説を示す。\n右の淡い欄に仮説を確かめる方法を置く。\n仮説 検証 未確定 調査 hypothesis test validation",
+  "preview_path": "previews/part/hypothesis-and-test.svg",
+  "preview_has_example_labels": true,
+  "search_text": "part/hypothesis-and-test\n仮説と確かめ方を一組にする_説明パーツ\n仮説と確かめ方を一組にする\n調査前に何をどう確かめるかを共有する場面。\n仮説を事実と分け、検証の方法を示す。\n左の破線が未確認の仮説を示す。\n右の淡い欄は、仮説を確かめる方法の領域。\n仮説 検証 未確定 調査 hypothesis test validation",
   "render": {
     "theme": true,
     "labels": true,

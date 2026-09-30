@@ -99,11 +99,10 @@
       "三つの背景領域は部門の責任範囲。",
       "横向きの矢印は一つの仕事の流れ。",
       "境界の縦枠は責任を引き継ぐ場所。"
-    ],
-    "avoid": "境界の記号を承認・否決の分岐として扱わない。"
+    ]
   },
   "kind": "diagram",
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "strategy/cross-functional-handoffs",
   "name": "組織運営_責任範囲と部門横断業務_境界を越える実行",
   "license": "CC0-1.0",
@@ -116,6 +115,8 @@
   },
   "path": "assets/strategy/cross-functional-handoffs.svg",
   "metadata_path": "metadata/strategy/cross-functional-handoffs.json",
+  "preview_path": "previews/strategy/cross-functional-handoffs.svg",
+  "preview_has_example_labels": true,
   "search_text": "strategy/cross-functional-handoffs\n組織運営_責任範囲と部門横断業務_境界を越える実行\n部門を越えて責任を引き継ぐ\n企画から実行、提供へ仕事を渡す部門横断業務を説明する。\n仕事の流れと責任の引き渡し条件を合わせて決める。\n三つの背景領域は部門の責任範囲。\n横向きの矢印は一つの仕事の流れ。\n境界の縦枠は責任を引き継ぐ場所。\n責任分界 部門横断 組織横断 オーナーシップ RACI 引き継ぎ ハンドオフ 業務分担 協働",
   "render": {
     "theme": true,

@@ -102,11 +102,10 @@
       "左右の支柱がそれぞれの部門。",
       "つながった橋が両者で支える取り組み。",
       "両側の矢印が中央の共通成果へ向かう。"
-    ],
-    "avoid": "承認権限の上下関係を示す図として使わない。"
+    ]
   },
   "kind": "diagram",
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "relation/shared-responsibility",
   "name": "部門連携_共通の成果を両部門で支える_共同責任の橋",
   "license": "CC0-1.0",
@@ -119,6 +118,8 @@
   },
   "path": "assets/relation/shared-responsibility.svg",
   "metadata_path": "metadata/relation/shared-responsibility.json",
+  "preview_path": "previews/relation/shared-responsibility.svg",
+  "preview_has_example_labels": true,
   "search_text": "relation/shared-responsibility\n部門連携_共通の成果を両部門で支える_共同責任の橋\n共通の成果を両部門で支える\n開発と事業など、二部門が共通の成果を担う体制を説明する。\n部門の役割は分かれていても、目指す成果は共通する。\n左右の支柱がそれぞれの部門。\nつながった橋が両者で支える取り組み。\n両側の矢印が中央の共通成果へ向かう。\n共同責任 部門連携 共同作業 役割分担 境界 横断 共通成果 協業",
   "render": {
     "theme": true,

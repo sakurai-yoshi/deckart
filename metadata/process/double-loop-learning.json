@@ -101,12 +101,12 @@
     "reading": [
       "中央の流れは方針・実行・観測。",
       "下の短いループが実行手順の改善。",
-      "上の大きなループが方針や前提の見直し。"
-    ],
-    "avoid": "二つの改善を必ず順番に実施する図として扱わない。"
+      "上の大きなループが方針や前提の見直し。",
+      "二つの戻り先は手順の改善と前提の見直しの違いを示す。"
+    ]
   },
   "kind": "diagram",
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "process/double-loop-learning",
   "name": "組織学習_実行改善と前提見直しを分ける_二重のフィードバック",
   "license": "CC0-1.0",
@@ -119,7 +119,9 @@
   },
   "path": "assets/process/double-loop-learning.svg",
   "metadata_path": "metadata/process/double-loop-learning.json",
-  "search_text": "process/double-loop-learning\n組織学習_実行改善と前提見直しを分ける_二重のフィードバック\n実行の改善と前提の見直し\n施策の振り返りで、手順の修正と方針の再検討を切り分ける。\n結果が悪いときは、手順だけでなく前提も見直せる。\n中央の流れは方針・実行・観測。\n下の短いループが実行手順の改善。\n上の大きなループが方針や前提の見直し。\n組織学習 ダブルループ フィードバック 改善 振り返り 前提 方針 PDCA",
+  "preview_path": "previews/process/double-loop-learning.svg",
+  "preview_has_example_labels": true,
+  "search_text": "process/double-loop-learning\n組織学習_実行改善と前提見直しを分ける_二重のフィードバック\n実行の改善と前提の見直し\n施策の振り返りで、手順の修正と方針の再検討を切り分ける。\n結果が悪いときは、手順だけでなく前提も見直せる。\n中央の流れは方針・実行・観測。\n下の短いループが実行手順の改善。\n上の大きなループが方針や前提の見直し。\n二つの戻り先は手順の改善と前提の見直しの違いを示す。\n組織学習 ダブルループ フィードバック 改善 振り返り 前提 方針 PDCA",
   "render": {
     "theme": true,
     "labels": true,

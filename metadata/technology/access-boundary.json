@@ -88,10 +88,9 @@
       "囲まれた右側が保護対象の範囲。",
       "上の要求は権限確認を通り、システムへ届く。",
       "下の要求は境界の外で止まる。"
-    ],
-    "avoid": "この構成だけで、すべての攻撃や情報漏えいを防げるとは示さない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "technology/access-boundary",
   "name": "情報保護_許可した要求だけを通す_権限確認と保護境界",
   "license": "CC0-1.0",
@@ -104,6 +103,8 @@
   },
   "path": "assets/technology/access-boundary.svg",
   "metadata_path": "metadata/technology/access-boundary.json",
+  "preview_path": "previews/technology/access-boundary.svg",
+  "preview_has_example_labels": true,
   "search_text": "technology/access-boundary\n情報保護_許可した要求だけを通す_権限確認と保護境界\n許可した要求だけを通す\n業務システムのアクセス制御で、権限確認を行う位置を説明する。\n利用者の権限を確かめてから、保護対象へのアクセスを許可する。\n囲まれた右側が保護対象の範囲。\n上の要求は権限確認を通り、システムへ届く。\n下の要求は境界の外で止まる。\nアクセス制御 認証 認可 権限 境界 保護 セキュリティ security boundary authorization access control",
   "render": {
     "theme": true,

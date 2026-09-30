@@ -180,10 +180,9 @@
       "左の円は事業で得たい成果。",
       "中央の二領域は、その成果を構成する要素。",
       "右の端点は、それぞれの要素を確認する指標。"
-    ],
-    "avoid": "各指標の合計が上位目標になる数式や、因果関係の検証結果として扱わない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "planning/outcome-measure-tree",
   "name": "目標管理_成果を観測できる指標へ分ける_成果要素と測定の樹形",
   "license": "CC0-1.0",
@@ -196,6 +195,8 @@
   },
   "path": "assets/planning/outcome-measure-tree.svg",
   "metadata_path": "metadata/planning/outcome-measure-tree.json",
+  "preview_path": "previews/planning/outcome-measure-tree.svg",
+  "preview_has_example_labels": true,
   "search_text": "planning/outcome-measure-tree\n目標管理_成果を観測できる指標へ分ける_成果要素と測定の樹形\n目指す成果を観測する指標へ分ける\n成果目標を設定し、達成状況を何で確認するかを整理する。\n目標の言葉だけで終えず、観測できる指標まで決める。\n左の円は事業で得たい成果。\n中央の二領域は、その成果を構成する要素。\n右の端点は、それぞれの要素を確認する指標。\n目標管理 KGI KPI 成果指標 指標ツリー 測定 評価 成果分解 outcome measures metric tree goals indicators",
   "render": {
     "theme": true,

@@ -89,10 +89,9 @@
       "左の二枚が参照資料、上の吹き出しが質問。",
       "拡大鏡の中で関連する箇所を選ぶ。",
       "回答の下の丸と菱形が、元の資料との対応を示す。"
-    ],
-    "avoid": "出典の表示だけで回答の正しさが保証されるとは扱わない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "technology/rag-evidence",
   "name": "AI活用_参照資料から根拠付き回答へ_検索と出典の対応",
   "license": "CC0-1.0",
@@ -105,6 +104,8 @@
   },
   "path": "assets/technology/rag-evidence.svg",
   "metadata_path": "metadata/technology/rag-evidence.json",
+  "preview_path": "previews/technology/rag-evidence.svg",
+  "preview_has_example_labels": true,
   "search_text": "technology/rag-evidence\nAI活用_参照資料から根拠付き回答へ_検索と出典の対応\n参照資料から根拠付き回答へ\n社内資料を参照するAIが、回答の根拠をどのように取り込むか説明する。\n見つけた資料の内容と出典を、回答まで対応させる。\n左の二枚が参照資料、上の吹き出しが質問。\n拡大鏡の中で関連する箇所を選ぶ。\n回答の下の丸と菱形が、元の資料との対応を示す。\nAI RAG 検索拡張生成 根拠 出典 引用 資料 検索 ナレッジ retrieval evidence citation grounding",
   "render": {
     "theme": true,

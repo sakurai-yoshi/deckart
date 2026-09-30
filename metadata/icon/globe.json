@@ -24,10 +24,9 @@
     "reading": [
       "丸い輪郭が地球全体を表す。",
       "経線と緯線が地域を越える広がりを表す。"
-    ],
-    "avoid": "実際の国境や地理的な範囲を示す地図には使わない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "icon/globe",
   "name": "地域表示_世界とのつながりを示す_グローブ",
   "license": "CC0-1.0",
@@ -40,6 +39,8 @@
   },
   "path": "assets/icon/globe.svg",
   "metadata_path": "metadata/icon/globe.json",
+  "preview_path": "assets/icon/globe.svg",
+  "preview_has_example_labels": false,
   "search_text": "icon/globe\n地域表示_世界とのつながりを示す_グローブ\n世界・海外\n海外展開や世界とのつながりを示す場面。\n地域を越えた広がりやつながりを示す。\n丸い輪郭が地球全体を表す。\n経線と緯線が地域を越える広がりを表す。\n世界 海外 国際 グローバル 地域 多言語 globe global international worldwide",
   "render": {
     "theme": true,

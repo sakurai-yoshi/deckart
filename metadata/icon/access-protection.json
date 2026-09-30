@@ -23,11 +23,10 @@
     "reading": [
       "保管庫の中の書類が守る対象を表す。",
       "鍵と鍵穴のある扉が許可に基づくアクセスを表す。"
-    ],
-    "avoid": "特定の製品の安全性や認証取得を保証する用途には使わない。"
+    ]
   },
   "kind": "icon",
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "icon/access-protection",
   "name": "情報管理_アクセス保護_許可された入口",
   "license": "CC0-1.0",
@@ -40,6 +39,8 @@
   },
   "path": "assets/icon/access-protection.svg",
   "metadata_path": "metadata/icon/access-protection.json",
+  "preview_path": "assets/icon/access-protection.svg",
+  "preview_has_example_labels": false,
   "search_text": "icon/access-protection\n情報管理_アクセス保護_許可された入口\n許可された入口\n情報へのアクセス権限や保護を紹介する場面。\n大切な情報は、権限を持つ人にだけ開く。\n保管庫の中の書類が守る対象を表す。\n鍵と鍵穴のある扉が許可に基づくアクセスを表す。\n権限 認証 アクセス制御 保護 情報管理 セキュリティ security access protection authorization",
   "render": {
     "theme": true,

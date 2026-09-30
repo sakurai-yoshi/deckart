@@ -21,10 +21,9 @@
     "reading": [
       "並ぶ箱が保有する物品を表す。",
       "積み上がったまとまりが在庫を表す。"
-    ],
-    "avoid": "三箱を実際の在庫数量として読ませない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "icon/inventory",
   "name": "在庫管理_保有する物品を数える_積み上げた箱",
   "license": "CC0-1.0",
@@ -37,6 +36,8 @@
   },
   "path": "assets/icon/inventory.svg",
   "metadata_path": "metadata/icon/inventory.json",
+  "preview_path": "assets/icon/inventory.svg",
+  "preview_has_example_labels": false,
   "search_text": "icon/inventory\n在庫管理_保有する物品を数える_積み上げた箱\n在庫\n在庫管理や棚卸の見出しに添える。\n保有している物品の量を管理する。\n並ぶ箱が保有する物品を表す。\n積み上がったまとまりが在庫を表す。\n在庫 棚卸 保有 物品 stock inventory goods",
   "render": {
     "theme": true,

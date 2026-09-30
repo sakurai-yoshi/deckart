@@ -3,13 +3,9 @@
   "category": "06-業務イラスト",
   "labels": [],
   "preview_path": "previews/illustration/ergonomic-workstation.png",
-  "placement": {
+  "composition": {
     "framing": "object",
-    "facing": "front",
-    "recommended_width_cm": [
-      4,
-      7
-    ]
+    "facing": "front"
   },
   "title": "働く姿勢を整える",
   "description": "パソコンをスタンドへ載せ、別のキーボードとマウスで画面と入力位置を整える工夫を表す。",
@@ -27,8 +23,7 @@
     "reading": [
       "スタンドに載せたパソコンが、画面位置を調整する工夫を表す。",
       "独立したキーボードとマウスが、入力位置を別に整える関係を表す。"
-    ],
-    "avoid": "実物の寸法・仕様や、作業手順を示す図としては使用しない。"
+    ]
   },
   "width": 1254,
   "height": 1254,
@@ -43,13 +38,14 @@
     "width": 1254,
     "height": 1254
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "illustration/ergonomic-workstation",
   "name": "働く姿勢を整える_業務イラスト",
   "license": "CC0-1.0",
   "path": "media/illustration/ergonomic-workstation.png",
   "metadata_path": "metadata/illustration/ergonomic-workstation.json",
-  "search_text": "illustration/ergonomic-workstation\n働く姿勢を整える_業務イラスト\n働く姿勢を整える\n作業環境の改善、デスク環境、疲れにくい働き方を説明する。\n画面と入力機器を使いやすい位置に整える。\nスタンドに載せたパソコンが、画面位置を調整する工夫を表す。\n独立したキーボードとマウスが、入力位置を別に整える関係を表す。\n作業環境 姿勢 デスク 働き方 ergonomic workstation\nobject 物 道具 front 正面 [4, 7] ",
+  "preview_has_example_labels": false,
+  "search_text": "illustration/ergonomic-workstation\n働く姿勢を整える_業務イラスト\n働く姿勢を整える\n作業環境の改善、デスク環境、疲れにくい働き方を説明する。\n画面と入力機器を使いやすい位置に整える。\nスタンドに載せたパソコンが、画面位置を調整する工夫を表す。\n独立したキーボードとマウスが、入力位置を別に整える関係を表す。\n作業環境 姿勢 デスク 働き方 ergonomic workstation\nobject 物 道具 front 正面",
   "render": {
     "theme": false,
     "labels": false,

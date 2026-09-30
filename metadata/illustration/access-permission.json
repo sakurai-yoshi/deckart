@@ -4,13 +4,9 @@
   "width": 1254,
   "height": 1254,
   "labels": [],
-  "placement": {
+  "composition": {
     "framing": "object",
-    "facing": "front",
-    "recommended_width_cm": [
-      4,
-      7
-    ]
+    "facing": "front"
   },
   "title": "必要な権限で資料を開く",
   "description": "資料を収めたケースの錠に鍵が差し込まれ、必要な権限を使って資料を開く関係を表す。",
@@ -31,8 +27,7 @@
     "reading": [
       "ケースに収めた資料が、管理されている情報を表す。",
       "錠と合う鍵が、資料を開くために必要な権限を表す。"
-    ],
-    "avoid": "特定の暗号方式や、情報漏えいを防ぐ保証として使わない。"
+    ]
   },
   "generation": {
     "method": "image-generation",
@@ -46,13 +41,14 @@
     "width": 1254,
     "height": 1254
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "illustration/access-permission",
   "name": "必要な権限で資料を開く_情報と業務のイラスト",
   "license": "CC0-1.0",
   "path": "media/illustration/access-permission.png",
   "metadata_path": "metadata/illustration/access-permission.json",
-  "search_text": "illustration/access-permission\n必要な権限で資料を開く_情報と業務のイラスト\n必要な権限で資料を開く\n資料へのアクセス権限、閲覧範囲の管理、機密情報の扱い方の説明。\n権限を持つ利用者が、必要な資料を開く。\nケースに収めた資料が、管理されている情報を表す。\n錠と合う鍵が、資料を開くために必要な権限を表す。\n権限 アクセス 閲覧 資料 認可 機密 access permission authorization\nobject 物 道具 front 正面 [4, 7] ",
+  "preview_has_example_labels": false,
+  "search_text": "illustration/access-permission\n必要な権限で資料を開く_情報と業務のイラスト\n必要な権限で資料を開く\n資料へのアクセス権限、閲覧範囲の管理、機密情報の扱い方の説明。\n権限を持つ利用者が、必要な資料を開く。\nケースに収めた資料が、管理されている情報を表す。\n錠と合う鍵が、資料を開くために必要な権限を表す。\n権限 アクセス 閲覧 資料 認可 機密 access permission authorization\nobject 物 道具 front 正面",
   "render": {
     "theme": false,
     "labels": false,

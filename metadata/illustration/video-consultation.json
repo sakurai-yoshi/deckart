@@ -20,19 +20,14 @@
     "reading": [
       "画面内の相手が、離れた場所にいる相談相手を示す。",
       "画面へ向けた顔と操作する手が、オンラインで対話する動作を示す。"
-    ],
-    "avoid": "実在の人物・業務実績・承認や確認の完了を証明する画像としては使えません。"
+    ]
   },
   "labels": [],
   "preview_path": "previews/illustration/video-consultation.png",
-  "placement": {
+  "composition": {
     "framing": "waist-up",
     "facing": "right",
-    "people_count": 2,
-    "recommended_width_cm": [
-      5,
-      9
-    ]
+    "people_count": 2
   },
   "generation": {
     "method": "image-generation",
@@ -45,13 +40,14 @@
     "width": 1254,
     "height": 1254
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "illustration/video-consultation",
   "name": "画面越しに相談する_汎用ビジネスの動作",
   "license": "CC0-1.0",
   "path": "media/illustration/video-consultation.png",
   "metadata_path": "metadata/illustration/video-consultation.json",
-  "search_text": "illustration/video-consultation\n画面越しに相談する_汎用ビジネスの動作\n画面越しに相談する\n遠隔相談、オンラインサポート、拠点間の相談を説明する。\n場所が離れていても、顔を見ながら相談する。\n画面内の相手が、離れた場所にいる相談相手を示す。\n画面へ向けた顔と操作する手が、オンラインで対話する動作を示す。\n遠隔 相談 オンライン 拠点 ビデオ通話 remote consultation\nwaist-up 上半身 腰上 right 右向き 2  [5, 9] ",
+  "preview_has_example_labels": false,
+  "search_text": "illustration/video-consultation\n画面越しに相談する_汎用ビジネスの動作\n画面越しに相談する\n遠隔相談、オンラインサポート、拠点間の相談を説明する。\n場所が離れていても、顔を見ながら相談する。\n画面内の相手が、離れた場所にいる相談相手を示す。\n画面へ向けた顔と操作する手が、オンラインで対話する動作を示す。\n遠隔 相談 オンライン 拠点 ビデオ通話 remote consultation\nwaist-up 上半身 腰上 right 右向き",
   "render": {
     "theme": false,
     "labels": false,

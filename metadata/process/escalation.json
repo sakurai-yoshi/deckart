@@ -101,12 +101,12 @@
     "reading": [
       "各段の丸が対応を担う相手。",
       "上向きの経路が次の責任者への引継ぎ。",
-      "段の高さが判断権限の段階を示す。"
-    ],
-    "avoid": "対応人数や処理時間を階段の大きさで比較しない。"
+      "段の高さが判断権限の段階を示す。",
+      "段の大きさは判断の段階を区別する概念的な表現。"
+    ]
   },
   "kind": "diagram",
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "process/escalation",
   "name": "障害対応_判断権限を段階的に引き継ぐ_責任者へのエスカレーション",
   "license": "CC0-1.0",
@@ -119,7 +119,9 @@
   },
   "path": "assets/process/escalation.svg",
   "metadata_path": "metadata/process/escalation.json",
-  "search_text": "process/escalation\n障害対応_判断権限を段階的に引き継ぐ_責任者へのエスカレーション\n判断権限を段階的に引き継ぐ\n現場で解決できない障害を、判断できる責任者へ引き継ぐ。\n解決に必要な権限を持つ相手まで、段階的につなぐ。\n各段の丸が対応を担う相手。\n上向きの経路が次の責任者への引継ぎ。\n段の高さが判断権限の段階を示す。\nエスカレーション 障害対応 責任者 権限 委譲 判断 報告 引継ぎ",
+  "preview_path": "previews/process/escalation.svg",
+  "preview_has_example_labels": true,
+  "search_text": "process/escalation\n障害対応_判断権限を段階的に引き継ぐ_責任者へのエスカレーション\n判断権限を段階的に引き継ぐ\n現場で解決できない障害を、判断できる責任者へ引き継ぐ。\n解決に必要な権限を持つ相手まで、段階的につなぐ。\n各段の丸が対応を担う相手。\n上向きの経路が次の責任者への引継ぎ。\n段の高さが判断権限の段階を示す。\n段の大きさは判断の段階を区別する概念的な表現。\nエスカレーション 障害対応 責任者 権限 委譲 判断 報告 引継ぎ",
   "render": {
     "theme": true,
     "labels": true,

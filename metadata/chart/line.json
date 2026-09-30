@@ -164,10 +164,9 @@
       "点は各期間の作例値、線は隣り合う点の接続。",
       "第3期では前期より減り、その後は増加する。",
       "縦軸は0件から100件までの共通目盛り。"
-    ],
-    "avoid": "数値は作例。点の間の線を実測値とみなさず、不規則な期間間隔にはそのまま使わない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "chart/line",
   "name": "推移確認_期間ごとの増減を見る_折れ線グラフ作例",
   "license": "CC0-1.0",
@@ -180,6 +179,8 @@
   },
   "path": "assets/chart/line.svg",
   "metadata_path": "metadata/chart/line.json",
+  "preview_path": "previews/chart/line.svg",
+  "preview_has_example_labels": true,
   "search_text": "chart/line\n推移確認_期間ごとの増減を見る_折れ線グラフ作例\n期間ごとの増減を線で追う\n同じ間隔で集計した期間別の件数の変化を示す。\n各期間の増減と全体の推移を確認できる。\n点は各期間の作例値、線は隣り合う点の接続。\n第3期では前期より減り、その後は増加する。\n縦軸は0件から100件までの共通目盛り。\n折れ線 推移 時系列 変化 件数 トレンド line time series",
   "render": {
     "theme": true,

@@ -101,11 +101,10 @@
       "左で三つの確認経路に分かれる。",
       "右の縦バーが結果を揃える条件。",
       "共通の出口から次の工程へ進む。"
-    ],
-    "avoid": "一つの結果だけで進める条件には使わない。"
+    ]
   },
   "kind": "diagram",
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "process/parallel-validation",
   "name": "品質保証_並行検証を揃えて次へ進む_三系統の同期",
   "license": "CC0-1.0",
@@ -118,6 +117,8 @@
   },
   "path": "assets/process/parallel-validation.svg",
   "metadata_path": "metadata/process/parallel-validation.json",
+  "preview_path": "previews/process/parallel-validation.svg",
+  "preview_has_example_labels": true,
   "search_text": "process/parallel-validation\n品質保証_並行検証を揃えて次へ進む_三系統の同期\n並行検証を揃えて次へ進む\nリリース前に機能・運用・安全性の確認を並行で実施する。\n必要な確認結果がすべて揃ってから次へ進む。\n左で三つの確認経路に分かれる。\n右の縦バーが結果を揃える条件。\n共通の出口から次の工程へ進む。\n並行検証 並列処理 同期 合流 リリース判定 品質 審査",
   "render": {
     "theme": true,

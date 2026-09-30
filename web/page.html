@@ -10,34 +10,34 @@
 <header><div><h1>DeckArt</h1><p>メーカーの資料へ。用途で選べるPNGとSVG。</p></div><nav aria-label="保存と使い方"><a href="llms.txt">AIで使う</a><a href="web/guide.html">使い方</a><button id="save-all" class="primary">素材をすべて保存</button></nav></header>
 <main id="main">
 <section class="controls" aria-label="素材を探す">
-<div class="search-row"><div class="search"><label for="search">伝えたいこと・使用場面</label><input id="search" name="q" type="search" autocomplete="off" placeholder="例：業務改善、承認、PDCA、達成率…"></div><div class="category-field"><label for="category">分類</label><select id="category" name="category"><option value="">すべての分類</option></select></div></div>
+<div class="search-row"><div class="search"><label for="search">伝えたいこと・使用場面</label><input id="search" name="q" type="search" autocomplete="off" placeholder="例：品質改善の取り組み、部門間の連携…"></div><div class="category-field"><label for="category">分類</label><select id="category" name="category"><option value="">すべての分類</option></select></div></div>
 <div class="file-filters"><label for="format">形式 <select id="format"><option value="">すべて</option><option value="png">PNG画像</option><option value="svg">SVG図形</option></select></label><label><input type="checkbox" id="transparent">背景透過PNG</label><label><input type="checkbox" id="themeable">配色変更できる素材</label></div>
 <div id="types" class="types" role="group" aria-label="素材の種類"></div>
-<div class="appearance"><fieldset class="palette-field"><legend>SVGの色</legend><div id="palettes"><label class="palette"><input type="radio" name="theme" value="blue" checked>基本の青</label><label class="palette"><input type="radio" name="theme" value="brand">ブランド色</label><label class="palette"><input type="radio" name="theme" value="mono">モノクロ</label></div><div id="brand-control" hidden><label for="accent">ブランド色</label><input id="accent" name="accent" type="text" value="#005BAC" pattern="#[0-9A-Fa-f]{6}" maxlength="7" spellcheck="false" autocomplete="off"><button id="apply-accent" type="button">適用</button></div><p id="theme-note" role="status"></p><p class="format-note">PNGは完成画像です。配色と文字の変更はSVGに適用されます。</p></fieldset><label class="view-toggle"><input type="checkbox" id="examples">文字の配置例</label></div>
+<div class="appearance"><fieldset class="palette-field"><legend>SVGの色</legend><div id="palettes"><label class="palette"><input type="radio" name="theme" value="blue" checked>基本の青</label><label class="palette"><input type="radio" name="theme" value="brand">ブランド色</label><label class="palette"><input type="radio" name="theme" value="mono">モノクロ</label></div><div id="brand-control" hidden><label for="accent">ブランド色</label><input id="accent" name="accent" type="text" value="#005BAC" pattern="#[0-9A-Fa-f]{6}" maxlength="7" spellcheck="false" autocomplete="off"><button id="apply-accent" type="button">適用</button></div><p id="theme-note" role="status"></p><p class="format-note">PNGは完成画像です。配色と文字の変更はSVGに適用されます。</p></fieldset><label class="view-toggle"><input type="checkbox" id="examples" checked>プレビューの作例文字</label></div>
 </section>
 <div class="resultline"><output id="count" aria-live="polite"></output><div><label class="selected-only"><input type="checkbox" id="selected-only">選んだ素材だけ</label><button id="clear" class="text-button">検索をクリア</button></div></div>
-<p id="empty" hidden>該当する素材がありません。語句や分類を変えてください。</p>
+<p id="empty" hidden>該当する素材がありません。別の用途語を試すか、種類・分類・形式の絞り込みを解除してください。</p>
 <section id="grid" aria-label="素材一覧"></section>
 <noscript>assets フォルダのSVG、media フォルダのPNGをお使いください。</noscript>
 </main>
 <aside id="selection-bar" class="selection-bar" hidden aria-label="選んだ素材の保存"><span id="selected-count"></span><button id="save-selected" class="primary">選んだ素材を保存</button><button id="unselect-all" class="text-button">選択を解除</button></aside>
 <dialog id="detail" aria-labelledby="detail-title">
 <div class="dialog-head"><h2 id="detail-title"></h2><form method="dialog"><button>閉じる</button></form></div>
-<div class="detail-layout"><div class="visual"><div id="detail-art" class="dialog-art"></div><div class="visual-options"><label class="view-toggle" id="label-note"><input id="detail-labels" type="checkbox">文字の配置例</label><span id="detail-ratio"></span></div></div>
-<div class="dialog-meta"><dl class="intent"><div><dt>使用場面</dt><dd id="use-case"></dd></div><div><dt>伝えること</dt><dd id="message"></dd></div></dl>
+<div class="detail-layout"><div class="visual"><div id="detail-art" class="dialog-art"></div><div class="visual-options"><label class="view-toggle" id="label-note"><input id="detail-labels" type="checkbox">プレビューの作例文字</label><span id="detail-ratio"></span></div></div>
+<div class="dialog-meta"><dl class="intent"><div><dt>用途の例</dt><dd id="use-case"></dd></div><div><dt>伝えること</dt><dd id="message"></dd></div></dl>
 <div class="detail-palette"><label for="detail-palette">保存する配色</label><select id="detail-palette" name="theme"><option value="blue">基本の青</option><option value="brand">ブランド色</option><option value="mono">モノクロ</option></select></div>
 <p id="format-note" class="format-note"></p>
 <p id="data-note" class="data-note" hidden>数値は作例です。実データは <a href="llms.txt">AI向けの書き出し手順</a>で指定すると、形状と数値を同時に更新できます。</p>
 <div id="detail-save"></div><button id="detail-select" class="secondary"></button>
-<p id="label-explanation">文字の配置例はSVGに含まれません。文章はPowerPointで追加できます。</p>
-<details id="reading-detail"><summary>描写の意味</summary><ul id="reading" class="reading"></ul><p id="boundary"></p></details>
+<p id="label-explanation">作例文字はプレビュー専用です。保存するSVGは図形のみで、文章はPowerPointで追加できます。文字入りの書き出しは<a href="llms.txt">AI向け手順</a>をご覧ください。</p>
+<details id="reading-detail"><summary>描写の意味</summary><ul id="reading" class="reading"></ul></details>
 <details id="data-detail" hidden><summary>作例のデータ</summary><div id="data-values"></div></details>
-<details><summary>配置・検索情報</summary><div class="metadata"><ul id="areas" class="slots"></ul><ul id="slots" class="slots"></ul><p id="keywords"></p><p id="asset-id" class="filename"></p><p id="filename" class="filename"></p><button id="copy-metadata" class="text-button">検索情報をコピー</button></div></details>
+<details><summary>素材・検索情報</summary><div class="metadata"><ul id="slots" class="slots"></ul><p id="keywords"></p><p id="asset-id" class="filename"></p><p id="filename" class="filename"></p><button id="copy-metadata" class="text-button">検索情報をコピー</button></div></details>
 </div></div></dialog>
 <footer><span>素材：CC0</span><a href="LICENSE-ASSETS">利用条件</a><a id="json-download" download="catalog.json">検索用JSON</a><span>一式ZIPでオフライン利用</span></footer>
 <div id="notice" class="notice" role="status" aria-live="polite"></div>
 <input id="local-media" type="file" webkitdirectory multiple hidden aria-label="展開したZIPのmediaフォルダを選択">
 <script id="library" type="application/json">@@LIBRARY@@</script>
 <script id="settings" type="application/json">@@SETTINGS@@</script>
-<script src="web/themes.js"></script><script src="web/zip.js"></script><script src="web/catalog.js"></script>
+<script src="web/themes.js"></script><script src="web/zip.js"></script><script src="web/search.js"></script><script src="web/catalog.js"></script>
 </body></html>

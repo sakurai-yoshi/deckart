@@ -161,14 +161,13 @@
       "菱形が答えるべき質問。",
       "はいは右へ、いいえは下へ進む。",
       "右側の枠が選ばれる対応先。"
-    ],
-    "avoid": "一つの依頼が同時に複数の結果へ進む場合には使わない。"
+    ]
   },
   "layout": {
     "relation": "binary-decision-tree",
     "reading_direction": "top-to-bottom"
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "framework/decision-tree",
   "name": "対応判断_二つの質問で対応先を決める_はいといいえの決定木",
   "license": "CC0-1.0",
@@ -181,6 +180,8 @@
   },
   "path": "assets/framework/decision-tree.svg",
   "metadata_path": "metadata/framework/decision-tree.json",
+  "preview_path": "previews/framework/decision-tree.svg",
+  "preview_has_example_labels": true,
   "search_text": "framework/decision-tree\n対応判断_二つの質問で対応先を決める_はいといいえの決定木\n二つの質問で対応先を決める\n問い合わせや依頼の対応先を、担当者が同じ基準で判断する。\n質問に順番に答えると、必要な対応先にたどり着く。\n菱形が答えるべき質問。\nはいは右へ、いいえは下へ進む。\n右側の枠が選ばれる対応先。\n決定木 判断条件 分岐 はい いいえ 対応先 振り分け decision tree routing",
   "render": {
     "theme": true,

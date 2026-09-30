@@ -23,10 +23,9 @@
     "reading": [
       "突起と受け側のくぼみが同じ高さで対応する。",
       "非対称な形が逆向きの取り付けを防ぐ考えを示す。"
-    ],
-    "avoid": "記号は業務の種類を示す。数値、認証取得、測定結果を保証する印には使わない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "icon/mistake-proofing",
   "name": "誤組付け防止_製造業務の記号",
   "license": "CC0-1.0",
@@ -39,6 +38,8 @@
   },
   "path": "assets/icon/mistake-proofing.svg",
   "metadata_path": "metadata/icon/mistake-proofing.json",
+  "preview_path": "assets/icon/mistake-proofing.svg",
+  "preview_has_example_labels": false,
   "search_text": "icon/mistake-proofing\n誤組付け防止_製造業務の記号\n誤組付け防止\n取り付け間違いを形で防ぐ設計を示す。\n対応する形だけが正しい向きで組み合う。\n突起と受け側のくぼみが同じ高さで対応する。\n非対称な形が逆向きの取り付けを防ぐ考えを示す。\nポカヨケ 誤組付 防止 形状 キー poka yoke mistake proofing",
   "render": {
     "theme": true,

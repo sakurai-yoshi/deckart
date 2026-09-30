@@ -147,14 +147,13 @@
       "上段は実行から成功確認、完了への通常経路。",
       "失敗した処理は下段の再試行条件へ進む。",
       "条件内は実行へ戻り、上限到達や再試行不可は手動復旧へ進む。"
-    ],
-    "avoid": "二重実行が許されない処理では、安全に再実行できる条件を先に定義する。"
+    ]
   },
   "layout": {
     "relation": "bounded-retry-with-recovery",
     "reading_direction": "left-to-right"
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "operations/bounded-retry",
   "name": "例外対応_再試行と手動復旧を分ける_回数を制限した復帰路",
   "license": "CC0-1.0",
@@ -167,6 +166,8 @@
   },
   "path": "assets/operations/bounded-retry.svg",
   "metadata_path": "metadata/operations/bounded-retry.json",
+  "preview_path": "previews/operations/bounded-retry.svg",
+  "preview_has_example_labels": true,
   "search_text": "operations/bounded-retry\n例外対応_再試行と手動復旧を分ける_回数を制限した復帰路\n再試行と手動復旧を分ける\n自動処理が失敗したときの再試行条件と、担当者へ渡すタイミングを共有する。\n同じ失敗を無制限に繰り返さず、復旧を担う人へ切り替える。\n上段は実行から成功確認、完了への通常経路。\n失敗した処理は下段の再試行条件へ進む。\n条件内は実行へ戻り、上限到達や再試行不可は手動復旧へ進む。\n例外 エラー 再試行 リトライ 手動復旧 回数制限 障害 自動処理 retry exception recovery",
   "render": {
     "theme": true,

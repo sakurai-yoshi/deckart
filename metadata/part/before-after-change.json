@@ -81,12 +81,11 @@
     "use_case": "改善による状態の変化を短く伝える場面。",
     "message": "同じ対象が、どのように変わるかを示す。",
     "reading": [
-      "左に変更前、右に変更後を置く。",
+      "左が変更前、右が変更後の領域。",
       "中央の矢印が同じ対象の変化を示す。"
-    ],
-    "avoid": "互いに独立した二案の比較には使わない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "part/before-after-change",
   "name": "変更前と変更後を一組にする_説明パーツ",
   "license": "CC0-1.0",
@@ -99,7 +98,9 @@
   },
   "path": "assets/part/before-after-change.svg",
   "metadata_path": "metadata/part/before-after-change.json",
-  "search_text": "part/before-after-change\n変更前と変更後を一組にする_説明パーツ\n変更前と変更後を一組にする\n改善による状態の変化を短く伝える場面。\n同じ対象が、どのように変わるかを示す。\n左に変更前、右に変更後を置く。\n中央の矢印が同じ対象の変化を示す。\n前後 現状 変更 変革 比較 before after change",
+  "preview_path": "previews/part/before-after-change.svg",
+  "preview_has_example_labels": true,
+  "search_text": "part/before-after-change\n変更前と変更後を一組にする_説明パーツ\n変更前と変更後を一組にする\n改善による状態の変化を短く伝える場面。\n同じ対象が、どのように変わるかを示す。\n左が変更前、右が変更後の領域。\n中央の矢印が同じ対象の変化を示す。\n前後 現状 変更 変革 比較 before after change",
   "render": {
     "theme": true,
     "labels": true,

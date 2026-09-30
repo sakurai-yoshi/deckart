@@ -22,10 +22,9 @@
     "reading": [
       "下の人物が評価の対象を表す。",
       "上の星の並びが評価という観点を表す。"
-    ],
-    "avoid": "星の数を実際の等級や評価点として読ませない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "icon/performance",
   "name": "人事評価_個人の成果を振り返る_人物と評価",
   "license": "CC0-1.0",
@@ -38,6 +37,8 @@
   },
   "path": "assets/icon/performance.svg",
   "metadata_path": "metadata/icon/performance.json",
+  "preview_path": "assets/icon/performance.svg",
+  "preview_has_example_labels": false,
   "search_text": "icon/performance\n人事評価_個人の成果を振り返る_人物と評価\n人事評価\n人事評価や成果の振り返りの項目に添える。\n個人の仕事ぶりを評価する。\n下の人物が評価の対象を表す。\n上の星の並びが評価という観点を表す。\n評価 成果 人事査定 査定 フィードバック performance appraisal evaluation",
   "render": {
     "theme": true,

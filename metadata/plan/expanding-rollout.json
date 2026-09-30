@@ -85,12 +85,12 @@
     "reading": [
       "内側が最初の検証チーム。",
       "外側の領域ほど利用範囲が広い。",
-      "外向きの矢印が対象の拡大。"
-    ],
-    "avoid": "円の面積を利用人数や費用の比率として扱わない。"
+      "外向きの矢印が対象の拡大。",
+      "円は展開範囲の広がりを示す概念的な表現。"
+    ]
   },
   "kind": "diagram",
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "plan/expanding-rollout",
   "name": "展開計画_利用範囲を確かめながら広げる_段階的な展開範囲",
   "license": "CC0-1.0",
@@ -103,7 +103,9 @@
   },
   "path": "assets/plan/expanding-rollout.svg",
   "metadata_path": "metadata/plan/expanding-rollout.json",
-  "search_text": "plan/expanding-rollout\n展開計画_利用範囲を確かめながら広げる_段階的な展開範囲\n利用範囲を確かめながら広げる\n新しい業務ツールを一部チームから全社へ展開する。\n小さな範囲で確認しながら、利用対象を広げる。\n内側が最初の検証チーム。\n外側の領域ほど利用範囲が広い。\n外向きの矢印が対象の拡大。\n段階展開 ロールアウト パイロット 全社導入 試行 利用範囲 横展開",
+  "preview_path": "previews/plan/expanding-rollout.svg",
+  "preview_has_example_labels": true,
+  "search_text": "plan/expanding-rollout\n展開計画_利用範囲を確かめながら広げる_段階的な展開範囲\n利用範囲を確かめながら広げる\n新しい業務ツールを一部チームから全社へ展開する。\n小さな範囲で確認しながら、利用対象を広げる。\n内側が最初の検証チーム。\n外側の領域ほど利用範囲が広い。\n外向きの矢印が対象の拡大。\n円は展開範囲の広がりを示す概念的な表現。\n段階展開 ロールアウト パイロット 全社導入 試行 利用範囲 横展開",
   "render": {
     "theme": true,
     "labels": true,

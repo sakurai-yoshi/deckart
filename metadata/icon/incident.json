@@ -22,10 +22,9 @@
     "reading": [
       "離れた二つのプラグが接続の中断を表す。",
       "上の稲妻が異常の発生を表す。"
-    ],
-    "avoid": "原因や影響範囲が特定済みという意味では使わない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "icon/incident",
   "name": "障害対応_接続の中断を扱う_途切れた接続",
   "license": "CC0-1.0",
@@ -38,6 +37,8 @@
   },
   "path": "assets/icon/incident.svg",
   "metadata_path": "metadata/icon/incident.json",
+  "preview_path": "assets/icon/incident.svg",
+  "preview_has_example_labels": false,
   "search_text": "icon/incident\n障害対応_接続の中断を扱う_途切れた接続\n障害・中断\n障害発生やサービス中断の対応を説明する。\n接続や処理が途中で止まる。\n離れた二つのプラグが接続の中断を表す。\n上の稲妻が異常の発生を表す。\n障害 中断 不具合 停止 インシデント incident outage disruption",
   "render": {
     "theme": true,

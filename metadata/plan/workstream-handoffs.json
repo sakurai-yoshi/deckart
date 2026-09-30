@@ -100,12 +100,12 @@
     "reading": [
       "横の帯が担当ごとの作業期間。",
       "帯から出る矢印が成果の引継ぎ。",
-      "右の縦バーが共通の完了条件。"
-    ],
-    "avoid": "実日付や期間を比較する場合は時間軸を定義する。"
+      "右の縦バーが共通の完了条件。",
+      "横方向は作業の順序と重なりを示す概念的な時間軸。"
+    ]
   },
   "kind": "diagram",
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "plan/workstream-handoffs",
   "name": "進行管理_作業期間と引継ぎを同時に見る_連携するワークストリーム",
   "license": "CC0-1.0",
@@ -118,7 +118,9 @@
   },
   "path": "assets/plan/workstream-handoffs.svg",
   "metadata_path": "metadata/plan/workstream-handoffs.json",
-  "search_text": "plan/workstream-handoffs\n進行管理_作業期間と引継ぎを同時に見る_連携するワークストリーム\n作業期間と引継ぎを同時に見る\n要件・制作・検証を並行して進める計画の引継ぎ点を示す。\n作業を重ねながら、必要な成果を次の担当へ渡す。\n横の帯が担当ごとの作業期間。\n帯から出る矢印が成果の引継ぎ。\n右の縦バーが共通の完了条件。\nスケジュール ガント 作業計画 ワークストリーム 引継ぎ 並行作業 期間",
+  "preview_path": "previews/plan/workstream-handoffs.svg",
+  "preview_has_example_labels": true,
+  "search_text": "plan/workstream-handoffs\n進行管理_作業期間と引継ぎを同時に見る_連携するワークストリーム\n作業期間と引継ぎを同時に見る\n要件・制作・検証を並行して進める計画の引継ぎ点を示す。\n作業を重ねながら、必要な成果を次の担当へ渡す。\n横の帯が担当ごとの作業期間。\n帯から出る矢印が成果の引継ぎ。\n右の縦バーが共通の完了条件。\n横方向は作業の順序と重なりを示す概念的な時間軸。\nスケジュール ガント 作業計画 ワークストリーム 引継ぎ 並行作業 期間",
   "render": {
     "theme": true,
     "labels": true,

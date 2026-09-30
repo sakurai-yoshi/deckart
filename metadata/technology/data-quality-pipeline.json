@@ -104,10 +104,9 @@
       "左の資料が取り込むデータ。",
       "中央の検証で通過と確認待ちに分かれる。",
       "上の経路は保存先と利用先へ、下の経路は確認待ちへ進む。"
-    ],
-    "avoid": "確認待ちのデータを削除済みや修正済みとして扱わない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "technology/data-quality-pipeline",
   "name": "データ運用_品質を確かめて利用へ渡す_検証と保留のデータ経路",
   "license": "CC0-1.0",
@@ -120,6 +119,8 @@
   },
   "path": "assets/technology/data-quality-pipeline.svg",
   "metadata_path": "metadata/technology/data-quality-pipeline.json",
+  "preview_path": "previews/technology/data-quality-pipeline.svg",
+  "preview_has_example_labels": true,
   "search_text": "technology/data-quality-pipeline\nデータ運用_品質を確かめて利用へ渡す_検証と保留のデータ経路\n品質を確かめてデータを渡す\nデータを取り込み、品質を確認して分析や業務へ提供する流れを説明する。\n確認が必要なデータを分け、利用可能なデータだけを次へ渡す。\n左の資料が取り込むデータ。\n中央の検証で通過と確認待ちに分かれる。\n上の経路は保存先と利用先へ、下の経路は確認待ちへ進む。\nデータ パイプライン 取込 検証 品質 保留 整形 ETL validation data pipeline quality quarantine",
   "render": {
     "theme": true,

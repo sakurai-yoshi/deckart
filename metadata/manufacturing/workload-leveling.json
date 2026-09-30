@@ -129,15 +129,15 @@
     "reading": [
       "左の上段は処理枠を超えて集中する仕事の作例。",
       "下段の点線が処理枠の区切り。",
-      "上の経路は動かせる仕事を余力のある右側へ移す。"
-    ],
-    "avoid": "箱の数は関係を説明する作例で、仕事量や能力の実データではない。"
+      "上の経路は動かせる仕事を余力のある右側へ移す。",
+      "箱の数は仕事の集中と分散を説明する作例。"
+    ]
   },
   "layout": {
     "relation": "capacity-constrained-rescheduling",
     "reading_direction": "left-to-right"
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "manufacturing/workload-leveling",
   "name": "仕事の集中を余力のある時期へ分散する_製造業務の関係図",
   "license": "CC0-1.0",
@@ -150,7 +150,9 @@
   },
   "path": "assets/manufacturing/workload-leveling.svg",
   "metadata_path": "metadata/manufacturing/workload-leveling.json",
-  "search_text": "manufacturing/workload-leveling\n仕事の集中を余力のある時期へ分散する_製造業務の関係図\n仕事の集中を余力のある時期へ分散する\n処理できる量と納期を確認し、時期を動かせる仕事の集中を解く。\n仕事を無条件に移さず、期限と移動先の処理能力を確認して平準化する。\n左の上段は処理枠を超えて集中する仕事の作例。\n下段の点線が処理枠の区切り。\n上の経路は動かせる仕事を余力のある右側へ移す。\n負荷平準化 需給 余力 能力 納期 調整 capacity workload leveling",
+  "preview_path": "previews/manufacturing/workload-leveling.svg",
+  "preview_has_example_labels": true,
+  "search_text": "manufacturing/workload-leveling\n仕事の集中を余力のある時期へ分散する_製造業務の関係図\n仕事の集中を余力のある時期へ分散する\n処理できる量と納期を確認し、時期を動かせる仕事の集中を解く。\n仕事を無条件に移さず、期限と移動先の処理能力を確認して平準化する。\n左の上段は処理枠を超えて集中する仕事の作例。\n下段の点線が処理枠の区切り。\n上の経路は動かせる仕事を余力のある右側へ移す。\n箱の数は仕事の集中と分散を説明する作例。\n負荷平準化 需給 余力 能力 納期 調整 capacity workload leveling",
   "render": {
     "theme": true,
     "labels": true,

@@ -4,13 +4,9 @@
   "width": 1254,
   "height": 1254,
   "labels": [],
-  "placement": {
+  "composition": {
     "framing": "object",
-    "facing": "front",
-    "recommended_width_cm": [
-      4,
-      7
-    ]
+    "facing": "front"
   },
   "title": "複数の資料を一冊へまとめる",
   "description": "分類タブのある複数の書類束を同じ開いたバインダーに収め、情報を一か所に整理する関係を表す。",
@@ -31,8 +27,7 @@
     "reading": [
       "位置の違う分類タブが、異なる種類の資料を表す。",
       "同じバインダーに収まった複数の書類束が、参照先を一つにまとめる関係を表す。"
-    ],
-    "avoid": "ファイル数や分類数を、実際の資料数として読まない。"
+    ]
   },
   "generation": {
     "method": "image-generation",
@@ -46,13 +41,14 @@
     "width": 1254,
     "height": 1254
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "illustration/information-consolidation",
   "name": "複数の資料を一冊へまとめる_情報と業務のイラスト",
   "license": "CC0-1.0",
   "path": "media/illustration/information-consolidation.png",
   "metadata_path": "metadata/illustration/information-consolidation.json",
-  "search_text": "illustration/information-consolidation\n複数の資料を一冊へまとめる_情報と業務のイラスト\n複数の資料を一冊へまとめる\n部門ごとに分かれた資料や調査結果を集約し、共通資料にまとめる説明。\n分散している情報をまとめ、参照する場所をそろえる。\n位置の違う分類タブが、異なる種類の資料を表す。\n同じバインダーに収まった複数の書類束が、参照先を一つにまとめる関係を表す。\n資料 情報集約 統合 整理 一元化 分類 information consolidation binder\nobject 物 道具 front 正面 [4, 7] ",
+  "preview_has_example_labels": false,
+  "search_text": "illustration/information-consolidation\n複数の資料を一冊へまとめる_情報と業務のイラスト\n複数の資料を一冊へまとめる\n部門ごとに分かれた資料や調査結果を集約し、共通資料にまとめる説明。\n分散している情報をまとめ、参照する場所をそろえる。\n位置の違う分類タブが、異なる種類の資料を表す。\n同じバインダーに収まった複数の書類束が、参照先を一つにまとめる関係を表す。\n資料 情報集約 統合 整理 一元化 分類 information consolidation binder\nobject 物 道具 front 正面",
   "render": {
     "theme": false,
     "labels": false,

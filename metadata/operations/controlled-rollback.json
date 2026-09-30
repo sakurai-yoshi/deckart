@@ -116,14 +116,13 @@
       "上段は引き続き利用できる安定版。",
       "分岐した下段で新しい版を限定適用し、確認する。",
       "主色の出口は継続、注意色の経路は安定版への切戻し。"
-    ],
-    "avoid": "データを元に戻せることまで保証しない。復元可能な範囲と手順を別途確認する。"
+    ]
   },
   "layout": {
     "relation": "controlled-change-with-rollback",
     "reading_direction": "left-to-right"
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "operations/controlled-rollback",
   "name": "変更管理_確認できない変更を安定版へ戻す_限定適用と切戻し",
   "license": "CC0-1.0",
@@ -136,6 +135,8 @@
   },
   "path": "assets/operations/controlled-rollback.svg",
   "metadata_path": "metadata/operations/controlled-rollback.json",
+  "preview_path": "previews/operations/controlled-rollback.svg",
+  "preview_has_example_labels": true,
   "search_text": "operations/controlled-rollback\n変更管理_確認できない変更を安定版へ戻す_限定適用と切戻し\n確認できない変更を安定版へ戻す\nシステム変更時に、確認が取れない場合の戻り先と切戻し経路を共有する。\n変更を試す前に戻り先を残し、結果で継続と切戻しを判断する。\n上段は引き続き利用できる安定版。\n分岐した下段で新しい版を限定適用し、確認する。\n主色の出口は継続、注意色の経路は安定版への切戻し。\nリリース ロールバック 切戻し 変更管理 限定適用 安定版 確認 rollback release change",
   "render": {
     "theme": true,

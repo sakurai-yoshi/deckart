@@ -23,10 +23,9 @@
     "reading": [
       "円柱の輪郭がデータベースを表す。",
       "横に区切られた層が蓄積する情報を表す。"
-    ],
-    "avoid": "実際の保存容量や複製数としては使わない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "icon/database",
   "name": "データ管理_構造化した情報を蓄積する_データベース",
   "license": "CC0-1.0",
@@ -39,6 +38,8 @@
   },
   "path": "assets/icon/database.svg",
   "metadata_path": "metadata/icon/database.json",
+  "preview_path": "assets/icon/database.svg",
+  "preview_has_example_labels": false,
   "search_text": "icon/database\nデータ管理_構造化した情報を蓄積する_データベース\nデータベース\nシステム構成でデータの保管先を示す。\nデータを一か所に蓄積して利用する。\n円柱の輪郭がデータベースを表す。\n横に区切られた層が蓄積する情報を表す。\nデータベース DB データ 保存 蓄積 database storage structured data",
   "render": {
     "theme": true,

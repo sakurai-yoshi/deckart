@@ -5,13 +5,9 @@
     "width": 1254,
     "height": 1254,
     "labels": [],
-    "placement": {
+    "composition": {
       "framing": "object",
-      "facing": "front",
-      "recommended_width_cm": [
-        4,
-        7
-      ]
+      "facing": "front"
     },
     "key": "illustration/access-permission",
     "title": "必要な権限で資料を開く",
@@ -34,8 +30,7 @@
       "reading": [
         "ケースに収めた資料が、管理されている情報を表す。",
         "錠と合う鍵が、資料を開くために必要な権限を表す。"
-      ],
-      "avoid": "特定の暗号方式や、情報漏えいを防ぐ保証として使わない。"
+      ]
     },
     "source": "media/illustration/access-permission.png",
     "generation": {
@@ -65,20 +60,15 @@
       "message": "共通の条件を文書にまとめて共有する。",
       "reading": [
         "同じ構成の二部の書類と二本のペンが、条件を双方で確認する場面を示します。"
-      ],
-      "avoid": "数値や条件を示す実資料には、編集可能な文字・図表を併用してください。"
+      ]
     },
     "labels": [],
     "source": "media/illustration/agreement-documents.png",
     "preview_path": "previews/illustration/agreement-documents.png",
-    "placement": {
+    "composition": {
       "framing": "object",
       "facing": "front",
-      "people_count": 0,
-      "recommended_width_cm": [
-        4,
-        7
-      ]
+      "people_count": 0
     },
     "generation": {
       "method": "image-generation",
@@ -110,20 +100,15 @@
       "reading": [
         "肩より高く挙げた手が、発言を求める動作を示す。",
         "話し手へ向けた顔が、説明を聞きながら質問する関係を示す。"
-      ],
-      "avoid": "実在の人物・業務実績・承認や確認の完了を証明する画像としては使えません。"
+      ]
     },
     "labels": [],
     "source": "media/illustration/asking-question.png",
     "preview_path": "previews/illustration/asking-question.png",
-    "placement": {
+    "composition": {
       "framing": "waist-up",
       "facing": "left",
-      "people_count": 1,
-      "recommended_width_cm": [
-        3,
-        6
-      ]
+      "people_count": 1
     },
     "generation": {
       "method": "image-generation",
@@ -153,20 +138,15 @@
       "reading": [
         "両手で部品の両端を持ち、対応する本体へ合わせる。",
         "部品の位置関係で組立工程を示す。"
-      ],
-      "avoid": "特定製品の正確な組立手順を示す資料には使用しない。"
+      ]
     },
     "labels": [],
     "source": "media/illustration/assembly-work.png",
     "preview_path": "previews/illustration/assembly-work.png",
-    "placement": {
+    "composition": {
       "framing": "waist-up",
       "facing": "right",
-      "people_count": 1,
-      "recommended_width_cm": [
-        4,
-        8
-      ]
+      "people_count": 1
     },
     "generation": {
       "method": "image-generation",
@@ -195,20 +175,15 @@
       "message": "支出の根拠を並べて費用を確認する。",
       "reading": [
         "電卓・記録ノート・領収紙を重ね、金額と根拠を突き合わせる関係を示します。"
-      ],
-      "avoid": "数値や条件を示す実資料には、編集可能な文字・図表を併用してください。"
+      ]
     },
     "labels": [],
     "source": "media/illustration/budget-review.png",
     "preview_path": "previews/illustration/budget-review.png",
-    "placement": {
+    "composition": {
       "framing": "object",
       "facing": "front",
-      "people_count": 0,
-      "recommended_width_cm": [
-        4,
-        7
-      ]
+      "people_count": 0
     },
     "generation": {
       "method": "image-generation",
@@ -222,13 +197,9 @@
     "labels": [],
     "source": "media/illustration/cable-management.png",
     "preview_path": "previews/illustration/cable-management.png",
-    "placement": {
+    "composition": {
       "framing": "object",
-      "facing": "front",
-      "recommended_width_cm": [
-        4,
-        7
-      ]
+      "facing": "front"
     },
     "title": "配線を整理する",
     "name": "配線を整理する_業務イラスト",
@@ -248,8 +219,7 @@
       "reading": [
         "並行に通した三本のケーブルが、追いやすい配線経路を表す。",
         "二か所の結束帯と両端の端子が、配線を整理して扱う状態を表す。"
-      ],
-      "avoid": "実物の寸法・仕様や、作業手順を示す図としては使用しない。"
+      ]
     },
     "width": 1254,
     "height": 1254,
@@ -265,13 +235,9 @@
     "labels": [],
     "source": "media/illustration/calibration-reference.png",
     "preview_path": "previews/illustration/calibration-reference.png",
-    "placement": {
+    "composition": {
       "framing": "object",
-      "facing": "front",
-      "recommended_width_cm": [
-        4,
-        7
-      ]
+      "facing": "front"
     },
     "title": "基準に合わせて計測する",
     "name": "基準に合わせて計測する_業務イラスト",
@@ -290,8 +256,7 @@
       "reading": [
         "はかりに載せた分銅が、既知の基準による確認を表す。",
         "形の合う保管ケースが、基準器を管理して使う関係を表す。"
-      ],
-      "avoid": "実物の寸法・仕様や、作業手順を示す図としては使用しない。"
+      ]
     },
     "width": 1254,
     "height": 1254,
@@ -323,20 +288,15 @@
       "reading": [
         "両手で部品を安定させ、表面へ視線を向ける。",
         "部品と人物の手元を大きく示す。"
-      ],
-      "avoid": "測定値や合否の判定結果を示す図としては使用しない。"
+      ]
     },
     "labels": [],
     "source": "media/illustration/careful-inspection.png",
     "preview_path": "previews/illustration/careful-inspection.png",
-    "placement": {
+    "composition": {
       "framing": "waist-up",
       "facing": "left",
-      "people_count": 1,
-      "recommended_width_cm": [
-        3.5,
-        8
-      ]
+      "people_count": 1
     },
     "generation": {
       "method": "image-generation",
@@ -366,20 +326,15 @@
       "message": "資料の内容を丁寧に確かめる。",
       "reading": [
         "視線と手が同じ資料へ向かい、内容の確認を示します。"
-      ],
-      "avoid": "実在の人物・業務実績・承認や確認の完了を証明する画像としては使えません。"
+      ]
     },
     "labels": [],
     "source": "media/illustration/checking-documents.png",
     "preview_path": "previews/illustration/checking-documents.png",
-    "placement": {
+    "composition": {
       "framing": "waist-up",
       "facing": "down",
-      "people_count": 1,
-      "recommended_width_cm": [
-        3,
-        6
-      ]
+      "people_count": 1
     },
     "generation": {
       "method": "image-generation",
@@ -393,13 +348,9 @@
     "labels": [],
     "source": "media/illustration/component-sorting.png",
     "preview_path": "previews/illustration/component-sorting.png",
-    "placement": {
+    "composition": {
       "framing": "object",
-      "facing": "front",
-      "recommended_width_cm": [
-        4,
-        7
-      ]
+      "facing": "front"
     },
     "title": "部材を種類別に分ける",
     "name": "部材を種類別に分ける_物で伝える業務",
@@ -422,8 +373,7 @@
       "reading": [
         "二つのトレーに、円柱形と角形の部材をそれぞれまとめる。",
         "容器を分けることで種類の違いを保ち、選びやすくする。"
-      ],
-      "avoid": "実物の寸法・仕様や、作業手順を示す図としては使用しない。"
+      ]
     },
     "width": 1254,
     "height": 1254,
@@ -456,20 +406,15 @@
       "reading": [
         "対象に取り付いたセンサーと端末がケーブルでつながる。",
         "同形の信号を両方の画面に置き、情報の対応を示す。"
-      ],
-      "avoid": "波形は概念表現であり、実測データや性能、通信方式の説明には使用しない。"
+      ]
     },
     "labels": [],
     "source": "media/illustration/connected-device-data.png",
     "preview_path": "previews/illustration/connected-device-data.png",
-    "placement": {
+    "composition": {
       "framing": "object",
       "facing": "front",
-      "people_count": 0,
-      "recommended_width_cm": [
-        4,
-        7
-      ]
+      "people_count": 0
     },
     "generation": {
       "method": "image-generation",
@@ -498,20 +443,15 @@
       "message": "届いた意見を集めて読み取る。",
       "reading": [
         "開いた返信封筒と取り出した回答カードが、届いた意見を読み取る場面を示します。"
-      ],
-      "avoid": "数値や条件を示す実資料には、編集可能な文字・図表を併用してください。"
+      ]
     },
     "labels": [],
     "source": "media/illustration/customer-feedback.png",
     "preview_path": "previews/illustration/customer-feedback.png",
-    "placement": {
+    "composition": {
       "framing": "object",
       "facing": "front",
-      "people_count": 0,
-      "recommended_width_cm": [
-        4,
-        7
-      ]
+      "people_count": 0
     },
     "generation": {
       "method": "image-generation",
@@ -524,13 +464,9 @@
     "width": 1254,
     "height": 1254,
     "labels": [],
-    "placement": {
+    "composition": {
       "framing": "object",
-      "facing": "front",
-      "recommended_width_cm": [
-        4,
-        7
-      ]
+      "facing": "front"
     },
     "key": "illustration/data-backup",
     "title": "データの控えを別の装置に残す",
@@ -553,8 +489,7 @@
       "reading": [
         "パソコンと外部装置に共通する文書の印が、同じデータの控えを表す。",
         "二つの機器をつなぐケーブルが、保存先への接続を表す。"
-      ],
-      "avoid": "バックアップ完了、復元成功、保存の安全性を保証する表示には使わない。"
+      ]
     },
     "source": "media/illustration/data-backup.png",
     "generation": {
@@ -585,20 +520,15 @@
       "message": "意見を交わして認識をそろえる。",
       "reading": [
         "向かい合う二人と開いた手の動きが、意見を交わす関係を示します。"
-      ],
-      "avoid": "実在の人物・業務実績・承認や確認の完了を証明する画像としては使えません。"
+      ]
     },
     "labels": [],
     "source": "media/illustration/discussing.png",
     "preview_path": "previews/illustration/discussing.png",
-    "placement": {
+    "composition": {
       "framing": "waist-up",
       "facing": "inward",
-      "people_count": 2,
-      "recommended_width_cm": [
-        5,
-        9
-      ]
+      "people_count": 2
     },
     "generation": {
       "method": "image-generation",
@@ -611,13 +541,9 @@
     "width": 1254,
     "height": 1254,
     "labels": [],
-    "placement": {
+    "composition": {
       "framing": "object",
-      "facing": "front",
-      "recommended_width_cm": [
-        4,
-        7
-      ]
+      "facing": "front"
     },
     "key": "illustration/document-digitization",
     "title": "紙の資料をデータに取り込む",
@@ -640,8 +566,7 @@
       "reading": [
         "開いたスキャナーに載せた紙が、取り込む資料を表す。",
         "隣のパソコン画面の文書が、電子化された情報を表す。"
-      ],
-      "avoid": "文字認識の精度や、電子帳簿保存の要件を満たすことを示さない。"
+      ]
     },
     "source": "media/illustration/document-digitization.png",
     "generation": {
@@ -656,13 +581,9 @@
     "width": 1254,
     "height": 1254,
     "labels": [],
-    "placement": {
+    "composition": {
       "framing": "object",
-      "facing": "front",
-      "recommended_width_cm": [
-        4,
-        7
-      ]
+      "facing": "front"
     },
     "key": "illustration/document-review",
     "title": "資料の内容を詳しく確かめる",
@@ -685,8 +606,7 @@
       "reading": [
         "文書の行に重なる拡大鏡が、内容を詳しく確認する行為を表す。",
         "文書に添えた鉛筆が、確認した内容を修正へつなぐ準備を表す。"
-      ],
-      "avoid": "実際の承認結果や内容の正しさを保証する用途には使わない。"
+      ]
     },
     "source": "media/illustration/document-review.png",
     "generation": {
@@ -701,13 +621,9 @@
     "width": 1254,
     "height": 1254,
     "labels": [],
-    "placement": {
+    "composition": {
       "framing": "object",
-      "facing": "front",
-      "recommended_width_cm": [
-        4,
-        7
-      ]
+      "facing": "front"
     },
     "key": "illustration/document-routing",
     "title": "書類を次の処理段階へ渡す",
@@ -730,8 +646,7 @@
       "reading": [
         "上段にそろった紙束が、処理を待つ資料を表す。",
         "下段の手前へ出した一枚の資料が、次の処理に回す対象を表す。"
-      ],
-      "avoid": "承認済みの状態や実際の業務順序を、この画像だけで示さない。"
+      ]
     },
     "source": "media/illustration/document-routing.png",
     "generation": {
@@ -747,13 +662,9 @@
     "labels": [],
     "source": "media/illustration/energy-saving.png",
     "preview_path": "previews/illustration/energy-saving.png",
-    "placement": {
+    "composition": {
       "framing": "object",
-      "facing": "front",
-      "recommended_width_cm": [
-        4,
-        7
-      ]
+      "facing": "front"
     },
     "title": "使わない電源を切る",
     "name": "使わない電源を切る_業務イラスト",
@@ -772,8 +683,7 @@
       "reading": [
         "差し込まれていないプラグが、電源から切り離した状態を表す。",
         "空の差込口と消灯したスイッチが、使っていない電源の管理を表す。"
-      ],
-      "avoid": "実物の寸法・仕様や、作業手順を示す図としては使用しない。"
+      ]
     },
     "width": 1254,
     "height": 1254,
@@ -805,20 +715,15 @@
       "reading": [
         "工具と取り外した部品で保全の対象を示す。",
         "部品を支えながら状態を確かめ、整備に備える。"
-      ],
-      "avoid": "通電中の整備、特定設備の安全手順の代用には使用しない。"
+      ]
     },
     "labels": [],
     "source": "media/illustration/equipment-maintenance.png",
     "preview_path": "previews/illustration/equipment-maintenance.png",
-    "placement": {
+    "composition": {
       "framing": "waist-up",
       "facing": "left",
-      "people_count": 1,
-      "recommended_width_cm": [
-        3.5,
-        8
-      ]
+      "people_count": 1
     },
     "generation": {
       "method": "image-generation",
@@ -832,13 +737,9 @@
     "labels": [],
     "source": "media/illustration/ergonomic-workstation.png",
     "preview_path": "previews/illustration/ergonomic-workstation.png",
-    "placement": {
+    "composition": {
       "framing": "object",
-      "facing": "front",
-      "recommended_width_cm": [
-        4,
-        7
-      ]
+      "facing": "front"
     },
     "title": "働く姿勢を整える",
     "name": "働く姿勢を整える_業務イラスト",
@@ -857,8 +758,7 @@
       "reading": [
         "スタンドに載せたパソコンが、画面位置を調整する工夫を表す。",
         "独立したキーボードとマウスが、入力位置を別に整える関係を表す。"
-      ],
-      "avoid": "実物の寸法・仕様や、作業手順を示す図としては使用しない。"
+      ]
     },
     "width": 1254,
     "height": 1254,
@@ -889,20 +789,15 @@
       "message": "相手へ内容をわかりやすく伝える。",
       "reading": [
         "開いた手のひらが説明する方向を示し、抱えた資料が内容を補います。"
-      ],
-      "avoid": "実在の人物・業務実績・承認や確認の完了を証明する画像としては使えません。"
+      ]
     },
     "labels": [],
     "source": "media/illustration/explaining.png",
     "preview_path": "previews/illustration/explaining.png",
-    "placement": {
+    "composition": {
       "framing": "waist-up",
       "facing": "left",
-      "people_count": 1,
-      "recommended_width_cm": [
-        3,
-        6
-      ]
+      "people_count": 1
     },
     "generation": {
       "method": "image-generation",
@@ -915,13 +810,9 @@
     "width": 1254,
     "height": 1254,
     "labels": [],
-    "placement": {
+    "composition": {
       "framing": "object",
-      "facing": "front",
-      "recommended_width_cm": [
-        4,
-        7
-      ]
+      "facing": "front"
     },
     "key": "illustration/file-sharing",
     "title": "同じ資料を複数の端末で共有する",
@@ -944,8 +835,7 @@
       "reading": [
         "大きさの違う二つの画面が、利用する端末の違いを表す。",
         "同じ見出しと内容の配置が、共有された同じ資料を表す。"
-      ],
-      "avoid": "特定の同期方式や、リアルタイムの同期完了を示す用途には使わない。"
+      ]
     },
     "source": "media/illustration/file-sharing.png",
     "generation": {
@@ -977,20 +867,15 @@
       "message": "描いて試しながら考えを具体化する。",
       "reading": [
         "開いたスケッチと下書き紙が試行を、鉛筆が考えを書き留める行為を示します。"
-      ],
-      "avoid": "数値や条件を示す実資料には、編集可能な文字・図表を併用してください。"
+      ]
     },
     "labels": [],
     "source": "media/illustration/idea-development.png",
     "preview_path": "previews/illustration/idea-development.png",
-    "placement": {
+    "composition": {
       "framing": "object",
       "facing": "front",
-      "people_count": 0,
-      "recommended_width_cm": [
-        4,
-        7
-      ]
+      "people_count": 0
     },
     "generation": {
       "method": "image-generation",
@@ -1003,13 +888,9 @@
     "width": 1254,
     "height": 1254,
     "labels": [],
-    "placement": {
+    "composition": {
       "framing": "object",
-      "facing": "front",
-      "recommended_width_cm": [
-        4,
-        7
-      ]
+      "facing": "front"
     },
     "key": "illustration/information-consolidation",
     "title": "複数の資料を一冊へまとめる",
@@ -1032,8 +913,7 @@
       "reading": [
         "位置の違う分類タブが、異なる種類の資料を表す。",
         "同じバインダーに収まった複数の書類束が、参照先を一つにまとめる関係を表す。"
-      ],
-      "avoid": "ファイル数や分類数を、実際の資料数として読まない。"
+      ]
     },
     "source": "media/illustration/information-consolidation.png",
     "generation": {
@@ -1065,20 +945,15 @@
       "reading": [
         "手順書の図と実物が同じ形を持つ。",
         "図面と実物を並べて対応関係を示す。"
-      ],
-      "avoid": "具体的な製品の操作方法を示す手順書の代用には使用しない。"
+      ]
     },
     "labels": [],
     "source": "media/illustration/instructions-and-product.png",
     "preview_path": "previews/illustration/instructions-and-product.png",
-    "placement": {
+    "composition": {
       "framing": "object",
       "facing": "front",
-      "people_count": 0,
-      "recommended_width_cm": [
-        4,
-        7
-      ]
+      "people_count": 0
     },
     "generation": {
       "method": "image-generation",
@@ -1092,13 +967,9 @@
     "labels": [],
     "source": "media/illustration/issue-isolation.png",
     "preview_path": "previews/illustration/issue-isolation.png",
-    "placement": {
+    "composition": {
       "framing": "object",
-      "facing": "front",
-      "recommended_width_cm": [
-        4,
-        7
-      ]
+      "facing": "front"
     },
     "title": "問題のある品を分ける",
     "name": "問題のある品を分ける_業務イラスト",
@@ -1118,8 +989,7 @@
       "reading": [
         "通常品をまとめた白いトレーと、離れた青いトレーを並べる。",
         "欠けのある一品だけを分けた配置が、不適合品の隔離を表す。"
-      ],
-      "avoid": "実物の寸法・仕様や、作業手順を示す図としては使用しない。"
+      ]
     },
     "width": 1254,
     "height": 1254,
@@ -1150,20 +1020,15 @@
       "message": "説明を受けて理解を深める。",
       "reading": [
         "同じ本へ向けた二人の視線と説明する手が、知識を教わり理解を深める関係を示します。"
-      ],
-      "avoid": "実在の人物・業務実績・承認や確認の完了を証明する画像としては使えません。"
+      ]
     },
     "labels": [],
     "source": "media/illustration/learning.png",
     "preview_path": "previews/illustration/learning.png",
-    "placement": {
+    "composition": {
       "framing": "waist-up",
       "facing": "inward",
-      "people_count": 2,
-      "recommended_width_cm": [
-        5,
-        9
-      ]
+      "people_count": 2
     },
     "generation": {
       "method": "image-generation",
@@ -1193,20 +1058,15 @@
       "message": "資料を参照しながら理解を深める。",
       "reading": [
         "開いた本と栞が参照中の箇所を示し、奥の本が学習に使う知識の蓄積を補います。"
-      ],
-      "avoid": "数値や条件を示す実資料には、編集可能な文字・図表を併用してください。"
+      ]
     },
     "labels": [],
     "source": "media/illustration/learning-resources.png",
     "preview_path": "previews/illustration/learning-resources.png",
-    "placement": {
+    "composition": {
       "framing": "object",
       "facing": "front",
-      "people_count": 0,
-      "recommended_width_cm": [
-        4,
-        7
-      ]
+      "people_count": 0
     },
     "generation": {
       "method": "image-generation",
@@ -1235,20 +1095,15 @@
       "message": "相手の話を受け止め、理解する。",
       "reading": [
         "相手へ向けた顔と、手元に閉じて持つノートが傾聴の姿勢を示します。"
-      ],
-      "avoid": "実在の人物・業務実績・承認や確認の完了を証明する画像としては使えません。"
+      ]
     },
     "labels": [],
     "source": "media/illustration/listening.png",
     "preview_path": "previews/illustration/listening.png",
-    "placement": {
+    "composition": {
       "framing": "waist-up",
       "facing": "right",
-      "people_count": 1,
-      "recommended_width_cm": [
-        3,
-        6
-      ]
+      "people_count": 1
     },
     "generation": {
       "method": "image-generation",
@@ -1278,20 +1133,15 @@
       "reading": [
         "手元の端末へ視線を向け、状態を確認する。",
         "端末を支えた手と操作する手で確認行為を示す。"
-      ],
-      "avoid": "実測値や稼働率、異常の発生を示す表現として使用しない。"
+      ]
     },
     "labels": [],
     "source": "media/illustration/machine-monitoring.png",
     "preview_path": "previews/illustration/machine-monitoring.png",
-    "placement": {
+    "composition": {
       "framing": "waist-up",
       "facing": "right",
-      "people_count": 1,
-      "recommended_width_cm": [
-        4.5,
-        9
-      ]
+      "people_count": 1
     },
     "generation": {
       "method": "image-generation",
@@ -1305,13 +1155,9 @@
     "labels": [],
     "source": "media/illustration/material-reuse.png",
     "preview_path": "previews/illustration/material-reuse.png",
-    "placement": {
+    "composition": {
       "framing": "object",
-      "facing": "front",
-      "recommended_width_cm": [
-        4,
-        7
-      ]
+      "facing": "front"
     },
     "title": "端材を次の材料にする",
     "name": "端材を次の材料にする_業務イラスト",
@@ -1331,8 +1177,7 @@
       "reading": [
         "大きな部品を抜いた板の余白に、小さな穴を並べる。",
         "隣に取り出した小さな部品が、残った材料の活用を表す。"
-      ],
-      "avoid": "実物の寸法・仕様や、作業手順を示す図としては使用しない。"
+      ]
     },
     "width": 1254,
     "height": 1254,
@@ -1364,20 +1209,15 @@
       "reading": [
         "同じ形の二つの試料を並べて観察する。",
         "両手の試料と視線で比較する行為を示す。"
-      ],
-      "avoid": "強度や成分などの測定結果を示す図としては使用しない。"
+      ]
     },
     "labels": [],
     "source": "media/illustration/material-testing.png",
     "preview_path": "previews/illustration/material-testing.png",
-    "placement": {
+    "composition": {
       "framing": "waist-up",
       "facing": "left",
-      "people_count": 1,
-      "recommended_width_cm": [
-        3.5,
-        8
-      ]
+      "people_count": 1
     },
     "generation": {
       "method": "image-generation",
@@ -1407,20 +1247,15 @@
       "reading": [
         "板材から切り出した帯と、同じ帯を曲げた形を並べる。",
         "同じ材質と厚みを保ち、加工前後の関係を示す。"
-      ],
-      "avoid": "具体的な展開図、加工寸法、歩留まりの説明には使用しない。"
+      ]
     },
     "labels": [],
     "source": "media/illustration/material-to-product.png",
     "preview_path": "previews/illustration/material-to-product.png",
-    "placement": {
+    "composition": {
       "framing": "object",
       "facing": "front",
-      "people_count": 0,
-      "recommended_width_cm": [
-        4,
-        7
-      ]
+      "people_count": 0
     },
     "generation": {
       "method": "image-generation",
@@ -1450,20 +1285,15 @@
       "reading": [
         "台車の荷台と車輪が荷物を支える。",
         "両手でハンドルを持ち、進行方向へ運ぶ。"
-      ],
-      "avoid": "積載可能重量や安全基準を示す図としては使用しない。"
+      ]
     },
     "labels": [],
     "source": "media/illustration/moving-materials.png",
     "preview_path": "previews/illustration/moving-materials.png",
-    "placement": {
+    "composition": {
       "framing": "full-body",
       "facing": "right",
-      "people_count": 1,
-      "recommended_width_cm": [
-        5,
-        10
-      ]
+      "people_count": 1
     },
     "generation": {
       "method": "image-generation",
@@ -1476,13 +1306,9 @@
     "width": 1254,
     "height": 1254,
     "labels": [],
-    "placement": {
+    "composition": {
       "framing": "object",
-      "facing": "front",
-      "recommended_width_cm": [
-        4,
-        7
-      ]
+      "facing": "front"
     },
     "key": "illustration/organized-archive",
     "title": "整理した資料を取り出す",
@@ -1505,8 +1331,7 @@
       "reading": [
         "そろえて収納されたファイルが、管理された資料の保管先を表す。",
         "手前に引き出された一冊が、必要な資料の参照を表す。"
-      ],
-      "avoid": "法定保存や長期保存の要件を満たすことを、この画像だけで示さない。"
+      ]
     },
     "source": "media/illustration/organized-archive.png",
     "generation": {
@@ -1539,20 +1364,15 @@
       "reading": [
         "工具に対応した形の区画が、それぞれの定位置を示す。",
         "トレー外の工具と空いた区画が対応する。"
-      ],
-      "avoid": "特定工具の仕様や安全な使用方法を示す図としては使用しない。"
+      ]
     },
     "labels": [],
     "source": "media/illustration/organized-tool-storage.png",
     "preview_path": "previews/illustration/organized-tool-storage.png",
-    "placement": {
+    "composition": {
       "framing": "object",
       "facing": "front",
-      "people_count": 0,
-      "recommended_width_cm": [
-        4,
-        7
-      ]
+      "people_count": 0
     },
     "generation": {
       "method": "image-generation",
@@ -1582,20 +1402,15 @@
       "reading": [
         "両手で製品を支え、箱へ収める。",
         "緩衝材と箱で保護の意図を示す。"
-      ],
-      "avoid": "特定製品の梱包仕様や輸送認証を示す図としては使用しない。"
+      ]
     },
     "labels": [],
     "source": "media/illustration/packing-products.png",
     "preview_path": "previews/illustration/packing-products.png",
-    "placement": {
+    "composition": {
       "framing": "waist-up",
       "facing": "right",
-      "people_count": 1,
-      "recommended_width_cm": [
-        4.5,
-        9
-      ]
+      "people_count": 1
     },
     "generation": {
       "method": "image-generation",
@@ -1623,20 +1438,15 @@
       "message": "始める前に進め方を整える。",
       "reading": [
         "並べたカードとそれを動かす手が、計画の項目を整理する動作を示します。"
-      ],
-      "avoid": "実在の人物・業務実績・承認や確認の完了を証明する画像としては使えません。"
+      ]
     },
     "labels": [],
     "source": "media/illustration/planning.png",
     "preview_path": "previews/illustration/planning.png",
-    "placement": {
+    "composition": {
       "framing": "waist-up",
       "facing": "down",
-      "people_count": 1,
-      "recommended_width_cm": [
-        3,
-        6
-      ]
+      "people_count": 1
     },
     "generation": {
       "method": "image-generation",
@@ -1666,20 +1476,15 @@
       "reading": [
         "ノギスの両顎を部品の両側へ当てる。",
         "片手で対象を支えて寸法を確かめる。"
-      ],
-      "avoid": "実際の寸法、公差、測定精度の証明には使用しない。"
+      ]
     },
     "labels": [],
     "source": "media/illustration/precision-measurement.png",
     "preview_path": "previews/illustration/precision-measurement.png",
-    "placement": {
+    "composition": {
       "framing": "waist-up",
       "facing": "left",
-      "people_count": 1,
-      "recommended_width_cm": [
-        4,
-        8
-      ]
+      "people_count": 1
     },
     "generation": {
       "method": "image-generation",
@@ -1693,13 +1498,9 @@
     "labels": [],
     "source": "media/illustration/preventive-maintenance.png",
     "preview_path": "previews/illustration/preventive-maintenance.png",
-    "placement": {
+    "composition": {
       "framing": "object",
-      "facing": "front",
-      "recommended_width_cm": [
-        4,
-        7
-      ]
+      "facing": "front"
     },
     "title": "予定を決めて保全する",
     "name": "予定を決めて保全する_業務イラスト",
@@ -1718,8 +1519,7 @@
       "reading": [
         "一日を青く示したカレンダーが、点検の時期を表す。",
         "二つの工具を収めたケースが、予定に合わせた準備を表す。"
-      ],
-      "avoid": "実物の寸法・仕様や、作業手順を示す図としては使用しない。"
+      ]
     },
     "width": 1254,
     "height": 1254,
@@ -1752,20 +1552,15 @@
       "reading": [
         "製品に結び付いたタグが識別の対象を示す。",
         "同じ製品とタグが記録カードにも描かれる。"
-      ],
-      "avoid": "実在する製造番号や認証、追跡情報を示す図としては使用しない。"
+      ]
     },
     "labels": [],
     "source": "media/illustration/product-traceability.png",
     "preview_path": "previews/illustration/product-traceability.png",
-    "placement": {
+    "composition": {
       "framing": "object",
       "facing": "front",
-      "people_count": 0,
-      "recommended_width_cm": [
-        4,
-        7
-      ]
+      "people_count": 0
     },
     "generation": {
       "method": "image-generation",
@@ -1795,20 +1590,15 @@
       "reading": [
         "二人が同じ資料を見て作業の進め方を確認する。",
         "視線と手元が共通の対象へ向かう。"
-      ],
-      "avoid": "工程順序や生産計画の数値を示す図としては使用しない。"
+      ]
     },
     "labels": [],
     "source": "media/illustration/production-coordination.png",
     "preview_path": "previews/illustration/production-coordination.png",
-    "placement": {
+    "composition": {
       "framing": "waist-up",
       "facing": "inward",
-      "people_count": 2,
-      "recommended_width_cm": [
-        5.5,
-        11
-      ]
+      "people_count": 2
     },
     "generation": {
       "method": "image-generation",
@@ -1836,20 +1626,15 @@
       "message": "予定と実行項目を一緒に整理する。",
       "reading": [
         "カレンダーとタスクカードを隣接させ、日程と実行項目の結び付きを示します。"
-      ],
-      "avoid": "数値や条件を示す実資料には、編集可能な文字・図表を併用してください。"
+      ]
     },
     "labels": [],
     "source": "media/illustration/project-planning.png",
     "preview_path": "previews/illustration/project-planning.png",
-    "placement": {
+    "composition": {
       "framing": "object",
       "facing": "front",
-      "people_count": 0,
-      "recommended_width_cm": [
-        4,
-        7
-      ]
+      "people_count": 0
     },
     "generation": {
       "method": "image-generation",
@@ -1879,20 +1664,15 @@
       "reading": [
         "製品の形に沿った緩衝材が周囲を支える。",
         "同形の上側パッドを添えて保護する構成を示す。"
-      ],
-      "avoid": "梱包性能、耐衝撃性、輸送試験の合格を証明する図としては使用しない。"
+      ]
     },
     "labels": [],
     "source": "media/illustration/protective-packaging.png",
     "preview_path": "previews/illustration/protective-packaging.png",
-    "placement": {
+    "composition": {
       "framing": "object",
       "facing": "front",
-      "people_count": 0,
-      "recommended_width_cm": [
-        4,
-        7
-      ]
+      "people_count": 0
     },
     "generation": {
       "method": "image-generation",
@@ -1922,20 +1702,15 @@
       "reading": [
         "二人が同じ試作品と部品を見て検討する。",
         "分離したカバーで未完成の検討段階を示す。"
-      ],
-      "avoid": "特定製品の構造や完成仕様の説明には使用しない。"
+      ]
     },
     "labels": [],
     "source": "media/illustration/prototype-development.png",
     "preview_path": "previews/illustration/prototype-development.png",
-    "placement": {
+    "composition": {
       "framing": "waist-up",
       "facing": "inward",
-      "people_count": 2,
-      "recommended_width_cm": [
-        5.5,
-        11
-      ]
+      "people_count": 2
     },
     "generation": {
       "method": "image-generation",
@@ -1966,20 +1741,15 @@
       "reading": [
         "図面上の形と試作品の形を一致させる。",
         "紙の見取図と立体物を並べて具体化を示す。"
-      ],
-      "avoid": "実製品の図面や加工指示、寸法保証の用途には使用しない。"
+      ]
     },
     "labels": [],
     "source": "media/illustration/prototype-realization.png",
     "preview_path": "previews/illustration/prototype-realization.png",
-    "placement": {
+    "composition": {
       "framing": "object",
       "facing": "front",
-      "people_count": 0,
-      "recommended_width_cm": [
-        4,
-        7
-      ]
+      "people_count": 0
     },
     "generation": {
       "method": "image-generation",
@@ -2009,20 +1779,15 @@
       "reading": [
         "開いた箱から受入品を取り出し、現物を確かめる。",
         "手元の部品と箱の中身で確認する対象を示す。"
-      ],
-      "avoid": "正式な受入検査の合格や数量一致を保証する表現には使用しない。"
+      ]
     },
     "labels": [],
     "source": "media/illustration/receiving-materials.png",
     "preview_path": "previews/illustration/receiving-materials.png",
-    "placement": {
+    "composition": {
       "framing": "waist-up",
       "facing": "left",
-      "people_count": 1,
-      "recommended_width_cm": [
-        4.5,
-        9
-      ]
+      "people_count": 1
     },
     "generation": {
       "method": "image-generation",
@@ -2036,13 +1801,9 @@
     "labels": [],
     "source": "media/illustration/reduced-packaging.png",
     "preview_path": "previews/illustration/reduced-packaging.png",
-    "placement": {
+    "composition": {
       "framing": "object",
-      "facing": "front",
-      "recommended_width_cm": [
-        4,
-        7
-      ]
+      "facing": "front"
     },
     "title": "梱包サイズを適正にする",
     "name": "梱包サイズを適正にする_業務イラスト",
@@ -2061,8 +1822,7 @@
       "reading": [
         "同じ青い製品に対して、大きさの違う箱を並べる。",
         "製品に近いサイズの箱が、空間と緩衝材の削減を表す。"
-      ],
-      "avoid": "実物の寸法・仕様や、作業手順を示す図としては使用しない。"
+      ]
     },
     "width": 1254,
     "height": 1254,
@@ -2094,20 +1854,15 @@
       "reading": [
         "開いた差込口と同じ形の部品を対応させる。",
         "部品の取っ手が取り外しやすさを示す。"
-      ],
-      "avoid": "実際の交換手順や通電中の交換可否を示す図としては使用しない。"
+      ]
     },
     "labels": [],
     "source": "media/illustration/replaceable-module.png",
     "preview_path": "previews/illustration/replaceable-module.png",
-    "placement": {
+    "composition": {
       "framing": "object",
       "facing": "front",
-      "people_count": 0,
-      "recommended_width_cm": [
-        4,
-        7
-      ]
+      "people_count": 0
     },
     "generation": {
       "method": "image-generation",
@@ -2135,20 +1890,15 @@
       "message": "現在の状況を相手へ伝える。",
       "reading": [
         "差し出した資料と落ち着いた姿勢が、結果を相手へ伝える動作を示します。"
-      ],
-      "avoid": "実在の人物・業務実績・承認や確認の完了を証明する画像としては使えません。"
+      ]
     },
     "labels": [],
     "source": "media/illustration/reporting.png",
     "preview_path": "previews/illustration/reporting.png",
-    "placement": {
+    "composition": {
       "framing": "waist-up",
       "facing": "front",
-      "people_count": 1,
-      "recommended_width_cm": [
-        3,
-        6
-      ]
+      "people_count": 1
     },
     "generation": {
       "method": "image-generation",
@@ -2178,20 +1928,15 @@
       "reading": [
         "異なる形の材料を別々の容器へ分ける。",
         "再利用に備えて材料を丁寧に扱う。"
-      ],
-      "avoid": "法令上の廃棄区分やリサイクル達成率を示す用途には使用しない。"
+      ]
     },
     "labels": [],
     "source": "media/illustration/responsible-resource-use.png",
     "preview_path": "previews/illustration/responsible-resource-use.png",
-    "placement": {
+    "composition": {
       "framing": "waist-up",
       "facing": "right",
-      "people_count": 1,
-      "recommended_width_cm": [
-        4.5,
-        9
-      ]
+      "people_count": 1
     },
     "generation": {
       "method": "image-generation",
@@ -2221,20 +1966,15 @@
       "reading": [
         "組み立てた箱と同形の折りたたみ状態を並べる。",
         "同じ縁色と取っ手で同一の容器を対応させる。"
-      ],
-      "avoid": "具体的な折りたたみ手順や積載性能を示す図としては使用しない。"
+      ]
     },
     "labels": [],
     "source": "media/illustration/returnable-packaging.png",
     "preview_path": "previews/illustration/returnable-packaging.png",
-    "placement": {
+    "composition": {
       "framing": "object",
       "facing": "front",
-      "people_count": 0,
-      "recommended_width_cm": [
-        4,
-        7
-      ]
+      "people_count": 0
     },
     "generation": {
       "method": "image-generation",
@@ -2264,20 +2004,15 @@
       "reading": [
         "作業者が保護眼鏡を正しく装着する。",
         "準備段階の落ち着いた姿勢を示す。"
-      ],
-      "avoid": "全ての作業に必要な保護具を網羅した図としては使用しない。"
+      ]
     },
     "labels": [],
     "source": "media/illustration/safe-work-preparation.png",
     "preview_path": "previews/illustration/safe-work-preparation.png",
-    "placement": {
+    "composition": {
       "framing": "waist-up",
       "facing": "front",
-      "people_count": 1,
-      "recommended_width_cm": [
-        3.5,
-        8
-      ]
+      "people_count": 1
     },
     "generation": {
       "method": "image-generation",
@@ -2291,13 +2026,9 @@
     "labels": [],
     "source": "media/illustration/sample-retention.png",
     "preview_path": "previews/illustration/sample-retention.png",
-    "placement": {
+    "composition": {
       "framing": "object",
-      "facing": "front",
-      "recommended_width_cm": [
-        4,
-        7
-      ]
+      "facing": "front"
     },
     "title": "見本を保管する",
     "name": "見本を保管する_業務イラスト",
@@ -2316,8 +2047,7 @@
       "reading": [
         "仕切り付きケースが、見本を区別して保管する場所を表す。",
         "一部を引き出した見本が、取り出して確認できる状態を表す。"
-      ],
-      "avoid": "実物の寸法・仕様や、作業手順を示す図としては使用しない。"
+      ]
     },
     "width": 1254,
     "height": 1254,
@@ -2332,13 +2062,9 @@
     "width": 1254,
     "height": 1254,
     "labels": [],
-    "placement": {
+    "composition": {
       "framing": "object",
-      "facing": "front",
-      "recommended_width_cm": [
-        4,
-        7
-      ]
+      "facing": "front"
     },
     "key": "illustration/secure-disposal",
     "title": "不要な書類を細断して廃棄する",
@@ -2361,8 +2087,7 @@
       "reading": [
         "投入口に差し込まれた文書が、処分する資料を表す。",
         "窓の中に積もる紙片が、細断後の状態を表す。"
-      ],
-      "avoid": "図の細断形状を、特定の機密区分や廃棄基準の達成表示として使わない。"
+      ]
     },
     "source": "media/illustration/secure-disposal.png",
     "generation": {
@@ -2394,20 +2119,15 @@
       "reading": [
         "形が異なる二つの本体に、同じ青い部品が組み込まれる。",
         "手前の単体部品が共通する形を示す。"
-      ],
-      "avoid": "実際の製品互換性や性能保証を示す図としては使用しない。"
+      ]
     },
     "labels": [],
     "source": "media/illustration/shared-components.png",
     "preview_path": "previews/illustration/shared-components.png",
-    "placement": {
+    "composition": {
       "framing": "object",
       "facing": "front",
-      "people_count": 0,
-      "recommended_width_cm": [
-        4,
-        7
-      ]
+      "people_count": 0
     },
     "generation": {
       "method": "image-generation",
@@ -2437,20 +2157,15 @@
       "message": "必要な情報を相手へ届ける。",
       "reading": [
         "二人の視線と手元を同じ資料へ集め、情報共有を示します。"
-      ],
-      "avoid": "実在の人物・業務実績・承認や確認の完了を証明する画像としては使えません。"
+      ]
     },
     "labels": [],
     "source": "media/illustration/sharing-information.png",
     "preview_path": "previews/illustration/sharing-information.png",
-    "placement": {
+    "composition": {
       "framing": "waist-up",
       "facing": "inward",
-      "people_count": 2,
-      "recommended_width_cm": [
-        5,
-        9
-      ]
+      "people_count": 2
     },
     "generation": {
       "method": "image-generation",
@@ -2464,13 +2179,9 @@
     "labels": [],
     "source": "media/illustration/shipment-consolidation.png",
     "preview_path": "previews/illustration/shipment-consolidation.png",
-    "placement": {
+    "composition": {
       "framing": "object",
-      "facing": "front",
-      "recommended_width_cm": [
-        4,
-        7
-      ]
+      "facing": "front"
     },
     "title": "荷物をひとまとめにする",
     "name": "荷物をひとまとめにする_業務イラスト",
@@ -2490,8 +2201,7 @@
       "reading": [
         "四つの箱を一枚のパレット上へまとめる。",
         "箱とパレットを結ぶ二本の帯が、ひとつの荷扱い単位を表す。"
-      ],
-      "avoid": "実物の寸法・仕様や、作業手順を示す図としては使用しない。"
+      ]
     },
     "width": 1254,
     "height": 1254,
@@ -2523,20 +2233,15 @@
       "reading": [
         "箱の合わせ目をテープで留め、出荷に備える。",
         "両手で封を整える行為を示す。"
-      ],
-      "avoid": "輸送済みや配送完了を意味する図としては使用しない。"
+      ]
     },
     "labels": [],
     "source": "media/illustration/shipment-preparation.png",
     "preview_path": "previews/illustration/shipment-preparation.png",
-    "placement": {
+    "composition": {
       "framing": "waist-up",
       "facing": "right",
-      "people_count": 1,
-      "recommended_width_cm": [
-        4.5,
-        9
-      ]
+      "people_count": 1
     },
     "generation": {
       "method": "image-generation",
@@ -2550,13 +2255,9 @@
     "labels": [],
     "source": "media/illustration/spare-parts-readiness.png",
     "preview_path": "previews/illustration/spare-parts-readiness.png",
-    "placement": {
+    "composition": {
       "framing": "object",
-      "facing": "front",
-      "recommended_width_cm": [
-        4,
-        7
-      ]
+      "facing": "front"
     },
     "title": "予備部品を備える",
     "name": "予備部品を備える_業務イラスト",
@@ -2576,8 +2277,7 @@
       "reading": [
         "同じ形の部品を収めた保管箱が、交換に備えた在庫を表す。",
         "手前に取り出した一つが、必要なときに使える状態を表す。"
-      ],
-      "avoid": "実物の寸法・仕様や、作業手順を示す図としては使用しない。"
+      ]
     },
     "width": 1254,
     "height": 1254,
@@ -2609,20 +2309,15 @@
       "reading": [
         "棚の実物と記録用紙を対比して確認する。",
         "整理された棚で対象が明確に見える。"
-      ],
-      "avoid": "在庫数量や記録精度の実績を表す用途には使用しない。"
+      ]
     },
     "labels": [],
     "source": "media/illustration/stock-check.png",
     "preview_path": "previews/illustration/stock-check.png",
-    "placement": {
+    "composition": {
       "framing": "waist-up",
       "facing": "left",
-      "people_count": 1,
-      "recommended_width_cm": [
-        4.5,
-        9
-      ]
+      "people_count": 1
     },
     "generation": {
       "method": "image-generation",
@@ -2654,20 +2349,15 @@
       "reading": [
         "中心の話し手と手元のメモが、要点をまとめて伝える動作を示す。",
         "同じ話し手を向く二人が、チームで情報を共有する関係を示す。"
-      ],
-      "avoid": "実在の人物・業務実績・承認や確認の完了を証明する画像としては使えません。"
+      ]
     },
     "labels": [],
     "source": "media/illustration/team-briefing.png",
     "preview_path": "previews/illustration/team-briefing.png",
-    "placement": {
+    "composition": {
       "framing": "waist-up",
       "facing": "inward",
-      "people_count": 3,
-      "recommended_width_cm": [
-        6,
-        10
-      ]
+      "people_count": 3
     },
     "generation": {
       "method": "image-generation",
@@ -2696,20 +2386,15 @@
       "message": "立ち止まって考えを整理する。",
       "reading": [
         "顎へ添えた手と横へ向けた視線が、答えを検討する姿を示します。"
-      ],
-      "avoid": "実在の人物・業務実績・承認や確認の完了を証明する画像としては使えません。"
+      ]
     },
     "labels": [],
     "source": "media/illustration/thinking.png",
     "preview_path": "previews/illustration/thinking.png",
-    "placement": {
+    "composition": {
       "framing": "waist-up",
       "facing": "left",
-      "people_count": 1,
-      "recommended_width_cm": [
-        3,
-        6
-      ]
+      "people_count": 1
     },
     "generation": {
       "method": "image-generation",
@@ -2722,13 +2407,9 @@
     "width": 1254,
     "height": 1254,
     "labels": [],
-    "placement": {
+    "composition": {
       "framing": "object",
-      "facing": "front",
-      "recommended_width_cm": [
-        4,
-        7
-      ]
+      "facing": "front"
     },
     "key": "illustration/version-comparison",
     "title": "同じ資料の変更点を比べる",
@@ -2751,8 +2432,7 @@
       "reading": [
         "見出しと本文の位置がそろう二つの文書が、比較する版を表す。",
         "右側の同じ欄へ追加された青い内容が、改訂による変更を表す。"
-      ],
-      "avoid": "図中の欄や棒を、実際の変更量や重要度として読まない。"
+      ]
     },
     "source": "media/illustration/version-comparison.png",
     "generation": {
@@ -2785,20 +2465,15 @@
       "reading": [
         "画面内の相手が、離れた場所にいる相談相手を示す。",
         "画面へ向けた顔と操作する手が、オンラインで対話する動作を示す。"
-      ],
-      "avoid": "実在の人物・業務実績・承認や確認の完了を証明する画像としては使えません。"
+      ]
     },
     "labels": [],
     "source": "media/illustration/video-consultation.png",
     "preview_path": "previews/illustration/video-consultation.png",
-    "placement": {
+    "composition": {
       "framing": "waist-up",
       "facing": "right",
-      "people_count": 2,
-      "recommended_width_cm": [
-        5,
-        9
-      ]
+      "people_count": 2
     },
     "generation": {
       "method": "image-generation",
@@ -2830,20 +2505,15 @@
       "reading": [
         "来客に向けた視線が、迎える相手を示す。",
         "右へ開いた手のひらが、次に進む方向を示す。"
-      ],
-      "avoid": "実在の人物・業務実績・承認や確認の完了を証明する画像としては使えません。"
+      ]
     },
     "labels": [],
     "source": "media/illustration/welcoming-visitor.png",
     "preview_path": "previews/illustration/welcoming-visitor.png",
-    "placement": {
+    "composition": {
       "framing": "waist-up",
       "facing": "right",
-      "people_count": 2,
-      "recommended_width_cm": [
-        5,
-        9
-      ]
+      "people_count": 2
     },
     "generation": {
       "method": "image-generation",
@@ -2873,20 +2543,15 @@
       "reading": [
         "工具を定位置のフックに掛ける。",
         "少数の工具を整列して配置する。"
-      ],
-      "avoid": "安全設備や工具管理ルールの全項目を示す用途には使用しない。"
+      ]
     },
     "labels": [],
     "source": "media/illustration/workplace-organization.png",
     "preview_path": "previews/illustration/workplace-organization.png",
-    "placement": {
+    "composition": {
       "framing": "waist-up",
       "facing": "right",
-      "people_count": 1,
-      "recommended_width_cm": [
-        4.5,
-        9
-      ]
+      "people_count": 1
     },
     "generation": {
       "method": "image-generation",
@@ -2916,20 +2581,15 @@
       "message": "確認したことを記録に残す。",
       "reading": [
         "紙面に触れるペン先と、反対の手で支えるボードが記録する動作を示します。"
-      ],
-      "avoid": "実在の人物・業務実績・承認や確認の完了を証明する画像としては使えません。"
+      ]
     },
     "labels": [],
     "source": "media/illustration/writing-notes.png",
     "preview_path": "previews/illustration/writing-notes.png",
-    "placement": {
+    "composition": {
       "framing": "waist-up",
       "facing": "down",
-      "people_count": 1,
-      "recommended_width_cm": [
-        3,
-        6
-      ]
+      "people_count": 1
     },
     "generation": {
       "method": "image-generation",

@@ -98,10 +98,9 @@
     "reading": [
       "主色の弧は完了75%、淡い弧は残り25%。",
       "中央の数値は主色の弧の割合と一致する。"
-    ],
-    "avoid": "数値は作例。割合を変更する場合は弧と数値を同時に更新する。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "chart/progress-ring",
   "name": "進捗共有_全体に対する完了率_75パーセント作例",
   "license": "CC0-1.0",
@@ -114,6 +113,8 @@
   },
   "path": "assets/chart/progress-ring.svg",
   "metadata_path": "metadata/chart/progress-ring.json",
+  "preview_path": "previews/chart/progress-ring.svg",
+  "preview_has_example_labels": true,
   "search_text": "chart/progress-ring\n進捗共有_全体に対する完了率_75パーセント作例\n全体に対する完了率\n目標に対する完了率を一つの値で示す。\n全体のうち完了した範囲と残りを同時に示す。\n主色の弧は完了75%、淡い弧は残り25%。\n中央の数値は主色の弧の割合と一致する。\n進捗 達成率 完了率 リング パーセント 割合 円形 progress ring",
   "render": {
     "theme": true,

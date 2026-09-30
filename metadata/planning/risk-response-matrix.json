@@ -103,10 +103,9 @@
       "横方向は発生しやすさ、縦方向は影響の大きさ。",
       "同じ大きさの九領域に、定性的にリスクを配置する。",
       "右上の注意記号は、重点的な低減が必要な領域。"
-    ],
-    "avoid": "色の濃さを実際の発生確率や損失額として扱わない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "planning/risk-response-matrix",
   "name": "リスク対応_発生しやすさと影響を見分ける_三段階の対応領域",
   "license": "CC0-1.0",
@@ -119,6 +118,8 @@
   },
   "path": "assets/planning/risk-response-matrix.svg",
   "metadata_path": "metadata/planning/risk-response-matrix.json",
+  "preview_path": "previews/planning/risk-response-matrix.svg",
+  "preview_has_example_labels": true,
   "search_text": "planning/risk-response-matrix\nリスク対応_発生しやすさと影響を見分ける_三段階の対応領域\n発生と影響から対応を決める\nプロジェクトのリスクを洗い出し、対策に着手する順序を決める。\n起こりやすく影響の大きい事象へ、先に対策を用意する。\n横方向は発生しやすさ、縦方向は影響の大きさ。\n同じ大きさの九領域に、定性的にリスクを配置する。\n右上の注意記号は、重点的な低減が必要な領域。\nリスク リスクマトリクス 発生可能性 影響 対応 優先度 予防 risk matrix likelihood impact mitigation",
   "render": {
     "theme": true,

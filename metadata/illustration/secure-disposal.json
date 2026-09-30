@@ -4,13 +4,9 @@
   "width": 1254,
   "height": 1254,
   "labels": [],
-  "placement": {
+  "composition": {
     "framing": "object",
-    "facing": "front",
-    "recommended_width_cm": [
-      4,
-      7
-    ]
+    "facing": "front"
   },
   "title": "不要な書類を細断して廃棄する",
   "description": "投入される一枚の文書と、窓の中の細断片が、書類を細かくして廃棄する過程を表す。",
@@ -31,8 +27,7 @@
     "reading": [
       "投入口に差し込まれた文書が、処分する資料を表す。",
       "窓の中に積もる紙片が、細断後の状態を表す。"
-    ],
-    "avoid": "図の細断形状を、特定の機密区分や廃棄基準の達成表示として使わない。"
+    ]
   },
   "generation": {
     "method": "image-generation",
@@ -46,13 +41,14 @@
     "width": 1254,
     "height": 1254
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "illustration/secure-disposal",
   "name": "不要な書類を細断して廃棄する_情報と業務のイラスト",
   "license": "CC0-1.0",
   "path": "media/illustration/secure-disposal.png",
   "metadata_path": "metadata/illustration/secure-disposal.json",
-  "search_text": "illustration/secure-disposal\n不要な書類を細断して廃棄する_情報と業務のイラスト\n不要な書類を細断して廃棄する\n不要書類の処分、機密資料の扱い、資料のライフサイクルの説明。\n不要になった資料を、そのまま残さず細断して廃棄する。\n投入口に差し込まれた文書が、処分する資料を表す。\n窓の中に積もる紙片が、細断後の状態を表す。\n書類 廃棄 細断 機密 シュレッダー 処分 secure disposal shredder\nobject 物 道具 front 正面 [4, 7] ",
+  "preview_has_example_labels": false,
+  "search_text": "illustration/secure-disposal\n不要な書類を細断して廃棄する_情報と業務のイラスト\n不要な書類を細断して廃棄する\n不要書類の処分、機密資料の扱い、資料のライフサイクルの説明。\n不要になった資料を、そのまま残さず細断して廃棄する。\n投入口に差し込まれた文書が、処分する資料を表す。\n窓の中に積もる紙片が、細断後の状態を表す。\n書類 廃棄 細断 機密 シュレッダー 処分 secure disposal shredder\nobject 物 道具 front 正面",
   "render": {
     "theme": false,
     "labels": false,

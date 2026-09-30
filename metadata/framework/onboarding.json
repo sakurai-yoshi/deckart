@@ -70,14 +70,13 @@
       "人物付きの文書がアカウント登録。",
       "調整つまみが利用条件の設定。",
       "チェック付きの画面が利用開始。"
-    ],
-    "avoid": "本人確認や承認が必要な場合、その手順を省略しない。"
+    ]
   },
   "layout": {
     "relation": "three-step-sequence",
     "reading_direction": "left-to-right"
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "framework/onboarding",
   "name": "利用開始_登録から設定を経て使い始める_3ステップ導入",
   "license": "CC0-1.0",
@@ -90,6 +89,8 @@
   },
   "path": "assets/framework/onboarding.svg",
   "metadata_path": "metadata/framework/onboarding.json",
+  "preview_path": "previews/framework/onboarding.svg",
+  "preview_has_example_labels": true,
   "search_text": "framework/onboarding\n利用開始_登録から設定を経て使い始める_3ステップ導入\n登録・設定を経て使い始める\n新しいサービスを利用する担当者へ、開始までの流れを示す。\n登録・設定・利用開始の三つを順に進める。\n人物付きの文書がアカウント登録。\n調整つまみが利用条件の設定。\nチェック付きの画面が利用開始。\n導入 初期設定 利用開始 登録 オンボーディング 3ステップ onboarding getting started",
   "render": {
     "theme": true,

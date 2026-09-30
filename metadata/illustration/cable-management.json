@@ -3,13 +3,9 @@
   "category": "06-業務イラスト",
   "labels": [],
   "preview_path": "previews/illustration/cable-management.png",
-  "placement": {
+  "composition": {
     "framing": "object",
-    "facing": "front",
-    "recommended_width_cm": [
-      4,
-      7
-    ]
+    "facing": "front"
   },
   "title": "配線を整理する",
   "description": "三本のケーブルをトレーに沿わせ、二つの帯でまとめて経路を追いやすく整理した状態を表す。",
@@ -28,8 +24,7 @@
     "reading": [
       "並行に通した三本のケーブルが、追いやすい配線経路を表す。",
       "二か所の結束帯と両端の端子が、配線を整理して扱う状態を表す。"
-    ],
-    "avoid": "実物の寸法・仕様や、作業手順を示す図としては使用しない。"
+    ]
   },
   "width": 1254,
   "height": 1254,
@@ -44,13 +39,14 @@
     "width": 1254,
     "height": 1254
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "illustration/cable-management",
   "name": "配線を整理する_業務イラスト",
   "license": "CC0-1.0",
   "path": "media/illustration/cable-management.png",
   "metadata_path": "metadata/illustration/cable-management.json",
-  "search_text": "illustration/cable-management\n配線を整理する_業務イラスト\n配線を整理する\n配線整理、保守しやすい環境、足元の整理を説明する。\nケーブルをまとめ、接続先と経路を追いやすくする。\n並行に通した三本のケーブルが、追いやすい配線経路を表す。\n二か所の結束帯と両端の端子が、配線を整理して扱う状態を表す。\n配線 整理 保守 ケーブル 5S cable management\nobject 物 道具 front 正面 [4, 7] ",
+  "preview_has_example_labels": false,
+  "search_text": "illustration/cable-management\n配線を整理する_業務イラスト\n配線を整理する\n配線整理、保守しやすい環境、足元の整理を説明する。\nケーブルをまとめ、接続先と経路を追いやすくする。\n並行に通した三本のケーブルが、追いやすい配線経路を表す。\n二か所の結束帯と両端の端子が、配線を整理して扱う状態を表す。\n配線 整理 保守 ケーブル 5S cable management\nobject 物 道具 front 正面",
   "render": {
     "theme": false,
     "labels": false,

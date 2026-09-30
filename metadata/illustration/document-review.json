@@ -4,13 +4,9 @@
   "width": 1254,
   "height": 1254,
   "labels": [],
-  "placement": {
+  "composition": {
     "framing": "object",
-    "facing": "front",
-    "recommended_width_cm": [
-      4,
-      7
-    ]
+    "facing": "front"
   },
   "title": "資料の内容を詳しく確かめる",
   "description": "文書の一部へ重ねた拡大鏡と鉛筆が、内容の確認と修正の準備を表す。",
@@ -31,8 +27,7 @@
     "reading": [
       "文書の行に重なる拡大鏡が、内容を詳しく確認する行為を表す。",
       "文書に添えた鉛筆が、確認した内容を修正へつなぐ準備を表す。"
-    ],
-    "avoid": "実際の承認結果や内容の正しさを保証する用途には使わない。"
+    ]
   },
   "generation": {
     "method": "image-generation",
@@ -46,13 +41,14 @@
     "width": 1254,
     "height": 1254
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "illustration/document-review",
   "name": "資料の内容を詳しく確かめる_情報と業務のイラスト",
   "license": "CC0-1.0",
   "path": "media/illustration/document-review.png",
   "metadata_path": "metadata/illustration/document-review.json",
-  "search_text": "illustration/document-review\n資料の内容を詳しく確かめる_情報と業務のイラスト\n資料の内容を詳しく確かめる\n報告書・仕様書・提案資料のレビューや確認作業の説明。\n資料の細部を確かめ、修正すべき点を見つける。\n文書の行に重なる拡大鏡が、内容を詳しく確認する行為を表す。\n文書に添えた鉛筆が、確認した内容を修正へつなぐ準備を表す。\n資料 確認 レビュー 精査 修正 文書 document review proofreading\nobject 物 道具 front 正面 [4, 7] ",
+  "preview_has_example_labels": false,
+  "search_text": "illustration/document-review\n資料の内容を詳しく確かめる_情報と業務のイラスト\n資料の内容を詳しく確かめる\n報告書・仕様書・提案資料のレビューや確認作業の説明。\n資料の細部を確かめ、修正すべき点を見つける。\n文書の行に重なる拡大鏡が、内容を詳しく確認する行為を表す。\n文書に添えた鉛筆が、確認した内容を修正へつなぐ準備を表す。\n資料 確認 レビュー 精査 修正 文書 document review proofreading\nobject 物 道具 front 正面",
   "render": {
     "theme": false,
     "labels": false,

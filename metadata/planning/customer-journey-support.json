@@ -178,10 +178,9 @@
       "上の横向きの経路は顧客の行動順序。",
       "破線の下は、接点の裏側で行う業務。",
       "上向きの矢印は、それぞれの業務が支える接点。"
-    ],
-    "avoid": "上の経路を顧客の感情点数や、全顧客に共通する実測行動として扱わない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "planning/customer-journey-support",
   "name": "顧客体験_行動と接点を支える業務_表と裏のジャーニー",
   "license": "CC0-1.0",
@@ -194,6 +193,8 @@
   },
   "path": "assets/planning/customer-journey-support.svg",
   "metadata_path": "metadata/planning/customer-journey-support.json",
+  "preview_path": "previews/planning/customer-journey-support.svg",
+  "preview_has_example_labels": true,
   "search_text": "planning/customer-journey-support\n顧客体験_行動と接点を支える業務_表と裏のジャーニー\n顧客の行動と支える業務を結ぶ\n顧客接点の改善を検討し、その体験を支える社内業務を決める。\n顧客の行動だけでなく、その裏側の業務も一緒に設計する。\n上の横向きの経路は顧客の行動順序。\n破線の下は、接点の裏側で行う業務。\n上向きの矢印は、それぞれの業務が支える接点。\n顧客体験 顧客行動 カスタマージャーニー サービスブループリント 接点 裏側 継続利用 customer journey touchpoint service blueprint",
   "render": {
     "theme": true,

@@ -21,10 +21,9 @@
     "reading": [
       "一つの点が共有元を表す。",
       "枝分かれする線と二つの点が共有先を表す。"
-    ],
-    "avoid": "公開範囲やアクセス許可の設定完了としては使わない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "icon/sharing",
   "name": "情報共有_複数の相手に届ける_共有ノード",
   "license": "CC0-1.0",
@@ -37,6 +36,8 @@
   },
   "path": "assets/icon/sharing.svg",
   "metadata_path": "metadata/icon/sharing.json",
+  "preview_path": "assets/icon/sharing.svg",
+  "preview_has_example_labels": false,
   "search_text": "icon/sharing\n情報共有_複数の相手に届ける_共有ノード\n共有\n資料や情報の共有先を示す。\n一つの情報を複数の相手へ広げる。\n一つの点が共有元を表す。\n枝分かれする線と二つの点が共有先を表す。\n共有 配布 展開 情報共有 share sharing distribution",
   "render": {
     "theme": true,

@@ -102,11 +102,10 @@
       "左の異なる形が窓口に集まる依頼。",
       "中央の判断ゲートで対応方法を分類する。",
       "右の三つの経路が分類後の行き先。"
-    ],
-    "avoid": "上下の並びを緊急度の順位として扱わない。"
+    ]
   },
   "kind": "diagram",
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "process/inquiry-triage",
   "name": "問い合わせ対応_内容と緊急度で担当へ振り分ける_三方向のトリアージ",
   "license": "CC0-1.0",
@@ -119,6 +118,8 @@
   },
   "path": "assets/process/inquiry-triage.svg",
   "metadata_path": "metadata/process/inquiry-triage.json",
+  "preview_path": "previews/process/inquiry-triage.svg",
+  "preview_has_example_labels": true,
   "search_text": "process/inquiry-triage\n問い合わせ対応_内容と緊急度で担当へ振り分ける_三方向のトリアージ\n問い合わせを担当へ振り分ける\n問い合わせ窓口で、依頼の内容に応じた対応先を決める。\n依頼を一つの窓口で受け、適切な経路へ振り分ける。\n左の異なる形が窓口に集まる依頼。\n中央の判断ゲートで対応方法を分類する。\n右の三つの経路が分類後の行き先。\n問い合わせ トリアージ 振り分け 受付 窓口 分類 緊急度 ルーティング",
   "render": {
     "theme": true,

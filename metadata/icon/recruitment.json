@@ -22,10 +22,9 @@
     "reading": [
       "人物の輪郭が迎える人材を表す。",
       "右の加号が新たに加わることを表す。"
-    ],
-    "avoid": "採用決定や内定承諾の確定を示す印には使わない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "icon/recruitment",
   "name": "採用活動_新たな人材を迎える_人物と追加",
   "license": "CC0-1.0",
@@ -38,6 +37,8 @@
   },
   "path": "assets/icon/recruitment.svg",
   "metadata_path": "metadata/icon/recruitment.json",
+  "preview_path": "assets/icon/recruitment.svg",
+  "preview_has_example_labels": false,
   "search_text": "icon/recruitment\n採用活動_新たな人材を迎える_人物と追加\n採用\n採用計画や募集する職種の見出しに添える。\n組織に新たな人材を加える。\n人物の輪郭が迎える人材を表す。\n右の加号が新たに加わることを表す。\n採用 募集 入社 人材 増員 recruitment hiring join",
   "render": {
     "theme": true,

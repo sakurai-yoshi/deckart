@@ -22,10 +22,9 @@
     "reading": [
       "開いた格子の箱が回収可能な容器を表す。",
       "上に戻る矢印が次の利用へ回すことを示す。"
-    ],
-    "avoid": "記号は業務の種類を示す。数値、認証取得、測定結果を保証する印には使わない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "icon/returnable-container",
   "name": "通い箱_製造業務の記号",
   "license": "CC0-1.0",
@@ -38,6 +37,8 @@
   },
   "path": "assets/icon/returnable-container.svg",
   "metadata_path": "metadata/icon/returnable-container.json",
+  "preview_path": "assets/icon/returnable-container.svg",
+  "preview_has_example_labels": false,
   "search_text": "icon/returnable-container\n通い箱_製造業務の記号\n通い箱\n梱包容器を回収して再利用する運用を示す。\n容器を使い捨てず繰り返し使う。\n開いた格子の箱が回収可能な容器を表す。\n上に戻る矢印が次の利用へ回すことを示す。\n通い箱 回収 再利用 容器 梱包 returnable reusable container",
   "render": {
     "theme": true,

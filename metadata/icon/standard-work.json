@@ -21,10 +21,9 @@
     "reading": [
       "手順が三行に分かれた作業票を表す。",
       "縦の矢印が上から順に実施することを示す。"
-    ],
-    "avoid": "記号は業務の種類を示す。数値、認証取得、測定結果を保証する印には使わない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "icon/standard-work",
   "name": "標準作業_製造業務の記号",
   "license": "CC0-1.0",
@@ -37,6 +36,8 @@
   },
   "path": "assets/icon/standard-work.svg",
   "metadata_path": "metadata/icon/standard-work.json",
+  "preview_path": "assets/icon/standard-work.svg",
+  "preview_has_example_labels": false,
   "search_text": "icon/standard-work\n標準作業_製造業務の記号\n標準作業\n作業標準や共通の手順を紹介する。\n決めた順序で同じ作業を再現する。\n手順が三行に分かれた作業票を表す。\n縦の矢印が上から順に実施することを示す。\n標準 手順 作業標準 作業票 standard work procedure",
   "render": {
     "theme": true,

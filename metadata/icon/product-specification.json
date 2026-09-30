@@ -22,10 +22,9 @@
     "reading": [
       "紙の中の形状が指定対象の製品を示す。",
       "縦横の寸法線が守る条件を表す。"
-    ],
-    "avoid": "記号は業務の種類を示す。数値、認証取得、測定結果を保証する印には使わない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "icon/product-specification",
   "name": "製品仕様_製造業務の記号",
   "license": "CC0-1.0",
@@ -38,6 +37,8 @@
   },
   "path": "assets/icon/product-specification.svg",
   "metadata_path": "metadata/icon/product-specification.json",
+  "preview_path": "assets/icon/product-specification.svg",
+  "preview_has_example_labels": false,
   "search_text": "icon/product-specification\n製品仕様_製造業務の記号\n製品仕様\n製品仕様や図面で条件を確認する工程に添える。\n形や寸法の条件を文書で定める。\n紙の中の形状が指定対象の製品を示す。\n縦横の寸法線が守る条件を表す。\n仕様 製品 図面 要件 寸法 specification drawing requirement",
   "render": {
     "theme": true,

@@ -53,10 +53,9 @@
     "reading": [
       "小さな区分表示で欄の役割を示す。",
       "下の大きな一文へ読み手の視線を集める。"
-    ],
-    "avoid": "重要度の異なる複数の結論を詰め込む用途には使わない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "part/key-finding",
   "name": "最も伝えたい示唆を抜き出す_説明パーツ",
   "license": "CC0-1.0",
@@ -69,6 +68,8 @@
   },
   "path": "assets/part/key-finding.svg",
   "metadata_path": "metadata/part/key-finding.json",
+  "preview_path": "previews/part/key-finding.svg",
+  "preview_has_example_labels": true,
   "search_text": "part/key-finding\n最も伝えたい示唆を抜き出す_説明パーツ\n最も伝えたい示唆を抜き出す\n分析から得た一つの示唆を強調する場面。\nこの一文が説明の要点である。\n小さな区分表示で欄の役割を示す。\n下の大きな一文へ読み手の視線を集める。\n示唆 結論 発見 要点 強調 takeaway insight finding",
   "render": {
     "theme": true,

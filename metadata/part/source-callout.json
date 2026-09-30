@@ -52,11 +52,10 @@
     "message": "指した箇所の条件と情報源を確認できる。",
     "reading": [
       "小さな丸を参照対象へ重ねる。",
-      "引き出し線の先に補足と出典を上下に置く。"
-    ],
-    "avoid": "丸が複数の対象を曖昧に指す配置には使わない。"
+      "引き出し線の先には、補足と出典の領域が上下にある。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "part/source-callout",
   "name": "参照箇所と補足をつなぐ_説明パーツ",
   "license": "CC0-1.0",
@@ -69,7 +68,9 @@
   },
   "path": "assets/part/source-callout.svg",
   "metadata_path": "metadata/part/source-callout.json",
-  "search_text": "part/source-callout\n参照箇所と補足をつなぐ_説明パーツ\n参照箇所と補足をつなぐ\nグラフや図の一箇所に、読み取り条件と出典を添える場面。\n指した箇所の条件と情報源を確認できる。\n小さな丸を参照対象へ重ねる。\n引き出し線の先に補足と出典を上下に置く。\n注釈 出典 条件 参照 引き出し線 callout source annotation",
+  "preview_path": "previews/part/source-callout.svg",
+  "preview_has_example_labels": true,
+  "search_text": "part/source-callout\n参照箇所と補足をつなぐ_説明パーツ\n参照箇所と補足をつなぐ\nグラフや図の一箇所に、読み取り条件と出典を添える場面。\n指した箇所の条件と情報源を確認できる。\n小さな丸を参照対象へ重ねる。\n引き出し線の先には、補足と出典の領域が上下にある。\n注釈 出典 条件 参照 引き出し線 callout source annotation",
   "render": {
     "theme": true,
     "labels": true,

@@ -168,10 +168,9 @@
       "各組の左が前期、右が当期。",
       "棒の底は共通の0件、上端の数値は各作例値。",
       "淡色と主色は期間の違いを示す。"
-    ],
-    "avoid": "数値は作例。各組で左右の期間や縦軸の尺度を入れ替えない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "chart/grouped-bar",
   "name": "期間比較_項目ごとの前期と当期を比べる_集合棒グラフ作例",
   "license": "CC0-1.0",
@@ -184,6 +183,8 @@
   },
   "path": "assets/chart/grouped-bar.svg",
   "metadata_path": "metadata/chart/grouped-bar.json",
+  "preview_path": "previews/chart/grouped-bar.svg",
+  "preview_has_example_labels": true,
   "search_text": "chart/grouped-bar\n期間比較_項目ごとの前期と当期を比べる_集合棒グラフ作例\n項目ごとに前期と当期を比べる\n複数項目について前期と当期の件数を比較する。\n項目ごとの変化と項目間の差を同じ目盛りで読める。\n各組の左が前期、右が当期。\n棒の底は共通の0件、上端の数値は各作例値。\n淡色と主色は期間の違いを示す。\n集合棒 グループ 棒グラフ 前期 当期 比較 カテゴリ grouped clustered bar",
   "render": {
     "theme": true,

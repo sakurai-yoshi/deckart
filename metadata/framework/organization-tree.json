@@ -176,14 +176,13 @@
       "上段が全体の責任者。",
       "中段が部門、下段が担当。",
       "縦横の接続線が所属関係を示す。"
-    ],
-    "avoid": "部門を越えた協働や兼務を単純な上下関係に置き換えない。"
+    ]
   },
   "layout": {
     "relation": "three-level-hierarchy",
     "reading_direction": "top-to-bottom"
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "framework/organization-tree",
   "name": "組織紹介_所属と指揮命令系統を示す_3階層組織図",
   "license": "CC0-1.0",
@@ -196,6 +195,8 @@
   },
   "path": "assets/framework/organization-tree.svg",
   "metadata_path": "metadata/framework/organization-tree.json",
+  "preview_path": "previews/framework/organization-tree.svg",
+  "preview_has_example_labels": true,
   "search_text": "framework/organization-tree\n組織紹介_所属と指揮命令系統を示す_3階層組織図\n所属と指揮命令系統を示す\n会社や部門の体制を、正式な所属と責任範囲で説明する。\n各担当がどの部門と責任者に属するかを示す。\n上段が全体の責任者。\n中段が部門、下段が担当。\n縦横の接続線が所属関係を示す。\n組織図 階層 部門 所属 責任者 指揮命令 組織紹介 hierarchy organization chart",
   "render": {
     "theme": true,

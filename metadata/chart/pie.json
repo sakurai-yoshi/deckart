@@ -122,10 +122,9 @@
       "区分Aは50%、区分Bは30%、区分Cは20%。",
       "扇形の角度と面積は各割合に比例する。",
       "三つの割合を足すと100%。"
-    ],
-    "avoid": "数値は作例。重複する区分や合計が全体と一致しない値には使わない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "chart/pie",
   "name": "構成比確認_全体を三つの区分に分ける_円グラフ作例",
   "license": "CC0-1.0",
@@ -138,6 +137,8 @@
   },
   "path": "assets/chart/pie.svg",
   "metadata_path": "metadata/chart/pie.json",
+  "preview_path": "previews/chart/pie.svg",
+  "preview_has_example_labels": true,
   "search_text": "chart/pie\n構成比確認_全体を三つの区分に分ける_円グラフ作例\n三つの区分で全体を表す\n重複しない三つの区分が全体をどう分けるかを説明する。\n各区分の合計が一つの全体になる。\n区分Aは50%、区分Bは30%、区分Cは20%。\n扇形の角度と面積は各割合に比例する。\n三つの割合を足すと100%。\n円グラフ 構成比 内訳 全体 部分 割合 pie chart",
   "render": {
     "theme": true,

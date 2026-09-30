@@ -24,10 +24,9 @@
     "reading": [
       "とじ具と日付の並びがカレンダーを表す。",
       "強調された一つの点が注目する日を表す。"
-    ],
-    "avoid": "実際の日付や曜日を読み取る用途には使わない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "icon/calendar",
   "name": "予定表示_日程を示す_カレンダー",
   "license": "CC0-1.0",
@@ -40,6 +39,8 @@
   },
   "path": "assets/icon/calendar.svg",
   "metadata_path": "metadata/icon/calendar.json",
+  "preview_path": "assets/icon/calendar.svg",
+  "preview_has_example_labels": false,
   "search_text": "icon/calendar\n予定表示_日程を示す_カレンダー\n日程・予定\n会議日や作業期限など、日付に関わる項目を示す場面。\n予定として確認する日がある。\nとじ具と日付の並びがカレンダーを表す。\n強調された一つの点が注目する日を表す。\n予定 日程 日付 会議 スケジュール 期限 calendar schedule date deadline",
   "render": {
     "theme": true,

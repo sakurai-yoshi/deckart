@@ -83,12 +83,12 @@
     "reading": [
       "上から下へ確認する条件が進む。",
       "狭くなる形は候補の絞り込み。",
-      "最後のチェックは条件を満たした候補。"
-    ],
-    "avoid": "幅は候補数や通過率を表さない。"
+      "最後のチェックは条件を満たした候補。",
+      "形の幅は候補の絞り込みを示す概念的な表現。"
+    ]
   },
   "kind": "diagram",
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "decision/selection-filters",
   "name": "調達選定_判断条件による絞り込み_段階式フィルター",
   "license": "CC0-1.0",
@@ -101,7 +101,9 @@
   },
   "path": "assets/decision/selection-filters.svg",
   "metadata_path": "metadata/decision/selection-filters.json",
-  "search_text": "decision/selection-filters\n調達選定_判断条件による絞り込み_段階式フィルター\n条件を重ねて候補を絞る\n製品や委託先の選定で、候補を絞る確認順序を共有する。\n条件を順番に満たす候補を残す。\n上から下へ確認する条件が進む。\n狭くなる形は候補の絞り込み。\n最後のチェックは条件を満たした候補。\n選定 調達 ベンダー 製品評価 条件 必須要件 フィルター 選考 絞り込み",
+  "preview_path": "previews/decision/selection-filters.svg",
+  "preview_has_example_labels": true,
+  "search_text": "decision/selection-filters\n調達選定_判断条件による絞り込み_段階式フィルター\n条件を重ねて候補を絞る\n製品や委託先の選定で、候補を絞る確認順序を共有する。\n条件を順番に満たす候補を残す。\n上から下へ確認する条件が進む。\n狭くなる形は候補の絞り込み。\n最後のチェックは条件を満たした候補。\n形の幅は候補の絞り込みを示す概念的な表現。\n選定 調達 ベンダー 製品評価 条件 必須要件 フィルター 選考 絞り込み",
   "render": {
     "theme": true,
     "labels": true,

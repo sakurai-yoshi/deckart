@@ -22,10 +22,9 @@
     "reading": [
       "高さの異なる棒が比較対象の違いを表す。",
       "上の線が変化の傾向を表す。"
-    ],
-    "avoid": "右肩上がりの線を実際の業績として示さない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "icon/analytics",
   "name": "分析活動_傾向と差を読み取る_棒と推移",
   "license": "CC0-1.0",
@@ -38,6 +37,8 @@
   },
   "path": "assets/icon/analytics.svg",
   "metadata_path": "metadata/icon/analytics.json",
+  "preview_path": "assets/icon/analytics.svg",
+  "preview_has_example_labels": false,
   "search_text": "icon/analytics\n分析活動_傾向と差を読み取る_棒と推移\n分析\nデータ分析や実績の検討の見出しに添える。\nデータから傾向を読み取る。\n高さの異なる棒が比較対象の違いを表す。\n上の線が変化の傾向を表す。\n分析 数値 データ 傾向 可視化 analytics analysis insights",
   "render": {
     "theme": true,

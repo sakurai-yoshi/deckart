@@ -23,10 +23,9 @@
     "reading": [
       "家の輪郭が住居を表す。",
       "内部の画面が業務用の端末を表す。"
-    ],
-    "avoid": "通信設備や安全対策が整っていることの保証には使わない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "icon/remote-work",
   "name": "勤務形態_自宅から働く_住居と業務端末",
   "license": "CC0-1.0",
@@ -39,6 +38,8 @@
   },
   "path": "assets/icon/remote-work.svg",
   "metadata_path": "metadata/icon/remote-work.json",
+  "preview_path": "assets/icon/remote-work.svg",
+  "preview_has_example_labels": false,
   "search_text": "icon/remote-work\n勤務形態_自宅から働く_住居と業務端末\n在宅勤務\n在宅勤務の制度や勤務場所を説明する。\n自宅を仕事の場所として利用する。\n家の輪郭が住居を表す。\n内部の画面が業務用の端末を表す。\n在宅勤務 テレワーク リモート勤務 自宅 remote work home office telework",
   "render": {
     "theme": true,

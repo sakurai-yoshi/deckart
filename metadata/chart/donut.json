@@ -134,10 +134,9 @@
       "中央は合計200件。",
       "右の内訳は80件・70件・50件。",
       "外周の40%・35%・25%は各件数を200件で割った割合。"
-    ],
-    "avoid": "数値は作例。件数を変更する場合は合計・割合・弧の角度を同時に更新する。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "chart/donut",
   "name": "内訳確認_合計と構成比を同時に示す_ドーナツグラフ作例",
   "license": "CC0-1.0",
@@ -150,6 +149,8 @@
   },
   "path": "assets/chart/donut.svg",
   "metadata_path": "metadata/chart/donut.json",
+  "preview_path": "previews/chart/donut.svg",
+  "preview_has_example_labels": true,
   "search_text": "chart/donut\n内訳確認_合計と構成比を同時に示す_ドーナツグラフ作例\n合計と内訳を同時に示す\n合計件数と、その内訳の割合を一枚で説明する。\n全体の規模と各区分の構成を同時に確認できる。\n中央は合計200件。\n右の内訳は80件・70件・50件。\n外周の40%・35%・25%は各件数を200件で割った割合。\nドーナツ 合計 内訳 構成比 割合 件数 donut chart",
   "render": {
     "theme": true,

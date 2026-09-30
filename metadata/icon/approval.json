@@ -22,10 +22,9 @@
     "reading": [
       "持ち手と印面が承認に使う印を表す。",
       "下の線が確認結果を残すことを表す。"
-    ],
-    "avoid": "正式な押印や承認完了の証跡としては使わない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "icon/approval",
   "name": "承認手続_責任者が認める_承認印",
   "license": "CC0-1.0",
@@ -38,6 +37,8 @@
   },
   "path": "assets/icon/approval.svg",
   "metadata_path": "metadata/icon/approval.json",
+  "preview_path": "assets/icon/approval.svg",
+  "preview_has_example_labels": false,
   "search_text": "icon/approval\n承認手続_責任者が認める_承認印\n承認\n申請の承認や決裁が必要な工程を示す。\n責任者が内容を確認して認める。\n持ち手と印面が承認に使う印を表す。\n下の線が確認結果を残すことを表す。\n承認 決裁 許可 確認 印 approval authorization signoff",
   "render": {
     "theme": true,
