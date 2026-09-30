@@ -19,19 +19,14 @@
     "reading": [
       "両手で製品を支え、箱へ収める。",
       "緩衝材と箱で保護の意図を示す。"
-    ],
-    "avoid": "特定製品の梱包仕様や輸送認証を示す図としては使用しない。"
+    ]
   },
   "labels": [],
   "preview_path": "previews/illustration/packing-products.png",
-  "placement": {
+  "composition": {
     "framing": "waist-up",
     "facing": "right",
-    "people_count": 1,
-    "recommended_width_cm": [
-      4.5,
-      9
-    ]
+    "people_count": 1
   },
   "generation": {
     "method": "image-generation",
@@ -45,13 +40,14 @@
     "width": 1254,
     "height": 1254
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "illustration/packing-products",
   "name": "製品を梱包する_メーカー業務の動作",
   "license": "CC0-1.0",
   "path": "media/illustration/packing-products.png",
   "metadata_path": "metadata/illustration/packing-products.json",
-  "search_text": "illustration/packing-products\n製品を梱包する_メーカー業務の動作\n製品を梱包する\n梱包工程、品質保護、出荷前作業の説明。\n製品を保護し、次の工程へ渡せる状態に整える。\n両手で製品を支え、箱へ収める。\n緩衝材と箱で保護の意図を示す。\n梱包 包装 出荷 保護 packing packaging product\nwaist-up 上半身 腰上 right 右向き 1  [4.5, 9] ",
+  "preview_has_example_labels": false,
+  "search_text": "illustration/packing-products\n製品を梱包する_メーカー業務の動作\n製品を梱包する\n梱包工程、品質保護、出荷前作業の説明。\n製品を保護し、次の工程へ渡せる状態に整える。\n両手で製品を支え、箱へ収める。\n緩衝材と箱で保護の意図を示す。\n梱包 包装 出荷 保護 packing packaging product\nwaist-up 上半身 腰上 right 右向き",
   "render": {
     "theme": false,
     "labels": false,

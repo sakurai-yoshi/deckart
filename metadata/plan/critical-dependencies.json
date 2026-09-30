@@ -130,12 +130,12 @@
     "reading": [
       "主色の太い経路が完了日を左右する工程。",
       "上の菱形が各節目の前提条件。",
-      "下向きの矢印が前提と工程の依存関係。"
-    ],
-    "avoid": "実際のクリティカルパスは所要期間と依存関係から確認する。"
+      "下向きの矢印が前提と工程の依存関係。",
+      "強調した経路は完了日を左右する依存関係の作例。"
+    ]
   },
   "kind": "diagram",
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "plan/critical-dependencies",
   "name": "計画管理_完了日を左右する依存関係を示す_主要経路と補助工程",
   "license": "CC0-1.0",
@@ -148,7 +148,9 @@
   },
   "path": "assets/plan/critical-dependencies.svg",
   "metadata_path": "metadata/plan/critical-dependencies.json",
-  "search_text": "plan/critical-dependencies\n計画管理_完了日を左右する依存関係を示す_主要経路と補助工程\n完了日を左右する依存関係\n納期を守るために優先して管理する工程と前提条件を共有する。\n主要経路の節目は、必要な条件が揃わないと進めない。\n主色の太い経路が完了日を左右する工程。\n上の菱形が各節目の前提条件。\n下向きの矢印が前提と工程の依存関係。\nクリティカルパス 依存関係 先行工程 マイルストーン 納期 工程 計画",
+  "preview_path": "previews/plan/critical-dependencies.svg",
+  "preview_has_example_labels": true,
+  "search_text": "plan/critical-dependencies\n計画管理_完了日を左右する依存関係を示す_主要経路と補助工程\n完了日を左右する依存関係\n納期を守るために優先して管理する工程と前提条件を共有する。\n主要経路の節目は、必要な条件が揃わないと進めない。\n主色の太い経路が完了日を左右する工程。\n上の菱形が各節目の前提条件。\n下向きの矢印が前提と工程の依存関係。\n強調した経路は完了日を左右する依存関係の作例。\nクリティカルパス 依存関係 先行工程 マイルストーン 納期 工程 計画",
   "render": {
     "theme": true,
     "labels": true,

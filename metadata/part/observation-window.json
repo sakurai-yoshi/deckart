@@ -112,11 +112,11 @@
     "message": "今回の値がどの期間を対象にしたものか分かる。",
     "reading": [
       "二本の境界線の間だけが今回の集計対象。",
-      "左右の細い線は対象期間の前後。"
-    ],
-    "avoid": "線の長さは実際の日数に比例しない。境界日を含むかどうかは文章で明示する。"
+      "左右の細い線は対象期間の前後。",
+      "二つの境界とその間の帯が対象期間を表す概念的な時間軸。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "part/observation-window",
   "name": "集計する期間を両端で定める_説明パーツ",
   "license": "CC0-1.0",
@@ -129,7 +129,9 @@
   },
   "path": "assets/part/observation-window.svg",
   "metadata_path": "metadata/part/observation-window.json",
-  "search_text": "part/observation-window\n集計する期間を両端で定める_説明パーツ\n集計する期間を両端で定める\n期間が異なる数値の混同を防ぐため、グラフの近くに添える。\n今回の値がどの期間を対象にしたものか分かる。\n二本の境界線の間だけが今回の集計対象。\n左右の細い線は対象期間の前後。\n集計期間 観測 対象期間 開始 終了 window period observation",
+  "preview_path": "previews/part/observation-window.svg",
+  "preview_has_example_labels": true,
+  "search_text": "part/observation-window\n集計する期間を両端で定める_説明パーツ\n集計する期間を両端で定める\n期間が異なる数値の混同を防ぐため、グラフの近くに添える。\n今回の値がどの期間を対象にしたものか分かる。\n二本の境界線の間だけが今回の集計対象。\n左右の細い線は対象期間の前後。\n二つの境界とその間の帯が対象期間を表す概念的な時間軸。\n集計期間 観測 対象期間 開始 終了 window period observation",
   "render": {
     "theme": true,
     "labels": true,

@@ -21,10 +21,9 @@
     "reading": [
       "中央の卓が共有する場を表す。",
       "周囲の人物が会議の参加者を表す。"
-    ],
-    "avoid": "実際の人数や座席配置として読ませない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "icon/meeting",
   "name": "会議運営_同じ場で論点を話す_会議卓",
   "license": "CC0-1.0",
@@ -37,6 +36,8 @@
   },
   "path": "assets/icon/meeting.svg",
   "metadata_path": "metadata/icon/meeting.json",
+  "preview_path": "assets/icon/meeting.svg",
+  "preview_has_example_labels": false,
   "search_text": "icon/meeting\n会議運営_同じ場で論点を話す_会議卓\n会議\n会議や打合せの実施項目を示す。\n参加者が同じ論点を囲んで話し合う。\n中央の卓が共有する場を表す。\n周囲の人物が会議の参加者を表す。\n会議 打合せ 協議 議論 meeting discussion conference",
   "render": {
     "theme": true,

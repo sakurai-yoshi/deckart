@@ -112,12 +112,12 @@
     "reading": [
       "三つの円は事業に参加する主体。",
       "各辺の二本の矢印は行きと戻りの価値交換。",
-      "辺のそばの言葉は交換する価値の例。"
-    ],
-    "avoid": "金額や流量の大小を矢印の太さで比較しない。"
+      "辺のそばの言葉は交換する価値の例。",
+      "矢印の太さは一定で、価値を交換する方向を示す。"
+    ]
   },
   "kind": "diagram",
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "relationship/reciprocal-ecosystem",
   "name": "事業連携_相互に価値を交換する_三者のエコシステム",
   "license": "CC0-1.0",
@@ -130,7 +130,9 @@
   },
   "path": "assets/relationship/reciprocal-ecosystem.svg",
   "metadata_path": "metadata/relationship/reciprocal-ecosystem.json",
-  "search_text": "relationship/reciprocal-ecosystem\n事業連携_相互に価値を交換する_三者のエコシステム\n三者の間で価値が往復する\n顧客、事業者、協力者が参加する事業モデルを説明する。\n三者の各関係で価値が双方向に交換される。\n三つの円は事業に参加する主体。\n各辺の二本の矢印は行きと戻りの価値交換。\n辺のそばの言葉は交換する価値の例。\nエコシステム 事業連携 パートナー 共創 相互利益 価値交換 プラットフォーム 三者関係",
+  "preview_path": "previews/relationship/reciprocal-ecosystem.svg",
+  "preview_has_example_labels": true,
+  "search_text": "relationship/reciprocal-ecosystem\n事業連携_相互に価値を交換する_三者のエコシステム\n三者の間で価値が往復する\n顧客、事業者、協力者が参加する事業モデルを説明する。\n三者の各関係で価値が双方向に交換される。\n三つの円は事業に参加する主体。\n各辺の二本の矢印は行きと戻りの価値交換。\n辺のそばの言葉は交換する価値の例。\n矢印の太さは一定で、価値を交換する方向を示す。\nエコシステム 事業連携 パートナー 共創 相互利益 価値交換 プラットフォーム 三者関係",
   "render": {
     "theme": true,
     "labels": true,

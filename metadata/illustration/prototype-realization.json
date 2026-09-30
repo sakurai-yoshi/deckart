@@ -20,19 +20,14 @@
     "reading": [
       "図面上の形と試作品の形を一致させる。",
       "紙の見取図と立体物を並べて具体化を示す。"
-    ],
-    "avoid": "実製品の図面や加工指示、寸法保証の用途には使用しない。"
+    ]
   },
   "labels": [],
   "preview_path": "previews/illustration/prototype-realization.png",
-  "placement": {
+  "composition": {
     "framing": "object",
     "facing": "front",
-    "people_count": 0,
-    "recommended_width_cm": [
-      4,
-      7
-    ]
+    "people_count": 0
   },
   "generation": {
     "method": "image-generation",
@@ -46,13 +41,14 @@
     "width": 1254,
     "height": 1254
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "illustration/prototype-realization",
   "name": "構想を試作品にする_メーカー業務の構成",
   "license": "CC0-1.0",
   "path": "media/illustration/prototype-realization.png",
   "metadata_path": "metadata/illustration/prototype-realization.json",
-  "search_text": "illustration/prototype-realization\n構想を試作品にする_メーカー業務の構成\n構想を試作品にする\n設計から試作、構想の具体化、製品開発の説明。\n考えた形を実物にし、確かめられる状態にする。\n図面上の形と試作品の形を一致させる。\n紙の見取図と立体物を並べて具体化を示す。\n試作 構想 設計 実物化 開発 prototype realization design\nobject 物 道具 front 正面 0  [4, 7] ",
+  "preview_has_example_labels": false,
+  "search_text": "illustration/prototype-realization\n構想を試作品にする_メーカー業務の構成\n構想を試作品にする\n設計から試作、構想の具体化、製品開発の説明。\n考えた形を実物にし、確かめられる状態にする。\n図面上の形と試作品の形を一致させる。\n紙の見取図と立体物を並べて具体化を示す。\n試作 構想 設計 実物化 開発 prototype realization design\nobject 物 道具 front 正面",
   "render": {
     "theme": false,
     "labels": false,

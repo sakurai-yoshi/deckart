@@ -22,10 +22,9 @@
     "reading": [
       "三角形が警告や注意を表す。",
       "中央の感嘆符が見落とせない項目を示す。"
-    ],
-    "avoid": "法令で定める安全標識や危険等級の代用にはしない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "icon/risk",
   "name": "リスク管理_注意すべき可能性を示す_警告三角形",
   "license": "CC0-1.0",
@@ -38,6 +37,8 @@
   },
   "path": "assets/icon/risk.svg",
   "metadata_path": "metadata/icon/risk.json",
+  "preview_path": "assets/icon/risk.svg",
+  "preview_has_example_labels": false,
   "search_text": "icon/risk\nリスク管理_注意すべき可能性を示す_警告三角形\nリスク・注意\n計画のリスクや留意点を示す。\n注意して検討する必要がある。\n三角形が警告や注意を表す。\n中央の感嘆符が見落とせない項目を示す。\nリスク 注意 危険 留意 警告 risk warning caution",
   "render": {
     "theme": true,

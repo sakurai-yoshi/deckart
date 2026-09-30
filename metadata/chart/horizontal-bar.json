@@ -145,10 +145,9 @@
       "すべての棒は同じゼロ位置から始まる。",
       "棒の終点に実際の作例値を示す。",
       "横軸は0件から100件までの共通目盛り。"
-    ],
-    "avoid": "数値は作例。異なる単位や母数の項目を一つの比較に混ぜない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "chart/horizontal-bar",
   "name": "項目比較_件数の大小をそろえて比べる_横棒グラフ作例",
   "license": "CC0-1.0",
@@ -161,6 +160,8 @@
   },
   "path": "assets/chart/horizontal-bar.svg",
   "metadata_path": "metadata/chart/horizontal-bar.json",
+  "preview_path": "previews/chart/horizontal-bar.svg",
+  "preview_has_example_labels": true,
   "search_text": "chart/horizontal-bar\n項目比較_件数の大小をそろえて比べる_横棒グラフ作例\n項目別の件数を横棒で比べる\n同じ単位で集計した項目別の件数を比較する。\n棒が長い項目ほど件数が多い。\nすべての棒は同じゼロ位置から始まる。\n棒の終点に実際の作例値を示す。\n横軸は0件から100件までの共通目盛り。\n横棒 棒グラフ 比較 ランキング 件数 カテゴリ horizontal bar",
   "render": {
     "theme": true,

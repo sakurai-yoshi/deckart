@@ -129,15 +129,15 @@
     "reading": [
       "左は変更の起点。",
       "三つの枝が異なる影響対象を表す。",
-      "右の共通ゲートに必要な確認を集めて適用へ進む。"
-    ],
-    "avoid": "三つの枝は例。実際の変更では調達、在庫、顧客等の必要な対象も確認する。"
+      "右の共通ゲートに必要な確認を集めて適用へ進む。",
+      "三つの枝は変更による影響先の作例。"
+    ]
   },
   "layout": {
     "relation": "cross-domain-change-review",
     "reading_direction": "left-to-right"
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "manufacturing/engineering-change-impact",
   "name": "変更の影響を横断して確認する_製造業務の関係図",
   "license": "CC0-1.0",
@@ -150,7 +150,9 @@
   },
   "path": "assets/manufacturing/engineering-change-impact.svg",
   "metadata_path": "metadata/manufacturing/engineering-change-impact.json",
-  "search_text": "manufacturing/engineering-change-impact\n変更の影響を横断して確認する_製造業務の関係図\n変更の影響を横断して確認する\n設計や仕様の変更が製品・工程・文書へ与える影響を確認する。\n一箇所の変更でも関連する対象を確認し、必要な条件がそろってから適用する。\n左は変更の起点。\n三つの枝が異なる影響対象を表す。\n右の共通ゲートに必要な確認を集めて適用へ進む。\n設計変更 変更管理 影響範囲 図面 工程 engineering change impact review",
+  "preview_path": "previews/manufacturing/engineering-change-impact.svg",
+  "preview_has_example_labels": true,
+  "search_text": "manufacturing/engineering-change-impact\n変更の影響を横断して確認する_製造業務の関係図\n変更の影響を横断して確認する\n設計や仕様の変更が製品・工程・文書へ与える影響を確認する。\n一箇所の変更でも関連する対象を確認し、必要な条件がそろってから適用する。\n左は変更の起点。\n三つの枝が異なる影響対象を表す。\n右の共通ゲートに必要な確認を集めて適用へ進む。\n三つの枝は変更による影響先の作例。\n設計変更 変更管理 影響範囲 図面 工程 engineering change impact review",
   "render": {
     "theme": true,
     "labels": true,

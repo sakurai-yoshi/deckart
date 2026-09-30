@@ -51,12 +51,11 @@
     "use_case": "複数の手順へ順番を付けて説明する場面。",
     "message": "この説明が手順の何番目かが分かる。",
     "reading": [
-      "丸の中に順序を示す番号を置く。",
-      "接続の先にその手順の名前を置く。"
-    ],
-    "avoid": "件数や達成率を示す数値の強調には使わない。"
+      "丸の中は順序を示す番号の領域。",
+      "接続の先は、対応する手順名の領域。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "part/sequence-marker",
   "name": "番号と手順名をつなぐ_説明パーツ",
   "license": "CC0-1.0",
@@ -69,7 +68,9 @@
   },
   "path": "assets/part/sequence-marker.svg",
   "metadata_path": "metadata/part/sequence-marker.json",
-  "search_text": "part/sequence-marker\n番号と手順名をつなぐ_説明パーツ\n番号と手順名をつなぐ\n複数の手順へ順番を付けて説明する場面。\nこの説明が手順の何番目かが分かる。\n丸の中に順序を示す番号を置く。\n接続の先にその手順の名前を置く。\n番号 順序 手順 工程 ステップ sequence step number",
+  "preview_path": "previews/part/sequence-marker.svg",
+  "preview_has_example_labels": true,
+  "search_text": "part/sequence-marker\n番号と手順名をつなぐ_説明パーツ\n番号と手順名をつなぐ\n複数の手順へ順番を付けて説明する場面。\nこの説明が手順の何番目かが分かる。\n丸の中は順序を示す番号の領域。\n接続の先は、対応する手順名の領域。\n番号 順序 手順 工程 ステップ sequence step number",
   "render": {
     "theme": true,
     "labels": true,

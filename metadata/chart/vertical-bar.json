@@ -145,10 +145,9 @@
       "各棒の底は共通の0件。",
       "縦軸は25件間隔、上端は100件。",
       "棒の上に作例値を直接表示する。"
-    ],
-    "avoid": "数値は作例。棒の底を切り詰めず、項目間で同じ単位を使う。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "chart/vertical-bar",
   "name": "項目比較_値の大きさを高さで比べる_縦棒グラフ作例",
   "license": "CC0-1.0",
@@ -161,6 +160,8 @@
   },
   "path": "assets/chart/vertical-bar.svg",
   "metadata_path": "metadata/chart/vertical-bar.json",
+  "preview_path": "previews/chart/vertical-bar.svg",
+  "preview_has_example_labels": true,
   "search_text": "chart/vertical-bar\n項目比較_値の大きさを高さで比べる_縦棒グラフ作例\n同じ基準で値の高さを比べる\n順序を固定した項目について同じ単位の値を比較する。\n棒が高い項目ほど値が大きい。\n各棒の底は共通の0件。\n縦軸は25件間隔、上端は100件。\n棒の上に作例値を直接表示する。\n縦棒 棒グラフ 件数 比較 カテゴリ column vertical bar",
   "render": {
     "theme": true,

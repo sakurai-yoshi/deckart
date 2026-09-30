@@ -23,10 +23,9 @@
     "reading": [
       "正面の柱と屋根が公的な制度を表す。",
       "中央の百分率記号が税率と税額の計算を表す。"
-    ],
-    "avoid": "特定の税率や行政機関の公式印としては使わない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "icon/tax",
   "name": "税務手続_公的な負担を計算する_行政と税率",
   "license": "CC0-1.0",
@@ -39,6 +38,8 @@
   },
   "path": "assets/icon/tax.svg",
   "metadata_path": "metadata/icon/tax.json",
+  "preview_path": "assets/icon/tax.svg",
+  "preview_has_example_labels": false,
   "search_text": "icon/tax\n税務手続_公的な負担を計算する_行政と税率\n税務\n税務処理や申告・納付の項目を示す。\n公的な税の負担を扱う。\n正面の柱と屋根が公的な制度を表す。\n中央の百分率記号が税率と税額の計算を表す。\n税 税務 税金 申告 納税 消費税 tax taxation filing",
   "render": {
     "theme": true,

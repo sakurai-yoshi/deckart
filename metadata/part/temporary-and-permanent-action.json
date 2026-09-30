@@ -112,11 +112,11 @@
     "message": "影響を止めることと、再発を防ぐことは別の対応になる。",
     "reading": [
       "左の問題から上下の対応へ分かれる。",
-      "上は当面の影響、下は発生原因へ働きかける。"
-    ],
-    "avoid": "上下の対応順や所要時間は図の距離で示さない。"
+      "上は当面の影響、下は発生原因へ働きかける。",
+      "上下の枝は対応の種類を区別する。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "part/temporary-and-permanent-action",
   "name": "応急措置と恒久対策を分ける_説明パーツ",
   "license": "CC0-1.0",
@@ -129,7 +129,9 @@
   },
   "path": "assets/part/temporary-and-permanent-action.svg",
   "metadata_path": "metadata/part/temporary-and-permanent-action.json",
-  "search_text": "part/temporary-and-permanent-action\n応急措置と恒久対策を分ける_説明パーツ\n応急措置と恒久対策を分ける\n不具合報告で暫定対応だけを完了としないために使う。\n影響を止めることと、再発を防ぐことは別の対応になる。\n左の問題から上下の対応へ分かれる。\n上は当面の影響、下は発生原因へ働きかける。\n応急措置 恒久対策 再発防止 原因 対策 containment corrective action",
+  "preview_path": "previews/part/temporary-and-permanent-action.svg",
+  "preview_has_example_labels": true,
+  "search_text": "part/temporary-and-permanent-action\n応急措置と恒久対策を分ける_説明パーツ\n応急措置と恒久対策を分ける\n不具合報告で暫定対応だけを完了としないために使う。\n影響を止めることと、再発を防ぐことは別の対応になる。\n左の問題から上下の対応へ分かれる。\n上は当面の影響、下は発生原因へ働きかける。\n上下の枝は対応の種類を区別する。\n応急措置 恒久対策 再発防止 原因 対策 containment corrective action",
   "render": {
     "theme": true,
     "labels": true,

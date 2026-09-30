@@ -22,10 +22,9 @@
     "reading": [
       "本文のある紙が合意条件を表す。",
       "署名とペンが文書を取り交わす行為を表す。"
-    ],
-    "avoid": "法的な有効性や締結完了をこの記号だけで保証しない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "icon/contract",
   "name": "契約手続_合意内容に署名する_契約書とペン",
   "license": "CC0-1.0",
@@ -38,6 +37,8 @@
   },
   "path": "assets/icon/contract.svg",
   "metadata_path": "metadata/icon/contract.json",
+  "preview_path": "assets/icon/contract.svg",
+  "preview_has_example_labels": false,
   "search_text": "icon/contract\n契約手続_合意内容に署名する_契約書とペン\n契約\n契約確認や署名の手続きを示す。\n合意した内容を文書に残す。\n本文のある紙が合意条件を表す。\n署名とペンが文書を取り交わす行為を表す。\n契約 署名 合意 契約書 締結 contract signature agreement",
   "render": {
     "theme": true,

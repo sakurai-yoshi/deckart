@@ -19,19 +19,14 @@
     "reading": [
       "異なる形の材料を別々の容器へ分ける。",
       "再利用に備えて材料を丁寧に扱う。"
-    ],
-    "avoid": "法令上の廃棄区分やリサイクル達成率を示す用途には使用しない。"
+    ]
   },
   "labels": [],
   "preview_path": "previews/illustration/responsible-resource-use.png",
-  "placement": {
+  "composition": {
     "framing": "waist-up",
     "facing": "right",
-    "people_count": 1,
-    "recommended_width_cm": [
-      4.5,
-      9
-    ]
+    "people_count": 1
   },
   "generation": {
     "method": "image-generation",
@@ -45,13 +40,14 @@
     "width": 1254,
     "height": 1254
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "illustration/responsible-resource-use",
   "name": "資源を分けて再利用に備える_メーカー業務の動作",
   "license": "CC0-1.0",
   "path": "media/illustration/responsible-resource-use.png",
   "metadata_path": "metadata/illustration/responsible-resource-use.json",
-  "search_text": "illustration/responsible-resource-use\n資源を分けて再利用に備える_メーカー業務の動作\n資源を分けて再利用に備える\n資源有効活用、分別、製造現場の環境活動の説明。\n資源を分けて扱い、再利用しやすい状態に整える。\n異なる形の材料を別々の容器へ分ける。\n再利用に備えて材料を丁寧に扱う。\n資源 分別 再利用 環境 resource reuse sustainability\nwaist-up 上半身 腰上 right 右向き 1  [4.5, 9] ",
+  "preview_has_example_labels": false,
+  "search_text": "illustration/responsible-resource-use\n資源を分けて再利用に備える_メーカー業務の動作\n資源を分けて再利用に備える\n資源有効活用、分別、製造現場の環境活動の説明。\n資源を分けて扱い、再利用しやすい状態に整える。\n異なる形の材料を別々の容器へ分ける。\n再利用に備えて材料を丁寧に扱う。\n資源 分別 再利用 環境 resource reuse sustainability\nwaist-up 上半身 腰上 right 右向き",
   "render": {
     "theme": false,
     "labels": false,

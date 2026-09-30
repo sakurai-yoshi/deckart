@@ -1,73 +1,38 @@
 {
-  "title": "精密な金属の流れで実行計画を支える背景",
-  "description": "下部の連続した精密金属面を見どころに、上部へ実行計画を横に展開する。",
+  "title": "精密な金属面のうねり",
+  "description": "小さな開口が規則的に並ぶ金属面が下端で波打ち、下に青い面が見える。",
   "kind": "background",
   "category": "11-背景とフレーム",
   "width": 1672,
   "height": 941,
   "keywords": [
-    "ロードマップ",
-    "実行計画",
-    "日程",
-    "進め方",
-    "展開計画",
-    "スケジュール",
-    "roadmap",
-    "implementation",
-    "schedule"
+    "背景",
+    "白",
+    "青",
+    "余白",
+    "質感",
+    "background",
+    "金属",
+    "開口",
+    "曲面",
+    "規則的",
+    "下装飾",
+    "上余白",
+    "本文",
+    "計画",
+    "metal",
+    "perforated",
+    "plan"
   ],
   "guidance": {
-    "use_case": "改善活動や導入プロジェクトの段階・予定・担当を横長に示す本文。",
-    "message": "時間の流れと実行内容を一つの視野で示す。",
+    "use_case": "計画、技術、工程、報告など。",
+    "message": "精密な繰り返しと滑らかな曲面で、整然とした動きを添える。",
     "reading": [
-      "上部に計画の題名、中央の白い領域に実際の日程と担当を配置する。",
-      "下部の金属面は装飾として残し、工程の矢印や進捗には使わない。"
-    ],
-    "avoid": "金属の穴や起伏の数を工程数や数値として説明しない。"
+      "金属の開口と陰影が下端に沿って横へ続く。",
+      "上部から中央には広い白い面がある。"
+    ]
   },
   "labels": [],
-  "canvas": {
-    "width": 1600,
-    "height": 900
-  },
-  "content_areas": [
-    {
-      "id": "title",
-      "role": "計画の見出し",
-      "purpose": "計画の見出しを配置する白い領域。",
-      "content_type": "text",
-      "x": 100,
-      "y": 70,
-      "width": 1400,
-      "height": 105,
-      "text_color": "#172B4D",
-      "text_align": "left"
-    },
-    {
-      "id": "plan",
-      "role": "段階と日程",
-      "purpose": "段階と日程を配置する白い領域。",
-      "content_type": "chart",
-      "x": 100,
-      "y": 225,
-      "width": 1400,
-      "height": 270,
-      "text_color": "#172B4D",
-      "text_align": "left"
-    },
-    {
-      "id": "note",
-      "role": "担当と前提",
-      "purpose": "担当と前提を配置する白い領域。",
-      "content_type": "text",
-      "x": 100,
-      "y": 505,
-      "width": 1200,
-      "height": 40,
-      "text_color": "#172B4D",
-      "text_align": "left"
-    }
-  ],
   "preview_path": "previews/background/roadmap-machined-surface.png",
   "generation": {
     "method": "image-generation",
@@ -76,13 +41,18 @@
   "format": "png",
   "mime_type": "image/png",
   "transparent": false,
-  "schema_version": 2,
+  "canvas": {
+    "width": 1672,
+    "height": 941
+  },
+  "schema_version": 3,
   "id": "background/roadmap-machined-surface",
-  "name": "精密な金属の流れで実行計画を支える背景_背景",
+  "name": "精密な金属面のうねり_背景",
   "license": "CC0-1.0",
   "path": "media/background/roadmap-machined-surface.png",
   "metadata_path": "metadata/background/roadmap-machined-surface.json",
-  "search_text": "background/roadmap-machined-surface\n精密な金属の流れで実行計画を支える背景_背景\n精密な金属の流れで実行計画を支える背景\n改善活動や導入プロジェクトの段階・予定・担当を横長に示す本文。\n時間の流れと実行内容を一つの視野で示す。\n上部に計画の題名、中央の白い領域に実際の日程と担当を配置する。\n下部の金属面は装飾として残し、工程の矢印や進捗には使わない。\nロードマップ 実行計画 日程 進め方 展開計画 スケジュール roadmap implementation schedule",
+  "preview_has_example_labels": false,
+  "search_text": "background/roadmap-machined-surface\n精密な金属面のうねり_背景\n精密な金属面のうねり\n計画、技術、工程、報告など。\n精密な繰り返しと滑らかな曲面で、整然とした動きを添える。\n金属の開口と陰影が下端に沿って横へ続く。\n上部から中央には広い白い面がある。\n背景 白 青 余白 質感 background 金属 開口 曲面 規則的 下装飾 上余白 本文 計画 metal perforated plan",
   "render": {
     "theme": false,
     "labels": false,

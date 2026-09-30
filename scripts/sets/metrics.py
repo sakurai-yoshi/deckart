@@ -105,13 +105,13 @@ def chart(name,title,description,keywords,body,labels,data,guidance,size=(1200,7
         elif data.get('total'):
             lines.append(f'各部分の合計は{data["total"]:g}{data["unit"]}。')
         a['guidance']={k:v.replace('件数','値') if isinstance(v,str) else v for k,v in guidance.items()}
-        a['guidance'].update(reading=lines[:4],avoid=guidance['avoid'].replace('数値は作例。',''))
+        a['guidance'].update(reading=lines[:4])
         if data['chart_type']=='semicircle_gauge':
             a['guidance']['message']='設定した上限に対する現在値の到達割合を示す。'
         if data['chart_type']=='slope':
             a['guidance'].update(use_case='複数の区分について二つの時点の値を比較する。',message='増減の方向と二時点の順位の違いを確認できる。')
         if data['chart_type']=='grouped_bar':
-            a['guidance'].update(use_case='複数項目について二つの系列を同じ尺度で比較する。',message='項目間と系列間の差を同じ目盛りで読める。',avoid='各組で系列の左右位置や縦軸の尺度を入れ替えない。')
+            a['guidance'].update(use_case='複数項目について二つの系列を同じ尺度で比較する。',message='項目間と系列間の差を同じ目盛りで読める。')
     for label in a['labels']:
         columns=max(4,int(label['width']/27))
         if len(label['text'])>columns and '\n' not in label['text']:
@@ -134,7 +134,7 @@ def progress_ring(data=None):
     b+=number(f'{value:g}%',300,221,72,max_width=250)
     b+=rect(112,503,21,21,BLUE,3)+rect(334,503,21,21,PALE,3, MID,1.5)
     b+=number(f'{value:g}%',193,546,25)+number(f'{remainder:g}%',416,546,25)
-    return chart('進捗共有_全体に対する完了率_75パーセント作例','全体に対する完了率','主色の弧が75%、残りの淡い弧が25%を表す進捗リングの作例。','進捗 達成率 完了率 リング パーセント 割合 円形 progress ring',b,[slot(181,322,238,57,data['categories'][0]),slot(146,487,130,54,data['categories'][0]),slot(369,487,130,54,data['categories'][1])],dict(is_sample=data['is_sample'],unit=data['unit'],categories=data['categories'],series=data['series'],chart_type='progress_ring',total=total,percentage=value,start_angle_degrees=-90,outer_radius=180,inner_radius=138),dict(use_case='目標に対する完了率を一つの値で示す。',message='全体のうち完了した範囲と残りを同時に示す。',reading=['主色の弧は完了75%、淡い弧は残り25%。','中央の数値は主色の弧の割合と一致する。'],avoid='数値は作例。割合を変更する場合は弧と数値を同時に更新する。'),size=(600,620))
+    return chart('進捗共有_全体に対する完了率_75パーセント作例','全体に対する完了率','主色の弧が75%、残りの淡い弧が25%を表す進捗リングの作例。','進捗 達成率 完了率 リング パーセント 割合 円形 progress ring',b,[slot(181,322,238,57,data['categories'][0]),slot(146,487,130,54,data['categories'][0]),slot(369,487,130,54,data['categories'][1])],dict(is_sample=data['is_sample'],unit=data['unit'],categories=data['categories'],series=data['series'],chart_type='progress_ring',total=total,percentage=value,start_angle_degrees=-90,outer_radius=180,inner_radius=138),dict(use_case='目標に対する完了率を一つの値で示す。',message='全体のうち完了した範囲と残りを同時に示す。',reading=['主色の弧は完了75%、淡い弧は残り25%。','中央の数値は主色の弧の割合と一致する。']),size=(600,620))
 
 
 def horizontal_bars(data=None):
@@ -152,7 +152,7 @@ def horizontal_bars(data=None):
         b+=rect(x0,y,plot_width*value/maximum,bar_height,BLUE)
         b+=number(value,x0+plot_width*value/maximum+26,y+8,30,INK,'left',max_width=117)
         labels.append(slot(67,y-13,211,72,label))
-    return chart('項目比較_件数の大小をそろえて比べる_横棒グラフ作例','項目別の件数を横棒で比べる','ゼロを共通の始点にして80・65・45・30件を比較する横棒グラフの作例。','横棒 棒グラフ 比較 ランキング 件数 カテゴリ horizontal bar',b,labels,dict(is_sample=data['is_sample'],unit=data['unit'],categories=categories,series=data['series'],chart_type='horizontal_bar',baseline=0,domain=data['domain'],ticks=ticks,plot=dict(x=x0,y=149,width=plot_width,height=409)),dict(use_case='同じ単位で集計した項目別の件数を比較する。',message='棒が長い項目ほど件数が多い。',reading=['すべての棒は同じゼロ位置から始まる。','棒の終点に実際の作例値を示す。','横軸は0件から100件までの共通目盛り。'],avoid='数値は作例。異なる単位や母数の項目を一つの比較に混ぜない。'))
+    return chart('項目比較_件数の大小をそろえて比べる_横棒グラフ作例','項目別の件数を横棒で比べる','ゼロを共通の始点にして80・65・45・30件を比較する横棒グラフの作例。','横棒 棒グラフ 比較 ランキング 件数 カテゴリ horizontal bar',b,labels,dict(is_sample=data['is_sample'],unit=data['unit'],categories=categories,series=data['series'],chart_type='horizontal_bar',baseline=0,domain=data['domain'],ticks=ticks,plot=dict(x=x0,y=149,width=plot_width,height=409)),dict(use_case='同じ単位で集計した項目別の件数を比較する。',message='棒が長い項目ほど件数が多い。',reading=['すべての棒は同じゼロ位置から始まる。','棒の終点に実際の作例値を示す。','横軸は0件から100件までの共通目盛り。']))
 
 
 def line_chart(data=None):
@@ -172,7 +172,7 @@ def line_chart(data=None):
         value_y=y-54 if i==0 else y-46
         b+=circle(x,y,8,WHITE,BLUE,4)+number(value,value_x,value_y,29,halo=True)
         labels.append(slot(x-85,588,170,64,label))
-    return chart('推移確認_期間ごとの増減を見る_折れ線グラフ作例','期間ごとの増減を線で追う','等間隔の五つの期間を直線で結び、20・35・30・55・75件の推移を示す作例。','折れ線 推移 時系列 変化 件数 トレンド line time series',b,labels,dict(is_sample=data['is_sample'],unit=data['unit'],categories=categories,series=data['series'],chart_type='line',baseline=0,domain=data['domain'],ticks=ticks,interpolation='linear',plot=dict(x=x0,y=y0-height,width=width,height=height)),dict(use_case='同じ間隔で集計した期間別の件数の変化を示す。',message='各期間の増減と全体の推移を確認できる。',reading=['点は各期間の作例値、線は隣り合う点の接続。','第3期では前期より減り、その後は増加する。','縦軸は0件から100件までの共通目盛り。'],avoid='数値は作例。点の間の線を実測値とみなさず、不規則な期間間隔にはそのまま使わない。'))
+    return chart('推移確認_期間ごとの増減を見る_折れ線グラフ作例','期間ごとの増減を線で追う','等間隔の五つの期間を直線で結び、20・35・30・55・75件の推移を示す作例。','折れ線 推移 時系列 変化 件数 トレンド line time series',b,labels,dict(is_sample=data['is_sample'],unit=data['unit'],categories=categories,series=data['series'],chart_type='line',baseline=0,domain=data['domain'],ticks=ticks,interpolation='linear',plot=dict(x=x0,y=y0-height,width=width,height=height)),dict(use_case='同じ間隔で集計した期間別の件数の変化を示す。',message='各期間の増減と全体の推移を確認できる。',reading=['点は各期間の作例値、線は隣り合う点の接続。','第3期では前期より減り、その後は増加する。','縦軸は0件から100件までの共通目盛り。']))
 
 
 def semicircle_gauge(data=None):
@@ -189,7 +189,7 @@ def semicircle_gauge(data=None):
     b+=poly(f'{tip[0]},{tip[1]} {left[0]},{left[1]} {right[0]},{right[1]}',INK)+circle(cx,cy,13,INK)
     b+=number(0,79,407,24,GRAY)+number(maximum/2,300,117,24,GRAY,max_width=120)+number(maximum,521,407,24,GRAY,max_width=115)
     b+=number(f'{value:g}%',300,450,63,max_width=250)
-    return chart('指標確認_上限に対する到達度_65パーセントゲージ作例','上限に対する到達度を示す','0から100の半円を等間隔の目盛りに分け、65%を示すゲージの作例。','ゲージ 到達度 達成率 指標 メーター 半円 gauge',b,[slot(83,40,434,63,'上限に対する到達度' if data['is_sample'] else data['categories'][0]),slot(75,533,450,54,'表示値は作例' if data['is_sample'] else f'{raw:g} / {maximum:g} {data["unit"]}')],dict(is_sample=data['is_sample'],unit=data['unit'],categories=data['categories'],series=data['series'],chart_type='semicircle_gauge',baseline=0,domain=data['domain'],ticks=[maximum*i/4 for i in range(5)],percentage=value,start_angle_degrees=180,sweep_angle_degrees=180,needle_angle_degrees=angle),dict(use_case='上限が明確な指標について現在の到達度を示す。',message='0から100の範囲で現在値がどこにあるかを示す。',reading=['左端は0、上端は50、右端は100。','主色の弧と針の位置はどちらも65%に対応する。'],avoid='数値は作例。主色は良否を表さず、上限を超える指標には使わない。'),size=(600,620))
+    return chart('指標確認_上限に対する到達度_65パーセントゲージ作例','上限に対する到達度を示す','0から100の半円を等間隔の目盛りに分け、65%を示すゲージの作例。','ゲージ 到達度 達成率 指標 メーター 半円 gauge',b,[slot(83,40,434,63,'上限に対する到達度' if data['is_sample'] else data['categories'][0]),slot(75,533,450,54,'表示値は作例' if data['is_sample'] else f'{raw:g} / {maximum:g} {data["unit"]}')],dict(is_sample=data['is_sample'],unit=data['unit'],categories=data['categories'],series=data['series'],chart_type='semicircle_gauge',baseline=0,domain=data['domain'],ticks=[maximum*i/4 for i in range(5)],percentage=value,start_angle_degrees=180,sweep_angle_degrees=180,needle_angle_degrees=angle),dict(use_case='上限が明確な指標について現在の到達度を示す。',message='0から100の範囲で現在値がどこにあるかを示す。',reading=['左端は0、上端は50、右端は100。','主色の弧と針の位置はどちらも65%に対応する。']),size=(600,620))
 
 
 def pictogram(data=None):
@@ -203,7 +203,7 @@ def pictogram(data=None):
         person+=path('M14 39H34Q48 39 48 53V78H39V127H28V89H20V127H9V78H0V53Q0 39 14 39Z',fill,outline,2)
         b+=group(person,x,y)
     b+=number(f'{selected}/{total}',600,458,45)
-    return chart('人数比較_全体に占める対象の割合_10人中7人作例',f'10人中{selected}人の割合を示す','同じ大きさの人物10体のうち7体を主色で塗り、70%を示すピクトグラムの作例。','ピクトグラム 人数 人物 割合 比率 回答 該当 70パーセント pictogram',b,[slot(309,20,582,62,'全体に占める対象の割合'),slot(324,526,552,68,'10人中7人が該当する作例' if data['is_sample'] else f'{data["categories"][0]}：{selected} / {total}')],dict(is_sample=data['is_sample'],unit=data['unit'],categories=data['categories'],series=data['series'],chart_type='pictogram',total=total,mark_count=total,value_per_mark=1,selected_marks=selected,percentage=selected/total*100),dict(use_case='同じ母集団の中で条件に該当する人数の割合を説明する。',message='全体と該当する人数の関係が一目で分かる。',reading=['人物1体が1人に対応し、全部で10人。','主色の7人が該当、淡い3人がその他。','7人を10人で割った割合が70%。'],avoid='数値は作例。実際の人数と異なる場合は1体が表す人数も含めて更新する。'))
+    return chart('人数比較_全体に占める対象の割合_10人中7人作例',f'10人中{selected}人の割合を示す','同じ大きさの人物10体のうち7体を主色で塗り、70%を示すピクトグラムの作例。','ピクトグラム 人数 人物 割合 比率 回答 該当 70パーセント pictogram',b,[slot(309,20,582,62,'全体に占める対象の割合'),slot(324,526,552,68,'10人中7人が該当する作例' if data['is_sample'] else f'{data["categories"][0]}：{selected} / {total}')],dict(is_sample=data['is_sample'],unit=data['unit'],categories=data['categories'],series=data['series'],chart_type='pictogram',total=total,mark_count=total,value_per_mark=1,selected_marks=selected,percentage=selected/total*100),dict(use_case='同じ母集団の中で条件に該当する人数の割合を説明する。',message='全体と該当する人数の関係が一目で分かる。',reading=['人物1体が1人に対応し、全部で10人。','主色の7人が該当、淡い3人がその他。','7人を10人で割った割合が70%。']))
 
 
 def vertical_bars(data=None):
@@ -220,7 +220,7 @@ def vertical_bars(data=None):
         bar_height=height*value/maximum;bar_top=baseline-bar_height
         b+=rect(x-52,bar_top,104,bar_height,BLUE)+number(value,x,bar_top-44,30)
         labels.append(slot(x-91,593,182,65,label))
-    return chart('項目比較_値の大きさを高さで比べる_縦棒グラフ作例','同じ基準で値の高さを比べる','共通のゼロ位置から30・55・80・65件の大きさを示す縦棒グラフの作例。','縦棒 棒グラフ 件数 比較 カテゴリ column vertical bar',b,labels,dict(is_sample=data['is_sample'],unit=data['unit'],categories=categories,series=data['series'],chart_type='vertical_bar',baseline=0,domain=data['domain'],ticks=ticks,plot=dict(x=205,y=top,width=885,height=height)),dict(use_case='順序を固定した項目について同じ単位の値を比較する。',message='棒が高い項目ほど値が大きい。',reading=['各棒の底は共通の0件。','縦軸は25件間隔、上端は100件。','棒の上に作例値を直接表示する。'],avoid='数値は作例。棒の底を切り詰めず、項目間で同じ単位を使う。'))
+    return chart('項目比較_値の大きさを高さで比べる_縦棒グラフ作例','同じ基準で値の高さを比べる','共通のゼロ位置から30・55・80・65件の大きさを示す縦棒グラフの作例。','縦棒 棒グラフ 件数 比較 カテゴリ column vertical bar',b,labels,dict(is_sample=data['is_sample'],unit=data['unit'],categories=categories,series=data['series'],chart_type='vertical_bar',baseline=0,domain=data['domain'],ticks=ticks,plot=dict(x=205,y=top,width=885,height=height)),dict(use_case='順序を固定した項目について同じ単位の値を比較する。',message='棒が高い項目ほど値が大きい。',reading=['各棒の底は共通の0件。','縦軸は25件間隔、上端は100件。','棒の上に作例値を直接表示する。']))
 
 
 def pie_sector(cx,cy,radius,start,end,fill):
@@ -248,7 +248,7 @@ def pie_chart(data=None):
     for angle in [-90]+[-90+360*sum(values[:i])/total for i in range(1,len(values))]:
         edge=polar(cx,cy,radius,angle);b+=line(cx,cy,*edge,WHITE,1.8)
     labels.append(slot(723,110,389,66,'全体に占める構成比'))
-    return chart('構成比確認_全体を三つの区分に分ける_円グラフ作例','三つの区分で全体を表す','50%・30%・20%の角度を正確に割り当て、合計100%を示す円グラフの作例。','円グラフ 構成比 内訳 全体 部分 割合 pie chart',b,labels,dict(is_sample=data['is_sample'],unit=data['unit'],categories=categories,series=data['series'],chart_type='pie',total=total,percentages=[v/total*100 for v in values],start_angle_degrees=-90,sector_angles_degrees=[360*v/sum(values) for v in values]),dict(use_case='重複しない三つの区分が全体をどう分けるかを説明する。',message='各区分の合計が一つの全体になる。',reading=['区分Aは50%、区分Bは30%、区分Cは20%。','扇形の角度と面積は各割合に比例する。','三つの割合を足すと100%。'],avoid='数値は作例。重複する区分や合計が全体と一致しない値には使わない。'))
+    return chart('構成比確認_全体を三つの区分に分ける_円グラフ作例','三つの区分で全体を表す','50%・30%・20%の角度を正確に割り当て、合計100%を示す円グラフの作例。','円グラフ 構成比 内訳 全体 部分 割合 pie chart',b,labels,dict(is_sample=data['is_sample'],unit=data['unit'],categories=categories,series=data['series'],chart_type='pie',total=total,percentages=[v/total*100 for v in values],start_angle_degrees=-90,sector_angles_degrees=[360*v/sum(values) for v in values]),dict(use_case='重複しない三つの区分が全体をどう分けるかを説明する。',message='各区分の合計が一つの全体になる。',reading=['区分Aは50%、区分Bは30%、区分Cは20%。','扇形の角度と面積は各割合に比例する。','三つの割合を足すと100%。']))
 
 
 def donut_chart(data=None):
@@ -268,7 +268,7 @@ def donut_chart(data=None):
         p=polar(cx,cy,inner,angle);q=polar(cx,cy,outer,angle);b+=line(*p,*q,WHITE,1.8)
     b+=number(total,cx,304,60,max_width=200)
     labels.extend([slot(255,384,210,57,'合計（'+data['unit']+'）'),slot(710,113,419,66,'内訳（'+data['unit']+'）')])
-    return chart('内訳確認_合計と構成比を同時に示す_ドーナツグラフ作例','合計と内訳を同時に示す','合計200件を80・70・50件に分け、外周に40%・35%・25%を示す作例。','ドーナツ 合計 内訳 構成比 割合 件数 donut chart',b,labels,dict(is_sample=data['is_sample'],unit=data['unit'],categories=categories,series=data['series'],chart_type='donut',total=total,percentages=[v/total*100 for v in values],start_angle_degrees=-90,outer_radius=outer,inner_radius=inner),dict(use_case='合計件数と、その内訳の割合を一枚で説明する。',message='全体の規模と各区分の構成を同時に確認できる。',reading=['中央は合計200件。','右の内訳は80件・70件・50件。','外周の40%・35%・25%は各件数を200件で割った割合。'],avoid='数値は作例。件数を変更する場合は合計・割合・弧の角度を同時に更新する。'))
+    return chart('内訳確認_合計と構成比を同時に示す_ドーナツグラフ作例','合計と内訳を同時に示す','合計200件を80・70・50件に分け、外周に40%・35%・25%を示す作例。','ドーナツ 合計 内訳 構成比 割合 件数 donut chart',b,labels,dict(is_sample=data['is_sample'],unit=data['unit'],categories=categories,series=data['series'],chart_type='donut',total=total,percentages=[v/total*100 for v in values],start_angle_degrees=-90,outer_radius=outer,inner_radius=inner),dict(use_case='合計件数と、その内訳の割合を一枚で説明する。',message='全体の規模と各区分の構成を同時に確認できる。',reading=['中央は合計200件。','右の内訳は80件・70件・50件。','外周の40%・35%・25%は各件数を200件で割った割合。']))
 
 
 def grouped_bars(data=None):
@@ -285,7 +285,7 @@ def grouped_bars(data=None):
             bar_height=height*value/maximum;left=x+offset;top=baseline-bar_height
             b+=rect(left,top,68,bar_height,color)+number(value,left+34,top-42,28,max_width=91)
         labels.append(slot(x-126,594,252,63,label))
-    return chart('期間比較_項目ごとの前期と当期を比べる_集合棒グラフ作例','項目ごとに前期と当期を比べる','各項目の前期と当期を同じゼロ基準で並べる、二系列の集合棒グラフの作例。','集合棒 グループ 棒グラフ 前期 当期 比較 カテゴリ grouped clustered bar',b,labels,dict(is_sample=data['is_sample'],unit=data['unit'],categories=categories,series=data['series'],chart_type='grouped_bar',baseline=0,domain=data['domain'],ticks=ticks,plot=dict(x=198,y=150,width=897,height=height)),dict(use_case='複数項目について前期と当期の件数を比較する。',message='項目ごとの変化と項目間の差を同じ目盛りで読める。',reading=['各組の左が前期、右が当期。','棒の底は共通の0件、上端の数値は各作例値。','淡色と主色は期間の違いを示す。'],avoid='数値は作例。各組で左右の期間や縦軸の尺度を入れ替えない。'))
+    return chart('期間比較_項目ごとの前期と当期を比べる_集合棒グラフ作例','項目ごとに前期と当期を比べる','各項目の前期と当期を同じゼロ基準で並べる、二系列の集合棒グラフの作例。','集合棒 グループ 棒グラフ 前期 当期 比較 カテゴリ grouped clustered bar',b,labels,dict(is_sample=data['is_sample'],unit=data['unit'],categories=categories,series=data['series'],chart_type='grouped_bar',baseline=0,domain=data['domain'],ticks=ticks,plot=dict(x=198,y=150,width=897,height=height)),dict(use_case='複数項目について前期と当期の件数を比較する。',message='項目ごとの変化と項目間の差を同じ目盛りで読める。',reading=['各組の左が前期、右が当期。','棒の底は共通の0件、上端の数値は各作例値。','淡色と主色は期間の違いを示す。']))
 
 
 def stacked_percent(data=None):
@@ -308,7 +308,7 @@ def stacked_percent(data=None):
     for i,(label,color) in enumerate(zip(names,colors)):
         x=294+i*286;b+=rect(x,638,22,22,color,3);labels.append(slot(x+43,618,179,63,label,align='left'))
     series=[dict(label=label,values=[row[i] for row in rows]) for i,label in enumerate(names)]
-    return chart('構成比較_同じ全体にそろえて内訳を比べる_100パーセント積上げ作例','全体を100%にそろえて構成を比べる','各行の合計を100%にそろえ、三つの区分の割合を比較する積上げ棒の作例。','積上げ 100パーセント 構成比 内訳 比較 割合 stacked normalized bar',b,labels,dict(is_sample=data['is_sample'],unit='%',categories=categories,series=series,chart_type='stacked_percent_bar',baseline=0,domain=[0,100],ticks=[0,25,50,75,100],totals=[sum(row) for row in rows],plot=dict(x=x0,y=189,width=width,height=370)),dict(use_case='総量の異なる複数の対象について、内訳の割合を比較する。',message='全体の長さをそろえることで構成の違いを読める。',reading=['どの行も左端が0%、右端が100%。','三つの区分は全行で同じ色と並び順。','各区分の長さは表示した割合と一致する。'],avoid='数値は作例。各対象の総量の大小はこの図から比較できない。'))
+    return chart('構成比較_同じ全体にそろえて内訳を比べる_100パーセント積上げ作例','全体を100%にそろえて構成を比べる','各行の合計を100%にそろえ、三つの区分の割合を比較する積上げ棒の作例。','積上げ 100パーセント 構成比 内訳 比較 割合 stacked normalized bar',b,labels,dict(is_sample=data['is_sample'],unit='%',categories=categories,series=series,chart_type='stacked_percent_bar',baseline=0,domain=[0,100],ticks=[0,25,50,75,100],totals=[sum(row) for row in rows],plot=dict(x=x0,y=189,width=width,height=370)),dict(use_case='総量の異なる複数の対象について、内訳の割合を比較する。',message='全体の長さをそろえることで構成の違いを読める。',reading=['どの行も左端が0%、右端が100%。','三つの区分は全行で同じ色と並び順。','各区分の長さは表示した割合と一致する。']))
 
 
 def waterfall(data=None):
@@ -332,7 +332,7 @@ def waterfall(data=None):
         if i<len(centers)-1:
             y=baseline-height*running/maximum;b+=line(x+bar_width/2,y,centers[i+1]-bar_width/2,y,GRAY,2,'5 6')
     assert abs(totals[-1]-(values[0]+sum(values[1:-1])))<=max(1e-9,abs(totals[-1])*1e-9)
-    return chart('増減説明_期初から期末への変化を分解する_ウォーターフォール作例','期初から期末までの増減を分解する','100万円に40万円を加え、25万円を減らし、15万円を加えて130万円になる作例。','ウォーターフォール 滝 増減 差分 要因 分解 ブリッジ 期初 期末 waterfall',b,labels,dict(is_sample=data['is_sample'],unit=data['unit'],categories=categories,series=data['series'],chart_type='waterfall',step_types=types,running_totals=totals,baseline=0,domain=[0,maximum],ticks=[maximum*i/4 for i in range(5)],plot=dict(x=192,y=157,width=898,height=height)),dict(use_case='期初と期末の差を、増加要因と減少要因に分けて説明する。',message='各要因を足し引きすると最終値に一致する。',reading=['左端と右端の棒は期初100万円と期末130万円の合計。','プラスは増加要因、マイナスは減少要因。','破線は各段階の残高を次の棒へつなぐ。','100＋40−25＋15＝130で始点と終点が一致する。'],avoid='数値は作例。増減を変更した場合は積算結果と期末値も更新する。'))
+    return chart('増減説明_期初から期末への変化を分解する_ウォーターフォール作例','期初から期末までの増減を分解する','100万円に40万円を加え、25万円を減らし、15万円を加えて130万円になる作例。','ウォーターフォール 滝 増減 差分 要因 分解 ブリッジ 期初 期末 waterfall',b,labels,dict(is_sample=data['is_sample'],unit=data['unit'],categories=categories,series=data['series'],chart_type='waterfall',step_types=types,running_totals=totals,baseline=0,domain=[0,maximum],ticks=[maximum*i/4 for i in range(5)],plot=dict(x=192,y=157,width=898,height=height)),dict(use_case='期初と期末の差を、増加要因と減少要因に分けて説明する。',message='各要因を足し引きすると最終値に一致する。',reading=['左端と右端の棒は期初100万円と期末130万円の合計。','プラスは増加要因、マイナスは減少要因。','破線は各段階の残高を次の棒へつなぐ。','100＋40−25＋15＝130で始点と終点が一致する。']))
 
 
 def slope_comparison(data=None):
@@ -362,7 +362,7 @@ def slope_comparison(data=None):
         b+=rect(left-167,ly-17,126,34,WHITE)+rect(right+27,ry-17,139,34,WHITE)
         b+=number(a,left-43,ly-13,27,color,'right',max_width=118)+number(c,right+29,ry-13,27,color,'left',max_width=135)
         x=287+i*286;b+=rect(x,646,22,22,color,3);labels.append(slot(x+41,625,176,64,item['label'],align='left'))
-    return chart('前後比較_二つの時点の変化を追う_スロープグラフ作例','二つの時点の変化を追う','三つの区分の前期と当期を同じ百分率の目盛りで結ぶ比較グラフの作例。','スロープ 前後比較 前期 当期 変化 比率 割合 slope comparison',b,labels,dict(is_sample=data['is_sample'],unit=data['unit'],categories=categories,series=series,chart_type='slope',baseline=0,domain=data['domain'],ticks=ticks,interpolation='linear',plot=dict(x=209,y=146,width=881,height=height)),dict(use_case='複数の区分について、前期と当期の比率の変化を比較する。',message='増減の方向と二時点の順位の入れ替わりを確認できる。',reading=['左が前期、右が当期で、両側とも同じ0〜100%の目盛り。','同じ色の二つの点が同じ区分を表す。','線の交差は区分Aと区分Bの順位の入れ替わり。'],avoid='数値は作例。二点の間は実測推移ではなく、両時点の値を結ぶ線。'))
+    return chart('前後比較_二つの時点の変化を追う_スロープグラフ作例','二つの時点の変化を追う','三つの区分の前期と当期を同じ百分率の目盛りで結ぶ比較グラフの作例。','スロープ 前後比較 前期 当期 変化 比率 割合 slope comparison',b,labels,dict(is_sample=data['is_sample'],unit=data['unit'],categories=categories,series=series,chart_type='slope',baseline=0,domain=data['domain'],ticks=ticks,interpolation='linear',plot=dict(x=209,y=146,width=881,height=height)),dict(use_case='複数の区分について、前期と当期の比率の変化を比較する。',message='増減の方向と二時点の順位の入れ替わりを確認できる。',reading=['左が前期、右が当期で、両側とも同じ0〜100%の目盛り。','同じ色の二つの点が同じ区分を表す。','線の交差は区分Aと区分Bの順位の入れ替わり。']))
 
 
 def make_assets():

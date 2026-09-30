@@ -21,10 +21,9 @@
     "reading": [
       "葉が自然と資源を表す。",
       "下の手が保全し支える行為を表す。"
-    ],
-    "avoid": "環境認証の取得や削減実績の証明には使わない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "icon/sustainability",
   "name": "環境配慮_自然資源を守る_手の上の葉",
   "license": "CC0-1.0",
@@ -37,6 +36,8 @@
   },
   "path": "assets/icon/sustainability.svg",
   "metadata_path": "metadata/icon/sustainability.json",
+  "preview_path": "assets/icon/sustainability.svg",
+  "preview_has_example_labels": false,
   "search_text": "icon/sustainability\n環境配慮_自然資源を守る_手の上の葉\n環境への配慮\n環境保全や資源への配慮を事業方針で示す。\n自然資源を支えながら事業を続ける。\n葉が自然と資源を表す。\n下の手が保全し支える行為を表す。\n環境 資源 自然 サステナビリティ sustainability environment ecology",
   "render": {
     "theme": true,

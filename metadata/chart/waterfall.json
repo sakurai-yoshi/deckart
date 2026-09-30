@@ -179,10 +179,9 @@
       "プラスは増加要因、マイナスは減少要因。",
       "破線は各段階の残高を次の棒へつなぐ。",
       "100＋40−25＋15＝130で始点と終点が一致する。"
-    ],
-    "avoid": "数値は作例。増減を変更した場合は積算結果と期末値も更新する。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "chart/waterfall",
   "name": "増減説明_期初から期末への変化を分解する_ウォーターフォール作例",
   "license": "CC0-1.0",
@@ -195,6 +194,8 @@
   },
   "path": "assets/chart/waterfall.svg",
   "metadata_path": "metadata/chart/waterfall.json",
+  "preview_path": "previews/chart/waterfall.svg",
+  "preview_has_example_labels": true,
   "search_text": "chart/waterfall\n増減説明_期初から期末への変化を分解する_ウォーターフォール作例\n期初から期末までの増減を分解する\n期初と期末の差を、増加要因と減少要因に分けて説明する。\n各要因を足し引きすると最終値に一致する。\n左端と右端の棒は期初100万円と期末130万円の合計。\nプラスは増加要因、マイナスは減少要因。\n破線は各段階の残高を次の棒へつなぐ。\n100＋40−25＋15＝130で始点と終点が一致する。\nウォーターフォール 滝 増減 差分 要因 分解 ブリッジ 期初 期末 waterfall",
   "render": {
     "theme": true,

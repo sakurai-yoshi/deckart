@@ -19,19 +19,14 @@
     "reading": [
       "手順書の図と実物が同じ形を持つ。",
       "図面と実物を並べて対応関係を示す。"
-    ],
-    "avoid": "具体的な製品の操作方法を示す手順書の代用には使用しない。"
+    ]
   },
   "labels": [],
   "preview_path": "previews/illustration/instructions-and-product.png",
-  "placement": {
+  "composition": {
     "framing": "object",
     "facing": "front",
-    "people_count": 0,
-    "recommended_width_cm": [
-      4,
-      7
-    ]
+    "people_count": 0
   },
   "generation": {
     "method": "image-generation",
@@ -45,13 +40,14 @@
     "width": 1254,
     "height": 1254
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "illustration/instructions-and-product",
   "name": "手順書と実物を対応させる_メーカー業務の構成",
   "license": "CC0-1.0",
   "path": "media/illustration/instructions-and-product.png",
   "metadata_path": "metadata/illustration/instructions-and-product.json",
-  "search_text": "illustration/instructions-and-product\n手順書と実物を対応させる_メーカー業務の構成\n手順書と実物を対応させる\n手順書の整備、標準作業、製品の使い方の説明。\n記載内容と実物を照らし合わせ、理解して扱う。\n手順書の図と実物が同じ形を持つ。\n図面と実物を並べて対応関係を示す。\n手順書 説明書 実物 作業標準 マニュアル instructions product manual\nobject 物 道具 front 正面 0  [4, 7] ",
+  "preview_has_example_labels": false,
+  "search_text": "illustration/instructions-and-product\n手順書と実物を対応させる_メーカー業務の構成\n手順書と実物を対応させる\n手順書の整備、標準作業、製品の使い方の説明。\n記載内容と実物を照らし合わせ、理解して扱う。\n手順書の図と実物が同じ形を持つ。\n図面と実物を並べて対応関係を示す。\n手順書 説明書 実物 作業標準 マニュアル instructions product manual\nobject 物 道具 front 正面",
   "render": {
     "theme": false,
     "labels": false,

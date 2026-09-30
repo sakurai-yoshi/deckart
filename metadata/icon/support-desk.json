@@ -22,11 +22,10 @@
     "reading": [
       "ヘッドセットを着けた担当者が相談窓口を表す。",
       "回答の吹き出しとチェックが応答・解決を表す。"
-    ],
-    "avoid": "応答時間や解決率の実績を示す用途には使わない。"
+    ]
   },
   "kind": "icon",
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "icon/support-desk",
   "name": "顧客対応_相談サポート_応答する窓口",
   "license": "CC0-1.0",
@@ -39,6 +38,8 @@
   },
   "path": "assets/icon/support-desk.svg",
   "metadata_path": "metadata/icon/support-desk.json",
+  "preview_path": "assets/icon/support-desk.svg",
+  "preview_has_example_labels": false,
   "search_text": "icon/support-desk\n顧客対応_相談サポート_応答する窓口\n相談に応える窓口\n顧客窓口や社内ヘルプデスクを紹介する場面。\n問い合わせを受け、回答まで支える。\nヘッドセットを着けた担当者が相談窓口を表す。\n回答の吹き出しとチェックが応答・解決を表す。\n顧客対応 相談 問い合わせ カスタマーサポート 窓口 ヘルプデスク customer support helpdesk",
   "render": {
     "theme": true,

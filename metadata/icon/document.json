@@ -24,10 +24,9 @@
     "reading": [
       "折り角のある輪郭が紙の文書を表す。",
       "横の線が文章を含む内容を表す。"
-    ],
-    "avoid": "特定のファイル形式や正式な書式を示す用途には使わない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "icon/document",
   "name": "書類表示_文書を示す_折り角ドキュメント",
   "license": "CC0-1.0",
@@ -40,6 +39,8 @@
   },
   "path": "assets/icon/document.svg",
   "metadata_path": "metadata/icon/document.json",
+  "preview_path": "assets/icon/document.svg",
+  "preview_has_example_labels": false,
   "search_text": "icon/document\n書類表示_文書を示す_折り角ドキュメント\n文書・書類\n添付資料や入力・確認する書類を示す場面。\n参照または作成する文書がある。\n折り角のある輪郭が紙の文書を表す。\n横の線が文章を含む内容を表す。\n文書 書類 資料 ドキュメント ファイル 帳票 document file paper report",
   "render": {
     "theme": true,

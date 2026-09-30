@@ -21,19 +21,14 @@
     "reading": [
       "肩より高く挙げた手が、発言を求める動作を示す。",
       "話し手へ向けた顔が、説明を聞きながら質問する関係を示す。"
-    ],
-    "avoid": "実在の人物・業務実績・承認や確認の完了を証明する画像としては使えません。"
+    ]
   },
   "labels": [],
   "preview_path": "previews/illustration/asking-question.png",
-  "placement": {
+  "composition": {
     "framing": "waist-up",
     "facing": "left",
-    "people_count": 1,
-    "recommended_width_cm": [
-      3,
-      6
-    ]
+    "people_count": 1
   },
   "generation": {
     "method": "image-generation",
@@ -46,13 +41,14 @@
     "width": 1254,
     "height": 1254
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "illustration/asking-question",
   "name": "手を挙げて質問する_汎用ビジネスの動作",
   "license": "CC0-1.0",
   "path": "media/illustration/asking-question.png",
   "metadata_path": "metadata/illustration/asking-question.json",
-  "search_text": "illustration/asking-question\n手を挙げて質問する_汎用ビジネスの動作\n手を挙げて質問する\n質疑応答、会議での質問、確認事項の共有を説明する。\n理解できていない点を、その場で確認する。\n肩より高く挙げた手が、発言を求める動作を示す。\n話し手へ向けた顔が、説明を聞きながら質問する関係を示す。\n質問 疑問 質疑応答 確認 会議 挙手 question raise hand\nwaist-up 上半身 腰上 left 左向き 1  [3, 6] ",
+  "preview_has_example_labels": false,
+  "search_text": "illustration/asking-question\n手を挙げて質問する_汎用ビジネスの動作\n手を挙げて質問する\n質疑応答、会議での質問、確認事項の共有を説明する。\n理解できていない点を、その場で確認する。\n肩より高く挙げた手が、発言を求める動作を示す。\n話し手へ向けた顔が、説明を聞きながら質問する関係を示す。\n質問 疑問 質疑応答 確認 会議 挙手 question raise hand\nwaist-up 上半身 腰上 left 左向き",
   "render": {
     "theme": false,
     "labels": false,

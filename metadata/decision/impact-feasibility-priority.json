@@ -114,11 +114,10 @@
       "上に行くほど期待効果が高い。",
       "右に行くほど実行しやすい。",
       "右上のチェックは優先して取り組む領域。"
-    ],
-    "avoid": "軸を変更する場合は四領域の意味も合わせて変更する。"
+    ]
   },
   "kind": "diagram",
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "decision/impact-feasibility-priority",
   "name": "施策評価_優先順位の整理_効果と実行しやすさの二軸",
   "license": "CC0-1.0",
@@ -131,6 +130,8 @@
   },
   "path": "assets/decision/impact-feasibility-priority.svg",
   "metadata_path": "metadata/decision/impact-feasibility-priority.json",
+  "preview_path": "previews/decision/impact-feasibility-priority.svg",
+  "preview_has_example_labels": true,
   "search_text": "decision/impact-feasibility-priority\n施策評価_優先順位の整理_効果と実行しやすさの二軸\n効果と実行しやすさで優先する\n改善施策を期待効果と実行しやすさで整理する。\n効果が高く実行しやすい施策から取り組む。\n上に行くほど期待効果が高い。\n右に行くほど実行しやすい。\n右上のチェックは優先して取り組む領域。\n優先順位 優先度 二軸 マトリクス マトリックス 期待効果 実現性 施策 ポジショニング",
   "render": {
     "theme": true,

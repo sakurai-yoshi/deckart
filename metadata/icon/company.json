@@ -24,10 +24,9 @@
     "reading": [
       "まとまった外壁が建物を表す。",
       "並んだ窓と入口が業務を行う場所を表す。"
-    ],
-    "avoid": "企業の規模や実在する建物の外観を示す用途には使わない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "icon/company",
   "name": "企業表示_会社や事業所を示す_オフィスビル",
   "license": "CC0-1.0",
@@ -40,6 +39,8 @@
   },
   "path": "assets/icon/company.svg",
   "metadata_path": "metadata/icon/company.json",
+  "preview_path": "assets/icon/company.svg",
+  "preview_has_example_labels": false,
   "search_text": "icon/company\n企業表示_会社や事業所を示す_オフィスビル\n企業・事業所\n取引先、会社、事業所を人物と区別する場面。\n組織としての会社や事業所を示す。\nまとまった外壁が建物を表す。\n並んだ窓と入口が業務を行う場所を表す。\n企業 会社 事業所 オフィス 法人 建物 company enterprise office building",
   "render": {
     "theme": true,

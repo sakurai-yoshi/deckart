@@ -100,10 +100,9 @@
     "reading": [
       "左は定義する指標。",
       "中央の上下が分子と分母、右の100倍が百分率への換算。"
-    ],
-    "avoid": "中央は定義であり実績データではない。百分率を求める指標に使う。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "part/metric-definition",
   "name": "指標の分子と分母をそろえる_説明パーツ",
   "license": "CC0-1.0",
@@ -116,6 +115,8 @@
   },
   "path": "assets/part/metric-definition.svg",
   "metadata_path": "metadata/part/metric-definition.json",
+  "preview_path": "previews/part/metric-definition.svg",
+  "preview_has_example_labels": true,
   "search_text": "part/metric-definition\n指標の分子と分母をそろえる_説明パーツ\n指標の分子と分母をそろえる\n部門ごとに異なる指標の集計定義をそろえる。\n同じ指標名でも対象と分母を明示して比較する。\n左は定義する指標。\n中央の上下が分子と分母、右の100倍が百分率への換算。\n指標 定義 分子 分母 算出 比率 metric numerator denominator definition",
   "render": {
     "theme": true,

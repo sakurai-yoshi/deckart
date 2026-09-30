@@ -22,10 +22,9 @@
     "reading": [
       "カートが購買を表す。",
       "中へ入る矢印が必要な物品を取り入れる行為を表す。"
-    ],
-    "avoid": "調達済みの状態や発注金額の表示には使わない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "icon/procurement",
   "name": "購買活動_必要な物品を調達する_購買カート",
   "license": "CC0-1.0",
@@ -38,6 +37,8 @@
   },
   "path": "assets/icon/procurement.svg",
   "metadata_path": "metadata/icon/procurement.json",
+  "preview_path": "assets/icon/procurement.svg",
+  "preview_has_example_labels": false,
   "search_text": "icon/procurement\n購買活動_必要な物品を調達する_購買カート\n調達・購買\n調達や仕入の工程を業務フローに配置する。\n必要な物品を外部から購入する。\nカートが購買を表す。\n中へ入る矢印が必要な物品を取り入れる行為を表す。\n調達 購買 仕入 購入 原材料 procurement purchasing sourcing",
   "render": {
     "theme": true,

@@ -19,19 +19,14 @@
     "message": "確認したことを記録に残す。",
     "reading": [
       "紙面に触れるペン先と、反対の手で支えるボードが記録する動作を示します。"
-    ],
-    "avoid": "実在の人物・業務実績・承認や確認の完了を証明する画像としては使えません。"
+    ]
   },
   "labels": [],
   "preview_path": "previews/illustration/writing-notes.png",
-  "placement": {
+  "composition": {
     "framing": "waist-up",
     "facing": "down",
-    "people_count": 1,
-    "recommended_width_cm": [
-      3,
-      6
-    ]
+    "people_count": 1
   },
   "generation": {
     "method": "image-generation",
@@ -45,13 +40,14 @@
     "width": 1254,
     "height": 1254
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "illustration/writing-notes",
   "name": "記録する_汎用ビジネスの動作",
   "license": "CC0-1.0",
   "path": "media/illustration/writing-notes.png",
   "metadata_path": "metadata/illustration/writing-notes.json",
-  "search_text": "illustration/writing-notes\n記録する_汎用ビジネスの動作\n記録する\n記録、メモ、点検結果の記入を説明する挿絵に。\n確認したことを記録に残す。\n紙面に触れるペン先と、反対の手で支えるボードが記録する動作を示します。\n記録 メモ 点検 記入 書く notes writing recording\nwaist-up 上半身 腰上 down 下向き 手元を見る 1  [3, 6] ",
+  "preview_has_example_labels": false,
+  "search_text": "illustration/writing-notes\n記録する_汎用ビジネスの動作\n記録する\n記録、メモ、点検結果の記入を説明する挿絵に。\n確認したことを記録に残す。\n紙面に触れるペン先と、反対の手で支えるボードが記録する動作を示します。\n記録 メモ 点検 記入 書く notes writing recording\nwaist-up 上半身 腰上 down 下向き 手元を見る",
   "render": {
     "theme": false,
     "labels": false,

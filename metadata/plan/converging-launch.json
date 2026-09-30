@@ -102,12 +102,12 @@
     "reading": [
       "三つの帯が部門ごとの準備。",
       "中央のチェックにすべての経路が集まる。",
-      "一本の出口が共通の公開。"
-    ],
-    "avoid": "帯の長さを準備期間の比較に使わない。"
+      "一本の出口が共通の公開。",
+      "帯は準備の流れと合流を示す概念的な表現。"
+    ]
   },
   "kind": "diagram",
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "plan/converging-launch",
   "name": "リリース計画_部門の準備を一つの公開日に揃える_三系統の合流",
   "license": "CC0-1.0",
@@ -120,7 +120,9 @@
   },
   "path": "assets/plan/converging-launch.svg",
   "metadata_path": "metadata/plan/converging-launch.json",
-  "search_text": "plan/converging-launch\nリリース計画_部門の準備を一つの公開日に揃える_三系統の合流\n部門の準備を一つの公開日に揃える\n開発・運用・事業部門の準備を共通の公開日に合わせる。\n部門ごとの準備を揃えて、ひとつの公開判断につなぐ。\n三つの帯が部門ごとの準備。\n中央のチェックにすべての経路が集まる。\n一本の出口が共通の公開。\nリリース 公開 ローンチ 部門連携 準備 合流 開発 運用 営業",
+  "preview_path": "previews/plan/converging-launch.svg",
+  "preview_has_example_labels": true,
+  "search_text": "plan/converging-launch\nリリース計画_部門の準備を一つの公開日に揃える_三系統の合流\n部門の準備を一つの公開日に揃える\n開発・運用・事業部門の準備を共通の公開日に合わせる。\n部門ごとの準備を揃えて、ひとつの公開判断につなぐ。\n三つの帯が部門ごとの準備。\n中央のチェックにすべての経路が集まる。\n一本の出口が共通の公開。\n帯は準備の流れと合流を示す概念的な表現。\nリリース 公開 ローンチ 部門連携 準備 合流 開発 運用 営業",
   "render": {
     "theme": true,
     "labels": true,

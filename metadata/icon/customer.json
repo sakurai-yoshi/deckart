@@ -22,10 +22,9 @@
     "reading": [
       "人物が顧客を表す。",
       "手提げ袋が購入や利用の関係を表す。"
-    ],
-    "avoid": "従業員や不特定の閲覧者を区別せず示す用途には使わない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "icon/customer",
   "name": "顧客表示_商品やサービスの利用者を示す_人物と買い物袋",
   "license": "CC0-1.0",
@@ -38,6 +37,8 @@
   },
   "path": "assets/icon/customer.svg",
   "metadata_path": "metadata/icon/customer.json",
+  "preview_path": "assets/icon/customer.svg",
+  "preview_has_example_labels": false,
   "search_text": "icon/customer\n顧客表示_商品やサービスの利用者を示す_人物と買い物袋\n顧客\n顧客の声や購入者を示す見出しに添える。\n商品やサービスを利用する相手がいる。\n人物が顧客を表す。\n手提げ袋が購入や利用の関係を表す。\n顧客 利用者 購入者 ユーザー customer client buyer consumer",
   "render": {
     "theme": true,

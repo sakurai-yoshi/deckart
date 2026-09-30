@@ -148,10 +148,9 @@
       "左の共通点から三つの将来へ経路が分かれる。",
       "各経路の丸い節目は、対応を切り替える条件。",
       "右の領域は、それぞれの条件に対応する打ち手。"
-    ],
-    "avoid": "経路の上下・幅・色を予測確率や売上高として扱わない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "planning/scenario-triggered-response",
   "name": "シナリオ計画_先の変化に対応を用意する_三つの分岐と打ち手",
   "license": "CC0-1.0",
@@ -164,6 +163,8 @@
   },
   "path": "assets/planning/scenario-triggered-response.svg",
   "metadata_path": "metadata/planning/scenario-triggered-response.json",
+  "preview_path": "previews/planning/scenario-triggered-response.svg",
+  "preview_has_example_labels": true,
   "search_text": "planning/scenario-triggered-response\nシナリオ計画_先の変化に対応を用意する_三つの分岐と打ち手\n状況の変化に応じた打ち手を持つ\n事業計画で需要の上振れ・想定内・下振れに備える。\n一つの将来を決め打ちせず、条件ごとの対応を用意する。\n左の共通点から三つの将来へ経路が分かれる。\n各経路の丸い節目は、対応を切り替える条件。\n右の領域は、それぞれの条件に対応する打ち手。\nシナリオ計画 不確実性 将来 需要変動 代替計画 トリガー 対応策 scenario planning uncertainty contingency trigger",
   "render": {
     "theme": true,

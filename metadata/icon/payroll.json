@@ -23,10 +23,9 @@
     "reading": [
       "封筒が個人へ渡す支給物を表す。",
       "中の金額記号が金銭の報酬を表す。"
-    ],
-    "avoid": "現金支給という支払方法に限定する用途には使わない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "icon/payroll",
   "name": "給与管理_報酬を支給する_給与封筒",
   "license": "CC0-1.0",
@@ -39,6 +38,8 @@
   },
   "path": "assets/icon/payroll.svg",
   "metadata_path": "metadata/icon/payroll.json",
+  "preview_path": "assets/icon/payroll.svg",
+  "preview_has_example_labels": false,
   "search_text": "icon/payroll\n給与管理_報酬を支給する_給与封筒\n給与・報酬\n給与計算や報酬制度の見出しに添える。\n従業員へ仕事の対価を支給する。\n封筒が個人へ渡す支給物を表す。\n中の金額記号が金銭の報酬を表す。\n給与 報酬 賃金 給料 人件費 payroll salary compensation wages",
   "render": {
     "theme": true,

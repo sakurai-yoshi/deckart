@@ -98,10 +98,9 @@
     "reading": [
       "左が得られること、右が必要になることを示す。",
       "下の共通欄が両者を踏まえた判断を受け持つ。"
-    ],
-    "avoid": "負担の大きさを左右の面積で比較する用途には使わない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "part/benefit-and-requirement",
   "name": "利点と必要な負担を並べる_説明パーツ",
   "license": "CC0-1.0",
@@ -114,6 +113,8 @@
   },
   "path": "assets/part/benefit-and-requirement.svg",
   "metadata_path": "metadata/part/benefit-and-requirement.json",
+  "preview_path": "previews/part/benefit-and-requirement.svg",
+  "preview_has_example_labels": true,
   "search_text": "part/benefit-and-requirement\n利点と必要な負担を並べる_説明パーツ\n利点と必要な負担を並べる\n提案の価値と実施に必要な負担を説明する場面。\n利点だけでなく、実現の条件も含めて判断する。\n左が得られること、右が必要になることを示す。\n下の共通欄が両者を踏まえた判断を受け持つ。\n利点 負担 条件 トレードオフ 判断 benefit requirement tradeoff",
   "render": {
     "theme": true,

@@ -66,11 +66,10 @@
     "message": "この前提が満たされる場合に、下の内容が成り立つ。",
     "reading": [
       "上の前提を起点として読む。",
-      "接続の先に成立する内容を置く。"
-    ],
-    "avoid": "条件が満たされていない場合にも効果を保証する用途には使わない。"
+      "接続の先は、条件を満たすと成立する内容の領域。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "part/condition-and-implication",
   "name": "条件が成立した場合の意味を示す_説明パーツ",
   "license": "CC0-1.0",
@@ -83,7 +82,9 @@
   },
   "path": "assets/part/condition-and-implication.svg",
   "metadata_path": "metadata/part/condition-and-implication.json",
-  "search_text": "part/condition-and-implication\n条件が成立した場合の意味を示す_説明パーツ\n条件が成立した場合の意味を示す\n提案の効果がどんな条件で成立するかを説明する場面。\nこの前提が満たされる場合に、下の内容が成り立つ。\n上の前提を起点として読む。\n接続の先に成立する内容を置く。\n前提 条件 成立 帰結 assumption condition implication",
+  "preview_path": "previews/part/condition-and-implication.svg",
+  "preview_has_example_labels": true,
+  "search_text": "part/condition-and-implication\n条件が成立した場合の意味を示す_説明パーツ\n条件が成立した場合の意味を示す\n提案の効果がどんな条件で成立するかを説明する場面。\nこの前提が満たされる場合に、下の内容が成り立つ。\n上の前提を起点として読む。\n接続の先は、条件を満たすと成立する内容の領域。\n前提 条件 成立 帰結 assumption condition implication",
   "render": {
     "theme": true,
     "labels": true,

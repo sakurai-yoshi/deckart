@@ -22,10 +22,9 @@
     "reading": [
       "主装置と同じ穴を持つ別の部品を対応させる。",
       "戻る矢印が装置へ取り付けることを表す。"
-    ],
-    "avoid": "記号は業務の種類を示す。数値、認証取得、測定結果を保証する印には使わない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "icon/spare-parts",
   "name": "交換部品_製造業務の記号",
   "license": "CC0-1.0",
@@ -38,6 +37,8 @@
   },
   "path": "assets/icon/spare-parts.svg",
   "metadata_path": "metadata/icon/spare-parts.json",
+  "preview_path": "assets/icon/spare-parts.svg",
+  "preview_has_example_labels": false,
   "search_text": "icon/spare-parts\n交換部品_製造業務の記号\n交換部品\n交換部品や予備品の準備を示す。\n故障時に取り替えられる部品を用意する。\n主装置と同じ穴を持つ別の部品を対応させる。\n戻る矢印が装置へ取り付けることを表す。\n交換部品 予備品 修理 スペア 保守 spare parts replacement",
   "render": {
     "theme": true,

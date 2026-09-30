@@ -98,11 +98,10 @@
       "左の三つの領域は比較する候補。",
       "中央の縦枠は全候補に適用する判断基準。",
       "上段と下段の経路は止まり、チェックのある経路だけが右へ続く。"
-    ],
-    "avoid": "複数案を統合する説明には使わない。"
+    ]
   },
   "kind": "diagram",
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "decision/option-selection",
   "name": "企画提案_選択肢を比較して一案を選ぶ_判断基準と採用案",
   "license": "CC0-1.0",
@@ -115,6 +114,8 @@
   },
   "path": "assets/decision/option-selection.svg",
   "metadata_path": "metadata/decision/option-selection.json",
+  "preview_path": "previews/decision/option-selection.svg",
+  "preview_has_example_labels": true,
   "search_text": "decision/option-selection\n企画提案_選択肢を比較して一案を選ぶ_判断基準と採用案\n比較して一案を選ぶ\n企画会議で複数の提案から採用案を決める。\n同じ基準で比べ、選んだ一案だけを実行する。\n左の三つの領域は比較する候補。\n中央の縦枠は全候補に適用する判断基準。\n上段と下段の経路は止まり、チェックのある経路だけが右へ続く。\n比較 選定 採用案 企画 選択肢 意思決定 判断基準 コンペ",
   "render": {
     "theme": true,

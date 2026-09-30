@@ -1,61 +1,38 @@
 {
-  "title": "開いた弧で方針宣言を引き立てる背景",
-  "description": "白と青の大きな開いた弧で、中央の短い方針宣言を受け止める。",
+  "title": "白と青の開いた弧",
+  "description": "下端を横切る白い弧の内側に青が見え、両端が左右で立ち上がる。",
   "kind": "background",
   "category": "11-背景とフレーム",
   "width": 1672,
   "height": 941,
   "keywords": [
+    "背景",
+    "白",
+    "青",
+    "余白",
+    "質感",
+    "background",
+    "陶器",
+    "弧",
+    "曲面",
+    "下装飾",
+    "上余白",
+    "見出し",
+    "要点",
     "方針",
-    "目的",
-    "ビジョン",
-    "宣言",
-    "重点方針",
-    "共通目標",
-    "statement",
-    "vision",
-    "commitment"
+    "porcelain",
+    "open arc",
+    "statement"
   ],
   "guidance": {
-    "use_case": "品質方針、共通目標、重点施策の要点を一文で印象づける場面。",
-    "message": "資料を通じて伝える中心的な主張を一つに絞る。",
+    "use_case": "方針、目標、要点、まとめなど。",
+    "message": "開いた弧で、中央の広がりと穏やかなまとまりを添える。",
     "reading": [
-      "中央に1〜2行の短い方針、その下に補足を中央揃えで配置する。",
-      "下部の弧と左右の端には本文を重ねない。"
-    ],
-    "avoid": "多数の箇条書きや複雑な数値グラフを載せる本文には使わない。"
+      "白い弧と青い内側の縁が下部から左右の端へ続く。",
+      "上部と中央は明るく広い白い面。"
+    ]
   },
   "labels": [],
-  "canvas": {
-    "width": 1600,
-    "height": 900
-  },
-  "content_areas": [
-    {
-      "id": "title",
-      "role": "方針宣言",
-      "purpose": "方針宣言を配置する白い領域。",
-      "content_type": "text",
-      "x": 230,
-      "y": 170,
-      "width": 1140,
-      "height": 220,
-      "text_color": "#172B4D",
-      "text_align": "center"
-    },
-    {
-      "id": "lead",
-      "role": "方針の補足",
-      "purpose": "方針の補足を配置する白い領域。",
-      "content_type": "text",
-      "x": 350,
-      "y": 455,
-      "width": 900,
-      "height": 105,
-      "text_color": "#172B4D",
-      "text_align": "center"
-    }
-  ],
   "preview_path": "previews/background/statement-open-arc.png",
   "generation": {
     "method": "image-generation",
@@ -64,13 +41,18 @@
   "format": "png",
   "mime_type": "image/png",
   "transparent": false,
-  "schema_version": 2,
+  "canvas": {
+    "width": 1672,
+    "height": 941
+  },
+  "schema_version": 3,
   "id": "background/statement-open-arc",
-  "name": "開いた弧で方針宣言を引き立てる背景_背景",
+  "name": "白と青の開いた弧_背景",
   "license": "CC0-1.0",
   "path": "media/background/statement-open-arc.png",
   "metadata_path": "metadata/background/statement-open-arc.json",
-  "search_text": "background/statement-open-arc\n開いた弧で方針宣言を引き立てる背景_背景\n開いた弧で方針宣言を引き立てる背景\n品質方針、共通目標、重点施策の要点を一文で印象づける場面。\n資料を通じて伝える中心的な主張を一つに絞る。\n中央に1〜2行の短い方針、その下に補足を中央揃えで配置する。\n下部の弧と左右の端には本文を重ねない。\n方針 目的 ビジョン 宣言 重点方針 共通目標 statement vision commitment",
+  "preview_has_example_labels": false,
+  "search_text": "background/statement-open-arc\n白と青の開いた弧_背景\n白と青の開いた弧\n方針、目標、要点、まとめなど。\n開いた弧で、中央の広がりと穏やかなまとまりを添える。\n白い弧と青い内側の縁が下部から左右の端へ続く。\n上部と中央は明るく広い白い面。\n背景 白 青 余白 質感 background 陶器 弧 曲面 下装飾 上余白 見出し 要点 方針 porcelain open arc statement",
   "render": {
     "theme": false,
     "labels": false,

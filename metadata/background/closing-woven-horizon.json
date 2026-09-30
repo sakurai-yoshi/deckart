@@ -1,60 +1,37 @@
 {
-  "title": "織り重なる流れで結びを印象づける背景",
-  "description": "白と青の繊維の束を編み重ねた流れで、つながりと継続を印象づける。",
+  "title": "白と青の繊維が織り重なる流れ",
+  "description": "白と青の繊維の束が下端を横切り、右端で持ち上がる。",
   "kind": "background",
   "category": "11-背景とフレーム",
   "width": 1672,
   "height": 941,
   "keywords": [
+    "背景",
+    "白",
+    "青",
+    "余白",
+    "質感",
+    "background",
+    "繊維",
+    "織物",
+    "交差",
+    "下装飾",
+    "上余白",
     "結び",
     "まとめ",
-    "次の行動",
-    "協業",
-    "継続",
-    "最終ページ",
-    "closing",
-    "conclusion",
-    "collaboration"
+    "woven",
+    "fibers",
+    "closing"
   ],
   "guidance": {
-    "use_case": "提案の結び、今後の進め方、協業への呼びかけ。",
-    "message": "白と青の繊維の束を編み重ねた流れで、つながりと継続を印象づける。",
+    "use_case": "まとめ、方針、協業、継続的な取り組みなど。",
+    "message": "織り重なる繊維で、つながりと継続を印象づける。",
     "reading": [
-      "上中央に短い結論を置き、その下に次の行動や連絡先を添える。"
-    ],
-    "avoid": "装飾の上に文字や図表を重ねない。"
+      "繊維の束が下部で交差し、右へ流れる。",
+      "上部には広い白い面がある。"
+    ]
   },
   "labels": [],
-  "canvas": {
-    "width": 1600,
-    "height": 900
-  },
-  "content_areas": [
-    {
-      "id": "title",
-      "role": "結論",
-      "purpose": "結論を配置する領域。",
-      "content_type": "text",
-      "x": 275,
-      "y": 115,
-      "width": 1050,
-      "height": 200,
-      "text_color": "#172B4D",
-      "text_align": "center"
-    },
-    {
-      "id": "subtitle",
-      "role": "次の行動と連絡先",
-      "purpose": "次の行動と連絡先を配置する領域。",
-      "content_type": "text",
-      "x": 335,
-      "y": 345,
-      "width": 930,
-      "height": 125,
-      "text_color": "#172B4D",
-      "text_align": "center"
-    }
-  ],
   "generation": {
     "method": "image-generation",
     "definition_path": "sources/backgrounds.json"
@@ -63,13 +40,18 @@
   "format": "png",
   "mime_type": "image/png",
   "transparent": false,
-  "schema_version": 2,
+  "canvas": {
+    "width": 1672,
+    "height": 941
+  },
+  "schema_version": 3,
   "id": "background/closing-woven-horizon",
-  "name": "織り重なる流れで結びを印象づける背景_背景",
+  "name": "白と青の繊維が織り重なる流れ_背景",
   "license": "CC0-1.0",
   "path": "media/background/closing-woven-horizon.png",
   "metadata_path": "metadata/background/closing-woven-horizon.json",
-  "search_text": "background/closing-woven-horizon\n織り重なる流れで結びを印象づける背景_背景\n織り重なる流れで結びを印象づける背景\n提案の結び、今後の進め方、協業への呼びかけ。\n白と青の繊維の束を編み重ねた流れで、つながりと継続を印象づける。\n上中央に短い結論を置き、その下に次の行動や連絡先を添える。\n結び まとめ 次の行動 協業 継続 最終ページ closing conclusion collaboration",
+  "preview_has_example_labels": false,
+  "search_text": "background/closing-woven-horizon\n白と青の繊維が織り重なる流れ_背景\n白と青の繊維が織り重なる流れ\nまとめ、方針、協業、継続的な取り組みなど。\n織り重なる繊維で、つながりと継続を印象づける。\n繊維の束が下部で交差し、右へ流れる。\n上部には広い白い面がある。\n背景 白 青 余白 質感 background 繊維 織物 交差 下装飾 上余白 結び まとめ woven fibers closing",
   "render": {
     "theme": false,
     "labels": false,

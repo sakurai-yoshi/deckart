@@ -112,12 +112,11 @@
     "use_case": "分析や観察を根拠として、提案を説明する場面。",
     "message": "複数の根拠が一つの結論を支える。",
     "reading": [
-      "左の上下に独立した根拠を置く。",
+      "左の上下は独立した二つの根拠の領域。",
       "括り線と接続で右の結論へつなぐ。"
-    ],
-    "avoid": "根拠だけでは導けない結論を必然として示す用途には使わない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "part/converging-evidence",
   "name": "二つの根拠から結論を導く_説明パーツ",
   "license": "CC0-1.0",
@@ -130,7 +129,9 @@
   },
   "path": "assets/part/converging-evidence.svg",
   "metadata_path": "metadata/part/converging-evidence.json",
-  "search_text": "part/converging-evidence\n二つの根拠から結論を導く_説明パーツ\n二つの根拠から結論を導く\n分析や観察を根拠として、提案を説明する場面。\n複数の根拠が一つの結論を支える。\n左の上下に独立した根拠を置く。\n括り線と接続で右の結論へつなぐ。\n根拠 結論 因果 示唆 集約 要約 evidence conclusion synthesis",
+  "preview_path": "previews/part/converging-evidence.svg",
+  "preview_has_example_labels": true,
+  "search_text": "part/converging-evidence\n二つの根拠から結論を導く_説明パーツ\n二つの根拠から結論を導く\n分析や観察を根拠として、提案を説明する場面。\n複数の根拠が一つの結論を支える。\n左の上下は独立した二つの根拠の領域。\n括り線と接続で右の結論へつなぐ。\n根拠 結論 因果 示唆 集約 要約 evidence conclusion synthesis",
   "render": {
     "theme": true,
     "labels": true,

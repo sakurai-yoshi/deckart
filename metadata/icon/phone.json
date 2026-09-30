@@ -23,10 +23,9 @@
     "reading": [
       "受話器の形が電話を表す。",
       "外側の波が音声のやり取りを表す。"
-    ],
-    "avoid": "着信中や通話可能という現在状態の表示には使わない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "icon/phone",
   "name": "連絡手段_音声で話す_電話",
   "license": "CC0-1.0",
@@ -39,6 +38,8 @@
   },
   "path": "assets/icon/phone.svg",
   "metadata_path": "metadata/icon/phone.json",
+  "preview_path": "assets/icon/phone.svg",
+  "preview_has_example_labels": false,
   "search_text": "icon/phone\n連絡手段_音声で話す_電話\n電話\n電話での問い合わせ先や連絡方法を示す。\n音声で相手と直接話す。\n受話器の形が電話を表す。\n外側の波が音声のやり取りを表す。\n電話 通話 音声 連絡 コール phone call telephone voice",
   "render": {
     "theme": true,

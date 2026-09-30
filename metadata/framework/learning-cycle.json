@@ -85,14 +85,13 @@
       "上の丸が変化や課題への気づき。",
       "右下で小さく試し、左下で結果から学ぶ。",
       "戻りの矢印が次の気づきにつながる。"
-    ],
-    "avoid": "正式な承認や監査の手順として使わない。"
+    ]
   },
   "layout": {
     "relation": "three-stage-cycle",
     "reading_direction": "clockwise"
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "framework/learning-cycle",
   "name": "学習改善_気づきから小さな実験を繰り返す_3段階学習サイクル",
   "license": "CC0-1.0",
@@ -105,6 +104,8 @@
   },
   "path": "assets/framework/learning-cycle.svg",
   "metadata_path": "metadata/framework/learning-cycle.json",
+  "preview_path": "previews/framework/learning-cycle.svg",
+  "preview_has_example_labels": true,
   "search_text": "framework/learning-cycle\n学習改善_気づきから小さな実験を繰り返す_3段階学習サイクル\n気づきから小さな実験を繰り返す\n業務改善のアイデアを小さく試し、結果から次の手を考える。\n一度で答えを決めず、気づき・実験・学習を繰り返す。\n上の丸が変化や課題への気づき。\n右下で小さく試し、左下で結果から学ぶ。\n戻りの矢印が次の気づきにつながる。\n学習 実験 気づき 検証 振り返り 仮説 継続改善 learning iteration",
   "render": {
     "theme": true,

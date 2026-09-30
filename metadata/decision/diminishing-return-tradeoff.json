@@ -98,11 +98,10 @@
       "横軸は必要な負担、縦軸は期待する効果。",
       "主色の曲線は効果の上積みが小さくなる概念的な関係。",
       "チェックは均衡を重視した選択例。"
-    ],
-    "avoid": "実測値や実際の最適点を示すグラフとして使わない。"
+    ]
   },
   "kind": "diagram",
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "decision/diminishing-return-tradeoff",
   "name": "施策選定_効果と負担の均衡点_定性的な選択境界",
   "license": "CC0-1.0",
@@ -115,6 +114,8 @@
   },
   "path": "assets/decision/diminishing-return-tradeoff.svg",
   "metadata_path": "metadata/decision/diminishing-return-tradeoff.json",
+  "preview_path": "previews/decision/diminishing-return-tradeoff.svg",
+  "preview_has_example_labels": true,
   "search_text": "decision/diminishing-return-tradeoff\n施策選定_効果と負担の均衡点_定性的な選択境界\n効果の上積みと負担を見比べる\n設備やシステムへの投資案について、追加負担に見合う効果を説明する。\n負担を増やしたときの効果の上積みを見て選ぶ。\n横軸は必要な負担、縦軸は期待する効果。\n主色の曲線は効果の上積みが小さくなる概念的な関係。\nチェックは均衡を重視した選択例。\nトレードオフ 費用対効果 効率 最適化 均衡 限界効用 投資対効果 施策選定",
   "render": {
     "theme": true,

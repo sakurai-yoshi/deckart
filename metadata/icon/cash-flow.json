@@ -23,10 +23,9 @@
     "reading": [
       "二つの硬貨が異なる時点の資金を表す。",
       "上下の矢印が資金の流れを表す。"
-    ],
-    "avoid": "矢印の長さを入出金額や期間として使わない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "icon/cash-flow",
   "name": "資金管理_入金と出金の流れを捉える_循環する資金",
   "license": "CC0-1.0",
@@ -39,6 +38,8 @@
   },
   "path": "assets/icon/cash-flow.svg",
   "metadata_path": "metadata/icon/cash-flow.json",
+  "preview_path": "assets/icon/cash-flow.svg",
+  "preview_has_example_labels": false,
   "search_text": "icon/cash-flow\n資金管理_入金と出金の流れを捉える_循環する資金\n資金繰り\n入出金や運転資金の流れを説明する。\n資金が入出金を通じて動く。\n二つの硬貨が異なる時点の資金を表す。\n上下の矢印が資金の流れを表す。\n資金繰り 資金 キャッシュフロー 入金 出金 cash flow liquidity finance",
   "render": {
     "theme": true,

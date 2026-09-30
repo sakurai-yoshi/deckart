@@ -22,10 +22,9 @@
     "reading": [
       "関節を持つアームが自動で動く機構を表す。",
       "先端の爪が作業を実行する部分を表す。"
-    ],
-    "avoid": "人の判断まで不要になるという意味では使わない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "icon/automation",
   "name": "自動化_繰り返す作業を機械へ任せる_自動アーム",
   "license": "CC0-1.0",
@@ -38,6 +37,8 @@
   },
   "path": "assets/icon/automation.svg",
   "metadata_path": "metadata/icon/automation.json",
+  "preview_path": "assets/icon/automation.svg",
+  "preview_has_example_labels": false,
   "search_text": "icon/automation\n自動化_繰り返す作業を機械へ任せる_自動アーム\n自動化\n繰り返し作業の自動化や省力化を紹介する。\n決まった作業を仕組みが実行する。\n関節を持つアームが自動で動く機構を表す。\n先端の爪が作業を実行する部分を表す。\n自動化 自動処理 省力 ロボット RPA automation robotic process",
   "render": {
     "theme": true,

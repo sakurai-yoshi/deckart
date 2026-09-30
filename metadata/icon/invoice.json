@@ -22,10 +22,9 @@
     "reading": [
       "紙の下端の切り取り形が請求明細を表す。",
       "左右に分かれた行が項目と金額、下の線が合計を示す。"
-    ],
-    "avoid": "支払完了の印としては使わない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "icon/invoice",
   "name": "請求管理_明細と金額を通知する_請求明細",
   "license": "CC0-1.0",
@@ -38,6 +37,8 @@
   },
   "path": "assets/icon/invoice.svg",
   "metadata_path": "metadata/icon/invoice.json",
+  "preview_path": "assets/icon/invoice.svg",
+  "preview_has_example_labels": false,
   "search_text": "icon/invoice\n請求管理_明細と金額を通知する_請求明細\n請求\n取引の請求書発行や請求内容の確認を示す。\n項目別の明細をまとめ、支払を求める。\n紙の下端の切り取り形が請求明細を表す。\n左右に分かれた行が項目と金額、下の線が合計を示す。\n請求 請求書 明細 売掛 支払依頼 invoice billing receivable",
   "render": {
     "theme": true,

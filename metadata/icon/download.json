@@ -22,10 +22,9 @@
     "reading": [
       "下の受け皿が保存先を表す。",
       "下向きの矢印が受け取る動きを示す。"
-    ],
-    "avoid": "取得済みやファイルの安全性を保証する印には使わない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "icon/download",
   "name": "ファイル操作_手元に取得する_受け取る矢印",
   "license": "CC0-1.0",
@@ -38,6 +37,8 @@
   },
   "path": "assets/icon/download.svg",
   "metadata_path": "metadata/icon/download.json",
+  "preview_path": "assets/icon/download.svg",
+  "preview_has_example_labels": false,
   "search_text": "icon/download\nファイル操作_手元に取得する_受け取る矢印\nダウンロード\n資料やファイルを取得する操作を示す。\n外にあるファイルを手元へ受け取る。\n下の受け皿が保存先を表す。\n下向きの矢印が受け取る動きを示す。\nダウンロード 取得 保存 受信 ファイル download retrieve save",
   "render": {
     "theme": true,

@@ -22,10 +22,9 @@
     "reading": [
       "上から差し込むカードが記録を表す。",
       "下の時計が出退勤の時刻を表す。"
-    ],
-    "avoid": "特定の勤務時刻や労働時間の数値としては使わない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "icon/attendance",
   "name": "勤怠記録_出退勤時刻を記録する_打刻時計",
   "license": "CC0-1.0",
@@ -38,6 +37,8 @@
   },
   "path": "assets/icon/attendance.svg",
   "metadata_path": "metadata/icon/attendance.json",
+  "preview_path": "assets/icon/attendance.svg",
+  "preview_has_example_labels": false,
   "search_text": "icon/attendance\n勤怠記録_出退勤時刻を記録する_打刻時計\n勤怠・打刻\n出退勤の記録や勤怠管理の見出しに使う。\n働いた時刻を記録する。\n上から差し込むカードが記録を表す。\n下の時計が出退勤の時刻を表す。\n勤怠 打刻 出勤 退勤 労働時間 attendance timecard timekeeping",
   "render": {
     "theme": true,

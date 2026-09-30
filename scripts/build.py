@@ -25,6 +25,19 @@ def zip_entry(archive,name,data):
     archive.writestr(info,data)
 
 
+def browse_text(records):
+    """Small complete inventory for an AI to read before loading candidate details."""
+    kinds={'diagram':'図解','illustration':'イラスト','icon':'アイコン','chart':'グラフ','background':'背景','part':'説明パーツ'}
+    lines=['DeckArt — 全素材のIDと題名 / All asset IDs and titles',
+           '用途や種類を横断して選べます。候補の画像と詳細は catalog.json の preview_path / metadata_path から取得できます。','']
+    for kind,title in kinds.items():
+        items=sorted((a for a in records if a['kind']==kind),key=lambda a:a['id'])
+        lines.append(f'[{kind} / {title}]')
+        lines.extend(f'{a["id"]} | {a["title"]}' for a in items)
+        lines.append('')
+    return '\n'.join(lines)
+
+
 def build():
     config=project();items=artwork();records=[];gallery=[]
     for a in items:
@@ -33,11 +46,16 @@ def build():
         meta['sha256']=hashlib.sha256(content).hexdigest();meta['size_bytes']=len(content)
         file=ROOT/meta['path'];file.parent.mkdir(parents=True,exist_ok=True)
         if meta['format']=='svg':file.write_bytes(content)
+        if meta['preview_has_example_labels']:
+            from library import add_labels
+            preview,_=add_labels(content.decode('utf-8'),meta,{},include_examples=True)
+            preview_file=ROOT/meta['preview_path'];preview_file.parent.mkdir(parents=True,exist_ok=True)
+            preview_file.write_bytes(preview.encode('utf-8'))
         write_json(ROOT/meta['metadata_path'],meta)
         records.append(meta);gallery.append(dict(meta,**({'download':base64.b64encode(content).decode()} if meta['format']=='svg' else {})))
     # Both directories contain generated outputs only; remove superseded registered forms.
-    expected={a['path'] for a in records}|{a['metadata_path'] for a in records}
-    for directory,suffix in [('assets','.svg'),('metadata','.json')]:
+    expected={a['path'] for a in records}|{a['metadata_path'] for a in records}|{a['preview_path'] for a in records}
+    for directory,suffix in [('assets','.svg'),('metadata','.json'),('previews','.svg')]:
         for file in (ROOT/directory).rglob('*'+suffix):
             if file.relative_to(ROOT).as_posix() not in expected:file.unlink()
         for directory_path in sorted((p for p in (ROOT/directory).rglob('*') if p.is_dir()),key=lambda p:len(p.parts),reverse=True):
@@ -45,15 +63,16 @@ def build():
     raw_base=f'https://raw.githubusercontent.com/{config["repository"]}/v{config["version"]}/'
     index=[]
     for a in records:
-        row={k:a[k] for k in ('id','title','kind','format','mime_type','transparent','width','height','canvas','render','path','metadata_path','sha256','size_bytes','keywords')}
+        row={k:a[k] for k in ('id','title','kind','category','format','mime_type','transparent','width','height','canvas','render','path','preview_path','preview_has_example_labels','metadata_path','sha256','size_bytes','keywords')}
         row.update(use_case=a['guidance']['use_case'],message=a['guidance']['message'],sample_data=bool(a.get('data',{}).get('is_sample')))
-        if a.get('placement'):row['placement']=a['placement']
+        if a.get('composition'):row['composition']=a['composition']
         index.append(row)
     catalog={**config,'raw_base':raw_base,'themes_path':'themes.json','asset_count':len(records),'assets':index}
     write_json(ROOT/'catalog.json',catalog)
+    (ROOT/'catalog.txt').write_bytes(browse_text(records).encode('utf-8'))
     (ROOT/'catalog.ndjson').write_bytes(''.join(json.dumps(a,ensure_ascii=False)+'\n' for a in records).encode('utf-8'))
     themes=theme_contract();write_json(ROOT/'themes.json',themes)
-    settings=dict(themes=themes,project=config,assetLicense=(ROOT/'LICENSE-ASSETS').read_text(encoding='utf-8'))
+    settings=dict(themes=themes,project=config,search=json.loads((ROOT/'search.json').read_text(encoding='utf-8')),assetLicense=(ROOT/'LICENSE-ASSETS').read_text(encoding='utf-8'))
     page=(ROOT/'web/page.html').read_text(encoding='utf-8').replace('@@LIBRARY@@',packed_json(gallery)).replace('@@SETTINGS@@',packed_json(settings))
     (ROOT/'index.html').write_bytes(page.encode('utf-8'))
     # The overview shows actual forms in the default theme, not recolor variants.
@@ -73,7 +92,7 @@ def build():
     (ROOT/'preview.svg').write_bytes((ET.tostring(canonical_geometry(ET.fromstring(preview_svg)),encoding='unicode')+'\n').encode('utf-8'))
     package_files=[ROOT/p for a in records for p in (a['path'],a['metadata_path'])]
     package_files += [p for folder in ('scripts','web','examples','tests','sources','previews') for p in (ROOT/folder).rglob('*') if p.is_file() and '__pycache__' not in p.parts]
-    package_files += [ROOT/p for p in ('README.md','llms.txt','project.json','request.schema.json','catalog.json','catalog.ndjson','themes.json','LICENSE-ASSETS','LICENSE','preview.svg','index.html')]
+    package_files += [ROOT/p for p in ('README.md','llms.txt','project.json','request.schema.json','catalog.txt','catalog.json','catalog.ndjson','search.json','themes.json','LICENSE-ASSETS','LICENSE','preview.svg','index.html')]
     with zipfile.ZipFile(ROOT/'deckart.zip','w',compression=zipfile.ZIP_DEFLATED) as archive:
         for file in sorted(set(package_files),key=lambda p:p.relative_to(ROOT).as_posix()):zip_entry(archive,file.relative_to(ROOT).as_posix(),file.read_bytes())
     print(f'Built {len(records)} SVG/PNG assets, per-asset metadata, compact AI index and offline package.')

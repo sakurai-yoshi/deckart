@@ -3,13 +3,9 @@
   "category": "06-業務イラスト",
   "labels": [],
   "preview_path": "previews/illustration/energy-saving.png",
-  "placement": {
+  "composition": {
     "framing": "object",
-    "facing": "front",
-    "recommended_width_cm": [
-      4,
-      7
-    ]
+    "facing": "front"
   },
   "title": "使わない電源を切る",
   "description": "プラグを抜いた電源タップで、使っていない電源を切り離して無駄を減らす行動を表す。",
@@ -27,8 +23,7 @@
     "reading": [
       "差し込まれていないプラグが、電源から切り離した状態を表す。",
       "空の差込口と消灯したスイッチが、使っていない電源の管理を表す。"
-    ],
-    "avoid": "実物の寸法・仕様や、作業手順を示す図としては使用しない。"
+    ]
   },
   "width": 1254,
   "height": 1254,
@@ -43,13 +38,14 @@
     "width": 1254,
     "height": 1254
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "illustration/energy-saving",
   "name": "使わない電源を切る_業務イラスト",
   "license": "CC0-1.0",
   "path": "media/illustration/energy-saving.png",
   "metadata_path": "metadata/illustration/energy-saving.json",
-  "search_text": "illustration/energy-saving\n使わない電源を切る_業務イラスト\n使わない電源を切る\n省エネ活動、待機電力の削減、日常の節電を説明する。\n使用していない機器の電源を切り、無駄を減らす。\n差し込まれていないプラグが、電源から切り離した状態を表す。\n空の差込口と消灯したスイッチが、使っていない電源の管理を表す。\n省エネ 節電 待機電力 電源 energy saving\nobject 物 道具 front 正面 [4, 7] ",
+  "preview_has_example_labels": false,
+  "search_text": "illustration/energy-saving\n使わない電源を切る_業務イラスト\n使わない電源を切る\n省エネ活動、待機電力の削減、日常の節電を説明する。\n使用していない機器の電源を切り、無駄を減らす。\n差し込まれていないプラグが、電源から切り離した状態を表す。\n空の差込口と消灯したスイッチが、使っていない電源の管理を表す。\n省エネ 節電 待機電力 電源 energy saving\nobject 物 道具 front 正面",
   "render": {
     "theme": false,
     "labels": false,

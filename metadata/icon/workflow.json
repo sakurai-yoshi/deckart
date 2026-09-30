@@ -22,10 +22,9 @@
     "reading": [
       "三つの枠が処理を行う工程を表す。",
       "つながる矢印が工程間の受け渡しを表す。"
-    ],
-    "avoid": "実際の承認順やすべての分岐を示すフロー図には使わない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "icon/workflow",
   "name": "業務手順_次の処理へ渡す_工程の受渡",
   "license": "CC0-1.0",
@@ -38,6 +37,8 @@
   },
   "path": "assets/icon/workflow.svg",
   "metadata_path": "metadata/icon/workflow.json",
+  "preview_path": "assets/icon/workflow.svg",
+  "preview_has_example_labels": false,
   "search_text": "icon/workflow\n業務手順_次の処理へ渡す_工程の受渡\nワークフロー\n業務手順や工程間の受け渡しを示す。\n工程をつないで仕事を進める。\n三つの枠が処理を行う工程を表す。\nつながる矢印が工程間の受け渡しを表す。\nワークフロー 手順 工程 処理 受渡 workflow process routing",
   "render": {
     "theme": true,

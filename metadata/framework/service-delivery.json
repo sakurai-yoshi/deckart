@@ -102,14 +102,13 @@
       "左から受付・確認・提案・実施・報告。",
       "各道具や文書がその工程の仕事を表す。",
       "つながる経路が一連の提供範囲。"
-    ],
-    "avoid": "審査・検収など契約上必須の工程を省略する場合には使わない。"
+    ]
   },
   "layout": {
     "relation": "five-step-sequence",
     "reading_direction": "left-to-right"
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "framework/service-delivery",
   "name": "業務提供_受付から報告まで一貫して届ける_5工程サービス",
   "license": "CC0-1.0",
@@ -122,6 +121,8 @@
   },
   "path": "assets/framework/service-delivery.svg",
   "metadata_path": "metadata/framework/service-delivery.json",
+  "preview_path": "previews/framework/service-delivery.svg",
+  "preview_has_example_labels": true,
   "search_text": "framework/service-delivery\n業務提供_受付から報告まで一貫して届ける_5工程サービス\n受付から報告まで一貫して届ける\n受託サービスや社内支援の提供範囲を、依頼元へ説明する。\n依頼を受けるだけでなく、成果の報告まで一貫して担う。\n左から受付・確認・提案・実施・報告。\n各道具や文書がその工程の仕事を表す。\nつながる経路が一連の提供範囲。\nサービス提供 業務フロー 受付 要件確認 提案 実施 報告 5工程 delivery service workflow",
   "render": {
     "theme": true,

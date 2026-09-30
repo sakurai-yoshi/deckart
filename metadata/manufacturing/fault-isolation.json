@@ -160,14 +160,13 @@
       "上の印が工程途中の確認状態を表す。",
       "正常と異常の境界となる一区間を括っている。",
       "右の点は未確認であり、正常を意味しない。"
-    ],
-    "avoid": "異常の原因がこの区間に確定したという意味ではない。相互作用や上流起因も検証する。"
+    ]
   },
   "layout": {
     "relation": "verified-boundary-isolation",
     "reading_direction": "left-to-right"
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "manufacturing/fault-isolation",
   "name": "正常と異常の境界で原因を絞る_製造業務の関係図",
   "license": "CC0-1.0",
@@ -180,6 +179,8 @@
   },
   "path": "assets/manufacturing/fault-isolation.svg",
   "metadata_path": "metadata/manufacturing/fault-isolation.json",
+  "preview_path": "previews/manufacturing/fault-isolation.svg",
+  "preview_has_example_labels": true,
   "search_text": "manufacturing/fault-isolation\n正常と異常の境界で原因を絞る_製造業務の関係図\n正常と異常の境界で原因を絞る\n工程の途中で状態を確認し、最初に調べる区間を絞り込む。\n最初に異常が確認された地点と、その直前の正常な地点の間を優先して調べる。\n上の印が工程途中の確認状態を表す。\n正常と異常の境界となる一区間を括っている。\n右の点は未確認であり、正常を意味しない。\n故障 原因 切り分け 診断 確認 不具合 fault isolation troubleshooting",
   "render": {
     "theme": true,

@@ -130,15 +130,15 @@
     "reading": [
       "上から依頼者・受付窓口・専門担当の担当範囲。",
       "依頼は受付確認を経て専門担当へ渡る。",
-      "処理結果は受付窓口に戻り、回答で完了する。"
-    ],
-    "avoid": "横位置は順序を表す。作業時間や待ち時間の長さは示していない。"
+      "処理結果は受付窓口に戻り、回答で完了する。",
+      "横位置は仕事を渡す順序を表す概念的な時間軸。"
+    ]
   },
   "layout": {
     "relation": "responsibility-swimlane",
     "reading_direction": "left-to-right"
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "operations/responsibility-swimlane",
   "name": "役割分担_担当をまたぐ引継ぎを追う_三者のスイムレーン",
   "license": "CC0-1.0",
@@ -151,7 +151,9 @@
   },
   "path": "assets/operations/responsibility-swimlane.svg",
   "metadata_path": "metadata/operations/responsibility-swimlane.json",
-  "search_text": "operations/responsibility-swimlane\n役割分担_担当をまたぐ引継ぎを追う_三者のスイムレーン\n担当をまたぐ引継ぎを追う\n問い合わせ対応で、受付窓口と専門担当のどちらが何を担うかを説明する。\n横の領域が担当範囲、領域をまたぐ矢印が引継ぎを表す。\n上から依頼者・受付窓口・専門担当の担当範囲。\n依頼は受付確認を経て専門担当へ渡る。\n処理結果は受付窓口に戻り、回答で完了する。\n責任分担 スイムレーン 引継ぎ 担当 業務フロー 窓口 依頼 swimlane handoff responsibility",
+  "preview_path": "previews/operations/responsibility-swimlane.svg",
+  "preview_has_example_labels": true,
+  "search_text": "operations/responsibility-swimlane\n役割分担_担当をまたぐ引継ぎを追う_三者のスイムレーン\n担当をまたぐ引継ぎを追う\n問い合わせ対応で、受付窓口と専門担当のどちらが何を担うかを説明する。\n横の領域が担当範囲、領域をまたぐ矢印が引継ぎを表す。\n上から依頼者・受付窓口・専門担当の担当範囲。\n依頼は受付確認を経て専門担当へ渡る。\n処理結果は受付窓口に戻り、回答で完了する。\n横位置は仕事を渡す順序を表す概念的な時間軸。\n責任分担 スイムレーン 引継ぎ 担当 業務フロー 窓口 依頼 swimlane handoff responsibility",
   "render": {
     "theme": true,
     "labels": true,

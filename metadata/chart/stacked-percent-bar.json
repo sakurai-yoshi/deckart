@@ -180,10 +180,9 @@
       "どの行も左端が0%、右端が100%。",
       "三つの区分は全行で同じ色と並び順。",
       "各区分の長さは表示した割合と一致する。"
-    ],
-    "avoid": "数値は作例。各対象の総量の大小はこの図から比較できない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "chart/stacked-percent-bar",
   "name": "構成比較_同じ全体にそろえて内訳を比べる_100パーセント積上げ作例",
   "license": "CC0-1.0",
@@ -196,6 +195,8 @@
   },
   "path": "assets/chart/stacked-percent-bar.svg",
   "metadata_path": "metadata/chart/stacked-percent-bar.json",
+  "preview_path": "previews/chart/stacked-percent-bar.svg",
+  "preview_has_example_labels": true,
   "search_text": "chart/stacked-percent-bar\n構成比較_同じ全体にそろえて内訳を比べる_100パーセント積上げ作例\n全体を100%にそろえて構成を比べる\n総量の異なる複数の対象について、内訳の割合を比較する。\n全体の長さをそろえることで構成の違いを読める。\nどの行も左端が0%、右端が100%。\n三つの区分は全行で同じ色と並び順。\n各区分の長さは表示した割合と一致する。\n積上げ 100パーセント 構成比 内訳 比較 割合 stacked normalized bar",
   "render": {
     "theme": true,

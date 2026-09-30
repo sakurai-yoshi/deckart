@@ -24,10 +24,9 @@
     "reading": [
       "盾の輪郭が保護を表す。",
       "内側のチェックが対策を確認する意味を添える。"
-    ],
-    "avoid": "事故が起こらないことや安全認証の取得を保証する用途には使わない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "icon/shield",
   "name": "保護表示_安全対策を示す_チェック付きシールド",
   "license": "CC0-1.0",
@@ -40,6 +39,8 @@
   },
   "path": "assets/icon/shield.svg",
   "metadata_path": "metadata/icon/shield.json",
+  "preview_path": "assets/icon/shield.svg",
+  "preview_has_example_labels": false,
   "search_text": "icon/shield\n保護表示_安全対策を示す_チェック付きシールド\n保護・安全対策\n情報や業務を守る対策を紹介する場面。\n対象を守るための対策がある。\n盾の輪郭が保護を表す。\n内側のチェックが対策を確認する意味を添える。\n保護 安全 対策 セキュリティ 盾 防御 security shield protection safeguard",
   "render": {
     "theme": true,

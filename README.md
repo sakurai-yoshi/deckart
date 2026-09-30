@@ -1,52 +1,58 @@
 # DeckArt
 
-メーカーの説明資料に使えるPNGイラスト・背景と、SVGアイコン・図解・グラフ・説明パーツ。生成AIが用途を検索し、GitHubから元の画像を取得できます。
+メーカーの説明資料に使えるPNGイラスト・背景と、SVGアイコン・図解・グラフ・説明パーツ。生成AIが用途から選び、GitHubから元の画像を取得できます。
 
-**[素材一覧](https://sakurai-yoshi.github.io/deckart/)** · **[一式ZIP](https://github.com/sakurai-yoshi/deckart/releases/download/v1.0.0/deckart.zip)** · **[AI向け入口](llms.txt)** · **[用途索引](catalog.json)**
+**[素材一覧](https://sakurai-yoshi.github.io/deckart/)** · **[一式ZIP](https://github.com/sakurai-yoshi/deckart/releases/download/v2.0.0/deckart.zip)** · **[AI向け入口](llms.txt)** · **[全素材の見出し](catalog.txt)**
 
 ## 生成AIに渡す
 
 ```text
-https://raw.githubusercontent.com/sakurai-yoshi/deckart/v1.0.0/llms.txt
+https://raw.githubusercontent.com/sakurai-yoshi/deckart/main/llms.txt
 ```
 
-`catalog.json` で用途・形式・透過・編集の可否を確認して選びます。`metadata_path` で描写の意味と配置条件、`path` で元ファイルを取得します。拡張子は `format` に合わせ、`sha256` を照合します。RAG用の [catalog.ndjson](catalog.ndjson) は1素材1行です。同じタグまたはコミットの索引と画像を使ってください。
+[catalog.txt](catalog.txt) で全種類の候補を見渡し、[catalog.json](catalog.json) で用途・取得パス・形式を調べます。候補の `preview_path` を開き、伝えたい内容に合う素材を選びます。`preview_has_example_labels: true` のプレビューには選定用の作例文字が含まれます。用途・意味・キーワードは使用例です。記載された場面以外にも使えます。
 
-| 素材 | 形式 | 使い方 |
+`metadata_path` に詳しい描写、`path` に元画像があります。同じタグまたはコミットの索引・メタデータ・画像を使い、`sha256` を照合してください。RAG用の [catalog.ndjson](catalog.ndjson) は1素材1行です。
+
+| 素材 | 形式 | 活用例 |
 |---|---|---|
-| イラスト | 透過PNG | 人物の行為や物同士の関係。資料の余白に配置 |
-| 背景 | 不透明PNG | 16:9全体に配置し、指定領域に文章や図表を追加 |
-| アイコン・図解・グラフ・説明パーツ | SVG | 拡大・配色変更。対応素材は文字・実データの入力も可能 |
+| イラスト | 透過PNG | 行為や物同士の関係を伝える、主題を印象づける |
+| 背景 | 不透明PNG | 全面・部分・トリミングで資料に質感と視線の流れを添える |
+| アイコン | SVG | 項目・対象・行為を見分けやすくする |
+| 図解・説明パーツ | SVG | 流れ・比較・関係・条件を可視化する |
+| グラフ | SVG | 実データの形と数値を一緒に表す |
 
 ## 検索・書き出し
 
 Python 3.10以上。追加パッケージは不要です。
 
-検索語は空白区切りでAND検索します。「確認」「品質 改善」など、短い用途語から探してください。
+用途を日本語・英語で検索できます。種類・形式・配色変更などのフィルターは必要なときに指定します。既定は20件。`--offset` で続き、`--limit 0` で全候補を取得できます。
 
 ```sh
-python3 scripts/library.py search '説明' --format png
-python3 scripts/library.py search '承認 差戻し' --themeable
+python3 scripts/library.py search '品質改善の流れを説明する'
+python3 scripts/library.py search 'quality improvement' --offset 20
+python3 scripts/library.py search '' --limit 0
 python3 scripts/library.py show illustration/explaining
 python3 scripts/library.py export illustration/explaining --output ./exports/explaining.png
 python3 scripts/library.py export background/cover-prismatic-depth --output ./exports/cover.png
 python3 scripts/library.py export icon/person --accent '#005BAC' --output ./exports/person.svg
+python3 scripts/library.py export process/approval-return --example-labels --output ./exports/approval-preview.svg
 python3 scripts/library.py export --request examples/progress-data.json --output ./exports/progress.svg
 ```
 
-画像とJSONを保存し、成功時は `file`・`format`・ハッシュなどをJSONで返します。`--stdout` は画像のバイト列のみを返します。[入力仕様](request.schema.json)
+検索は `total`・`returned`・`next_offset`・`filters` と候補をJSONで返します。書き出しは画像とJSONを保存し、形式とハッシュを返します。`--stdout` は画像のバイト列を返します。[入力仕様](request.schema.json)
 
-PNGは元の画素と透過を保ってコピーします。配色・文字・数値の変更、別形式への変換は受け付けません。SVGは基本の青・ブランド色・モノクロに対応し、注意・増減の色を分離しています。[配色仕様](themes.json)
+この書き出しツールではPNGを元の画素・透過のままコピーします。SVGは基本の青・任意のブランド色・モノクロに対応し、文字・実データを入力できる素材もあります。[配色仕様](themes.json)
 
 ## 資料へ配置する
 
-PowerPointの［挿入］→［画像］で配置し、縦横比を固定します。PNGの `width`・`height` は実画素数です。イラストの `placement` は構図・向き・人数・推奨配置幅を示します。
+PowerPointの［挿入］→［画像］で配置します。拡大縮小は縦横比を保ち、位置・大きさ・トリミングは実際の文章や図表に合わせて決めます。背景の上に白い面を重ねるなどして読みやすさを調整できます。完成したスライドを表示し、文字の収まり・コントラスト・意図しない重なり・切れを確認してください。
 
-背景の `content_areas` は、`canvas` の論理座標を基準にした文章・図表の配置領域です。PNGの画素数と混同せず、スライドへ同じ比率で変換します。文字はPowerPoint側で追加してください。SVGの `labels` には文字の位置と長さの目安があります。
+`width`・`height` と `canvas` は画像自体の寸法です。イラストの `composition` は構図・向き・人数の説明です。いずれも配置の指定ではありません。SVGの図解・説明パーツ・グラフは、選定用プレビューに作例の文字を表示します。配置する元画像は `path` から取得し、実際の文章をPowerPointで自由に追加するか、画像内に収めたい場合に `labels` で指定します。`--example-labels` では文字入りのSVGも書き出せます。グラフの配布SVGは作例。実データは `data_input` に従って書き出せます。
 
-グラフの配布SVGは作例です。実データは `data_input` の仕様に従って書き出すと、図形と数値を同時に更新できます。
+素材はCC0です。お使いのソフトウェアでトリミング・改変・配色変更もできます。ツールが対応する書き出し機能と、素材の利用条件は別です。
 
-一式ZIPを展開した `index.html` はオフラインでも閲覧・個別保存できます。PNGを含む選択ZIPを作る際は、画面の案内に従って展開先の `media` フォルダを選びます。[利用ガイド](web/guide.html)
+一式ZIPの `index.html` はオフラインでも閲覧・個別保存できます。PNGを含む選択ZIPを作る際は、画面の案内に従って展開先の `media` フォルダを選びます。[利用ガイド](web/guide.html)
 
 ## 更新・ライセンス
 
@@ -57,7 +63,7 @@ python3 -m unittest discover -s tests
 python3 scripts/check_public.py --history
 ```
 
-SVGの定義は `scripts/sets/`、生成PNGは `media/`、用途と生成指示は `sources/`、軽量プレビューは `previews/` に置きます。変更時は索引・個別メタデータ・ZIPも再生成します。`deckart.zip` はビルドで生成し、GitHub Releaseへ添付します。
+SVGの定義は `scripts/sets/`、生成PNGは `media/`、用途と生成指示は `sources/`、軽量プレビューは `previews/` に置きます。変更時は索引・個別メタデータ・ZIPも再生成します。`deckart.zip` はGitHub Releaseへ添付します。
 
 公開用Gitメールを使い、`git config core.hooksPath scripts/hooks` で公開情報の検査を有効にできます。CIはGitHubが生成するPR検証用マージコミットも含めて検査します。
 

@@ -4,13 +4,9 @@
   "width": 1254,
   "height": 1254,
   "labels": [],
-  "placement": {
+  "composition": {
     "framing": "object",
-    "facing": "front",
-    "recommended_width_cm": [
-      4,
-      7
-    ]
+    "facing": "front"
   },
   "title": "紙の資料をデータに取り込む",
   "description": "開いたスキャナーに紙資料を置き、パソコン上の文書へ取り込む関係で電子化を表す。",
@@ -31,8 +27,7 @@
     "reading": [
       "開いたスキャナーに載せた紙が、取り込む資料を表す。",
       "隣のパソコン画面の文書が、電子化された情報を表す。"
-    ],
-    "avoid": "文字認識の精度や、電子帳簿保存の要件を満たすことを示さない。"
+    ]
   },
   "generation": {
     "method": "image-generation",
@@ -46,13 +41,14 @@
     "width": 1254,
     "height": 1254
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "illustration/document-digitization",
   "name": "紙の資料をデータに取り込む_情報と業務のイラスト",
   "license": "CC0-1.0",
   "path": "media/illustration/document-digitization.png",
   "metadata_path": "metadata/illustration/document-digitization.json",
-  "search_text": "illustration/document-digitization\n紙の資料をデータに取り込む_情報と業務のイラスト\n紙の資料をデータに取り込む\n紙の資料の電子化、スキャンによる保管、デジタル化する業務の説明。\n紙の資料を読み取り、パソコンで扱える情報にする。\n開いたスキャナーに載せた紙が、取り込む資料を表す。\n隣のパソコン画面の文書が、電子化された情報を表す。\n電子化 紙 資料 取り込み スキャン ペーパーレス document digitization scan\nobject 物 道具 front 正面 [4, 7] ",
+  "preview_has_example_labels": false,
+  "search_text": "illustration/document-digitization\n紙の資料をデータに取り込む_情報と業務のイラスト\n紙の資料をデータに取り込む\n紙の資料の電子化、スキャンによる保管、デジタル化する業務の説明。\n紙の資料を読み取り、パソコンで扱える情報にする。\n開いたスキャナーに載せた紙が、取り込む資料を表す。\n隣のパソコン画面の文書が、電子化された情報を表す。\n電子化 紙 資料 取り込み スキャン ペーパーレス document digitization scan\nobject 物 道具 front 正面",
   "render": {
     "theme": false,
     "labels": false,

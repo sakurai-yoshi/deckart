@@ -4,7 +4,7 @@ from sets.business_icons import _icon
 
 
 def I(key,title,keywords,body,use_case,message,reading):
-    return _icon(key,title+'_製造業務の記号',title,message,keywords,body,use_case,message,reading,'記号は業務の種類を示す。数値、認証取得、測定結果を保証する印には使わない。')
+    return _icon(key,title+'_製造業務の記号',title,message,keywords,body,use_case,message,reading)
 
 
 def make_assets():
@@ -32,7 +32,7 @@ def make_assets():
     out.append(I('material-traceability','材料の履歴追跡','材料 履歴 追跡 トレーサビリティ traceability provenance material',b,'材料と製品の対応や履歴を追える仕組みを示す。','材料から製品へ、製品から材料へ対応をたどれる。',['二枚の記録票が材料と製品の記録を表す。','往復する経路が前後両方向の追跡を表す。']))
     b=path('M76 24C60 15 39 23 34 39L50 35L64 49L59 65C69 63 76 56 79 45L130 96Q139 105 130 114Q122 121 114 113L63 63C51 65 41 58 35 50',PALE,INK,6)
     b+=circle(46,113,29,WHITE,BLUE,6)+path('M46 95V113L59 122',stroke=INK,sw=6)
-    out.append(I('preventive-maintenance','計画保全','保全 保守 点検 定期 予防 maintenance planned preventive',b,'設備の定期点検や計画保全を示す。','故障前に時期を決めて設備を手入れする。',['レンチが保全作業を表す。','時計を添え、実施時期を決めた点検と区別する。']))
+    out.append(I('preventive-maintenance','計画保全','保全 保守 点検 定期 予防 maintenance planned preventive',b,'設備の定期点検や計画保全を示す。','故障前に時期を決めて設備を手入れする。',['レンチが保全作業を表す。','時計は点検を行う時期が決まっていることを表す。']))
     b=rect(18,25,53,43,PALE,4,INK,6)+path('M32 25V42H56V25',stroke=BLUE,sw=5)
     b+=rect(89,92,53,43,WHITE,4,INK,6)+path('M103 92V109H127V92',stroke=BLUE,sw=5)
     b+=path('M89 31H120Q137 31 137 48V63',stroke=BLUE,sw=6)+poly('127,60 137,77 147,60',BLUE)
@@ -64,7 +64,7 @@ def make_assets():
     out.append(I('vibration-monitoring','振動監視','振動 監視 状態 設備 予兆 vibration monitoring condition',b,'回転機器などの状態監視を示す。','設備から発生する振動の変化を確認する。',['軸のある機器と、その下の波形を一組にする。','波形が設備の動きから得られる信号を表す。']))
     b=path('M54 17C44 34 23 52 23 71A31 31 0 0 0 85 71C85 52 64 34 54 17Z',PALE,INK,6)+path('M37 76Q37 87 48 90',stroke=BLUE,sw=5)
     b+=circle(107,111,35,WHITE,INK,6)+path('M85 111A22 22 0 0 1 129 111',stroke=MID,sw=5)+line(107,111,120,96,BLUE,6)+circle(107,111,5,BLUE)
-    out.append(I('humidity-control','湿度管理','湿度 水分 結露 管理 humidity moisture control',b,'湿度条件や防湿保管の項目を示す。','空気中の水分量を確かめて管理する。',['しずくが水分を表す。','計器を添えて湿度を測る行為とする。']))
+    out.append(I('humidity-control','湿度管理','湿度 水分 結露 管理 humidity moisture control',b,'湿度条件や防湿保管の項目を示す。','空気中の水分量を確かめて管理する。',['しずくが水分を表す。','水滴と計器の組み合わせが、湿度を測る行為を表す。']))
     b=rect(46,28,68,57,PALE,5,INK,6)+path('M63 28V17H97V28',stroke=INK,sw=6)
     b+=rect(19,107,122,18,INK,3)+line(31,126,31,145,INK,7)+line(129,126,129,145,INK,7)
     b+=arrow(27,43,27,96,BLUE,6,15)+arrow(133,43,133,96,BLUE,6,15)
@@ -106,7 +106,4 @@ def make_assets():
     b+=line(80,16,80,27,INK,5)+line(48,19,56,29,INK,5)+line(112,19,104,29,INK,5)
     b+=path('M105 115L115 125L135 103',stroke=INK,sw=6)
     out.append(I('package-sealing','封緘確認','封緘 梱包 テープ 開封 防止 sealing package closure',b,'梱包後に封が閉じていることを確認する工程に添える。','荷物の開口を閉じた状態を確認する。',['箱の上端から続く帯が封緘用のテープを表す。','チェックが封の確認という行為を示す。']))
-    for a in out:
-        if a['key'] in ('icon/electrostatic-control','icon/protective-eyewear','icon/hearing-protection','icon/ventilation'):
-            a['guidance']['avoid']='説明資料向けの記号。法令・規格に適合した安全標識や現場掲示の代用には使わない。'
     return out

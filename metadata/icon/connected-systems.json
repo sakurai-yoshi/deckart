@@ -24,11 +24,10 @@
     "reading": [
       "サーバー、端末、雲が接続する対象を表す。",
       "中央の基盤へ続く線がサービス間の連携を表す。"
-    ],
-    "avoid": "通信方向やネットワーク境界を確定する設計図には使わない。"
+    ]
   },
   "kind": "icon",
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "icon/connected-systems",
   "name": "システム構成_サービス連携_データをつなぐ基盤",
   "license": "CC0-1.0",
@@ -41,6 +40,8 @@
   },
   "path": "assets/icon/connected-systems.svg",
   "metadata_path": "metadata/icon/connected-systems.json",
+  "preview_path": "assets/icon/connected-systems.svg",
+  "preview_has_example_labels": false,
   "search_text": "icon/connected-systems\nシステム構成_サービス連携_データをつなぐ基盤\nデータをつなぐ基盤\nシステム同士の接続や共通基盤を紹介する場面。\nサーバー・端末・クラウドを結び、情報を扱う。\nサーバー、端末、雲が接続する対象を表す。\n中央の基盤へ続く線がサービス間の連携を表す。\nシステム サービス連携 接続 データ 基盤 サーバー クラウド system integration connected network",
   "render": {
     "theme": true,

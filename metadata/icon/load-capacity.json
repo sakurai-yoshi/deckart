@@ -22,10 +22,9 @@
     "reading": [
       "中央の重りと下の支持台を対応させる。",
       "左右の下向き矢印が荷重の向きを示す。"
-    ],
-    "avoid": "記号は業務の種類を示す。数値、認証取得、測定結果を保証する印には使わない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "icon/load-capacity",
   "name": "耐荷重_製造業務の記号",
   "license": "CC0-1.0",
@@ -38,6 +37,8 @@
   },
   "path": "assets/icon/load-capacity.svg",
   "metadata_path": "metadata/icon/load-capacity.json",
+  "preview_path": "assets/icon/load-capacity.svg",
+  "preview_has_example_labels": false,
   "search_text": "icon/load-capacity\n耐荷重_製造業務の記号\n耐荷重\n棚や搬送設備の荷重条件を説明する。\n支える面にかかる重量を扱う。\n中央の重りと下の支持台を対応させる。\n左右の下向き矢印が荷重の向きを示す。\n耐荷重 荷重 重量 強度 台 load capacity weight",
   "render": {
     "theme": true,

@@ -24,10 +24,9 @@
     "reading": [
       "重なった二つの吹き出しが双方の発言を表す。",
       "前の吹き出しの点が話している内容を表す。"
-    ],
-    "avoid": "通信の到達や相手の同意を確認した状態としては使わない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "icon/conversation",
   "name": "対話表示_意見を交わす_ふたつの吹き出し",
   "license": "CC0-1.0",
@@ -40,6 +39,8 @@
   },
   "path": "assets/icon/conversation.svg",
   "metadata_path": "metadata/icon/conversation.json",
+  "preview_path": "assets/icon/conversation.svg",
+  "preview_has_example_labels": false,
   "search_text": "icon/conversation\n対話表示_意見を交わす_ふたつの吹き出し\n対話・コミュニケーション\n話し合いや意見交換が必要な場面。\n相手と情報や考えを交わす。\n重なった二つの吹き出しが双方の発言を表す。\n前の吹き出しの点が話している内容を表す。\n対話 会話 連絡 意見 コミュニケーション 相談 communication conversation chat dialogue",
   "render": {
     "theme": true,

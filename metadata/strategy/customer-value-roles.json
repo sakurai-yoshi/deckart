@@ -98,11 +98,10 @@
       "中央は実現したい顧客価値。",
       "内向きの矢印は各役割からの貢献。",
       "外側の双方向の経路は役割間の連携。"
-    ],
-    "avoid": "顧客の行動順序を表すジャーニーマップには使わない。"
+    ]
   },
   "kind": "diagram",
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "strategy/customer-value-roles",
   "name": "顧客中心_価値を支える役割_三部門の協働",
   "license": "CC0-1.0",
@@ -115,6 +114,8 @@
   },
   "path": "assets/strategy/customer-value-roles.svg",
   "metadata_path": "metadata/strategy/customer-value-roles.json",
+  "preview_path": "previews/strategy/customer-value-roles.svg",
+  "preview_has_example_labels": true,
   "search_text": "strategy/customer-value-roles\n顧客中心_価値を支える役割_三部門の協働\n三つの役割で顧客価値を支える\n顧客体験の改善に向け、企画・提供・支援の役割を説明する。\n三つの役割が同じ顧客価値を目指して連携する。\n中央は実現したい顧客価値。\n内向きの矢印は各役割からの貢献。\n外側の双方向の経路は役割間の連携。\n顧客中心 カスタマーセントリック CX 顧客体験 部門連携 価値提供 顧客価値 協働",
   "render": {
     "theme": true,

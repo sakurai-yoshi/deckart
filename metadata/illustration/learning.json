@@ -18,19 +18,14 @@
     "message": "説明を受けて理解を深める。",
     "reading": [
       "同じ本へ向けた二人の視線と説明する手が、知識を教わり理解を深める関係を示します。"
-    ],
-    "avoid": "実在の人物・業務実績・承認や確認の完了を証明する画像としては使えません。"
+    ]
   },
   "labels": [],
   "preview_path": "previews/illustration/learning.png",
-  "placement": {
+  "composition": {
     "framing": "waist-up",
     "facing": "inward",
-    "people_count": 2,
-    "recommended_width_cm": [
-      5,
-      9
-    ]
+    "people_count": 2
   },
   "generation": {
     "method": "image-generation",
@@ -44,13 +39,14 @@
     "width": 1254,
     "height": 1254
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "illustration/learning",
   "name": "教わる_汎用ビジネスの動作",
   "license": "CC0-1.0",
   "path": "media/illustration/learning.png",
   "metadata_path": "metadata/illustration/learning.json",
-  "search_text": "illustration/learning\n教わる_汎用ビジネスの動作\n教わる\n教育、研修、技能・知識の共有の説明に。\n説明を受けて理解を深める。\n同じ本へ向けた二人の視線と説明する手が、知識を教わり理解を深める関係を示します。\n学ぶ 教育 研修 知識 育成 learning training\nwaist-up 上半身 腰上 inward 向かい合う 対話 2  [5, 9] ",
+  "preview_has_example_labels": false,
+  "search_text": "illustration/learning\n教わる_汎用ビジネスの動作\n教わる\n教育、研修、技能・知識の共有の説明に。\n説明を受けて理解を深める。\n同じ本へ向けた二人の視線と説明する手が、知識を教わり理解を深める関係を示します。\n学ぶ 教育 研修 知識 育成 learning training\nwaist-up 上半身 腰上 inward 向かい合う 対話",
   "render": {
     "theme": false,
     "labels": false,

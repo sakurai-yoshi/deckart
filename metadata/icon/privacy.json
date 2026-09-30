@@ -22,10 +22,9 @@
     "reading": [
       "細い行が公開できる内容を表す。",
       "太い帯で伏せた箇所が非公開の内容を表す。"
-    ],
-    "avoid": "匿名化済みや機密対策が完了したことの保証には使わない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "icon/privacy",
   "name": "機密管理_公開する情報を制限する_伏せられた文書",
   "license": "CC0-1.0",
@@ -38,6 +37,8 @@
   },
   "path": "assets/icon/privacy.svg",
   "metadata_path": "metadata/icon/privacy.json",
+  "preview_path": "assets/icon/privacy.svg",
+  "preview_has_example_labels": false,
   "search_text": "icon/privacy\n機密管理_公開する情報を制限する_伏せられた文書\n機密情報\n機密情報や公開範囲を制限する資料を示す。\n情報の一部を許可された相手にだけ見せる。\n細い行が公開できる内容を表す。\n太い帯で伏せた箇所が非公開の内容を表す。\n機密 個人情報 秘密 非公開 マスキング privacy confidential redaction",
   "render": {
     "theme": true,

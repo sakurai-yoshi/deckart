@@ -22,10 +22,9 @@
     "reading": [
       "曲線の層が指紋の固有な模様を表す。",
       "中央へ巻き込む線が一人に対応する特徴を示す。"
-    ],
-    "avoid": "実際の生体情報や特定の認証方式の保証には使わない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "icon/authentication",
   "name": "本人確認_利用者を識別する_指紋",
   "license": "CC0-1.0",
@@ -38,6 +37,8 @@
   },
   "path": "assets/icon/authentication.svg",
   "metadata_path": "metadata/icon/authentication.json",
+  "preview_path": "assets/icon/authentication.svg",
+  "preview_has_example_labels": false,
   "search_text": "icon/authentication\n本人確認_利用者を識別する_指紋\n本人認証\n本人認証やログイン確認の工程を示す。\n利用者の同一性を確かめる。\n曲線の層が指紋の固有な模様を表す。\n中央へ巻き込む線が一人に対応する特徴を示す。\n本人確認 認証 指紋 ログイン identity authentication fingerprint login",
   "render": {
     "theme": true,

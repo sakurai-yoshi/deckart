@@ -1,81 +1,38 @@
 {
-  "title": "薄層の起伏で示す中期方針の表紙",
-  "description": "青と白の薄い層が重なる立体的な起伏を下部から右側に広げ、左上の白い領域に中期方針や改善提案の主題を置く表紙背景。",
+  "title": "薄い青と白の層がつくる起伏",
+  "description": "薄い青と白の層が下部に重なり、右側で大きな起伏をつくる。",
   "kind": "background",
   "category": "11-背景とフレーム",
   "width": 1672,
   "height": 941,
   "keywords": [
-    "表紙",
-    "中期方針",
-    "改善提案",
-    "事業計画",
-    "積み重ね",
-    "薄層",
-    "起伏",
+    "背景",
+    "白",
+    "青",
+    "余白",
     "質感",
+    "background",
+    "薄層",
+    "積層",
+    "起伏",
     "奥行き",
-    "cover",
-    "strategy",
-    "improvement",
-    "proposal",
-    "sculpted",
-    "strata",
+    "下装飾",
+    "右装飾",
+    "上余白",
+    "表紙",
     "layered",
-    "tactile"
+    "strata",
+    "cover"
   ],
   "guidance": {
-    "use_case": "中期方針、改善提案、継続的な取り組みを説明する資料の表紙。",
-    "message": "積み重ねていく取り組みと、これから向かう方向を主題として示す。",
+    "use_case": "方針、提案、成長、継続的な取り組みなど。",
+    "message": "精密な積層と起伏で、積み重ねと広がりの印象を添える。",
     "reading": [
-      "左上の白い領域に大きな2行の題名を置く。",
-      "副題と発表者情報は左側の白い領域に収め、層の造形には重ねない。"
-    ],
-    "avoid": "層の高さや枚数を数値データとして解釈する用途、下部に長い本文や表を置く用途には使わない。"
+      "下部から右側へ、細かな層のうねりが高くなる。",
+      "上部と左側には広い白い面がある。"
+    ]
   },
   "labels": [],
-  "canvas": {
-    "width": 1600,
-    "height": 900
-  },
-  "content_areas": [
-    {
-      "id": "title",
-      "role": "題名",
-      "purpose": "2行の大きな題名を配置する白い領域。",
-      "content_type": "text",
-      "x": 100,
-      "y": 145,
-      "width": 900,
-      "height": 245,
-      "text_color": "#172B4D",
-      "text_align": "left"
-    },
-    {
-      "id": "subtitle",
-      "role": "副題",
-      "purpose": "題名を補足する短い説明を配置する領域。",
-      "content_type": "text",
-      "x": 100,
-      "y": 435,
-      "width": 700,
-      "height": 80,
-      "text_color": "#172B4D",
-      "text_align": "left"
-    },
-    {
-      "id": "footer",
-      "role": "発表者と日付",
-      "purpose": "発表者や日付を短く配置する領域。",
-      "content_type": "text",
-      "x": 100,
-      "y": 600,
-      "width": 400,
-      "height": 45,
-      "text_color": "#172B4D",
-      "text_align": "left"
-    }
-  ],
   "generation": {
     "method": "image-generation",
     "definition_path": "sources/backgrounds.json"
@@ -84,13 +41,18 @@
   "format": "png",
   "mime_type": "image/png",
   "transparent": false,
-  "schema_version": 2,
+  "canvas": {
+    "width": 1672,
+    "height": 941
+  },
+  "schema_version": 3,
   "id": "background/cover-sculpted-strata",
-  "name": "薄層の起伏で示す中期方針の表紙_背景",
+  "name": "薄い青と白の層がつくる起伏_背景",
   "license": "CC0-1.0",
   "path": "media/background/cover-sculpted-strata.png",
   "metadata_path": "metadata/background/cover-sculpted-strata.json",
-  "search_text": "background/cover-sculpted-strata\n薄層の起伏で示す中期方針の表紙_背景\n薄層の起伏で示す中期方針の表紙\n中期方針、改善提案、継続的な取り組みを説明する資料の表紙。\n積み重ねていく取り組みと、これから向かう方向を主題として示す。\n左上の白い領域に大きな2行の題名を置く。\n副題と発表者情報は左側の白い領域に収め、層の造形には重ねない。\n表紙 中期方針 改善提案 事業計画 積み重ね 薄層 起伏 質感 奥行き cover strategy improvement proposal sculpted strata layered tactile",
+  "preview_has_example_labels": false,
+  "search_text": "background/cover-sculpted-strata\n薄い青と白の層がつくる起伏_背景\n薄い青と白の層がつくる起伏\n方針、提案、成長、継続的な取り組みなど。\n精密な積層と起伏で、積み重ねと広がりの印象を添える。\n下部から右側へ、細かな層のうねりが高くなる。\n上部と左側には広い白い面がある。\n背景 白 青 余白 質感 background 薄層 積層 起伏 奥行き 下装飾 右装飾 上余白 表紙 layered strata cover",
   "render": {
     "theme": false,
     "labels": false,

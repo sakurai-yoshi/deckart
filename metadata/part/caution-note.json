@@ -52,11 +52,10 @@
     "message": "実行前に確認する条件がある。",
     "reading": [
       "注意記号で事前確認が必要な欄と分かる。",
-      "見出しの下に具体的な条件を一文で置く。"
-    ],
-    "avoid": "緊急避難や重大事故の警報には使わない。"
+      "見出しの下は、具体的な条件を説明する領域。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "part/caution-note",
   "name": "実行前の条件を明示する_説明パーツ",
   "license": "CC0-1.0",
@@ -69,7 +68,9 @@
   },
   "path": "assets/part/caution-note.svg",
   "metadata_path": "metadata/part/caution-note.json",
-  "search_text": "part/caution-note\n実行前の条件を明示する_説明パーツ\n実行前の条件を明示する\n提案や手順に、実行の前提を添える場面。\n実行前に確認する条件がある。\n注意記号で事前確認が必要な欄と分かる。\n見出しの下に具体的な条件を一文で置く。\n注意 前提 条件 留意点 制約 caution prerequisite condition",
+  "preview_path": "previews/part/caution-note.svg",
+  "preview_has_example_labels": true,
+  "search_text": "part/caution-note\n実行前の条件を明示する_説明パーツ\n実行前の条件を明示する\n提案や手順に、実行の前提を添える場面。\n実行前に確認する条件がある。\n注意記号で事前確認が必要な欄と分かる。\n見出しの下は、具体的な条件を説明する領域。\n注意 前提 条件 留意点 制約 caution prerequisite condition",
   "render": {
     "theme": true,
     "labels": true,

@@ -99,11 +99,10 @@
       "左の円は共通の経営資源。",
       "分岐点から三つの使い道へ進む。",
       "同じ太さの経路は配分の種類を示す。"
-    ],
-    "avoid": "配分比率や投資額のグラフには使わない。"
+    ]
   },
   "kind": "diagram",
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "decision/resource-allocation",
   "name": "経営計画_資源配分の方針_重点維持探索",
   "license": "CC0-1.0",
@@ -116,6 +115,8 @@
   },
   "path": "assets/decision/resource-allocation.svg",
   "metadata_path": "metadata/decision/resource-allocation.json",
+  "preview_path": "previews/decision/resource-allocation.svg",
+  "preview_has_example_labels": true,
   "search_text": "decision/resource-allocation\n経営計画_資源配分の方針_重点維持探索\n資源の使い道を目的で分ける\n事業計画で人員や予算を使う方針を説明する。\n成長・安定・探索の狙いを分けて資源を使う。\n左の円は共通の経営資源。\n分岐点から三つの使い道へ進む。\n同じ太さの経路は配分の種類を示す。\nポートフォリオ 資源配分 経営資源 投資配分 人員配分 重点 維持 探索 事業計画",
   "render": {
     "theme": true,

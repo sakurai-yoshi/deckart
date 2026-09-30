@@ -23,10 +23,9 @@
     "reading": [
       "二つの人物が異なる配置先を表す。",
       "逆向きの矢印が配置の入れ替えを示す。"
-    ],
-    "avoid": "人物の上下位置を役職の高低として使わない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "icon/staff-transfer",
   "name": "配置変更_担当者の異動を示す_人員の入替",
   "license": "CC0-1.0",
@@ -39,6 +38,8 @@
   },
   "path": "assets/icon/staff-transfer.svg",
   "metadata_path": "metadata/icon/staff-transfer.json",
+  "preview_path": "assets/icon/staff-transfer.svg",
+  "preview_has_example_labels": false,
   "search_text": "icon/staff-transfer\n配置変更_担当者の異動を示す_人員の入替\n異動・配置変更\n人事異動や担当の入れ替えを説明する。\n人員の配置が変わる。\n二つの人物が異なる配置先を表す。\n逆向きの矢印が配置の入れ替えを示す。\n異動 配置 転任 人員 交代 staff transfer reassignment rotation",
   "render": {
     "theme": true,

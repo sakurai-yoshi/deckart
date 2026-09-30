@@ -22,10 +22,9 @@
     "reading": [
       "積み重なる筐体がサーバー機器を表す。",
       "各段の点と横線が稼働部を示す。"
-    ],
-    "avoid": "三台の構成や冗長化済みの状態としては使わない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "icon/server",
   "name": "設備表示_処理を提供する_サーバー",
   "license": "CC0-1.0",
@@ -38,6 +37,8 @@
   },
   "path": "assets/icon/server.svg",
   "metadata_path": "metadata/icon/server.json",
+  "preview_path": "assets/icon/server.svg",
+  "preview_has_example_labels": false,
   "search_text": "icon/server\n設備表示_処理を提供する_サーバー\nサーバー\nシステム構成で処理を担う機器を示す。\nサービスを提供する処理基盤がある。\n積み重なる筐体がサーバー機器を表す。\n各段の点と横線が稼働部を示す。\nサーバー 機器 インフラ ホスティング server infrastructure hosting compute",
   "render": {
     "theme": true,

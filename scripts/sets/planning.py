@@ -4,12 +4,12 @@ from vector import path, rect, circle, line, poly, arrow, check, slot, asset
 
 
 def _diagram(key, name, category, title, description, keywords, body, labels,
-             use_case, message, reading, avoid):
+             use_case, message, reading):
     item = asset(name, category, title, description, keywords, body, labels)
     item['key'] = key
     item['kind'] = 'diagram'
     item['guidance'] = dict(use_case=use_case, message=message,
-                            reading=reading, avoid=avoid)
+                            reading=reading)
     return item
 
 
@@ -45,8 +45,7 @@ def risk_response():
         '起こりやすく影響の大きい事象へ、先に対策を用意する。',
         ['横方向は発生しやすさ、縦方向は影響の大きさ。',
          '同じ大きさの九領域に、定性的にリスクを配置する。',
-         '右上の注意記号は、重点的な低減が必要な領域。'],
-        '色の濃さを実際の発生確率や損失額として扱わない。')
+         '右上の注意記号は、重点的な低減が必要な領域。'])
 
 
 def customer_journey():
@@ -88,8 +87,7 @@ def customer_journey():
         '顧客の行動だけでなく、その裏側の業務も一緒に設計する。',
         ['上の横向きの経路は顧客の行動順序。',
          '破線の下は、接点の裏側で行う業務。',
-         '上向きの矢印は、それぞれの業務が支える接点。'],
-        '上の経路を顧客の感情点数や、全顧客に共通する実測行動として扱わない。')
+         '上向きの矢印は、それぞれの業務が支える接点。'])
 
 
 def scenario_response():
@@ -125,8 +123,7 @@ def scenario_response():
         '一つの将来を決め打ちせず、条件ごとの対応を用意する。',
         ['左の共通点から三つの将来へ経路が分かれる。',
          '各経路の丸い節目は、対応を切り替える条件。',
-         '右の領域は、それぞれの条件に対応する打ち手。'],
-        '経路の上下・幅・色を予測確率や売上高として扱わない。')
+         '右の領域は、それぞれの条件に対応する打ち手。'])
 
 
 def outcome_measures():
@@ -161,8 +158,7 @@ def outcome_measures():
         '目標の言葉だけで終えず、観測できる指標まで決める。',
         ['左の円は事業で得たい成果。',
          '中央の二領域は、その成果を構成する要素。',
-         '右の端点は、それぞれの要素を確認する指標。'],
-        '各指標の合計が上位目標になる数式や、因果関係の検証結果として扱わない。')
+         '右の端点は、それぞれの要素を確認する指標。'])
 
 
 def scope_boundary():
@@ -197,8 +193,7 @@ def scope_boundary():
         '要望をそのまま足さず、範囲の入口で合意してから追加する。',
         ['大きな閉じた枠が、今回合意した範囲。',
          '枠の境界にある菱形が、追加要望を判断する入口。',
-         '左の経路は合意して追加し、外側の経路は今回の対象外へ分ける。'],
-        '対象外の要望を永久に却下した決定や、契約内容の証明として扱わない。')
+         '左の経路は合意して追加し、外側の経路は今回の対象外へ分ける。'])
 
 
 def make_assets():

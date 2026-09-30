@@ -22,10 +22,9 @@
     "reading": [
       "下の装置がデータの保存先を表す。",
       "戻る矢印が復旧できる状態を表す。"
-    ],
-    "avoid": "保存の成功や復旧可能性を検証済みの印には使わない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "icon/backup",
   "name": "保全作業_復旧用のデータを保存する_保存装置と戻り",
   "license": "CC0-1.0",
@@ -38,6 +37,8 @@
   },
   "path": "assets/icon/backup.svg",
   "metadata_path": "metadata/icon/backup.json",
+  "preview_path": "assets/icon/backup.svg",
+  "preview_has_example_labels": false,
   "search_text": "icon/backup\n保全作業_復旧用のデータを保存する_保存装置と戻り\nバックアップ\nバックアップや復旧用データの保存を示す。\n元の状態に戻せる控えを残す。\n下の装置がデータの保存先を表す。\n戻る矢印が復旧できる状態を表す。\nバックアップ 保存 復旧 保全 backup restore recovery copy",
   "render": {
     "theme": true,

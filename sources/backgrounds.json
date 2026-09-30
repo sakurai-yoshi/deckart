@@ -1,75 +1,41 @@
 [
   {
     "key": "background/agenda-edge-binding",
-    "title": "青い綴じ構造で論点を束ねる目次",
-    "name": "青い綴じ構造で論点を束ねる目次_背景",
-    "description": "左の精密な綴じ構造を見どころに、右へ議題を縦に整理する。",
+    "title": "白い面を束ねる青い綴じ",
+    "name": "白い面を束ねる青い綴じ_背景",
+    "description": "左端に重なる白い面を青い綴じがつなぎ、右側に白い面が広がる。",
     "kind": "background",
     "category": "11-背景とフレーム",
     "width": 1672,
     "height": 941,
     "keywords": [
+      "背景",
+      "白",
+      "青",
+      "余白",
+      "質感",
+      "background",
+      "紙",
+      "布",
+      "綴じ",
+      "左装飾",
+      "右余白",
       "目次",
-      "議題",
       "アジェンダ",
-      "会議",
-      "論点",
-      "agenda",
-      "contents",
-      "meeting"
+      "見出し",
+      "paper",
+      "binding",
+      "agenda"
     ],
     "guidance": {
-      "use_case": "会議や提案の冒頭で、扱う論点と進める順序を示す。",
-      "message": "複数の議題を一つの流れとして整理する。",
+      "use_case": "目次、説明、提案、会議資料など。",
+      "message": "整った綴じ構造で、複数の話題を束ねる印象を添える。",
       "reading": [
-        "右上に目次の題名、下に4〜6件の議題を縦に配置する。",
-        "青い綴じ部は装飾として残し、項目番号は右の本文領域へ置く。"
-      ],
-      "avoid": "左の綴じ構造を議題数や工程数として読み取らない。"
+        "左端に白い面の重なりと青い織物の綴じがある。",
+        "右側は明るく均一な白い面。"
+      ]
     },
     "labels": [],
-    "canvas": {
-      "width": 1600,
-      "height": 900
-    },
-    "content_areas": [
-      {
-        "id": "title",
-        "role": "目次の題名",
-        "purpose": "目次の題名を配置する白い領域。",
-        "content_type": "text",
-        "x": 520,
-        "y": 95,
-        "width": 960,
-        "height": 110,
-        "text_color": "#172B4D",
-        "text_align": "left"
-      },
-      {
-        "id": "agenda",
-        "role": "議題と所要時間",
-        "purpose": "議題と所要時間を配置する白い領域。",
-        "content_type": "text",
-        "x": 520,
-        "y": 260,
-        "width": 960,
-        "height": 500,
-        "text_color": "#172B4D",
-        "text_align": "left"
-      },
-      {
-        "id": "footer",
-        "role": "日付と会議名",
-        "purpose": "日付と会議名を配置する白い領域。",
-        "content_type": "text",
-        "x": 520,
-        "y": 800,
-        "width": 960,
-        "height": 45,
-        "text_color": "#172B4D",
-        "text_align": "left"
-      }
-    ],
     "source": "media/background/agenda-edge-binding.png",
     "preview_path": "previews/background/agenda-edge-binding.png",
     "generation": {
@@ -79,63 +45,40 @@
   },
   {
     "key": "background/closing-woven-horizon",
-    "title": "織り重なる流れで結びを印象づける背景",
-    "name": "織り重なる流れで結びを印象づける背景_背景",
-    "description": "白と青の繊維の束を編み重ねた流れで、つながりと継続を印象づける。",
+    "title": "白と青の繊維が織り重なる流れ",
+    "name": "白と青の繊維が織り重なる流れ_背景",
+    "description": "白と青の繊維の束が下端を横切り、右端で持ち上がる。",
     "kind": "background",
     "category": "11-背景とフレーム",
     "width": 1672,
     "height": 941,
     "keywords": [
+      "背景",
+      "白",
+      "青",
+      "余白",
+      "質感",
+      "background",
+      "繊維",
+      "織物",
+      "交差",
+      "下装飾",
+      "上余白",
       "結び",
       "まとめ",
-      "次の行動",
-      "協業",
-      "継続",
-      "最終ページ",
-      "closing",
-      "conclusion",
-      "collaboration"
+      "woven",
+      "fibers",
+      "closing"
     ],
     "guidance": {
-      "use_case": "提案の結び、今後の進め方、協業への呼びかけ。",
-      "message": "白と青の繊維の束を編み重ねた流れで、つながりと継続を印象づける。",
+      "use_case": "まとめ、方針、協業、継続的な取り組みなど。",
+      "message": "織り重なる繊維で、つながりと継続を印象づける。",
       "reading": [
-        "上中央に短い結論を置き、その下に次の行動や連絡先を添える。"
-      ],
-      "avoid": "装飾の上に文字や図表を重ねない。"
+        "繊維の束が下部で交差し、右へ流れる。",
+        "上部には広い白い面がある。"
+      ]
     },
     "labels": [],
-    "canvas": {
-      "width": 1600,
-      "height": 900
-    },
-    "content_areas": [
-      {
-        "id": "title",
-        "role": "結論",
-        "purpose": "結論を配置する領域。",
-        "content_type": "text",
-        "x": 275,
-        "y": 115,
-        "width": 1050,
-        "height": 200,
-        "text_color": "#172B4D",
-        "text_align": "center"
-      },
-      {
-        "id": "subtitle",
-        "role": "次の行動と連絡先",
-        "purpose": "次の行動と連絡先を配置する領域。",
-        "content_type": "text",
-        "x": 335,
-        "y": 345,
-        "width": 930,
-        "height": 125,
-        "text_color": "#172B4D",
-        "text_align": "center"
-      }
-    ],
     "source": "media/background/closing-woven-horizon.png",
     "generation": {
       "method": "image-generation",
@@ -149,76 +92,35 @@
     "width": 1672,
     "height": 941,
     "labels": [],
-    "canvas": {
-      "width": 1600,
-      "height": 900
-    },
     "key": "background/comparison-folded-light",
-    "title": "折面の光で二案を分ける背景",
-    "name": "折面の光で二案を分ける背景_背景",
-    "description": "同じ広さの白い面を中央の細い折面で分け、二案を対等に見せる。",
+    "title": "折面の光が広がる白い紙",
+    "name": "折面の光が広がる白い紙_背景",
+    "description": "白い紙の中央に細い谷があり、下端の折面に青い光が見える。",
     "keywords": [
+      "背景",
+      "白",
+      "青",
+      "余白",
+      "質感",
+      "background",
+      "紙",
+      "折り目",
+      "中央の谷",
+      "下装飾",
+      "左右対称",
       "比較",
-      "二案",
-      "選択肢",
-      "並列",
-      "改善施策",
-      "進め方",
-      "導入方式",
-      "方針",
-      "comparison",
-      "alternatives",
-      "options",
-      "parallel",
-      "folded paper"
+      "本文",
+      "folded paper",
+      "comparison"
     ],
     "guidance": {
-      "use_case": "二つの提案、導入方式、改善施策の条件や進め方を並べて説明する本文。",
-      "message": "同じ広さの白い面を中央の細い折面で分け、二案を対等に見せる。",
+      "use_case": "比較、報告、説明、提案など。",
+      "message": "対称に近い白い面と中央の光で、端正な印象を添える。",
       "reading": [
-        "共通の見出しの下に、左案と右案を同じ順序の項目で置く。",
-        "中央の光の溝と下端の折面は空け、左右の説明領域だけを使う。"
-      ],
-      "avoid": "中央の折面へ文字や接続線を重ねない。"
+        "中央の細い谷が下端の折り重なりへ続く。",
+        "左右と上部は明るく、下端に影と青い反射がある。"
+      ]
     },
-    "content_areas": [
-      {
-        "id": "title",
-        "role": "共通見出し",
-        "purpose": "比較の主題を1行で配置する領域。",
-        "content_type": "text",
-        "x": 100,
-        "y": 70,
-        "width": 1400,
-        "height": 100,
-        "text_color": "#172B4D",
-        "text_align": "left"
-      },
-      {
-        "id": "left-option",
-        "role": "左の案",
-        "purpose": "案名、進め方、適する条件などを右と同じ順序で配置する。",
-        "content_type": "text",
-        "x": 100,
-        "y": 230,
-        "width": 620,
-        "height": 480,
-        "text_color": "#172B4D",
-        "text_align": "left"
-      },
-      {
-        "id": "right-option",
-        "role": "右の案",
-        "purpose": "案名、進め方、適する条件などを左と同じ順序で配置する。",
-        "content_type": "text",
-        "x": 880,
-        "y": 230,
-        "width": 620,
-        "height": 480,
-        "text_color": "#172B4D",
-        "text_align": "left"
-      }
-    ],
     "source": "media/background/comparison-folded-light.png",
     "preview_path": "previews/background/comparison-folded-light.png",
     "generation": {
@@ -228,78 +130,40 @@
   },
   {
     "key": "background/cover-prismatic-depth",
-    "title": "屈折する青いガラスで主題を引き立てる表紙",
-    "name": "屈折する青いガラスで主題を引き立てる表紙_背景",
-    "description": "透明な層と光の重なりで、先進性と明瞭さを添える。",
+    "title": "屈折する青いガラスの重なり",
+    "name": "屈折する青いガラスの重なり_背景",
+    "description": "右側に透明なガラスの層が重なり、下部へ青い反射光が広がる。",
     "kind": "background",
     "category": "11-背景とフレーム",
     "width": 1672,
     "height": 941,
     "keywords": [
-      "表紙",
-      "技術",
-      "戦略",
-      "新規事業",
-      "提案",
-      "先進性",
-      "透明",
+      "背景",
+      "白",
+      "青",
+      "余白",
+      "質感",
+      "background",
       "ガラス",
-      "cover",
-      "technology",
-      "strategy",
-      "glass"
+      "透明",
+      "屈折",
+      "右装飾",
+      "左余白",
+      "表紙",
+      "見出し",
+      "glass",
+      "refraction",
+      "cover"
     ],
     "guidance": {
-      "use_case": "技術戦略、新規事業、製品価値を伝える提案書の表紙。",
+      "use_case": "技術、提案、製品価値、見出しなど。",
       "message": "透明な層と光の重なりで、先進性と明瞭さを添える。",
       "reading": [
-        "左の静かな領域に主題と副題を置き、右の立体は見どころとして残す。"
-      ],
-      "avoid": "装飾の上に文字や図表を重ねない。"
+        "透明な立体が右側に集まり、左側は白い面が広い。",
+        "立体の下には青い屈折光と淡い影がある。"
+      ]
     },
     "labels": [],
-    "canvas": {
-      "width": 1600,
-      "height": 900
-    },
-    "content_areas": [
-      {
-        "id": "title",
-        "role": "題名",
-        "purpose": "題名を配置する領域。",
-        "content_type": "text",
-        "x": 100,
-        "y": 165,
-        "width": 600,
-        "height": 275,
-        "text_color": "#172B4D",
-        "text_align": "left"
-      },
-      {
-        "id": "subtitle",
-        "role": "副題",
-        "purpose": "副題を配置する領域。",
-        "content_type": "text",
-        "x": 100,
-        "y": 495,
-        "width": 590,
-        "height": 140,
-        "text_color": "#172B4D",
-        "text_align": "left"
-      },
-      {
-        "id": "footer",
-        "role": "発表者と日付",
-        "purpose": "発表者と日付を反射光より上の白い領域に配置する。",
-        "content_type": "text",
-        "x": 100,
-        "y": 675,
-        "width": 500,
-        "height": 55,
-        "text_color": "#172B4D",
-        "text_align": "left"
-      }
-    ],
     "source": "media/background/cover-prismatic-depth.png",
     "generation": {
       "method": "image-generation",
@@ -309,83 +173,40 @@
   },
   {
     "key": "background/cover-satin-span",
-    "title": "張りのあるサテンで引き立てる改善提案の表紙",
-    "name": "張りのあるサテンで引き立てる改善提案の表紙_背景",
-    "description": "左側の白と青のサテンの張り・たわみ・光沢を大きく見せ、右側の白い領域に題名と副題を置く表紙背景。",
+    "title": "白と青のサテンがつくる張り",
+    "name": "白と青のサテンがつくる張り_背景",
+    "description": "左側に張った白いサテンの大きな曲面があり、裏側に青が見える。",
     "kind": "background",
     "category": "11-背景とフレーム",
     "width": 1672,
     "height": 941,
     "keywords": [
-      "表紙",
-      "改善提案",
-      "価値提案",
-      "品質",
-      "生産性",
+      "背景",
+      "白",
+      "青",
+      "余白",
+      "質感",
+      "background",
       "サテン",
-      "張力",
       "布",
       "光沢",
-      "右寄せ",
-      "cover",
-      "proposal",
+      "張力",
+      "左装飾",
+      "右余白",
+      "表紙",
       "satin",
-      "tension",
-      "span",
-      "tactile"
+      "fabric",
+      "cover"
     ],
     "guidance": {
-      "use_case": "改善提案、価値提案、取り組み方針を説明する資料の表紙。",
-      "message": "提案の主題を、落ち着いた質感と大きな題名で示す。",
+      "use_case": "提案、方針、紹介、見出しなど。",
+      "message": "張りのある布と柔らかな光で、落ち着きと存在感を添える。",
       "reading": [
-        "右側の白い領域に2行の題名と副題を配置する。",
-        "左のサテンを大きな見どころとして残し、発表者情報は右下に置く。"
-      ],
-      "avoid": "左側の布地へ本文・表・細かい注釈を重ねる用途には使わない。"
+        "左側のサテンには曲面に沿う光沢と細かな繊維感がある。",
+        "右側は明るく均一な白い面。"
+      ]
     },
     "labels": [],
-    "canvas": {
-      "width": 1600,
-      "height": 900
-    },
-    "content_areas": [
-      {
-        "id": "title",
-        "role": "題名",
-        "purpose": "題名を配置する白い領域。",
-        "content_type": "text",
-        "x": 850,
-        "y": 180,
-        "width": 650,
-        "height": 250,
-        "text_color": "#172B4D",
-        "text_align": "left"
-      },
-      {
-        "id": "subtitle",
-        "role": "副題",
-        "purpose": "副題を配置する白い領域。",
-        "content_type": "text",
-        "x": 850,
-        "y": 500,
-        "width": 650,
-        "height": 115,
-        "text_color": "#172B4D",
-        "text_align": "left"
-      },
-      {
-        "id": "footer",
-        "role": "発表者と日付",
-        "purpose": "発表者と日付を配置する白い領域。",
-        "content_type": "text",
-        "x": 850,
-        "y": 740,
-        "width": 650,
-        "height": 55,
-        "text_color": "#172B4D",
-        "text_align": "left"
-      }
-    ],
     "source": "media/background/cover-satin-span.png",
     "generation": {
       "method": "image-generation",
@@ -395,84 +216,41 @@
   },
   {
     "key": "background/cover-sculpted-strata",
-    "title": "薄層の起伏で示す中期方針の表紙",
-    "name": "薄層の起伏で示す中期方針の表紙_背景",
-    "description": "青と白の薄い層が重なる立体的な起伏を下部から右側に広げ、左上の白い領域に中期方針や改善提案の主題を置く表紙背景。",
+    "title": "薄い青と白の層がつくる起伏",
+    "name": "薄い青と白の層がつくる起伏_背景",
+    "description": "薄い青と白の層が下部に重なり、右側で大きな起伏をつくる。",
     "kind": "background",
     "category": "11-背景とフレーム",
     "width": 1672,
     "height": 941,
     "keywords": [
-      "表紙",
-      "中期方針",
-      "改善提案",
-      "事業計画",
-      "積み重ね",
-      "薄層",
-      "起伏",
+      "背景",
+      "白",
+      "青",
+      "余白",
       "質感",
+      "background",
+      "薄層",
+      "積層",
+      "起伏",
       "奥行き",
-      "cover",
-      "strategy",
-      "improvement",
-      "proposal",
-      "sculpted",
-      "strata",
+      "下装飾",
+      "右装飾",
+      "上余白",
+      "表紙",
       "layered",
-      "tactile"
+      "strata",
+      "cover"
     ],
     "guidance": {
-      "use_case": "中期方針、改善提案、継続的な取り組みを説明する資料の表紙。",
-      "message": "積み重ねていく取り組みと、これから向かう方向を主題として示す。",
+      "use_case": "方針、提案、成長、継続的な取り組みなど。",
+      "message": "精密な積層と起伏で、積み重ねと広がりの印象を添える。",
       "reading": [
-        "左上の白い領域に大きな2行の題名を置く。",
-        "副題と発表者情報は左側の白い領域に収め、層の造形には重ねない。"
-      ],
-      "avoid": "層の高さや枚数を数値データとして解釈する用途、下部に長い本文や表を置く用途には使わない。"
+        "下部から右側へ、細かな層のうねりが高くなる。",
+        "上部と左側には広い白い面がある。"
+      ]
     },
     "labels": [],
-    "canvas": {
-      "width": 1600,
-      "height": 900
-    },
-    "content_areas": [
-      {
-        "id": "title",
-        "role": "題名",
-        "purpose": "2行の大きな題名を配置する白い領域。",
-        "content_type": "text",
-        "x": 100,
-        "y": 145,
-        "width": 900,
-        "height": 245,
-        "text_color": "#172B4D",
-        "text_align": "left"
-      },
-      {
-        "id": "subtitle",
-        "role": "副題",
-        "purpose": "題名を補足する短い説明を配置する領域。",
-        "content_type": "text",
-        "x": 100,
-        "y": 435,
-        "width": 700,
-        "height": 80,
-        "text_color": "#172B4D",
-        "text_align": "left"
-      },
-      {
-        "id": "footer",
-        "role": "発表者と日付",
-        "purpose": "発表者や日付を短く配置する領域。",
-        "content_type": "text",
-        "x": 100,
-        "y": 600,
-        "width": 400,
-        "height": 45,
-        "text_color": "#172B4D",
-        "text_align": "left"
-      }
-    ],
     "source": "media/background/cover-sculpted-strata.png",
     "generation": {
       "method": "image-generation",
@@ -482,77 +260,40 @@
   },
   {
     "key": "background/evidence-caustic-margin",
-    "title": "右端の光学ガラスで図表を引き立てる背景",
-    "name": "右端の光学ガラスで図表を引き立てる背景_背景",
-    "description": "細い光学ガラスと局所的な反射を右端に置き、左に図表を大きく見せる。",
+    "title": "端にきらめく青い光学ガラス",
+    "name": "端にきらめく青い光学ガラス_背景",
+    "description": "右端の細長いガラスに青い屈折があり、下部に細かな反射光が広がる。",
     "kind": "background",
     "category": "11-背景とフレーム",
     "width": 1672,
     "height": 941,
     "keywords": [
-      "根拠",
+      "背景",
+      "白",
+      "青",
+      "余白",
+      "質感",
+      "background",
+      "ガラス",
+      "屈折",
+      "反射光",
+      "右装飾",
+      "左余白",
+      "本文",
       "図表",
-      "実測",
-      "検証結果",
-      "データ",
-      "効果",
-      "検証",
-      "evidence",
-      "chart",
-      "test result"
+      "glass",
+      "caustics",
+      "chart"
     ],
     "guidance": {
-      "use_case": "試験結果、効果検証、市場データなど一つの大きな図表を示す本文。",
-      "message": "主張を支える根拠を大きく読みやすく示す。",
+      "use_case": "報告、分析、技術、説明など。",
+      "message": "端の透明な質感で、明るく精緻な印象を添える。",
       "reading": [
-        "左上に見出し、中央に実データの図表、左下に要点と出典を置く。",
-        "右下の反射光には注釈や凡例を重ねず、図表の右端を指定領域内に収める。"
-      ],
-      "avoid": "光学模様をデータ系列や区分として説明しない。"
+        "ガラスの造形は右端に集まり、反射光は右下に広がる。",
+        "中央から左には均一な白い面がある。"
+      ]
     },
     "labels": [],
-    "canvas": {
-      "width": 1600,
-      "height": 900
-    },
-    "content_areas": [
-      {
-        "id": "title",
-        "role": "図表の見出し",
-        "purpose": "図表の見出しを配置する白い領域。",
-        "content_type": "text",
-        "x": 100,
-        "y": 80,
-        "width": 1130,
-        "height": 110,
-        "text_color": "#172B4D",
-        "text_align": "left"
-      },
-      {
-        "id": "evidence",
-        "role": "実データの図表",
-        "purpose": "実データの図表を配置する白い領域。",
-        "content_type": "chart",
-        "x": 100,
-        "y": 245,
-        "width": 1100,
-        "height": 380,
-        "text_color": "#172B4D",
-        "text_align": "left"
-      },
-      {
-        "id": "note",
-        "role": "要点と出典",
-        "purpose": "要点と出典を配置する白い領域。",
-        "content_type": "text",
-        "x": 100,
-        "y": 710,
-        "width": 900,
-        "height": 90,
-        "text_color": "#172B4D",
-        "text_align": "left"
-      }
-    ],
     "source": "media/background/evidence-caustic-margin.png",
     "preview_path": "previews/background/evidence-caustic-margin.png",
     "generation": {
@@ -562,76 +303,40 @@
   },
   {
     "key": "background/quote-porcelain-balance",
-    "title": "開いた陶器の造形で顧客の声を引き立てる背景",
-    "name": "開いた陶器の造形で顧客の声を引き立てる背景_背景",
-    "description": "左の白い陶器と青い内面をアクセントに、右へ引用文と出典を置く。",
+    "title": "開いた青い陶器の曲面",
+    "name": "開いた青い陶器の曲面_背景",
+    "description": "左側に白い陶器の弧と丸い台座があり、弧の内側に深い青が見える。",
     "kind": "background",
     "category": "11-背景とフレーム",
     "width": 1672,
     "height": 941,
     "keywords": [
-      "顧客の声",
+      "背景",
+      "白",
+      "青",
+      "余白",
+      "質感",
+      "background",
+      "陶器",
+      "弧",
+      "台座",
+      "左装飾",
+      "右余白",
       "引用",
-      "所感",
-      "インタビュー",
-      "利用者",
-      "課題認識",
-      "quote",
-      "customer voice",
-      "insight"
+      "見出し",
+      "porcelain",
+      "arc",
+      "quote"
     ],
     "guidance": {
-      "use_case": "顧客や利用者の声、関係者の所感、重要な発言を引用して示す場面。",
-      "message": "一人の具体的な言葉や気づきを、読み手の印象に残す。",
+      "use_case": "引用、紹介、要点、提案など。",
+      "message": "開いた弧と台座の組み合わせで、落ち着きと余韻を添える。",
       "reading": [
-        "右側に引用文を2〜4行で配置し、発言者と出典をその下に置く。",
-        "陶器の造形は左側の見どころとして残す。"
-      ],
-      "avoid": "発言者の承諾が必要な引用や機密情報の公開可否は、素材とは別に確認する。"
+        "白い弧が左側で立ち上がり、内側は深い青。",
+        "右側に白い面が広がり、造形の下には淡い影がある。"
+      ]
     },
     "labels": [],
-    "canvas": {
-      "width": 1600,
-      "height": 900
-    },
-    "content_areas": [
-      {
-        "id": "quote",
-        "role": "引用文",
-        "purpose": "引用文を配置する白い領域。",
-        "content_type": "text",
-        "x": 835,
-        "y": 185,
-        "width": 665,
-        "height": 310,
-        "text_color": "#172B4D",
-        "text_align": "left"
-      },
-      {
-        "id": "attribution",
-        "role": "発言者と立場",
-        "purpose": "発言者と立場を配置する白い領域。",
-        "content_type": "text",
-        "x": 835,
-        "y": 555,
-        "width": 665,
-        "height": 85,
-        "text_color": "#172B4D",
-        "text_align": "left"
-      },
-      {
-        "id": "source",
-        "role": "引用の出典",
-        "purpose": "引用の出典を配置する白い領域。",
-        "content_type": "text",
-        "x": 835,
-        "y": 735,
-        "width": 665,
-        "height": 50,
-        "text_color": "#172B4D",
-        "text_align": "left"
-      }
-    ],
     "source": "media/background/quote-porcelain-balance.png",
     "preview_path": "previews/background/quote-porcelain-balance.png",
     "generation": {
@@ -645,77 +350,36 @@
     "width": 1672,
     "height": 941,
     "labels": [],
-    "canvas": {
-      "width": 1600,
-      "height": 900
-    },
     "key": "background/report-embossed-surface",
-    "title": "紙の成形と青い層で報告を支える背景",
-    "name": "紙の成形と青い層で報告を支える背景_背景",
-    "description": "低い隆起と紙の質感で、図表と補足説明を落ち着いて見せる。",
+    "title": "紙の浅い成形と青い縁",
+    "name": "紙の浅い成形と青い縁_背景",
+    "description": "広い白い紙の面に微細な質感があり、下端に浅い成形と青い縁がある。",
     "keywords": [
-      "月次報告",
-      "業務報告",
-      "成果",
-      "課題",
-      "実績",
+      "背景",
+      "白",
+      "青",
+      "余白",
+      "質感",
+      "background",
+      "紙",
+      "成形",
+      "浅い曲面",
+      "下装飾",
+      "本文",
+      "報告",
       "図表",
-      "補足",
-      "品質",
-      "改善",
-      "monthly report",
-      "performance",
-      "chart",
-      "commentary",
-      "embossed paper"
+      "paper",
+      "embossed",
+      "report"
     ],
     "guidance": {
-      "use_case": "月次報告、成果と課題、業務改善の進捗を図表と補足で説明する本文。",
-      "message": "低い隆起と紙の質感で、図表と補足説明を落ち着いて見せる。",
+      "use_case": "報告、説明、図表、業務資料など。",
+      "message": "低い隆起と紙の質感で、穏やかな奥行きを添える。",
       "reading": [
-        "左の広い領域に実データの図表、右に成果・課題・次の行動を置く。",
-        "下端の青い層と浅い成形は余白として残す。"
-      ],
-      "avoid": "曲面が始まる下端に出典や数値を重ねない。"
+        "大部分が低コントラストの白い紙の面。",
+        "下端の曲面に薄い青い層と淡い影がある。"
+      ]
     },
-    "content_areas": [
-      {
-        "id": "title",
-        "role": "見出し",
-        "purpose": "報告の主題を1行で配置する領域。",
-        "content_type": "text",
-        "x": 100,
-        "y": 70,
-        "width": 1300,
-        "height": 100,
-        "text_color": "#172B4D",
-        "text_align": "left"
-      },
-      {
-        "id": "evidence",
-        "role": "図表と出典",
-        "purpose": "実データの図表と出典を配置する。下端を660以内に収める。",
-        "content_type": "chart",
-        "x": 100,
-        "y": 220,
-        "width": 940,
-        "height": 440,
-        "text_color": "#172B4D",
-        "text_align": "left"
-      },
-      {
-        "id": "commentary",
-        "role": "成果と課題",
-        "purpose": "成果、残る課題、次の行動を簡潔に添える領域。",
-        "content_type": "text",
-        "x": 1100,
-        "y": 220,
-        "width": 370,
-        "height": 440,
-        "text_color": "#172B4D",
-        "text_align": "left"
-      }
-    ],
     "source": "media/background/report-embossed-surface.png",
     "preview_path": "previews/background/report-embossed-surface.png",
     "generation": {
@@ -725,76 +389,41 @@
   },
   {
     "key": "background/roadmap-machined-surface",
-    "title": "精密な金属の流れで実行計画を支える背景",
-    "name": "精密な金属の流れで実行計画を支える背景_背景",
-    "description": "下部の連続した精密金属面を見どころに、上部へ実行計画を横に展開する。",
+    "title": "精密な金属面のうねり",
+    "name": "精密な金属面のうねり_背景",
+    "description": "小さな開口が規則的に並ぶ金属面が下端で波打ち、下に青い面が見える。",
     "kind": "background",
     "category": "11-背景とフレーム",
     "width": 1672,
     "height": 941,
     "keywords": [
-      "ロードマップ",
-      "実行計画",
-      "日程",
-      "進め方",
-      "展開計画",
-      "スケジュール",
-      "roadmap",
-      "implementation",
-      "schedule"
+      "背景",
+      "白",
+      "青",
+      "余白",
+      "質感",
+      "background",
+      "金属",
+      "開口",
+      "曲面",
+      "規則的",
+      "下装飾",
+      "上余白",
+      "本文",
+      "計画",
+      "metal",
+      "perforated",
+      "plan"
     ],
     "guidance": {
-      "use_case": "改善活動や導入プロジェクトの段階・予定・担当を横長に示す本文。",
-      "message": "時間の流れと実行内容を一つの視野で示す。",
+      "use_case": "計画、技術、工程、報告など。",
+      "message": "精密な繰り返しと滑らかな曲面で、整然とした動きを添える。",
       "reading": [
-        "上部に計画の題名、中央の白い領域に実際の日程と担当を配置する。",
-        "下部の金属面は装飾として残し、工程の矢印や進捗には使わない。"
-      ],
-      "avoid": "金属の穴や起伏の数を工程数や数値として説明しない。"
+        "金属の開口と陰影が下端に沿って横へ続く。",
+        "上部から中央には広い白い面がある。"
+      ]
     },
     "labels": [],
-    "canvas": {
-      "width": 1600,
-      "height": 900
-    },
-    "content_areas": [
-      {
-        "id": "title",
-        "role": "計画の見出し",
-        "purpose": "計画の見出しを配置する白い領域。",
-        "content_type": "text",
-        "x": 100,
-        "y": 70,
-        "width": 1400,
-        "height": 105,
-        "text_color": "#172B4D",
-        "text_align": "left"
-      },
-      {
-        "id": "plan",
-        "role": "段階と日程",
-        "purpose": "段階と日程を配置する白い領域。",
-        "content_type": "chart",
-        "x": 100,
-        "y": 225,
-        "width": 1400,
-        "height": 270,
-        "text_color": "#172B4D",
-        "text_align": "left"
-      },
-      {
-        "id": "note",
-        "role": "担当と前提",
-        "purpose": "担当と前提を配置する白い領域。",
-        "content_type": "text",
-        "x": 100,
-        "y": 505,
-        "width": 1200,
-        "height": 40,
-        "text_color": "#172B4D",
-        "text_align": "left"
-      }
-    ],
     "source": "media/background/roadmap-machined-surface.png",
     "preview_path": "previews/background/roadmap-machined-surface.png",
     "generation": {
@@ -804,76 +433,41 @@
   },
   {
     "key": "background/section-ceramic-aperture",
-    "title": "白い精密な曲面で章の切り替えを示す背景",
-    "name": "白い精密な曲面で章の切り替えを示す背景_背景",
-    "description": "深い青へ続く大きな開口部で、次の論点へ視線を導く。",
+    "title": "深い青へ続く白い開口",
+    "name": "深い青へ続く白い開口_背景",
+    "description": "右上に重なる白い曲面の開口があり、奥へ続く青い空間が見える。",
     "kind": "background",
     "category": "11-背景とフレーム",
     "width": 1672,
     "height": 941,
     "keywords": [
-      "章扉",
-      "章見出し",
-      "技術",
-      "品質",
-      "実行計画",
-      "精密",
+      "背景",
+      "白",
+      "青",
+      "余白",
+      "質感",
+      "background",
+      "陶器",
+      "開口",
       "曲面",
-      "section",
-      "chapter",
-      "precision"
+      "奥行き",
+      "右装飾",
+      "左余白",
+      "章扉",
+      "見出し",
+      "ceramic",
+      "aperture",
+      "chapter"
     ],
     "guidance": {
-      "use_case": "技術課題、品質改善、実行計画などの章扉。",
-      "message": "深い青へ続く大きな開口部で、次の論点へ視線を導く。",
+      "use_case": "章の導入、主題、技術、見出しなど。",
+      "message": "曲面の奥行きで、新しい話題への広がりを添える。",
       "reading": [
-        "左に章番号と1行7〜8文字・2行程度の章題を置く。補足は下にまとめる。"
-      ],
-      "avoid": "長文や図表を多く載せる本文には使わない。"
+        "大きな開口と青い奥行きが右側にある。",
+        "左側は淡い陰影の白い面。"
+      ]
     },
     "labels": [],
-    "canvas": {
-      "width": 1600,
-      "height": 900
-    },
-    "content_areas": [
-      {
-        "id": "number",
-        "role": "章番号",
-        "purpose": "章番号を配置する領域。",
-        "content_type": "text",
-        "x": 100,
-        "y": 145,
-        "width": 465,
-        "height": 110,
-        "text_color": "#172B4D",
-        "text_align": "left"
-      },
-      {
-        "id": "title",
-        "role": "章題",
-        "purpose": "章題を配置する領域。",
-        "content_type": "text",
-        "x": 100,
-        "y": 295,
-        "width": 480,
-        "height": 230,
-        "text_color": "#172B4D",
-        "text_align": "left"
-      },
-      {
-        "id": "subtitle",
-        "role": "補足",
-        "purpose": "補足を配置する領域。",
-        "content_type": "text",
-        "x": 100,
-        "y": 595,
-        "width": 465,
-        "height": 115,
-        "text_color": "#172B4D",
-        "text_align": "left"
-      }
-    ],
     "source": "media/background/section-ceramic-aperture.png",
     "generation": {
       "method": "image-generation",
@@ -883,83 +477,41 @@
   },
   {
     "key": "background/section-lightwell",
-    "title": "青い間接光で次の章へ導く章扉",
-    "name": "青い間接光で次の章へ導く章扉_背景",
-    "description": "白い浅い彫り面と段差に青い間接光を反射させ、上部から中央の白い領域に短い章題を置く章扉背景。",
+    "title": "白い段差に沿う青い間接光",
+    "name": "白い段差に沿う青い間接光_背景",
+    "description": "下部の白い段差に沿って青い間接光が広がる。",
     "kind": "background",
     "category": "11-背景とフレーム",
     "width": 1672,
     "height": 941,
     "keywords": [
-      "章扉",
-      "導入",
-      "切り替え",
-      "次の章",
-      "中央揃え",
+      "背景",
+      "白",
+      "青",
+      "余白",
+      "質感",
+      "background",
+      "段差",
       "間接光",
       "光庭",
-      "段差",
       "奥行き",
-      "section",
-      "divider",
+      "下装飾",
+      "上余白",
+      "章扉",
+      "導入",
       "lightwell",
-      "indirect",
-      "light",
-      "relief",
-      "centered"
+      "indirect light",
+      "section"
     ],
     "guidance": {
-      "use_case": "資料の章の切り替え、次の取り組みや検討テーマの導入。",
-      "message": "新しい章の主題を、短い題名と導入文で明確に示す。",
+      "use_case": "章の導入、方針、主題、まとめなど。",
+      "message": "水平な層と青い光で、落ち着きと奥行きを添える。",
       "reading": [
-        "上部中央に章番号、中央に短い章題を配置する。",
-        "導入文は題名の下へ中央揃えで置き、下部の光庭には文字を重ねない。"
-      ],
-      "avoid": "下部の段差を工程数や優先順位の図として解釈する用途には使わない。"
+        "下端の層が中央へ向かって低くなり、青い光を囲む。",
+        "上部から中央には広い白い面がある。"
+      ]
     },
     "labels": [],
-    "canvas": {
-      "width": 1600,
-      "height": 900
-    },
-    "content_areas": [
-      {
-        "id": "number",
-        "role": "章番号",
-        "purpose": "章番号を配置する白い領域。",
-        "content_type": "text",
-        "x": 500,
-        "y": 95,
-        "width": 600,
-        "height": 85,
-        "text_color": "#172B4D",
-        "text_align": "center"
-      },
-      {
-        "id": "title",
-        "role": "章題",
-        "purpose": "章題を配置する白い領域。",
-        "content_type": "text",
-        "x": 250,
-        "y": 245,
-        "width": 1100,
-        "height": 140,
-        "text_color": "#172B4D",
-        "text_align": "center"
-      },
-      {
-        "id": "lead",
-        "role": "導入文",
-        "purpose": "導入文を配置する白い領域。",
-        "content_type": "text",
-        "x": 350,
-        "y": 425,
-        "width": 900,
-        "height": 110,
-        "text_color": "#172B4D",
-        "text_align": "center"
-      }
-    ],
     "source": "media/background/section-lightwell.png",
     "generation": {
       "method": "image-generation",
@@ -969,64 +521,41 @@
   },
   {
     "key": "background/statement-open-arc",
-    "title": "開いた弧で方針宣言を引き立てる背景",
-    "name": "開いた弧で方針宣言を引き立てる背景_背景",
-    "description": "白と青の大きな開いた弧で、中央の短い方針宣言を受け止める。",
+    "title": "白と青の開いた弧",
+    "name": "白と青の開いた弧_背景",
+    "description": "下端を横切る白い弧の内側に青が見え、両端が左右で立ち上がる。",
     "kind": "background",
     "category": "11-背景とフレーム",
     "width": 1672,
     "height": 941,
     "keywords": [
+      "背景",
+      "白",
+      "青",
+      "余白",
+      "質感",
+      "background",
+      "陶器",
+      "弧",
+      "曲面",
+      "下装飾",
+      "上余白",
+      "見出し",
+      "要点",
       "方針",
-      "目的",
-      "ビジョン",
-      "宣言",
-      "重点方針",
-      "共通目標",
-      "statement",
-      "vision",
-      "commitment"
+      "porcelain",
+      "open arc",
+      "statement"
     ],
     "guidance": {
-      "use_case": "品質方針、共通目標、重点施策の要点を一文で印象づける場面。",
-      "message": "資料を通じて伝える中心的な主張を一つに絞る。",
+      "use_case": "方針、目標、要点、まとめなど。",
+      "message": "開いた弧で、中央の広がりと穏やかなまとまりを添える。",
       "reading": [
-        "中央に1〜2行の短い方針、その下に補足を中央揃えで配置する。",
-        "下部の弧と左右の端には本文を重ねない。"
-      ],
-      "avoid": "多数の箇条書きや複雑な数値グラフを載せる本文には使わない。"
+        "白い弧と青い内側の縁が下部から左右の端へ続く。",
+        "上部と中央は明るく広い白い面。"
+      ]
     },
     "labels": [],
-    "canvas": {
-      "width": 1600,
-      "height": 900
-    },
-    "content_areas": [
-      {
-        "id": "title",
-        "role": "方針宣言",
-        "purpose": "方針宣言を配置する白い領域。",
-        "content_type": "text",
-        "x": 230,
-        "y": 170,
-        "width": 1140,
-        "height": 220,
-        "text_color": "#172B4D",
-        "text_align": "center"
-      },
-      {
-        "id": "lead",
-        "role": "方針の補足",
-        "purpose": "方針の補足を配置する白い領域。",
-        "content_type": "text",
-        "x": 350,
-        "y": 455,
-        "width": 900,
-        "height": 105,
-        "text_color": "#172B4D",
-        "text_align": "center"
-      }
-    ],
     "source": "media/background/statement-open-arc.png",
     "preview_path": "previews/background/statement-open-arc.png",
     "generation": {
@@ -1036,76 +565,41 @@
   },
   {
     "key": "background/workshop-paper-canopy",
-    "title": "紙のひさしの下に議論を広げる背景",
-    "name": "紙のひさしの下に議論を広げる背景_背景",
-    "description": "上部の折り紙の構造をアクセントに、下の広い白地へ検討内容を横に展開する。",
+    "title": "上端に連なる白と青の折り紙",
+    "name": "上端に連なる白と青の折り紙_背景",
+    "description": "上端の白い折り紙の曲面に青い裏面が見え、その下へ白い面が広がる。",
     "kind": "background",
     "category": "11-背景とフレーム",
     "width": 1672,
     "height": 941,
     "keywords": [
+      "背景",
+      "白",
+      "青",
+      "余白",
+      "質感",
+      "background",
+      "紙",
+      "折り目",
+      "曲面",
+      "上装飾",
+      "下余白",
+      "本文",
+      "比較",
       "議論",
-      "検討",
-      "ワークショップ",
-      "課題整理",
-      "論点整理",
-      "アイデア",
-      "workshop",
-      "discussion",
-      "question"
+      "paper",
+      "canopy",
+      "discussion"
     ],
     "guidance": {
-      "use_case": "検討会やワークショップで、共通の問いと複数の検討項目を提示する本文。",
-      "message": "同じ問いに対する論点を横並びで比較し、議論を促す。",
+      "use_case": "議論、検討、説明、比較など。",
+      "message": "紙の折り重なりで、軽やかな奥行きを添える。",
       "reading": [
-        "折り紙の下に共通の問いを置き、その下の広い領域に論点を並べる。",
-        "紙の折り目は項目の境界に使わず、項目数は必要に応じて決める。"
-      ],
-      "avoid": "上端の折り紙へ見出しや小さな番号を重ねない。"
+        "折り紙の造形と影は上端に集まる。",
+        "中央から下部には広い白い面がある。"
+      ]
     },
     "labels": [],
-    "canvas": {
-      "width": 1600,
-      "height": 900
-    },
-    "content_areas": [
-      {
-        "id": "title",
-        "role": "共通の問い",
-        "purpose": "共通の問いを配置する白い領域。",
-        "content_type": "text",
-        "x": 100,
-        "y": 310,
-        "width": 1400,
-        "height": 105,
-        "text_color": "#172B4D",
-        "text_align": "left"
-      },
-      {
-        "id": "discussion",
-        "role": "論点と検討内容",
-        "purpose": "論点と検討内容を配置する白い領域。",
-        "content_type": "text",
-        "x": 100,
-        "y": 485,
-        "width": 1400,
-        "height": 310,
-        "text_color": "#172B4D",
-        "text_align": "left"
-      },
-      {
-        "id": "footer",
-        "role": "進め方と時間",
-        "purpose": "進め方と時間を配置する白い領域。",
-        "content_type": "text",
-        "x": 100,
-        "y": 825,
-        "width": 1400,
-        "height": 40,
-        "text_color": "#172B4D",
-        "text_align": "left"
-      }
-    ],
     "source": "media/background/workshop-paper-canopy.png",
     "preview_path": "previews/background/workshop-paper-canopy.png",
     "generation": {

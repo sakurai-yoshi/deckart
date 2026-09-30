@@ -21,10 +21,9 @@
     "reading": [
       "円周に沿う二つの矢印が更新の往復を表す。",
       "一周する経路が繰り返し同期することを表す。"
-    ],
-    "avoid": "同期完了や無停止の稼働状態を保証する印には使わない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "icon/synchronization",
   "name": "同期処理_情報の状態をそろえる_双方向の循環",
   "license": "CC0-1.0",
@@ -37,6 +36,8 @@
   },
   "path": "assets/icon/synchronization.svg",
   "metadata_path": "metadata/icon/synchronization.json",
+  "preview_path": "assets/icon/synchronization.svg",
+  "preview_has_example_labels": false,
   "search_text": "icon/synchronization\n同期処理_情報の状態をそろえる_双方向の循環\n同期\n端末間やシステム間の同期処理を示す。\n双方の情報を同じ状態へ更新する。\n円周に沿う二つの矢印が更新の往復を表す。\n一周する経路が繰り返し同期することを表す。\n同期 更新 双方向 データ sync synchronization refresh",
   "render": {
     "theme": true,

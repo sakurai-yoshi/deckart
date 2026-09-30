@@ -21,10 +21,9 @@
     "reading": [
       "広い二つのレンズが保護眼鏡を表す。",
       "両側のつるが装着する用具であることを示す。"
-    ],
-    "avoid": "説明資料向けの記号。法令・規格に適合した安全標識や現場掲示の代用には使わない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "icon/protective-eyewear",
   "name": "保護眼鏡_製造業務の記号",
   "license": "CC0-1.0",
@@ -37,6 +36,8 @@
   },
   "path": "assets/icon/protective-eyewear.svg",
   "metadata_path": "metadata/icon/protective-eyewear.json",
+  "preview_path": "assets/icon/protective-eyewear.svg",
+  "preview_has_example_labels": false,
   "search_text": "icon/protective-eyewear\n保護眼鏡_製造業務の記号\n保護眼鏡\n必要な保護具を説明する資料で目の保護を示す。\n作業時の目を保護する。\n広い二つのレンズが保護眼鏡を表す。\n両側のつるが装着する用具であることを示す。\n保護眼鏡 目 安全 保護具 goggles eyewear protection",
   "render": {
     "theme": true,

@@ -66,11 +66,10 @@
     "message": "この資料での言葉の意味をそろえる。",
     "reading": [
       "左の一語を右の説明で定義する。",
-      "説明には何を含み、何と区別するかを添える。"
-    ],
-    "avoid": "組織内の定義を一般的な標準定義として扱う用途には使わない。"
+      "説明の領域は、用語の意味や範囲を表す。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "part/term-definition",
   "name": "用語と定義を対応させる_説明パーツ",
   "license": "CC0-1.0",
@@ -83,7 +82,9 @@
   },
   "path": "assets/part/term-definition.svg",
   "metadata_path": "metadata/part/term-definition.json",
-  "search_text": "part/term-definition\n用語と定義を対応させる_説明パーツ\n用語と定義を対応させる\n専門用語や社内用語を初めて説明する場面。\nこの資料での言葉の意味をそろえる。\n左の一語を右の説明で定義する。\n説明には何を含み、何と区別するかを添える。\n用語 定義 意味 共通認識 glossary definition term",
+  "preview_path": "previews/part/term-definition.svg",
+  "preview_has_example_labels": true,
+  "search_text": "part/term-definition\n用語と定義を対応させる_説明パーツ\n用語と定義を対応させる\n専門用語や社内用語を初めて説明する場面。\nこの資料での言葉の意味をそろえる。\n左の一語を右の説明で定義する。\n説明の領域は、用語の意味や範囲を表す。\n用語 定義 意味 共通認識 glossary definition term",
   "render": {
     "theme": true,
     "labels": true,

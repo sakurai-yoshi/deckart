@@ -52,10 +52,9 @@
     "reading": [
       "上の細い線が本文との境界を示す。",
       "参照番号と情報源を横に対応させる。"
-    ],
-    "avoid": "本文の参照番号と異なる出典を付ける用途には使わない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "part/source-footnote",
   "name": "本文と出典を脚注で区切る_説明パーツ",
   "license": "CC0-1.0",
@@ -68,6 +67,8 @@
   },
   "path": "assets/part/source-footnote.svg",
   "metadata_path": "metadata/part/source-footnote.json",
+  "preview_path": "previews/part/source-footnote.svg",
+  "preview_has_example_labels": true,
   "search_text": "part/source-footnote\n本文と出典を脚注で区切る_説明パーツ\n本文と出典を脚注で区切る\n図表や文章の下に情報源を明示する場面。\n本文の参照番号から根拠を確認できる。\n上の細い線が本文との境界を示す。\n参照番号と情報源を横に対応させる。\n脚注 出典 参照番号 情報源 footnote citation reference",
   "render": {
     "theme": true,

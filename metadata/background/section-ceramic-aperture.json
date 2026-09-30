@@ -1,73 +1,38 @@
 {
-  "title": "白い精密な曲面で章の切り替えを示す背景",
-  "description": "深い青へ続く大きな開口部で、次の論点へ視線を導く。",
+  "title": "深い青へ続く白い開口",
+  "description": "右上に重なる白い曲面の開口があり、奥へ続く青い空間が見える。",
   "kind": "background",
   "category": "11-背景とフレーム",
   "width": 1672,
   "height": 941,
   "keywords": [
-    "章扉",
-    "章見出し",
-    "技術",
-    "品質",
-    "実行計画",
-    "精密",
+    "背景",
+    "白",
+    "青",
+    "余白",
+    "質感",
+    "background",
+    "陶器",
+    "開口",
     "曲面",
-    "section",
-    "chapter",
-    "precision"
+    "奥行き",
+    "右装飾",
+    "左余白",
+    "章扉",
+    "見出し",
+    "ceramic",
+    "aperture",
+    "chapter"
   ],
   "guidance": {
-    "use_case": "技術課題、品質改善、実行計画などの章扉。",
-    "message": "深い青へ続く大きな開口部で、次の論点へ視線を導く。",
+    "use_case": "章の導入、主題、技術、見出しなど。",
+    "message": "曲面の奥行きで、新しい話題への広がりを添える。",
     "reading": [
-      "左に章番号と1行7〜8文字・2行程度の章題を置く。補足は下にまとめる。"
-    ],
-    "avoid": "長文や図表を多く載せる本文には使わない。"
+      "大きな開口と青い奥行きが右側にある。",
+      "左側は淡い陰影の白い面。"
+    ]
   },
   "labels": [],
-  "canvas": {
-    "width": 1600,
-    "height": 900
-  },
-  "content_areas": [
-    {
-      "id": "number",
-      "role": "章番号",
-      "purpose": "章番号を配置する領域。",
-      "content_type": "text",
-      "x": 100,
-      "y": 145,
-      "width": 465,
-      "height": 110,
-      "text_color": "#172B4D",
-      "text_align": "left"
-    },
-    {
-      "id": "title",
-      "role": "章題",
-      "purpose": "章題を配置する領域。",
-      "content_type": "text",
-      "x": 100,
-      "y": 295,
-      "width": 480,
-      "height": 230,
-      "text_color": "#172B4D",
-      "text_align": "left"
-    },
-    {
-      "id": "subtitle",
-      "role": "補足",
-      "purpose": "補足を配置する領域。",
-      "content_type": "text",
-      "x": 100,
-      "y": 595,
-      "width": 465,
-      "height": 115,
-      "text_color": "#172B4D",
-      "text_align": "left"
-    }
-  ],
   "generation": {
     "method": "image-generation",
     "definition_path": "sources/backgrounds.json"
@@ -76,13 +41,18 @@
   "format": "png",
   "mime_type": "image/png",
   "transparent": false,
-  "schema_version": 2,
+  "canvas": {
+    "width": 1672,
+    "height": 941
+  },
+  "schema_version": 3,
   "id": "background/section-ceramic-aperture",
-  "name": "白い精密な曲面で章の切り替えを示す背景_背景",
+  "name": "深い青へ続く白い開口_背景",
   "license": "CC0-1.0",
   "path": "media/background/section-ceramic-aperture.png",
   "metadata_path": "metadata/background/section-ceramic-aperture.json",
-  "search_text": "background/section-ceramic-aperture\n白い精密な曲面で章の切り替えを示す背景_背景\n白い精密な曲面で章の切り替えを示す背景\n技術課題、品質改善、実行計画などの章扉。\n深い青へ続く大きな開口部で、次の論点へ視線を導く。\n左に章番号と1行7〜8文字・2行程度の章題を置く。補足は下にまとめる。\n章扉 章見出し 技術 品質 実行計画 精密 曲面 section chapter precision",
+  "preview_has_example_labels": false,
+  "search_text": "background/section-ceramic-aperture\n深い青へ続く白い開口_背景\n深い青へ続く白い開口\n章の導入、主題、技術、見出しなど。\n曲面の奥行きで、新しい話題への広がりを添える。\n大きな開口と青い奥行きが右側にある。\n左側は淡い陰影の白い面。\n背景 白 青 余白 質感 background 陶器 開口 曲面 奥行き 右装飾 左余白 章扉 見出し ceramic aperture chapter",
   "render": {
     "theme": false,
     "labels": false,

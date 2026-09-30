@@ -4,13 +4,9 @@
   "width": 1254,
   "height": 1254,
   "labels": [],
-  "placement": {
+  "composition": {
     "framing": "object",
-    "facing": "front",
-    "recommended_width_cm": [
-      4,
-      7
-    ]
+    "facing": "front"
   },
   "title": "データの控えを別の装置に残す",
   "description": "同じ文書の印を持つパソコンと外部保存装置をケーブルで結び、別の場所に控えを保存する関係を表す。",
@@ -31,8 +27,7 @@
     "reading": [
       "パソコンと外部装置に共通する文書の印が、同じデータの控えを表す。",
       "二つの機器をつなぐケーブルが、保存先への接続を表す。"
-    ],
-    "avoid": "バックアップ完了、復元成功、保存の安全性を保証する表示には使わない。"
+    ]
   },
   "generation": {
     "method": "image-generation",
@@ -46,13 +41,14 @@
     "width": 1254,
     "height": 1254
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "illustration/data-backup",
   "name": "データの控えを別の装置に残す_情報と業務のイラスト",
   "license": "CC0-1.0",
   "path": "media/illustration/data-backup.png",
   "metadata_path": "metadata/illustration/data-backup.json",
-  "search_text": "illustration/data-backup\nデータの控えを別の装置に残す_情報と業務のイラスト\nデータの控えを別の装置に残す\nデータのバックアップ、紛失への備え、復旧用データの保管の説明。\n元のデータとは別の保存先に控えを用意する。\nパソコンと外部装置に共通する文書の印が、同じデータの控えを表す。\n二つの機器をつなぐケーブルが、保存先への接続を表す。\nデータ バックアップ 保存 複製 復旧 外部ストレージ data backup storage\nobject 物 道具 front 正面 [4, 7] ",
+  "preview_has_example_labels": false,
+  "search_text": "illustration/data-backup\nデータの控えを別の装置に残す_情報と業務のイラスト\nデータの控えを別の装置に残す\nデータのバックアップ、紛失への備え、復旧用データの保管の説明。\n元のデータとは別の保存先に控えを用意する。\nパソコンと外部装置に共通する文書の印が、同じデータの控えを表す。\n二つの機器をつなぐケーブルが、保存先への接続を表す。\nデータ バックアップ 保存 複製 復旧 外部ストレージ data backup storage\nobject 物 道具 front 正面",
   "render": {
     "theme": false,
     "labels": false,

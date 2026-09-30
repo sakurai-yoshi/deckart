@@ -101,11 +101,10 @@
       "中央が全体を調整する役割。",
       "周囲の丸が連携する担当。",
       "対になった矢印が情報と判断の往復。"
-    ],
-    "avoid": "上下の指揮命令系統を示す組織図として使わない。"
+    ]
   },
   "kind": "diagram",
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "relation/coordination-hub",
   "name": "組織連携_調整役を中心に情報と判断を往復する_役割のハブ",
   "license": "CC0-1.0",
@@ -118,6 +117,8 @@
   },
   "path": "assets/relation/coordination-hub.svg",
   "metadata_path": "metadata/relation/coordination-hub.json",
+  "preview_path": "previews/relation/coordination-hub.svg",
+  "preview_has_example_labels": true,
   "search_text": "relation/coordination-hub\n組織連携_調整役を中心に情報と判断を往復する_役割のハブ\n調整役を中心に情報と判断を往復する\n部門横断のプロジェクトでPMOや調整担当の役割を共有する。\n調整役が情報を集め、判断を各担当へ返す。\n中央が全体を調整する役割。\n周囲の丸が連携する担当。\n対になった矢印が情報と判断の往復。\n調整役 ハブ PMO 部門連携 情報共有 司令塔 コーディネーション",
   "render": {
     "theme": true,

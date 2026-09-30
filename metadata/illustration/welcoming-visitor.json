@@ -21,19 +21,14 @@
     "reading": [
       "来客に向けた視線が、迎える相手を示す。",
       "右へ開いた手のひらが、次に進む方向を示す。"
-    ],
-    "avoid": "実在の人物・業務実績・承認や確認の完了を証明する画像としては使えません。"
+    ]
   },
   "labels": [],
   "preview_path": "previews/illustration/welcoming-visitor.png",
-  "placement": {
+  "composition": {
     "framing": "waist-up",
     "facing": "right",
-    "people_count": 2,
-    "recommended_width_cm": [
-      5,
-      9
-    ]
+    "people_count": 2
   },
   "generation": {
     "method": "image-generation",
@@ -46,13 +41,14 @@
     "width": 1254,
     "height": 1254
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "illustration/welcoming-visitor",
   "name": "相手を迎えて案内する_汎用ビジネスの動作",
   "license": "CC0-1.0",
   "path": "media/illustration/welcoming-visitor.png",
   "metadata_path": "metadata/illustration/welcoming-visitor.json",
-  "search_text": "illustration/welcoming-visitor\n相手を迎えて案内する_汎用ビジネスの動作\n相手を迎えて案内する\n来客対応、導入案内、説明の始まりを伝える。\n相手を迎え、次の行動へ案内する。\n来客に向けた視線が、迎える相手を示す。\n右へ開いた手のひらが、次に進む方向を示す。\n案内 来客 歓迎 導入 迎える 接遇 welcome guidance\nwaist-up 上半身 腰上 right 右向き 2  [5, 9] ",
+  "preview_has_example_labels": false,
+  "search_text": "illustration/welcoming-visitor\n相手を迎えて案内する_汎用ビジネスの動作\n相手を迎えて案内する\n来客対応、導入案内、説明の始まりを伝える。\n相手を迎え、次の行動へ案内する。\n来客に向けた視線が、迎える相手を示す。\n右へ開いた手のひらが、次に進む方向を示す。\n案内 来客 歓迎 導入 迎える 接遇 welcome guidance\nwaist-up 上半身 腰上 right 右向き",
   "render": {
     "theme": false,
     "labels": false,

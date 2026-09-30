@@ -132,11 +132,10 @@
       "最上段が目指す成果や方針。",
       "中段が実現に必要な重点領域。",
       "下段が各領域を進める具体的な活動。"
-    ],
-    "avoid": "所属や人数を表す組織図として使わない。"
+    ]
   },
   "kind": "diagram",
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "relation/strategy-cascade",
   "name": "戦略実行_方針を重点領域と実務へ落とす_戦略の展開",
   "license": "CC0-1.0",
@@ -149,6 +148,8 @@
   },
   "path": "assets/relation/strategy-cascade.svg",
   "metadata_path": "metadata/relation/strategy-cascade.json",
+  "preview_path": "previews/relation/strategy-cascade.svg",
+  "preview_has_example_labels": true,
   "search_text": "relation/strategy-cascade\n戦略実行_方針を重点領域と実務へ落とす_戦略の展開\n方針を重点領域と実務へ落とす\n経営方針を重点施策と現場の活動に結びつける。\n日々の活動が、どの重点領域と経営方針につながるかを示す。\n最上段が目指す成果や方針。\n中段が実現に必要な重点領域。\n下段が各領域を進める具体的な活動。\n戦略 方針展開 カスケード 経営計画 重点施策 実行 業務 アラインメント",
   "render": {
     "theme": true,

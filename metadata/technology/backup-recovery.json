@@ -87,10 +87,9 @@
       "上の経路と時計が障害前の保存を表す。",
       "左の停止した環境と中央の保管先を分けて読む。",
       "右の矢印が保存済みの状態からの復元を表す。"
-    ],
-    "avoid": "復旧時間や失われるデータ量がゼロであるとは示さない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "technology/backup-recovery",
   "name": "事業継続_保存済みの状態から復旧する_事前バックアップと復元",
   "license": "CC0-1.0",
@@ -103,6 +102,8 @@
   },
   "path": "assets/technology/backup-recovery.svg",
   "metadata_path": "metadata/technology/backup-recovery.json",
+  "preview_path": "previews/technology/backup-recovery.svg",
+  "preview_has_example_labels": true,
   "search_text": "technology/backup-recovery\n事業継続_保存済みの状態から復旧する_事前バックアップと復元\n保存済みの状態から復旧する\nバックアップの役割を、障害発生から復旧までの関係として説明する。\n障害が起きた環境とは別に保管した状態から復旧する。\n上の経路と時計が障害前の保存を表す。\n左の停止した環境と中央の保管先を分けて読む。\n右の矢印が保存済みの状態からの復元を表す。\nバックアップ 復元 復旧 障害 事業継続 データ保全 backup recovery restore continuity snapshot",
   "render": {
     "theme": true,

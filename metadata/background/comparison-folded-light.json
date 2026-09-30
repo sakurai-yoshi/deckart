@@ -4,74 +4,33 @@
   "width": 1672,
   "height": 941,
   "labels": [],
-  "canvas": {
-    "width": 1600,
-    "height": 900
-  },
-  "title": "折面の光で二案を分ける背景",
-  "description": "同じ広さの白い面を中央の細い折面で分け、二案を対等に見せる。",
+  "title": "折面の光が広がる白い紙",
+  "description": "白い紙の中央に細い谷があり、下端の折面に青い光が見える。",
   "keywords": [
+    "背景",
+    "白",
+    "青",
+    "余白",
+    "質感",
+    "background",
+    "紙",
+    "折り目",
+    "中央の谷",
+    "下装飾",
+    "左右対称",
     "比較",
-    "二案",
-    "選択肢",
-    "並列",
-    "改善施策",
-    "進め方",
-    "導入方式",
-    "方針",
-    "comparison",
-    "alternatives",
-    "options",
-    "parallel",
-    "folded paper"
+    "本文",
+    "folded paper",
+    "comparison"
   ],
   "guidance": {
-    "use_case": "二つの提案、導入方式、改善施策の条件や進め方を並べて説明する本文。",
-    "message": "同じ広さの白い面を中央の細い折面で分け、二案を対等に見せる。",
+    "use_case": "比較、報告、説明、提案など。",
+    "message": "対称に近い白い面と中央の光で、端正な印象を添える。",
     "reading": [
-      "共通の見出しの下に、左案と右案を同じ順序の項目で置く。",
-      "中央の光の溝と下端の折面は空け、左右の説明領域だけを使う。"
-    ],
-    "avoid": "中央の折面へ文字や接続線を重ねない。"
+      "中央の細い谷が下端の折り重なりへ続く。",
+      "左右と上部は明るく、下端に影と青い反射がある。"
+    ]
   },
-  "content_areas": [
-    {
-      "id": "title",
-      "role": "共通見出し",
-      "purpose": "比較の主題を1行で配置する領域。",
-      "content_type": "text",
-      "x": 100,
-      "y": 70,
-      "width": 1400,
-      "height": 100,
-      "text_color": "#172B4D",
-      "text_align": "left"
-    },
-    {
-      "id": "left-option",
-      "role": "左の案",
-      "purpose": "案名、進め方、適する条件などを右と同じ順序で配置する。",
-      "content_type": "text",
-      "x": 100,
-      "y": 230,
-      "width": 620,
-      "height": 480,
-      "text_color": "#172B4D",
-      "text_align": "left"
-    },
-    {
-      "id": "right-option",
-      "role": "右の案",
-      "purpose": "案名、進め方、適する条件などを左と同じ順序で配置する。",
-      "content_type": "text",
-      "x": 880,
-      "y": 230,
-      "width": 620,
-      "height": 480,
-      "text_color": "#172B4D",
-      "text_align": "left"
-    }
-  ],
   "preview_path": "previews/background/comparison-folded-light.png",
   "generation": {
     "method": "image-generation",
@@ -80,13 +39,18 @@
   "format": "png",
   "mime_type": "image/png",
   "transparent": false,
-  "schema_version": 2,
+  "canvas": {
+    "width": 1672,
+    "height": 941
+  },
+  "schema_version": 3,
   "id": "background/comparison-folded-light",
-  "name": "折面の光で二案を分ける背景_背景",
+  "name": "折面の光が広がる白い紙_背景",
   "license": "CC0-1.0",
   "path": "media/background/comparison-folded-light.png",
   "metadata_path": "metadata/background/comparison-folded-light.json",
-  "search_text": "background/comparison-folded-light\n折面の光で二案を分ける背景_背景\n折面の光で二案を分ける背景\n二つの提案、導入方式、改善施策の条件や進め方を並べて説明する本文。\n同じ広さの白い面を中央の細い折面で分け、二案を対等に見せる。\n共通の見出しの下に、左案と右案を同じ順序の項目で置く。\n中央の光の溝と下端の折面は空け、左右の説明領域だけを使う。\n比較 二案 選択肢 並列 改善施策 進め方 導入方式 方針 comparison alternatives options parallel folded paper",
+  "preview_has_example_labels": false,
+  "search_text": "background/comparison-folded-light\n折面の光が広がる白い紙_背景\n折面の光が広がる白い紙\n比較、報告、説明、提案など。\n対称に近い白い面と中央の光で、端正な印象を添える。\n中央の細い谷が下端の折り重なりへ続く。\n左右と上部は明るく、下端に影と青い反射がある。\n背景 白 青 余白 質感 background 紙 折り目 中央の谷 下装飾 左右対称 比較 本文 folded paper comparison",
   "render": {
     "theme": false,
     "labels": false,

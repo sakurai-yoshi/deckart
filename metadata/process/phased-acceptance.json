@@ -100,12 +100,12 @@
     "reading": [
       "階段が納品の段階。",
       "積み重なる層が完成済みの範囲。",
-      "各段のチェックが受入確認。"
-    ],
-    "avoid": "層の枚数を機能数や工数の実数として扱わない。"
+      "各段のチェックが受入確認。",
+      "層は段階的な受け渡しを示す概念的な表現。"
+    ]
   },
   "kind": "diagram",
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "process/phased-acceptance",
   "name": "導入推進_受入確認を重ねて成果を積み上げる_段階納品",
   "license": "CC0-1.0",
@@ -118,7 +118,9 @@
   },
   "path": "assets/process/phased-acceptance.svg",
   "metadata_path": "metadata/process/phased-acceptance.json",
-  "search_text": "process/phased-acceptance\n導入推進_受入確認を重ねて成果を積み上げる_段階納品\n受入確認を重ねる段階納品\nシステム導入で、合意した機能から段階的に引き渡す。\n確認できた成果を積み上げ、完成範囲を広げる。\n階段が納品の段階。\n積み重なる層が完成済みの範囲。\n各段のチェックが受入確認。\n段階納品 受入検査 段階導入 フェーズ インクリメント 検収 納品",
+  "preview_path": "previews/process/phased-acceptance.svg",
+  "preview_has_example_labels": true,
+  "search_text": "process/phased-acceptance\n導入推進_受入確認を重ねて成果を積み上げる_段階納品\n受入確認を重ねる段階納品\nシステム導入で、合意した機能から段階的に引き渡す。\n確認できた成果を積み上げ、完成範囲を広げる。\n階段が納品の段階。\n積み重なる層が完成済みの範囲。\n各段のチェックが受入確認。\n層は段階的な受け渡しを示す概念的な表現。\n段階納品 受入検査 段階導入 フェーズ インクリメント 検収 納品",
   "render": {
     "theme": true,
     "labels": true,

@@ -102,11 +102,10 @@
       "左の形と色が情報源を識別する。",
       "別々の経路で共通の基盤へ取り込む。",
       "保存後の各行にも同じ識別記号が残る。"
-    ],
-    "avoid": "データへのアクセス権限まで保証する図として使わない。"
+    ]
   },
   "kind": "diagram",
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "relation/traceable-collection",
   "name": "情報管理_出所を保持して情報を集約する_三系統の来歴",
   "license": "CC0-1.0",
@@ -119,6 +118,8 @@
   },
   "path": "assets/relation/traceable-collection.svg",
   "metadata_path": "metadata/relation/traceable-collection.json",
+  "preview_path": "previews/relation/traceable-collection.svg",
+  "preview_has_example_labels": true,
   "search_text": "relation/traceable-collection\n情報管理_出所を保持して情報を集約する_三系統の来歴\n出所を保持して情報を集約する\n現場・顧客・外部資料を集約する情報基盤の考え方を説明する。\n情報をまとめても、元の出所との対応は残す。\n左の形と色が情報源を識別する。\n別々の経路で共通の基盤へ取り込む。\n保存後の各行にも同じ識別記号が残る。\n情報集約 出所 来歴 トレーサビリティ データ統合 収集 ソース 根拠",
   "render": {
     "theme": true,

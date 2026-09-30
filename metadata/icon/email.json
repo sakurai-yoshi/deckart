@@ -22,10 +22,9 @@
     "reading": [
       "封筒の輪郭がメッセージを表す。",
       "中央へ折り込まれた面が内容を包む形を表す。"
-    ],
-    "avoid": "送信済み・既読・返信済みの状態としては使わない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "icon/email",
   "name": "連絡手段_文章を送受信する_封筒",
   "license": "CC0-1.0",
@@ -38,6 +37,8 @@
   },
   "path": "assets/icon/email.svg",
   "metadata_path": "metadata/icon/email.json",
+  "preview_path": "assets/icon/email.svg",
+  "preview_has_example_labels": false,
   "search_text": "icon/email\n連絡手段_文章を送受信する_封筒\nメール\n連絡先やメールでの連絡手順を示す。\n文章や資料を相手へ届ける。\n封筒の輪郭がメッセージを表す。\n中央へ折り込まれた面が内容を包む形を表す。\nメール 電子メール 連絡 送信 受信 email mail message",
   "render": {
     "theme": true,

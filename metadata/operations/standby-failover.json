@@ -102,14 +102,13 @@
       "左の入口から主系と待機系へ経路が分かれる。",
       "上の点線は異常が起きた主系の経路。",
       "下の太い経路が切替後の利用経路で、縦の点線は平常時の状態同期。"
-    ],
-    "avoid": "無停止やデータ損失ゼロを保証する図ではない。切替条件と同期方式を別途定義する。"
+    ]
   },
   "layout": {
     "relation": "active-standby-failover",
     "reading_direction": "left-to-right"
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "operations/standby-failover",
   "name": "業務継続_入口を変えずに待機系へ切り替える_主系と待機系の引継ぎ",
   "license": "CC0-1.0",
@@ -122,6 +121,8 @@
   },
   "path": "assets/operations/standby-failover.svg",
   "metadata_path": "metadata/operations/standby-failover.json",
+  "preview_path": "previews/operations/standby-failover.svg",
+  "preview_has_example_labels": true,
   "search_text": "operations/standby-failover\n業務継続_入口を変えずに待機系へ切り替える_主系と待機系の引継ぎ\n入口を変えずに待機系へ切り替える\n業務システムの停止に備え、利用者の入口と主系・待機系の切替関係を説明する。\n入口を保ったまま、準備済みの系へ処理を引き継ぐ。\n左の入口から主系と待機系へ経路が分かれる。\n上の点線は異常が起きた主系の経路。\n下の太い経路が切替後の利用経路で、縦の点線は平常時の状態同期。\nフェイルオーバー 待機系 主系 冗長化 業務継続 可用性 切替 障害 standby failover continuity",
   "render": {
     "theme": true,

@@ -24,10 +24,9 @@
     "reading": [
       "チェック形が肯定・確認済みを表す。",
       "丸い面が一つの状態として見分けやすくする。"
-    ],
-    "avoid": "外部機関による認証や性能保証を示す用途には使わない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "icon/check",
   "name": "確認表示_完了を示す_チェック",
   "license": "CC0-1.0",
@@ -40,6 +39,8 @@
   },
   "path": "assets/icon/check.svg",
   "metadata_path": "metadata/icon/check.json",
+  "preview_path": "assets/icon/check.svg",
+  "preview_has_example_labels": false,
   "search_text": "icon/check\n確認表示_完了を示す_チェック\n確認・完了\n一覧の中で、確認済みや完了した状態を示す場面。\n対象の確認や作業が終わっている。\nチェック形が肯定・確認済みを表す。\n丸い面が一つの状態として見分けやすくする。\n確認 完了 チェック 済み 合格 承認 check complete done confirmed",
   "render": {
     "theme": true,

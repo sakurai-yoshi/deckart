@@ -205,15 +205,14 @@
     "reading": [
       "上段が内部要因、下段が外部要因。",
       "左列が有利な要因、右列が不利な要因。",
-      "四つの枠に強み・弱み・機会・脅威を置く。"
-    ],
-    "avoid": "重要度や優先順位はこの配置だけでは決まらない。"
+      "四つの枠は強み・弱み・機会・脅威の区分を表す。"
+    ]
   },
   "layout": {
     "relation": "two-by-two-classification",
     "reading_direction": "row-by-row"
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "framework/swot",
   "name": "戦略検討_内部と外部の有利不利を整理する_SWOT4象限",
   "license": "CC0-1.0",
@@ -226,7 +225,9 @@
   },
   "path": "assets/framework/swot.svg",
   "metadata_path": "metadata/framework/swot.json",
-  "search_text": "framework/swot\n戦略検討_内部と外部の有利不利を整理する_SWOT4象限\n内部と外部の有利・不利を整理する\n事業や施策の現状を整理し、戦略上の論点を出す。\n自社の内側と外側、有利と不利を分けて考える。\n上段が内部要因、下段が外部要因。\n左列が有利な要因、右列が不利な要因。\n四つの枠に強み・弱み・機会・脅威を置く。\nSWOT 強み 弱み 機会 脅威 内部環境 外部環境 戦略 4象限 analysis",
+  "preview_path": "previews/framework/swot.svg",
+  "preview_has_example_labels": true,
+  "search_text": "framework/swot\n戦略検討_内部と外部の有利不利を整理する_SWOT4象限\n内部と外部の有利・不利を整理する\n事業や施策の現状を整理し、戦略上の論点を出す。\n自社の内側と外側、有利と不利を分けて考える。\n上段が内部要因、下段が外部要因。\n左列が有利な要因、右列が不利な要因。\n四つの枠は強み・弱み・機会・脅威の区分を表す。\nSWOT 強み 弱み 機会 脅威 内部環境 外部環境 戦略 4象限 analysis",
   "render": {
     "theme": true,
     "labels": true,

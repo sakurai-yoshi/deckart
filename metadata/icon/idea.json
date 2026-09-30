@@ -23,10 +23,9 @@
     "reading": [
       "電球の輪郭がひらめきを表す。",
       "内部の発光部がアイデアに焦点を当てる。"
-    ],
-    "avoid": "省エネルギーの実績や照明設備の仕様を示す用途には使わない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "icon/idea",
   "name": "発想表示_アイデアを示す_ひらめきの電球",
   "license": "CC0-1.0",
@@ -39,6 +38,8 @@
   },
   "path": "assets/icon/idea.svg",
   "metadata_path": "metadata/icon/idea.json",
+  "preview_path": "assets/icon/idea.svg",
+  "preview_has_example_labels": false,
   "search_text": "icon/idea\n発想表示_アイデアを示す_ひらめきの電球\nアイデア\n新しい案や改善の着眼点を示す場面。\n仕事を変える発想や気付きがある。\n電球の輪郭がひらめきを表す。\n内部の発光部がアイデアに焦点を当てる。\n発想 アイデア ひらめき 気付き 改善 工夫 idea lightbulb insight",
   "render": {
     "theme": true,

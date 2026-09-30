@@ -18,19 +18,14 @@
     "message": "意見を交わして認識をそろえる。",
     "reading": [
       "向かい合う二人と開いた手の動きが、意見を交わす関係を示します。"
-    ],
-    "avoid": "実在の人物・業務実績・承認や確認の完了を証明する画像としては使えません。"
+    ]
   },
   "labels": [],
   "preview_path": "previews/illustration/discussing.png",
-  "placement": {
+  "composition": {
     "framing": "waist-up",
     "facing": "inward",
-    "people_count": 2,
-    "recommended_width_cm": [
-      5,
-      9
-    ]
+    "people_count": 2
   },
   "generation": {
     "method": "image-generation",
@@ -44,13 +39,14 @@
     "width": 1254,
     "height": 1254
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "illustration/discussing",
   "name": "相談する_汎用ビジネスの動作",
   "license": "CC0-1.0",
   "path": "media/illustration/discussing.png",
   "metadata_path": "metadata/illustration/discussing.json",
-  "search_text": "illustration/discussing\n相談する_汎用ビジネスの動作\n相談する\n部門間の相談、意見交換、合意形成の導入に。\n意見を交わして認識をそろえる。\n向かい合う二人と開いた手の動きが、意見を交わす関係を示します。\n相談 対話 意見交換 連携 会話 discussion consultation\nwaist-up 上半身 腰上 inward 向かい合う 対話 2  [5, 9] ",
+  "preview_has_example_labels": false,
+  "search_text": "illustration/discussing\n相談する_汎用ビジネスの動作\n相談する\n部門間の相談、意見交換、合意形成の導入に。\n意見を交わして認識をそろえる。\n向かい合う二人と開いた手の動きが、意見を交わす関係を示します。\n相談 対話 意見交換 連携 会話 discussion consultation\nwaist-up 上半身 腰上 inward 向かい合う 対話",
   "render": {
     "theme": false,
     "labels": false,

@@ -85,12 +85,12 @@
     "reading": [
       "左の小さなブロックが処理待ち。",
       "狭い通路が処理能力の制約。",
-      "上の経路が制約を避け、後工程へ合流する。"
-    ],
-    "avoid": "通路の幅を処理件数の実数として扱わない。"
+      "上の経路が制約を避け、後工程へ合流する。",
+      "通路の幅は集中する流れを示す概念的な表現。"
+    ]
   },
   "kind": "diagram",
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "process/bottleneck-bypass",
   "name": "業務改善_ボトルネックを迂回して負荷を逃がす_待ち行列と迂回路",
   "license": "CC0-1.0",
@@ -103,7 +103,9 @@
   },
   "path": "assets/process/bottleneck-bypass.svg",
   "metadata_path": "metadata/process/bottleneck-bypass.json",
-  "search_text": "process/bottleneck-bypass\n業務改善_ボトルネックを迂回して負荷を逃がす_待ち行列と迂回路\nボトルネックと負荷の逃がし方\n審査や処理の集中に対し、別担当への振り分けを提案する。\n処理の制約に集まる負荷を、別経路で吸収する。\n左の小さなブロックが処理待ち。\n狭い通路が処理能力の制約。\n上の経路が制約を避け、後工程へ合流する。\nボトルネック 待ち行列 混雑 負荷分散 迂回 処理能力 業務改善",
+  "preview_path": "previews/process/bottleneck-bypass.svg",
+  "preview_has_example_labels": true,
+  "search_text": "process/bottleneck-bypass\n業務改善_ボトルネックを迂回して負荷を逃がす_待ち行列と迂回路\nボトルネックと負荷の逃がし方\n審査や処理の集中に対し、別担当への振り分けを提案する。\n処理の制約に集まる負荷を、別経路で吸収する。\n左の小さなブロックが処理待ち。\n狭い通路が処理能力の制約。\n上の経路が制約を避け、後工程へ合流する。\n通路の幅は集中する流れを示す概念的な表現。\nボトルネック 待ち行列 混雑 負荷分散 迂回 処理能力 業務改善",
   "render": {
     "theme": true,
     "labels": true,

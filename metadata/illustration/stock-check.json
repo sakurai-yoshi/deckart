@@ -19,19 +19,14 @@
     "reading": [
       "棚の実物と記録用紙を対比して確認する。",
       "整理された棚で対象が明確に見える。"
-    ],
-    "avoid": "在庫数量や記録精度の実績を表す用途には使用しない。"
+    ]
   },
   "labels": [],
   "preview_path": "previews/illustration/stock-check.png",
-  "placement": {
+  "composition": {
     "framing": "waist-up",
     "facing": "left",
-    "people_count": 1,
-    "recommended_width_cm": [
-      4.5,
-      9
-    ]
+    "people_count": 1
   },
   "generation": {
     "method": "image-generation",
@@ -45,13 +40,14 @@
     "width": 1254,
     "height": 1254
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "illustration/stock-check",
   "name": "在庫を確認する_メーカー業務の動作",
   "license": "CC0-1.0",
   "path": "media/illustration/stock-check.png",
   "metadata_path": "metadata/illustration/stock-check.json",
-  "search_text": "illustration/stock-check\n在庫を確認する_メーカー業務の動作\n在庫を確認する\n在庫管理、棚卸、資材の数量確認の説明。\n現物を確認し、在庫の状態を把握する。\n棚の実物と記録用紙を対比して確認する。\n整理された棚で対象が明確に見える。\n在庫 棚卸 確認 倉庫 inventory stock counting\nwaist-up 上半身 腰上 left 左向き 1  [4.5, 9] ",
+  "preview_has_example_labels": false,
+  "search_text": "illustration/stock-check\n在庫を確認する_メーカー業務の動作\n在庫を確認する\n在庫管理、棚卸、資材の数量確認の説明。\n現物を確認し、在庫の状態を把握する。\n棚の実物と記録用紙を対比して確認する。\n整理された棚で対象が明確に見える。\n在庫 棚卸 確認 倉庫 inventory stock counting\nwaist-up 上半身 腰上 left 左向き",
   "render": {
     "theme": false,
     "labels": false,

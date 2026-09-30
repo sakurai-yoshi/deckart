@@ -19,19 +19,14 @@
     "reading": [
       "製品の形に沿った緩衝材が周囲を支える。",
       "同形の上側パッドを添えて保護する構成を示す。"
-    ],
-    "avoid": "梱包性能、耐衝撃性、輸送試験の合格を証明する図としては使用しない。"
+    ]
   },
   "labels": [],
   "preview_path": "previews/illustration/protective-packaging.png",
-  "placement": {
+  "composition": {
     "framing": "object",
     "facing": "front",
-    "people_count": 0,
-    "recommended_width_cm": [
-      4,
-      7
-    ]
+    "people_count": 0
   },
   "generation": {
     "method": "image-generation",
@@ -45,13 +40,14 @@
     "width": 1254,
     "height": 1254
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "illustration/protective-packaging",
   "name": "緩衝材で製品を保護する_メーカー業務の構成",
   "license": "CC0-1.0",
   "path": "media/illustration/protective-packaging.png",
   "metadata_path": "metadata/illustration/protective-packaging.json",
-  "search_text": "illustration/protective-packaging\n緩衝材で製品を保護する_メーカー業務の構成\n緩衝材で製品を保護する\n梱包設計、輸送時の品質保護、製品の取扱いの説明。\n形に合った緩衝材で製品を支え、外部からの衝撃に備える。\n製品の形に沿った緩衝材が周囲を支える。\n同形の上側パッドを添えて保護する構成を示す。\n梱包 緩衝材 製品保護 輸送 包装 protective packaging cushioning\nobject 物 道具 front 正面 0  [4, 7] ",
+  "preview_has_example_labels": false,
+  "search_text": "illustration/protective-packaging\n緩衝材で製品を保護する_メーカー業務の構成\n緩衝材で製品を保護する\n梱包設計、輸送時の品質保護、製品の取扱いの説明。\n形に合った緩衝材で製品を支え、外部からの衝撃に備える。\n製品の形に沿った緩衝材が周囲を支える。\n同形の上側パッドを添えて保護する構成を示す。\n梱包 緩衝材 製品保護 輸送 包装 protective packaging cushioning\nobject 物 道具 front 正面",
   "render": {
     "theme": false,
     "labels": false,

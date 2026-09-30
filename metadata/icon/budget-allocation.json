@@ -24,11 +24,10 @@
     "reading": [
       "上の硬貨が配分元の予算を表す。",
       "分かれた経路と受け皿が資金の用途を表す。"
-    ],
-    "avoid": "硬貨の枚数を実際の配分額や比率と対応させる用途には使わない。"
+    ]
   },
   "kind": "icon",
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "icon/budget-allocation",
   "name": "予算管理_資金の配分_総額から用途へ",
   "license": "CC0-1.0",
@@ -41,6 +40,8 @@
   },
   "path": "assets/icon/budget-allocation.svg",
   "metadata_path": "metadata/icon/budget-allocation.json",
+  "preview_path": "assets/icon/budget-allocation.svg",
+  "preview_has_example_labels": false,
   "search_text": "icon/budget-allocation\n予算管理_資金の配分_総額から用途へ\n用途に応じた資金配分\n予算や投資を用途に振り分ける考え方を説明する場面。\n共通の資金を、目的に応じて配分する。\n上の硬貨が配分元の予算を表す。\n分かれた経路と受け皿が資金の用途を表す。\n予算 配分 投資 資金 費用 コスト 予算管理 budget allocation funding investment",
   "render": {
     "theme": true,

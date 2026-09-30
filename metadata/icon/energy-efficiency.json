@@ -22,10 +22,9 @@
     "reading": [
       "プラグが電力の利用を表す。",
       "葉が資源への配慮という目的を添える。"
-    ],
-    "avoid": "記号は業務の種類を示す。数値、認証取得、測定結果を保証する印には使わない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "icon/energy-efficiency",
   "name": "省エネルギー_製造業務の記号",
   "license": "CC0-1.0",
@@ -38,6 +37,8 @@
   },
   "path": "assets/icon/energy-efficiency.svg",
   "metadata_path": "metadata/icon/energy-efficiency.json",
+  "preview_path": "assets/icon/energy-efficiency.svg",
+  "preview_has_example_labels": false,
   "search_text": "icon/energy-efficiency\n省エネルギー_製造業務の記号\n省エネルギー\n電力使用を抑える設備や運用の項目を示す。\n必要な働きを保ちながらエネルギー消費を減らす。\nプラグが電力の利用を表す。\n葉が資源への配慮という目的を添える。\n省エネ 電力 効率 節電 energy efficiency power saving",
   "render": {
     "theme": true,

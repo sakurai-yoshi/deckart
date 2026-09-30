@@ -158,15 +158,15 @@
     "reading": [
       "中央の判定から適合品だけが右上へ進む。",
       "右下の囲みが隔離して処置を判断する範囲。",
-      "再検査が必要な処置は下側の経路から最初の検査へ戻る。"
-    ],
-    "avoid": "処置には廃棄や特別採用等もある。再検査が必要な経路のみを示している。"
+      "再検査が必要な処置は下側の経路から最初の検査へ戻る。",
+      "下側の戻り線は、処置後に再検査する経路の作例。"
+    ]
   },
   "layout": {
     "relation": "segregation-and-reinspection",
     "reading_direction": "left-to-right"
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "manufacturing/nonconforming-segregation",
   "name": "不適合品を分けて処置する_製造業務の関係図",
   "license": "CC0-1.0",
@@ -179,7 +179,9 @@
   },
   "path": "assets/manufacturing/nonconforming-segregation.svg",
   "metadata_path": "metadata/manufacturing/nonconforming-segregation.json",
-  "search_text": "manufacturing/nonconforming-segregation\n不適合品を分けて処置する_製造業務の関係図\n不適合品を分けて処置する\n検査で不適合となった製品を通常の流れから分離し、処置を判断する。\n不適合の製品を識別し、処置と再検査を経るまで通常品へ混ぜない。\n中央の判定から適合品だけが右上へ進む。\n右下の囲みが隔離して処置を判断する範囲。\n再検査が必要な処置は下側の経路から最初の検査へ戻る。\n不適合 品質 隔離 処置 再検査 nonconforming segregation disposition",
+  "preview_path": "previews/manufacturing/nonconforming-segregation.svg",
+  "preview_has_example_labels": true,
+  "search_text": "manufacturing/nonconforming-segregation\n不適合品を分けて処置する_製造業務の関係図\n不適合品を分けて処置する\n検査で不適合となった製品を通常の流れから分離し、処置を判断する。\n不適合の製品を識別し、処置と再検査を経るまで通常品へ混ぜない。\n中央の判定から適合品だけが右上へ進む。\n右下の囲みが隔離して処置を判断する範囲。\n再検査が必要な処置は下側の経路から最初の検査へ戻る。\n下側の戻り線は、処置後に再検査する経路の作例。\n不適合 品質 隔離 処置 再検査 nonconforming segregation disposition",
   "render": {
     "theme": true,
     "labels": true,

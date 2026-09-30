@@ -10,7 +10,8 @@ import sys
 import tempfile
 import unicodedata
 import xml.etree.ElementTree as ET
-from registry import ROOT, KEY_RE, metadata, project, svg_document, asset_path, placement_text
+from registry import ROOT, KEY_RE, metadata, project, svg_document, asset_path
+from search import prepare, rank
 from themes import SVG_NS, DEFAULT_ACCENT, apply_theme, resolve_theme
 
 
@@ -35,24 +36,17 @@ def load_asset(asset_id):
     return meta,content.decode('utf-8') if format=='svg' else content
 
 
-def normalize(text):
-    return unicodedata.normalize('NFKC',text).casefold()
-
-
-def search(query,kind=None,limit=5,format=None,transparent=None,themeable=None):
-    terms=normalize(query).split();rows=read_json(ROOT/'catalog.json')['assets'];ranked=[]
-    for a in rows:
-        if kind and a['kind']!=kind:continue
-        if format and a['format']!=format:continue
-        if transparent is not None and a['transparent'] is not transparent:continue
-        if themeable is not None and a['render']['theme'] is not themeable:continue
-        fields=[(a['id'],5),(a['title'],5),(' '.join(a['keywords']),4),(a['use_case'],3),(a['message'],2),(placement_text(a.get('placement',{})),2)]
-        fields=[(normalize(text),weight) for text,weight in fields]
-        if not all(any(term in text for text,_ in fields) for term in terms):continue
-        score=sum(weight for term in terms for text,weight in fields if term in text)
-        ranked.append((score,a))
-    ranked.sort(key=lambda entry:(-entry[0],entry[1]['id']))
-    return {'query':query,'total':len(ranked),'assets':[a for _,a in ranked[:limit]]}
+def search(query,kind=None,limit=20,format=None,transparent=None,themeable=None,offset=0,category=None):
+    if not isinstance(query,str):raise ValueError('query must be text')
+    if type(limit) is not int or limit<0:raise ValueError('limit must be a nonnegative integer; 0 returns all matches')
+    if type(offset) is not int or offset<0:raise ValueError('offset must be a nonnegative integer')
+    filters={key:value for key,value in dict(kind=kind,format=format,category=category).items() if value}
+    filters.update({key:value for key,value in dict(transparent=transparent,themeable=themeable).items() if value is not None})
+    config=read_json(Path(__file__).resolve().parents[1]/'search.json')
+    ranked,terms=rank(prepare(read_json(ROOT/'catalog.json')['assets'],config),query,filters)
+    assets=ranked[offset:offset+limit] if limit else ranked[offset:]
+    next_offset=offset+len(assets) if offset+len(assets)<len(ranked) else None
+    return dict(query=query,total=len(ranked),returned=len(assets),offset=offset,limit=limit,next_offset=next_offset,filters=filters,matched_terms=terms,assets=assets)
 
 
 def text_units(text):
@@ -103,13 +97,16 @@ def render(request):
     if not isinstance(asset_id,str):raise ValueError('id is required')
     for name in ('monochrome','include_example_labels'):
         if name in request and not isinstance(request[name],bool):raise ValueError(name+' must be a boolean')
+    for name in ('labels','data'):
+        if name in request and not isinstance(request[name],dict):raise ValueError(name+' must be an object')
     if request.get('monochrome') and 'accent' in request:raise ValueError('Choose an accent or monochrome, not both')
     meta,svg=load_asset(asset_id);meta=deepcopy(meta)
     if 'format' in request and request['format']!=meta['format']:raise ValueError('Requested format is unavailable; use metadata.format')
     config=project()
     source={'id':asset_id,'version':config['version'],'raw_base':f'https://raw.githubusercontent.com/{config["repository"]}/v{config["version"]}/','path':meta['path'],'sha256':meta['sha256']}
     if meta['format']=='png':
-        unsupported=set(request)&{'accent','monochrome','labels','include_example_labels','data'}
+        unsupported={name for name in ('accent','data') if name in request}
+        unsupported.update(name for name in ('monochrome','labels','include_example_labels') if request.get(name))
         if unsupported:raise ValueError('PNG is a fixed image; unsupported options: '+', '.join(sorted(unsupported)))
         meta['source']=source
         return svg,meta
@@ -177,15 +174,14 @@ class JsonArgumentParser(argparse.ArgumentParser):
 def main():
     parser=JsonArgumentParser(description=__doc__)
     commands=parser.add_subparsers(dest='command',required=True)
-    find=commands.add_parser('search');find.add_argument('query');find.add_argument('--kind',choices=['diagram','illustration','icon','chart','background','part']);find.add_argument('--limit',type=int,default=5);find.add_argument('--format',choices=['svg','png']);find.add_argument('--transparent',action='store_true',default=None);find.add_argument('--themeable',action='store_true',default=None)
+    find=commands.add_parser('search');find.add_argument('query',nargs='?',default='');find.add_argument('--kind',choices=['diagram','illustration','icon','chart','background','part']);find.add_argument('--limit',type=int,default=20,help='Results per page; 0 returns all matches');find.add_argument('--offset',type=int,default=0);find.add_argument('--category');find.add_argument('--format',choices=['svg','png']);find.add_argument('--transparent',action='store_true',default=None);find.add_argument('--themeable',action='store_true',default=None)
     show=commands.add_parser('show');show.add_argument('id')
     export=commands.add_parser('export');export.add_argument('id',nargs='?');export.add_argument('--request',type=Path);export.add_argument('--output',type=Path);export.add_argument('--stdout',action='store_true');export.add_argument('--force',action='store_true')
     export.add_argument('--format',choices=['svg','png']);export.add_argument('--accent');export.add_argument('--monochrome',action='store_true');export.add_argument('--labels',type=Path);export.add_argument('--data',type=Path);export.add_argument('--example-labels',action='store_true')
     args=parser.parse_args()
     try:
         if args.command=='search':
-            if not 1<=args.limit<=100:raise ValueError('limit must be between 1 and 100')
-            result=search(args.query,args.kind,args.limit,args.format,args.transparent,args.themeable)
+            result=search(args.query,args.kind,args.limit,args.format,args.transparent,args.themeable,args.offset,args.category)
         elif args.command=='show':result=load_asset(args.id)[0]
         else:
             if bool(args.output)==bool(args.stdout):raise ValueError('Choose exactly one of --output and --stdout')

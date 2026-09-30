@@ -99,15 +99,15 @@
     "message": "顧客が求め、自社が提供できる領域に価値が生まれる。",
     "reading": [
       "左の円が顧客の期待、右の円が自社の強み。",
-      "主色の重なりが両方の条件を満たす領域。"
-    ],
-    "avoid": "円や重なりの面積を件数・市場規模の比率として扱わない。"
+      "主色の重なりが両方の条件を満たす領域。",
+      "円と重なりは対象の共通点を示す概念的な表現。"
+    ]
   },
   "layout": {
     "relation": "two-set-intersection",
     "reading_direction": "outside-in"
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "framework/two-set-overlap",
   "name": "価値提案_顧客の期待と自社の強みを重ねる_2集合の共通領域",
   "license": "CC0-1.0",
@@ -120,7 +120,9 @@
   },
   "path": "assets/framework/two-set-overlap.svg",
   "metadata_path": "metadata/framework/two-set-overlap.json",
-  "search_text": "framework/two-set-overlap\n価値提案_顧客の期待と自社の強みを重ねる_2集合の共通領域\n顧客の期待と自社の強みを重ねる\n商品提案で、顧客の期待と自社の強みが重なる領域を検討する。\n顧客が求め、自社が提供できる領域に価値が生まれる。\n左の円が顧客の期待、右の円が自社の強み。\n主色の重なりが両方の条件を満たす領域。\nベン図 Venn 共通領域 重なり 価値提案 顧客ニーズ 強み 条件 overlap intersection",
+  "preview_path": "previews/framework/two-set-overlap.svg",
+  "preview_has_example_labels": true,
+  "search_text": "framework/two-set-overlap\n価値提案_顧客の期待と自社の強みを重ねる_2集合の共通領域\n顧客の期待と自社の強みを重ねる\n商品提案で、顧客の期待と自社の強みが重なる領域を検討する。\n顧客が求め、自社が提供できる領域に価値が生まれる。\n左の円が顧客の期待、右の円が自社の強み。\n主色の重なりが両方の条件を満たす領域。\n円と重なりは対象の共通点を示す概念的な表現。\nベン図 Venn 共通領域 重なり 価値提案 顧客ニーズ 強み 条件 overlap intersection",
   "render": {
     "theme": true,
     "labels": true,

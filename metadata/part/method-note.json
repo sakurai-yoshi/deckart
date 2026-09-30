@@ -84,10 +84,9 @@
     "reading": [
       "左の区分で測定条件の注記と示す。",
       "右の上下で対象と方法を分ける。"
-    ],
-    "avoid": "異なる対象や算出方法を同じ条件としてまとめる用途には使わない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "part/method-note",
   "name": "数値の対象と集計方法を添える_説明パーツ",
   "license": "CC0-1.0",
@@ -100,6 +99,8 @@
   },
   "path": "assets/part/method-note.svg",
   "metadata_path": "metadata/part/method-note.json",
+  "preview_path": "previews/part/method-note.svg",
+  "preview_has_example_labels": true,
   "search_text": "part/method-note\n数値の対象と集計方法を添える_説明パーツ\n数値の対象と集計方法を添える\n測定値やグラフの近くに、対象と方法を補足する場面。\n何をどう測った値かが分かる。\n左の区分で測定条件の注記と示す。\n右の上下で対象と方法を分ける。\n集計 条件 対象 算出 方法 注記 method scope calculation",
   "render": {
     "theme": true,

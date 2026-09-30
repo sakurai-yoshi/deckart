@@ -172,10 +172,9 @@
       "左が前期、右が当期で、両側とも同じ0〜100%の目盛り。",
       "同じ色の二つの点が同じ区分を表す。",
       "線の交差は区分Aと区分Bの順位の入れ替わり。"
-    ],
-    "avoid": "数値は作例。二点の間は実測推移ではなく、両時点の値を結ぶ線。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "chart/slope",
   "name": "前後比較_二つの時点の変化を追う_スロープグラフ作例",
   "license": "CC0-1.0",
@@ -188,6 +187,8 @@
   },
   "path": "assets/chart/slope.svg",
   "metadata_path": "metadata/chart/slope.json",
+  "preview_path": "previews/chart/slope.svg",
+  "preview_has_example_labels": true,
   "search_text": "chart/slope\n前後比較_二つの時点の変化を追う_スロープグラフ作例\n二つの時点の変化を追う\n複数の区分について、前期と当期の比率の変化を比較する。\n増減の方向と二時点の順位の入れ替わりを確認できる。\n左が前期、右が当期で、両側とも同じ0〜100%の目盛り。\n同じ色の二つの点が同じ区分を表す。\n線の交差は区分Aと区分Bの順位の入れ替わり。\nスロープ 前後比較 前期 当期 変化 比率 割合 slope comparison",
   "render": {
     "theme": true,

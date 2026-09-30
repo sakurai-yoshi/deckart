@@ -23,10 +23,9 @@
     "reading": [
       "雲の輪郭がクラウドを表す。",
       "一つにつながった面が共有されるサービスを表す。"
-    ],
-    "avoid": "実際の通信経路やサービスの安全性を保証する用途には使わない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "icon/cloud",
   "name": "基盤表示_クラウドを示す_共有サービス",
   "license": "CC0-1.0",
@@ -39,6 +38,8 @@
   },
   "path": "assets/icon/cloud.svg",
   "metadata_path": "metadata/icon/cloud.json",
+  "preview_path": "assets/icon/cloud.svg",
+  "preview_has_example_labels": false,
   "search_text": "icon/cloud\n基盤表示_クラウドを示す_共有サービス\nクラウド\n端末の外にある共有サービスを示す場面。\nネットワークを通して利用するサービスを示す。\n雲の輪郭がクラウドを表す。\n一つにつながった面が共有されるサービスを表す。\nクラウド 共有 オンライン サービス 保管 cloud online service hosting",
   "render": {
     "theme": true,

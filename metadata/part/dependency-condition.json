@@ -98,10 +98,9 @@
     "reading": [
       "左が先に満たす条件、右が条件後に始める作業。",
       "中央の太い境界が着手条件を示す。"
-    ],
-    "avoid": "中央の線を作業の恒久的な停止や中止と読ませない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "part/dependency-condition",
   "name": "着手前に必要な条件を示す_説明パーツ",
   "license": "CC0-1.0",
@@ -114,6 +113,8 @@
   },
   "path": "assets/part/dependency-condition.svg",
   "metadata_path": "metadata/part/dependency-condition.json",
+  "preview_path": "previews/part/dependency-condition.svg",
+  "preview_has_example_labels": true,
   "search_text": "part/dependency-condition\n着手前に必要な条件を示す_説明パーツ\n着手前に必要な条件を示す\n遅延や着手待ちの理由を工程の近くに注記する。\n先行条件を満たすまで後続作業を進めない。\n左が先に満たす条件、右が条件後に始める作業。\n中央の太い境界が着手条件を示す。\n依存 条件 前提 着手 待ち dependency prerequisite blocker",
   "render": {
     "theme": true,

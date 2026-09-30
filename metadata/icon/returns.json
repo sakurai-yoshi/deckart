@@ -21,10 +21,9 @@
     "reading": [
       "箱が返す品物を表す。",
       "上を戻る矢印が返送の向きを表す。"
-    ],
-    "avoid": "返金や返品条件の承認まで含めた意味では使わない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "icon/returns",
   "name": "返品手続_品物を差し戻す_荷物と戻り矢印",
   "license": "CC0-1.0",
@@ -37,6 +36,8 @@
   },
   "path": "assets/icon/returns.svg",
   "metadata_path": "metadata/icon/returns.json",
+  "preview_path": "assets/icon/returns.svg",
+  "preview_has_example_labels": false,
   "search_text": "icon/returns\n返品手続_品物を差し戻す_荷物と戻り矢印\n返品\n返品受付や返送の工程に配置する。\n品物を送り元へ戻す。\n箱が返す品物を表す。\n上を戻る矢印が返送の向きを表す。\n返品 返送 交換 返却 return reverse logistics",
   "render": {
     "theme": true,

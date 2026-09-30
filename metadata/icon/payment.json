@@ -22,10 +22,9 @@
     "reading": [
       "カードの帯とチップが決済手段を表す。",
       "外向きの矢印が代金を渡す行為を表す。"
-    ],
-    "avoid": "カードブランドや利用可能な決済方法の一覧には使わない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "icon/payment",
   "name": "支払手続_代金を決済する_カード決済",
   "license": "CC0-1.0",
@@ -38,6 +37,8 @@
   },
   "path": "assets/icon/payment.svg",
   "metadata_path": "metadata/icon/payment.json",
+  "preview_path": "assets/icon/payment.svg",
+  "preview_has_example_labels": false,
   "search_text": "icon/payment\n支払手続_代金を決済する_カード決済\n支払・決済\n代金支払や決済の工程に配置する。\n取引の代金を支払う。\nカードの帯とチップが決済手段を表す。\n外向きの矢印が代金を渡す行為を表す。\n支払 決済 代金 カード 振込 payment settlement checkout",
   "render": {
     "theme": true,

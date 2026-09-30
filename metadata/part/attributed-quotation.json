@@ -52,10 +52,9 @@
     "reading": [
       "左の引用符が引用の範囲を示す。",
       "下の独立した欄で発言者と出典を確認する。"
-    ],
-    "avoid": "出典のない作例を実在する人の発言として使用しない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "part/attributed-quotation",
   "name": "発言と出典を一組にする_説明パーツ",
   "license": "CC0-1.0",
@@ -68,6 +67,8 @@
   },
   "path": "assets/part/attributed-quotation.svg",
   "metadata_path": "metadata/part/attributed-quotation.json",
+  "preview_path": "previews/part/attributed-quotation.svg",
+  "preview_has_example_labels": true,
   "search_text": "part/attributed-quotation\n発言と出典を一組にする_説明パーツ\n発言と出典を一組にする\nインタビューや発言を本文の中へ引用する場面。\n発言そのものと、その情報源を一緒に示す。\n左の引用符が引用の範囲を示す。\n下の独立した欄で発言者と出典を確認する。\n引用 発言 顧客の声 出典 quote quotation attribution",
   "render": {
     "theme": true,

@@ -22,10 +22,9 @@
     "reading": [
       "開いた目が状態を見る行為を表す。",
       "上の短い線が注意を向けていることを示す。"
-    ],
-    "avoid": "監視中や障害なしという現在状態の確定には使わない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "icon/monitoring",
   "name": "運用監視_状態を継続して見守る_観察する目",
   "license": "CC0-1.0",
@@ -38,6 +37,8 @@
   },
   "path": "assets/icon/monitoring.svg",
   "metadata_path": "metadata/icon/monitoring.json",
+  "preview_path": "assets/icon/monitoring.svg",
+  "preview_has_example_labels": false,
   "search_text": "icon/monitoring\n運用監視_状態を継続して見守る_観察する目\n監視\n状態監視や継続的な確認の項目を示す。\n状態の変化を見逃さず観察する。\n開いた目が状態を見る行為を表す。\n上の短い線が注意を向けていることを示す。\n監視 モニタリング 運用 可観測 状態 monitoring observability watch",
   "render": {
     "theme": true,

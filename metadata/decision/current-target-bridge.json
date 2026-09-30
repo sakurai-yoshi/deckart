@@ -114,12 +114,12 @@
     "reading": [
       "左の低い領域は現在、右の高い領域は目標。",
       "主色の三つの段は橋渡しする施策。",
-      "下の括弧は解消する隔たり。"
-    ],
-    "avoid": "高さや段の幅を効果量や所要期間として扱わない。"
+      "下の括弧は解消する隔たり。",
+      "段の高さと幅は現状から目標へ進む概念的な表現。"
+    ]
   },
   "kind": "diagram",
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "decision/current-target-bridge",
   "name": "変革計画_現状と目標の差を埋める_三つの橋渡し",
   "license": "CC0-1.0",
@@ -132,7 +132,9 @@
   },
   "path": "assets/decision/current-target-bridge.svg",
   "metadata_path": "metadata/decision/current-target-bridge.json",
-  "search_text": "decision/current-target-bridge\n変革計画_現状と目標の差を埋める_三つの橋渡し\n三つの施策で目標へ近づく\n改革提案で、現状から目標へ進むための三つの施策を説明する。\n目標との差は具体的な施策で埋める。\n左の低い領域は現在、右の高い領域は目標。\n主色の三つの段は橋渡しする施策。\n下の括弧は解消する隔たり。\nギャップ分析 現状 目標 理想 改革 変革 課題 施策 実現方法 ロードマップ",
+  "preview_path": "previews/decision/current-target-bridge.svg",
+  "preview_has_example_labels": true,
+  "search_text": "decision/current-target-bridge\n変革計画_現状と目標の差を埋める_三つの橋渡し\n三つの施策で目標へ近づく\n改革提案で、現状から目標へ進むための三つの施策を説明する。\n目標との差は具体的な施策で埋める。\n左の低い領域は現在、右の高い領域は目標。\n主色の三つの段は橋渡しする施策。\n下の括弧は解消する隔たり。\n段の高さと幅は現状から目標へ進む概念的な表現。\nギャップ分析 現状 目標 理想 改革 変革 課題 施策 実現方法 ロードマップ",
   "render": {
     "theme": true,
     "labels": true,

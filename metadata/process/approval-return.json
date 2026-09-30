@@ -101,11 +101,10 @@
       "左の文書を中央の判断ゲートで確認する。",
       "主色の経路が承認後の前進。",
       "下の注意色の経路が提出元への差戻し。"
-    ],
-    "avoid": "複数段階の決裁を一つの判断にまとめない。"
+    ]
   },
   "kind": "diagram",
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "process/approval-return",
   "name": "意思決定_承認と差戻しの経路を分ける_判断ゲートと復帰路",
   "license": "CC0-1.0",
@@ -118,6 +117,8 @@
   },
   "path": "assets/process/approval-return.svg",
   "metadata_path": "metadata/process/approval-return.json",
+  "preview_path": "previews/process/approval-return.svg",
+  "preview_has_example_labels": true,
   "search_text": "process/approval-return\n意思決定_承認と差戻しの経路を分ける_判断ゲートと復帰路\n承認と差戻しを分ける判断ゲート\n申請書類の承認基準と、不備がある場合の再申請を説明する。\n基準を満たした申請は進み、未達の申請は修正へ戻る。\n左の文書を中央の判断ゲートで確認する。\n主色の経路が承認後の前進。\n下の注意色の経路が提出元への差戻し。\n承認 決裁 稟議 差戻し 再申請 判断 審査",
   "render": {
     "theme": true,

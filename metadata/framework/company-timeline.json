@@ -175,15 +175,15 @@
     "reading": [
       "左から右へ時間が進む。",
       "丸が主要な節目。",
-      "上下の説明がその時期に起きた出来事。"
-    ],
-    "avoid": "節目の間隔を経過年数の比率として扱わない。"
+      "上下の説明がその時期に起きた出来事。",
+      "節目の間隔は時系列の順序を読み取りやすくする概念的な配置。"
+    ]
   },
   "layout": {
     "relation": "ordered-milestones",
     "reading_direction": "left-to-right"
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "framework/company-timeline",
   "name": "企業紹介_事業の節目を時系列で伝える_5つの沿革",
   "license": "CC0-1.0",
@@ -196,7 +196,9 @@
   },
   "path": "assets/framework/company-timeline.svg",
   "metadata_path": "metadata/framework/company-timeline.json",
-  "search_text": "framework/company-timeline\n企業紹介_事業の節目を時系列で伝える_5つの沿革\n事業の節目を時系列で伝える\n会社紹介で、創業から現在までの事業の歩みを伝える。\n事業の成長を、主要な節目の連なりとして示す。\n左から右へ時間が進む。\n丸が主要な節目。\n上下の説明がその時期に起きた出来事。\n沿革 企業紹介 歴史 年表 タイムライン 成長 節目 history timeline milestones",
+  "preview_path": "previews/framework/company-timeline.svg",
+  "preview_has_example_labels": true,
+  "search_text": "framework/company-timeline\n企業紹介_事業の節目を時系列で伝える_5つの沿革\n事業の節目を時系列で伝える\n会社紹介で、創業から現在までの事業の歩みを伝える。\n事業の成長を、主要な節目の連なりとして示す。\n左から右へ時間が進む。\n丸が主要な節目。\n上下の説明がその時期に起きた出来事。\n節目の間隔は時系列の順序を読み取りやすくする概念的な配置。\n沿革 企業紹介 歴史 年表 タイムライン 成長 節目 history timeline milestones",
   "render": {
     "theme": true,
     "labels": true,

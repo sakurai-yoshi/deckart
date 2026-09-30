@@ -1,72 +1,38 @@
 {
-  "title": "青い綴じ構造で論点を束ねる目次",
-  "description": "左の精密な綴じ構造を見どころに、右へ議題を縦に整理する。",
+  "title": "白い面を束ねる青い綴じ",
+  "description": "左端に重なる白い面を青い綴じがつなぎ、右側に白い面が広がる。",
   "kind": "background",
   "category": "11-背景とフレーム",
   "width": 1672,
   "height": 941,
   "keywords": [
+    "背景",
+    "白",
+    "青",
+    "余白",
+    "質感",
+    "background",
+    "紙",
+    "布",
+    "綴じ",
+    "左装飾",
+    "右余白",
     "目次",
-    "議題",
     "アジェンダ",
-    "会議",
-    "論点",
-    "agenda",
-    "contents",
-    "meeting"
+    "見出し",
+    "paper",
+    "binding",
+    "agenda"
   ],
   "guidance": {
-    "use_case": "会議や提案の冒頭で、扱う論点と進める順序を示す。",
-    "message": "複数の議題を一つの流れとして整理する。",
+    "use_case": "目次、説明、提案、会議資料など。",
+    "message": "整った綴じ構造で、複数の話題を束ねる印象を添える。",
     "reading": [
-      "右上に目次の題名、下に4〜6件の議題を縦に配置する。",
-      "青い綴じ部は装飾として残し、項目番号は右の本文領域へ置く。"
-    ],
-    "avoid": "左の綴じ構造を議題数や工程数として読み取らない。"
+      "左端に白い面の重なりと青い織物の綴じがある。",
+      "右側は明るく均一な白い面。"
+    ]
   },
   "labels": [],
-  "canvas": {
-    "width": 1600,
-    "height": 900
-  },
-  "content_areas": [
-    {
-      "id": "title",
-      "role": "目次の題名",
-      "purpose": "目次の題名を配置する白い領域。",
-      "content_type": "text",
-      "x": 520,
-      "y": 95,
-      "width": 960,
-      "height": 110,
-      "text_color": "#172B4D",
-      "text_align": "left"
-    },
-    {
-      "id": "agenda",
-      "role": "議題と所要時間",
-      "purpose": "議題と所要時間を配置する白い領域。",
-      "content_type": "text",
-      "x": 520,
-      "y": 260,
-      "width": 960,
-      "height": 500,
-      "text_color": "#172B4D",
-      "text_align": "left"
-    },
-    {
-      "id": "footer",
-      "role": "日付と会議名",
-      "purpose": "日付と会議名を配置する白い領域。",
-      "content_type": "text",
-      "x": 520,
-      "y": 800,
-      "width": 960,
-      "height": 45,
-      "text_color": "#172B4D",
-      "text_align": "left"
-    }
-  ],
   "preview_path": "previews/background/agenda-edge-binding.png",
   "generation": {
     "method": "image-generation",
@@ -75,13 +41,18 @@
   "format": "png",
   "mime_type": "image/png",
   "transparent": false,
-  "schema_version": 2,
+  "canvas": {
+    "width": 1672,
+    "height": 941
+  },
+  "schema_version": 3,
   "id": "background/agenda-edge-binding",
-  "name": "青い綴じ構造で論点を束ねる目次_背景",
+  "name": "白い面を束ねる青い綴じ_背景",
   "license": "CC0-1.0",
   "path": "media/background/agenda-edge-binding.png",
   "metadata_path": "metadata/background/agenda-edge-binding.json",
-  "search_text": "background/agenda-edge-binding\n青い綴じ構造で論点を束ねる目次_背景\n青い綴じ構造で論点を束ねる目次\n会議や提案の冒頭で、扱う論点と進める順序を示す。\n複数の議題を一つの流れとして整理する。\n右上に目次の題名、下に4〜6件の議題を縦に配置する。\n青い綴じ部は装飾として残し、項目番号は右の本文領域へ置く。\n目次 議題 アジェンダ 会議 論点 agenda contents meeting",
+  "preview_has_example_labels": false,
+  "search_text": "background/agenda-edge-binding\n白い面を束ねる青い綴じ_背景\n白い面を束ねる青い綴じ\n目次、説明、提案、会議資料など。\n整った綴じ構造で、複数の話題を束ねる印象を添える。\n左端に白い面の重なりと青い織物の綴じがある。\n右側は明るく均一な白い面。\n背景 白 青 余白 質感 background 紙 布 綴じ 左装飾 右余白 目次 アジェンダ 見出し paper binding agenda",
   "render": {
     "theme": false,
     "labels": false,

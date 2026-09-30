@@ -282,14 +282,13 @@
       "上から時計回りに4月から翌3月へ進む。",
       "色分けされた四つの区画が四半期。",
       "中央の矢印が毎年繰り返す運営を示す。"
-    ],
-    "avoid": "法定期限や休日を含む日付管理には使わない。"
+    ]
   },
   "layout": {
     "relation": "twelve-month-cycle",
     "reading_direction": "clockwise"
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "framework/annual-rhythm",
   "name": "年間運営_四半期の活動を毎年繰り返す_4月始まりの年間サイクル",
   "license": "CC0-1.0",
@@ -302,6 +301,8 @@
   },
   "path": "assets/framework/annual-rhythm.svg",
   "metadata_path": "metadata/framework/annual-rhythm.json",
+  "preview_path": "previews/framework/annual-rhythm.svg",
+  "preview_has_example_labels": true,
   "search_text": "framework/annual-rhythm\n年間運営_四半期の活動を毎年繰り返す_4月始まりの年間サイクル\n四半期の活動を毎年繰り返す\n年度の計画・実行・評価・翌年度準備を、年間の運営リズムとして共有する。\n月ごとの活動を四半期にまとめ、翌年度へつなげる。\n上から時計回りに4月から翌3月へ進む。\n色分けされた四つの区画が四半期。\n中央の矢印が毎年繰り返す運営を示す。\n年間計画 年度 四半期 月次 年間サイクル 4月始まり 定例 運営 annual rhythm calendar",
   "render": {
     "theme": true,

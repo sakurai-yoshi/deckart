@@ -21,11 +21,10 @@
     "message": "故障前に時期を決めて設備を手入れする。",
     "reading": [
       "レンチが保全作業を表す。",
-      "時計を添え、実施時期を決めた点検と区別する。"
-    ],
-    "avoid": "記号は業務の種類を示す。数値、認証取得、測定結果を保証する印には使わない。"
+      "時計は点検を行う時期が決まっていることを表す。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "icon/preventive-maintenance",
   "name": "計画保全_製造業務の記号",
   "license": "CC0-1.0",
@@ -38,7 +37,9 @@
   },
   "path": "assets/icon/preventive-maintenance.svg",
   "metadata_path": "metadata/icon/preventive-maintenance.json",
-  "search_text": "icon/preventive-maintenance\n計画保全_製造業務の記号\n計画保全\n設備の定期点検や計画保全を示す。\n故障前に時期を決めて設備を手入れする。\nレンチが保全作業を表す。\n時計を添え、実施時期を決めた点検と区別する。\n保全 保守 点検 定期 予防 maintenance planned preventive",
+  "preview_path": "assets/icon/preventive-maintenance.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/preventive-maintenance\n計画保全_製造業務の記号\n計画保全\n設備の定期点検や計画保全を示す。\n故障前に時期を決めて設備を手入れする。\nレンチが保全作業を表す。\n時計は点検を行う時期が決まっていることを表す。\n保全 保守 点検 定期 予防 maintenance planned preventive",
   "render": {
     "theme": true,
     "labels": false,

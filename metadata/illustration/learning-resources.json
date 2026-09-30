@@ -19,19 +19,14 @@
     "message": "資料を参照しながら理解を深める。",
     "reading": [
       "開いた本と栞が参照中の箇所を示し、奥の本が学習に使う知識の蓄積を補います。"
-    ],
-    "avoid": "数値や条件を示す実資料には、編集可能な文字・図表を併用してください。"
+    ]
   },
   "labels": [],
   "preview_path": "previews/illustration/learning-resources.png",
-  "placement": {
+  "composition": {
     "framing": "object",
     "facing": "front",
-    "people_count": 0,
-    "recommended_width_cm": [
-      4,
-      7
-    ]
+    "people_count": 0
   },
   "generation": {
     "method": "image-generation",
@@ -45,13 +40,14 @@
     "width": 1254,
     "height": 1254
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "illustration/learning-resources",
   "name": "知識を身につける_物で伝える業務",
   "license": "CC0-1.0",
   "path": "media/illustration/learning-resources.png",
   "metadata_path": "metadata/illustration/learning-resources.json",
-  "search_text": "illustration/learning-resources\n知識を身につける_物で伝える業務\n知識を身につける\n教育、技術伝承、自習、参考資料の案内に。\n資料を参照しながら理解を深める。\n開いた本と栞が参照中の箇所を示し、奥の本が学習に使う知識の蓄積を補います。\n学習 教育 知識 教材 マニュアル learning resources training\nobject 物 道具 front 正面 0  [4, 7] ",
+  "preview_has_example_labels": false,
+  "search_text": "illustration/learning-resources\n知識を身につける_物で伝える業務\n知識を身につける\n教育、技術伝承、自習、参考資料の案内に。\n資料を参照しながら理解を深める。\n開いた本と栞が参照中の箇所を示し、奥の本が学習に使う知識の蓄積を補います。\n学習 教育 知識 教材 マニュアル learning resources training\nobject 物 道具 front 正面",
   "render": {
     "theme": false,
     "labels": false,

@@ -99,11 +99,10 @@
       "四つの層は成果に必要な能力の種類。",
       "右側の縦の線は共通する運用。",
       "接続点は各層を別々に整備して終わらせないことを示す。"
-    ],
-    "avoid": "層の順序を成熟度の採点や導入順序として扱わない。"
+    ]
   },
   "kind": "diagram",
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "strategy/capability-stack",
   "name": "組織開発_必要な能力の積層_共通基盤で結ぶ四層",
   "license": "CC0-1.0",
@@ -116,6 +115,8 @@
   },
   "path": "assets/strategy/capability-stack.svg",
   "metadata_path": "metadata/strategy/capability-stack.json",
+  "preview_path": "previews/strategy/capability-stack.svg",
+  "preview_has_example_labels": true,
   "search_text": "strategy/capability-stack\n組織開発_必要な能力の積層_共通基盤で結ぶ四層\n必要な能力を共通の運用で結ぶ\n人材育成や業務改革に必要な能力を整理する。\n実践・手順・スキル・道具を共通の運用で結ぶ。\n四つの層は成果に必要な能力の種類。\n右側の縦の線は共通する運用。\n接続点は各層を別々に整備して終わらせないことを示す。\nケイパビリティ 能力開発 人材育成 組織開発 スキル 業務プロセス 共通基盤 定着 DX",
   "render": {
     "theme": true,

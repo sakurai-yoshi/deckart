@@ -68,10 +68,9 @@
     "reading": [
       "上の矢印が試行から確認への順序を示す。",
       "下の戻り線が結果を次の試行に反映することを示す。"
-    ],
-    "avoid": "一度だけ実施して完了する工程の表示には使わない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "part/feedback-return",
   "name": "結果を次の試行へ戻す_説明パーツ",
   "license": "CC0-1.0",
@@ -84,6 +83,8 @@
   },
   "path": "assets/part/feedback-return.svg",
   "metadata_path": "metadata/part/feedback-return.json",
+  "preview_path": "previews/part/feedback-return.svg",
+  "preview_has_example_labels": true,
   "search_text": "part/feedback-return\n結果を次の試行へ戻す_説明パーツ\n結果を次の試行へ戻す\n試行結果を次の改善につなぐ場面。\n確認して終えず、課題を次の運用へ戻す。\n上の矢印が試行から確認への順序を示す。\n下の戻り線が結果を次の試行に反映することを示す。\n改善 フィードバック 試行 評価 循環 feedback iteration review",
   "render": {
     "theme": true,

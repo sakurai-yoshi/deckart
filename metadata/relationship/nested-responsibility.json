@@ -70,11 +70,10 @@
       "最も外側が事業全体。",
       "その内側が部門の範囲。",
       "さらに内側がチームの担当範囲。"
-    ],
-    "avoid": "部門をまたいで重複する責任範囲には使わない。"
+    ]
   },
   "kind": "diagram",
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "relationship/nested-responsibility",
   "name": "責任範囲_全体と部分の包含関係_事業部門チーム",
   "license": "CC0-1.0",
@@ -87,6 +86,8 @@
   },
   "path": "assets/relationship/nested-responsibility.svg",
   "metadata_path": "metadata/relationship/nested-responsibility.json",
+  "preview_path": "previews/relationship/nested-responsibility.svg",
+  "preview_has_example_labels": true,
   "search_text": "relationship/nested-responsibility\n責任範囲_全体と部分の包含関係_事業部門チーム\n全体の中に担当範囲を置く\n事業・部門・チームの担当範囲を説明する。\n小さな担当範囲は上位の範囲に含まれる。\n最も外側が事業全体。\nその内側が部門の範囲。\nさらに内側がチームの担当範囲。\n包含関係 全体と部分 スコープ 責任範囲 担当範囲 事業領域 部門 チーム 内包 階層",
   "render": {
     "theme": true,

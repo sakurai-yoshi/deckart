@@ -18,19 +18,14 @@
     "message": "支出の根拠を並べて費用を確認する。",
     "reading": [
       "電卓・記録ノート・領収紙を重ね、金額と根拠を突き合わせる関係を示します。"
-    ],
-    "avoid": "数値や条件を示す実資料には、編集可能な文字・図表を併用してください。"
+    ]
   },
   "labels": [],
   "preview_path": "previews/illustration/budget-review.png",
-  "placement": {
+  "composition": {
     "framing": "object",
     "facing": "front",
-    "people_count": 0,
-    "recommended_width_cm": [
-      4,
-      7
-    ]
+    "people_count": 0
   },
   "generation": {
     "method": "image-generation",
@@ -44,13 +39,14 @@
     "width": 1254,
     "height": 1254
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "illustration/budget-review",
   "name": "費用を検討する_物で伝える業務",
   "license": "CC0-1.0",
   "path": "media/illustration/budget-review.png",
   "metadata_path": "metadata/illustration/budget-review.json",
-  "search_text": "illustration/budget-review\n費用を検討する_物で伝える業務\n費用を検討する\n予算、見積、費用確認、購買計画の説明に。\n支出の根拠を並べて費用を確認する。\n電卓・記録ノート・領収紙を重ね、金額と根拠を突き合わせる関係を示します。\n費用 予算 見積 コスト budget estimate expenses\nobject 物 道具 front 正面 0  [4, 7] ",
+  "preview_has_example_labels": false,
+  "search_text": "illustration/budget-review\n費用を検討する_物で伝える業務\n費用を検討する\n予算、見積、費用確認、購買計画の説明に。\n支出の根拠を並べて費用を確認する。\n電卓・記録ノート・領収紙を重ね、金額と根拠を突き合わせる関係を示します。\n費用 予算 見積 コスト budget estimate expenses\nobject 物 道具 front 正面",
   "render": {
     "theme": false,
     "labels": false,

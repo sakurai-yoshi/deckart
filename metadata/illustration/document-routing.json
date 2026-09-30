@@ -4,13 +4,9 @@
   "width": 1254,
   "height": 1254,
   "labels": [],
-  "placement": {
+  "composition": {
     "framing": "object",
-    "facing": "front",
-    "recommended_width_cm": [
-      4,
-      7
-    ]
+    "facing": "front"
   },
   "title": "書類を次の処理段階へ渡す",
   "description": "二段の書類トレーで、上段の束から分かれた一枚の資料が下段に置かれ、次の処理へ回す関係を表す。",
@@ -31,8 +27,7 @@
     "reading": [
       "上段にそろった紙束が、処理を待つ資料を表す。",
       "下段の手前へ出した一枚の資料が、次の処理に回す対象を表す。"
-    ],
-    "avoid": "承認済みの状態や実際の業務順序を、この画像だけで示さない。"
+    ]
   },
   "generation": {
     "method": "image-generation",
@@ -46,13 +41,14 @@
     "width": 1254,
     "height": 1254
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "illustration/document-routing",
   "name": "書類を次の処理段階へ渡す_情報と業務のイラスト",
   "license": "CC0-1.0",
   "path": "media/illustration/document-routing.png",
   "metadata_path": "metadata/illustration/document-routing.json",
-  "search_text": "illustration/document-routing\n書類を次の処理段階へ渡す_情報と業務のイラスト\n書類を次の処理段階へ渡す\n書類の回付、事務処理の受け渡し、確認後の次工程への引き継ぎの説明。\n処理した書類を次の担当や段階へ回す。\n上段にそろった紙束が、処理を待つ資料を表す。\n下段の手前へ出した一枚の資料が、次の処理に回す対象を表す。\n書類 回付 受け渡し 処理 業務 引き継ぎ document routing handoff\nobject 物 道具 front 正面 [4, 7] ",
+  "preview_has_example_labels": false,
+  "search_text": "illustration/document-routing\n書類を次の処理段階へ渡す_情報と業務のイラスト\n書類を次の処理段階へ渡す\n書類の回付、事務処理の受け渡し、確認後の次工程への引き継ぎの説明。\n処理した書類を次の担当や段階へ回す。\n上段にそろった紙束が、処理を待つ資料を表す。\n下段の手前へ出した一枚の資料が、次の処理に回す対象を表す。\n書類 回付 受け渡し 処理 業務 引き継ぎ document routing handoff\nobject 物 道具 front 正面",
   "render": {
     "theme": false,
     "labels": false,

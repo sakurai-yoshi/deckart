@@ -1,80 +1,38 @@
 {
-  "title": "青い間接光で次の章へ導く章扉",
-  "description": "白い浅い彫り面と段差に青い間接光を反射させ、上部から中央の白い領域に短い章題を置く章扉背景。",
+  "title": "白い段差に沿う青い間接光",
+  "description": "下部の白い段差に沿って青い間接光が広がる。",
   "kind": "background",
   "category": "11-背景とフレーム",
   "width": 1672,
   "height": 941,
   "keywords": [
-    "章扉",
-    "導入",
-    "切り替え",
-    "次の章",
-    "中央揃え",
+    "背景",
+    "白",
+    "青",
+    "余白",
+    "質感",
+    "background",
+    "段差",
     "間接光",
     "光庭",
-    "段差",
     "奥行き",
-    "section",
-    "divider",
+    "下装飾",
+    "上余白",
+    "章扉",
+    "導入",
     "lightwell",
-    "indirect",
-    "light",
-    "relief",
-    "centered"
+    "indirect light",
+    "section"
   ],
   "guidance": {
-    "use_case": "資料の章の切り替え、次の取り組みや検討テーマの導入。",
-    "message": "新しい章の主題を、短い題名と導入文で明確に示す。",
+    "use_case": "章の導入、方針、主題、まとめなど。",
+    "message": "水平な層と青い光で、落ち着きと奥行きを添える。",
     "reading": [
-      "上部中央に章番号、中央に短い章題を配置する。",
-      "導入文は題名の下へ中央揃えで置き、下部の光庭には文字を重ねない。"
-    ],
-    "avoid": "下部の段差を工程数や優先順位の図として解釈する用途には使わない。"
+      "下端の層が中央へ向かって低くなり、青い光を囲む。",
+      "上部から中央には広い白い面がある。"
+    ]
   },
   "labels": [],
-  "canvas": {
-    "width": 1600,
-    "height": 900
-  },
-  "content_areas": [
-    {
-      "id": "number",
-      "role": "章番号",
-      "purpose": "章番号を配置する白い領域。",
-      "content_type": "text",
-      "x": 500,
-      "y": 95,
-      "width": 600,
-      "height": 85,
-      "text_color": "#172B4D",
-      "text_align": "center"
-    },
-    {
-      "id": "title",
-      "role": "章題",
-      "purpose": "章題を配置する白い領域。",
-      "content_type": "text",
-      "x": 250,
-      "y": 245,
-      "width": 1100,
-      "height": 140,
-      "text_color": "#172B4D",
-      "text_align": "center"
-    },
-    {
-      "id": "lead",
-      "role": "導入文",
-      "purpose": "導入文を配置する白い領域。",
-      "content_type": "text",
-      "x": 350,
-      "y": 425,
-      "width": 900,
-      "height": 110,
-      "text_color": "#172B4D",
-      "text_align": "center"
-    }
-  ],
   "generation": {
     "method": "image-generation",
     "definition_path": "sources/backgrounds.json"
@@ -83,13 +41,18 @@
   "format": "png",
   "mime_type": "image/png",
   "transparent": false,
-  "schema_version": 2,
+  "canvas": {
+    "width": 1672,
+    "height": 941
+  },
+  "schema_version": 3,
   "id": "background/section-lightwell",
-  "name": "青い間接光で次の章へ導く章扉_背景",
+  "name": "白い段差に沿う青い間接光_背景",
   "license": "CC0-1.0",
   "path": "media/background/section-lightwell.png",
   "metadata_path": "metadata/background/section-lightwell.json",
-  "search_text": "background/section-lightwell\n青い間接光で次の章へ導く章扉_背景\n青い間接光で次の章へ導く章扉\n資料の章の切り替え、次の取り組みや検討テーマの導入。\n新しい章の主題を、短い題名と導入文で明確に示す。\n上部中央に章番号、中央に短い章題を配置する。\n導入文は題名の下へ中央揃えで置き、下部の光庭には文字を重ねない。\n章扉 導入 切り替え 次の章 中央揃え 間接光 光庭 段差 奥行き section divider lightwell indirect light relief centered",
+  "preview_has_example_labels": false,
+  "search_text": "background/section-lightwell\n白い段差に沿う青い間接光_背景\n白い段差に沿う青い間接光\n章の導入、方針、主題、まとめなど。\n水平な層と青い光で、落ち着きと奥行きを添える。\n下端の層が中央へ向かって低くなり、青い光を囲む。\n上部から中央には広い白い面がある。\n背景 白 青 余白 質感 background 段差 間接光 光庭 奥行き 下装飾 上余白 章扉 導入 lightwell indirect light section",
   "render": {
     "theme": false,
     "labels": false,

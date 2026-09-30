@@ -52,10 +52,9 @@
     "reading": [
       "上の小さい文字が属する区分を示す。",
       "下の大きな文字が具体的な話題を示す。"
-    ],
-    "avoid": "上下を独立した二つの見出しとして使う用途には使わない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "part/section-topic",
   "name": "区分と話題を二段で示す_説明パーツ",
   "license": "CC0-1.0",
@@ -68,6 +67,8 @@
   },
   "path": "assets/part/section-topic.svg",
   "metadata_path": "metadata/part/section-topic.json",
+  "preview_path": "previews/part/section-topic.svg",
+  "preview_has_example_labels": true,
   "search_text": "part/section-topic\n区分と話題を二段で示す_説明パーツ\n区分と話題を二段で示す\n一つの区分の中で、細かな話題を整理する場面。\n上位の区分と、この箇所の話題を同時に示す。\n上の小さい文字が属する区分を示す。\n下の大きな文字が具体的な話題を示す。\n見出し 話題 区分 セクション topic section heading",
   "render": {
     "theme": true,

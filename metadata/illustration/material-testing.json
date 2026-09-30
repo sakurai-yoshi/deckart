@@ -19,19 +19,14 @@
     "reading": [
       "同じ形の二つの試料を並べて観察する。",
       "両手の試料と視線で比較する行為を示す。"
-    ],
-    "avoid": "強度や成分などの測定結果を示す図としては使用しない。"
+    ]
   },
   "labels": [],
   "preview_path": "previews/illustration/material-testing.png",
-  "placement": {
+  "composition": {
     "framing": "waist-up",
     "facing": "left",
-    "people_count": 1,
-    "recommended_width_cm": [
-      3.5,
-      8
-    ]
+    "people_count": 1
   },
   "generation": {
     "method": "image-generation",
@@ -45,13 +40,14 @@
     "width": 1254,
     "height": 1254
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "illustration/material-testing",
   "name": "材料の状態を比較する_メーカー業務の動作",
   "license": "CC0-1.0",
   "path": "media/illustration/material-testing.png",
   "metadata_path": "metadata/illustration/material-testing.json",
-  "search_text": "illustration/material-testing\n材料の状態を比較する_メーカー業務の動作\n材料の状態を比較する\n材料評価、試験前確認、材料選定の説明。\n材料の状態を確かめ、用途に合う性質を検討する。\n同じ形の二つの試料を並べて観察する。\n両手の試料と視線で比較する行為を示す。\n材料 評価 試験 比較 material testing evaluation\nwaist-up 上半身 腰上 left 左向き 1  [3.5, 8] ",
+  "preview_has_example_labels": false,
+  "search_text": "illustration/material-testing\n材料の状態を比較する_メーカー業務の動作\n材料の状態を比較する\n材料評価、試験前確認、材料選定の説明。\n材料の状態を確かめ、用途に合う性質を検討する。\n同じ形の二つの試料を並べて観察する。\n両手の試料と視線で比較する行為を示す。\n材料 評価 試験 比較 material testing evaluation\nwaist-up 上半身 腰上 left 左向き",
   "render": {
     "theme": false,
     "labels": false,

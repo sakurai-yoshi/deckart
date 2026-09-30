@@ -50,12 +50,11 @@
     "use_case": "資料内の章や大きな話題を切り替える場面。",
     "message": "ここから扱う章の位置と題名が分かる。",
     "reading": [
-      "左の濃い面に章番号を置く。",
+      "左の濃い面は章番号の領域。",
       "右の大きな文字がその章の題名になる。"
-    ],
-    "avoid": "進捗率や測定値を示す数値部品には使わない。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "part/chapter-rail",
   "name": "章番号と見出しを組にする_説明パーツ",
   "license": "CC0-1.0",
@@ -68,7 +67,9 @@
   },
   "path": "assets/part/chapter-rail.svg",
   "metadata_path": "metadata/part/chapter-rail.json",
-  "search_text": "part/chapter-rail\n章番号と見出しを組にする_説明パーツ\n章番号と見出しを組にする\n資料内の章や大きな話題を切り替える場面。\nここから扱う章の位置と題名が分かる。\n左の濃い面に章番号を置く。\n右の大きな文字がその章の題名になる。\n章 見出し 章番号 区切り section chapter heading",
+  "preview_path": "previews/part/chapter-rail.svg",
+  "preview_has_example_labels": true,
+  "search_text": "part/chapter-rail\n章番号と見出しを組にする_説明パーツ\n章番号と見出しを組にする\n資料内の章や大きな話題を切り替える場面。\nここから扱う章の位置と題名が分かる。\n左の濃い面は章番号の領域。\n右の大きな文字がその章の題名になる。\n章 見出し 章番号 区切り section chapter heading",
   "render": {
     "theme": true,
     "labels": true,

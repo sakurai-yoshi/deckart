@@ -67,11 +67,10 @@
     "message": "何が決まり、誰が責任を持つかを確認できる。",
     "reading": [
       "チェックが決定事項の欄であることを示す。",
-      "大きな決定文の下に責任者と判断情報を置く。"
-    ],
-    "avoid": "未承認の内容にチェックを付けて確定事項として扱う用途には使わない。"
+      "大きな決定文の下には、責任者と判断情報の領域がある。"
+    ]
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "part/recorded-decision",
   "name": "決定した内容と責任を残す_説明パーツ",
   "license": "CC0-1.0",
@@ -84,7 +83,9 @@
   },
   "path": "assets/part/recorded-decision.svg",
   "metadata_path": "metadata/part/recorded-decision.json",
-  "search_text": "part/recorded-decision\n決定した内容と責任を残す_説明パーツ\n決定した内容と責任を残す\n会議などで合意した内容を要点として残す場面。\n何が決まり、誰が責任を持つかを確認できる。\nチェックが決定事項の欄であることを示す。\n大きな決定文の下に責任者と判断情報を置く。\n決定 合意 責任 判断日 記録 decision agreement record",
+  "preview_path": "previews/part/recorded-decision.svg",
+  "preview_has_example_labels": true,
+  "search_text": "part/recorded-decision\n決定した内容と責任を残す_説明パーツ\n決定した内容と責任を残す\n会議などで合意した内容を要点として残す場面。\n何が決まり、誰が責任を持つかを確認できる。\nチェックが決定事項の欄であることを示す。\n大きな決定文の下には、責任者と判断情報の領域がある。\n決定 合意 責任 判断日 記録 decision agreement record",
   "render": {
     "theme": true,
     "labels": true,

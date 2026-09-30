@@ -4,75 +4,34 @@
   "width": 1672,
   "height": 941,
   "labels": [],
-  "canvas": {
-    "width": 1600,
-    "height": 900
-  },
-  "title": "紙の成形と青い層で報告を支える背景",
-  "description": "低い隆起と紙の質感で、図表と補足説明を落ち着いて見せる。",
+  "title": "紙の浅い成形と青い縁",
+  "description": "広い白い紙の面に微細な質感があり、下端に浅い成形と青い縁がある。",
   "keywords": [
-    "月次報告",
-    "業務報告",
-    "成果",
-    "課題",
-    "実績",
+    "背景",
+    "白",
+    "青",
+    "余白",
+    "質感",
+    "background",
+    "紙",
+    "成形",
+    "浅い曲面",
+    "下装飾",
+    "本文",
+    "報告",
     "図表",
-    "補足",
-    "品質",
-    "改善",
-    "monthly report",
-    "performance",
-    "chart",
-    "commentary",
-    "embossed paper"
+    "paper",
+    "embossed",
+    "report"
   ],
   "guidance": {
-    "use_case": "月次報告、成果と課題、業務改善の進捗を図表と補足で説明する本文。",
-    "message": "低い隆起と紙の質感で、図表と補足説明を落ち着いて見せる。",
+    "use_case": "報告、説明、図表、業務資料など。",
+    "message": "低い隆起と紙の質感で、穏やかな奥行きを添える。",
     "reading": [
-      "左の広い領域に実データの図表、右に成果・課題・次の行動を置く。",
-      "下端の青い層と浅い成形は余白として残す。"
-    ],
-    "avoid": "曲面が始まる下端に出典や数値を重ねない。"
+      "大部分が低コントラストの白い紙の面。",
+      "下端の曲面に薄い青い層と淡い影がある。"
+    ]
   },
-  "content_areas": [
-    {
-      "id": "title",
-      "role": "見出し",
-      "purpose": "報告の主題を1行で配置する領域。",
-      "content_type": "text",
-      "x": 100,
-      "y": 70,
-      "width": 1300,
-      "height": 100,
-      "text_color": "#172B4D",
-      "text_align": "left"
-    },
-    {
-      "id": "evidence",
-      "role": "図表と出典",
-      "purpose": "実データの図表と出典を配置する。下端を660以内に収める。",
-      "content_type": "chart",
-      "x": 100,
-      "y": 220,
-      "width": 940,
-      "height": 440,
-      "text_color": "#172B4D",
-      "text_align": "left"
-    },
-    {
-      "id": "commentary",
-      "role": "成果と課題",
-      "purpose": "成果、残る課題、次の行動を簡潔に添える領域。",
-      "content_type": "text",
-      "x": 1100,
-      "y": 220,
-      "width": 370,
-      "height": 440,
-      "text_color": "#172B4D",
-      "text_align": "left"
-    }
-  ],
   "preview_path": "previews/background/report-embossed-surface.png",
   "generation": {
     "method": "image-generation",
@@ -81,13 +40,18 @@
   "format": "png",
   "mime_type": "image/png",
   "transparent": false,
-  "schema_version": 2,
+  "canvas": {
+    "width": 1672,
+    "height": 941
+  },
+  "schema_version": 3,
   "id": "background/report-embossed-surface",
-  "name": "紙の成形と青い層で報告を支える背景_背景",
+  "name": "紙の浅い成形と青い縁_背景",
   "license": "CC0-1.0",
   "path": "media/background/report-embossed-surface.png",
   "metadata_path": "metadata/background/report-embossed-surface.json",
-  "search_text": "background/report-embossed-surface\n紙の成形と青い層で報告を支える背景_背景\n紙の成形と青い層で報告を支える背景\n月次報告、成果と課題、業務改善の進捗を図表と補足で説明する本文。\n低い隆起と紙の質感で、図表と補足説明を落ち着いて見せる。\n左の広い領域に実データの図表、右に成果・課題・次の行動を置く。\n下端の青い層と浅い成形は余白として残す。\n月次報告 業務報告 成果 課題 実績 図表 補足 品質 改善 monthly report performance chart commentary embossed paper",
+  "preview_has_example_labels": false,
+  "search_text": "background/report-embossed-surface\n紙の浅い成形と青い縁_背景\n紙の浅い成形と青い縁\n報告、説明、図表、業務資料など。\n低い隆起と紙の質感で、穏やかな奥行きを添える。\n大部分が低コントラストの白い紙の面。\n下端の曲面に薄い青い層と淡い影がある。\n背景 白 青 余白 質感 background 紙 成形 浅い曲面 下装飾 本文 報告 図表 paper embossed report",
   "render": {
     "theme": false,
     "labels": false,

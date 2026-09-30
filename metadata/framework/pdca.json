@@ -159,15 +159,15 @@
     "reading": [
       "四つの帯が計画・実行・評価・改善。",
       "矢印の向きに沿って時計回りに繰り返す。",
-      "中央に継続して改善する対象を置く。"
-    ],
-    "avoid": "四つの帯の大きさを工数や期間の比率として扱わない。"
+      "中央の領域は、継続して改善する対象を表す。",
+      "四つの帯は計画・実行・評価・改善の種類を区別する。"
+    ]
   },
   "layout": {
     "relation": "four-stage-cycle",
     "reading_direction": "clockwise"
   },
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "framework/pdca",
   "name": "継続改善_計画と実行と評価と改善を回す_4段階PDCA",
   "license": "CC0-1.0",
@@ -180,7 +180,9 @@
   },
   "path": "assets/framework/pdca.svg",
   "metadata_path": "metadata/framework/pdca.json",
-  "search_text": "framework/pdca\n継続改善_計画と実行と評価と改善を回す_4段階PDCA\n計画・実行・評価・改善を回す\n業務や品質改善を継続して進める基本サイクルを共有する。\n評価と改善を次の計画へつなぎ、同じ仕事の質を高める。\n四つの帯が計画・実行・評価・改善。\n矢印の向きに沿って時計回りに繰り返す。\n中央に継続して改善する対象を置く。\nPDCA 計画 実行 評価 改善 継続改善 サイクル 品質 cycle",
+  "preview_path": "previews/framework/pdca.svg",
+  "preview_has_example_labels": true,
+  "search_text": "framework/pdca\n継続改善_計画と実行と評価と改善を回す_4段階PDCA\n計画・実行・評価・改善を回す\n業務や品質改善を継続して進める基本サイクルを共有する。\n評価と改善を次の計画へつなぎ、同じ仕事の質を高める。\n四つの帯が計画・実行・評価・改善。\n矢印の向きに沿って時計回りに繰り返す。\n中央の領域は、継続して改善する対象を表す。\n四つの帯は計画・実行・評価・改善の種類を区別する。\nPDCA 計画 実行 評価 改善 継続改善 サイクル 品質 cycle",
   "render": {
     "theme": true,
     "labels": true,
