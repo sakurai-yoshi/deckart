@@ -1,6 +1,6 @@
 {
-  "version": "2.1.0",
-  "raw_base": "https://raw.githubusercontent.com/sakurai-yoshi/deckart/v2.1.0/",
+  "version": "2.1.1",
+  "raw_base": "https://raw.githubusercontent.com/sakurai-yoshi/deckart/v2.1.1/",
   "category": "02-計画・進捗",
   "asset_count": 32,
   "assets": [
@@ -627,8 +627,8 @@
       "preview_path": "previews/illustration/change-adoption.png",
       "preview_has_example_labels": false,
       "metadata_path": "metadata/illustration/change-adoption.json",
-      "sha256": "6e5d93810fbd47b8fecb6ca5788f46572255775a95c84b3439a2c1699400ac5f",
-      "size_bytes": 1264276,
+      "sha256": "aa46ffac6f351d924d9fcd0ccc79ea69716d004e578b227b8689e7502515b000",
+      "size_bytes": 1309558,
       "keywords": [
         "変化",
         "導入",

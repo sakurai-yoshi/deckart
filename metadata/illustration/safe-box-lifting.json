@@ -2,8 +2,8 @@
   "title": "荷物を体に近づけて持つ",
   "description": "膝を曲げた作業者が、体の近くで箱を両手で支える姿。",
   "kind": "illustration",
-  "width": 1264,
-  "height": 1244,
+  "width": 1536,
+  "height": 1024,
   "labels": [],
   "composition": {
     "framing": "full-body",
@@ -35,8 +35,8 @@
   "mime_type": "image/png",
   "transparent": true,
   "canvas": {
-    "width": 1264,
-    "height": 1244
+    "width": 1536,
+    "height": 1024
   },
   "category": "07-安全・事業継続",
   "schema_version": 3,
@@ -52,6 +52,6 @@
     "labels": false,
     "data": false
   },
-  "sha256": "9dd8e05218880b0801148e132d19125190caa361488179d71cfb6e9cfb601007",
-  "size_bytes": 663578
+  "sha256": "0d1110148dd084a9d93dc5369a71d49cdc1697fb4cd27e181b086517f8b4d8e0",
+  "size_bytes": 1026263
 }

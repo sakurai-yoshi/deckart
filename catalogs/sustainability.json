@@ -1,6 +1,6 @@
 {
-  "version": "2.1.0",
-  "raw_base": "https://raw.githubusercontent.com/sakurai-yoshi/deckart/v2.1.0/",
+  "version": "2.1.1",
+  "raw_base": "https://raw.githubusercontent.com/sakurai-yoshi/deckart/v2.1.1/",
   "category": "08-環境・資源",
   "asset_count": 29,
   "assets": [
@@ -816,8 +816,8 @@
       "preview_path": "previews/illustration/heat-recovery.png",
       "preview_has_example_labels": false,
       "metadata_path": "metadata/illustration/heat-recovery.json",
-      "sha256": "499c3f34c57156206e8c1e26fadfea4dab6c245b0693b9b07643415756cafa94",
-      "size_bytes": 1433247,
+      "sha256": "937e48ccc8832dafe38d04ca10930b561653bee624dd330a9fa7227146bd8cae",
+      "size_bytes": 1337908,
       "keywords": [
         "排熱",
         "熱回収",
@@ -856,8 +856,8 @@
       "preview_path": "previews/illustration/local-energy-storage.png",
       "preview_has_example_labels": false,
       "metadata_path": "metadata/illustration/local-energy-storage.json",
-      "sha256": "a6488d0109c9b4c5cfea3a0d6a2d3d35b23aa7631305312c6854d29751a0af98",
-      "size_bytes": 1129659,
+      "sha256": "b012d6b651ee3c2489b3fb1c6db24c1b38639797f6272dc126df32cfed80a179",
+      "size_bytes": 1202702,
       "keywords": [
         "蓄電",
         "電力",
@@ -939,8 +939,8 @@
       "preview_path": "previews/illustration/material-separation.png",
       "preview_has_example_labels": false,
       "metadata_path": "metadata/illustration/material-separation.json",
-      "sha256": "97bc0c355ad64c24546bb557fd09b0ed261388f5a2d0fdaff68e477f270a4e30",
-      "size_bytes": 1733668,
+      "sha256": "fa096e0b26a504d6f8b6e71faf5d706f6a54da8aa3f7ad993432182654b42e6a",
+      "size_bytes": 1646839,
       "keywords": [
         "分解",
         "分別",
@@ -1021,8 +1021,8 @@
       "preview_path": "previews/illustration/repair-before-replacement.png",
       "preview_has_example_labels": false,
       "metadata_path": "metadata/illustration/repair-before-replacement.json",
-      "sha256": "083fe861ab8e49ed96fae61c14ab7cb016d312f22f549b74656481c51a9fde81",
-      "size_bytes": 1466264,
+      "sha256": "c3e525117831a69785b8d2e7aef2c489b96e334f51bf8aa97b912ea060d8f6c2",
+      "size_bytes": 1340772,
       "keywords": [
         "長寿命",
         "修繕",
@@ -1148,8 +1148,8 @@
       "preview_path": "previews/illustration/water-recirculation.png",
       "preview_has_example_labels": false,
       "metadata_path": "metadata/illustration/water-recirculation.json",
-      "sha256": "227ee93dce7bd61551d715e08404da7ef75d73f98a7184942da8b5f24d9b4afe",
-      "size_bytes": 1194204,
+      "sha256": "3aea150ea19ba99b8177b204caaceb8b417504b15a3efa2f0e08f18cb33d3833",
+      "size_bytes": 1193585,
       "keywords": [
         "水",
         "循環",

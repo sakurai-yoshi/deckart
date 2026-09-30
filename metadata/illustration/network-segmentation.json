@@ -20,8 +20,8 @@
     "use_case": "情報機器の接続構成を説明し、接続する機器をグループごとに整理する場面。",
     "message": "接続先を分け、通信の構成を整理する。",
     "reading": [
-      "中央の機器には、濃い青と淡い青で区別した二組の接続口がある。",
-      "左右の機器は色の対応するコードでそれぞれの接続口へつながっている。"
+      "中央の機器には、青い面と白い面で区別した二組の接続口がある。",
+      "左右の機器は青と白のコードで、それぞれに対応する接続口へつながっている。"
     ]
   },
   "preview_path": "previews/illustration/network-segmentation.png",
@@ -44,12 +44,12 @@
   "path": "media/illustration/network-segmentation.png",
   "metadata_path": "metadata/illustration/network-segmentation.json",
   "preview_has_example_labels": false,
-  "search_text": "illustration/network-segmentation\nネットワークを分けて接続する_業務イラスト\nネットワークを分けて接続する\n情報機器の接続構成を説明し、接続する機器をグループごとに整理する場面。\n接続先を分け、通信の構成を整理する。\n中央の機器には、濃い青と淡い青で区別した二組の接続口がある。\n左右の機器は色の対応するコードでそれぞれの接続口へつながっている。\nネットワーク 分離 通信 セキュリティ network segmentation\nobject 物 道具 front 正面",
+  "search_text": "illustration/network-segmentation\nネットワークを分けて接続する_業務イラスト\nネットワークを分けて接続する\n情報機器の接続構成を説明し、接続する機器をグループごとに整理する場面。\n接続先を分け、通信の構成を整理する。\n中央の機器には、青い面と白い面で区別した二組の接続口がある。\n左右の機器は青と白のコードで、それぞれに対応する接続口へつながっている。\nネットワーク 分離 通信 セキュリティ network segmentation\nobject 物 道具 front 正面",
   "render": {
     "theme": false,
     "labels": false,
     "data": false
   },
-  "sha256": "2904dffa358f2b84b881282891e116e2e9d512db6313063456d8c5aa60f32f70",
-  "size_bytes": 1035400
+  "sha256": "27926ef29631c765ebd371b7363a64f2dd10ead76b17539441e2f61cfbe3e6f1",
+  "size_bytes": 1081745
 }

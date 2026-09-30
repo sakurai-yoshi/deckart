@@ -1,6 +1,6 @@
 {
-  "version": "2.1.0",
-  "raw_base": "https://raw.githubusercontent.com/sakurai-yoshi/deckart/v2.1.0/",
+  "version": "2.1.1",
+  "raw_base": "https://raw.githubusercontent.com/sakurai-yoshi/deckart/v2.1.1/",
   "category": "11-会計・収益",
   "asset_count": 28,
   "assets": [
@@ -881,8 +881,8 @@
       "preview_path": "previews/illustration/cash-flow-planning.png",
       "preview_has_example_labels": false,
       "metadata_path": "metadata/illustration/cash-flow-planning.json",
-      "sha256": "bdda22f2889c920bea3aedd9a8aa94c3c00cfea6f367c7e83ec3ca468d32a01c",
-      "size_bytes": 1497390,
+      "sha256": "bcac817898750fb2fc69e80ff7d6db84c210b1f7257ee87f7ddb945149863174",
+      "size_bytes": 1526640,
       "keywords": [
         "資金繰り",
         "現金",
@@ -963,8 +963,8 @@
       "preview_path": "previews/illustration/investment-evaluation.png",
       "preview_has_example_labels": false,
       "metadata_path": "metadata/illustration/investment-evaluation.json",
-      "sha256": "eae2db45cf78f107c4dd38706cdffbecf12fd191c070978ce874a98c9204a6b8",
-      "size_bytes": 795738,
+      "sha256": "bdcdc3736f6eb5fa9c4535349bc655a5fb71c35f907e258c071598b9d4136626",
+      "size_bytes": 780344,
       "keywords": [
         "設備投資",
         "投資評価",

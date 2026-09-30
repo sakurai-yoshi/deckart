@@ -1,6 +1,6 @@
 {
-  "version": "2.1.0",
-  "raw_base": "https://raw.githubusercontent.com/sakurai-yoshi/deckart/v2.1.0/",
+  "version": "2.1.1",
+  "raw_base": "https://raw.githubusercontent.com/sakurai-yoshi/deckart/v2.1.1/",
   "category": "03-品質・改善",
   "asset_count": 51,
   "assets": [
@@ -893,8 +893,8 @@
       "preview_path": "previews/illustration/failure-investigation.png",
       "preview_has_example_labels": false,
       "metadata_path": "metadata/illustration/failure-investigation.json",
-      "sha256": "7021a0a498f6e7b03f60c03f8533f53c5151cc2c27b0960e0019629f040aa367",
-      "size_bytes": 1591106,
+      "sha256": "1c1ebc4846d844fc9212d3c77fbe19ee83d972fe83b6b9249342968c15c25bb1",
+      "size_bytes": 1664396,
       "keywords": [
         "故障",
         "原因調査",
@@ -934,8 +934,8 @@
       "preview_path": "previews/illustration/first-article-check.png",
       "preview_has_example_labels": false,
       "metadata_path": "metadata/illustration/first-article-check.json",
-      "sha256": "513b1ccb21e945cb3f504c4bd407847c0ffea96cf227844db6ce503216b397a3",
-      "size_bytes": 1322262,
+      "sha256": "a4aa4e4ef5d18e57027519becb227432dc530a8dd6481993ac49a2391c99ed55",
+      "size_bytes": 1283084,
       "keywords": [
         "初回品",
         "初品",
@@ -975,8 +975,8 @@
       "preview_path": "previews/illustration/foreign-object-removal.png",
       "preview_has_example_labels": false,
       "metadata_path": "metadata/illustration/foreign-object-removal.json",
-      "sha256": "14af1bc4ffd9e2b48921819f7a02f33aefdd4be506f8837e8105b52baffbfc99",
-      "size_bytes": 1458088,
+      "sha256": "8dd46f2d682f1de05f14f07d6c4e5116714afebcffcbf31b4edc56e879ff3299",
+      "size_bytes": 1325452,
       "keywords": [
         "異物",
         "混入",
@@ -1218,11 +1218,11 @@
       "format": "png",
       "mime_type": "image/png",
       "transparent": true,
-      "width": 1312,
-      "height": 1199,
+      "width": 1536,
+      "height": 1024,
       "canvas": {
-        "width": 1312,
-        "height": 1199
+        "width": 1536,
+        "height": 1024
       },
       "render": {
         "theme": false,
@@ -1233,8 +1233,8 @@
       "preview_path": "previews/illustration/sample-label-verification.png",
       "preview_has_example_labels": false,
       "metadata_path": "metadata/illustration/sample-label-verification.json",
-      "sha256": "acfa5c473adc0d38f4f6ac466d19cd6c70d74c86c865077e330dea79a5c545ae",
-      "size_bytes": 1227248,
+      "sha256": "103fba907ad79632dc2f1e97fd01ac875d7c3061ce04347fe9a120c308414674",
+      "size_bytes": 1351910,
       "keywords": [
         "試料",
         "識別",
