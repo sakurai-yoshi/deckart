@@ -1,0 +1,50 @@
+{
+  "title": "結果のフィードバック",
+  "description": "結果を次の行動に反映する。",
+  "keywords": [
+    "フィードバック",
+    "循環",
+    "結果",
+    "見直し",
+    "feedback",
+    "loop",
+    "learning",
+    "outcome"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "実施した結果を次の判断へ戻す仕組みを示す。",
+    "message": "結果を次の行動に反映する。",
+    "reading": [
+      "上下の箱が行動と結果を表す。",
+      "外側の往復経路が結果を元へ返す関係を表す。"
+    ]
+  },
+  "category": "03-品質・改善",
+  "schema_version": 3,
+  "id": "icon/feedback-loop",
+  "name": "結果のフィードバック_情報と関係",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/feedback-loop.svg",
+  "metadata_path": "metadata/icon/feedback-loop.json",
+  "preview_path": "assets/icon/feedback-loop.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/feedback-loop\n結果のフィードバック_情報と関係\n結果のフィードバック\n実施した結果を次の判断へ戻す仕組みを示す。\n結果を次の行動に反映する。\n上下の箱が行動と結果を表す。\n外側の往復経路が結果を元へ返す関係を表す。\nフィードバック 循環 結果 見直し feedback loop learning outcome",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "1712d0f0ff9dacc7ed5009cac9312e3131e6191c1a3053955f48ca40b27be078",
+  "size_bytes": 1047
+}

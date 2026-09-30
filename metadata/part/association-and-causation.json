@@ -1,0 +1,126 @@
+{
+  "title": "一緒に動くことと原因であることを区別する",
+  "description": "相関を観測しても、原因であるかは別途検証する。",
+  "keywords": [
+    "相関",
+    "因果",
+    "関係",
+    "原因",
+    "検証",
+    "correlation",
+    "causation",
+    "association"
+  ],
+  "labels": [
+    {
+      "x": 57,
+      "y": 76,
+      "width": 356,
+      "height": 58,
+      "text": "一緒に変わっている",
+      "role": "観測された関係",
+      "align": "left",
+      "color": "#153A6B",
+      "font_size": 29,
+      "id": "label-1",
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 11
+    },
+    {
+      "x": 57,
+      "y": 163,
+      "width": 356,
+      "height": 82,
+      "text": "相関が見られる",
+      "role": "観測",
+      "align": "left",
+      "color": "#153A6B",
+      "font_size": 33,
+      "id": "label-2",
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 10
+    },
+    {
+      "x": 715,
+      "y": 76,
+      "width": 348,
+      "height": 58,
+      "text": "変化を引き起こした",
+      "role": "因果",
+      "align": "left",
+      "color": "#2864F0",
+      "font_size": 29,
+      "id": "label-3",
+      "color_role": "accent",
+      "max_lines": 1,
+      "max_fullwidth_chars": 11
+    },
+    {
+      "x": 715,
+      "y": 163,
+      "width": 348,
+      "height": 82,
+      "text": "原因を確かめる",
+      "role": "検証",
+      "align": "left",
+      "color": "#153A6B",
+      "font_size": 33,
+      "id": "label-4",
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 9
+    },
+    {
+      "x": 307,
+      "y": 301,
+      "width": 507,
+      "height": 61,
+      "text": "つながりの有無と原因の検証は別",
+      "role": "違い",
+      "align": "center",
+      "color": "#153A6B",
+      "font_size": 27,
+      "id": "label-5",
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 17
+    }
+  ],
+  "width": 1120,
+  "height": 380,
+  "kind": "part",
+  "guidance": {
+    "use_case": "分析結果で、二つの値の関係をそのまま原因と断定しないために添える。",
+    "message": "相関を観測しても、原因であるかは別途検証する。",
+    "reading": [
+      "中央の斜線は左右を同じ意味とみなせないことを示す。"
+    ]
+  },
+  "category": "13-説明・伝達",
+  "schema_version": 3,
+  "id": "part/association-and-causation",
+  "name": "一緒に動くことと原因であることを区別する_説明パーツ",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1120,
+    "height": 380
+  },
+  "path": "assets/part/association-and-causation.svg",
+  "metadata_path": "metadata/part/association-and-causation.json",
+  "preview_path": "previews/part/association-and-causation.svg",
+  "preview_has_example_labels": true,
+  "search_text": "part/association-and-causation\n一緒に動くことと原因であることを区別する_説明パーツ\n一緒に動くことと原因であることを区別する\n分析結果で、二つの値の関係をそのまま原因と断定しないために添える。\n相関を観測しても、原因であるかは別途検証する。\n中央の斜線は左右を同じ意味とみなせないことを示す。\n相関 因果 関係 原因 検証 correlation causation association",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "905a48b62dda6dd7d72c17b484e0b043bc2408a6f7e59383aa02bc26bb2a7221",
+  "size_bytes": 1099,
+  "preview_sha256": "f6fbe146f7cf9d6b886e2251548986ae91d81e32ae5febba8da387cf1aa7d516"
+}

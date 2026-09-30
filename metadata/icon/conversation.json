@@ -1,5 +1,4 @@
 {
-  "category": "08-アイコンとピクトグラム",
   "title": "対話・コミュニケーション",
   "description": "相手との対話や意見のやり取りを示す。",
   "keywords": [
@@ -26,6 +25,7 @@
       "前の吹き出しの点が話している内容を表す。"
     ]
   },
+  "category": "13-説明・伝達",
   "schema_version": 3,
   "id": "icon/conversation",
   "name": "対話表示_意見を交わす_ふたつの吹き出し",

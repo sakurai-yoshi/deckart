@@ -1,0 +1,56 @@
+{
+  "title": "使った水をろ過して再び使う",
+  "description": "二つの水槽をフィルターと戻り配管・ポンプでつないだ水循環の構成。",
+  "kind": "illustration",
+  "width": 1536,
+  "height": 1024,
+  "labels": [],
+  "composition": {
+    "framing": "object",
+    "facing": "front"
+  },
+  "keywords": [
+    "水",
+    "循環",
+    "節水",
+    "再利用",
+    "water reuse",
+    "recirculation"
+  ],
+  "guidance": {
+    "use_case": "節水や資源利用の説明で、使った水をろ過して再利用する流れを示す場面。",
+    "message": "水を捨てる前に、処理して循環させる。",
+    "reading": [
+      "水の入った二つの槽が、上側のフィルターと配管でつながっている。",
+      "下側にもポンプを備えた戻り配管があり、輪になる循環経路を示す。"
+    ]
+  },
+  "preview_path": "previews/illustration/water-recirculation.png",
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/enterprise-illustrations.json"
+  },
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": true,
+  "canvas": {
+    "width": 1536,
+    "height": 1024
+  },
+  "category": "08-環境・資源",
+  "schema_version": 3,
+  "id": "illustration/water-recirculation",
+  "name": "使った水をろ過して再び使う_業務イラスト",
+  "license": "CC0-1.0",
+  "path": "media/illustration/water-recirculation.png",
+  "metadata_path": "metadata/illustration/water-recirculation.json",
+  "preview_has_example_labels": false,
+  "search_text": "illustration/water-recirculation\n使った水をろ過して再び使う_業務イラスト\n使った水をろ過して再び使う\n節水や資源利用の説明で、使った水をろ過して再利用する流れを示す場面。\n水を捨てる前に、処理して循環させる。\n水の入った二つの槽が、上側のフィルターと配管でつながっている。\n下側にもポンプを備えた戻り配管があり、輪になる循環経路を示す。\n水 循環 節水 再利用 water reuse recirculation\nobject 物 道具 front 正面",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "227ee93dce7bd61551d715e08404da7ef75d73f98a7184942da8b5f24d9b4afe",
+  "size_bytes": 1194204
+}

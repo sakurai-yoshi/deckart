@@ -1,7 +1,6 @@
 {
   "title": "通い箱を繰り返し使う",
   "kind": "illustration",
-  "category": "06-業務イラスト",
   "width": 1254,
   "height": 1254,
   "keywords": [
@@ -40,6 +39,7 @@
     "width": 1254,
     "height": 1254
   },
+  "category": "08-環境・資源",
   "schema_version": 3,
   "id": "illustration/returnable-packaging",
   "name": "通い箱を繰り返し使う_メーカー業務の構成",

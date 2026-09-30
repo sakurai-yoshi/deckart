@@ -1,0 +1,51 @@
+{
+  "title": "油の回収",
+  "description": "油を集めて次の処理へ渡す。",
+  "keywords": [
+    "油",
+    "回収",
+    "廃油",
+    "再生",
+    "液体",
+    "oil",
+    "recovery",
+    "lubricant",
+    "collection"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "使用した油を回収して再生や適正処理へ回す工程を示す。",
+    "message": "油を集めて次の処理へ渡す。",
+    "reading": [
+      "青い滴と受け槽が回収する油を表す。",
+      "槽の外を戻る経路が次の利用や処理への流れを表す。"
+    ]
+  },
+  "category": "08-環境・資源",
+  "schema_version": 3,
+  "id": "icon/oil-recovery",
+  "name": "油の回収_設備と働き",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/oil-recovery.svg",
+  "metadata_path": "metadata/icon/oil-recovery.json",
+  "preview_path": "assets/icon/oil-recovery.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/oil-recovery\n油の回収_設備と働き\n油の回収\n使用した油を回収して再生や適正処理へ回す工程を示す。\n油を集めて次の処理へ渡す。\n青い滴と受け槽が回収する油を表す。\n槽の外を戻る経路が次の利用や処理への流れを表す。\n油 回収 廃油 再生 液体 oil recovery lubricant collection",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "9b20052c243c5b957c67f29b8beb9bda846992e215782374635523d49aba606d",
+  "size_bytes": 1104
+}

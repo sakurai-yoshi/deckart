@@ -1,0 +1,50 @@
+{
+  "title": "非常停止",
+  "description": "必要なときに設備を停止させる。",
+  "keywords": [
+    "非常停止",
+    "停止",
+    "ボタン",
+    "緊急",
+    "emergency",
+    "stop",
+    "shutdown",
+    "button"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "設備を緊急に止める操作や安全教育の見出しに使う。",
+    "message": "必要なときに設備を停止させる。",
+    "reading": [
+      "大きなきのこ形の押しボタンが停止操作を表す。",
+      "上面の四角が停止の意味を補う。"
+    ]
+  },
+  "category": "07-安全・事業継続",
+  "schema_version": 3,
+  "id": "icon/emergency-stop",
+  "name": "非常停止_設備と働き",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/emergency-stop.svg",
+  "metadata_path": "metadata/icon/emergency-stop.json",
+  "preview_path": "assets/icon/emergency-stop.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/emergency-stop\n非常停止_設備と働き\n非常停止\n設備を緊急に止める操作や安全教育の見出しに使う。\n必要なときに設備を停止させる。\n大きなきのこ形の押しボタンが停止操作を表す。\n上面の四角が停止の意味を補う。\n非常停止 停止 ボタン 緊急 emergency stop shutdown button",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "694245ae8cb7722e965e006c26eb744f0c9b5f798040bd91ea68980cd86a3b03",
+  "size_bytes": 1053
+}

@@ -1,7 +1,6 @@
 {
   "title": "合意を文書にする",
   "kind": "illustration",
-  "category": "06-業務イラスト",
   "width": 1254,
   "height": 1254,
   "keywords": [
@@ -38,6 +37,7 @@
     "width": 1254,
     "height": 1254
   },
+  "category": "01-経営・意思決定",
   "schema_version": 3,
   "id": "illustration/agreement-documents",
   "name": "合意を文書にする_物で伝える業務",

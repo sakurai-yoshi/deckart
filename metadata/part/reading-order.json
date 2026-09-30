@@ -1,5 +1,4 @@
 {
-  "category": "07-注釈と見出し",
   "title": "要点から詳細へ読む順番を添える",
   "description": "連番と接続で、要点・根拠・詳細の順に読むことを示す部品。",
   "keywords": [
@@ -115,6 +114,7 @@
       "各番号の下は、その順番で読む内容の領域。"
     ]
   },
+  "category": "13-説明・伝達",
   "schema_version": 3,
   "id": "part/reading-order",
   "name": "要点から詳細へ読む順番を添える_説明パーツ",
@@ -137,5 +137,6 @@
     "data": false
   },
   "sha256": "965e4208755ca37af3459f33c6d66c5fccd5b4887e134955b726d7cb887f4605",
-  "size_bytes": 1516
+  "size_bytes": 1516,
+  "preview_sha256": "082231c0b3cac2eaea60d1ede20d15e6212d21ce688199f5711671e3792a46aa"
 }

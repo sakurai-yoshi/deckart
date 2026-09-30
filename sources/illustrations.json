@@ -1,7 +1,6 @@
 [
   {
     "kind": "illustration",
-    "category": "06-業務イラスト",
     "width": 1254,
     "height": 1254,
     "labels": [],
@@ -44,7 +43,6 @@
     "title": "合意を文書にする",
     "name": "合意を文書にする_物で伝える業務",
     "kind": "illustration",
-    "category": "06-業務イラスト",
     "width": 1254,
     "height": 1254,
     "keywords": [
@@ -81,7 +79,6 @@
     "name": "手を挙げて質問する_汎用ビジネスの動作",
     "description": "会議や説明の途中で片手を挙げ、発言して確認したい意思を示す。",
     "kind": "illustration",
-    "category": "06-業務イラスト",
     "width": 1254,
     "height": 1254,
     "keywords": [
@@ -120,7 +117,6 @@
     "title": "部品を組み立てる",
     "name": "部品を組み立てる_メーカー業務の動作",
     "kind": "illustration",
-    "category": "06-業務イラスト",
     "width": 1254,
     "height": 1254,
     "keywords": [
@@ -158,7 +154,6 @@
     "title": "費用を検討する",
     "name": "費用を検討する_物で伝える業務",
     "kind": "illustration",
-    "category": "06-業務イラスト",
     "width": 1254,
     "height": 1254,
     "keywords": [
@@ -193,7 +188,6 @@
   {
     "key": "illustration/cable-management",
     "kind": "illustration",
-    "category": "06-業務イラスト",
     "labels": [],
     "source": "media/illustration/cable-management.png",
     "preview_path": "previews/illustration/cable-management.png",
@@ -231,7 +225,6 @@
   {
     "key": "illustration/calibration-reference",
     "kind": "illustration",
-    "category": "06-業務イラスト",
     "labels": [],
     "source": "media/illustration/calibration-reference.png",
     "preview_path": "previews/illustration/calibration-reference.png",
@@ -270,7 +263,6 @@
     "title": "部品の外観を確認する",
     "name": "部品の外観を確認する_メーカー業務の動作",
     "kind": "illustration",
-    "category": "06-業務イラスト",
     "width": 1254,
     "height": 1254,
     "keywords": [
@@ -308,7 +300,6 @@
     "title": "書類を確認する",
     "name": "書類を確認する_汎用ビジネスの動作",
     "kind": "illustration",
-    "category": "06-業務イラスト",
     "width": 1254,
     "height": 1254,
     "keywords": [
@@ -344,7 +335,6 @@
   {
     "key": "illustration/component-sorting",
     "kind": "illustration",
-    "category": "06-業務イラスト",
     "labels": [],
     "source": "media/illustration/component-sorting.png",
     "preview_path": "previews/illustration/component-sorting.png",
@@ -387,7 +377,6 @@
     "title": "設備の状態を端末へつなぐ",
     "name": "設備の状態を端末へつなぐ_メーカー業務の構成",
     "kind": "illustration",
-    "category": "06-業務イラスト",
     "width": 1254,
     "height": 1254,
     "keywords": [
@@ -426,7 +415,6 @@
     "title": "声を集める",
     "name": "声を集める_物で伝える業務",
     "kind": "illustration",
-    "category": "06-業務イラスト",
     "width": 1254,
     "height": 1254,
     "keywords": [
@@ -460,7 +448,6 @@
   },
   {
     "kind": "illustration",
-    "category": "06-業務イラスト",
     "width": 1254,
     "height": 1254,
     "labels": [],
@@ -503,7 +490,6 @@
     "title": "相談する",
     "name": "相談する_汎用ビジネスの動作",
     "kind": "illustration",
-    "category": "06-業務イラスト",
     "width": 1254,
     "height": 1254,
     "keywords": [
@@ -537,7 +523,6 @@
   },
   {
     "kind": "illustration",
-    "category": "06-業務イラスト",
     "width": 1254,
     "height": 1254,
     "labels": [],
@@ -577,7 +562,6 @@
   },
   {
     "kind": "illustration",
-    "category": "06-業務イラスト",
     "width": 1254,
     "height": 1254,
     "labels": [],
@@ -617,7 +601,6 @@
   },
   {
     "kind": "illustration",
-    "category": "06-業務イラスト",
     "width": 1254,
     "height": 1254,
     "labels": [],
@@ -658,7 +641,6 @@
   {
     "key": "illustration/energy-saving",
     "kind": "illustration",
-    "category": "06-業務イラスト",
     "labels": [],
     "source": "media/illustration/energy-saving.png",
     "preview_path": "previews/illustration/energy-saving.png",
@@ -697,7 +679,6 @@
     "title": "設備を整備する",
     "name": "設備を整備する_メーカー業務の動作",
     "kind": "illustration",
-    "category": "06-業務イラスト",
     "width": 1254,
     "height": 1254,
     "keywords": [
@@ -733,7 +714,6 @@
   {
     "key": "illustration/ergonomic-workstation",
     "kind": "illustration",
-    "category": "06-業務イラスト",
     "labels": [],
     "source": "media/illustration/ergonomic-workstation.png",
     "preview_path": "previews/illustration/ergonomic-workstation.png",
@@ -772,7 +752,6 @@
     "title": "説明する",
     "name": "説明する_汎用ビジネスの動作",
     "kind": "illustration",
-    "category": "06-業務イラスト",
     "width": 1254,
     "height": 1254,
     "keywords": [
@@ -806,7 +785,6 @@
   },
   {
     "kind": "illustration",
-    "category": "06-業務イラスト",
     "width": 1254,
     "height": 1254,
     "labels": [],
@@ -849,7 +827,6 @@
     "title": "構想を練る",
     "name": "構想を練る_物で伝える業務",
     "kind": "illustration",
-    "category": "06-業務イラスト",
     "width": 1254,
     "height": 1254,
     "keywords": [
@@ -884,7 +861,6 @@
   },
   {
     "kind": "illustration",
-    "category": "06-業務イラスト",
     "width": 1254,
     "height": 1254,
     "labels": [],
@@ -927,7 +903,6 @@
     "title": "手順書と実物を対応させる",
     "name": "手順書と実物を対応させる_メーカー業務の構成",
     "kind": "illustration",
-    "category": "06-業務イラスト",
     "width": 1254,
     "height": 1254,
     "keywords": [
@@ -963,7 +938,6 @@
   {
     "key": "illustration/issue-isolation",
     "kind": "illustration",
-    "category": "06-業務イラスト",
     "labels": [],
     "source": "media/illustration/issue-isolation.png",
     "preview_path": "previews/illustration/issue-isolation.png",
@@ -1003,7 +977,6 @@
     "title": "教わる",
     "name": "教わる_汎用ビジネスの動作",
     "kind": "illustration",
-    "category": "06-業務イラスト",
     "width": 1254,
     "height": 1254,
     "keywords": [
@@ -1040,7 +1013,6 @@
     "title": "知識を身につける",
     "name": "知識を身につける_物で伝える業務",
     "kind": "illustration",
-    "category": "06-業務イラスト",
     "width": 1254,
     "height": 1254,
     "keywords": [
@@ -1078,7 +1050,6 @@
     "title": "話を聞く",
     "name": "話を聞く_汎用ビジネスの動作",
     "kind": "illustration",
-    "category": "06-業務イラスト",
     "width": 1254,
     "height": 1254,
     "keywords": [
@@ -1115,7 +1086,6 @@
     "title": "設備の状態を見守る",
     "name": "設備の状態を見守る_メーカー業務の動作",
     "kind": "illustration",
-    "category": "06-業務イラスト",
     "width": 1254,
     "height": 1254,
     "keywords": [
@@ -1151,7 +1121,6 @@
   {
     "key": "illustration/material-reuse",
     "kind": "illustration",
-    "category": "06-業務イラスト",
     "labels": [],
     "source": "media/illustration/material-reuse.png",
     "preview_path": "previews/illustration/material-reuse.png",
@@ -1191,7 +1160,6 @@
     "title": "材料の状態を比較する",
     "name": "材料の状態を比較する_メーカー業務の動作",
     "kind": "illustration",
-    "category": "06-業務イラスト",
     "width": 1254,
     "height": 1254,
     "keywords": [
@@ -1229,7 +1197,6 @@
     "title": "材料から形をつくる",
     "name": "材料から形をつくる_メーカー業務の構成",
     "kind": "illustration",
-    "category": "06-業務イラスト",
     "width": 1254,
     "height": 1254,
     "keywords": [
@@ -1267,7 +1234,6 @@
     "title": "台車で資材を運ぶ",
     "name": "台車で資材を運ぶ_メーカー業務の動作",
     "kind": "illustration",
-    "category": "06-業務イラスト",
     "width": 1254,
     "height": 1254,
     "keywords": [
@@ -1302,7 +1268,6 @@
   },
   {
     "kind": "illustration",
-    "category": "06-業務イラスト",
     "width": 1254,
     "height": 1254,
     "labels": [],
@@ -1345,7 +1310,6 @@
     "title": "工具を定位置へ収める",
     "name": "工具を定位置へ収める_メーカー業務の構成",
     "kind": "illustration",
-    "category": "06-業務イラスト",
     "width": 1254,
     "height": 1254,
     "keywords": [
@@ -1384,7 +1348,6 @@
     "title": "製品を梱包する",
     "name": "製品を梱包する_メーカー業務の動作",
     "kind": "illustration",
-    "category": "06-業務イラスト",
     "width": 1254,
     "height": 1254,
     "keywords": [
@@ -1422,7 +1385,6 @@
     "title": "段取りを考える",
     "name": "段取りを考える_汎用ビジネスの動作",
     "kind": "illustration",
-    "category": "06-業務イラスト",
     "width": 1254,
     "height": 1254,
     "keywords": [
@@ -1458,7 +1420,6 @@
     "title": "部品の寸法を測る",
     "name": "部品の寸法を測る_メーカー業務の動作",
     "kind": "illustration",
-    "category": "06-業務イラスト",
     "width": 1254,
     "height": 1254,
     "keywords": [
@@ -1494,7 +1455,6 @@
   {
     "key": "illustration/preventive-maintenance",
     "kind": "illustration",
-    "category": "06-業務イラスト",
     "labels": [],
     "source": "media/illustration/preventive-maintenance.png",
     "preview_path": "previews/illustration/preventive-maintenance.png",
@@ -1533,7 +1493,6 @@
     "title": "製品と記録を結び付ける",
     "name": "製品と記録を結び付ける_メーカー業務の構成",
     "kind": "illustration",
-    "category": "06-業務イラスト",
     "width": 1254,
     "height": 1254,
     "keywords": [
@@ -1572,7 +1531,6 @@
     "title": "作業の段取りを共有する",
     "name": "作業の段取りを共有する_メーカー業務の動作",
     "kind": "illustration",
-    "category": "06-業務イラスト",
     "width": 1254,
     "height": 1254,
     "keywords": [
@@ -1610,7 +1568,6 @@
     "title": "計画を組み立てる",
     "name": "計画を組み立てる_物で伝える業務",
     "kind": "illustration",
-    "category": "06-業務イラスト",
     "width": 1254,
     "height": 1254,
     "keywords": [
@@ -1646,7 +1603,6 @@
     "title": "緩衝材で製品を保護する",
     "name": "緩衝材で製品を保護する_メーカー業務の構成",
     "kind": "illustration",
-    "category": "06-業務イラスト",
     "width": 1254,
     "height": 1254,
     "keywords": [
@@ -1684,7 +1640,6 @@
     "title": "試作品を検討する",
     "name": "試作品を検討する_メーカー業務の動作",
     "kind": "illustration",
-    "category": "06-業務イラスト",
     "width": 1254,
     "height": 1254,
     "keywords": [
@@ -1722,7 +1677,6 @@
     "title": "構想を試作品にする",
     "name": "構想を試作品にする_メーカー業務の構成",
     "kind": "illustration",
-    "category": "06-業務イラスト",
     "width": 1254,
     "height": 1254,
     "keywords": [
@@ -1761,7 +1715,6 @@
     "title": "受け取った資材を照合する",
     "name": "受け取った資材を照合する_メーカー業務の動作",
     "kind": "illustration",
-    "category": "06-業務イラスト",
     "width": 1254,
     "height": 1254,
     "keywords": [
@@ -1797,7 +1750,6 @@
   {
     "key": "illustration/reduced-packaging",
     "kind": "illustration",
-    "category": "06-業務イラスト",
     "labels": [],
     "source": "media/illustration/reduced-packaging.png",
     "preview_path": "previews/illustration/reduced-packaging.png",
@@ -1836,7 +1788,6 @@
     "title": "交換できる部品で保守する",
     "name": "交換できる部品で保守する_メーカー業務の構成",
     "kind": "illustration",
-    "category": "06-業務イラスト",
     "width": 1254,
     "height": 1254,
     "keywords": [
@@ -1874,7 +1825,6 @@
     "title": "状況を伝える",
     "name": "状況を伝える_汎用ビジネスの動作",
     "kind": "illustration",
-    "category": "06-業務イラスト",
     "width": 1254,
     "height": 1254,
     "keywords": [
@@ -1889,7 +1839,7 @@
       "use_case": "進捗・対応・確認結果を共有する説明に。",
       "message": "現在の状況を相手へ伝える。",
       "reading": [
-        "差し出した資料と落ち着いた姿勢が、結果を相手へ伝える動作を示します。"
+        "片手で掲げた資料をもう一方の手で指し、内容を相手へ伝える動作を示す。"
       ]
     },
     "labels": [],
@@ -1910,7 +1860,6 @@
     "title": "資源を分けて再利用に備える",
     "name": "資源を分けて再利用に備える_メーカー業務の動作",
     "kind": "illustration",
-    "category": "06-業務イラスト",
     "width": 1254,
     "height": 1254,
     "keywords": [
@@ -1948,7 +1897,6 @@
     "title": "通い箱を繰り返し使う",
     "name": "通い箱を繰り返し使う_メーカー業務の構成",
     "kind": "illustration",
-    "category": "06-業務イラスト",
     "width": 1254,
     "height": 1254,
     "keywords": [
@@ -1986,7 +1934,6 @@
     "title": "作業前に保護具を整える",
     "name": "作業前に保護具を整える_メーカー業務の動作",
     "kind": "illustration",
-    "category": "06-業務イラスト",
     "width": 1254,
     "height": 1254,
     "keywords": [
@@ -2002,7 +1949,7 @@
       "use_case": "安全教育、始業前準備、保護具の基本姿勢の説明。",
       "message": "作業前に保護具を整え、安全に備える。",
       "reading": [
-        "作業者が保護眼鏡を正しく装着する。",
+        "両手で保護眼鏡のつるを持ち、顔に合わせる。",
         "準備段階の落ち着いた姿勢を示す。"
       ]
     },
@@ -2022,7 +1969,6 @@
   {
     "key": "illustration/sample-retention",
     "kind": "illustration",
-    "category": "06-業務イラスト",
     "labels": [],
     "source": "media/illustration/sample-retention.png",
     "preview_path": "previews/illustration/sample-retention.png",
@@ -2058,7 +2004,6 @@
   },
   {
     "kind": "illustration",
-    "category": "06-業務イラスト",
     "width": 1254,
     "height": 1254,
     "labels": [],
@@ -2101,7 +2046,6 @@
     "title": "共通部品を複数製品に使う",
     "name": "共通部品を複数製品に使う_メーカー業務の構成",
     "kind": "illustration",
-    "category": "06-業務イラスト",
     "width": 1254,
     "height": 1254,
     "keywords": [
@@ -2139,7 +2083,6 @@
     "title": "情報を渡す",
     "name": "情報を渡す_汎用ビジネスの動作",
     "kind": "illustration",
-    "category": "06-業務イラスト",
     "width": 1254,
     "height": 1254,
     "keywords": [
@@ -2175,7 +2118,6 @@
   {
     "key": "illustration/shipment-consolidation",
     "kind": "illustration",
-    "category": "06-業務イラスト",
     "labels": [],
     "source": "media/illustration/shipment-consolidation.png",
     "preview_path": "previews/illustration/shipment-consolidation.png",
@@ -2215,7 +2157,6 @@
     "title": "出荷する荷物を整える",
     "name": "出荷する荷物を整える_メーカー業務の動作",
     "kind": "illustration",
-    "category": "06-業務イラスト",
     "width": 1254,
     "height": 1254,
     "keywords": [
@@ -2251,7 +2192,6 @@
   {
     "key": "illustration/spare-parts-readiness",
     "kind": "illustration",
-    "category": "06-業務イラスト",
     "labels": [],
     "source": "media/illustration/spare-parts-readiness.png",
     "preview_path": "previews/illustration/spare-parts-readiness.png",
@@ -2291,7 +2231,6 @@
     "title": "在庫を確認する",
     "name": "在庫を確認する_メーカー業務の動作",
     "kind": "illustration",
-    "category": "06-業務イラスト",
     "width": 1254,
     "height": 1254,
     "keywords": [
@@ -2330,7 +2269,6 @@
     "name": "要点をチームへ伝える_汎用ビジネスの動作",
     "description": "手元のメモを持つ話し手に二人の同僚が向き合い、短い共有説明を聞く。",
     "kind": "illustration",
-    "category": "06-業務イラスト",
     "width": 1254,
     "height": 1254,
     "keywords": [
@@ -2369,7 +2307,6 @@
     "title": "考える",
     "name": "考える_汎用ビジネスの動作",
     "kind": "illustration",
-    "category": "06-業務イラスト",
     "width": 1254,
     "height": 1254,
     "keywords": [
@@ -2403,7 +2340,6 @@
   },
   {
     "kind": "illustration",
-    "category": "06-業務イラスト",
     "width": 1254,
     "height": 1254,
     "labels": [],
@@ -2447,7 +2383,6 @@
     "name": "画面越しに相談する_汎用ビジネスの動作",
     "description": "手元のパソコン画面に映る相手と向き合い、離れた場所から相談する。",
     "kind": "illustration",
-    "category": "06-業務イラスト",
     "width": 1254,
     "height": 1254,
     "keywords": [
@@ -2486,7 +2421,6 @@
     "name": "相手を迎えて案内する_汎用ビジネスの動作",
     "description": "迎える人が来客に目を向け、開いた手で進む方向を案内する。",
     "kind": "illustration",
-    "category": "06-業務イラスト",
     "width": 1254,
     "height": 1254,
     "keywords": [
@@ -2525,7 +2459,6 @@
     "title": "工具を定位置へ戻す",
     "name": "工具を定位置へ戻す_メーカー業務の動作",
     "kind": "illustration",
-    "category": "06-業務イラスト",
     "width": 1254,
     "height": 1254,
     "keywords": [
@@ -2563,7 +2496,6 @@
     "title": "記録する",
     "name": "記録する_汎用ビジネスの動作",
     "kind": "illustration",
-    "category": "06-業務イラスト",
     "width": 1254,
     "height": 1254,
     "keywords": [

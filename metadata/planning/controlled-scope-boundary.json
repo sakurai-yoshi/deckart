@@ -1,5 +1,4 @@
 {
-  "category": "04-計画と進捗",
   "title": "追加要望を一つの入口で判断する",
   "description": "合意した範囲と追加要望を分け、変更として受け入れるものと今回の対象外を示す。",
   "keywords": [
@@ -136,6 +135,7 @@
       "左の経路は合意して追加し、外側の経路は今回の対象外へ分ける。"
     ]
   },
+  "category": "02-計画・進捗",
   "schema_version": 3,
   "id": "planning/controlled-scope-boundary",
   "name": "スコープ管理_追加要望を合意した範囲へ通す_変更の入口と対象外",
@@ -158,5 +158,6 @@
     "data": false
   },
   "sha256": "1b1a46a92c8d38a0c4d667c3caeaa71a03b3bb4dba89dca98babdcd3114eb918",
-  "size_bytes": 3227
+  "size_bytes": 3227,
+  "preview_sha256": "c2365c9a1e1351827fc34edb843e19227787fe0694ab38fb0949f6698345a7be"
 }

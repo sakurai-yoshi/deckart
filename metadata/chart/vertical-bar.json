@@ -1,5 +1,4 @@
 {
-  "category": "10-数値とグラフ",
   "title": "同じ基準で値の高さを比べる",
   "description": "共通のゼロ位置から30・55・80・65件の大きさを示す縦棒グラフの作例。",
   "keywords": [
@@ -29,10 +28,10 @@
       "max_fullwidth_chars": 12
     },
     {
-      "x": 241,
+      "x": 241.0,
       "y": 593,
       "width": 182,
-      "height": 65,
+      "height": 87,
       "text": "項目 A",
       "role": "項目",
       "align": "center",
@@ -40,14 +39,14 @@
       "id": "label-2",
       "font_size": 27,
       "color_role": "ink",
-      "max_lines": 1,
+      "max_lines": 2,
       "max_fullwidth_chars": 6
     },
     {
-      "x": 465,
+      "x": 465.0,
       "y": 593,
       "width": 182,
-      "height": 65,
+      "height": 87,
       "text": "項目 B",
       "role": "項目",
       "align": "center",
@@ -55,14 +54,14 @@
       "id": "label-3",
       "font_size": 27,
       "color_role": "ink",
-      "max_lines": 1,
+      "max_lines": 2,
       "max_fullwidth_chars": 6
     },
     {
-      "x": 689,
+      "x": 689.0,
       "y": 593,
       "width": 182,
-      "height": 65,
+      "height": 87,
       "text": "項目 C",
       "role": "項目",
       "align": "center",
@@ -70,14 +69,14 @@
       "id": "label-4",
       "font_size": 27,
       "color_role": "ink",
-      "max_lines": 1,
+      "max_lines": 2,
       "max_fullwidth_chars": 6
     },
     {
-      "x": 913,
+      "x": 913.0,
       "y": 593,
       "width": 182,
-      "height": 65,
+      "height": 87,
       "text": "項目 D",
       "role": "項目",
       "align": "center",
@@ -85,7 +84,7 @@
       "id": "label-5",
       "font_size": 27,
       "color_role": "ink",
-      "max_lines": 1,
+      "max_lines": 2,
       "max_fullwidth_chars": 6
     }
   ],
@@ -147,6 +146,7 @@
       "棒の上に作例値を直接表示する。"
     ]
   },
+  "category": "13-説明・伝達",
   "schema_version": 3,
   "id": "chart/vertical-bar",
   "name": "項目比較_値の大きさを高さで比べる_縦棒グラフ作例",
@@ -170,9 +170,11 @@
   },
   "data_input": {
     "chart_type": "vertical_bar",
-    "category_count": 4,
+    "category_count": {
+      "minimum": 1
+    },
     "series_count": 1,
-    "values_per_series": 4,
+    "values_per_series": "categoriesと同数",
     "required": [
       "categories",
       "series",
@@ -184,7 +186,8 @@
       "有限な数値。絶対値は1兆以下。大きな値は単位を変更して入力。",
       "categoriesは16文字以内、series.label・unitは12文字以内。",
       "値は0以上。",
-      "domainは[0,上限]。省略時は値から計算。上限は全値・残高以上。"
+      "domainは[0,上限]。省略時は値から計算。上限は全値・残高以上。",
+      "カテゴリ数に応じて描画領域が拡張される。拡張後のwidth/heightを使って配置。"
     ],
     "example": {
       "categories": [
@@ -212,5 +215,6 @@
     }
   },
   "sha256": "3fd9e1ed4d6e8842f8a64705d51d4c4ff7c0b549ddad838444a858ea3fbcd582",
-  "size_bytes": 6285
+  "size_bytes": 6285,
+  "preview_sha256": "e08923c9098756e0998855f7e2249221f714978e1de9ee60b776fdb862442753"
 }

@@ -1,5 +1,4 @@
 {
-  "category": "08-アイコンとピクトグラム",
   "title": "誤組付け防止",
   "description": "対応する形だけが正しい向きで組み合う。",
   "keywords": [
@@ -25,6 +24,7 @@
       "非対称な形が逆向きの取り付けを防ぐ考えを示す。"
     ]
   },
+  "category": "03-品質・改善",
   "schema_version": 3,
   "id": "icon/mistake-proofing",
   "name": "誤組付け防止_製造業務の記号",

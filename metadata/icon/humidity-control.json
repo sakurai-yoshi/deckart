@@ -1,5 +1,4 @@
 {
-  "category": "08-アイコンとピクトグラム",
   "title": "湿度管理",
   "description": "空気中の水分量を確かめて管理する。",
   "keywords": [
@@ -23,6 +22,7 @@
       "水滴と計器の組み合わせが、湿度を測る行為を表す。"
     ]
   },
+  "category": "04-生産・設備",
   "schema_version": 3,
   "id": "icon/humidity-control",
   "name": "湿度管理_製造業務の記号",

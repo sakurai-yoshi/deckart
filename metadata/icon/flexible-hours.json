@@ -1,0 +1,51 @@
+{
+  "title": "柔軟な勤務時間",
+  "description": "仕事に合わせて勤務時間を調整する。",
+  "keywords": [
+    "勤務時間",
+    "フレックス",
+    "柔軟",
+    "働き方",
+    "flexible",
+    "hours",
+    "flextime",
+    "working",
+    "time"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "勤務の開始や終了を調整できる働き方を説明する。",
+    "message": "仕事に合わせて勤務時間を調整する。",
+    "reading": [
+      "中央の時計が働く時間を表す。",
+      "時計の前後にある逆向きの矢印が開始と終了の調整を表す。"
+    ]
+  },
+  "category": "09-組織・人材",
+  "schema_version": 3,
+  "id": "icon/flexible-hours",
+  "name": "柔軟な勤務時間_仕事と関係",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/flexible-hours.svg",
+  "metadata_path": "metadata/icon/flexible-hours.json",
+  "preview_path": "assets/icon/flexible-hours.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/flexible-hours\n柔軟な勤務時間_仕事と関係\n柔軟な勤務時間\n勤務の開始や終了を調整できる働き方を説明する。\n仕事に合わせて勤務時間を調整する。\n中央の時計が働く時間を表す。\n時計の前後にある逆向きの矢印が開始と終了の調整を表す。\n勤務時間 フレックス 柔軟 働き方 flexible hours flextime working time",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "2012b93dccd497d5ddfafc42367425863927546069c9af2486db05cb98ab242d",
+  "size_bytes": 1018
+}

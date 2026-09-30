@@ -1,5 +1,4 @@
 {
-  "category": "12-AIとデータ基盤",
   "title": "参照資料から根拠付き回答へ",
   "description": "質問に関係する箇所を検索し、出典の対応を保って回答へ渡す。",
   "keywords": [
@@ -91,6 +90,7 @@
       "回答の下の丸と菱形が、元の資料との対応を示す。"
     ]
   },
+  "category": "12-情報・データ",
   "schema_version": 3,
   "id": "technology/rag-evidence",
   "name": "AI活用_参照資料から根拠付き回答へ_検索と出典の対応",
@@ -113,5 +113,6 @@
     "data": false
   },
   "sha256": "62e751706d2217c4dc24a4358c08a63e6d382f3710fb6cb550bf26e8de83d17f",
-  "size_bytes": 7647
+  "size_bytes": 7647,
+  "preview_sha256": "134922c80e1e9596cf6181dd45e280aa325c0044d89376f4f898b9820816c4ec"
 }

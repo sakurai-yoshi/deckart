@@ -1,0 +1,50 @@
+{
+  "title": "荷役ドック",
+  "description": "高さを合わせた荷役面で受け渡す。",
+  "keywords": [
+    "荷役",
+    "ドック",
+    "搬入口",
+    "積込み",
+    "荷下ろし",
+    "loading",
+    "dock",
+    "unloading"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "建物と車両の間で荷物を受け渡す場所を示す。",
+    "message": "高さを合わせた荷役面で受け渡す。",
+    "reading": [
+      "左の開口が建物の搬入口を示す。",
+      "右の段差のある面が荷役の接点を表す。"
+    ]
+  },
+  "category": "05-調達・物流",
+  "schema_version": 3,
+  "id": "icon/loading-dock",
+  "name": "荷役ドック_工程と対象",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/loading-dock.svg",
+  "metadata_path": "metadata/icon/loading-dock.json",
+  "preview_path": "assets/icon/loading-dock.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/loading-dock\n荷役ドック_工程と対象\n荷役ドック\n建物と車両の間で荷物を受け渡す場所を示す。\n高さを合わせた荷役面で受け渡す。\n左の開口が建物の搬入口を示す。\n右の段差のある面が荷役の接点を表す。\n荷役 ドック 搬入口 積込み 荷下ろし loading dock unloading",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "2fb0df639c4cf37a171af9aa1035d0cd7106db2dad8cfd00fa2ae5c64ec10cee",
+  "size_bytes": 957
+}

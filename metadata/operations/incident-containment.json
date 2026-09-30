@@ -1,5 +1,4 @@
 {
-  "category": "01-業務プロセス",
   "title": "影響箇所を隔離して提供を続ける",
   "description": "影響のない提供を継続しながら、障害箇所を隔離して復旧確認後に戻す。",
   "keywords": [
@@ -107,6 +106,7 @@
     "relation": "isolation-and-verified-rejoin",
     "reading_direction": "left-to-right"
   },
+  "category": "07-安全・事業継続",
   "schema_version": 3,
   "id": "operations/incident-containment",
   "name": "障害対応_影響箇所を隔離して通常提供を続ける_封じ込めと復旧確認",
@@ -129,5 +129,6 @@
     "data": false
   },
   "sha256": "33bfb6746981f90f9f07782fa18a90b22c3eb6b8f41c5e39b90179230fdb8af8",
-  "size_bytes": 3824
+  "size_bytes": 3824,
+  "preview_sha256": "f71ed2950b8aadaec19589d7889fc1cb3eb10c79ae61d893ff45dc4e080a7684"
 }

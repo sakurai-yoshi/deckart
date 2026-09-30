@@ -1,5 +1,4 @@
 {
-  "category": "01-業務プロセス",
   "title": "例外の学びを標準へ戻す",
   "description": "共通の手順を適用し、標準内で扱えない例外から手順を見直す。",
   "keywords": [
@@ -151,6 +150,7 @@
     "relation": "standard-and-exception-learning",
     "reading_direction": "left-to-right"
   },
+  "category": "03-品質・改善",
   "schema_version": 3,
   "id": "manufacturing/standard-exception-improvement",
   "name": "例外の学びを標準へ戻す_製造業務の関係図",
@@ -173,5 +173,6 @@
     "data": false
   },
   "sha256": "a4c95f3851ee08280691e1c4261d91280a50fe4f828c691a34768e48f25de70c",
-  "size_bytes": 2428
+  "size_bytes": 2428,
+  "preview_sha256": "132730162f4af6eb7b9054418a948fe92578058e6ccf02e04146ff5dba635e71"
 }

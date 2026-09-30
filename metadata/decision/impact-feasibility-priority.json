@@ -1,5 +1,4 @@
 {
-  "category": "02-比較と意思決定",
   "title": "効果と実行しやすさで優先する",
   "description": "効果が高く実行しやすい施策を、最初に取り組む領域として示す。",
   "keywords": [
@@ -117,6 +116,7 @@
     ]
   },
   "kind": "diagram",
+  "category": "01-経営・意思決定",
   "schema_version": 3,
   "id": "decision/impact-feasibility-priority",
   "name": "施策評価_優先順位の整理_効果と実行しやすさの二軸",
@@ -139,5 +139,6 @@
     "data": false
   },
   "sha256": "fc49892807270f6f53d3d3480296a57cc5d44aca1f6b319b5bc52a00fd667c85",
-  "size_bytes": 2460
+  "size_bytes": 2460,
+  "preview_sha256": "ca09ecad56d2cec54aed1d905234900cabda64d107e4ea872e5421eae87c57cd"
 }

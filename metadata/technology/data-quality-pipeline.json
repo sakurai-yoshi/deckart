@@ -1,5 +1,4 @@
 {
-  "category": "12-AIとデータ基盤",
   "title": "品質を確かめてデータを渡す",
   "description": "取り込んだデータを検証し、確認が必要なものを分けて利用へ渡す。",
   "keywords": [
@@ -106,6 +105,7 @@
       "上の経路は保存先と利用先へ、下の経路は確認待ちへ進む。"
     ]
   },
+  "category": "12-情報・データ",
   "schema_version": 3,
   "id": "technology/data-quality-pipeline",
   "name": "データ運用_品質を確かめて利用へ渡す_検証と保留のデータ経路",
@@ -128,5 +128,6 @@
     "data": false
   },
   "sha256": "faece2d3200c108d1112bba55242a7ec884c728bfd1a462aa74d10a4521a8891",
-  "size_bytes": 7020
+  "size_bytes": 7020,
+  "preview_sha256": "db7b7f33d43b8289907dd56ce0665479e681a37bac504d058b106665684b728f"
 }

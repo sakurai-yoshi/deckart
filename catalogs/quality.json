@@ -1,0 +1,2079 @@
+{
+  "version": "2.1.0",
+  "raw_base": "https://raw.githubusercontent.com/sakurai-yoshi/deckart/v2.1.0/",
+  "category": "03-品質・改善",
+  "asset_count": 51,
+  "assets": [
+    {
+      "id": "framework/learning-cycle",
+      "title": "気づきから小さな実験を繰り返す",
+      "kind": "diagram",
+      "category": "03-品質・改善",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/framework/learning-cycle.svg",
+      "preview_path": "previews/framework/learning-cycle.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/framework/learning-cycle.json",
+      "sha256": "2cb6dc071c7a394e7ad838b30e63e4774080b6198547ad6de1f6f3dd988be2a0",
+      "size_bytes": 2505,
+      "keywords": [
+        "学習",
+        "実験",
+        "気づき",
+        "検証",
+        "振り返り",
+        "仮説",
+        "継続改善",
+        "learning",
+        "iteration"
+      ],
+      "use_case": "業務改善のアイデアを小さく試し、結果から次の手を考える。",
+      "message": "一度で答えを決めず、気づき・実験・学習を繰り返す。",
+      "sample_data": false,
+      "preview_sha256": "22b36e80d8a6086220cfaf647b3971958fe8ed53ef8b7893ed7cb93f029f84c0"
+    },
+    {
+      "id": "framework/pdca",
+      "title": "計画・実行・評価・改善を回す",
+      "kind": "diagram",
+      "category": "03-品質・改善",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/framework/pdca.svg",
+      "preview_path": "previews/framework/pdca.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/framework/pdca.json",
+      "sha256": "85103f05238230e881d847000b0f6661e2234e2d29339b60127867d97f1ad04e",
+      "size_bytes": 2106,
+      "keywords": [
+        "PDCA",
+        "計画",
+        "実行",
+        "評価",
+        "改善",
+        "継続改善",
+        "サイクル",
+        "品質",
+        "cycle"
+      ],
+      "use_case": "業務や品質改善を継続して進める基本サイクルを共有する。",
+      "message": "評価と改善を次の計画へつなぎ、同じ仕事の質を高める。",
+      "sample_data": false,
+      "preview_sha256": "b2b2e5c58a87def4701f55b46b3e9e4463aed4b3daf47e42048c7a4779733aa0"
+    },
+    {
+      "id": "icon/calibration-reference",
+      "title": "基準器による校正",
+      "kind": "icon",
+      "category": "03-品質・改善",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/calibration-reference.svg",
+      "preview_path": "assets/icon/calibration-reference.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/calibration-reference.json",
+      "sha256": "44d9dc60cdcbefb84559bfaec32c53494c829ad396b0d2793e738ff6c5b9bd26",
+      "size_bytes": 1528,
+      "keywords": [
+        "校正",
+        "基準器",
+        "測定器",
+        "精度",
+        "calibration",
+        "reference",
+        "instrument"
+      ],
+      "use_case": "測定器の校正や基準器の管理を説明する。",
+      "message": "測定器を既知の基準と照らし合わせる。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/check",
+      "title": "確認・完了",
+      "kind": "icon",
+      "category": "03-品質・改善",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/check.svg",
+      "preview_path": "assets/icon/check.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/check.json",
+      "sha256": "6ffbf8dd406bf68046de90df636e83346d9b961c8e97e88a39aa4ceea2ad7a02",
+      "size_bytes": 597,
+      "keywords": [
+        "確認",
+        "完了",
+        "チェック",
+        "済み",
+        "合格",
+        "承認",
+        "check",
+        "complete",
+        "done",
+        "confirmed"
+      ],
+      "use_case": "一覧の中で、確認済みや完了した状態を示す場面。",
+      "message": "対象の確認や作業が終わっている。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/coverage",
+      "title": "網羅性",
+      "kind": "icon",
+      "category": "03-品質・改善",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/coverage.svg",
+      "preview_path": "assets/icon/coverage.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/coverage.json",
+      "sha256": "8a00e7039b331ce0a15ab0772d9f4d81e4a4e66d09ed5323d3fbb3f30bae7ef6",
+      "size_bytes": 1358,
+      "keywords": [
+        "網羅",
+        "カバレッジ",
+        "範囲",
+        "対応",
+        "coverage",
+        "completeness",
+        "covered",
+        "scope"
+      ],
+      "use_case": "確認・対応が全体のどこまで届いたかを説明する。",
+      "message": "対象全体に対する対応範囲を見る。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/defect-isolation",
+      "title": "不適合品の隔離",
+      "kind": "icon",
+      "category": "03-品質・改善",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/defect-isolation.svg",
+      "preview_path": "assets/icon/defect-isolation.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/defect-isolation.json",
+      "sha256": "6105536cda7c03721f5d97fda97bd4cfc040ce6a67ba1ac5a585225d1ded27d2",
+      "size_bytes": 1463,
+      "keywords": [
+        "不適合",
+        "隔離",
+        "不良品",
+        "分離",
+        "defect",
+        "isolation",
+        "quarantine",
+        "nonconforming"
+      ],
+      "use_case": "不適合の疑いがある製品を分けて管理する工程を示す。",
+      "message": "対象を通常の流れから切り離す。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/dimensional-measurement",
+      "title": "寸法測定",
+      "kind": "icon",
+      "category": "03-品質・改善",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/dimensional-measurement.svg",
+      "preview_path": "assets/icon/dimensional-measurement.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/dimensional-measurement.json",
+      "sha256": "6ce1bb26c061fadbad569478233b7960e8af9a94496dac4b032b246c68b00895",
+      "size_bytes": 1902,
+      "keywords": [
+        "寸法",
+        "測定",
+        "ノギス",
+        "幅",
+        "長さ",
+        "dimension",
+        "caliper",
+        "measurement"
+      ],
+      "use_case": "寸法確認や測定工程の見出しに添える。",
+      "message": "部品の両端を測定具で挟み、寸法を確かめる。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/feedback-loop",
+      "title": "結果のフィードバック",
+      "kind": "icon",
+      "category": "03-品質・改善",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/feedback-loop.svg",
+      "preview_path": "assets/icon/feedback-loop.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/feedback-loop.json",
+      "sha256": "1712d0f0ff9dacc7ed5009cac9312e3131e6191c1a3053955f48ca40b27be078",
+      "size_bytes": 1047,
+      "keywords": [
+        "フィードバック",
+        "循環",
+        "結果",
+        "見直し",
+        "feedback",
+        "loop",
+        "learning",
+        "outcome"
+      ],
+      "use_case": "実施した結果を次の判断へ戻す仕組みを示す。",
+      "message": "結果を次の行動に反映する。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/first-article-inspection",
+      "title": "初品確認",
+      "kind": "icon",
+      "category": "03-品質・改善",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/first-article-inspection.svg",
+      "preview_path": "assets/icon/first-article-inspection.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/first-article-inspection.json",
+      "sha256": "014547ce0b8c43b1eb6e35fa4d41ae42953f740de9f380529ff74c287c3a1c81",
+      "size_bytes": 1155,
+      "keywords": [
+        "初品",
+        "初回",
+        "立上げ",
+        "検査",
+        "first",
+        "article",
+        "startup",
+        "inspection"
+      ],
+      "use_case": "生産開始や条件変更後の最初の製品を確認する。",
+      "message": "最初の一つを確認して後続の生産へ進む。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/inspection",
+      "title": "検品",
+      "kind": "icon",
+      "category": "03-品質・改善",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/inspection.svg",
+      "preview_path": "assets/icon/inspection.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/inspection.json",
+      "sha256": "9991b142a96b5298dc731ad15e660eb74825daddb9ca30c1fd43957341f1d3c9",
+      "size_bytes": 1142,
+      "keywords": [
+        "検品",
+        "検査",
+        "受入",
+        "不良",
+        "確認",
+        "inspection",
+        "checking",
+        "acceptance"
+      ],
+      "use_case": "納品された品物の検品工程を示す。",
+      "message": "品物の状態を確認して受け入れる。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/leak-testing",
+      "title": "漏れ検査",
+      "kind": "icon",
+      "category": "03-品質・改善",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/leak-testing.svg",
+      "preview_path": "assets/icon/leak-testing.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/leak-testing.json",
+      "sha256": "a2f5592ac94b9eee64899bd6a4b46e5d4aa2a18b8aa1b503f10251bf2685ba49",
+      "size_bytes": 861,
+      "keywords": [
+        "漏れ",
+        "漏洩",
+        "気密",
+        "配管",
+        "leak",
+        "testing",
+        "tightness",
+        "leakage"
+      ],
+      "use_case": "配管や接続部からの漏れを確認する工程を示す。",
+      "message": "接続部の密閉性を確かめる。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/material-traceability",
+      "title": "材料の履歴追跡",
+      "kind": "icon",
+      "category": "03-品質・改善",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/material-traceability.svg",
+      "preview_path": "assets/icon/material-traceability.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/material-traceability.json",
+      "sha256": "70125bb142140a3a307acb99ee5c880ba9bb4cf930e3a64712ef9ac285e924d7",
+      "size_bytes": 1661,
+      "keywords": [
+        "材料",
+        "履歴",
+        "追跡",
+        "トレーサビリティ",
+        "traceability",
+        "provenance",
+        "material"
+      ],
+      "use_case": "材料と製品の対応や履歴を追える仕組みを示す。",
+      "message": "材料から製品へ、製品から材料へ対応をたどれる。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/measurement-tolerance",
+      "title": "寸法公差",
+      "kind": "icon",
+      "category": "03-品質・改善",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/measurement-tolerance.svg",
+      "preview_path": "assets/icon/measurement-tolerance.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/measurement-tolerance.json",
+      "sha256": "49347678e90d8560fef3e2d7e8b4fe70763af279664bd43edb998879909e57e2",
+      "size_bytes": 1288,
+      "keywords": [
+        "公差",
+        "許容差",
+        "範囲",
+        "寸法",
+        "tolerance",
+        "dimensional",
+        "allowable",
+        "deviation"
+      ],
+      "use_case": "寸法の許容範囲を説明する項目に添える。",
+      "message": "基準の寸法に対する許容範囲を扱う。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/mistake-proofing",
+      "title": "誤組付け防止",
+      "kind": "icon",
+      "category": "03-品質・改善",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/mistake-proofing.svg",
+      "preview_path": "assets/icon/mistake-proofing.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/mistake-proofing.json",
+      "sha256": "93891903ea9229fee7718479db0c7c645cf75a8ce4464ee66855d386b50c6771",
+      "size_bytes": 1253,
+      "keywords": [
+        "ポカヨケ",
+        "誤組付",
+        "防止",
+        "形状",
+        "キー",
+        "poka",
+        "yoke",
+        "mistake",
+        "proofing"
+      ],
+      "use_case": "取り付け間違いを形で防ぐ設計を示す。",
+      "message": "対応する形だけが正しい向きで組み合う。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/pressure-test",
+      "title": "耐圧試験",
+      "kind": "icon",
+      "category": "03-品質・改善",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/pressure-test.svg",
+      "preview_path": "assets/icon/pressure-test.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/pressure-test.json",
+      "sha256": "fed65f96b537e4f463488485abc6ed3f47e21dcf57da8a8402b33d4d1a8cedc0",
+      "size_bytes": 1005,
+      "keywords": [
+        "圧力",
+        "耐圧",
+        "試験",
+        "ゲージ",
+        "pressure",
+        "test",
+        "resistance",
+        "gauge"
+      ],
+      "use_case": "配管や容器の耐圧条件を確認する工程を示す。",
+      "message": "圧力を加えて対象の状態を確かめる。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/quality",
+      "title": "品質",
+      "kind": "icon",
+      "category": "03-品質・改善",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/quality.svg",
+      "preview_path": "assets/icon/quality.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/quality.json",
+      "sha256": "7a8978613fb746a1469d91caaa9b2761a9f23a4bf47d74b194eaee520e3cd164",
+      "size_bytes": 961,
+      "keywords": [
+        "品質",
+        "品質管理",
+        "基準",
+        "検証",
+        "信頼",
+        "quality",
+        "assurance",
+        "standard"
+      ],
+      "use_case": "品質への取り組みや品質管理の項目に添える。",
+      "message": "求める基準を満たす品質を目指す。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/quality-sampling",
+      "title": "抜取検査",
+      "kind": "icon",
+      "category": "03-品質・改善",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/quality-sampling.svg",
+      "preview_path": "assets/icon/quality-sampling.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/quality-sampling.json",
+      "sha256": "7eccfb405e20cfbeef06b3626ecad39fa919d6ecf327d216ac5c7e439b02e59e",
+      "size_bytes": 1481,
+      "keywords": [
+        "抜取",
+        "サンプリング",
+        "検査",
+        "標本",
+        "sampling",
+        "sample",
+        "inspection"
+      ],
+      "use_case": "全体から一部を選んで確認する検査を説明する。",
+      "message": "代表する対象を取り出して調べる。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/rework",
+      "title": "手直し",
+      "kind": "icon",
+      "category": "03-品質・改善",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/rework.svg",
+      "preview_path": "assets/icon/rework.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/rework.json",
+      "sha256": "68b0a6d3dfae4e63c9f1c889e1b5f0bcec2c85a2acc98f301a9b0284678a01bb",
+      "size_bytes": 1190,
+      "keywords": [
+        "手直し",
+        "再加工",
+        "修正",
+        "再検査",
+        "rework",
+        "repair",
+        "correction"
+      ],
+      "use_case": "確認後に修正し、工程へ戻す流れを示す。",
+      "message": "修正した対象を再び確認へ回す。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/scrap-disposal",
+      "title": "廃却",
+      "kind": "icon",
+      "category": "03-品質・改善",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/scrap-disposal.svg",
+      "preview_path": "assets/icon/scrap-disposal.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/scrap-disposal.json",
+      "sha256": "0fd7e134b54569c31c9ed021096a257d4fc0aac342a95903c81931612d14cc3c",
+      "size_bytes": 924,
+      "keywords": [
+        "廃却",
+        "スクラップ",
+        "廃棄",
+        "不良",
+        "scrap",
+        "disposal",
+        "reject"
+      ],
+      "use_case": "再利用や手直しに回さず廃却する扱いを示す。",
+      "message": "対象を使用の流れから取り除く。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/tensile-test",
+      "title": "引張試験",
+      "kind": "icon",
+      "category": "03-品質・改善",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/tensile-test.svg",
+      "preview_path": "assets/icon/tensile-test.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/tensile-test.json",
+      "sha256": "4588205043638d1147f31cbcd05e7331c7b6befd89422d0d21109a12f3361078",
+      "size_bytes": 1565,
+      "keywords": [
+        "引張",
+        "強度",
+        "破断",
+        "試験",
+        "tensile",
+        "strength",
+        "test",
+        "specimen"
+      ],
+      "use_case": "材料の引張強度を確認する試験を示す。",
+      "message": "両端を逆方向へ引いて強度を確かめる。",
+      "sample_data": false
+    },
+    {
+      "id": "illustration/calibration-reference",
+      "title": "基準に合わせて計測する",
+      "kind": "illustration",
+      "category": "03-品質・改善",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1254,
+      "height": 1254,
+      "canvas": {
+        "width": 1254,
+        "height": 1254
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/calibration-reference.png",
+      "preview_path": "previews/illustration/calibration-reference.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/calibration-reference.json",
+      "sha256": "ebc82cdb39902a83eb86619ee5148b774af4f8257d25bc49736db7fbac526483",
+      "size_bytes": 739776,
+      "keywords": [
+        "校正",
+        "基準",
+        "計測",
+        "精度",
+        "calibration",
+        "reference"
+      ],
+      "use_case": "測定器の校正、基準との比較、測定精度の管理を説明する。",
+      "message": "既知の基準と照らして、測定の確かさを確認する。",
+      "sample_data": false,
+      "composition": {
+        "framing": "object",
+        "facing": "front"
+      }
+    },
+    {
+      "id": "illustration/careful-inspection",
+      "title": "部品の外観を確認する",
+      "kind": "illustration",
+      "category": "03-品質・改善",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1254,
+      "height": 1254,
+      "canvas": {
+        "width": 1254,
+        "height": 1254
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/careful-inspection.png",
+      "preview_path": "previews/illustration/careful-inspection.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/careful-inspection.json",
+      "sha256": "49ea61fcb4fe2b95ba2c3461404b4b6f5920644edf3e573bbb1c11b72d0ac28a",
+      "size_bytes": 817697,
+      "keywords": [
+        "品質",
+        "検査",
+        "確認",
+        "外観検査",
+        "quality",
+        "inspection",
+        "checking"
+      ],
+      "use_case": "品質保証、検査の重要性、作業標準の説明。",
+      "message": "対象を丁寧に確認し、品質を確かめる。",
+      "sample_data": false,
+      "composition": {
+        "framing": "waist-up",
+        "facing": "left",
+        "people_count": 1
+      }
+    },
+    {
+      "id": "illustration/failure-investigation",
+      "title": "故障した箇所を分解して調べる",
+      "kind": "illustration",
+      "category": "03-品質・改善",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1536,
+      "height": 1024,
+      "canvas": {
+        "width": 1536,
+        "height": 1024
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/failure-investigation.png",
+      "preview_path": "previews/illustration/failure-investigation.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/failure-investigation.json",
+      "sha256": "7021a0a498f6e7b03f60c03f8533f53c5151cc2c27b0960e0019629f040aa367",
+      "size_bytes": 1591106,
+      "keywords": [
+        "故障",
+        "原因調査",
+        "分解",
+        "解析",
+        "failure analysis",
+        "root cause"
+      ],
+      "use_case": "不具合の調査や改善報告で、製品を分解して原因の手がかりを探す場面。",
+      "message": "内部を開き、部品の状態を詳しく調べる。",
+      "sample_data": false,
+      "composition": {
+        "framing": "object",
+        "facing": "front"
+      }
+    },
+    {
+      "id": "illustration/first-article-check",
+      "title": "初回の製品を基準と照合する",
+      "kind": "illustration",
+      "category": "03-品質・改善",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1536,
+      "height": 1024,
+      "canvas": {
+        "width": 1536,
+        "height": 1024
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/first-article-check.png",
+      "preview_path": "previews/illustration/first-article-check.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/first-article-check.json",
+      "sha256": "513b1ccb21e945cb3f504c4bd407847c0ffea96cf227844db6ce503216b397a3",
+      "size_bytes": 1322262,
+      "keywords": [
+        "初回品",
+        "初品",
+        "承認",
+        "品質",
+        "first article",
+        "inspection"
+      ],
+      "use_case": "作り始めの製品を確認し、見本や図面との対応を説明する場面。",
+      "message": "初回の品物を見本と図面に照らして確かめる。",
+      "sample_data": false,
+      "composition": {
+        "framing": "object",
+        "facing": "front"
+      }
+    },
+    {
+      "id": "illustration/foreign-object-removal",
+      "title": "混入した異物を取り除く",
+      "kind": "illustration",
+      "category": "03-品質・改善",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1536,
+      "height": 1024,
+      "canvas": {
+        "width": 1536,
+        "height": 1024
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/foreign-object-removal.png",
+      "preview_path": "previews/illustration/foreign-object-removal.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/foreign-object-removal.json",
+      "sha256": "14af1bc4ffd9e2b48921819f7a02f33aefdd4be506f8837e8105b52baffbfc99",
+      "size_bytes": 1458088,
+      "keywords": [
+        "異物",
+        "混入",
+        "除去",
+        "清浄",
+        "foreign object",
+        "contamination"
+      ],
+      "use_case": "部品の検査や清浄管理を説明し、混入した異物を見つけて取り除く場面。",
+      "message": "製品に不要なものを見分け、別に取り出す。",
+      "sample_data": false,
+      "composition": {
+        "framing": "object",
+        "facing": "front"
+      }
+    },
+    {
+      "id": "illustration/issue-isolation",
+      "title": "問題のある品を分ける",
+      "kind": "illustration",
+      "category": "03-品質・改善",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1254,
+      "height": 1254,
+      "canvas": {
+        "width": 1254,
+        "height": 1254
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/issue-isolation.png",
+      "preview_path": "previews/illustration/issue-isolation.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/issue-isolation.json",
+      "sha256": "d359dc6519f640a43725cc459514c4c6122c94f9cc29c86cca0f59c1ccfffbec",
+      "size_bytes": 471492,
+      "keywords": [
+        "不適合品",
+        "隔離",
+        "品質",
+        "混入防止",
+        "異常",
+        "issue",
+        "isolation"
+      ],
+      "use_case": "不適合品の隔離、混入防止、調査待ちの品の管理を説明する。",
+      "message": "問題のある品を区別して、通常の流れから分ける。",
+      "sample_data": false,
+      "composition": {
+        "framing": "object",
+        "facing": "front"
+      }
+    },
+    {
+      "id": "illustration/material-testing",
+      "title": "材料の状態を比較する",
+      "kind": "illustration",
+      "category": "03-品質・改善",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1254,
+      "height": 1254,
+      "canvas": {
+        "width": 1254,
+        "height": 1254
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/material-testing.png",
+      "preview_path": "previews/illustration/material-testing.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/material-testing.json",
+      "sha256": "f11cc66c92e99042805f50e14843cb55c64bf07490ead2acd874da3b32ec8c7d",
+      "size_bytes": 871175,
+      "keywords": [
+        "材料",
+        "評価",
+        "試験",
+        "比較",
+        "material",
+        "testing",
+        "evaluation"
+      ],
+      "use_case": "材料評価、試験前確認、材料選定の説明。",
+      "message": "材料の状態を確かめ、用途に合う性質を検討する。",
+      "sample_data": false,
+      "composition": {
+        "framing": "waist-up",
+        "facing": "left",
+        "people_count": 1
+      }
+    },
+    {
+      "id": "illustration/mistake-proof-connection",
+      "title": "形を合わせて部品を選ぶ",
+      "kind": "illustration",
+      "category": "03-品質・改善",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1536,
+      "height": 1024,
+      "canvas": {
+        "width": 1536,
+        "height": 1024
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/mistake-proof-connection.png",
+      "preview_path": "previews/illustration/mistake-proof-connection.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/mistake-proof-connection.json",
+      "sha256": "6362a243e58099457a4f5bc0503b50d0843dd8d10a856ef053b714a4022f993a",
+      "size_bytes": 986440,
+      "keywords": [
+        "形状",
+        "組合せ",
+        "部品選択",
+        "六角形",
+        "治具",
+        "ポカヨケ",
+        "shape matching",
+        "part selection",
+        "fixture",
+        "mistake proofing"
+      ],
+      "use_case": "組立や部品選定の説明で、形状の違いを使って組合せを区別する場面。",
+      "message": "形の違いを手がかりに、合う部品を選ぶ。",
+      "sample_data": false,
+      "composition": {
+        "framing": "object",
+        "facing": "front"
+      }
+    },
+    {
+      "id": "illustration/precision-measurement",
+      "title": "部品の寸法を測る",
+      "kind": "illustration",
+      "category": "03-品質・改善",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1254,
+      "height": 1254,
+      "canvas": {
+        "width": 1254,
+        "height": 1254
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/precision-measurement.png",
+      "preview_path": "previews/illustration/precision-measurement.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/precision-measurement.json",
+      "sha256": "5aba8eb945b168ea4b9c376ef3d5bf7b1369710ae3cc8f057805bd778fb429ce",
+      "size_bytes": 950153,
+      "keywords": [
+        "測定",
+        "寸法",
+        "精度",
+        "計測",
+        "measurement",
+        "precision",
+        "caliper"
+      ],
+      "use_case": "寸法検査、測定工程、精度管理の説明。",
+      "message": "寸法を測り、製品の精度を確かめる。",
+      "sample_data": false,
+      "composition": {
+        "framing": "waist-up",
+        "facing": "left",
+        "people_count": 1
+      }
+    },
+    {
+      "id": "illustration/product-traceability",
+      "title": "製品と記録を結び付ける",
+      "kind": "illustration",
+      "category": "03-品質・改善",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1254,
+      "height": 1254,
+      "canvas": {
+        "width": 1254,
+        "height": 1254
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/product-traceability.png",
+      "preview_path": "previews/illustration/product-traceability.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/product-traceability.json",
+      "sha256": "65a96653b30d50bf6b01e54507df4a834ade41758184c3ab66e4f3e68f3e7a05",
+      "size_bytes": 630120,
+      "keywords": [
+        "トレーサビリティ",
+        "識別",
+        "製品",
+        "記録",
+        "ロット",
+        "traceability",
+        "identification",
+        "record"
+      ],
+      "use_case": "製品と記録の紐付け、識別管理、品質履歴の説明。",
+      "message": "現物の識別情報と記録を対応させる。",
+      "sample_data": false,
+      "composition": {
+        "framing": "object",
+        "facing": "front",
+        "people_count": 0
+      }
+    },
+    {
+      "id": "illustration/sample-label-verification",
+      "title": "試料の表示と記録を確かめる",
+      "kind": "illustration",
+      "category": "03-品質・改善",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1312,
+      "height": 1199,
+      "canvas": {
+        "width": 1312,
+        "height": 1199
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/sample-label-verification.png",
+      "preview_path": "previews/illustration/sample-label-verification.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/sample-label-verification.json",
+      "sha256": "acfa5c473adc0d38f4f6ac466d19cd6c70d74c86c865077e330dea79a5c545ae",
+      "size_bytes": 1227248,
+      "keywords": [
+        "試料",
+        "識別",
+        "照合",
+        "取り違え",
+        "sample identification",
+        "label check"
+      ],
+      "use_case": "試料を受け取るときや検査の前に、容器の表示と記録を照合する場面。",
+      "message": "試料そのものと記録の対応を確かめる。",
+      "sample_data": false,
+      "composition": {
+        "framing": "waist-up",
+        "facing": "down",
+        "people_count": 1
+      }
+    },
+    {
+      "id": "illustration/sample-retention",
+      "title": "見本を保管する",
+      "kind": "illustration",
+      "category": "03-品質・改善",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1254,
+      "height": 1254,
+      "canvas": {
+        "width": 1254,
+        "height": 1254
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/sample-retention.png",
+      "preview_path": "previews/illustration/sample-retention.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/sample-retention.json",
+      "sha256": "68e7992bd4c27a11d07f76237e146c6abcdc51609fbdef776898bde011d1ced3",
+      "size_bytes": 876612,
+      "keywords": [
+        "サンプル",
+        "見本",
+        "保管",
+        "品質",
+        "sample",
+        "retention"
+      ],
+      "use_case": "品質管理、保管サンプル、製品見本の管理を説明する。",
+      "message": "見本を区別して保管し、必要なときに比較できるようにする。",
+      "sample_data": false,
+      "composition": {
+        "framing": "object",
+        "facing": "front"
+      }
+    },
+    {
+      "id": "manufacturing/fault-isolation",
+      "title": "正常と異常の境界で原因を絞る",
+      "kind": "diagram",
+      "category": "03-品質・改善",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/manufacturing/fault-isolation.svg",
+      "preview_path": "previews/manufacturing/fault-isolation.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/manufacturing/fault-isolation.json",
+      "sha256": "09ad915c5b4d803591e8e21b20cafa963e4951978cb25044e292806bf9de889f",
+      "size_bytes": 3713,
+      "keywords": [
+        "故障",
+        "原因",
+        "切り分け",
+        "診断",
+        "確認",
+        "不具合",
+        "fault",
+        "isolation",
+        "troubleshooting"
+      ],
+      "use_case": "工程の途中で状態を確認し、最初に調べる区間を絞り込む。",
+      "message": "最初に異常が確認された地点と、その直前の正常な地点の間を優先して調べる。",
+      "sample_data": false,
+      "preview_sha256": "061ff5d7cd41108ebe7890465766519c2f8f7e93f56b91629f70ff62feb69067"
+    },
+    {
+      "id": "manufacturing/nonconforming-segregation",
+      "title": "不適合品を分けて処置する",
+      "kind": "diagram",
+      "category": "03-品質・改善",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/manufacturing/nonconforming-segregation.svg",
+      "preview_path": "previews/manufacturing/nonconforming-segregation.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/manufacturing/nonconforming-segregation.json",
+      "sha256": "f904c4016c828170a3cb331a97853184f98a119902db51d164b75311663d652c",
+      "size_bytes": 3830,
+      "keywords": [
+        "不適合",
+        "品質",
+        "隔離",
+        "処置",
+        "再検査",
+        "nonconforming",
+        "segregation",
+        "disposition"
+      ],
+      "use_case": "検査で不適合となった製品を通常の流れから分離し、処置を判断する。",
+      "message": "不適合の製品を識別し、処置と再検査を経るまで通常品へ混ぜない。",
+      "sample_data": false,
+      "preview_sha256": "e48ff2796a1345ead2fca3a3d5dc96d982946ad9cbdf4b0f708e35d0b732a0b0"
+    },
+    {
+      "id": "manufacturing/standard-exception-improvement",
+      "title": "例外の学びを標準へ戻す",
+      "kind": "diagram",
+      "category": "03-品質・改善",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/manufacturing/standard-exception-improvement.svg",
+      "preview_path": "previews/manufacturing/standard-exception-improvement.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/manufacturing/standard-exception-improvement.json",
+      "sha256": "a4c95f3851ee08280691e1c4261d91280a50fe4f828c691a34768e48f25de70c",
+      "size_bytes": 2428,
+      "keywords": [
+        "標準化",
+        "例外",
+        "改善",
+        "学習",
+        "手順",
+        "見直し",
+        "standard",
+        "exception",
+        "improvement"
+      ],
+      "use_case": "共通の手順を適用し、標準内で扱えない例外から手順を見直す。",
+      "message": "例外を記録して判断し、必要なものだけを標準の改善に生かす。",
+      "sample_data": false,
+      "preview_sha256": "132730162f4af6eb7b9054418a948fe92578058e6ccf02e04146ff5dba635e71"
+    },
+    {
+      "id": "part/criterion-and-result",
+      "title": "判定基準と検証結果を照合する",
+      "kind": "part",
+      "category": "03-品質・改善",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1070,
+      "height": 330,
+      "canvas": {
+        "width": 1070,
+        "height": 330
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/part/criterion-and-result.svg",
+      "preview_path": "previews/part/criterion-and-result.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/part/criterion-and-result.json",
+      "sha256": "48345ad83d16ef21190745fcecaecff9756705f460e5d8d617a3390dbb629e24",
+      "size_bytes": 1306,
+      "keywords": [
+        "判定基準",
+        "結果",
+        "検証",
+        "照合",
+        "受入",
+        "criterion",
+        "result",
+        "acceptance"
+      ],
+      "use_case": "検証報告で、合格という結論の根拠を併記する。",
+      "message": "事前に決めた基準と確認した結果を照合して判断する。",
+      "sample_data": false,
+      "preview_sha256": "141b2e3082c8842dc3f49531a3dec25f5456d210da81d4702709ae47e04d318e"
+    },
+    {
+      "id": "part/local-and-whole-result",
+      "title": "局所の改善を全体の成果で確かめる",
+      "kind": "part",
+      "category": "03-品質・改善",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1120,
+      "height": 380,
+      "canvas": {
+        "width": 1120,
+        "height": 380
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/part/local-and-whole-result.svg",
+      "preview_path": "previews/part/local-and-whole-result.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/part/local-and-whole-result.json",
+      "sha256": "faefec3365710c2764f5edc4695fff8bdaf0cd6f2bb6b9f48904abd1c92042fd",
+      "size_bytes": 1588,
+      "keywords": [
+        "部分最適",
+        "全体最適",
+        "後工程",
+        "改善",
+        "local",
+        "global",
+        "optimization"
+      ],
+      "use_case": "一工程の改善が、納期や品質など全体の成果へつながるか示す。",
+      "message": "局所の変化を後工程への影響と全体の成果へつなげて評価する。",
+      "sample_data": false,
+      "preview_sha256": "b9894b0836966fa50c7b25aeff4923d31efe645b0f5205264414a870006ce1ff"
+    },
+    {
+      "id": "part/measurement-resolution",
+      "title": "表示桁数と測定の細かさを区別する",
+      "kind": "part",
+      "category": "03-品質・改善",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1120,
+      "height": 380,
+      "canvas": {
+        "width": 1120,
+        "height": 380
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/part/measurement-resolution.svg",
+      "preview_path": "previews/part/measurement-resolution.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/part/measurement-resolution.json",
+      "sha256": "302b33b30db53b8e86ed78af7559e5b8398426b87665585254fe4d01b4ae3d8d",
+      "size_bytes": 2413,
+      "keywords": [
+        "有効桁",
+        "分解能",
+        "測定",
+        "精度",
+        "丸め",
+        "resolution",
+        "precision",
+        "digits"
+      ],
+      "use_case": "測定値の小数桁や丸め方を説明する。",
+      "message": "読み取れる刻みを超える桁は、測定の確かさを増やさない。",
+      "sample_data": false,
+      "preview_sha256": "55326bc64c8dcd2334240999580c8e89395d01e83f939939ba7f35f749403f91"
+    },
+    {
+      "id": "part/temporary-and-permanent-action",
+      "title": "応急措置と恒久対策を分ける",
+      "kind": "part",
+      "category": "03-品質・改善",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1070,
+      "height": 386,
+      "canvas": {
+        "width": 1070,
+        "height": 386
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/part/temporary-and-permanent-action.svg",
+      "preview_path": "previews/part/temporary-and-permanent-action.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/part/temporary-and-permanent-action.json",
+      "sha256": "57a6ec5c4ed8a3c7b725caffa62c5d442c50e7f1ae6c0c27caa7e6531d0dc26b",
+      "size_bytes": 1488,
+      "keywords": [
+        "応急措置",
+        "恒久対策",
+        "再発防止",
+        "原因",
+        "対策",
+        "containment",
+        "corrective",
+        "action"
+      ],
+      "use_case": "不具合報告で暫定対応だけを完了としないために使う。",
+      "message": "影響を止めることと、再発を防ぐことは別の対応になる。",
+      "sample_data": false,
+      "preview_sha256": "88b598daef95ab04286fc023c043943e7910f27d8ce4630be3e5a44137b62d32"
+    },
+    {
+      "id": "process/double-loop-learning",
+      "title": "実行の改善と前提の見直し",
+      "kind": "diagram",
+      "category": "03-品質・改善",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/process/double-loop-learning.svg",
+      "preview_path": "previews/process/double-loop-learning.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/process/double-loop-learning.json",
+      "sha256": "0b35ce105ec5c660e8cf1311a3b4f3a49ada8f1645cd58ca7a84aad30a8c49f2",
+      "size_bytes": 3126,
+      "keywords": [
+        "組織学習",
+        "ダブルループ",
+        "フィードバック",
+        "改善",
+        "振り返り",
+        "前提",
+        "方針",
+        "PDCA"
+      ],
+      "use_case": "施策の振り返りで、手順の修正と方針の再検討を切り分ける。",
+      "message": "結果が悪いときは、手順だけでなく前提も見直せる。",
+      "sample_data": false,
+      "preview_sha256": "4991f01fad5dc247c3ae5287fd400926233a0c153bb7981c6cac516b262d045d"
+    },
+    {
+      "id": "process/quality-gates",
+      "title": "検査で品質を守る価値の流れ",
+      "kind": "diagram",
+      "category": "03-品質・改善",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/process/quality-gates.svg",
+      "preview_path": "previews/process/quality-gates.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/process/quality-gates.json",
+      "sha256": "8ff74ae1ec3ffc19772f3d61763e48d4d2f2ed7bff3142da0fbff1171a0de510",
+      "size_bytes": 5074,
+      "keywords": [
+        "工程",
+        "品質保証",
+        "品質管理",
+        "検査",
+        "ゲート",
+        "バリューストリーム",
+        "手戻り"
+      ],
+      "use_case": "受注から成果物の納品までに必要な品質確認を説明する。",
+      "message": "作業の前後で確認し、手戻りを防ぐ。",
+      "sample_data": false,
+      "preview_sha256": "8938382a596ab602da9e0a0b8f650b83ddba4dc0717aca52bdb8905e8119087e"
+    },
+    {
+      "id": "quality/calibration-chain",
+      "title": "測定器を基準へつながる比較で校正する",
+      "kind": "diagram",
+      "category": "03-品質・改善",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/quality/calibration-chain.svg",
+      "preview_path": "previews/quality/calibration-chain.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/quality/calibration-chain.json",
+      "sha256": "9304688e55dc1616dd6d846a7e18a17c5350a35e922100fec554ec3deae657c0",
+      "size_bytes": 1578,
+      "keywords": [
+        "校正",
+        "計測",
+        "標準器",
+        "基準",
+        "トレーサビリティ",
+        "measurement",
+        "calibration",
+        "traceability",
+        "reference"
+      ],
+      "use_case": "測定器管理で、校正結果と参照基準のつながりを説明する。",
+      "message": "現場の測定器から参照基準まで、比較と記録の連鎖を保持する。",
+      "sample_data": false,
+      "preview_sha256": "42b0447a7bb7842b3e70fa51e4831605b0d58259f5f42477a0c11b40d9667bd6"
+    },
+    {
+      "id": "quality/cause-evidence-check",
+      "title": "原因の仮説を事実で確かめる",
+      "kind": "diagram",
+      "category": "03-品質・改善",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/quality/cause-evidence-check.svg",
+      "preview_path": "previews/quality/cause-evidence-check.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/quality/cause-evidence-check.json",
+      "sha256": "4115a62cc44578d0b4aa75c5964a37dfb323b438f1c6da24a61259b422972060",
+      "size_bytes": 2184,
+      "keywords": [
+        "真因",
+        "原因検証",
+        "仮説",
+        "事実",
+        "再現",
+        "根拠",
+        "root",
+        "cause",
+        "evidence",
+        "hypothesis",
+        "verification"
+      ],
+      "use_case": "不具合対策で、原因の思い込みと確認済みの原因を分ける。",
+      "message": "仮説に合う事実を確認し、一致しなければ別の仮説へ戻る。",
+      "sample_data": false,
+      "preview_sha256": "655db6fdad9f7cae9c5649965ed7a1e3d06ebbc658032d05f2266825a4c7a856"
+    },
+    {
+      "id": "quality/cause-fishbone",
+      "title": "問題につながる原因候補を観点ごとに広げる",
+      "kind": "diagram",
+      "category": "03-品質・改善",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/quality/cause-fishbone.svg",
+      "preview_path": "previews/quality/cause-fishbone.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/quality/cause-fishbone.json",
+      "sha256": "93db02375c0435032dbfac845d1d86c4c618c23180abcf4e5906e485a7aa0d8d",
+      "size_bytes": 3649,
+      "keywords": [
+        "特性要因図",
+        "魚骨",
+        "原因分析",
+        "4M",
+        "要因",
+        "問題解決",
+        "fishbone",
+        "Ishikawa",
+        "root",
+        "cause"
+      ],
+      "use_case": "品質や業務の問題について、原因候補の偏りや抜けを減らす。",
+      "message": "複数の観点から原因候補を挙げ、確認する仮説を整理する。",
+      "sample_data": false,
+      "preview_sha256": "03002e881c47945c3d13a493fc325ca04f634391b2ae7fa4c2fc721da9b4e1d3"
+    },
+    {
+      "id": "quality/control-plan",
+      "title": "工程・管理特性・確認・異常時対応を一組にする",
+      "kind": "diagram",
+      "category": "03-品質・改善",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/quality/control-plan.svg",
+      "preview_path": "previews/quality/control-plan.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/quality/control-plan.json",
+      "sha256": "f0e3c030633b2892d458bedc5ab0c3f9458d43aa06df3611b643b756e55c23f3",
+      "size_bytes": 1750,
+      "keywords": [
+        "管理計画",
+        "コントロールプラン",
+        "工程",
+        "特性",
+        "反応計画",
+        "control",
+        "plan",
+        "characteristic",
+        "reaction",
+        "process"
+      ],
+      "use_case": "工程の品質管理を、測定だけで終わらない運用に整理する。",
+      "message": "各工程で見る特性と確認方法、基準から外れたときの対応をつなぐ。",
+      "sample_data": false,
+      "preview_sha256": "59b749be6807288b7e1b7a85c8ff8700d2064502a30f12a0df541ffe1bc954fd"
+    },
+    {
+      "id": "quality/correction-and-cause-removal",
+      "title": "今回の修正と再発を防ぐ原因対策を分ける",
+      "kind": "diagram",
+      "category": "03-品質・改善",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/quality/correction-and-cause-removal.svg",
+      "preview_path": "previews/quality/correction-and-cause-removal.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/quality/correction-and-cause-removal.json",
+      "sha256": "2d70a28928883a22f7ac9a3d817474beab17caad698aad6d197bd459a33eff83",
+      "size_bytes": 1938,
+      "keywords": [
+        "是正",
+        "処置",
+        "修正",
+        "再発防止",
+        "横展開",
+        "不具合",
+        "CAPA",
+        "correction",
+        "corrective",
+        "action",
+        "recurrence"
+      ],
+      "use_case": "不具合対応を、製品の修正だけで終わらせず原因の除去へつなげる。",
+      "message": "今回の対象を直す処置と、再発を防ぐ原因対策を並行して考える。",
+      "sample_data": false,
+      "preview_sha256": "0f2505b1fe4f9cd88e5dd475b21af294073dbed71746b9169b8c06e6295fb562"
+    },
+    {
+      "id": "quality/defect-origin-detection",
+      "title": "不具合が生まれた工程と見つかった工程を分ける",
+      "kind": "diagram",
+      "category": "03-品質・改善",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/quality/defect-origin-detection.svg",
+      "preview_path": "previews/quality/defect-origin-detection.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/quality/defect-origin-detection.json",
+      "sha256": "6fd6ec53bc8ba869f17dbed8d872d746b24f617cd57742bbfa0358f0e40c0213",
+      "size_bytes": 3008,
+      "keywords": [
+        "不良",
+        "発生",
+        "流出",
+        "後工程",
+        "検出",
+        "品質",
+        "源流",
+        "defect",
+        "origin",
+        "detection",
+        "escape"
+      ],
+      "use_case": "工程不良の対策で、検出工程だけでなく発生工程へ対策を戻す。",
+      "message": "発見場所と発生場所を区別し、不良を作る原因と流す原因の両方を見る。",
+      "sample_data": false,
+      "preview_sha256": "0bb143268f399596299b83fe14ac24b3195c8e8179a4670f19206289ee131ebc"
+    },
+    {
+      "id": "quality/lot-genealogy",
+      "title": "材料から製造・出荷先までたどる",
+      "kind": "diagram",
+      "category": "03-品質・改善",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/quality/lot-genealogy.svg",
+      "preview_path": "previews/quality/lot-genealogy.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/quality/lot-genealogy.json",
+      "sha256": "bfa6fd6f44cdd574266619b658be54d7a751b3364e5fd47dcc11ffe9a527940a",
+      "size_bytes": 2239,
+      "keywords": [
+        "ロット",
+        "追跡",
+        "追溯",
+        "リコール",
+        "材料",
+        "履歴",
+        "genealogy",
+        "traceability",
+        "batch",
+        "recall"
+      ],
+      "use_case": "追跡調査や対象範囲の特定で、ロットと出荷先の対応を共有する。",
+      "message": "材料から出荷先へも、出荷品から材料へも履歴をたどれるようにする。",
+      "sample_data": false,
+      "preview_sha256": "a21c183ad7b302a3d366c1212e974e95e9cfb40aba0c7196ee260c2106fb72f6"
+    },
+    {
+      "id": "quality/lot-sampling",
+      "title": "ロットから抽出して全体の判断につなげる",
+      "kind": "diagram",
+      "category": "03-品質・改善",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/quality/lot-sampling.svg",
+      "preview_path": "previews/quality/lot-sampling.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/quality/lot-sampling.json",
+      "sha256": "ff86e277c6f23208135e471d8a59f5477929782bb7e1c52eaf621fb73e71e672",
+      "size_bytes": 4344,
+      "keywords": [
+        "抜取検査",
+        "ロット",
+        "標本",
+        "抽出",
+        "検査",
+        "sampling",
+        "lot",
+        "inspection",
+        "population"
+      ],
+      "use_case": "抜取検査で、検査する対象と判断する対象の違いを説明する。",
+      "message": "抽出した対象の検査結果を、定めた抜取条件に沿ってロットの判断へ使う。",
+      "sample_data": false,
+      "preview_sha256": "8695174f63698766e6c979e52bbbd0259ca7258fe297387b66bf92ac0a3efba4"
+    },
+    {
+      "id": "quality/measurement-system-variation",
+      "title": "製品のばらつきと測定のばらつきを分ける",
+      "kind": "diagram",
+      "category": "03-品質・改善",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/quality/measurement-system-variation.svg",
+      "preview_path": "previews/quality/measurement-system-variation.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/quality/measurement-system-variation.json",
+      "sha256": "2b78468475f912627596a2688c9bb1889fc61484a34a72cb4170160f3f2e9b9a",
+      "size_bytes": 1902,
+      "keywords": [
+        "測定システム",
+        "MSA",
+        "ゲージ",
+        "測定者",
+        "反復性",
+        "再現性",
+        "measurement",
+        "variation",
+        "gage",
+        "repeatability",
+        "reproducibility"
+      ],
+      "use_case": "測定値の信頼性を検討し、測定者・機器・条件の影響を共有する。",
+      "message": "同じ対象でも測り方によって値が変わるため、測定の仕組みを確かめる。",
+      "sample_data": false,
+      "preview_sha256": "55d69095fc356d1774afea21308e3deb9552e6dddf34c680993ef6d892f9ebea"
+    },
+    {
+      "id": "quality/prevention-and-detection",
+      "title": "発生を防ぐ対策と流出を見つける対策を分ける",
+      "kind": "diagram",
+      "category": "03-品質・改善",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/quality/prevention-and-detection.svg",
+      "preview_path": "previews/quality/prevention-and-detection.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/quality/prevention-and-detection.json",
+      "sha256": "3a54ed7af123a0701669a3c83e9692bae93dd8b6b746fef17697ddb329273956",
+      "size_bytes": 1905,
+      "keywords": [
+        "未然防止",
+        "検出",
+        "予防",
+        "検査",
+        "ポカヨケ",
+        "流出防止",
+        "prevention",
+        "detection",
+        "quality",
+        "control"
+      ],
+      "use_case": "品質改善で、予防策と検出策の役割を説明する。",
+      "message": "起こりにくくする仕組みと、起きた不具合を通さない仕組みを組み合わせる。",
+      "sample_data": false,
+      "preview_sha256": "bb5cd02835ec760eac0f76343c2860144d0408b4bcc45aad28f6e5e71c420215"
+    }
+  ]
+}

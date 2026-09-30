@@ -51,6 +51,7 @@ def build():
             preview,_=add_labels(content.decode('utf-8'),meta,{},include_examples=True)
             preview_file=ROOT/meta['preview_path'];preview_file.parent.mkdir(parents=True,exist_ok=True)
             preview_file.write_bytes(preview.encode('utf-8'))
+            meta['preview_sha256']=hashlib.sha256(preview.encode('utf-8')).hexdigest()
         write_json(ROOT/meta['metadata_path'],meta)
         records.append(meta);gallery.append(dict(meta,**({'download':base64.b64encode(content).decode()} if meta['format']=='svg' else {})))
     # Both directories contain generated outputs only; remove superseded registered forms.
@@ -66,9 +67,21 @@ def build():
         row={k:a[k] for k in ('id','title','kind','category','format','mime_type','transparent','width','height','canvas','render','path','preview_path','preview_has_example_labels','metadata_path','sha256','size_bytes','keywords')}
         row.update(use_case=a['guidance']['use_case'],message=a['guidance']['message'],sample_data=bool(a.get('data',{}).get('is_sample')))
         if a.get('composition'):row['composition']=a['composition']
+        if a.get('preview_sha256'):row['preview_sha256']=a['preview_sha256']
         index.append(row)
-    catalog={**config,'raw_base':raw_base,'themes_path':'themes.json','asset_count':len(records),'assets':index}
+    catalog={**config,'raw_base':raw_base,'themes_path':'themes.json','categories_path':'categories.json','asset_count':len(records),'assets':index}
     write_json(ROOT/'catalog.json',catalog)
+    from categories import SPECS
+    categories=[]
+    for label,slug,description,keywords in SPECS:
+        entries=[a for a in index if a['category']==label]
+        index_path=f'catalogs/{slug}.json'
+        write_json(ROOT/index_path,dict(version=config['version'],raw_base=raw_base,category=label,asset_count=len(entries),assets=entries))
+        categories.append(dict(category=label,description=description,keywords=keywords.split(),asset_count=len(entries),kinds=sorted({a['kind'] for a in entries}),index_path=index_path))
+    write_json(ROOT/'categories.json',dict(version=config['version'],raw_base=raw_base,asset_count=len(records),categories=categories))
+    expected_indexes={entry['index_path'] for entry in categories}
+    for file in (ROOT/'catalogs').glob('*.json'):
+        if file.relative_to(ROOT).as_posix() not in expected_indexes:file.unlink()
     (ROOT/'catalog.txt').write_bytes(browse_text(records).encode('utf-8'))
     (ROOT/'catalog.ndjson').write_bytes(''.join(json.dumps(a,ensure_ascii=False)+'\n' for a in records).encode('utf-8'))
     themes=theme_contract();write_json(ROOT/'themes.json',themes)
@@ -83,7 +96,7 @@ def build():
     for i,a in enumerate(chosen):
         x=(i%2)*480;y=(i//2)*325;scale=min(440/a['width'],260/a['height']);tx=x+(480-a['width']*scale)/2;ty=y+(270-a['height']*scale)/2
         body=a['body']
-        if a['kind'] in ('background','part'):
+        if a['labels']:
             from library import add_labels
             labeled,_=add_labels(svg_document(a),metadata(a),{},include_examples=True)
             body=''.join(ET.tostring(child,encoding='unicode') for child in ET.fromstring(labeled) if child.tag.split('}')[-1] not in ('title','desc'))
@@ -91,8 +104,8 @@ def build():
     preview_svg='<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 650" width="960" height="650"><rect width="960" height="650" fill="white"/>'+''.join(preview)+'</svg>'
     (ROOT/'preview.svg').write_bytes((ET.tostring(canonical_geometry(ET.fromstring(preview_svg)),encoding='unicode')+'\n').encode('utf-8'))
     package_files=[ROOT/p for a in records for p in (a['path'],a['metadata_path'])]
-    package_files += [p for folder in ('scripts','web','examples','tests','sources','previews') for p in (ROOT/folder).rglob('*') if p.is_file() and '__pycache__' not in p.parts]
-    package_files += [ROOT/p for p in ('README.md','llms.txt','project.json','request.schema.json','catalog.txt','catalog.json','catalog.ndjson','search.json','themes.json','LICENSE-ASSETS','LICENSE','preview.svg','index.html')]
+    package_files += [p for folder in ('scripts','web','examples','tests','sources','previews','catalogs') for p in (ROOT/folder).rglob('*') if p.is_file() and '__pycache__' not in p.parts]
+    package_files += [ROOT/p for p in ('README.md','llms.txt','project.json','request.schema.json','catalog.txt','catalog.json','catalog.ndjson','categories.json','search.json','themes.json','LICENSE-ASSETS','LICENSE','preview.svg','index.html')]
     with zipfile.ZipFile(ROOT/'deckart.zip','w',compression=zipfile.ZIP_DEFLATED) as archive:
         for file in sorted(set(package_files),key=lambda p:p.relative_to(ROOT).as_posix()):zip_entry(archive,file.relative_to(ROOT).as_posix(),file.read_bytes())
     print(f'Built {len(records)} SVG/PNG assets, per-asset metadata, compact AI index and offline package.')

@@ -1,0 +1,126 @@
+{
+  "title": "過去の支出と今後変わる費用を分ける",
+  "description": "今後の選択によって変わる費用と効果に着目する。",
+  "keywords": [
+    "埋没費用",
+    "サンクコスト",
+    "将来費用",
+    "差額",
+    "意思決定",
+    "sunk",
+    "future",
+    "cost"
+  ],
+  "labels": [
+    {
+      "x": 48,
+      "y": 28,
+      "width": 383,
+      "height": 61,
+      "text": "すでに支払った費用",
+      "role": "過去の費用",
+      "align": "left",
+      "color": "#607590",
+      "font_size": 29,
+      "id": "label-1",
+      "color_role": "muted",
+      "max_lines": 1,
+      "max_fullwidth_chars": 12
+    },
+    {
+      "x": 46,
+      "y": 221,
+      "width": 384,
+      "height": 86,
+      "text": "今回の判断では\n取り戻せない",
+      "role": "過去の扱い",
+      "align": "left",
+      "color": "#607590",
+      "font_size": 28,
+      "id": "label-2",
+      "color_role": "muted",
+      "max_lines": 2,
+      "max_fullwidth_chars": 12
+    },
+    {
+      "x": 575,
+      "y": 28,
+      "width": 487,
+      "height": 61,
+      "text": "これから変わる費用と効果",
+      "role": "将来の差分",
+      "align": "left",
+      "color": "#2864F0",
+      "font_size": 29,
+      "id": "label-3",
+      "color_role": "accent",
+      "max_lines": 1,
+      "max_fullwidth_chars": 15
+    },
+    {
+      "x": 575,
+      "y": 221,
+      "width": 485,
+      "height": 86,
+      "text": "選択肢の差として\n判断する",
+      "role": "判断対象",
+      "align": "left",
+      "color": "#153A6B",
+      "font_size": 30.714,
+      "id": "label-4",
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 14
+    },
+    {
+      "x": 435,
+      "y": 317,
+      "width": 153,
+      "height": 45,
+      "text": "判断時点",
+      "role": "時点",
+      "align": "center",
+      "color": "#153A6B",
+      "font_size": 24,
+      "id": "label-5",
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 6
+    }
+  ],
+  "width": 1120,
+  "height": 380,
+  "kind": "part",
+  "guidance": {
+    "use_case": "継続・中止の判断で、支払い済みの費用と選択肢で変わる費用を分ける。",
+    "message": "今後の選択によって変わる費用と効果に着目する。",
+    "reading": [
+      "中央の線が判断時点、右矢印が今後の判断対象。"
+    ]
+  },
+  "category": "11-会計・収益",
+  "schema_version": 3,
+  "id": "part/sunk-and-future-cost",
+  "name": "過去の支出と今後変わる費用を分ける_説明パーツ",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1120,
+    "height": 380
+  },
+  "path": "assets/part/sunk-and-future-cost.svg",
+  "metadata_path": "metadata/part/sunk-and-future-cost.json",
+  "preview_path": "previews/part/sunk-and-future-cost.svg",
+  "preview_has_example_labels": true,
+  "search_text": "part/sunk-and-future-cost\n過去の支出と今後変わる費用を分ける_説明パーツ\n過去の支出と今後変わる費用を分ける\n継続・中止の判断で、支払い済みの費用と選択肢で変わる費用を分ける。\n今後の選択によって変わる費用と効果に着目する。\n中央の線が判断時点、右矢印が今後の判断対象。\n埋没費用 サンクコスト 将来費用 差額 意思決定 sunk future cost",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "dad5a2ea0294926dc1989085d6b7f017fee5381201805929d65548b4986afe6e",
+  "size_bytes": 1112,
+  "preview_sha256": "69cbccd7dc0ea5196c181eb3bc1b3ffd6a17f9d538980aa30c89103ea8e74674"
+}

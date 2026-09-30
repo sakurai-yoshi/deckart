@@ -1,5 +1,4 @@
 {
-  "category": "12-AIとデータ基盤",
   "title": "許可した要求だけを通す",
   "description": "権限確認を境界に置き、保護対象へ進む要求と止める要求を分ける。",
   "keywords": [
@@ -90,6 +89,7 @@
       "下の要求は境界の外で止まる。"
     ]
   },
+  "category": "12-情報・データ",
   "schema_version": 3,
   "id": "technology/access-boundary",
   "name": "情報保護_許可した要求だけを通す_権限確認と保護境界",
@@ -112,5 +112,6 @@
     "data": false
   },
   "sha256": "79c76b1f5498f64d7fbf00e6ce419221b5f759c27d31222220e88334f7e33436",
-  "size_bytes": 4488
+  "size_bytes": 4488,
+  "preview_sha256": "a772e73cdc058f2c54176d54971293f73d3c6906413ff718a5d67f84f6489076"
 }

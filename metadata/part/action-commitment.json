@@ -1,5 +1,4 @@
 {
-  "category": "07-注釈と見出し",
   "title": "行動に担当と期限を添える",
   "description": "次の行動を主欄へ置き、右で担当と期限を対応させる部品。",
   "keywords": [
@@ -67,11 +66,11 @@
       "role": "担当区分",
       "align": "left",
       "color": "#607590",
-      "font_size": 23,
+      "font_size": 26,
       "id": "label-4",
       "color_role": "muted",
       "max_lines": 1,
-      "max_fullwidth_chars": 6
+      "max_fullwidth_chars": 5
     },
     {
       "x": 690,
@@ -97,11 +96,11 @@
       "role": "期限区分",
       "align": "left",
       "color": "#607590",
-      "font_size": 23,
+      "font_size": 26,
       "id": "label-6",
       "color_role": "muted",
       "max_lines": 1,
-      "max_fullwidth_chars": 5
+      "max_fullwidth_chars": 4
     },
     {
       "x": 901,
@@ -130,6 +129,7 @@
       "右の小さな二欄で担当と期限を確認する。"
     ]
   },
+  "category": "02-計画・進捗",
   "schema_version": 3,
   "id": "part/action-commitment",
   "name": "行動に担当と期限を添える_説明パーツ",
@@ -152,5 +152,6 @@
     "data": false
   },
   "sha256": "3e3c8a2d636b7a451b769625d1c6fabced315ea06059bcdeb8922ff4d52b5c33",
-  "size_bytes": 749
+  "size_bytes": 749,
+  "preview_sha256": "2b04abde0effa8587afb6c0261e174c37d005955958bcc896a75e57f56c30431"
 }

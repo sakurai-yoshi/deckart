@@ -1,5 +1,4 @@
 {
-  "category": "08-アイコンとピクトグラム",
   "title": "封緘確認",
   "description": "荷物の開口を閉じた状態を確認する。",
   "keywords": [
@@ -24,6 +23,7 @@
       "チェックが封の確認という行為を示す。"
     ]
   },
+  "category": "05-調達・物流",
   "schema_version": 3,
   "id": "icon/package-sealing",
   "name": "封緘確認_製造業務の記号",

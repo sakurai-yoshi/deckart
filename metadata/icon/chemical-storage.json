@@ -1,0 +1,51 @@
+{
+  "title": "化学品保管",
+  "description": "化学品を保管場所で整理して扱う。",
+  "keywords": [
+    "化学品",
+    "薬品",
+    "保管",
+    "容器",
+    "棚",
+    "chemical",
+    "storage",
+    "substances",
+    "cabinet"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "化学品の保管や容器の整理を説明する。",
+    "message": "化学品を保管場所で整理して扱う。",
+    "reading": [
+      "形の異なる容器が取り扱う化学品を表す。",
+      "棚で分かれた空間が保管区分を表す。"
+    ]
+  },
+  "category": "07-安全・事業継続",
+  "schema_version": 3,
+  "id": "icon/chemical-storage",
+  "name": "化学品保管_設備と働き",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/chemical-storage.svg",
+  "metadata_path": "metadata/icon/chemical-storage.json",
+  "preview_path": "assets/icon/chemical-storage.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/chemical-storage\n化学品保管_設備と働き\n化学品保管\n化学品の保管や容器の整理を説明する。\n化学品を保管場所で整理して扱う。\n形の異なる容器が取り扱う化学品を表す。\n棚で分かれた空間が保管区分を表す。\n化学品 薬品 保管 容器 棚 chemical storage substances cabinet",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "6e64ca460430b5d60e61cd694bc66c2946e58a0fac18be26507e3047b1db1e3c",
+  "size_bytes": 1405
+}

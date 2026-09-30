@@ -1,5 +1,4 @@
 {
-  "category": "03-関係と連携",
   "title": "三者の間で価値が往復する",
   "description": "三者の各組み合わせに、提供する価値と受け取る価値があることを示す。",
   "keywords": [
@@ -117,6 +116,7 @@
     ]
   },
   "kind": "diagram",
+  "category": "01-経営・意思決定",
   "schema_version": 3,
   "id": "relationship/reciprocal-ecosystem",
   "name": "事業連携_相互に価値を交換する_三者のエコシステム",
@@ -139,5 +139,6 @@
     "data": false
   },
   "sha256": "c1b7009f828c020e9c3c1ff5596a59f2f30e0c13d1a96e863cd92e10ccb725bb",
-  "size_bytes": 2633
+  "size_bytes": 2633,
+  "preview_sha256": "73e74b508128de38e8668cd86b008767850b35d19adc88d9110349522446c090"
 }

@@ -1,0 +1,50 @@
+{
+  "title": "データの来歴",
+  "description": "元の情報から結果までの経路をたどる。",
+  "keywords": [
+    "来歴",
+    "系譜",
+    "由来",
+    "データ",
+    "lineage",
+    "provenance",
+    "source",
+    "transformation"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "結果のデータがどこから作られたかを説明する。",
+    "message": "元の情報から結果までの経路をたどる。",
+    "reading": [
+      "左の複数の記録が元情報を表す。",
+      "合流して一つの記録に達する線が生成経路を表す。"
+    ]
+  },
+  "category": "12-情報・データ",
+  "schema_version": 3,
+  "id": "icon/data-lineage",
+  "name": "データの来歴_情報と関係",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/data-lineage.svg",
+  "metadata_path": "metadata/icon/data-lineage.json",
+  "preview_path": "assets/icon/data-lineage.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/data-lineage\nデータの来歴_情報と関係\nデータの来歴\n結果のデータがどこから作られたかを説明する。\n元の情報から結果までの経路をたどる。\n左の複数の記録が元情報を表す。\n合流して一つの記録に達する線が生成経路を表す。\n来歴 系譜 由来 データ lineage provenance source transformation",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "1a4ac5c027c3bbd63b751108c5c58580e25425062fac6711e78296c24ba77e7f",
+  "size_bytes": 1199
+}

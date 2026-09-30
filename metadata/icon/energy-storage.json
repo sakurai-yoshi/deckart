@@ -1,0 +1,49 @@
+{
+  "title": "蓄電",
+  "description": "エネルギーを蓄えて利用する。",
+  "keywords": [
+    "蓄電",
+    "電池",
+    "エネルギー",
+    "バッテリー",
+    "storage",
+    "battery",
+    "energy"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "電力を貯めて必要な時に使う設備を示す。",
+    "message": "エネルギーを蓄えて利用する。",
+    "reading": [
+      "端子のある大きな容器が電池を表す。",
+      "内部の稲妻が蓄える電力を示す。"
+    ]
+  },
+  "category": "08-環境・資源",
+  "schema_version": 3,
+  "id": "icon/energy-storage",
+  "name": "蓄電_設備と働き",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/energy-storage.svg",
+  "metadata_path": "metadata/icon/energy-storage.json",
+  "preview_path": "assets/icon/energy-storage.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/energy-storage\n蓄電_設備と働き\n蓄電\n電力を貯めて必要な時に使う設備を示す。\nエネルギーを蓄えて利用する。\n端子のある大きな容器が電池を表す。\n内部の稲妻が蓄える電力を示す。\n蓄電 電池 エネルギー バッテリー storage battery energy",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "3626f9bdb4d77b0443fcc5f44c3ba4f4b490e8dd73a673571d910419c4f91d73",
+  "size_bytes": 1001
+}

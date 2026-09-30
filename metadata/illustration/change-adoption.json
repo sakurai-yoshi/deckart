@@ -1,0 +1,56 @@
+{
+  "title": "新しい道具を試して使い方を覚える",
+  "description": "同じ項目を示す紙の記録と端末を見比べ、新しい仕事の道具を試す人。",
+  "kind": "illustration",
+  "width": 1536,
+  "height": 1024,
+  "labels": [],
+  "composition": {
+    "framing": "waist-up",
+    "facing": "down",
+    "people_count": 1
+  },
+  "keywords": [
+    "変化",
+    "導入",
+    "デジタル化",
+    "定着",
+    "change adoption"
+  ],
+  "guidance": {
+    "use_case": "新しい端末や仕組みを導入するときに、従来の記録と見比べて使い方を覚える場面。",
+    "message": "慣れた仕事と新しい道具を結び付ける。",
+    "reading": [
+      "紙の記録票と端末に、対応する青い項目が並んでいる。",
+      "一人が紙の記録に手を添えながら端末を操作し、二つの形式を見比べている。"
+    ]
+  },
+  "preview_path": "previews/illustration/change-adoption.png",
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/enterprise-illustrations.json"
+  },
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": true,
+  "canvas": {
+    "width": 1536,
+    "height": 1024
+  },
+  "category": "02-計画・進捗",
+  "schema_version": 3,
+  "id": "illustration/change-adoption",
+  "name": "新しい道具を試して使い方を覚える_業務イラスト",
+  "license": "CC0-1.0",
+  "path": "media/illustration/change-adoption.png",
+  "metadata_path": "metadata/illustration/change-adoption.json",
+  "preview_has_example_labels": false,
+  "search_text": "illustration/change-adoption\n新しい道具を試して使い方を覚える_業務イラスト\n新しい道具を試して使い方を覚える\n新しい端末や仕組みを導入するときに、従来の記録と見比べて使い方を覚える場面。\n慣れた仕事と新しい道具を結び付ける。\n紙の記録票と端末に、対応する青い項目が並んでいる。\n一人が紙の記録に手を添えながら端末を操作し、二つの形式を見比べている。\n変化 導入 デジタル化 定着 change adoption\nwaist-up 上半身 腰上 down 下向き 手元を見る",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "6e5d93810fbd47b8fecb6ca5788f46572255775a95c84b3439a2c1699400ac5f",
+  "size_bytes": 1264276
+}

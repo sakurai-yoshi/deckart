@@ -1,5 +1,4 @@
 {
-  "category": "03-関係と連携",
   "title": "各層の入口で接続を管理する",
   "description": "利用者との接点、業務処理、データ保持を分け、それぞれの接続の入口を示す。",
   "keywords": [
@@ -117,6 +116,7 @@
     ]
   },
   "kind": "diagram",
+  "category": "12-情報・データ",
   "schema_version": 3,
   "id": "relationship/controlled-system-layers",
   "name": "システム構成_三つの層と接続の入口_認証APIデータ",
@@ -139,5 +139,6 @@
     "data": false
   },
   "sha256": "8f80ea7be0d284b460073f1a994aebeb5f8a82d523c6d5c27139651849c08fb9",
-  "size_bytes": 2994
+  "size_bytes": 2994,
+  "preview_sha256": "0fc9d64eed0129d31ef41c9ef0d8a3c3050fc7085f372063435fa0b67c66ad68"
 }

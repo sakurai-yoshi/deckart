@@ -7,7 +7,7 @@ def L(x,y,w,h,text,role,size=30,color=INK,align='left'):
 
 
 def A(key,title,description,keywords,body,labels,size,use_case,message,reading):
-    item=asset(title.replace(' ','_')+'_説明パーツ','07-注釈と見出し',title,description,keywords,body,labels,size=size)
+    item=asset(title.replace(' ','_')+'_説明パーツ',title,description,keywords,body,labels,size=size)
     item.update(key='part/'+key,kind='part',guidance=dict(use_case=use_case,message=message,reading=reading))
     return item
 
@@ -66,7 +66,7 @@ def caution_note():
 
 def key_finding():
     b=rect(28,34,116,44,BLUE)+line(172,57,972,57,PALE,2)+rect(28,119,7,132,INK)
-    ls=[L(40,39,92,33,'示唆','区分',24,WHITE,align='center'),L(65,115,900,143,'案内を増やすより、\n窓口のつながりを整える。','要点',43)]
+    ls=[L(40,38,92,36,'示唆','区分',24,WHITE,align='center'),L(65,115,900,143,'案内を増やすより、\n窓口のつながりを整える。','要点',43)]
     return A('key-finding','最も伝えたい示唆を抜き出す','短い区分と大きな二行の結論を組み合わせた要点表示の部品。','示唆 結論 発見 要点 強調 takeaway insight finding',b,ls,(1000,285),'分析から得た一つの示唆を強調する場面。','この一文が説明の要点である。',['小さな区分表示で欄の役割を示す。','下の大きな一文へ読み手の視線を集める。'])
 
 
@@ -182,7 +182,7 @@ def tradeoff_note():
 
 def action_commitment():
     b=rect(28,32,1034,67,INK)+line(658,119,658,274,PALE,2)+line(869,119,869,274,PALE,2)
-    ls=[L(54,41,982,46,'次に行うこと','行動区分',29,WHITE),L(54,129,572,48,'引き継ぎの手順を確認する','行動',33),L(54,207,572,45,'確認結果を運用案へ反映する','目的',26,GRAY),L(690,127,147,45,'担当','担当区分',23,GRAY),L(690,204,147,48,'各部門','担当',29),L(901,127,134,45,'期限','期限区分',23,GRAY),L(901,204,134,48,'次回まで','期限',26)]
+    ls=[L(54,41,982,46,'次に行うこと','行動区分',29,WHITE),L(54,129,572,48,'引き継ぎの手順を確認する','行動',33),L(54,207,572,45,'確認結果を運用案へ反映する','目的',26,GRAY),L(690,127,147,45,'担当','担当区分',26,GRAY),L(690,204,147,48,'各部門','担当',29),L(901,127,134,45,'期限','期限区分',26,GRAY),L(901,204,134,48,'次回まで','期限',26)]
     return A('action-commitment','行動に担当と期限を添える','次の行動を主欄へ置き、右で担当と期限を対応させる部品。','行動 担当 期限 次の一歩 合意 action owner deadline',b,ls,(1090,303),'会議で決めた次の行動を一行で残す場面。','何を、誰が、いつまでに行うかが分かる。',['左の主欄は、具体的な行動と目的の領域。','右の小さな二欄で担当と期限を確認する。'])
 
 

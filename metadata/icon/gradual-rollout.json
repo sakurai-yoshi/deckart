@@ -1,0 +1,51 @@
+{
+  "title": "段階展開",
+  "description": "適用範囲を確かめながら広げる。",
+  "keywords": [
+    "段階展開",
+    "導入",
+    "拡大",
+    "ロールアウト",
+    "gradual",
+    "rollout",
+    "phased",
+    "deployment",
+    "adoption"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "小さい範囲から段階的に適用を広げる計画を示す。",
+    "message": "適用範囲を確かめながら広げる。",
+    "reading": [
+      "高さの増す三つの範囲が展開規模の違いを表す。",
+      "段階に沿う経路が順次進めることを示す。"
+    ]
+  },
+  "category": "02-計画・進捗",
+  "schema_version": 3,
+  "id": "icon/gradual-rollout",
+  "name": "段階展開_情報と関係",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/gradual-rollout.svg",
+  "metadata_path": "metadata/icon/gradual-rollout.json",
+  "preview_path": "assets/icon/gradual-rollout.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/gradual-rollout\n段階展開_情報と関係\n段階展開\n小さい範囲から段階的に適用を広げる計画を示す。\n適用範囲を確かめながら広げる。\n高さの増す三つの範囲が展開規模の違いを表す。\n段階に沿う経路が順次進めることを示す。\n段階展開 導入 拡大 ロールアウト gradual rollout phased deployment adoption",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "becc27b723dd252b935385f5dfcb4772863cc3a0221ad54d309e89d898d7a019",
+  "size_bytes": 1034
+}

@@ -1,5 +1,4 @@
 {
-  "category": "01-業務プロセス",
   "title": "受入確認を重ねる段階納品",
   "description": "小さな成果を確認しながら、完成範囲を段階的に積み上げる。",
   "keywords": [
@@ -105,6 +104,7 @@
     ]
   },
   "kind": "diagram",
+  "category": "02-計画・進捗",
   "schema_version": 3,
   "id": "process/phased-acceptance",
   "name": "導入推進_受入確認を重ねて成果を積み上げる_段階納品",
@@ -127,5 +127,6 @@
     "data": false
   },
   "sha256": "d6553448be807533c95a661372347937d95557457b10ba6b28ec902e5959fb97",
-  "size_bytes": 5392
+  "size_bytes": 5392,
+  "preview_sha256": "c1b54d86013177d53d0e0833b379f59387ed4c9af7cda1b28598aaa6b4641121"
 }

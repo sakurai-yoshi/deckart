@@ -1,6 +1,5 @@
 {
   "kind": "illustration",
-  "category": "06-業務イラスト",
   "labels": [],
   "preview_path": "previews/illustration/shipment-consolidation.png",
   "composition": {
@@ -39,6 +38,7 @@
     "width": 1254,
     "height": 1254
   },
+  "category": "05-調達・物流",
   "schema_version": 3,
   "id": "illustration/shipment-consolidation",
   "name": "荷物をひとまとめにする_業務イラスト",

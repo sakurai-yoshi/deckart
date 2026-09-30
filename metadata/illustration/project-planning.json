@@ -1,7 +1,6 @@
 {
   "title": "計画を組み立てる",
   "kind": "illustration",
-  "category": "06-業務イラスト",
   "width": 1254,
   "height": 1254,
   "keywords": [
@@ -38,6 +37,7 @@
     "width": 1254,
     "height": 1254
   },
+  "category": "02-計画・進捗",
   "schema_version": 3,
   "id": "illustration/project-planning",
   "name": "計画を組み立てる_物で伝える業務",

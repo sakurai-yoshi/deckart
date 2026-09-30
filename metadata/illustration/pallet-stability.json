@@ -1,0 +1,56 @@
+{
+  "title": "荷姿を整えて崩れを防ぐ",
+  "description": "箱の角を保護材で支え、ベルトでパレットへ固定した荷姿。",
+  "kind": "illustration",
+  "width": 1394,
+  "height": 1128,
+  "labels": [],
+  "composition": {
+    "framing": "object",
+    "facing": "front"
+  },
+  "keywords": [
+    "荷崩れ",
+    "パレット",
+    "固定",
+    "物流",
+    "pallet stability",
+    "load securing"
+  ],
+  "guidance": {
+    "use_case": "保管や輸送の荷姿を説明し、積み重ねた荷物の固定方法を示す場面。",
+    "message": "荷物の角を守り、まとまりを保って運ぶ。",
+    "reading": [
+      "パレット上の箱をそろえて積み、角に保護材を取り付けている。",
+      "青いベルトが荷物とパレットを囲み、一つの荷姿へまとめている。"
+    ]
+  },
+  "preview_path": "previews/illustration/pallet-stability.png",
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/enterprise-illustrations.json"
+  },
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": true,
+  "canvas": {
+    "width": 1394,
+    "height": 1128
+  },
+  "category": "05-調達・物流",
+  "schema_version": 3,
+  "id": "illustration/pallet-stability",
+  "name": "荷姿を整えて崩れを防ぐ_業務イラスト",
+  "license": "CC0-1.0",
+  "path": "media/illustration/pallet-stability.png",
+  "metadata_path": "metadata/illustration/pallet-stability.json",
+  "preview_has_example_labels": false,
+  "search_text": "illustration/pallet-stability\n荷姿を整えて崩れを防ぐ_業務イラスト\n荷姿を整えて崩れを防ぐ\n保管や輸送の荷姿を説明し、積み重ねた荷物の固定方法を示す場面。\n荷物の角を守り、まとまりを保って運ぶ。\nパレット上の箱をそろえて積み、角に保護材を取り付けている。\n青いベルトが荷物とパレットを囲み、一つの荷姿へまとめている。\n荷崩れ パレット 固定 物流 pallet stability load securing\nobject 物 道具 front 正面",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "84293d4d914cff1bacfdf95c132ed80ba05c94048e74d78d34a2a14d0ad96fad",
+  "size_bytes": 1223879
+}

@@ -1,5 +1,4 @@
 {
-  "category": "01-業務プロセス",
   "title": "不適合品を分けて処置する",
   "description": "検査で不適合となった製品を通常の流れから分離し、処置を判断する。",
   "keywords": [
@@ -166,6 +165,7 @@
     "relation": "segregation-and-reinspection",
     "reading_direction": "left-to-right"
   },
+  "category": "03-品質・改善",
   "schema_version": 3,
   "id": "manufacturing/nonconforming-segregation",
   "name": "不適合品を分けて処置する_製造業務の関係図",
@@ -188,5 +188,6 @@
     "data": false
   },
   "sha256": "f904c4016c828170a3cb331a97853184f98a119902db51d164b75311663d652c",
-  "size_bytes": 3830
+  "size_bytes": 3830,
+  "preview_sha256": "e48ff2796a1345ead2fca3a3d5dc96d982946ad9cbdf4b0f708e35d0b732a0b0"
 }

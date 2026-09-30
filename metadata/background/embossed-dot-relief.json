@@ -1,0 +1,61 @@
+{
+  "title": "白い球面が生む柔らかな陰影",
+  "description": "白い紙の丸いふくらみが端にまとまり、一粒の青が立体感を引き立てる。",
+  "kind": "background",
+  "width": 1664,
+  "height": 936,
+  "labels": [],
+  "keywords": [
+    "背景",
+    "白",
+    "青",
+    "質感",
+    "background",
+    "エンボス",
+    "円形",
+    "凹凸",
+    "陰影",
+    "人材",
+    "社内活動",
+    "柔らかい",
+    "embossed",
+    "relief",
+    "rounded"
+  ],
+  "guidance": {
+    "use_case": "人材育成や社内の取り組みを紹介する資料に、柔らかく整った印象を添える。",
+    "message": "大小の滑らかなふくらみで、落ち着きと親しみやすさをつくる。",
+    "reading": [
+      "大小の白いふくらみが左下と右上付近にまとまり、細かな紙の面を見せる。",
+      "艶のある青い一粒と短い影が、白い紙の凹凸に奥行きを添える。"
+    ]
+  },
+  "preview_path": "previews/background/embossed-dot-relief.png",
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/enterprise-backgrounds.json"
+  },
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": false,
+  "canvas": {
+    "width": 1664,
+    "height": 936
+  },
+  "category": "14-背景・装飾",
+  "schema_version": 3,
+  "id": "background/embossed-dot-relief",
+  "name": "白い球面が生む柔らかな陰影_背景",
+  "license": "CC0-1.0",
+  "path": "media/background/embossed-dot-relief.png",
+  "metadata_path": "metadata/background/embossed-dot-relief.json",
+  "preview_has_example_labels": false,
+  "search_text": "background/embossed-dot-relief\n白い球面が生む柔らかな陰影_背景\n白い球面が生む柔らかな陰影\n人材育成や社内の取り組みを紹介する資料に、柔らかく整った印象を添える。\n大小の滑らかなふくらみで、落ち着きと親しみやすさをつくる。\n大小の白いふくらみが左下と右上付近にまとまり、細かな紙の面を見せる。\n艶のある青い一粒と短い影が、白い紙の凹凸に奥行きを添える。\n背景 白 青 質感 background エンボス 円形 凹凸 陰影 人材 社内活動 柔らかい embossed relief rounded",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "69bdb631661d5f63e1344259c6bcd648ca76159b62130d6bd3977c0d73e21a7c",
+  "size_bytes": 1886625
+}

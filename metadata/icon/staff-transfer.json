@@ -1,5 +1,4 @@
 {
-  "category": "08-アイコンとピクトグラム",
   "title": "異動・配置変更",
   "description": "人員を別の役割や所属へ移すことを示す。",
   "keywords": [
@@ -25,6 +24,7 @@
       "逆向きの矢印が配置の入れ替えを示す。"
     ]
   },
+  "category": "09-組織・人材",
   "schema_version": 3,
   "id": "icon/staff-transfer",
   "name": "配置変更_担当者の異動を示す_人員の入替",

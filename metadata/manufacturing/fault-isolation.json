@@ -1,5 +1,4 @@
 {
-  "category": "01-業務プロセス",
   "title": "正常と異常の境界で原因を絞る",
   "description": "工程の途中で状態を確認し、最初に調べる区間を絞り込む。",
   "keywords": [
@@ -166,6 +165,7 @@
     "relation": "verified-boundary-isolation",
     "reading_direction": "left-to-right"
   },
+  "category": "03-品質・改善",
   "schema_version": 3,
   "id": "manufacturing/fault-isolation",
   "name": "正常と異常の境界で原因を絞る_製造業務の関係図",
@@ -188,5 +188,6 @@
     "data": false
   },
   "sha256": "09ad915c5b4d803591e8e21b20cafa963e4951978cb25044e292806bf9de889f",
-  "size_bytes": 3713
+  "size_bytes": 3713,
+  "preview_sha256": "061ff5d7cd41108ebe7890465766519c2f8f7e93f56b91629f70ff62feb69067"
 }

@@ -1,0 +1,56 @@
+{
+  "title": "設備への投資を検討する",
+  "description": "装置、電卓、見積資料を前に考える人を描き、設備投資の検討を表す。",
+  "kind": "illustration",
+  "width": 1312,
+  "height": 1199,
+  "labels": [],
+  "composition": {
+    "framing": "waist-up",
+    "facing": "down",
+    "people_count": 1
+  },
+  "keywords": [
+    "設備投資",
+    "投資評価",
+    "予算",
+    "ROI",
+    "capital investment"
+  ],
+  "guidance": {
+    "use_case": "設備導入の提案で、購入対象と見積金額を見比べながら投資を検討する場面。",
+    "message": "導入するものと費用を一緒に見て判断する。",
+    "reading": [
+      "小型の装置と電卓が、見積資料を持つ人の前に置かれている。",
+      "顎に手を添えた姿勢が、資料の内容を検討していることを示す。"
+    ]
+  },
+  "preview_path": "previews/illustration/investment-evaluation.png",
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/enterprise-illustrations.json"
+  },
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": true,
+  "canvas": {
+    "width": 1312,
+    "height": 1199
+  },
+  "category": "11-会計・収益",
+  "schema_version": 3,
+  "id": "illustration/investment-evaluation",
+  "name": "設備への投資を検討する_業務イラスト",
+  "license": "CC0-1.0",
+  "path": "media/illustration/investment-evaluation.png",
+  "metadata_path": "metadata/illustration/investment-evaluation.json",
+  "preview_has_example_labels": false,
+  "search_text": "illustration/investment-evaluation\n設備への投資を検討する_業務イラスト\n設備への投資を検討する\n設備導入の提案で、購入対象と見積金額を見比べながら投資を検討する場面。\n導入するものと費用を一緒に見て判断する。\n小型の装置と電卓が、見積資料を持つ人の前に置かれている。\n顎に手を添えた姿勢が、資料の内容を検討していることを示す。\n設備投資 投資評価 予算 ROI capital investment\nwaist-up 上半身 腰上 down 下向き 手元を見る",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "eae2db45cf78f107c4dd38706cdffbecf12fd191c070978ce874a98c9204a6b8",
+  "size_bytes": 795738
+}

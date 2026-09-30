@@ -1,5 +1,4 @@
 {
-  "category": "09-循環とフレームワーク",
   "title": "登録・設定を経て使い始める",
   "description": "サービスの利用開始までに必要な三つの行動を順番に示す。",
   "keywords": [
@@ -76,6 +75,7 @@
     "relation": "three-step-sequence",
     "reading_direction": "left-to-right"
   },
+  "category": "09-組織・人材",
   "schema_version": 3,
   "id": "framework/onboarding",
   "name": "利用開始_登録から設定を経て使い始める_3ステップ導入",
@@ -98,5 +98,6 @@
     "data": false
   },
   "sha256": "9bba79469413f8e2181be5ae79ed3e5b40bae9718a7db611482705a5474cc332",
-  "size_bytes": 4219
+  "size_bytes": 4219,
+  "preview_sha256": "409640bf1ccef80b222dc030022f072f6e33ed77d9bf38c2ad1fad3d519c71e8"
 }

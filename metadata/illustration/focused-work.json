@@ -1,0 +1,56 @@
+{
+  "title": "一つの仕事に集中する",
+  "description": "ノートを手元に置き、端末へ向かって作業する一人の姿。",
+  "kind": "illustration",
+  "width": 1536,
+  "height": 1024,
+  "labels": [],
+  "composition": {
+    "framing": "full-body",
+    "facing": "down",
+    "people_count": 1
+  },
+  "keywords": [
+    "集中",
+    "個人作業",
+    "執務",
+    "focus",
+    "deep work"
+  ],
+  "guidance": {
+    "use_case": "仕事の進め方や執務環境を紹介し、一つの作業に落ち着いて取り組む場面。",
+    "message": "目の前の仕事へ注意を向けて進める。",
+    "reading": [
+      "机に向かう人が端末へ視線を落とし、両手をキーボードに置いている。",
+      "机上に置いたノートが、参照や記録を伴う個人作業を添えている。"
+    ]
+  },
+  "preview_path": "previews/illustration/focused-work.png",
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/enterprise-illustrations.json"
+  },
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": true,
+  "canvas": {
+    "width": 1536,
+    "height": 1024
+  },
+  "category": "09-組織・人材",
+  "schema_version": 3,
+  "id": "illustration/focused-work",
+  "name": "一つの仕事に集中する_業務イラスト",
+  "license": "CC0-1.0",
+  "path": "media/illustration/focused-work.png",
+  "metadata_path": "metadata/illustration/focused-work.json",
+  "preview_has_example_labels": false,
+  "search_text": "illustration/focused-work\n一つの仕事に集中する_業務イラスト\n一つの仕事に集中する\n仕事の進め方や執務環境を紹介し、一つの作業に落ち着いて取り組む場面。\n目の前の仕事へ注意を向けて進める。\n机に向かう人が端末へ視線を落とし、両手をキーボードに置いている。\n机上に置いたノートが、参照や記録を伴う個人作業を添えている。\n集中 個人作業 執務 focus deep work\nfull-body 全身 down 下向き 手元を見る",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "634c671f8560b71aaece79b381252f37e1e566bad526d1d81e9c2fb5e89a51f4",
+  "size_bytes": 1238129
+}

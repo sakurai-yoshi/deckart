@@ -1,5 +1,4 @@
 {
-  "category": "07-注釈と見出し",
   "title": "全体の中で今の話題を示す",
   "description": "上位の区分から現在の話題へ、階層を短くつなぐ案内部品。",
   "keywords": [
@@ -69,6 +68,7 @@
       "右の塗りつぶした領域が現在扱う話題を示す。"
     ]
   },
+  "category": "13-説明・伝達",
   "schema_version": 3,
   "id": "part/context-breadcrumb",
   "name": "全体の中で今の話題を示す_説明パーツ",
@@ -91,5 +91,6 @@
     "data": false
   },
   "sha256": "d37d9fe7127280e99bd0c700f691dc32f1546fb9a6adb6819e303df35f553df4",
-  "size_bytes": 786
+  "size_bytes": 786,
+  "preview_sha256": "5c12658814a8a904d4b5f7826873ebae250d43efbe85a2115353fe138c8601a3"
 }

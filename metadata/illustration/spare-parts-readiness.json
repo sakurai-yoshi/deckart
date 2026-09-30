@@ -1,6 +1,5 @@
 {
   "kind": "illustration",
-  "category": "06-業務イラスト",
   "labels": [],
   "preview_path": "previews/illustration/spare-parts-readiness.png",
   "composition": {
@@ -39,6 +38,7 @@
     "width": 1254,
     "height": 1254
   },
+  "category": "04-生産・設備",
   "schema_version": 3,
   "id": "illustration/spare-parts-readiness",
   "name": "予備部品を備える_業務イラスト",

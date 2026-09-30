@@ -1,0 +1,135 @@
+{
+  "title": "制約工程を基準に投入と余裕を調整する",
+  "description": "制約工程の前に必要な余裕を持ち、上流の投入を同じペースへ合わせる。",
+  "keywords": [
+    "制約理論",
+    "TOC",
+    "ドラム",
+    "バッファ",
+    "ロープ",
+    "ボトルネック",
+    "投入",
+    "constraint",
+    "drum",
+    "buffer",
+    "rope"
+  ],
+  "labels": [
+    {
+      "x": 84,
+      "y": 330,
+      "width": 196,
+      "height": 110,
+      "text": "投入する",
+      "role": "対象",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-1",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 6
+    },
+    {
+      "x": 381,
+      "y": 326,
+      "width": 176,
+      "height": 47,
+      "text": "手前の余裕",
+      "role": "緩衝",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-2",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 6
+    },
+    {
+      "x": 624,
+      "y": 559,
+      "width": 179,
+      "height": 71,
+      "text": "制約の工程",
+      "role": "制約",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-3",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 6
+    },
+    {
+      "x": 949,
+      "y": 343,
+      "width": 104,
+      "height": 84,
+      "text": "完成",
+      "role": "対象",
+      "align": "center",
+      "color": "#FFFFFF",
+      "id": "label-4",
+      "font_size": 27,
+      "color_role": "paper",
+      "max_lines": 2,
+      "max_fullwidth_chars": 3
+    },
+    {
+      "x": 296,
+      "y": 56,
+      "width": 509,
+      "height": 56,
+      "text": "制約のペースに合わせて投入",
+      "role": "説明",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-5",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 17
+    }
+  ],
+  "width": 1200,
+  "height": 720,
+  "kind": "diagram",
+  "guidance": {
+    "use_case": "全体の生産量を左右する工程に合わせて、仕掛と投入を管理する。",
+    "message": "制約工程の前に必要な余裕を持ち、上流の投入を同じペースへ合わせる。",
+    "reading": [
+      "中央の濃い細長い形が全体のペースを決める制約。",
+      "その手前の囲みが制約を待たせないための余裕。",
+      "上の戻り線が制約のペースを投入へ伝える。"
+    ]
+  },
+  "layout": {
+    "relation": "constraint-paced-release-and-buffer",
+    "reading_direction": "left-to-right"
+  },
+  "category": "04-生産・設備",
+  "schema_version": 3,
+  "id": "production/constraint-buffer-release",
+  "name": "制約工程を基準に投入と余裕を調整する_業務の関係を示す図解",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1200,
+    "height": 720
+  },
+  "path": "assets/production/constraint-buffer-release.svg",
+  "metadata_path": "metadata/production/constraint-buffer-release.json",
+  "preview_path": "previews/production/constraint-buffer-release.svg",
+  "preview_has_example_labels": true,
+  "search_text": "production/constraint-buffer-release\n制約工程を基準に投入と余裕を調整する_業務の関係を示す図解\n制約工程を基準に投入と余裕を調整する\n全体の生産量を左右する工程に合わせて、仕掛と投入を管理する。\n制約工程の前に必要な余裕を持ち、上流の投入を同じペースへ合わせる。\n中央の濃い細長い形が全体のペースを決める制約。\nその手前の囲みが制約を待たせないための余裕。\n上の戻り線が制約のペースを投入へ伝える。\n制約理論 TOC ドラム バッファ ロープ ボトルネック 投入 constraint drum buffer rope",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "06be8f063f7b980845d576839780175547758d0c49d823f12fed4cb523ed7a63",
+  "size_bytes": 2520,
+  "preview_sha256": "5d5df878607baa56069ec0b5da7d08ea961ba7ff7437496b88249751bafc499d"
+}

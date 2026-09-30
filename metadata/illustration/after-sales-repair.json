@@ -1,0 +1,56 @@
+{
+  "title": "使っている製品を修理する",
+  "description": "製品のカバーを外し、内部の部品を扱う作業者を描いた修理の場面。",
+  "kind": "illustration",
+  "width": 1536,
+  "height": 1024,
+  "labels": [],
+  "composition": {
+    "framing": "waist-up",
+    "facing": "down",
+    "people_count": 1
+  },
+  "keywords": [
+    "修理",
+    "アフターサービス",
+    "顧客対応",
+    "repair",
+    "after sales"
+  ],
+  "guidance": {
+    "use_case": "購入後のサポートや保守の説明で、使っている製品の内部を点検・修理する場面。",
+    "message": "製品の中を確かめ、使い続けるために手を入れる。",
+    "reading": [
+      "作業者が開いた製品を片手で支え、もう一方の手で青い部品を扱っている。",
+      "取り外したカバーと工具が脇に置かれ、修理の途中であることを示す。"
+    ]
+  },
+  "preview_path": "previews/illustration/after-sales-repair.png",
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/enterprise-illustrations.json"
+  },
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": true,
+  "canvas": {
+    "width": 1536,
+    "height": 1024
+  },
+  "category": "10-顧客・営業",
+  "schema_version": 3,
+  "id": "illustration/after-sales-repair",
+  "name": "使っている製品を修理する_業務イラスト",
+  "license": "CC0-1.0",
+  "path": "media/illustration/after-sales-repair.png",
+  "metadata_path": "metadata/illustration/after-sales-repair.json",
+  "preview_has_example_labels": false,
+  "search_text": "illustration/after-sales-repair\n使っている製品を修理する_業務イラスト\n使っている製品を修理する\n購入後のサポートや保守の説明で、使っている製品の内部を点検・修理する場面。\n製品の中を確かめ、使い続けるために手を入れる。\n作業者が開いた製品を片手で支え、もう一方の手で青い部品を扱っている。\n取り外したカバーと工具が脇に置かれ、修理の途中であることを示す。\n修理 アフターサービス 顧客対応 repair after sales\nwaist-up 上半身 腰上 down 下向き 手元を見る",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "d7def2564ecf75d92f26087f1e8b646067dec6e28bcf06cb3a635f66d9905abe",
+  "size_bytes": 1364638
+}

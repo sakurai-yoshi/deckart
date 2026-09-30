@@ -1,5 +1,4 @@
 {
-  "category": "08-アイコンとピクトグラム",
   "title": "静電気対策",
   "description": "静電気による部品への影響を抑える。",
   "keywords": [
@@ -24,6 +23,7 @@
       "斜線がその影響を抑える意図を示す。"
     ]
   },
+  "category": "07-安全・事業継続",
   "schema_version": 3,
   "id": "icon/electrostatic-control",
   "name": "静電気対策_製造業務の記号",

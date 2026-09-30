@@ -1,0 +1,51 @@
+{
+  "title": "デジタルツイン",
+  "description": "実物と対応するモデルをつないで扱う。",
+  "keywords": [
+    "デジタルツイン",
+    "仮想",
+    "モデル",
+    "実物",
+    "digital",
+    "twin",
+    "simulation",
+    "physical",
+    "virtual"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "実物とデジタル上のモデルを対応させる構成を説明する。",
+    "message": "実物と対応するモデルをつないで扱う。",
+    "reading": [
+      "同じ輪郭の二つの機器が実物とモデルを表す。",
+      "往復する矢印が両者の情報の対応を表す。"
+    ]
+  },
+  "category": "06-開発・技術",
+  "schema_version": 3,
+  "id": "icon/digital-twin",
+  "name": "デジタルツイン_情報と関係",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/digital-twin.svg",
+  "metadata_path": "metadata/icon/digital-twin.json",
+  "preview_path": "assets/icon/digital-twin.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/digital-twin\nデジタルツイン_情報と関係\nデジタルツイン\n実物とデジタル上のモデルを対応させる構成を説明する。\n実物と対応するモデルをつないで扱う。\n同じ輪郭の二つの機器が実物とモデルを表す。\n往復する矢印が両者の情報の対応を表す。\nデジタルツイン 仮想 モデル 実物 digital twin simulation physical virtual",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "af03e836fc1819027d7d373396be5788ff704ecee3cc038fd120d4e4c4d994c8",
+  "size_bytes": 1581
+}

@@ -1,0 +1,57 @@
+{
+  "title": "仕事の情報と道具を引き継ぐ",
+  "description": "机上のファイルを挟んで鍵を受け渡す二人で、担当交代時の引き継ぎを表す。",
+  "kind": "illustration",
+  "width": 1536,
+  "height": 1024,
+  "labels": [],
+  "composition": {
+    "framing": "waist-up",
+    "facing": "inward",
+    "people_count": 2
+  },
+  "keywords": [
+    "引き継ぎ",
+    "異動",
+    "継承",
+    "担当交代",
+    "handover",
+    "succession"
+  ],
+  "guidance": {
+    "use_case": "担当者が替わるときに、必要な情報と業務に使う物を受け渡す場面。",
+    "message": "情報と道具を渡し、次の担当へ仕事をつなぐ。",
+    "reading": [
+      "一人が鍵を差し出し、相手が手を広げて受け取ろうとしている。",
+      "二人の間には青いファイルが置かれ、道具と記録の引き継ぎを示す。"
+    ]
+  },
+  "preview_path": "previews/illustration/work-handover.png",
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/enterprise-illustrations.json"
+  },
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": true,
+  "canvas": {
+    "width": 1536,
+    "height": 1024
+  },
+  "category": "09-組織・人材",
+  "schema_version": 3,
+  "id": "illustration/work-handover",
+  "name": "仕事の情報と道具を引き継ぐ_業務イラスト",
+  "license": "CC0-1.0",
+  "path": "media/illustration/work-handover.png",
+  "metadata_path": "metadata/illustration/work-handover.json",
+  "preview_has_example_labels": false,
+  "search_text": "illustration/work-handover\n仕事の情報と道具を引き継ぐ_業務イラスト\n仕事の情報と道具を引き継ぐ\n担当者が替わるときに、必要な情報と業務に使う物を受け渡す場面。\n情報と道具を渡し、次の担当へ仕事をつなぐ。\n一人が鍵を差し出し、相手が手を広げて受け取ろうとしている。\n二人の間には青いファイルが置かれ、道具と記録の引き継ぎを示す。\n引き継ぎ 異動 継承 担当交代 handover succession\nwaist-up 上半身 腰上 inward 向かい合う 対話",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "329e079be7d0d9e6f9e263f4e98387bf3e39a1649fac608f5363fb4af5dffad4",
+  "size_bytes": 1283625
+}

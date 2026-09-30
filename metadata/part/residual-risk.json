@@ -1,0 +1,127 @@
+{
+  "title": "対策後に残るリスクも確認する",
+  "description": "対策の実施後にも残る影響と発生可能性を確認する。",
+  "keywords": [
+    "残余リスク",
+    "対策",
+    "受容",
+    "監視",
+    "リスク",
+    "residual",
+    "risk",
+    "mitigation"
+  ],
+  "labels": [
+    {
+      "x": 58,
+      "y": 82,
+      "width": 360,
+      "height": 62,
+      "text": "対策前のリスク",
+      "role": "元のリスク",
+      "align": "left",
+      "color": "#607590",
+      "font_size": 29,
+      "id": "label-1",
+      "color_role": "muted",
+      "max_lines": 1,
+      "max_fullwidth_chars": 11
+    },
+    {
+      "x": 58,
+      "y": 169,
+      "width": 360,
+      "height": 77,
+      "text": "影響と起きやすさ",
+      "role": "確認項目",
+      "align": "left",
+      "color": "#153A6B",
+      "font_size": 30,
+      "id": "label-2",
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 11
+    },
+    {
+      "x": 728,
+      "y": 82,
+      "width": 335,
+      "height": 62,
+      "text": "対策後に残るリスク",
+      "role": "残余リスク",
+      "align": "left",
+      "color": "#2864F0",
+      "font_size": 28,
+      "id": "label-3",
+      "color_role": "accent",
+      "max_lines": 1,
+      "max_fullwidth_chars": 11
+    },
+    {
+      "x": 728,
+      "y": 169,
+      "width": 335,
+      "height": 77,
+      "text": "受容と監視を決める",
+      "role": "残りへの対応",
+      "align": "left",
+      "color": "#153A6B",
+      "font_size": 28,
+      "id": "label-4",
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 11
+    },
+    {
+      "x": 463,
+      "y": 69,
+      "width": 220,
+      "height": 57,
+      "text": "対策を実施",
+      "role": "対策",
+      "align": "center",
+      "color": "#2864F0",
+      "font_size": 26,
+      "id": "label-5",
+      "color_role": "accent",
+      "max_lines": 1,
+      "max_fullwidth_chars": 7
+    }
+  ],
+  "width": 1120,
+  "height": 380,
+  "kind": "part",
+  "guidance": {
+    "use_case": "対策を実施した後に残るリスクの扱いを説明する。",
+    "message": "対策の実施後にも残る影響と発生可能性を確認する。",
+    "reading": [
+      "左右で対策前と対策後を比較する。",
+      "枠の面積はリスク量を表さない。"
+    ]
+  },
+  "category": "07-安全・事業継続",
+  "schema_version": 3,
+  "id": "part/residual-risk",
+  "name": "対策後に残るリスクも確認する_説明パーツ",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1120,
+    "height": 380
+  },
+  "path": "assets/part/residual-risk.svg",
+  "metadata_path": "metadata/part/residual-risk.json",
+  "preview_path": "previews/part/residual-risk.svg",
+  "preview_has_example_labels": true,
+  "search_text": "part/residual-risk\n対策後に残るリスクも確認する_説明パーツ\n対策後に残るリスクも確認する\n対策を実施した後に残るリスクの扱いを説明する。\n対策の実施後にも残る影響と発生可能性を確認する。\n左右で対策前と対策後を比較する。\n枠の面積はリスク量を表さない。\n残余リスク 対策 受容 監視 リスク residual risk mitigation",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "7adef1bb606fd70e6c63b0fd8f4d68d66347a691b393ae72a26b740382c03985",
+  "size_bytes": 907,
+  "preview_sha256": "65509a78d9e1863c4f6eef32c41c9e28d00369fa770735e26fd5de35fdb4297c"
+}

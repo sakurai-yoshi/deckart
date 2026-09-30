@@ -1,5 +1,4 @@
 {
-  "category": "08-アイコンとピクトグラム",
   "title": "勤怠・打刻",
   "description": "出退勤時刻を記録する勤怠管理を示す。",
   "keywords": [
@@ -24,6 +23,7 @@
       "下の時計が出退勤の時刻を表す。"
     ]
   },
+  "category": "09-組織・人材",
   "schema_version": 3,
   "id": "icon/attendance",
   "name": "勤怠記録_出退勤時刻を記録する_打刻時計",

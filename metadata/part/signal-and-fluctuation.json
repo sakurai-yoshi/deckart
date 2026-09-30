@@ -1,0 +1,113 @@
+{
+  "title": "短期の揺らぎと継続する変化を読み分ける",
+  "description": "日々の揺らぎと、同じ条件で続く方向を分けて読む。",
+  "keywords": [
+    "信号",
+    "ノイズ",
+    "ばらつき",
+    "傾向",
+    "変動",
+    "signal",
+    "noise",
+    "fluctuation",
+    "trend"
+  ],
+  "labels": [
+    {
+      "x": 40,
+      "y": 14,
+      "width": 428,
+      "height": 61,
+      "text": "日々の揺らぎと変化",
+      "role": "観測",
+      "align": "center",
+      "color": "#153A6B",
+      "font_size": 29,
+      "id": "label-1",
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 13
+    },
+    {
+      "x": 676,
+      "y": 18,
+      "width": 406,
+      "height": 61,
+      "text": "継続している方向",
+      "role": "判断",
+      "align": "center",
+      "color": "#2864F0",
+      "font_size": 29,
+      "id": "label-2",
+      "color_role": "accent",
+      "max_lines": 1,
+      "max_fullwidth_chars": 13
+    },
+    {
+      "x": 50,
+      "y": 286,
+      "width": 415,
+      "height": 63,
+      "text": "短い変動だけで判断しない",
+      "role": "確認点",
+      "align": "center",
+      "color": "#153A6B",
+      "font_size": 27,
+      "id": "label-3",
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 14
+    },
+    {
+      "x": 671,
+      "y": 286,
+      "width": 411,
+      "height": 63,
+      "text": "期間と条件をそろえて読む",
+      "role": "判断方法",
+      "align": "center",
+      "color": "#153A6B",
+      "font_size": 27,
+      "id": "label-4",
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 14
+    }
+  ],
+  "width": 1120,
+  "height": 380,
+  "kind": "part",
+  "guidance": {
+    "use_case": "短期間の上下を過大評価せず、継続する変化を説明する。",
+    "message": "日々の揺らぎと、同じ条件で続く方向を分けて読む。",
+    "reading": [
+      "淡い線は短期の揺らぎ、濃い線は持続する方向の概念表現。",
+      "実データの平滑化や統計的な検定の結果ではない。"
+    ]
+  },
+  "category": "13-説明・伝達",
+  "schema_version": 3,
+  "id": "part/signal-and-fluctuation",
+  "name": "短期の揺らぎと継続する変化を読み分ける_説明パーツ",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1120,
+    "height": 380
+  },
+  "path": "assets/part/signal-and-fluctuation.svg",
+  "metadata_path": "metadata/part/signal-and-fluctuation.json",
+  "preview_path": "previews/part/signal-and-fluctuation.svg",
+  "preview_has_example_labels": true,
+  "search_text": "part/signal-and-fluctuation\n短期の揺らぎと継続する変化を読み分ける_説明パーツ\n短期の揺らぎと継続する変化を読み分ける\n短期間の上下を過大評価せず、継続する変化を説明する。\n日々の揺らぎと、同じ条件で続く方向を分けて読む。\n淡い線は短期の揺らぎ、濃い線は持続する方向の概念表現。\n実データの平滑化や統計的な検定の結果ではない。\n信号 ノイズ ばらつき 傾向 変動 signal noise fluctuation trend",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "9523768b62347ed32d8075110cbce9736ff437c02d07d911a2e4f8e761e942bf",
+  "size_bytes": 1322,
+  "preview_sha256": "80e450a65e0c83d14a032267f3287c7cbedee4e4cb7c3422a707d85cc525d82d"
+}

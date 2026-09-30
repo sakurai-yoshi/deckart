@@ -1,0 +1,134 @@
+{
+  "title": "要求を満たす代替供給先を備える",
+  "description": "供給先の数を増やすだけでなく、代替先でも必要な仕様と量を確保できるようにする。",
+  "keywords": [
+    "複数購買",
+    "代替調達",
+    "二社購買",
+    "供給停止",
+    "認定",
+    "dual",
+    "sourcing",
+    "alternate",
+    "supplier",
+    "qualification"
+  ],
+  "labels": [
+    {
+      "x": 119,
+      "y": 130,
+      "width": 287,
+      "height": 117,
+      "text": "主な供給先",
+      "role": "対象",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-1",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 3,
+      "max_fullwidth_chars": 10
+    },
+    {
+      "x": 119,
+      "y": 445,
+      "width": 287,
+      "height": 117,
+      "text": "代替の供給先",
+      "role": "対象",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-2",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 3,
+      "max_fullwidth_chars": 10
+    },
+    {
+      "x": 863,
+      "y": 297,
+      "width": 217,
+      "height": 131,
+      "text": "必要な供給を\n確保する",
+      "role": "対象",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-3",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 3,
+      "max_fullwidth_chars": 7
+    },
+    {
+      "x": 487,
+      "y": 68,
+      "width": 608,
+      "height": 64,
+      "text": "主な供給が止まったときの代替経路",
+      "role": "説明",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-4",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 21
+    },
+    {
+      "x": 455,
+      "y": 559,
+      "width": 627,
+      "height": 76,
+      "text": "同じ要求を満たせるか、平常時に確認",
+      "role": "説明",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-5",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 21
+    }
+  ],
+  "width": 1200,
+  "height": 720,
+  "kind": "diagram",
+  "guidance": {
+    "use_case": "部材の供給停止リスクに備え、調達先の代替性を説明する。",
+    "message": "供給先の数を増やすだけでなく、代替先でも必要な仕様と量を確保できるようにする。",
+    "reading": [
+      "上の点線が停止した主な供給経路。",
+      "下の主色の経路が確認済みの代替先からの供給。",
+      "右の共通の到達点が満たすべき同じ要求。"
+    ]
+  },
+  "layout": {
+    "relation": "qualified-alternate-source",
+    "reading_direction": "left-to-right"
+  },
+  "category": "05-調達・物流",
+  "schema_version": 3,
+  "id": "supply/qualified-dual-sourcing",
+  "name": "要求を満たす代替供給先を備える_業務の関係を示す図解",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1200,
+    "height": 720
+  },
+  "path": "assets/supply/qualified-dual-sourcing.svg",
+  "metadata_path": "metadata/supply/qualified-dual-sourcing.json",
+  "preview_path": "previews/supply/qualified-dual-sourcing.svg",
+  "preview_has_example_labels": true,
+  "search_text": "supply/qualified-dual-sourcing\n要求を満たす代替供給先を備える_業務の関係を示す図解\n要求を満たす代替供給先を備える\n部材の供給停止リスクに備え、調達先の代替性を説明する。\n供給先の数を増やすだけでなく、代替先でも必要な仕様と量を確保できるようにする。\n上の点線が停止した主な供給経路。\n下の主色の経路が確認済みの代替先からの供給。\n右の共通の到達点が満たすべき同じ要求。\n複数購買 代替調達 二社購買 供給停止 認定 dual sourcing alternate supplier qualification",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "6c6f9f4e6c1a88f0af6dd0c477e3fc8e47be24e0d5d1c3eb83fe970db3381fd8",
+  "size_bytes": 1647,
+  "preview_sha256": "f4ce74a8b0f90555f1018cf2e37e650e4737adde50c41de8748672a5026b4793"
+}

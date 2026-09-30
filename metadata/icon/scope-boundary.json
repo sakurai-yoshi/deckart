@@ -1,0 +1,50 @@
+{
+  "title": "対象範囲",
+  "description": "扱う範囲と中心となる対象を示す。",
+  "keywords": [
+    "スコープ",
+    "対象",
+    "範囲",
+    "境界",
+    "scope",
+    "boundary",
+    "inclusion",
+    "focus"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "今回扱う対象や確認する範囲を明らかにする。",
+    "message": "扱う範囲と中心となる対象を示す。",
+    "reading": [
+      "四隅が対象範囲の外枠を示す。",
+      "中央の円と内向きの線が扱う対象を表す。"
+    ]
+  },
+  "category": "01-経営・意思決定",
+  "schema_version": 3,
+  "id": "icon/scope-boundary",
+  "name": "対象範囲_情報と関係",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/scope-boundary.svg",
+  "metadata_path": "metadata/icon/scope-boundary.json",
+  "preview_path": "assets/icon/scope-boundary.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/scope-boundary\n対象範囲_情報と関係\n対象範囲\n今回扱う対象や確認する範囲を明らかにする。\n扱う範囲と中心となる対象を示す。\n四隅が対象範囲の外枠を示す。\n中央の円と内向きの線が扱う対象を表す。\nスコープ 対象 範囲 境界 scope boundary inclusion focus",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "b20540c6be6853d76871dcf33b5a2299cd27c197a001ca94684f859582a95bc1",
+  "size_bytes": 803
+}

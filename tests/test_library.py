@@ -135,6 +135,21 @@ class ExportTests(unittest.TestCase):
         result=subprocess.run([sys.executable,str(ROOT/'scripts/library.py'),'export','icon/person','--stdout'],check=True,capture_output=True)
         self.assertEqual(result.stdout,svg.encode('utf-8'))
 
+    def test_export_preview_resolves_to_the_saved_file(self):
+        for request in ({'id':'process/approval-return','accent':'#005BAC'},
+                        {'id':'process/approval-return','include_example_labels':True},
+                        {'id':'chart/vertical-bar','data':input_contract('vertical_bar')['example']}):
+            with self.subTest(request=request),tempfile.TemporaryDirectory() as directory:
+                content,meta=render(request)
+                destination=Path(directory)/'output.svg'
+                export_files(content,meta,destination)
+                saved=json.loads(destination.with_suffix('.json').read_text(encoding='utf-8'))
+                self.assertEqual((destination.parent/saved['preview_path']).read_text(encoding='utf-8'),content)
+                self.assertNotIn('preview_sha256',saved)
+                self.assertFalse(saved['preview_has_example_labels'])
+                original=(ROOT/saved['source']['preview_path']).read_bytes()
+                self.assertEqual(hashlib.sha256(original).hexdigest(),saved['source']['preview_sha256'])
+
     def test_json_stdio_is_utf8_even_with_a_legacy_console_encoding(self):
         env={**os.environ,'PYTHONIOENCODING':'cp1252'}
         command=[sys.executable,str(ROOT/'scripts/library.py')]

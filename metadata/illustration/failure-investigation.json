@@ -1,0 +1,56 @@
+{
+  "title": "故障した箇所を分解して調べる",
+  "description": "分解した製品と取り出した歯車を、拡大鏡で詳しく調べる構成。",
+  "kind": "illustration",
+  "width": 1536,
+  "height": 1024,
+  "labels": [],
+  "composition": {
+    "framing": "object",
+    "facing": "front"
+  },
+  "keywords": [
+    "故障",
+    "原因調査",
+    "分解",
+    "解析",
+    "failure analysis",
+    "root cause"
+  ],
+  "guidance": {
+    "use_case": "不具合の調査や改善報告で、製品を分解して原因の手がかりを探す場面。",
+    "message": "内部を開き、部品の状態を詳しく調べる。",
+    "reading": [
+      "丸い製品の蓋を外し、内部から取り出した歯車をトレーに並べている。",
+      "拡大鏡が部品へ向き、細部を観察する意図を示す。"
+    ]
+  },
+  "preview_path": "previews/illustration/failure-investigation.png",
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/enterprise-illustrations.json"
+  },
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": true,
+  "canvas": {
+    "width": 1536,
+    "height": 1024
+  },
+  "category": "03-品質・改善",
+  "schema_version": 3,
+  "id": "illustration/failure-investigation",
+  "name": "故障した箇所を分解して調べる_業務イラスト",
+  "license": "CC0-1.0",
+  "path": "media/illustration/failure-investigation.png",
+  "metadata_path": "metadata/illustration/failure-investigation.json",
+  "preview_has_example_labels": false,
+  "search_text": "illustration/failure-investigation\n故障した箇所を分解して調べる_業務イラスト\n故障した箇所を分解して調べる\n不具合の調査や改善報告で、製品を分解して原因の手がかりを探す場面。\n内部を開き、部品の状態を詳しく調べる。\n丸い製品の蓋を外し、内部から取り出した歯車をトレーに並べている。\n拡大鏡が部品へ向き、細部を観察する意図を示す。\n故障 原因調査 分解 解析 failure analysis root cause\nobject 物 道具 front 正面",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "7021a0a498f6e7b03f60c03f8533f53c5151cc2c27b0960e0019629f040aa367",
+  "size_bytes": 1591106
+}

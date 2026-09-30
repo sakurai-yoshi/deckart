@@ -1,0 +1,57 @@
+{
+  "title": "実物を見せて使い方を説明する",
+  "description": "製品の操作部を指して説明する人と、資料を持って聞く相手。",
+  "kind": "illustration",
+  "width": 1536,
+  "height": 1024,
+  "labels": [],
+  "composition": {
+    "framing": "waist-up",
+    "facing": "inward",
+    "people_count": 2
+  },
+  "keywords": [
+    "実演",
+    "製品説明",
+    "顧客",
+    "提案",
+    "demonstration",
+    "customer"
+  ],
+  "guidance": {
+    "use_case": "製品紹介や導入説明で、実物の操作箇所を示しながら使い方を伝える場面。",
+    "message": "実物を見せて、使い方を共有する。",
+    "reading": [
+      "一人が台に置いた製品の丸い操作部を指している。",
+      "相手は資料を持ち、製品と説明する人に目を向けている。"
+    ]
+  },
+  "preview_path": "previews/illustration/product-demonstration.png",
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/enterprise-illustrations.json"
+  },
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": true,
+  "canvas": {
+    "width": 1536,
+    "height": 1024
+  },
+  "category": "10-顧客・営業",
+  "schema_version": 3,
+  "id": "illustration/product-demonstration",
+  "name": "実物を見せて使い方を説明する_業務イラスト",
+  "license": "CC0-1.0",
+  "path": "media/illustration/product-demonstration.png",
+  "metadata_path": "metadata/illustration/product-demonstration.json",
+  "preview_has_example_labels": false,
+  "search_text": "illustration/product-demonstration\n実物を見せて使い方を説明する_業務イラスト\n実物を見せて使い方を説明する\n製品紹介や導入説明で、実物の操作箇所を示しながら使い方を伝える場面。\n実物を見せて、使い方を共有する。\n一人が台に置いた製品の丸い操作部を指している。\n相手は資料を持ち、製品と説明する人に目を向けている。\n実演 製品説明 顧客 提案 demonstration customer\nwaist-up 上半身 腰上 inward 向かい合う 対話",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "a35141bce90042bc903e3d7d1cd17d2b9375b9a2ade1f67074a2bed6a4ff1513",
+  "size_bytes": 1434166
+}

@@ -1,0 +1,56 @@
+{
+  "title": "蓄えた電力を必要な時に使う",
+  "description": "持ち運べる蓄電ユニットから卓上ライトへ給電する構成。",
+  "kind": "illustration",
+  "width": 1536,
+  "height": 1024,
+  "labels": [],
+  "composition": {
+    "framing": "object",
+    "facing": "front"
+  },
+  "keywords": [
+    "蓄電",
+    "電力",
+    "備え",
+    "停電",
+    "energy storage",
+    "battery"
+  ],
+  "guidance": {
+    "use_case": "停電への備えや電力の使い方を説明し、蓄えた電力を機器へ供給する場面。",
+    "message": "蓄えた電力を、必要な機器へつないで使う。",
+    "reading": [
+      "持ち手のある蓄電ユニットと卓上ライトが一本のコードでつながっている。",
+      "電源側と使う側を並べ、蓄えた電力を利用する関係を示す。"
+    ]
+  },
+  "preview_path": "previews/illustration/local-energy-storage.png",
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/enterprise-illustrations.json"
+  },
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": true,
+  "canvas": {
+    "width": 1536,
+    "height": 1024
+  },
+  "category": "08-環境・資源",
+  "schema_version": 3,
+  "id": "illustration/local-energy-storage",
+  "name": "蓄えた電力を必要な時に使う_業務イラスト",
+  "license": "CC0-1.0",
+  "path": "media/illustration/local-energy-storage.png",
+  "metadata_path": "metadata/illustration/local-energy-storage.json",
+  "preview_has_example_labels": false,
+  "search_text": "illustration/local-energy-storage\n蓄えた電力を必要な時に使う_業務イラスト\n蓄えた電力を必要な時に使う\n停電への備えや電力の使い方を説明し、蓄えた電力を機器へ供給する場面。\n蓄えた電力を、必要な機器へつないで使う。\n持ち手のある蓄電ユニットと卓上ライトが一本のコードでつながっている。\n電源側と使う側を並べ、蓄えた電力を利用する関係を示す。\n蓄電 電力 備え 停電 energy storage battery\nobject 物 道具 front 正面",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "a6488d0109c9b4c5cfea3a0d6a2d3d35b23aa7631305312c6854d29751a0af98",
+  "size_bytes": 1129659
+}

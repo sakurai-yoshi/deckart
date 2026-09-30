@@ -1,5 +1,4 @@
 {
-  "category": "03-関係と連携",
   "title": "出所を保持して情報を集約する",
   "description": "複数の情報源をまとめながら、元の出所をたどれる構造を示す。",
   "keywords": [
@@ -105,6 +104,7 @@
     ]
   },
   "kind": "diagram",
+  "category": "12-情報・データ",
   "schema_version": 3,
   "id": "relation/traceable-collection",
   "name": "情報管理_出所を保持して情報を集約する_三系統の来歴",
@@ -127,5 +127,6 @@
     "data": false
   },
   "sha256": "fc0241d1b5d474f3048c5d6eed0a382815990fc072bdd614fa3f4f7171f2472a",
-  "size_bytes": 5101
+  "size_bytes": 5101,
+  "preview_sha256": "f9f00d0e89a679b80f500714e9d3fdda06419af8f8f6162dad775de916f9a47d"
 }

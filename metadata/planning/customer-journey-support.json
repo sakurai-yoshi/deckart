@@ -1,5 +1,4 @@
 {
-  "category": "04-計画と進捗",
   "title": "顧客の行動と支える業務を結ぶ",
   "description": "知る・比べる・使い始める・使い続ける流れに、各接点を支える業務を対応させる。",
   "keywords": [
@@ -180,6 +179,7 @@
       "上向きの矢印は、それぞれの業務が支える接点。"
     ]
   },
+  "category": "10-顧客・営業",
   "schema_version": 3,
   "id": "planning/customer-journey-support",
   "name": "顧客体験_行動と接点を支える業務_表と裏のジャーニー",
@@ -202,5 +202,6 @@
     "data": false
   },
   "sha256": "719496dbc6c18e7a1f2340119704561056f4b99b90b17ed6a8f7153be6824c70",
-  "size_bytes": 4709
+  "size_bytes": 4709,
+  "preview_sha256": "0880ead2ec8f4801bf1c9d567a03d871d739c96bdc6fbf0fe431ac1c07b08709"
 }

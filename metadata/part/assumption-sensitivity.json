@@ -1,0 +1,126 @@
+{
+  "title": "前提の変化が結論へ与える影響を確かめる",
+  "description": "前提を変えたときの結果の動きから、重要な条件を見つける。",
+  "keywords": [
+    "感度分析",
+    "前提",
+    "仮定",
+    "試算",
+    "条件",
+    "sensitivity",
+    "assumptions",
+    "scenario"
+  ],
+  "labels": [
+    {
+      "x": 52,
+      "y": 91,
+      "width": 248,
+      "height": 64,
+      "text": "前提を動かす",
+      "role": "入力",
+      "align": "left",
+      "color": "#607590",
+      "font_size": 28,
+      "id": "label-1",
+      "color_role": "muted",
+      "max_lines": 1,
+      "max_fullwidth_chars": 8
+    },
+    {
+      "x": 52,
+      "y": 183,
+      "width": 248,
+      "height": 73,
+      "text": "価格・量・条件",
+      "role": "前提の例",
+      "align": "left",
+      "color": "#153A6B",
+      "font_size": 27,
+      "id": "label-2",
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 8
+    },
+    {
+      "x": 503,
+      "y": 145,
+      "width": 120,
+      "height": 63,
+      "text": "再計算",
+      "role": "分析",
+      "align": "center",
+      "color": "#2864F0",
+      "font_size": 26,
+      "id": "label-3",
+      "color_role": "accent",
+      "max_lines": 1,
+      "max_fullwidth_chars": 4
+    },
+    {
+      "x": 798,
+      "y": 37,
+      "width": 282,
+      "height": 82,
+      "text": "結果が大きく変わる",
+      "role": "敏感な条件",
+      "align": "left",
+      "color": "#2864F0",
+      "font_size": 27,
+      "id": "label-4",
+      "color_role": "accent",
+      "max_lines": 2,
+      "max_fullwidth_chars": 9
+    },
+    {
+      "x": 798,
+      "y": 219,
+      "width": 282,
+      "height": 97,
+      "text": "結果があまり\n変わらない",
+      "role": "安定する条件",
+      "align": "left",
+      "color": "#153A6B",
+      "font_size": 27,
+      "id": "label-5",
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 9
+    }
+  ],
+  "width": 1120,
+  "height": 380,
+  "kind": "part",
+  "guidance": {
+    "use_case": "見積もりや計画で、どの前提を重点的に確認するか説明する。",
+    "message": "前提を変えたときの結果の動きから、重要な条件を見つける。",
+    "reading": [
+      "左の前提を中央で再計算し、右で結果の変わりやすさを確認する。"
+    ]
+  },
+  "category": "13-説明・伝達",
+  "schema_version": 3,
+  "id": "part/assumption-sensitivity",
+  "name": "前提の変化が結論へ与える影響を確かめる_説明パーツ",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1120,
+    "height": 380
+  },
+  "path": "assets/part/assumption-sensitivity.svg",
+  "metadata_path": "metadata/part/assumption-sensitivity.json",
+  "preview_path": "previews/part/assumption-sensitivity.svg",
+  "preview_has_example_labels": true,
+  "search_text": "part/assumption-sensitivity\n前提の変化が結論へ与える影響を確かめる_説明パーツ\n前提の変化が結論へ与える影響を確かめる\n見積もりや計画で、どの前提を重点的に確認するか説明する。\n前提を変えたときの結果の動きから、重要な条件を見つける。\n左の前提を中央で再計算し、右で結果の変わりやすさを確認する。\n感度分析 前提 仮定 試算 条件 sensitivity assumptions scenario",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "4bd55c5a275980620370beb5234a1a43db58bcefae05daae6a199f36e0196c18",
+  "size_bytes": 1145,
+  "preview_sha256": "c59cb4c3454edf8a1ec3a418856e8482b0075bf4b251840ffee08e75a53fcc30"
+}

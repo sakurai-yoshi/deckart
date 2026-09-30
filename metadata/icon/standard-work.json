@@ -1,5 +1,4 @@
 {
-  "category": "08-アイコンとピクトグラム",
   "title": "標準作業",
   "description": "決めた順序で同じ作業を再現する。",
   "keywords": [
@@ -23,6 +22,7 @@
       "縦の矢印が上から順に実施することを示す。"
     ]
   },
+  "category": "04-生産・設備",
   "schema_version": 3,
   "id": "icon/standard-work",
   "name": "標準作業_製造業務の記号",

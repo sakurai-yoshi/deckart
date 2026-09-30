@@ -1,5 +1,4 @@
 {
-  "category": "07-注釈と見出し",
   "title": "応急措置と恒久対策を分ける",
   "description": "一つの問題から、影響を止める対応と原因を除く対応を別の枝に展開する。",
   "keywords": [
@@ -116,6 +115,7 @@
       "上下の枝は対応の種類を区別する。"
     ]
   },
+  "category": "03-品質・改善",
   "schema_version": 3,
   "id": "part/temporary-and-permanent-action",
   "name": "応急措置と恒久対策を分ける_説明パーツ",
@@ -138,5 +138,6 @@
     "data": false
   },
   "sha256": "57a6ec5c4ed8a3c7b725caffa62c5d442c50e7f1ae6c0c27caa7e6531d0dc26b",
-  "size_bytes": 1488
+  "size_bytes": 1488,
+  "preview_sha256": "88b598daef95ab04286fc023c043943e7910f27d8ce4630be3e5a44137b62d32"
 }

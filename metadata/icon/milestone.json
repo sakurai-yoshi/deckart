@@ -1,5 +1,4 @@
 {
-  "category": "08-アイコンとピクトグラム",
   "title": "マイルストーン",
   "description": "進行の途中に置く重要な到達点を示す。",
   "keywords": [
@@ -24,6 +23,7 @@
       "旗の立つ点が重要な節目を示す。"
     ]
   },
+  "category": "02-計画・進捗",
   "schema_version": 3,
   "id": "icon/milestone",
   "name": "進行管理_重要な到達点を置く_進行線と旗",

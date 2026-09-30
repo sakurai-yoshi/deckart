@@ -1,5 +1,4 @@
 {
-  "category": "10-数値とグラフ",
   "title": "二つの時点の変化を追う",
   "description": "三つの区分の前期と当期を同じ百分率の目盛りで結ぶ比較グラフの作例。",
   "keywords": [
@@ -174,6 +173,7 @@
       "線の交差は区分Aと区分Bの順位の入れ替わり。"
     ]
   },
+  "category": "13-説明・伝達",
   "schema_version": 3,
   "id": "chart/slope",
   "name": "前後比較_二つの時点の変化を追う_スロープグラフ作例",
@@ -249,5 +249,6 @@
     }
   },
   "sha256": "9f654b108b1b1b00d9e11d00a960f079a9a1d6fc18127d7348a735fa362f58c0",
-  "size_bytes": 11865
+  "size_bytes": 11865,
+  "preview_sha256": "6614fcf4c198f9ef87f76e6ec84d3b0ff8e60f4e66c2bcf989fa16a563f73428"
 }

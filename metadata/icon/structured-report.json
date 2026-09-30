@@ -1,52 +1,51 @@
 {
-  "category": "08-アイコンとピクトグラム",
   "title": "構造化されたレポート",
-  "description": "調査結果や業務情報を章と図表に整理した資料を表す。",
+  "description": "情報を整理して参照しやすくする。",
   "keywords": [
-    "資料",
     "報告書",
     "レポート",
-    "調査",
-    "分析",
-    "ドキュメント",
+    "章",
     "索引",
+    "図表",
     "report",
-    "document",
-    "structured"
+    "structured",
+    "index",
+    "chapters"
   ],
   "labels": [],
-  "width": 310,
-  "height": 280,
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
   "guidance": {
-    "use_case": "調査報告書や定期レポートを案内する場面。",
-    "message": "情報を整理し、参照しやすい資料にまとめる。",
+    "use_case": "章や図表に整理した業務レポートを案内する。",
+    "message": "情報を整理して参照しやすくする。",
     "reading": [
-      "図表と本文を備えた冊子が報告書を表す。",
-      "章のタブが情報へのアクセスのしやすさを表す。"
+      "冊子の中の図表と本文が報告内容を表す。",
+      "側面の三つのタブが章の区切りを表す。"
     ]
   },
-  "kind": "icon",
+  "category": "13-説明・伝達",
   "schema_version": 3,
   "id": "icon/structured-report",
-  "name": "資料作成_構造化レポート_索引付き冊子",
+  "name": "構造化されたレポート_業務の象徴",
   "license": "CC0-1.0",
   "format": "svg",
   "mime_type": "image/svg+xml",
   "transparent": null,
   "canvas": {
-    "width": 310,
-    "height": 280
+    "width": 160,
+    "height": 160
   },
   "path": "assets/icon/structured-report.svg",
   "metadata_path": "metadata/icon/structured-report.json",
   "preview_path": "assets/icon/structured-report.svg",
   "preview_has_example_labels": false,
-  "search_text": "icon/structured-report\n資料作成_構造化レポート_索引付き冊子\n構造化されたレポート\n調査報告書や定期レポートを案内する場面。\n情報を整理し、参照しやすい資料にまとめる。\n図表と本文を備えた冊子が報告書を表す。\n章のタブが情報へのアクセスのしやすさを表す。\n資料 報告書 レポート 調査 分析 ドキュメント 索引 report document structured",
+  "search_text": "icon/structured-report\n構造化されたレポート_業務の象徴\n構造化されたレポート\n章や図表に整理した業務レポートを案内する。\n情報を整理して参照しやすくする。\n冊子の中の図表と本文が報告内容を表す。\n側面の三つのタブが章の区切りを表す。\n報告書 レポート 章 索引 図表 report structured index chapters",
   "render": {
     "theme": true,
     "labels": false,
     "data": false
   },
-  "sha256": "1da51a07585c82971a698906ed9e585f8b1c466d15c6d3c9e851486fe081dbcc",
-  "size_bytes": 3687
+  "sha256": "c9799edf06ee265fdcf2348c7d39966e851d9a9140f2ec569d1f464a9db80cb9",
+  "size_bytes": 1750
 }

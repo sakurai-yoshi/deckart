@@ -1,5 +1,4 @@
 {
-  "category": "09-循環とフレームワーク",
   "title": "二つの質問で対応先を決める",
   "description": "条件を順に確認し、標準対応・専門対応・継続管理を選ぶ。",
   "keywords": [
@@ -167,6 +166,7 @@
     "relation": "binary-decision-tree",
     "reading_direction": "top-to-bottom"
   },
+  "category": "01-経営・意思決定",
   "schema_version": 3,
   "id": "framework/decision-tree",
   "name": "対応判断_二つの質問で対応先を決める_はいといいえの決定木",
@@ -189,5 +189,6 @@
     "data": false
   },
   "sha256": "7d10e8b6912773e869c4ff0764a6bf3c540fbf14fe2d3933f9ba6e3fdf436b12",
-  "size_bytes": 2862
+  "size_bytes": 2862,
+  "preview_sha256": "1e8180beacda921ff6e6dcba99d0e58ba066abaca44ce4932652a92b38cb8e4c"
 }

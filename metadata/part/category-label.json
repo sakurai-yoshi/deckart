@@ -1,5 +1,4 @@
 {
-  "category": "07-注釈と見出し",
   "title": "内容の分類を短く添える",
   "description": "短い分類名を濃い帯に置き、対象となる内容を下で補足する分類部品。",
   "keywords": [
@@ -54,6 +53,7 @@
       "下の領域は、その分類で扱う内容を表す。"
     ]
   },
+  "category": "13-説明・伝達",
   "schema_version": 3,
   "id": "part/category-label",
   "name": "内容の分類を短く添える_説明パーツ",
@@ -76,5 +76,6 @@
     "data": false
   },
   "sha256": "1cd816b5b1c8e1bda72138b599d8eca3c846e1ed384f5c2bb569bb9d4f4af185",
-  "size_bytes": 613
+  "size_bytes": 613,
+  "preview_sha256": "9a4aed7f9690a80454a6153dc87cfd34549e973a6057fead5dfc2d6d9d2018c1"
 }

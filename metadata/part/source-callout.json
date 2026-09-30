@@ -1,5 +1,4 @@
 {
-  "category": "07-注釈と見出し",
   "title": "参照箇所と補足をつなぐ",
   "description": "特定の値や図形に、対象条件と出典を対応させる引き出し注釈。",
   "keywords": [
@@ -55,6 +54,7 @@
       "引き出し線の先には、補足と出典の領域が上下にある。"
     ]
   },
+  "category": "13-説明・伝達",
   "schema_version": 3,
   "id": "part/source-callout",
   "name": "参照箇所と補足をつなぐ_説明パーツ",
@@ -77,5 +77,6 @@
     "data": false
   },
   "sha256": "7cf66ad50732de974767dee1b07c187d431de51a4233c0fad7c4f4f27fa23b1c",
-  "size_bytes": 928
+  "size_bytes": 928,
+  "preview_sha256": "621c4f21cb32a3e1c5aadc608deec3e093c1d98ced6bb9942141b5dd405f4ae9"
 }

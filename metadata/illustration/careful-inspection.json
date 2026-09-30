@@ -1,7 +1,6 @@
 {
   "title": "部品の外観を確認する",
   "kind": "illustration",
-  "category": "06-業務イラスト",
   "width": 1254,
   "height": 1254,
   "keywords": [
@@ -40,6 +39,7 @@
     "width": 1254,
     "height": 1254
   },
+  "category": "03-品質・改善",
   "schema_version": 3,
   "id": "illustration/careful-inspection",
   "name": "部品の外観を確認する_メーカー業務の動作",

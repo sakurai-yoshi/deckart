@@ -1,0 +1,1621 @@
+{
+  "version": "2.1.0",
+  "raw_base": "https://raw.githubusercontent.com/sakurai-yoshi/deckart/v2.1.0/",
+  "category": "07-安全・事業継続",
+  "asset_count": 40,
+  "assets": [
+    {
+      "id": "icon/chemical-storage",
+      "title": "化学品保管",
+      "kind": "icon",
+      "category": "07-安全・事業継続",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/chemical-storage.svg",
+      "preview_path": "assets/icon/chemical-storage.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/chemical-storage.json",
+      "sha256": "6e64ca460430b5d60e61cd694bc66c2946e58a0fac18be26507e3047b1db1e3c",
+      "size_bytes": 1405,
+      "keywords": [
+        "化学品",
+        "薬品",
+        "保管",
+        "容器",
+        "棚",
+        "chemical",
+        "storage",
+        "substances",
+        "cabinet"
+      ],
+      "use_case": "化学品の保管や容器の整理を説明する。",
+      "message": "化学品を保管場所で整理して扱う。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/electrical-grounding",
+      "title": "接地",
+      "kind": "icon",
+      "category": "07-安全・事業継続",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/electrical-grounding.svg",
+      "preview_path": "assets/icon/electrical-grounding.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/electrical-grounding.json",
+      "sha256": "c5e200ef458b8b43a8789e37f6c3c36336e70a9da0317683a251beb75bc96b09",
+      "size_bytes": 747,
+      "keywords": [
+        "接地",
+        "アース",
+        "電気",
+        "設備",
+        "grounding",
+        "earthing",
+        "electrical"
+      ],
+      "use_case": "設備の接地や電気的な保護の説明に添える。",
+      "message": "設備を接地につなぐ。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/electrostatic-control",
+      "title": "静電気対策",
+      "kind": "icon",
+      "category": "07-安全・事業継続",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/electrostatic-control.svg",
+      "preview_path": "assets/icon/electrostatic-control.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/electrostatic-control.json",
+      "sha256": "338fae427f06cd36b496da88320bcacbef3fe3c5038242909f41cea3fe9443d4",
+      "size_bytes": 2474,
+      "keywords": [
+        "静電気",
+        "ESD",
+        "電子部品",
+        "放電",
+        "帯電",
+        "electrostatic",
+        "discharge",
+        "control"
+      ],
+      "use_case": "電子部品を静電気から守る対策の見出しに添える。",
+      "message": "静電気による部品への影響を抑える。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/emergency-eyewash",
+      "title": "洗眼設備",
+      "kind": "icon",
+      "category": "07-安全・事業継続",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/emergency-eyewash.svg",
+      "preview_path": "assets/icon/emergency-eyewash.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/emergency-eyewash.json",
+      "sha256": "0d8b8cfcfbacdb0e5996397838a5bff4070834bd008aed4bb26d2d08c999a7b9",
+      "size_bytes": 896,
+      "keywords": [
+        "洗眼",
+        "緊急",
+        "水",
+        "洗浄",
+        "eyewash",
+        "emergency",
+        "rinse",
+        "station"
+      ],
+      "use_case": "飛散物などへの備えとして洗眼設備を紹介する。",
+      "message": "必要なときに目の周辺を水で洗い流す。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/emergency-stop",
+      "title": "非常停止",
+      "kind": "icon",
+      "category": "07-安全・事業継続",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/emergency-stop.svg",
+      "preview_path": "assets/icon/emergency-stop.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/emergency-stop.json",
+      "sha256": "694245ae8cb7722e965e006c26eb744f0c9b5f798040bd91ea68980cd86a3b03",
+      "size_bytes": 1053,
+      "keywords": [
+        "非常停止",
+        "停止",
+        "ボタン",
+        "緊急",
+        "emergency",
+        "stop",
+        "shutdown",
+        "button"
+      ],
+      "use_case": "設備を緊急に止める操作や安全教育の見出しに使う。",
+      "message": "必要なときに設備を停止させる。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/energy-isolation-lockout",
+      "title": "エネルギー遮断",
+      "kind": "icon",
+      "category": "07-安全・事業継続",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/energy-isolation-lockout.svg",
+      "preview_path": "assets/icon/energy-isolation-lockout.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/energy-isolation-lockout.json",
+      "sha256": "b693b6bf9d717d5831ccd76240c02152609762debe529a3d757c434f561aad94",
+      "size_bytes": 1232,
+      "keywords": [
+        "ロックアウト",
+        "遮断",
+        "鍵",
+        "保全",
+        "電源",
+        "lockout",
+        "isolation",
+        "energy",
+        "maintenance"
+      ],
+      "use_case": "保全時に設備のエネルギー源を隔離する考え方を示す。",
+      "message": "切り離したエネルギー源を施錠して保持する。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/evacuation-route",
+      "title": "避難経路",
+      "kind": "icon",
+      "category": "07-安全・事業継続",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/evacuation-route.svg",
+      "preview_path": "assets/icon/evacuation-route.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/evacuation-route.json",
+      "sha256": "b96cfa55d2c20887853822ccbe4ce19a4c7bb7f8c779177656d01c0bb33eb80a",
+      "size_bytes": 1166,
+      "keywords": [
+        "避難",
+        "出口",
+        "退避",
+        "経路",
+        "evacuation",
+        "exit",
+        "escape",
+        "route"
+      ],
+      "use_case": "出口への経路や退避の考え方を説明する。",
+      "message": "出口へ向かって移動する。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/fall-protection",
+      "title": "墜落防止",
+      "kind": "icon",
+      "category": "07-安全・事業継続",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/fall-protection.svg",
+      "preview_path": "assets/icon/fall-protection.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/fall-protection.json",
+      "sha256": "9a85d8eef9373bf5606efccfdd278d1b541f766f8a584c274abf73a0cd45a615",
+      "size_bytes": 1052,
+      "keywords": [
+        "墜落",
+        "防止",
+        "ハーネス",
+        "高所",
+        "安全",
+        "fall",
+        "protection",
+        "harness",
+        "anchor"
+      ],
+      "use_case": "高所作業の墜落防止装備を説明する。",
+      "message": "装着具を支持点につないで備える。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/fire-extinguisher",
+      "title": "消火器",
+      "kind": "icon",
+      "category": "07-安全・事業継続",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/fire-extinguisher.svg",
+      "preview_path": "assets/icon/fire-extinguisher.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/fire-extinguisher.json",
+      "sha256": "2904a8dde229eaefe906d002bf368c9d3ff803eeaa0aa0d846de4af63d4fe84b",
+      "size_bytes": 1043,
+      "keywords": [
+        "消火器",
+        "防火",
+        "初期消火",
+        "火災",
+        "extinguisher",
+        "fire",
+        "response"
+      ],
+      "use_case": "防災設備や初期対応用の備品を紹介する。",
+      "message": "火災への初期対応に用いる消火設備を備える。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/first-aid-kit",
+      "title": "救急用品",
+      "kind": "icon",
+      "category": "07-安全・事業継続",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/first-aid-kit.svg",
+      "preview_path": "assets/icon/first-aid-kit.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/first-aid-kit.json",
+      "sha256": "e2abd129cf68852c53ae9beb2efa5eda5df87a5472594ffe53d116f1bc344c04",
+      "size_bytes": 771,
+      "keywords": [
+        "救急",
+        "手当",
+        "備品",
+        "救急箱",
+        "first",
+        "aid",
+        "emergency",
+        "kit",
+        "supplies"
+      ],
+      "use_case": "応急手当の備えや救急用品の配置を説明する。",
+      "message": "応急手当に必要な道具を備える。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/hazard-zone",
+      "title": "立入区画",
+      "kind": "icon",
+      "category": "07-安全・事業継続",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/hazard-zone.svg",
+      "preview_path": "assets/icon/hazard-zone.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/hazard-zone.json",
+      "sha256": "254ae61a4daf27a21b3473a6fc594ed03b13fc15a639e7bc0e3b16a987a84f7f",
+      "size_bytes": 1161,
+      "keywords": [
+        "立入",
+        "区画",
+        "バリケード",
+        "危険",
+        "境界",
+        "barricade",
+        "restricted",
+        "hazard",
+        "zone"
+      ],
+      "use_case": "作業区画や立ち入りを区切る境界を示す。",
+      "message": "注意が必要な作業範囲を区切る。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/hearing-protection",
+      "title": "聴覚保護",
+      "kind": "icon",
+      "category": "07-安全・事業継続",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/hearing-protection.svg",
+      "preview_path": "assets/icon/hearing-protection.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/hearing-protection.json",
+      "sha256": "18f3a1958bf402914707d795234d5de3b316aca1daeda8499d71f1f689859632",
+      "size_bytes": 1017,
+      "keywords": [
+        "聴覚",
+        "騒音",
+        "耳",
+        "保護具",
+        "earmuffs",
+        "hearing",
+        "protection"
+      ],
+      "use_case": "騒音のある作業で使う保護具を説明する。",
+      "message": "耳を覆う保護具で音から聴覚を守る。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/incident",
+      "title": "障害・中断",
+      "kind": "icon",
+      "category": "07-安全・事業継続",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/incident.svg",
+      "preview_path": "assets/icon/incident.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/incident.json",
+      "sha256": "14db263065803b79e4917ae4e0907ab2bd68328b18df6b52c8fc1e8cbf462496",
+      "size_bytes": 1596,
+      "keywords": [
+        "障害",
+        "中断",
+        "不具合",
+        "停止",
+        "インシデント",
+        "incident",
+        "outage",
+        "disruption"
+      ],
+      "use_case": "障害発生やサービス中断の対応を説明する。",
+      "message": "接続や処理が途中で止まる。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/machine-guard",
+      "title": "設備のガード",
+      "kind": "icon",
+      "category": "07-安全・事業継続",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/machine-guard.svg",
+      "preview_path": "assets/icon/machine-guard.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/machine-guard.json",
+      "sha256": "71df11817742fff2d613f2c6dfdf35d8aa2eb4a0f719663bf3f44095737aca6e",
+      "size_bytes": 1289,
+      "keywords": [
+        "ガード",
+        "防護",
+        "柵",
+        "可動部",
+        "機械",
+        "machine",
+        "guard",
+        "barrier",
+        "enclosure"
+      ],
+      "use_case": "可動部への接触を防ぐ防護設備を説明する。",
+      "message": "危険な動作部と人との間を隔てる。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/pedestrian-separation",
+      "title": "人車分離",
+      "kind": "icon",
+      "category": "07-安全・事業継続",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/pedestrian-separation.svg",
+      "preview_path": "assets/icon/pedestrian-separation.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/pedestrian-separation.json",
+      "sha256": "777ab6940cfb0c9318065f5104df61f1f3a3ea1c413318180801f578cb891395",
+      "size_bytes": 1238,
+      "keywords": [
+        "人車分離",
+        "通路",
+        "歩行者",
+        "車両",
+        "動線",
+        "pedestrian",
+        "vehicle",
+        "separation",
+        "walkway"
+      ],
+      "use_case": "人と搬送車の通路を分ける運用を説明する。",
+      "message": "人と車両の動線を分ける。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/protective-eyewear",
+      "title": "保護眼鏡",
+      "kind": "icon",
+      "category": "07-安全・事業継続",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/protective-eyewear.svg",
+      "preview_path": "assets/icon/protective-eyewear.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/protective-eyewear.json",
+      "sha256": "8e478657eb1804e21d5ebc9c91f72203bfc6a494b028e539e11e9f4d05fc9a3f",
+      "size_bytes": 1006,
+      "keywords": [
+        "保護眼鏡",
+        "目",
+        "安全",
+        "保護具",
+        "goggles",
+        "eyewear",
+        "protection"
+      ],
+      "use_case": "必要な保護具を説明する資料で目の保護を示す。",
+      "message": "作業時の目を保護する。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/protective-gloves",
+      "title": "保護手袋",
+      "kind": "icon",
+      "category": "07-安全・事業継続",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/protective-gloves.svg",
+      "preview_path": "assets/icon/protective-gloves.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/protective-gloves.json",
+      "sha256": "942ba4472c6164bf73afc5779c86c35c04af983a455ac23acf6824bfadd83fa1",
+      "size_bytes": 761,
+      "keywords": [
+        "手袋",
+        "手",
+        "保護具",
+        "作業",
+        "glove",
+        "hand",
+        "protection"
+      ],
+      "use_case": "作業内容に応じた手の保護具を説明する。",
+      "message": "手を覆って保護する。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/resilience",
+      "title": "回復力",
+      "kind": "icon",
+      "category": "07-安全・事業継続",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/resilience.svg",
+      "preview_path": "assets/icon/resilience.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/resilience.json",
+      "sha256": "256d06e6b1260f894ac510e876eafa664f6307be17eab9735d031238833ae3bf",
+      "size_bytes": 1063,
+      "keywords": [
+        "回復力",
+        "レジリエンス",
+        "しなやか",
+        "継続",
+        "resilience",
+        "recovery",
+        "adaptability"
+      ],
+      "use_case": "外からの変化を受け止め、働きを保つ性質を説明する。",
+      "message": "負荷に応じて変化しながら支える。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/respiratory-protection",
+      "title": "呼吸用保護具",
+      "kind": "icon",
+      "category": "07-安全・事業継続",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/respiratory-protection.svg",
+      "preview_path": "assets/icon/respiratory-protection.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/respiratory-protection.json",
+      "sha256": "f0be02e100bfef1f208a79f663c40bb464f6260f29099adb8c41bab03ab86e12",
+      "size_bytes": 968,
+      "keywords": [
+        "防じん",
+        "呼吸",
+        "マスク",
+        "保護具",
+        "respirator",
+        "respiratory",
+        "protection",
+        "dust"
+      ],
+      "use_case": "粉じんなどへの対応で用いる呼吸用保護具を示す。",
+      "message": "吸い込む空気に対する保護具を着ける。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/risk",
+      "title": "リスク・注意",
+      "kind": "icon",
+      "category": "07-安全・事業継続",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/risk.svg",
+      "preview_path": "assets/icon/risk.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/risk.json",
+      "sha256": "5b3256ff242238758d856d5200070369a1f19ca7aac65d7bd1362e3f93a1c520",
+      "size_bytes": 748,
+      "keywords": [
+        "リスク",
+        "注意",
+        "危険",
+        "留意",
+        "警告",
+        "risk",
+        "warning",
+        "caution"
+      ],
+      "use_case": "計画のリスクや留意点を示す。",
+      "message": "注意して検討する必要がある。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/safety-footwear",
+      "title": "安全靴",
+      "kind": "icon",
+      "category": "07-安全・事業継続",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/safety-footwear.svg",
+      "preview_path": "assets/icon/safety-footwear.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/safety-footwear.json",
+      "sha256": "ddc75931a75d2087ded352d773b173afff34898b39c57c1379b2218244e1f026",
+      "size_bytes": 945,
+      "keywords": [
+        "安全靴",
+        "足",
+        "靴",
+        "保護具",
+        "safety",
+        "footwear",
+        "protective",
+        "shoes",
+        "toe"
+      ],
+      "use_case": "足先を守る作業用の靴を説明する。",
+      "message": "足を保護しながら作業する。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/safety-helmet",
+      "title": "保護帽",
+      "kind": "icon",
+      "category": "07-安全・事業継続",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/safety-helmet.svg",
+      "preview_path": "assets/icon/safety-helmet.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/safety-helmet.json",
+      "sha256": "fcd753ec7f84b7671038e0052b01af518093de50f9b6939f61e38e4c3c9ee6d2",
+      "size_bytes": 1056,
+      "keywords": [
+        "保護帽",
+        "ヘルメット",
+        "頭部",
+        "保護具",
+        "helmet",
+        "hard",
+        "hat",
+        "head",
+        "protection"
+      ],
+      "use_case": "作業で用いる頭部の保護具を紹介する。",
+      "message": "頭部を保護する用具を使う。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/shield",
+      "title": "保護・安全対策",
+      "kind": "icon",
+      "category": "07-安全・事業継続",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/shield.svg",
+      "preview_path": "assets/icon/shield.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/shield.json",
+      "sha256": "9834634f130893055f1fc0e02ba90b283c4ab009679a88366159d3298b24107c",
+      "size_bytes": 669,
+      "keywords": [
+        "保護",
+        "安全",
+        "対策",
+        "セキュリティ",
+        "盾",
+        "防御",
+        "security",
+        "shield",
+        "protection",
+        "safeguard"
+      ],
+      "use_case": "情報や業務を守る対策を紹介する場面。",
+      "message": "対象を守るための対策がある。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/spill-containment",
+      "title": "漏出の封じ込め",
+      "kind": "icon",
+      "category": "07-安全・事業継続",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/spill-containment.svg",
+      "preview_path": "assets/icon/spill-containment.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/spill-containment.json",
+      "sha256": "eb66c10c9c97d942bfc2588bdc414f1e9c737d26a40073c0a7fdd727b22d29dc",
+      "size_bytes": 1101,
+      "keywords": [
+        "漏出",
+        "流出",
+        "防液堤",
+        "受け皿",
+        "spill",
+        "containment",
+        "bund",
+        "tray"
+      ],
+      "use_case": "液体が漏れた場合の拡散防止設備を示す。",
+      "message": "漏れた液体を周囲へ広げず受け止める。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/ventilation",
+      "title": "換気",
+      "kind": "icon",
+      "category": "07-安全・事業継続",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/ventilation.svg",
+      "preview_path": "assets/icon/ventilation.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/ventilation.json",
+      "sha256": "19f932c223bfa713faabcc336f935f441316089775b2701982b6152ed74a1679",
+      "size_bytes": 1613,
+      "keywords": [
+        "換気",
+        "空気",
+        "排気",
+        "環境",
+        "ventilation",
+        "airflow",
+        "exhaust"
+      ],
+      "use_case": "作業環境の換気や空気の入れ替えを示す。",
+      "message": "空気を外へ流して作業環境を整える。",
+      "sample_data": false
+    },
+    {
+      "id": "illustration/chemical-secondary-containment",
+      "title": "容器を受け皿に収めて漏れに備える",
+      "kind": "illustration",
+      "category": "07-安全・事業継続",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1402,
+      "height": 1122,
+      "canvas": {
+        "width": 1402,
+        "height": 1122
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/chemical-secondary-containment.png",
+      "preview_path": "previews/illustration/chemical-secondary-containment.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/chemical-secondary-containment.json",
+      "sha256": "d491cd17e9dbe7f0cae5c17c806ec664b1b483530fd54b2aa5dcce8e80d032aa",
+      "size_bytes": 742471,
+      "keywords": [
+        "化学品",
+        "漏えい",
+        "二次容器",
+        "保管",
+        "spill containment",
+        "漏えい対策"
+      ],
+      "use_case": "液体を保管・使用する場所で、容器からの漏れに備える方法を説明する場面。",
+      "message": "容器の外側にも、漏れを受ける備えを置く。",
+      "sample_data": false,
+      "composition": {
+        "framing": "object",
+        "facing": "front"
+      }
+    },
+    {
+      "id": "illustration/emergency-readiness",
+      "title": "非常時に必要な備品を整える",
+      "kind": "illustration",
+      "category": "07-安全・事業継続",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1312,
+      "height": 1199,
+      "canvas": {
+        "width": 1312,
+        "height": 1199
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/emergency-readiness.png",
+      "preview_path": "previews/illustration/emergency-readiness.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/emergency-readiness.json",
+      "sha256": "f337bb51431752b5cb51f725a88d0a5c6661a6aebbf96379045e206821fa5c73",
+      "size_bytes": 1565151,
+      "keywords": [
+        "防災",
+        "非常用",
+        "備蓄",
+        "事業継続",
+        "emergency",
+        "preparedness"
+      ],
+      "use_case": "防災や事業継続の説明で、非常時に持ち出す備品をまとめて用意する場面。",
+      "message": "必要な物をまとめ、持ち出せる状態に備える。",
+      "sample_data": false,
+      "composition": {
+        "framing": "object",
+        "facing": "front"
+      }
+    },
+    {
+      "id": "illustration/ergonomic-workstation",
+      "title": "働く姿勢を整える",
+      "kind": "illustration",
+      "category": "07-安全・事業継続",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1254,
+      "height": 1254,
+      "canvas": {
+        "width": 1254,
+        "height": 1254
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/ergonomic-workstation.png",
+      "preview_path": "previews/illustration/ergonomic-workstation.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/ergonomic-workstation.json",
+      "sha256": "bd07cbb0e32f5cd2ed9ad7b89b883eb87c815cb2d4f31d6643ae79157d16e609",
+      "size_bytes": 893075,
+      "keywords": [
+        "作業環境",
+        "姿勢",
+        "デスク",
+        "働き方",
+        "ergonomic",
+        "workstation"
+      ],
+      "use_case": "作業環境の改善、デスク環境、疲れにくい働き方を説明する。",
+      "message": "画面と入力機器を使いやすい位置に整える。",
+      "sample_data": false,
+      "composition": {
+        "framing": "object",
+        "facing": "front"
+      }
+    },
+    {
+      "id": "illustration/lockout-readiness",
+      "title": "作業前にエネルギーを遮断する",
+      "kind": "illustration",
+      "category": "07-安全・事業継続",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1199,
+      "height": 1312,
+      "canvas": {
+        "width": 1199,
+        "height": 1312
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/lockout-readiness.png",
+      "preview_path": "previews/illustration/lockout-readiness.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/lockout-readiness.json",
+      "sha256": "6e6aa974fe2b4374bf97b07e5291920629f537ff8f21f5ab13ae70758d751ea0",
+      "size_bytes": 958508,
+      "keywords": [
+        "ロックアウト",
+        "誤作動",
+        "遮断",
+        "安全",
+        "lockout",
+        "isolation"
+      ],
+      "use_case": "設備の保守や作業前の準備で、操作部を施錠して管理する考え方を説明する場面。",
+      "message": "操作部を固定し、作業中の不用意な操作を抑える。",
+      "sample_data": false,
+      "composition": {
+        "framing": "object",
+        "facing": "front"
+      }
+    },
+    {
+      "id": "illustration/safe-box-lifting",
+      "title": "荷物を体に近づけて持つ",
+      "kind": "illustration",
+      "category": "07-安全・事業継続",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1264,
+      "height": 1244,
+      "canvas": {
+        "width": 1264,
+        "height": 1244
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/safe-box-lifting.png",
+      "preview_path": "previews/illustration/safe-box-lifting.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/safe-box-lifting.json",
+      "sha256": "9dd8e05218880b0801148e132d19125190caa361488179d71cfb6e9cfb601007",
+      "size_bytes": 663578,
+      "keywords": [
+        "運搬",
+        "腰痛予防",
+        "持ち上げ",
+        "姿勢",
+        "lifting",
+        "manual handling"
+      ],
+      "use_case": "荷物の取扱いや作業姿勢の説明で、体と荷物の位置関係を伝える場面。",
+      "message": "荷物を体に近づけ、両手で支えて持ち上げる。",
+      "sample_data": false,
+      "composition": {
+        "framing": "full-body",
+        "facing": "down",
+        "people_count": 1
+      }
+    },
+    {
+      "id": "illustration/safe-work-preparation",
+      "title": "作業前に保護具を整える",
+      "kind": "illustration",
+      "category": "07-安全・事業継続",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1254,
+      "height": 1254,
+      "canvas": {
+        "width": 1254,
+        "height": 1254
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/safe-work-preparation.png",
+      "preview_path": "previews/illustration/safe-work-preparation.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/safe-work-preparation.json",
+      "sha256": "4d440b0c23163deb77abd8bd22e90aa93b2af65fafa56efe4a196200d513a3b4",
+      "size_bytes": 960420,
+      "keywords": [
+        "安全",
+        "準備",
+        "保護具",
+        "作業前",
+        "safety",
+        "preparation",
+        "PPE"
+      ],
+      "use_case": "安全教育、始業前準備、保護具の基本姿勢の説明。",
+      "message": "作業前に保護具を整え、安全に備える。",
+      "sample_data": false,
+      "composition": {
+        "framing": "waist-up",
+        "facing": "front",
+        "people_count": 1
+      }
+    },
+    {
+      "id": "illustration/slip-trip-prevention",
+      "title": "足元の配線を保護する",
+      "kind": "illustration",
+      "category": "07-安全・事業継続",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1536,
+      "height": 1024,
+      "canvas": {
+        "width": 1536,
+        "height": 1024
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/slip-trip-prevention.png",
+      "preview_path": "previews/illustration/slip-trip-prevention.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/slip-trip-prevention.json",
+      "sha256": "45e56d3e595446536bc900118c62c4fde0b3c6cfdde5fc038e4cbec29a4711de",
+      "size_bytes": 1061313,
+      "keywords": [
+        "転倒",
+        "つまずき",
+        "配線",
+        "通路",
+        "trip prevention",
+        "cable cover"
+      ],
+      "use_case": "作業場所や通路の配線を見直し、足元の段差やケーブルへの対策を説明する場面。",
+      "message": "むき出しのケーブルを覆い、通る場所を整える。",
+      "sample_data": false,
+      "composition": {
+        "framing": "object",
+        "facing": "front"
+      }
+    },
+    {
+      "id": "operations/incident-containment",
+      "title": "影響箇所を隔離して提供を続ける",
+      "kind": "diagram",
+      "category": "07-安全・事業継続",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/operations/incident-containment.svg",
+      "preview_path": "previews/operations/incident-containment.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/operations/incident-containment.json",
+      "sha256": "33bfb6746981f90f9f07782fa18a90b22c3eb6b8f41c5e39b90179230fdb8af8",
+      "size_bytes": 3824,
+      "keywords": [
+        "障害",
+        "影響範囲",
+        "隔離",
+        "封じ込め",
+        "復旧",
+        "サービス継続",
+        "インシデント",
+        "containment",
+        "incident",
+        "isolation"
+      ],
+      "use_case": "障害対応で、全体を止めずに影響箇所を切り離す方針と復旧条件を説明する。",
+      "message": "影響範囲を限定し、確認が済むまで通常系へ戻さない。",
+      "sample_data": false,
+      "preview_sha256": "f71ed2950b8aadaec19589d7889fc1cb3eb10c79ae61d893ff45dc4e080a7684"
+    },
+    {
+      "id": "operations/standby-failover",
+      "title": "入口を変えずに待機系へ切り替える",
+      "kind": "diagram",
+      "category": "07-安全・事業継続",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/operations/standby-failover.svg",
+      "preview_path": "previews/operations/standby-failover.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/operations/standby-failover.json",
+      "sha256": "18914f39f2f07747d12e6fbd71e432b3e96192bb3fd618b2e6923520090ea9ba",
+      "size_bytes": 3651,
+      "keywords": [
+        "フェイルオーバー",
+        "待機系",
+        "主系",
+        "冗長化",
+        "業務継続",
+        "可用性",
+        "切替",
+        "障害",
+        "standby",
+        "failover",
+        "continuity"
+      ],
+      "use_case": "業務システムの停止に備え、利用者の入口と主系・待機系の切替関係を説明する。",
+      "message": "入口を保ったまま、準備済みの系へ処理を引き継ぐ。",
+      "sample_data": false,
+      "preview_sha256": "ffce31fcc1fb70b1bd2b7fb987c0e50324f3f35a6c4fa885b69bce8b79621f31"
+    },
+    {
+      "id": "part/residual-risk",
+      "title": "対策後に残るリスクも確認する",
+      "kind": "part",
+      "category": "07-安全・事業継続",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1120,
+      "height": 380,
+      "canvas": {
+        "width": 1120,
+        "height": 380
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/part/residual-risk.svg",
+      "preview_path": "previews/part/residual-risk.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/part/residual-risk.json",
+      "sha256": "7adef1bb606fd70e6c63b0fd8f4d68d66347a691b393ae72a26b740382c03985",
+      "size_bytes": 907,
+      "keywords": [
+        "残余リスク",
+        "対策",
+        "受容",
+        "監視",
+        "リスク",
+        "residual",
+        "risk",
+        "mitigation"
+      ],
+      "use_case": "対策を実施した後に残るリスクの扱いを説明する。",
+      "message": "対策の実施後にも残る影響と発生可能性を確認する。",
+      "sample_data": false,
+      "preview_sha256": "65509a78d9e1863c4f6eef32c41c9e28d00369fa770735e26fd5de35fdb4297c"
+    },
+    {
+      "id": "planning/risk-response-matrix",
+      "title": "発生と影響から対応を決める",
+      "kind": "diagram",
+      "category": "07-安全・事業継続",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/planning/risk-response-matrix.svg",
+      "preview_path": "previews/planning/risk-response-matrix.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/planning/risk-response-matrix.json",
+      "sha256": "68f1e23cad7acd98effe16e888292555e00f6aca18ddcbd615f9be99f47d17c3",
+      "size_bytes": 2629,
+      "keywords": [
+        "リスク",
+        "リスクマトリクス",
+        "発生可能性",
+        "影響",
+        "対応",
+        "優先度",
+        "予防",
+        "risk",
+        "matrix",
+        "likelihood",
+        "impact",
+        "mitigation"
+      ],
+      "use_case": "プロジェクトのリスクを洗い出し、対策に着手する順序を決める。",
+      "message": "起こりやすく影響の大きい事象へ、先に対策を用意する。",
+      "sample_data": false,
+      "preview_sha256": "ab9a016a73458e7a5706343c3fcc397558ce8b032bd309da05673abb43f851b9"
+    },
+    {
+      "id": "planning/scenario-triggered-response",
+      "title": "状況の変化に応じた打ち手を持つ",
+      "kind": "diagram",
+      "category": "07-安全・事業継続",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/planning/scenario-triggered-response.svg",
+      "preview_path": "previews/planning/scenario-triggered-response.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/planning/scenario-triggered-response.json",
+      "sha256": "afb5e7c9b13c7cda392409f99f0fe19baf86b30b385cf523632ed6c48487d3c1",
+      "size_bytes": 3630,
+      "keywords": [
+        "シナリオ計画",
+        "不確実性",
+        "将来",
+        "需要変動",
+        "代替計画",
+        "トリガー",
+        "対応策",
+        "scenario",
+        "planning",
+        "uncertainty",
+        "contingency",
+        "trigger"
+      ],
+      "use_case": "事業計画で需要の上振れ・想定内・下振れに備える。",
+      "message": "一つの将来を決め打ちせず、条件ごとの対応を用意する。",
+      "sample_data": false,
+      "preview_sha256": "fc6c3667bd576c1714707588d7a2f1d05de3edfefc1c37f649994dbd0468fb6a"
+    },
+    {
+      "id": "safety/bowtie-barriers",
+      "title": "事故の原因側と影響側に対策を置く",
+      "kind": "diagram",
+      "category": "07-安全・事業継続",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/safety/bowtie-barriers.svg",
+      "preview_path": "previews/safety/bowtie-barriers.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/safety/bowtie-barriers.json",
+      "sha256": "2774650d2309f2c18e6ab9f72ecb68ef1a457c8b401b6ba90e895c8d03d66801",
+      "size_bytes": 3064,
+      "keywords": [
+        "ボウタイ分析",
+        "リスク",
+        "危険源",
+        "バリア",
+        "予防",
+        "緩和",
+        "bowtie",
+        "risk",
+        "barriers",
+        "prevention",
+        "mitigation"
+      ],
+      "use_case": "重要なリスクについて、発生を防ぐ対策と被害を抑える対策を整理する。",
+      "message": "中心となる事象の前後で、予防の壁と影響を抑える壁の役割を分ける。",
+      "sample_data": false,
+      "preview_sha256": "647032666151c976ddb0b26c86ac4ab214ef1b9152eb51a73e2298d19a601db7"
+    },
+    {
+      "id": "safety/hierarchy-of-controls",
+      "title": "危険をなくす対策から優先して検討する",
+      "kind": "diagram",
+      "category": "07-安全・事業継続",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/safety/hierarchy-of-controls.svg",
+      "preview_path": "previews/safety/hierarchy-of-controls.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/safety/hierarchy-of-controls.json",
+      "sha256": "984de7cd43a56a5e003ffdebaf1eda3d990d31a570526827bacbf7033059f575",
+      "size_bytes": 1301,
+      "keywords": [
+        "リスク低減",
+        "危険源",
+        "除去",
+        "代替",
+        "工学",
+        "管理",
+        "保護具",
+        "hierarchy",
+        "controls",
+        "elimination",
+        "substitution",
+        "engineering",
+        "PPE"
+      ],
+      "use_case": "安全対策で、除去・代替・工学的対策・管理的対策・保護具の違いを説明する。",
+      "message": "人の注意だけに頼らず、危険そのものや接触する仕組みから対策を考える。",
+      "sample_data": false,
+      "preview_sha256": "af82c245162f776a9aafd2d5320f0f612935a2556fbedcad58b17584df24f625"
+    },
+    {
+      "id": "safety/near-miss-learning",
+      "title": "ヒヤリとした出来事を仕組みの改善へ変える",
+      "kind": "diagram",
+      "category": "07-安全・事業継続",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/safety/near-miss-learning.svg",
+      "preview_path": "previews/safety/near-miss-learning.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/safety/near-miss-learning.json",
+      "sha256": "4175bc5f57a8f8e74c4223d43a3377b16bdf076a54dddd3932941156e19b6455",
+      "size_bytes": 1756,
+      "keywords": [
+        "ヒヤリハット",
+        "未然防止",
+        "危険",
+        "報告",
+        "学習",
+        "near",
+        "miss",
+        "safety",
+        "learning",
+        "incident",
+        "prevention"
+      ],
+      "use_case": "ヒヤリハット報告を、安全な作業条件の改善へつなぐ。",
+      "message": "事故に至らなかった出来事の条件を共有し、同じ危険を減らしたか確認する。",
+      "sample_data": false,
+      "preview_sha256": "cf7eec3b850fb4e719e957803f4bac54538a60405c9d5ad7372fd3066ae9ad03"
+    }
+  ]
+}

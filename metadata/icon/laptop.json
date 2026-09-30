@@ -1,5 +1,4 @@
 {
-  "category": "08-アイコンとピクトグラム",
   "title": "ノートパソコン",
   "description": "業務用端末やPCで行う作業を示す。",
   "keywords": [
@@ -25,6 +24,7 @@
       "下の開いた面がノートパソコンの操作面を表す。"
     ]
   },
+  "category": "12-情報・データ",
   "schema_version": 3,
   "id": "icon/laptop",
   "name": "端末表示_仕事用のPCを示す_ノートパソコン",

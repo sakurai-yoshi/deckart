@@ -5,7 +5,6 @@
     "name": "白い面を束ねる青い綴じ_背景",
     "description": "左端に重なる白い面を青い綴じがつなぎ、右側に白い面が広がる。",
     "kind": "background",
-    "category": "11-背景とフレーム",
     "width": 1672,
     "height": 941,
     "keywords": [
@@ -47,11 +46,10 @@
     "key": "background/closing-woven-horizon",
     "title": "白と青の繊維が織り重なる流れ",
     "name": "白と青の繊維が織り重なる流れ_背景",
-    "description": "白と青の繊維の束が下端を横切り、右端で持ち上がる。",
+    "description": "白と青の細い繊維が織り重なり、低く横長の帯として下部を流れる。",
     "kind": "background",
-    "category": "11-背景とフレーム",
-    "width": 1672,
-    "height": 941,
+    "width": 1664,
+    "height": 936,
     "keywords": [
       "背景",
       "白",
@@ -74,28 +72,27 @@
       "use_case": "まとめ、方針、協業、継続的な取り組みなど。",
       "message": "織り重なる繊維で、つながりと継続を印象づける。",
       "reading": [
-        "繊維の束が下部で交差し、右へ流れる。",
-        "上部には広い白い面がある。"
+        "精密な繊維の束が低い波をつくり、横方向へ連続する。",
+        "上部と中央には広い白い面がある。"
       ]
     },
     "labels": [],
     "source": "media/background/closing-woven-horizon.png",
     "generation": {
       "method": "image-generation",
-      "prompt": "Create one original premium 16:9 presentation closing-slide background. Purpose: a confident final message and next action for a manufacturer/business audience. White background; the upper sixty percent and central left are a smoothly lit empty white field for two centered lines of large navy type and small contact information, but generate NO text. Along the bottom third, a beautifully crafted broad flowing woven surface made of hundreds of extremely fine white and restrained cobalt filaments curves in a long shallow arch from lower left to right, then rises gently at far right. This must feel tactile and substantial: individual fibres gathered into ordered bands, subtle crossing weave structure, soft silk-matte highlights, authentic fine shadowing within the layered strands. Mostly pearl white, one broad cobalt thread-band woven through it, with a smaller blue underside revealed by the curl. The shape is a single continuous sculptural wave occupying roughly thirty five percent of frame, smoothly cropped at bottom, not loose scribbles or disconnected lines. Crisp macro material detail with deep craft, airy calm architectural scale, gentle directional lighting. Restrained luxurious editorial visual, brilliant white with blue accents. No text, logo, watermark, glyphs, cards, icons, factory photo, people, chrome, neon, decorative particles, or computer wallpaper flower."
+      "prompt": "Use case: precise-object-edit. Edit the supplied woven-fiber background while retaining its fine individual white and cobalt filaments, coherent over-and-under weaving, authentic satin-matte fiber sheen, crisp macro texture and carefully localized shadows. One finished opaque wide 16:9 PNG for a corporate presentation. Lower and reshape the existing flowing fiber sculpture into a shallow, wide horizontal woven band running along the very bottom of the image. The upper approximately 74 percent and the whole central field remain one continuously lit pure white surface. Keep the woven band within the lower quarter across the entire width, with a gentle low wave and subtle bands passing over one another. Both edges continue horizontally out of frame at this same low height; neither the left nor right edge rises upward. Preserve the substantial crafted weaving and fine fibers, with a single confident cobalt band woven among mostly white strands, local self-shadow and fine natural surface highlights. It must still be a visually compelling material sculpture, not just line decoration; use material precision and shallow depth to create interest. Calm immaculate white background, no broad gray cast across the upper field. No text, logo, watermark, numbers, icons, text frames, boxes, particles, people or equipment. Output only the completed reusable background."
     },
     "preview_path": "previews/background/closing-woven-horizon.png"
   },
   {
     "kind": "background",
-    "category": "11-背景とフレーム",
-    "width": 1672,
-    "height": 941,
+    "width": 1664,
+    "height": 936,
     "labels": [],
     "key": "background/comparison-folded-light",
     "title": "折面の光が広がる白い紙",
     "name": "折面の光が広がる白い紙_背景",
-    "description": "白い紙の中央に細い谷があり、下端の折面に青い光が見える。",
+    "description": "薄い白い紙の折面が下端近くで低く広がり、内側に青い反射が見える。",
     "keywords": [
       "背景",
       "白",
@@ -105,9 +102,9 @@
       "background",
       "紙",
       "折り目",
-      "中央の谷",
+      "低い折面",
       "下装飾",
-      "左右対称",
+      "左右の広がり",
       "比較",
       "本文",
       "folded paper",
@@ -115,17 +112,17 @@
     ],
     "guidance": {
       "use_case": "比較、報告、説明、提案など。",
-      "message": "対称に近い白い面と中央の光で、端正な印象を添える。",
+      "message": "低く広がる白い折面と青い光で、端正な印象を添える。",
       "reading": [
-        "中央の細い谷が下端の折り重なりへ続く。",
-        "左右と上部は明るく、下端に影と青い反射がある。"
+        "低い折面と青い反射が、下端近くで横に広がる。",
+        "上部と中央は均一な白い面でつながっている。"
       ]
     },
     "source": "media/background/comparison-folded-light.png",
     "preview_path": "previews/background/comparison-folded-light.png",
     "generation": {
       "method": "image-generation",
-      "prompt": "Create one original finished high-design 16:9 corporate PowerPoint BODY background, opaque wide landscape PNG, white base with restrained cobalt blue light. Purpose: compare two business or technical approaches side by side with equal visual weight, using editable text and evidence added later. This image contains NO words or data. Art direction: one continuous broad sheet of fine white matte sculptural paper, very shallowly folded into two nearly level planes separated by a narrow central valley of light. The central crease starts softly below the shared title area, runs almost vertically through the central gap, and gradually opens into a gorgeous small architectural folded-paper section at the bottom edge. At the bottom only, precise folds reveal slight paper thickness, satin-white highlights, soft layered shadows and a restrained cobalt-blue reflected inner face. Elegant handcrafted material precision with very fine paper texture, no glossy plastic. The quiet left and right planes are equally bright white and equal size; both remain flat enough to carry text. On an imagined 1600x900 canvas keep these regions free of folds and colored shadows: shared title x100 to1500,y70 to170; left content x100 to720,y230 to715; right content x880 to1500,y230 to715. Central sculpted valley confined between x760 and840 from y235 downward; no hard crease crosses the top title zone. The most beautiful dimensional folds and blue material reflections occupy the bottom band y770 to900 and may spread gracefully outward there, creating a well-composed complete image, not only a tiny blue corner. The exposed lower edge may curve gently but the left and right content regions should stay calmly level. White material and subtle controlled light must give this image design value at slide size. Do not surround either text area with a rectangle, a panel, a card, a line frame or a raised box; do not draw a dividing rule. The separation must come only from physically plausible continuous folded material and a delicate shadow in the central gap. Off-white background, near-white illumination, precision art-directed studio light. No text, logos, watermarks, people, products, machines, icons, numbers, arrows, flowers, particles, scenic horizon or chart."
+      "prompt": "Use case: precise-object-edit. Edit the supplied background image, preserving its exceptional white sculptural paper material, crisp physical sheet edges, fine matte grain, cobalt reflected inner faces and soft local studio shadows. Create one finished opaque wide 16:9 PNG background for corporate presentations. Change the composition: completely remove the tall central vertical slit, valley and blue spike from the upper and central field. The entire upper three quarters of the picture is one continuous evenly lit white expanse, without a divider, crease, shadow, blue mark or separate panels. Re-form the sculptural paper only very close to the lower edge: a wide, low, elegant architectural origami fold spreads left and right, with broad overlapping paper planes, a shallow horizontal valley, small precisely folded corners and a restrained cobalt reflected underside. The beautiful paper sculpture occupies the bottom quarter, stays low even at its center, and extends beyond the lower edge. Its dimensional craft and soft layered occlusion should remain richly visible, never reduced to a simple line or flat polygon. Brilliant neutral white ground, blue accents only inside the low folds, precise premium editorial photography. No text, letters, logo, watermark, frame, placeholder, text box, diagram, icons, or people. Output the complete reusable artwork only."
     }
   },
   {
@@ -134,7 +131,6 @@
     "name": "屈折する青いガラスの重なり_背景",
     "description": "右側に透明なガラスの層が重なり、下部へ青い反射光が広がる。",
     "kind": "background",
-    "category": "11-背景とフレーム",
     "width": 1672,
     "height": 941,
     "keywords": [
@@ -177,7 +173,6 @@
     "name": "白と青のサテンがつくる張り_背景",
     "description": "左側に張った白いサテンの大きな曲面があり、裏側に青が見える。",
     "kind": "background",
-    "category": "11-背景とフレーム",
     "width": 1672,
     "height": 941,
     "keywords": [
@@ -218,11 +213,10 @@
     "key": "background/cover-sculpted-strata",
     "title": "薄い青と白の層がつくる起伏",
     "name": "薄い青と白の層がつくる起伏_背景",
-    "description": "薄い青と白の層が下部に重なり、右側で大きな起伏をつくる。",
+    "description": "薄い青と白の層が下部に重なり、低く広い波状の起伏をつくる。",
     "kind": "background",
-    "category": "11-背景とフレーム",
-    "width": 1672,
-    "height": 941,
+    "width": 1664,
+    "height": 936,
     "keywords": [
       "背景",
       "白",
@@ -246,15 +240,15 @@
       "use_case": "方針、提案、成長、継続的な取り組みなど。",
       "message": "精密な積層と起伏で、積み重ねと広がりの印象を添える。",
       "reading": [
-        "下部から右側へ、細かな層のうねりが高くなる。",
-        "上部と左側には広い白い面がある。"
+        "細かな積層が低い尾根と谷をつくり、下部を横に広がる。",
+        "上部と中央には広い白い面がある。"
       ]
     },
     "labels": [],
     "source": "media/background/cover-sculpted-strata.png",
     "generation": {
       "method": "image-generation",
-      "prompt": "Use case: productivity-visual. Create ONE exceptional high-resolution 16:9 opaque PNG background for a Japanese corporate PowerPoint cover about long-term direction and improvement proposals. Target2048x1152. This must have a substantial, visually captivating sculptural focal point, with tactile material, precise layers and strong depth, rather than minimal edge decoration. Main ground luminous white. In the LOWER40% of the image, rising into the RIGHT45%, create an original abstract topography made from DOZENS of very thin closely layered sheets, like an exquisitely crafted fusion of ceramic and matte archival paper. A broad low terrain flows across the bottom and rises into two asymmetrical ridges on the right. Each ridge consists of 40-70 distinct blue and icy-white strata, each with visible physical thickness, precise crisp edges and delicate microscopic fibrous/ceramic surface grain. Layers are mechanically coherent and follow the same underlying landform; their contour is sinuous, terraced and spatial, with valleys, overlapping depth, and clear differences between exposed top surfaces and thin edges. Deep cobalt blue faces and navy shadows in the tight creases, alternating with pale blue/white strata that catch bright raking side light. Grazing studio light from upper left should reveal an extraordinary sculpted relief through real local occlusion shadows. The sculptural terrain fills a meaningful large part of the composition, especially lower right, and extends beyond the lower canvas edge. Not simply several lines, not a flat block, not a few polygons, not a side plate, no stacked rectangular books, no uniform pleated fabric. Keep the UPPER LEFT and LEFT CENTER completely quiet uniform white, including a wide clean rectangle from x0-62% and y0-56%, for a two-line large Japanese title and subtitle. The ridge can climb at the right, but must not intrude into that title rectangle; its shadow must stay local to the sculpture. Use sophisticated natural material realism with editorial restraint, broad view rather than extreme close-up, everything sharply resolved, no blur to hide detail. Strong three-dimensional visual attraction balanced with usable typographic white space. No flowers, petals, floral bloom forms, folded flower or rosette, no imitation of any operating-system wallpaper; no factory, equipment, landscape photograph, people, products, chart, fake dashboard, placeholder cards, symbols, text, letters, numerals, logos or watermark. Render ONLY the finished reusable background artwork, no sample title."
+      "prompt": "Use case: precise-object-edit. Edit this supplied blue-and-white sculpted strata background. Preserve its exquisite close-layered matte archival-paper material, distinct thin physical edges, microscopic fibrous grain, blue/icy-white layers, coherent flowing topology, dimensional shadows and precise raking studio light. Create one finished opaque wide 16:9 PNG corporate presentation background. Lower and broaden the landform: replace the tall right mountain with low, horizontally spreading sinuous layered ridges contained in the lower third of the composition. The rightmost peak rises no higher than the bottom third and joins the adjacent relief through a smooth shallow flowing curve; no vertical wall or steep upward spike at the right edge. Across the entire upper two thirds, including upper right and central field, keep continuous clean evenly lit white negative space. The sculpture should retain 40-70 finely separated sheets and captivating depth, through folded contours, shallow valleys, broad undulating surfaces and authentic local shadows, rather than through tall height. Rich cobalt and pale white alternating strata sweep broadly across the bottom and continue beyond the lower edge. Keep the bold sculptural craft and subtle natural material detail; no blur, flat vector simplification or generic thin waves. White field with restrained blue accent, no gray vignette. No text, placeholder, text box, panels, dividing rules, logo, watermark, products, people, equipment, flower or rosette. Output only the finished background artwork."
     },
     "preview_path": "previews/background/cover-sculpted-strata.png"
   },
@@ -264,7 +258,6 @@
     "name": "端にきらめく青い光学ガラス_背景",
     "description": "右端の細長いガラスに青い屈折があり、下部に細かな反射光が広がる。",
     "kind": "background",
-    "category": "11-背景とフレーム",
     "width": 1672,
     "height": 941,
     "keywords": [
@@ -307,7 +300,6 @@
     "name": "開いた青い陶器の曲面_背景",
     "description": "左側に白い陶器の弧と丸い台座があり、弧の内側に深い青が見える。",
     "kind": "background",
-    "category": "11-背景とフレーム",
     "width": 1672,
     "height": 941,
     "keywords": [
@@ -346,7 +338,6 @@
   },
   {
     "kind": "background",
-    "category": "11-背景とフレーム",
     "width": 1672,
     "height": 941,
     "labels": [],
@@ -393,7 +384,6 @@
     "name": "精密な金属面のうねり_背景",
     "description": "小さな開口が規則的に並ぶ金属面が下端で波打ち、下に青い面が見える。",
     "kind": "background",
-    "category": "11-背景とフレーム",
     "width": 1672,
     "height": 941,
     "keywords": [
@@ -437,7 +427,6 @@
     "name": "深い青へ続く白い開口_背景",
     "description": "右上に重なる白い曲面の開口があり、奥へ続く青い空間が見える。",
     "kind": "background",
-    "category": "11-背景とフレーム",
     "width": 1672,
     "height": 941,
     "keywords": [
@@ -481,7 +470,6 @@
     "name": "白い段差に沿う青い間接光_背景",
     "description": "下部の白い段差に沿って青い間接光が広がる。",
     "kind": "background",
-    "category": "11-背景とフレーム",
     "width": 1672,
     "height": 941,
     "keywords": [
@@ -525,7 +513,6 @@
     "name": "白と青の開いた弧_背景",
     "description": "下端を横切る白い弧の内側に青が見え、両端が左右で立ち上がる。",
     "kind": "background",
-    "category": "11-背景とフレーム",
     "width": 1672,
     "height": 941,
     "keywords": [
@@ -569,7 +556,6 @@
     "name": "上端に連なる白と青の折り紙_背景",
     "description": "上端の白い折り紙の曲面に青い裏面が見え、その下へ白い面が広がる。",
     "kind": "background",
-    "category": "11-背景とフレーム",
     "width": 1672,
     "height": 941,
     "keywords": [

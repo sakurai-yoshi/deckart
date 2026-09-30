@@ -1,0 +1,50 @@
+{
+  "title": "網羅性",
+  "description": "対象全体に対する対応範囲を見る。",
+  "keywords": [
+    "網羅",
+    "カバレッジ",
+    "範囲",
+    "対応",
+    "coverage",
+    "completeness",
+    "covered",
+    "scope"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "確認・対応が全体のどこまで届いたかを説明する。",
+    "message": "対象全体に対する対応範囲を見る。",
+    "reading": [
+      "全体の格子が確認対象を表す。",
+      "色が付いた区画と空いた区画が対応範囲の違いを示す。"
+    ]
+  },
+  "category": "03-品質・改善",
+  "schema_version": 3,
+  "id": "icon/coverage",
+  "name": "網羅性_情報と関係",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/coverage.svg",
+  "metadata_path": "metadata/icon/coverage.json",
+  "preview_path": "assets/icon/coverage.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/coverage\n網羅性_情報と関係\n網羅性\n確認・対応が全体のどこまで届いたかを説明する。\n対象全体に対する対応範囲を見る。\n全体の格子が確認対象を表す。\n色が付いた区画と空いた区画が対応範囲の違いを示す。\n網羅 カバレッジ 範囲 対応 coverage completeness covered scope",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "8a00e7039b331ce0a15ab0772d9f4d81e4a4e66d09ed5323d3fbb3f30bae7ef6",
+  "size_bytes": 1358
+}

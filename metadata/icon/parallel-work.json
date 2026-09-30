@@ -1,0 +1,49 @@
+{
+  "title": "並行作業",
+  "description": "複数の流れを並行して進める。",
+  "keywords": [
+    "並行",
+    "並列",
+    "同時",
+    "作業",
+    "parallel",
+    "concurrent",
+    "simultaneous"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "複数の仕事を同時に進める構成を示す。",
+    "message": "複数の流れを並行して進める。",
+    "reading": [
+      "別々の三本の経路が独立した作業を表す。",
+      "同じ向きと始終点が同時に進む関係を表す。"
+    ]
+  },
+  "category": "02-計画・進捗",
+  "schema_version": 3,
+  "id": "icon/parallel-work",
+  "name": "並行作業_情報と関係",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/parallel-work.svg",
+  "metadata_path": "metadata/icon/parallel-work.json",
+  "preview_path": "assets/icon/parallel-work.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/parallel-work\n並行作業_情報と関係\n並行作業\n複数の仕事を同時に進める構成を示す。\n複数の流れを並行して進める。\n別々の三本の経路が独立した作業を表す。\n同じ向きと始終点が同時に進む関係を表す。\n並行 並列 同時 作業 parallel concurrent simultaneous",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "790674e8262280c8ffc0bdf49fa482fbaeef6ffc60fbb0b48f5cf5d28c9135a3",
+  "size_bytes": 1305
+}

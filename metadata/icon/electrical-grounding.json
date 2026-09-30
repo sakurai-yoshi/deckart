@@ -1,0 +1,49 @@
+{
+  "title": "接地",
+  "description": "設備を接地につなぐ。",
+  "keywords": [
+    "接地",
+    "アース",
+    "電気",
+    "設備",
+    "grounding",
+    "earthing",
+    "electrical"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "設備の接地や電気的な保護の説明に添える。",
+    "message": "設備を接地につなぐ。",
+    "reading": [
+      "上の箱が電気を扱う設備を表す。",
+      "下の短くなる横線が接地先を表す。"
+    ]
+  },
+  "category": "07-安全・事業継続",
+  "schema_version": 3,
+  "id": "icon/electrical-grounding",
+  "name": "接地_設備と働き",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/electrical-grounding.svg",
+  "metadata_path": "metadata/icon/electrical-grounding.json",
+  "preview_path": "assets/icon/electrical-grounding.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/electrical-grounding\n接地_設備と働き\n接地\n設備の接地や電気的な保護の説明に添える。\n設備を接地につなぐ。\n上の箱が電気を扱う設備を表す。\n下の短くなる横線が接地先を表す。\n接地 アース 電気 設備 grounding earthing electrical",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "c5e200ef458b8b43a8789e37f6c3c36336e70a9da0317683a251beb75bc96b09",
+  "size_bytes": 747
+}

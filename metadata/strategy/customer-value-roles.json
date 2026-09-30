@@ -1,5 +1,4 @@
 {
-  "category": "05-組織と戦略",
   "title": "三つの役割で顧客価値を支える",
   "description": "企画・提供・支援が同じ顧客価値を目指し、役割の間でも連携する関係を示す。",
   "keywords": [
@@ -101,6 +100,7 @@
     ]
   },
   "kind": "diagram",
+  "category": "10-顧客・営業",
   "schema_version": 3,
   "id": "strategy/customer-value-roles",
   "name": "顧客中心_価値を支える役割_三部門の協働",
@@ -123,5 +123,6 @@
     "data": false
   },
   "sha256": "7510d14632f1fe32e25f69cb8670682d30fee210c8e7ae2d845c5d6e2310558e",
-  "size_bytes": 2930
+  "size_bytes": 2930,
+  "preview_sha256": "85a182cc141fe1c7ee851cebe02842f66238a23894b592cff38bc25c1c391a8c"
 }

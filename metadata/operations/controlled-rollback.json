@@ -1,5 +1,4 @@
 {
-  "category": "01-業務プロセス",
   "title": "確認できない変更を安定版へ戻す",
   "description": "安定版を残して変更を限定適用し、確認結果によって継続か切戻しかを分ける。",
   "keywords": [
@@ -122,6 +121,7 @@
     "relation": "controlled-change-with-rollback",
     "reading_direction": "left-to-right"
   },
+  "category": "12-情報・データ",
   "schema_version": 3,
   "id": "operations/controlled-rollback",
   "name": "変更管理_確認できない変更を安定版へ戻す_限定適用と切戻し",
@@ -144,5 +144,6 @@
     "data": false
   },
   "sha256": "54010784f6bab33d87c7b3d79119e5cd6f84250106602d84167b0f620fc4e3b6",
-  "size_bytes": 3050
+  "size_bytes": 3050,
+  "preview_sha256": "a543665bdd07e9b66a3b716a79c1c1e615d7754bd3fba1c9bf321ed0901bde52"
 }

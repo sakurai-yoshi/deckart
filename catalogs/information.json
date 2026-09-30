@@ -1,0 +1,2854 @@
+{
+  "version": "2.1.0",
+  "raw_base": "https://raw.githubusercontent.com/sakurai-yoshi/deckart/v2.1.0/",
+  "category": "12-情報・データ",
+  "asset_count": 69,
+  "assets": [
+    {
+      "id": "data/ai-exception-review",
+      "title": "AIの適用条件から人の確認が必要な例外を分ける",
+      "kind": "diagram",
+      "category": "12-情報・データ",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/data/ai-exception-review.svg",
+      "preview_path": "previews/data/ai-exception-review.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/data/ai-exception-review.json",
+      "sha256": "197ac0386767f7a956b8041bd062fcefdb1a15f33b787e3052a938d16601cc8a",
+      "size_bytes": 1933,
+      "keywords": [
+        "AI",
+        "人の確認",
+        "例外判断",
+        "適用条件",
+        "根拠",
+        "human",
+        "review",
+        "AI",
+        "escalation",
+        "exception",
+        "confidence"
+      ],
+      "use_case": "AIを業務へ組み込む際、通常の適用範囲と人が判断する範囲を整理する。",
+      "message": "根拠と影響を踏まえた条件を設け、未確認や例外を人の判断へ渡す。",
+      "sample_data": false,
+      "preview_sha256": "6f789712939831a6552889ea11cb56079493255205992f3f147a11871cdbee75"
+    },
+    {
+      "id": "data/command-and-event",
+      "title": "実行の依頼と起きた事実の通知を分ける",
+      "kind": "diagram",
+      "category": "12-情報・データ",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/data/command-and-event.svg",
+      "preview_path": "previews/data/command-and-event.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/data/command-and-event.json",
+      "sha256": "a6e4bbf724dce50e75d9cd0931d581c572ead471809f8216670992440b7bbaf9",
+      "size_bytes": 2232,
+      "keywords": [
+        "コマンド",
+        "イベント",
+        "通知",
+        "疎結合",
+        "連携",
+        "command",
+        "event",
+        "publish",
+        "subscribe",
+        "integration"
+      ],
+      "use_case": "システム連携で、処理を頼むメッセージと結果を通知するメッセージを説明する。",
+      "message": "命令は実行してほしい相手へ渡し、イベントは起きた事実として複数の処理へ共有する。",
+      "sample_data": false,
+      "preview_sha256": "b3fa066f57e0cc43d3668b20d006953b2046fc16047cbe604c8a0587da62bd2a"
+    },
+    {
+      "id": "data/defense-in-depth",
+      "title": "認証・権限・監視を重ねて情報を守る",
+      "kind": "diagram",
+      "category": "12-情報・データ",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/data/defense-in-depth.svg",
+      "preview_path": "previews/data/defense-in-depth.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/data/defense-in-depth.json",
+      "sha256": "f6260f776df1f07833359206eb3f6a100ece60717254c4692d8c5210f61063c4",
+      "size_bytes": 1777,
+      "keywords": [
+        "多層防御",
+        "認証",
+        "認可",
+        "権限",
+        "監視",
+        "情報保護",
+        "defense",
+        "depth",
+        "authentication",
+        "authorization",
+        "monitoring"
+      ],
+      "use_case": "情報セキュリティの多層防御を、役割の異なる確認として説明する。",
+      "message": "一つの入口だけに依存せず、接続・操作・情報利用の各段階で守る。",
+      "sample_data": false,
+      "preview_sha256": "c04086b15bc72c587a98fb5ec03075b9089a5bc198b1d6f3cf3744524c338cbf"
+    },
+    {
+      "id": "data/evidence-to-claim",
+      "title": "根拠と結論の間にある推論を明らかにする",
+      "kind": "diagram",
+      "category": "12-情報・データ",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/data/evidence-to-claim.svg",
+      "preview_path": "previews/data/evidence-to-claim.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/data/evidence-to-claim.json",
+      "sha256": "967145b15bc4ab38f3c3d12a3c9af4b876644a292a19fbd43a38793ea4cbde2c",
+      "size_bytes": 1876,
+      "keywords": [
+        "根拠",
+        "結論",
+        "主張",
+        "推論",
+        "説明可能性",
+        "検証",
+        "evidence",
+        "claim",
+        "reasoning",
+        "argument",
+        "traceability"
+      ],
+      "use_case": "報告やAIの回答を確認する際、事実から結論までのつながりを説明する。",
+      "message": "根拠を添えるだけでなく、その事実から結論を導く理由を明らかにする。",
+      "sample_data": false,
+      "preview_sha256": "173da3b948e6ce4fc9185354c22fd18d835147d4219dfbb25b1fda2fe8e7311d"
+    },
+    {
+      "id": "data/forecast-actual-feedback",
+      "title": "予測を実績と照合して更新する",
+      "kind": "diagram",
+      "category": "12-情報・データ",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/data/forecast-actual-feedback.svg",
+      "preview_path": "previews/data/forecast-actual-feedback.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/data/forecast-actual-feedback.json",
+      "sha256": "b499502dd1e530084e81c66f4a0e597e3fea57112529e311ed14cb13eef3fab8",
+      "size_bytes": 1900,
+      "keywords": [
+        "予測",
+        "実績",
+        "照合",
+        "モデル更新",
+        "精度",
+        "偏り",
+        "forecast",
+        "actual",
+        "feedback",
+        "model",
+        "monitoring"
+      ],
+      "use_case": "需要や保全の予測モデルを使う際、利用後の確認と更新を説明する。",
+      "message": "予測の出力だけで終わらず、実績との違いと条件の変化を次の更新へ返す。",
+      "sample_data": false,
+      "preview_sha256": "7ba358b54c2e97d9638a7820b2869c46d0e9b7a069b8a48d70b474a92fe7d8e5"
+    },
+    {
+      "id": "data/ownership-stewardship",
+      "title": "データの業務責任・品質管理・技術を分担する",
+      "kind": "diagram",
+      "category": "12-情報・データ",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/data/ownership-stewardship.svg",
+      "preview_path": "previews/data/ownership-stewardship.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/data/ownership-stewardship.json",
+      "sha256": "66fc34c9fc896a699cb3dfcbfc35ee4a15b4cdac612afc447097c0eb74991b84",
+      "size_bytes": 1976,
+      "keywords": [
+        "データオーナー",
+        "スチュワード",
+        "責任",
+        "品質",
+        "ガバナンス",
+        "data",
+        "ownership",
+        "stewardship",
+        "governance",
+        "custodian"
+      ],
+      "use_case": "データガバナンスの体制づくりで、担当の役割を明確にする。",
+      "message": "データの意味と目的、品質と定義、技術的な実装を分けて責任を持つ。",
+      "sample_data": false,
+      "preview_sha256": "517ad2ec8bdc4e2279674e6b963dbe53afbb6e8300b464c70ffbbd81ab0f849a"
+    },
+    {
+      "id": "data/read-write-separation",
+      "title": "更新する記録と読みやすい表示を分ける",
+      "kind": "diagram",
+      "category": "12-情報・データ",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/data/read-write-separation.svg",
+      "preview_path": "previews/data/read-write-separation.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/data/read-write-separation.json",
+      "sha256": "2f984ba7ccc462b167dd3675dcc2ae2a0e161af51971a34f626ec4de33dcebda",
+      "size_bytes": 1894,
+      "keywords": [
+        "CQRS",
+        "参照",
+        "更新",
+        "データモデル",
+        "最新性",
+        "read",
+        "write",
+        "model",
+        "projection",
+        "consistency"
+      ],
+      "use_case": "業務データの更新と参照を分けたシステム構成を説明する。",
+      "message": "変更の記録を保持し、参照に適した形へ反映することで役割を分ける。",
+      "sample_data": false,
+      "preview_sha256": "1de096b137ce90f80a941551ef766e78951a70359bd84ee4a968a70c092e3b29"
+    },
+    {
+      "id": "data/retention-lifecycle",
+      "title": "利用・保管・処分を情報のライフサイクルで考える",
+      "kind": "diagram",
+      "category": "12-情報・データ",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/data/retention-lifecycle.svg",
+      "preview_path": "previews/data/retention-lifecycle.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/data/retention-lifecycle.json",
+      "sha256": "2b4ecbd6ffe876ad9f587779acce6766d3898d7e86e3f459eb0cb8a9f22cd270",
+      "size_bytes": 1527,
+      "keywords": [
+        "保存期間",
+        "保管",
+        "廃棄",
+        "ライフサイクル",
+        "文書情報",
+        "retention",
+        "lifecycle",
+        "archive",
+        "disposal"
+      ],
+      "use_case": "文書やデータの整理で、利用目的と保管の終了条件を共有する。",
+      "message": "作成時から利用と保管の目的を定め、必要性と適用条件を確認して処分する。",
+      "sample_data": false,
+      "preview_sha256": "d70ce66fed5a84e3a30482828fc8d79eea97ef5ecd5fc7090932e0ca48932857"
+    },
+    {
+      "id": "data/shared-master-data",
+      "title": "共通の識別と属性を部門横断で使う",
+      "kind": "diagram",
+      "category": "12-情報・データ",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/data/shared-master-data.svg",
+      "preview_path": "previews/data/shared-master-data.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/data/shared-master-data.json",
+      "sha256": "0311b88559974eb8fd6409835934c97a3103d95fa801e8e757491a43cbe3cb75",
+      "size_bytes": 2466,
+      "keywords": [
+        "マスターデータ",
+        "MDM",
+        "品番",
+        "共通ID",
+        "属性",
+        "整合",
+        "master",
+        "data",
+        "shared",
+        "identifier",
+        "consistency"
+      ],
+      "use_case": "製品・部品・取引先などのマスターデータが担う役割を説明する。",
+      "message": "同じ対象を共通の識別と属性で扱い、部門間の対応違いを減らす。",
+      "sample_data": false,
+      "preview_sha256": "ea7dd644d346329087997fb195f3a2b239560a4421287055902d87dfa4f3ecef"
+    },
+    {
+      "id": "data/transformation-lineage",
+      "title": "データの出所と変換をたどる",
+      "kind": "diagram",
+      "category": "12-情報・データ",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/data/transformation-lineage.svg",
+      "preview_path": "previews/data/transformation-lineage.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/data/transformation-lineage.json",
+      "sha256": "891dbdd88ced43b816a69fceacfb959375eea24a5b6366a3642189170d38179c",
+      "size_bytes": 1798,
+      "keywords": [
+        "データリネージ",
+        "来歴",
+        "変換",
+        "結合",
+        "派生",
+        "追跡",
+        "data",
+        "lineage",
+        "transformation",
+        "provenance"
+      ],
+      "use_case": "分析結果の確認や修正影響の調査で、派生データの来歴を説明する。",
+      "message": "データの出所と変換処理を記録し、結果から元へたどれるようにする。",
+      "sample_data": false,
+      "preview_sha256": "51649e20cd0a6b807c824bc3cb0cf0107cfb5d536446a573adbcd3c53a04c20a"
+    },
+    {
+      "id": "icon/access-control",
+      "title": "アクセス権限",
+      "kind": "icon",
+      "category": "12-情報・データ",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/access-control.svg",
+      "preview_path": "assets/icon/access-control.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/access-control.json",
+      "sha256": "a54a38c6f752fa856c91eb4c5001f5807aaf28d970f56a2fd64c99ebb9b5688c",
+      "size_bytes": 910,
+      "keywords": [
+        "権限",
+        "許可",
+        "制限",
+        "アクセス",
+        "ロール",
+        "permission",
+        "authorization",
+        "access",
+        "control",
+        "role"
+      ],
+      "use_case": "利用者の権限や操作制限を説明する。",
+      "message": "利用者に応じてできる操作を分ける。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/access-protection",
+      "title": "許可された入口",
+      "kind": "icon",
+      "category": "12-情報・データ",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/access-protection.svg",
+      "preview_path": "assets/icon/access-protection.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/access-protection.json",
+      "sha256": "b5f3737f27c1177f035e536ed68cfcbbcbc4414c8e191400be7f4998a4c2253f",
+      "size_bytes": 1495,
+      "keywords": [
+        "アクセス",
+        "権限",
+        "許可",
+        "情報",
+        "保管庫",
+        "access",
+        "protection",
+        "authorization",
+        "vault"
+      ],
+      "use_case": "保管情報へのアクセスを権限に応じて開く仕組みを示す。",
+      "message": "権限を持つ人が保管情報へアクセスする。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/analytic-insight",
+      "title": "変化点を見つける",
+      "kind": "icon",
+      "category": "12-情報・データ",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/analytic-insight.svg",
+      "preview_path": "assets/icon/analytic-insight.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/analytic-insight.json",
+      "sha256": "7858fe3670cbead74e7b51466157985167abfc6b2ad3233a4697d2c642a35c3b",
+      "size_bytes": 1057,
+      "keywords": [
+        "変化点",
+        "傾向",
+        "分析",
+        "発見",
+        "インサイト",
+        "trend",
+        "change",
+        "point",
+        "analytic",
+        "insight"
+      ],
+      "use_case": "データの変化に注目して原因や改善の手掛かりを探す。",
+      "message": "変化の前後を詳しく確かめる。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/analytics",
+      "title": "分析",
+      "kind": "icon",
+      "category": "12-情報・データ",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/analytics.svg",
+      "preview_path": "assets/icon/analytics.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/analytics.json",
+      "sha256": "8e9ddb17072987654d50d1a5b5a9f8829f01835b3a39ada40aea8b638b1df365",
+      "size_bytes": 1222,
+      "keywords": [
+        "分析",
+        "数値",
+        "データ",
+        "傾向",
+        "可視化",
+        "analytics",
+        "analysis",
+        "insights"
+      ],
+      "use_case": "データ分析や実績の検討の見出しに添える。",
+      "message": "データから傾向を読み取る。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/api",
+      "title": "API連携",
+      "kind": "icon",
+      "category": "12-情報・データ",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/api.svg",
+      "preview_path": "assets/icon/api.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/api.json",
+      "sha256": "34d63284ca994d472a2adace20eb57c52c00aa0e7c071b77255b44127b7a65c6",
+      "size_bytes": 827,
+      "keywords": [
+        "API",
+        "インターフェース",
+        "連携",
+        "プログラム",
+        "接続",
+        "integration",
+        "interface",
+        "code",
+        "API"
+      ],
+      "use_case": "システム間のAPI連携やプログラムとの接続を示す。",
+      "message": "決まった形式で機能を呼び出す。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/audit-trail",
+      "title": "操作の証跡",
+      "kind": "icon",
+      "category": "12-情報・データ",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/audit-trail.svg",
+      "preview_path": "assets/icon/audit-trail.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/audit-trail.json",
+      "sha256": "56e5d2251e0a402050a5703f01fc08562e3fa7ee37361e50d0e9badc0d8feb8a",
+      "size_bytes": 1116,
+      "keywords": [
+        "証跡",
+        "操作履歴",
+        "監査",
+        "記録",
+        "ログ",
+        "audit",
+        "trail",
+        "activity",
+        "log",
+        "evidence"
+      ],
+      "use_case": "操作や判断を後から追える記録を説明する。",
+      "message": "実施した操作を時系列で追えるように残す。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/authentication",
+      "title": "本人認証",
+      "kind": "icon",
+      "category": "12-情報・データ",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/authentication.svg",
+      "preview_path": "assets/icon/authentication.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/authentication.json",
+      "sha256": "eead07dc5565a3571d084901f38abcb9859bca8f5d4b7f455fd187e3e0affe92",
+      "size_bytes": 1140,
+      "keywords": [
+        "本人確認",
+        "認証",
+        "指紋",
+        "ログイン",
+        "identity",
+        "authentication",
+        "fingerprint",
+        "login"
+      ],
+      "use_case": "本人認証やログイン確認の工程を示す。",
+      "message": "利用者の同一性を確かめる。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/backup",
+      "title": "バックアップ",
+      "kind": "icon",
+      "category": "12-情報・データ",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/backup.svg",
+      "preview_path": "assets/icon/backup.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/backup.json",
+      "sha256": "44b1b17efca4de2be420aef9b41fbb921a1c3a568be5d21421716a76a106f555",
+      "size_bytes": 1047,
+      "keywords": [
+        "バックアップ",
+        "保存",
+        "復旧",
+        "保全",
+        "backup",
+        "restore",
+        "recovery",
+        "copy"
+      ],
+      "use_case": "バックアップや復旧用データの保存を示す。",
+      "message": "元の状態に戻せる控えを残す。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/caching",
+      "title": "キャッシュ",
+      "kind": "icon",
+      "category": "12-情報・データ",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/caching.svg",
+      "preview_path": "assets/icon/caching.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/caching.json",
+      "sha256": "799d651c05ebfbe8f36c03d08ffbe30748ef905678b09ce3b269dd5eb22613c2",
+      "size_bytes": 1194,
+      "keywords": [
+        "キャッシュ",
+        "一時保管",
+        "高速化",
+        "再利用",
+        "cache",
+        "caching",
+        "temporary",
+        "storage"
+      ],
+      "use_case": "よく使う情報を近くに一時保持する仕組みを示す。",
+      "message": "必要な情報を手元の保管先から再利用する。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/cloud",
+      "title": "クラウド",
+      "kind": "icon",
+      "category": "12-情報・データ",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/cloud.svg",
+      "preview_path": "assets/icon/cloud.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/cloud.json",
+      "sha256": "900d258cf4bb1a58a8ecda83d37b659f142005d3c0d3559aa4d23227aab6b304",
+      "size_bytes": 607,
+      "keywords": [
+        "クラウド",
+        "共有",
+        "オンライン",
+        "サービス",
+        "保管",
+        "cloud",
+        "online",
+        "service",
+        "hosting"
+      ],
+      "use_case": "端末の外にある共有サービスを示す場面。",
+      "message": "ネットワークを通して利用するサービスを示す。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/connected-systems",
+      "title": "データをつなぐ基盤",
+      "kind": "icon",
+      "category": "12-情報・データ",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/connected-systems.svg",
+      "preview_path": "assets/icon/connected-systems.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/connected-systems.json",
+      "sha256": "e1be85c30c3d6ab4f4f976f9bbec26244b284926349d95b70822afba7d1fd5b8",
+      "size_bytes": 1479,
+      "keywords": [
+        "システム",
+        "基盤",
+        "クラウド",
+        "サーバー",
+        "端末",
+        "system",
+        "integration",
+        "infrastructure",
+        "connected"
+      ],
+      "use_case": "サーバー・端末・クラウド間のデータ連携を説明する。",
+      "message": "異なるシステムを接続して情報を扱う。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/data-cleansing",
+      "title": "データの整備",
+      "kind": "icon",
+      "category": "12-情報・データ",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/data-cleansing.svg",
+      "preview_path": "assets/icon/data-cleansing.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/data-cleansing.json",
+      "sha256": "cfeab3115a794821bba8c9f1bca25f087068fc843f4c4111efc01095c4f5ced7",
+      "size_bytes": 991,
+      "keywords": [
+        "データ整備",
+        "クレンジング",
+        "修正",
+        "品質",
+        "cleansing",
+        "cleanup",
+        "normalization"
+      ],
+      "use_case": "表記揺れや誤りを整えるデータ整備を説明する。",
+      "message": "記録の誤りやばらつきを整える。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/data-lineage",
+      "title": "データの来歴",
+      "kind": "icon",
+      "category": "12-情報・データ",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/data-lineage.svg",
+      "preview_path": "assets/icon/data-lineage.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/data-lineage.json",
+      "sha256": "1a4ac5c027c3bbd63b751108c5c58580e25425062fac6711e78296c24ba77e7f",
+      "size_bytes": 1199,
+      "keywords": [
+        "来歴",
+        "系譜",
+        "由来",
+        "データ",
+        "lineage",
+        "provenance",
+        "source",
+        "transformation"
+      ],
+      "use_case": "結果のデータがどこから作られたかを説明する。",
+      "message": "元の情報から結果までの経路をたどる。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/data-retention",
+      "title": "データの保存期間",
+      "kind": "icon",
+      "category": "12-情報・データ",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/data-retention.svg",
+      "preview_path": "assets/icon/data-retention.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/data-retention.json",
+      "sha256": "472c0bd55dabcb773685f7becf385f4b0766c0ab8182fb782f27705b7ca52d15",
+      "size_bytes": 1084,
+      "keywords": [
+        "保存期間",
+        "保持",
+        "保管",
+        "記録",
+        "retention",
+        "period",
+        "records",
+        "lifecycle"
+      ],
+      "use_case": "業務記録を保持する期間を説明する。",
+      "message": "記録を必要な期間に合わせて保管する。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/data-validation",
+      "title": "データの検証",
+      "kind": "icon",
+      "category": "12-情報・データ",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/data-validation.svg",
+      "preview_path": "assets/icon/data-validation.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/data-validation.json",
+      "sha256": "99cecf699531a388d49196e3d4e83bd3a2e5803b1a8c9df91a5681599f6d3d3e",
+      "size_bytes": 958,
+      "keywords": [
+        "データ検証",
+        "妥当性",
+        "入力",
+        "整合",
+        "validation",
+        "consistency",
+        "input",
+        "data"
+      ],
+      "use_case": "入力データや取り込んだ記録の妥当性を確かめる工程を示す。",
+      "message": "データが必要な条件を満たすか確かめる。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/database",
+      "title": "データベース",
+      "kind": "icon",
+      "category": "12-情報・データ",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/database.svg",
+      "preview_path": "assets/icon/database.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/database.json",
+      "sha256": "965c94dd0ae539ed6cd13918009d65e5b8bad758b13e5df088d6cb27dcf509ef",
+      "size_bytes": 890,
+      "keywords": [
+        "データベース",
+        "DB",
+        "データ",
+        "保存",
+        "蓄積",
+        "database",
+        "storage",
+        "structured",
+        "data"
+      ],
+      "use_case": "システム構成でデータの保管先を示す。",
+      "message": "データを一か所に蓄積して利用する。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/duplicate-removal",
+      "title": "重複の除去",
+      "kind": "icon",
+      "category": "12-情報・データ",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/duplicate-removal.svg",
+      "preview_path": "assets/icon/duplicate-removal.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/duplicate-removal.json",
+      "sha256": "993e88d14e48a249524b3db2abf185a8d194c28c717a2f27cd59a260b3034062",
+      "size_bytes": 1214,
+      "keywords": [
+        "重複",
+        "除去",
+        "一意",
+        "名寄せ",
+        "duplicate",
+        "deduplication",
+        "uniqueness"
+      ],
+      "use_case": "重複した記録を整理して一つにする処理を示す。",
+      "message": "同じ内容が重なった記録を取り除く。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/edge-processing",
+      "title": "現場での処理",
+      "kind": "icon",
+      "category": "12-情報・データ",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/edge-processing.svg",
+      "preview_path": "assets/icon/edge-processing.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/edge-processing.json",
+      "sha256": "74685fc8f19ffca769762c3d7debffc86cbba234e6121740e6bfc769bb0300fe",
+      "size_bytes": 1388,
+      "keywords": [
+        "エッジ",
+        "処理",
+        "現場",
+        "分散",
+        "edge",
+        "computing",
+        "local",
+        "processing"
+      ],
+      "use_case": "データが生まれる場所の近くで処理する構成を示す。",
+      "message": "現場の近くで情報を処理する。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/encryption",
+      "title": "暗号化",
+      "kind": "icon",
+      "category": "12-情報・データ",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/encryption.svg",
+      "preview_path": "assets/icon/encryption.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/encryption.json",
+      "sha256": "add6588ba8b646daddfdf0064b5e61936f9b4003c500837a38d5cd9194f08b71",
+      "size_bytes": 1382,
+      "keywords": [
+        "暗号化",
+        "暗号",
+        "情報",
+        "保護",
+        "encryption",
+        "cryptography",
+        "data",
+        "confidentiality"
+      ],
+      "use_case": "内容を読み取れない形式に変換して保護する処理を示す。",
+      "message": "鍵で解くまで内容を保護する。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/key",
+      "title": "鍵・認証情報",
+      "kind": "icon",
+      "category": "12-情報・データ",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/key.svg",
+      "preview_path": "assets/icon/key.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/key.json",
+      "sha256": "4582241ee23df9096d34af79724c14e9abb83c1ac414077f51c50258075a7fbd",
+      "size_bytes": 751,
+      "keywords": [
+        "鍵",
+        "秘密鍵",
+        "キー",
+        "認証情報",
+        "パスワード",
+        "key",
+        "credentials",
+        "secret",
+        "password"
+      ],
+      "use_case": "アクセスに必要な鍵や認証情報の項目に添える。",
+      "message": "開くために管理する鍵が必要になる。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/laptop",
+      "title": "ノートパソコン",
+      "kind": "icon",
+      "category": "12-情報・データ",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/laptop.svg",
+      "preview_path": "assets/icon/laptop.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/laptop.json",
+      "sha256": "d4dff9f8147926c6b793ea18256ee69f20fa5581659f4734c7115b06b76d1117",
+      "size_bytes": 777,
+      "keywords": [
+        "端末",
+        "PC",
+        "パソコン",
+        "ノートパソコン",
+        "デジタル",
+        "業務端末",
+        "laptop",
+        "computer",
+        "device"
+      ],
+      "use_case": "PCを使う作業や、業務端末を示す場面。",
+      "message": "パソコンで行う仕事や操作を示す。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/monitoring",
+      "title": "監視",
+      "kind": "icon",
+      "category": "12-情報・データ",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/monitoring.svg",
+      "preview_path": "assets/icon/monitoring.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/monitoring.json",
+      "sha256": "562f83d7a274b42b77a6fca53eaf7bc350006f9ad84fd58836eb5211c640dfd4",
+      "size_bytes": 1169,
+      "keywords": [
+        "監視",
+        "モニタリング",
+        "運用",
+        "可観測",
+        "状態",
+        "monitoring",
+        "observability",
+        "watch"
+      ],
+      "use_case": "状態監視や継続的な確認の項目を示す。",
+      "message": "状態の変化を見逃さず観察する。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/offline-mode",
+      "title": "オフライン利用",
+      "kind": "icon",
+      "category": "12-情報・データ",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/offline-mode.svg",
+      "preview_path": "assets/icon/offline-mode.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/offline-mode.json",
+      "sha256": "7abfaad25cf057d0699a5a2ce0b922823bc756fb2bf5f31091c19a7707944853",
+      "size_bytes": 932,
+      "keywords": [
+        "オフライン",
+        "切断",
+        "通信なし",
+        "ローカル",
+        "offline",
+        "disconnected",
+        "local",
+        "mode"
+      ],
+      "use_case": "ネットワークにつながらない環境での利用を示す。",
+      "message": "接続がなくても手元の環境で扱う。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/privacy",
+      "title": "機密情報",
+      "kind": "icon",
+      "category": "12-情報・データ",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/privacy.svg",
+      "preview_path": "assets/icon/privacy.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/privacy.json",
+      "sha256": "6c9ace1f69399949e3ce65b121ae8e2974fa204dcf985dd845e69791d066670c",
+      "size_bytes": 1331,
+      "keywords": [
+        "機密",
+        "個人情報",
+        "秘密",
+        "非公開",
+        "マスキング",
+        "privacy",
+        "confidential",
+        "redaction"
+      ],
+      "use_case": "機密情報や公開範囲を制限する資料を示す。",
+      "message": "情報の一部を許可された相手にだけ見せる。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/rate-limit",
+      "title": "処理量の制御",
+      "kind": "icon",
+      "category": "12-情報・データ",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/rate-limit.svg",
+      "preview_path": "assets/icon/rate-limit.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/rate-limit.json",
+      "sha256": "51efe6b817c6b8823603a2a6d6360bd728f7c790f503c3b65c2229b2e0d48113",
+      "size_bytes": 1501,
+      "keywords": [
+        "処理量",
+        "制御",
+        "上限",
+        "レート",
+        "制限",
+        "rate",
+        "limit",
+        "throttling",
+        "throughput"
+      ],
+      "use_case": "一定時間に受け付ける処理量を調整する仕組みを示す。",
+      "message": "流入する処理の量を調整する。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/routing",
+      "title": "経路の振り分け",
+      "kind": "icon",
+      "category": "12-情報・データ",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/routing.svg",
+      "preview_path": "assets/icon/routing.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/routing.json",
+      "sha256": "06c1b55a6dfc1dae1a15575941550e3fc92eb175c8a0195f577ad44e1a0b61fb",
+      "size_bytes": 1030,
+      "keywords": [
+        "振分",
+        "ルーティング",
+        "経路",
+        "宛先",
+        "routing",
+        "dispatch",
+        "destination"
+      ],
+      "use_case": "情報や作業を宛先に応じて送る仕組みを示す。",
+      "message": "対象に応じて送り先を選ぶ。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/server",
+      "title": "サーバー",
+      "kind": "icon",
+      "category": "12-情報・データ",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/server.svg",
+      "preview_path": "assets/icon/server.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/server.json",
+      "sha256": "a1ba9bf60c66b9d01a71662a397a2d5fe3585f7bab167fcc23ff10955ac83e40",
+      "size_bytes": 1478,
+      "keywords": [
+        "サーバー",
+        "機器",
+        "インフラ",
+        "ホスティング",
+        "server",
+        "infrastructure",
+        "hosting",
+        "compute"
+      ],
+      "use_case": "システム構成で処理を担う機器を示す。",
+      "message": "サービスを提供する処理基盤がある。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/synchronization",
+      "title": "同期",
+      "kind": "icon",
+      "category": "12-情報・データ",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/synchronization.svg",
+      "preview_path": "assets/icon/synchronization.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/synchronization.json",
+      "sha256": "bc8aaed416812167030c19444147e3944dc60d86cc593adb99395a9d40764be5",
+      "size_bytes": 887,
+      "keywords": [
+        "同期",
+        "更新",
+        "双方向",
+        "データ",
+        "sync",
+        "synchronization",
+        "refresh"
+      ],
+      "use_case": "端末間やシステム間の同期処理を示す。",
+      "message": "双方の情報を同じ状態へ更新する。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/system-recovery",
+      "title": "システム復旧",
+      "kind": "icon",
+      "category": "12-情報・データ",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/system-recovery.svg",
+      "preview_path": "assets/icon/system-recovery.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/system-recovery.json",
+      "sha256": "a015999121b1004f7df0d354fe68cd7b1b199e5fbfd200bc3f09543883080599",
+      "size_bytes": 1071,
+      "keywords": [
+        "復旧",
+        "回復",
+        "再開",
+        "システム",
+        "recovery",
+        "restore",
+        "resume",
+        "service"
+      ],
+      "use_case": "障害から利用可能な状態へ戻す工程を示す。",
+      "message": "止まっていた機能を利用可能な状態へ戻す。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/uncertainty",
+      "title": "不確実性",
+      "kind": "icon",
+      "category": "12-情報・データ",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/uncertainty.svg",
+      "preview_path": "assets/icon/uncertainty.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/uncertainty.json",
+      "sha256": "997c1c2fa204b931e288a343d015550a25517a1df57218fbfe4be86e5c475775",
+      "size_bytes": 793,
+      "keywords": [
+        "不確実性",
+        "幅",
+        "ばらつき",
+        "予測",
+        "見込み",
+        "uncertainty",
+        "range",
+        "variation",
+        "estimate"
+      ],
+      "use_case": "見通しが一つの値に定まらないことを説明する。",
+      "message": "予測には幅がある。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/version-control",
+      "title": "版管理",
+      "kind": "icon",
+      "category": "12-情報・データ",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/version-control.svg",
+      "preview_path": "assets/icon/version-control.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/version-control.json",
+      "sha256": "2c803d49d5d40e99bf0514a60e1ca618af63e29192ca20679bb071bab36f9e37",
+      "size_bytes": 1000,
+      "keywords": [
+        "版管理",
+        "バージョン",
+        "履歴",
+        "ブランチ",
+        "統合",
+        "Git",
+        "version",
+        "control",
+        "merge"
+      ],
+      "use_case": "文書やコードの変更管理を説明する。",
+      "message": "別の変更を履歴として管理し統合する。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/wireless-link",
+      "title": "無線接続",
+      "kind": "icon",
+      "category": "12-情報・データ",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/wireless-link.svg",
+      "preview_path": "assets/icon/wireless-link.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/wireless-link.json",
+      "sha256": "5e0ddae6a9a8a8e74af0547502ffd2a4b87fe777bb76a1c2e22a4afdaa720cb7",
+      "size_bytes": 849,
+      "keywords": [
+        "無線",
+        "通信",
+        "WiFi",
+        "接続",
+        "wireless",
+        "wifi",
+        "connectivity",
+        "radio"
+      ],
+      "use_case": "ケーブルを使わない通信方式を示す。",
+      "message": "電波で機器をつなぐ。",
+      "sample_data": false
+    },
+    {
+      "id": "illustration/access-permission",
+      "title": "必要な権限で資料を開く",
+      "kind": "illustration",
+      "category": "12-情報・データ",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1254,
+      "height": 1254,
+      "canvas": {
+        "width": 1254,
+        "height": 1254
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/access-permission.png",
+      "preview_path": "previews/illustration/access-permission.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/access-permission.json",
+      "sha256": "4a717264e331e3d8b386e53bc880a430ce75c56cf9bf2f9c346c4f14e2b665d4",
+      "size_bytes": 943133,
+      "keywords": [
+        "権限",
+        "アクセス",
+        "閲覧",
+        "資料",
+        "認可",
+        "機密",
+        "access",
+        "permission",
+        "authorization"
+      ],
+      "use_case": "資料へのアクセス権限、閲覧範囲の管理、機密情報の扱い方の説明。",
+      "message": "権限を持つ利用者が、必要な資料を開く。",
+      "sample_data": false,
+      "composition": {
+        "framing": "object",
+        "facing": "front"
+      }
+    },
+    {
+      "id": "illustration/connected-device-data",
+      "title": "設備の状態を端末へつなぐ",
+      "kind": "illustration",
+      "category": "12-情報・データ",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1254,
+      "height": 1254,
+      "canvas": {
+        "width": 1254,
+        "height": 1254
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/connected-device-data.png",
+      "preview_path": "previews/illustration/connected-device-data.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/connected-device-data.json",
+      "sha256": "ff1ad2fc73bd5e7ae0a065939f152a8a78c49d926aa0131b63d3ea1992dfab8f",
+      "size_bytes": 646149,
+      "keywords": [
+        "設備",
+        "センサー",
+        "接続",
+        "データ",
+        "監視",
+        "IoT",
+        "sensor",
+        "device data"
+      ],
+      "use_case": "設備データの取得、状態監視、現場のデジタル化の説明。",
+      "message": "対象の状態を取得し、端末で確認できるようにする。",
+      "sample_data": false,
+      "composition": {
+        "framing": "object",
+        "facing": "front",
+        "people_count": 0
+      }
+    },
+    {
+      "id": "illustration/data-backup",
+      "title": "データの控えを別の装置に残す",
+      "kind": "illustration",
+      "category": "12-情報・データ",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1254,
+      "height": 1254,
+      "canvas": {
+        "width": 1254,
+        "height": 1254
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/data-backup.png",
+      "preview_path": "previews/illustration/data-backup.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/data-backup.json",
+      "sha256": "4bfb69c007371ad438682124fbba663b30f110d1818291a445a04f39e99c1425",
+      "size_bytes": 604667,
+      "keywords": [
+        "データ",
+        "バックアップ",
+        "保存",
+        "複製",
+        "復旧",
+        "外部ストレージ",
+        "data",
+        "backup",
+        "storage"
+      ],
+      "use_case": "データのバックアップ、紛失への備え、復旧用データの保管の説明。",
+      "message": "元のデータとは別の保存先に控えを用意する。",
+      "sample_data": false,
+      "composition": {
+        "framing": "object",
+        "facing": "front"
+      }
+    },
+    {
+      "id": "illustration/data-quality-check",
+      "title": "記録の抜けや違いを確かめる",
+      "kind": "illustration",
+      "category": "12-情報・データ",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1536,
+      "height": 1024,
+      "canvas": {
+        "width": 1536,
+        "height": 1024
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/data-quality-check.png",
+      "preview_path": "previews/illustration/data-quality-check.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/data-quality-check.json",
+      "sha256": "3d357f195365ceadf7240bc5621b167b8fc7c03ee81ce37e80e979badd5621c3",
+      "size_bytes": 1187141,
+      "keywords": [
+        "データ品質",
+        "欠損",
+        "記録",
+        "チェック",
+        "data quality",
+        "completeness"
+      ],
+      "use_case": "集計や分析の前に、入力済みの記録と元資料を照らして抜けを確認する場面。",
+      "message": "元の記録と比べ、データの抜けに気付く。",
+      "sample_data": false,
+      "composition": {
+        "framing": "object",
+        "facing": "front"
+      }
+    },
+    {
+      "id": "illustration/document-digitization",
+      "title": "紙の資料をデータに取り込む",
+      "kind": "illustration",
+      "category": "12-情報・データ",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1254,
+      "height": 1254,
+      "canvas": {
+        "width": 1254,
+        "height": 1254
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/document-digitization.png",
+      "preview_path": "previews/illustration/document-digitization.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/document-digitization.json",
+      "sha256": "1948045fd070be02e9c0e376d087a123de1c76764f14e0a20bdfcd4e8057668e",
+      "size_bytes": 619095,
+      "keywords": [
+        "電子化",
+        "紙",
+        "資料",
+        "取り込み",
+        "スキャン",
+        "ペーパーレス",
+        "document",
+        "digitization",
+        "scan"
+      ],
+      "use_case": "紙の資料の電子化、スキャンによる保管、デジタル化する業務の説明。",
+      "message": "紙の資料を読み取り、パソコンで扱える情報にする。",
+      "sample_data": false,
+      "composition": {
+        "framing": "object",
+        "facing": "front"
+      }
+    },
+    {
+      "id": "illustration/document-review",
+      "title": "資料の内容を詳しく確かめる",
+      "kind": "illustration",
+      "category": "12-情報・データ",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1254,
+      "height": 1254,
+      "canvas": {
+        "width": 1254,
+        "height": 1254
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/document-review.png",
+      "preview_path": "previews/illustration/document-review.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/document-review.json",
+      "sha256": "d4c24ce1a91f9f38b552363a58a739321a893486156e02d70475acc4fab3463f",
+      "size_bytes": 732327,
+      "keywords": [
+        "資料",
+        "確認",
+        "レビュー",
+        "精査",
+        "修正",
+        "文書",
+        "document",
+        "review",
+        "proofreading"
+      ],
+      "use_case": "報告書・仕様書・提案資料のレビューや確認作業の説明。",
+      "message": "資料の細部を確かめ、修正すべき点を見つける。",
+      "sample_data": false,
+      "composition": {
+        "framing": "object",
+        "facing": "front"
+      }
+    },
+    {
+      "id": "illustration/document-routing",
+      "title": "書類を次の処理段階へ渡す",
+      "kind": "illustration",
+      "category": "12-情報・データ",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1254,
+      "height": 1254,
+      "canvas": {
+        "width": 1254,
+        "height": 1254
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/document-routing.png",
+      "preview_path": "previews/illustration/document-routing.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/document-routing.json",
+      "sha256": "e54cca6d88de911fb982e48cdaa7dde7db76b4ceee2df322bbcf5a84c4c7b2fa",
+      "size_bytes": 878692,
+      "keywords": [
+        "書類",
+        "回付",
+        "受け渡し",
+        "処理",
+        "業務",
+        "引き継ぎ",
+        "document",
+        "routing",
+        "handoff"
+      ],
+      "use_case": "書類の回付、事務処理の受け渡し、確認後の次工程への引き継ぎの説明。",
+      "message": "処理した書類を次の担当や段階へ回す。",
+      "sample_data": false,
+      "composition": {
+        "framing": "object",
+        "facing": "front"
+      }
+    },
+    {
+      "id": "illustration/file-sharing",
+      "title": "同じ資料を複数の端末で共有する",
+      "kind": "illustration",
+      "category": "12-情報・データ",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1254,
+      "height": 1254,
+      "canvas": {
+        "width": 1254,
+        "height": 1254
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/file-sharing.png",
+      "preview_path": "previews/illustration/file-sharing.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/file-sharing.json",
+      "sha256": "a4e0e3f5d8ab3e3905dd1efac61dd1467a0e6b46c05079739f598dcf4b577382",
+      "size_bytes": 661588,
+      "keywords": [
+        "資料",
+        "共有",
+        "端末",
+        "共同利用",
+        "参照",
+        "情報",
+        "file",
+        "sharing",
+        "devices"
+      ],
+      "use_case": "共通資料の閲覧、拠点間や職場内での情報共有、端末をまたいだ業務の説明。",
+      "message": "利用する端末が違っても、同じ資料を参照できる。",
+      "sample_data": false,
+      "composition": {
+        "framing": "object",
+        "facing": "front"
+      }
+    },
+    {
+      "id": "illustration/information-consolidation",
+      "title": "複数の資料を一冊へまとめる",
+      "kind": "illustration",
+      "category": "12-情報・データ",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1254,
+      "height": 1254,
+      "canvas": {
+        "width": 1254,
+        "height": 1254
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/information-consolidation.png",
+      "preview_path": "previews/illustration/information-consolidation.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/information-consolidation.json",
+      "sha256": "b59e4b4044081f9b02694f7d56e1b46310608c5b9be24f0ff8f860379344afcc",
+      "size_bytes": 684877,
+      "keywords": [
+        "資料",
+        "情報集約",
+        "統合",
+        "整理",
+        "一元化",
+        "分類",
+        "information",
+        "consolidation",
+        "binder"
+      ],
+      "use_case": "部門ごとに分かれた資料や調査結果を集約し、共通資料にまとめる説明。",
+      "message": "分散している情報をまとめ、参照する場所をそろえる。",
+      "sample_data": false,
+      "composition": {
+        "framing": "object",
+        "facing": "front"
+      }
+    },
+    {
+      "id": "illustration/network-segmentation",
+      "title": "ネットワークを分けて接続する",
+      "kind": "illustration",
+      "category": "12-情報・データ",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1536,
+      "height": 1024,
+      "canvas": {
+        "width": 1536,
+        "height": 1024
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/network-segmentation.png",
+      "preview_path": "previews/illustration/network-segmentation.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/network-segmentation.json",
+      "sha256": "2904dffa358f2b84b881282891e116e2e9d512db6313063456d8c5aa60f32f70",
+      "size_bytes": 1035400,
+      "keywords": [
+        "ネットワーク",
+        "分離",
+        "通信",
+        "セキュリティ",
+        "network segmentation"
+      ],
+      "use_case": "情報機器の接続構成を説明し、接続する機器をグループごとに整理する場面。",
+      "message": "接続先を分け、通信の構成を整理する。",
+      "sample_data": false,
+      "composition": {
+        "framing": "object",
+        "facing": "front"
+      }
+    },
+    {
+      "id": "illustration/organized-archive",
+      "title": "整理した資料を取り出す",
+      "kind": "illustration",
+      "category": "12-情報・データ",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1254,
+      "height": 1254,
+      "canvas": {
+        "width": 1254,
+        "height": 1254
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/organized-archive.png",
+      "preview_path": "previews/illustration/organized-archive.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/organized-archive.json",
+      "sha256": "0cc3d6cf024899443df689fe9c3873c3882ef924d2afbe2a7be92c91d0cc719d",
+      "size_bytes": 811186,
+      "keywords": [
+        "資料",
+        "保管",
+        "収納",
+        "検索",
+        "参照",
+        "整理",
+        "archive",
+        "retrieval",
+        "filing"
+      ],
+      "use_case": "資料の保管方法、必要な情報の取り出し、文書管理の説明。",
+      "message": "資料を整理して保管し、必要な一冊を取り出す。",
+      "sample_data": false,
+      "composition": {
+        "framing": "object",
+        "facing": "front"
+      }
+    },
+    {
+      "id": "illustration/revision-release",
+      "title": "確認済みの版を配布できる状態にする",
+      "kind": "illustration",
+      "category": "12-情報・データ",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1536,
+      "height": 1024,
+      "canvas": {
+        "width": 1536,
+        "height": 1024
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/revision-release.png",
+      "preview_path": "previews/illustration/revision-release.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/revision-release.json",
+      "sha256": "3f7011b947708ecd8b5139aa630232c0a56265e8c04bd34736c3b3b206c1b3d0",
+      "size_bytes": 1325868,
+      "keywords": [
+        "版管理",
+        "確定",
+        "発行",
+        "承認",
+        "release",
+        "revision"
+      ],
+      "use_case": "資料や手順書を改訂した後に、確認済みの版を発行・共有する流れを説明する場面。",
+      "message": "確認した版を明らかにし、配布できる状態へ整える。",
+      "sample_data": false,
+      "composition": {
+        "framing": "object",
+        "facing": "front"
+      }
+    },
+    {
+      "id": "illustration/secure-authentication",
+      "title": "手元の認証器でアクセスを確かめる",
+      "kind": "illustration",
+      "category": "12-情報・データ",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1536,
+      "height": 1024,
+      "canvas": {
+        "width": 1536,
+        "height": 1024
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/secure-authentication.png",
+      "preview_path": "previews/illustration/secure-authentication.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/secure-authentication.json",
+      "sha256": "36965d725f82e4ae6f23c6c05a7f14e734471961ea3628173c8ef14b0d1f3fbe",
+      "size_bytes": 1205694,
+      "keywords": [
+        "認証",
+        "本人確認",
+        "多要素",
+        "パスキー",
+        "authentication",
+        "security key"
+      ],
+      "use_case": "システムへのログインやアクセス管理を説明し、手元の認証器を使う場面。",
+      "message": "手元の認証器を操作して、アクセスを確認する。",
+      "sample_data": false,
+      "composition": {
+        "framing": "object",
+        "facing": "front"
+      }
+    },
+    {
+      "id": "illustration/secure-disposal",
+      "title": "不要な書類を細断して廃棄する",
+      "kind": "illustration",
+      "category": "12-情報・データ",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1254,
+      "height": 1254,
+      "canvas": {
+        "width": 1254,
+        "height": 1254
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/secure-disposal.png",
+      "preview_path": "previews/illustration/secure-disposal.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/secure-disposal.json",
+      "sha256": "2c4efa7844349c14f9c8e93270be8675bf9ddebf349f5d8b4ba080b26f33b8e3",
+      "size_bytes": 793849,
+      "keywords": [
+        "書類",
+        "廃棄",
+        "細断",
+        "機密",
+        "シュレッダー",
+        "処分",
+        "secure",
+        "disposal",
+        "shredder"
+      ],
+      "use_case": "不要書類の処分、機密資料の扱い、資料のライフサイクルの説明。",
+      "message": "不要になった資料を、そのまま残さず細断して廃棄する。",
+      "sample_data": false,
+      "composition": {
+        "framing": "object",
+        "facing": "front"
+      }
+    },
+    {
+      "id": "illustration/version-comparison",
+      "title": "同じ資料の変更点を比べる",
+      "kind": "illustration",
+      "category": "12-情報・データ",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1254,
+      "height": 1254,
+      "canvas": {
+        "width": 1254,
+        "height": 1254
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/version-comparison.png",
+      "preview_path": "previews/illustration/version-comparison.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/version-comparison.json",
+      "sha256": "fa869241958acca313aa49dcecd699b38c900648b63bcd5836db8b3de6d9b18b",
+      "size_bytes": 683490,
+      "keywords": [
+        "改訂",
+        "比較",
+        "変更点",
+        "版",
+        "差分",
+        "文書",
+        "version",
+        "comparison",
+        "revision"
+      ],
+      "use_case": "手順書・仕様書・提案資料の改訂や差分確認の説明。",
+      "message": "同じ資料の対応箇所を比べ、変更内容を確認する。",
+      "sample_data": false,
+      "composition": {
+        "framing": "object",
+        "facing": "front"
+      }
+    },
+    {
+      "id": "operations/bounded-retry",
+      "title": "再試行と手動復旧を分ける",
+      "kind": "diagram",
+      "category": "12-情報・データ",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/operations/bounded-retry.svg",
+      "preview_path": "previews/operations/bounded-retry.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/operations/bounded-retry.json",
+      "sha256": "ada9691c491c5c09e01279294c242094e4e79bce67ea53d5d07c7fcfcb6d4e58",
+      "size_bytes": 3547,
+      "keywords": [
+        "例外",
+        "エラー",
+        "再試行",
+        "リトライ",
+        "手動復旧",
+        "回数制限",
+        "障害",
+        "自動処理",
+        "retry",
+        "exception",
+        "recovery"
+      ],
+      "use_case": "自動処理が失敗したときの再試行条件と、担当者へ渡すタイミングを共有する。",
+      "message": "同じ失敗を無制限に繰り返さず、復旧を担う人へ切り替える。",
+      "sample_data": false,
+      "preview_sha256": "413a90225b7fc907c62c7bbd29fa5a5e6bad529b4082624b7b2ab9bbd357aeab"
+    },
+    {
+      "id": "operations/controlled-rollback",
+      "title": "確認できない変更を安定版へ戻す",
+      "kind": "diagram",
+      "category": "12-情報・データ",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/operations/controlled-rollback.svg",
+      "preview_path": "previews/operations/controlled-rollback.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/operations/controlled-rollback.json",
+      "sha256": "54010784f6bab33d87c7b3d79119e5cd6f84250106602d84167b0f620fc4e3b6",
+      "size_bytes": 3050,
+      "keywords": [
+        "リリース",
+        "ロールバック",
+        "切戻し",
+        "変更管理",
+        "限定適用",
+        "安定版",
+        "確認",
+        "rollback",
+        "release",
+        "change"
+      ],
+      "use_case": "システム変更時に、確認が取れない場合の戻り先と切戻し経路を共有する。",
+      "message": "変更を試す前に戻り先を残し、結果で継続と切戻しを判断する。",
+      "sample_data": false,
+      "preview_sha256": "a543665bdd07e9b66a3b716a79c1c1e615d7754bd3fba1c9bf321ed0901bde52"
+    },
+    {
+      "id": "operations/data-reconciliation",
+      "title": "転記元と転記先の対応を照合する",
+      "kind": "diagram",
+      "category": "12-情報・データ",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/operations/data-reconciliation.svg",
+      "preview_path": "previews/operations/data-reconciliation.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/operations/data-reconciliation.json",
+      "sha256": "27651475db33554b988ad85b47c7ba565c71da29c73366426aa70c9292e2ad2d",
+      "size_bytes": 5409,
+      "keywords": [
+        "照合",
+        "突合",
+        "検算",
+        "データ移行",
+        "転記",
+        "不一致",
+        "整合性",
+        "差異",
+        "修正",
+        "reconciliation",
+        "matching"
+      ],
+      "use_case": "移行や転記の検証で、元データと反映先の不一致を確認して修正する。",
+      "message": "全体を見比べるだけでなく、同じ項目の対応と不一致を確かめる。",
+      "sample_data": false,
+      "preview_sha256": "da20d664c175bc53859b71f4e43a470d5c95159968eee9b5a6ef6fe187d9e9b7"
+    },
+    {
+      "id": "part/version-and-change",
+      "title": "参照した版と今回の変更を対応づける",
+      "kind": "part",
+      "category": "12-情報・データ",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1120,
+      "height": 380,
+      "canvas": {
+        "width": 1120,
+        "height": 380
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/part/version-and-change.svg",
+      "preview_path": "previews/part/version-and-change.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/part/version-and-change.json",
+      "sha256": "eef0773ad137514ac09ad21518b56ba6b2cbb5909bb715ab986dfeca9e2af335",
+      "size_bytes": 981,
+      "keywords": [
+        "版",
+        "改訂",
+        "変更",
+        "履歴",
+        "適用日",
+        "revision",
+        "version",
+        "difference"
+      ],
+      "use_case": "規定や仕様の改訂で、どの版から何が変わったかを添える。",
+      "message": "元の版と適用する版を明示して、差分を確認する。",
+      "sample_data": false,
+      "preview_sha256": "faab6e5a62a6cd2beaab4d74aa0ef465a8dec3acae3f28bd54ee41df766bd4ad"
+    },
+    {
+      "id": "relation/traceable-collection",
+      "title": "出所を保持して情報を集約する",
+      "kind": "diagram",
+      "category": "12-情報・データ",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/relation/traceable-collection.svg",
+      "preview_path": "previews/relation/traceable-collection.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/relation/traceable-collection.json",
+      "sha256": "fc0241d1b5d474f3048c5d6eed0a382815990fc072bdd614fa3f4f7171f2472a",
+      "size_bytes": 5101,
+      "keywords": [
+        "情報集約",
+        "出所",
+        "来歴",
+        "トレーサビリティ",
+        "データ統合",
+        "収集",
+        "ソース",
+        "根拠"
+      ],
+      "use_case": "現場・顧客・外部資料を集約する情報基盤の考え方を説明する。",
+      "message": "情報をまとめても、元の出所との対応は残す。",
+      "sample_data": false,
+      "preview_sha256": "f9f00d0e89a679b80f500714e9d3fdda06419af8f8f6162dad775de916f9a47d"
+    },
+    {
+      "id": "relationship/controlled-system-layers",
+      "title": "各層の入口で接続を管理する",
+      "kind": "diagram",
+      "category": "12-情報・データ",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/relationship/controlled-system-layers.svg",
+      "preview_path": "previews/relationship/controlled-system-layers.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/relationship/controlled-system-layers.json",
+      "sha256": "8f80ea7be0d284b460073f1a994aebeb5f8a82d523c6d5c27139651849c08fb9",
+      "size_bytes": 2994,
+      "keywords": [
+        "システム構成",
+        "アーキテクチャ",
+        "三層",
+        "認証",
+        "API",
+        "データアクセス",
+        "ゲートウェイ",
+        "接続",
+        "境界"
+      ],
+      "use_case": "システムの概念説明で、利用・処理・データの接続管理を分けて示す。",
+      "message": "各層の入口で接続を管理する。",
+      "sample_data": false,
+      "preview_sha256": "0fc9d64eed0129d31ef41c9ef0d8a3c3050fc7085f372063435fa0b67c66ad68"
+    },
+    {
+      "id": "technology/access-boundary",
+      "title": "許可した要求だけを通す",
+      "kind": "diagram",
+      "category": "12-情報・データ",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/technology/access-boundary.svg",
+      "preview_path": "previews/technology/access-boundary.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/technology/access-boundary.json",
+      "sha256": "79c76b1f5498f64d7fbf00e6ce419221b5f759c27d31222220e88334f7e33436",
+      "size_bytes": 4488,
+      "keywords": [
+        "アクセス制御",
+        "認証",
+        "認可",
+        "権限",
+        "境界",
+        "保護",
+        "セキュリティ",
+        "security",
+        "boundary",
+        "authorization",
+        "access",
+        "control"
+      ],
+      "use_case": "業務システムのアクセス制御で、権限確認を行う位置を説明する。",
+      "message": "利用者の権限を確かめてから、保護対象へのアクセスを許可する。",
+      "sample_data": false,
+      "preview_sha256": "a772e73cdc058f2c54176d54971293f73d3c6906413ff718a5d67f84f6489076"
+    },
+    {
+      "id": "technology/ai-human-review",
+      "title": "AIの下書きを人が確認する",
+      "kind": "diagram",
+      "category": "12-情報・データ",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/technology/ai-human-review.svg",
+      "preview_path": "previews/technology/ai-human-review.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/technology/ai-human-review.json",
+      "sha256": "d38485aec97fc32cc29ec49875ba09674125cbbce200791a79f6aa835d3ee7ec",
+      "size_bytes": 7490,
+      "keywords": [
+        "AI",
+        "人手確認",
+        "レビュー",
+        "下書き",
+        "生成",
+        "承認",
+        "修正",
+        "確定",
+        "human",
+        "in",
+        "the",
+        "loop",
+        "review",
+        "draft",
+        "approval"
+      ],
+      "use_case": "AIが作った文書や回答を、利用前に人が確認する運用を説明する。",
+      "message": "下書きの生成と、利用してよいという判断を分ける。",
+      "sample_data": false,
+      "preview_sha256": "2f9163c56f8158c587bdcdcda4dc4d3e397843838979292eec02fb143cf2ea08"
+    },
+    {
+      "id": "technology/api-request-response",
+      "title": "APIの要求と応答を対応させる",
+      "kind": "diagram",
+      "category": "12-情報・データ",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/technology/api-request-response.svg",
+      "preview_path": "previews/technology/api-request-response.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/technology/api-request-response.json",
+      "sha256": "df38343c1d13444156f2869dbf9cc7347cc7c4bd72b1ceb560dfcc1f358cc130",
+      "size_bytes": 5089,
+      "keywords": [
+        "API",
+        "連携",
+        "要求",
+        "応答",
+        "接続",
+        "インターフェース",
+        "request",
+        "response",
+        "integration",
+        "service"
+      ],
+      "use_case": "二つのシステムをAPIで連携する際の基本的な通信方向を説明する。",
+      "message": "要求を受けたサービスが、呼び出したアプリへ応答を返す。",
+      "sample_data": false,
+      "preview_sha256": "6885b0bb66a9bf0d91f7575593e276d90328f3a34010432b0f7aa57e04aeb490"
+    },
+    {
+      "id": "technology/backup-recovery",
+      "title": "保存済みの状態から復旧する",
+      "kind": "diagram",
+      "category": "12-情報・データ",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/technology/backup-recovery.svg",
+      "preview_path": "previews/technology/backup-recovery.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/technology/backup-recovery.json",
+      "sha256": "71b0c918357c253053dccfb9d3898ce9a0c21e9c16b9fcb08b1844333e8efefd",
+      "size_bytes": 5543,
+      "keywords": [
+        "バックアップ",
+        "復元",
+        "復旧",
+        "障害",
+        "事業継続",
+        "データ保全",
+        "backup",
+        "recovery",
+        "restore",
+        "continuity",
+        "snapshot"
+      ],
+      "use_case": "バックアップの役割を、障害発生から復旧までの関係として説明する。",
+      "message": "障害が起きた環境とは別に保管した状態から復旧する。",
+      "sample_data": false,
+      "preview_sha256": "9949a1326c9b3f9042512ed0f098a38d489414f3c487f54898d25f0a205695f2"
+    },
+    {
+      "id": "technology/data-quality-pipeline",
+      "title": "品質を確かめてデータを渡す",
+      "kind": "diagram",
+      "category": "12-情報・データ",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/technology/data-quality-pipeline.svg",
+      "preview_path": "previews/technology/data-quality-pipeline.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/technology/data-quality-pipeline.json",
+      "sha256": "faece2d3200c108d1112bba55242a7ec884c728bfd1a462aa74d10a4521a8891",
+      "size_bytes": 7020,
+      "keywords": [
+        "データ",
+        "パイプライン",
+        "取込",
+        "検証",
+        "品質",
+        "保留",
+        "整形",
+        "ETL",
+        "validation",
+        "data",
+        "pipeline",
+        "quality",
+        "quarantine"
+      ],
+      "use_case": "データを取り込み、品質を確認して分析や業務へ提供する流れを説明する。",
+      "message": "確認が必要なデータを分け、利用可能なデータだけを次へ渡す。",
+      "sample_data": false,
+      "preview_sha256": "db7b7f33d43b8289907dd56ce0665479e681a37bac504d058b106665684b728f"
+    },
+    {
+      "id": "technology/rag-evidence",
+      "title": "参照資料から根拠付き回答へ",
+      "kind": "diagram",
+      "category": "12-情報・データ",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/technology/rag-evidence.svg",
+      "preview_path": "previews/technology/rag-evidence.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/technology/rag-evidence.json",
+      "sha256": "62e751706d2217c4dc24a4358c08a63e6d382f3710fb6cb550bf26e8de83d17f",
+      "size_bytes": 7647,
+      "keywords": [
+        "AI",
+        "RAG",
+        "検索拡張生成",
+        "根拠",
+        "出典",
+        "引用",
+        "資料",
+        "検索",
+        "ナレッジ",
+        "retrieval",
+        "evidence",
+        "citation",
+        "grounding"
+      ],
+      "use_case": "社内資料を参照するAIが、回答の根拠をどのように取り込むか説明する。",
+      "message": "見つけた資料の内容と出典を、回答まで対応させる。",
+      "sample_data": false,
+      "preview_sha256": "134922c80e1e9596cf6181dd45e280aa325c0044d89376f4f898b9820816c4ec"
+    }
+  ]
+}

@@ -1,5 +1,4 @@
 {
-  "category": "03-関係と連携",
   "title": "調整役を中心に情報と判断を往復する",
   "description": "部門間の情報収集と判断の共有を担う調整役の位置づけを示す。",
   "keywords": [
@@ -104,6 +103,7 @@
     ]
   },
   "kind": "diagram",
+  "category": "01-経営・意思決定",
   "schema_version": 3,
   "id": "relation/coordination-hub",
   "name": "組織連携_調整役を中心に情報と判断を往復する_役割のハブ",
@@ -126,5 +126,6 @@
     "data": false
   },
   "sha256": "74e4775f399d4f5365c12e84afa912c5dcafe6a4f2f8c5a219201c6578b2c7b9",
-  "size_bytes": 5672
+  "size_bytes": 5672,
+  "preview_sha256": "2f6acbce1baa86b72328b4d061a88a8486b8d1825d2069eba12d82c82f62dccd"
 }

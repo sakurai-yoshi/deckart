@@ -1,0 +1,51 @@
+{
+  "title": "救急用品",
+  "description": "応急手当に必要な道具を備える。",
+  "keywords": [
+    "救急",
+    "手当",
+    "備品",
+    "救急箱",
+    "first",
+    "aid",
+    "emergency",
+    "kit",
+    "supplies"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "応急手当の備えや救急用品の配置を説明する。",
+    "message": "応急手当に必要な道具を備える。",
+    "reading": [
+      "持ち手付きの箱が携行する救急用品を表す。",
+      "十字の形が手当の用途を表す。"
+    ]
+  },
+  "category": "07-安全・事業継続",
+  "schema_version": 3,
+  "id": "icon/first-aid-kit",
+  "name": "救急用品_設備と働き",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/first-aid-kit.svg",
+  "metadata_path": "metadata/icon/first-aid-kit.json",
+  "preview_path": "assets/icon/first-aid-kit.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/first-aid-kit\n救急用品_設備と働き\n救急用品\n応急手当の備えや救急用品の配置を説明する。\n応急手当に必要な道具を備える。\n持ち手付きの箱が携行する救急用品を表す。\n十字の形が手当の用途を表す。\n救急 手当 備品 救急箱 first aid emergency kit supplies",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "e2abd129cf68852c53ae9beb2efa5eda5df87a5472594ffe53d116f1bc344c04",
+  "size_bytes": 771
+}

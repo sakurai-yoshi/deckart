@@ -1,0 +1,49 @@
+{
+  "title": "工程の加熱",
+  "description": "対象へ熱を与えて状態を変える。",
+  "keywords": [
+    "加熱",
+    "熱",
+    "処理",
+    "温める",
+    "heating",
+    "thermal",
+    "process"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "材料へ熱を加える処理を示す。",
+    "message": "対象へ熱を与えて状態を変える。",
+    "reading": [
+      "容器が熱処理する対象を示す。",
+      "内側の炎が加熱という操作を示す。"
+    ]
+  },
+  "category": "04-生産・設備",
+  "schema_version": 3,
+  "id": "icon/process-heating",
+  "name": "工程の加熱_工程と対象",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/process-heating.svg",
+  "metadata_path": "metadata/icon/process-heating.json",
+  "preview_path": "assets/icon/process-heating.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/process-heating\n工程の加熱_工程と対象\n工程の加熱\n材料へ熱を加える処理を示す。\n対象へ熱を与えて状態を変える。\n容器が熱処理する対象を示す。\n内側の炎が加熱という操作を示す。\n加熱 熱 処理 温める heating thermal process",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "2fda1daa79b42a660d465b8a2cde086c577e0c6904668bda1c661d38821629c1",
+  "size_bytes": 1003
+}

@@ -1,5 +1,4 @@
 {
-  "category": "07-注釈と見出し",
   "title": "原則から例外を分けて示す",
   "description": "上の原則に対して、下の分岐した欄へ例外の扱いを添える部品。",
   "keywords": [
@@ -69,6 +68,7 @@
       "枝分かれした下の欄が例外の扱いを示す。"
     ]
   },
+  "category": "13-説明・伝達",
   "schema_version": 3,
   "id": "part/rule-and-exception",
   "name": "原則から例外を分けて示す_説明パーツ",
@@ -91,5 +91,6 @@
     "data": false
   },
   "sha256": "744b823a597db52061c381c0d04b60db239b0b44a12e990eb268eb95af6ea9ce",
-  "size_bytes": 854
+  "size_bytes": 854,
+  "preview_sha256": "368bcddee58dcad2ce38cec551d2efb23d04c445ccdd4a5d09eb8af0ed3224eb"
 }

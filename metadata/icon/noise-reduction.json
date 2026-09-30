@@ -1,0 +1,51 @@
+{
+  "title": "騒音低減",
+  "description": "音の伝わりを抑える。",
+  "keywords": [
+    "騒音",
+    "低減",
+    "防音",
+    "遮音",
+    "音",
+    "noise",
+    "reduction",
+    "acoustic",
+    "barrier"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "音源と周囲の間で騒音を抑える対策を示す。",
+    "message": "音の伝わりを抑える。",
+    "reading": [
+      "左の発音部と大きな波が音源を表す。",
+      "隔壁の後ろの小さい波が低減を表す。"
+    ]
+  },
+  "category": "08-環境・資源",
+  "schema_version": 3,
+  "id": "icon/noise-reduction",
+  "name": "騒音低減_設備と働き",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/noise-reduction.svg",
+  "metadata_path": "metadata/icon/noise-reduction.json",
+  "preview_path": "assets/icon/noise-reduction.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/noise-reduction\n騒音低減_設備と働き\n騒音低減\n音源と周囲の間で騒音を抑える対策を示す。\n音の伝わりを抑える。\n左の発音部と大きな波が音源を表す。\n隔壁の後ろの小さい波が低減を表す。\n騒音 低減 防音 遮音 音 noise reduction acoustic barrier",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "ef1cc4d650052e959bf0c34cbc6a457e8597122fa2e2137d1fe36ac9f70a7163",
+  "size_bytes": 893
+}

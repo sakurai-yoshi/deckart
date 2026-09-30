@@ -1,5 +1,4 @@
 {
-  "category": "07-注釈と見出し",
   "title": "実行する人と判断する人を分ける",
   "description": "同じ仕事について、案を作る役割と判断する役割を左右に分ける部品。",
   "keywords": [
@@ -100,6 +99,7 @@
       "下の左右で実行担当と判断担当を分ける。"
     ]
   },
+  "category": "09-組織・人材",
   "schema_version": 3,
   "id": "part/execution-and-approval",
   "name": "実行する人と判断する人を分ける_説明パーツ",
@@ -122,5 +122,6 @@
     "data": false
   },
   "sha256": "045191c998d39e76b71f7fcb8c75c32e6d58dca372708c6771f57e5f8d929c1a",
-  "size_bytes": 854
+  "size_bytes": 854,
+  "preview_sha256": "2bc2a07585d8f02cd345311be8a70617ae9d658e5cf05c53e58a5944570d4190"
 }

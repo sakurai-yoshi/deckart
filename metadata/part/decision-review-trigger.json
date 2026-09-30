@@ -1,0 +1,127 @@
+{
+  "title": "決定に見直しの条件を添える",
+  "description": "決定の有効性を、期限や前提の変化に応じて確かめ直す。",
+  "keywords": [
+    "決定",
+    "期限",
+    "見直し",
+    "トリガー",
+    "条件",
+    "review",
+    "trigger",
+    "expiry",
+    "decision"
+  ],
+  "labels": [
+    {
+      "x": 55,
+      "y": 57,
+      "width": 419,
+      "height": 54,
+      "text": "今回決めたこと",
+      "role": "決定",
+      "align": "left",
+      "color": "#FFFFFF",
+      "font_size": 27,
+      "id": "label-1",
+      "color_role": "paper",
+      "max_lines": 1,
+      "max_fullwidth_chars": 14
+    },
+    {
+      "x": 55,
+      "y": 132,
+      "width": 419,
+      "height": 93,
+      "text": "この条件で進める",
+      "role": "決定内容",
+      "align": "left",
+      "color": "#FFFFFF",
+      "font_size": 34,
+      "id": "label-2",
+      "color_role": "paper",
+      "max_lines": 1,
+      "max_fullwidth_chars": 11
+    },
+    {
+      "x": 564,
+      "y": 35,
+      "width": 461,
+      "height": 51,
+      "text": "判断を見直す時点・条件",
+      "role": "見直し条件",
+      "align": "left",
+      "color": "#2864F0",
+      "font_size": 28,
+      "id": "label-3",
+      "color_role": "accent",
+      "max_lines": 1,
+      "max_fullwidth_chars": 15
+    },
+    {
+      "x": 640,
+      "y": 233,
+      "width": 438,
+      "height": 94,
+      "text": "期限到来・前提の変化で\n再確認する",
+      "role": "再判断の扱い",
+      "align": "left",
+      "color": "#153A6B",
+      "font_size": 28,
+      "id": "label-4",
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 14
+    },
+    {
+      "x": 33,
+      "y": 283,
+      "width": 465,
+      "height": 65,
+      "text": "決めた後も有効性を確かめる",
+      "role": "目的",
+      "align": "left",
+      "color": "#153A6B",
+      "font_size": 27,
+      "id": "label-5",
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 16
+    }
+  ],
+  "width": 1120,
+  "height": 380,
+  "kind": "part",
+  "guidance": {
+    "use_case": "暫定判断や期限付きの運用に、再確認する時点と条件を添える。",
+    "message": "決定の有効性を、期限や前提の変化に応じて確かめ直す。",
+    "reading": [
+      "右へ進む矢印の途中の縦線が、見直しの時点を示す。"
+    ]
+  },
+  "category": "01-経営・意思決定",
+  "schema_version": 3,
+  "id": "part/decision-review-trigger",
+  "name": "決定に見直しの条件を添える_説明パーツ",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1120,
+    "height": 380
+  },
+  "path": "assets/part/decision-review-trigger.svg",
+  "metadata_path": "metadata/part/decision-review-trigger.json",
+  "preview_path": "previews/part/decision-review-trigger.svg",
+  "preview_has_example_labels": true,
+  "search_text": "part/decision-review-trigger\n決定に見直しの条件を添える_説明パーツ\n決定に見直しの条件を添える\n暫定判断や期限付きの運用に、再確認する時点と条件を添える。\n決定の有効性を、期限や前提の変化に応じて確かめ直す。\n右へ進む矢印の途中の縦線が、見直しの時点を示す。\n決定 期限 見直し トリガー 条件 review trigger expiry decision",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "c3bab58afa47346dd30b6b9dda312e854d71fe75ca100191f41ba741d97959a5",
+  "size_bytes": 1084,
+  "preview_sha256": "be5aa470d12b5b978ec5a79fecd67d55fdf7c1dc41db031a4b21a849987ed4c1"
+}

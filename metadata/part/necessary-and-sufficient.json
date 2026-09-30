@@ -1,0 +1,143 @@
+{
+  "title": "必要な条件と成立させる条件を区別する",
+  "description": "必要条件は欠けると成立せず、十分条件は満たせば成立する。",
+  "keywords": [
+    "必要条件",
+    "十分条件",
+    "成立",
+    "論理",
+    "必要十分",
+    "necessary",
+    "sufficient",
+    "condition"
+  ],
+  "labels": [
+    {
+      "x": 45,
+      "y": 62,
+      "width": 144,
+      "height": 66,
+      "text": "必要条件",
+      "role": "条件の種類",
+      "align": "center",
+      "color": "#FFFFFF",
+      "font_size": 29,
+      "id": "label-1",
+      "color_role": "paper",
+      "max_lines": 1,
+      "max_fullwidth_chars": 4
+    },
+    {
+      "x": 267,
+      "y": 49,
+      "width": 337,
+      "height": 94,
+      "text": "この条件が\n欠けている",
+      "role": "必要条件の欠如",
+      "align": "center",
+      "color": "#153A6B",
+      "font_size": 31,
+      "id": "label-2",
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 10
+    },
+    {
+      "x": 799,
+      "y": 52,
+      "width": 268,
+      "height": 88,
+      "text": "成立しない",
+      "role": "必要条件が欠けた結果",
+      "align": "center",
+      "color": "#153A6B",
+      "font_size": 33,
+      "id": "label-3",
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 7
+    },
+    {
+      "x": 45,
+      "y": 247,
+      "width": 144,
+      "height": 66,
+      "text": "十分条件",
+      "role": "条件の種類",
+      "align": "center",
+      "color": "#FFFFFF",
+      "font_size": 29,
+      "id": "label-4",
+      "color_role": "paper",
+      "max_lines": 1,
+      "max_fullwidth_chars": 4
+    },
+    {
+      "x": 267,
+      "y": 234,
+      "width": 337,
+      "height": 94,
+      "text": "この条件の組が\nそろっている",
+      "role": "十分条件の成立",
+      "align": "center",
+      "color": "#2864F0",
+      "font_size": 31,
+      "id": "label-5",
+      "color_role": "accent",
+      "max_lines": 2,
+      "max_fullwidth_chars": 10
+    },
+    {
+      "x": 799,
+      "y": 237,
+      "width": 268,
+      "height": 88,
+      "text": "成立する",
+      "role": "十分条件を満たした結果",
+      "align": "center",
+      "color": "#2864F0",
+      "font_size": 33,
+      "id": "label-6",
+      "color_role": "accent",
+      "max_lines": 1,
+      "max_fullwidth_chars": 7
+    }
+  ],
+  "width": 1120,
+  "height": 380,
+  "kind": "part",
+  "guidance": {
+    "use_case": "条件を満たしただけで結論を出してよいか説明する。",
+    "message": "必要条件は欠けると成立せず、十分条件は満たせば成立する。",
+    "reading": [
+      "上段は必要な条件が欠けた場合、下段は十分な条件がそろった場合。",
+      "矢印はそれぞれの条件から確定できる結果を示す。",
+      "必要条件を満たすだけでは成立を保証しない。"
+    ]
+  },
+  "category": "01-経営・意思決定",
+  "schema_version": 3,
+  "id": "part/necessary-and-sufficient",
+  "name": "必要な条件と成立させる条件を区別する_説明パーツ",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1120,
+    "height": 380
+  },
+  "path": "assets/part/necessary-and-sufficient.svg",
+  "metadata_path": "metadata/part/necessary-and-sufficient.json",
+  "preview_path": "previews/part/necessary-and-sufficient.svg",
+  "preview_has_example_labels": true,
+  "search_text": "part/necessary-and-sufficient\n必要な条件と成立させる条件を区別する_説明パーツ\n必要な条件と成立させる条件を区別する\n条件を満たしただけで結論を出してよいか説明する。\n必要条件は欠けると成立せず、十分条件は満たせば成立する。\n上段は必要な条件が欠けた場合、下段は十分な条件がそろった場合。\n矢印はそれぞれの条件から確定できる結果を示す。\n必要条件を満たすだけでは成立を保証しない。\n必要条件 十分条件 成立 論理 必要十分 necessary sufficient condition",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "c28c8509b968c4877a9116b73df9d5d958f6bb6489b08c54bbdba265c80e7fbb",
+  "size_bytes": 1767,
+  "preview_sha256": "7fe084d884ba553dfcc8614d80dfb404253bb5699b7cb4853307d704da94fd2a"
+}

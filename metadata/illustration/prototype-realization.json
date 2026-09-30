@@ -1,7 +1,6 @@
 {
   "title": "構想を試作品にする",
   "kind": "illustration",
-  "category": "06-業務イラスト",
   "width": 1254,
   "height": 1254,
   "keywords": [
@@ -41,6 +40,7 @@
     "width": 1254,
     "height": 1254
   },
+  "category": "06-開発・技術",
   "schema_version": 3,
   "id": "illustration/prototype-realization",
   "name": "構想を試作品にする_メーカー業務の構成",

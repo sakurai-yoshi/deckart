@@ -1,0 +1,49 @@
+{
+  "title": "心身の健康",
+  "description": "健やかに仕事を続けられる状態を支える。",
+  "keywords": [
+    "健康",
+    "心身",
+    "ウェルビーイング",
+    "従業員",
+    "wellbeing",
+    "health",
+    "wellness"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "従業員の心身の健康を支える取り組みを紹介する。",
+    "message": "健やかに仕事を続けられる状態を支える。",
+    "reading": [
+      "心臓形の輪郭が健康と心の状態を表す。",
+      "内部のリズムが身体の働きを表す。"
+    ]
+  },
+  "category": "09-組織・人材",
+  "schema_version": 3,
+  "id": "icon/employee-wellbeing",
+  "name": "心身の健康_仕事と関係",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/employee-wellbeing.svg",
+  "metadata_path": "metadata/icon/employee-wellbeing.json",
+  "preview_path": "assets/icon/employee-wellbeing.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/employee-wellbeing\n心身の健康_仕事と関係\n心身の健康\n従業員の心身の健康を支える取り組みを紹介する。\n健やかに仕事を続けられる状態を支える。\n心臓形の輪郭が健康と心の状態を表す。\n内部のリズムが身体の働きを表す。\n健康 心身 ウェルビーイング 従業員 wellbeing health wellness",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "3a288a58a74097efba43d30d8407c84540f6da02a029b50d3951efb255666b84",
+  "size_bytes": 750
+}

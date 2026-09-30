@@ -1,0 +1,56 @@
+{
+  "title": "混入した異物を取り除く",
+  "description": "部品トレーの中の細い異物を、ピンセットでつまみ出す手元。",
+  "kind": "illustration",
+  "width": 1536,
+  "height": 1024,
+  "labels": [],
+  "composition": {
+    "framing": "object",
+    "facing": "front"
+  },
+  "keywords": [
+    "異物",
+    "混入",
+    "除去",
+    "清浄",
+    "foreign object",
+    "contamination"
+  ],
+  "guidance": {
+    "use_case": "部品の検査や清浄管理を説明し、混入した異物を見つけて取り除く場面。",
+    "message": "製品に不要なものを見分け、別に取り出す。",
+    "reading": [
+      "手袋をした手がピンセットで、部品の脇にある細い異物をつまんでいる。",
+      "部品ごとのトレーと別置きの小皿が、製品と取り除く物を分ける関係を示す。"
+    ]
+  },
+  "preview_path": "previews/illustration/foreign-object-removal.png",
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/enterprise-illustrations.json"
+  },
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": true,
+  "canvas": {
+    "width": 1536,
+    "height": 1024
+  },
+  "category": "03-品質・改善",
+  "schema_version": 3,
+  "id": "illustration/foreign-object-removal",
+  "name": "混入した異物を取り除く_業務イラスト",
+  "license": "CC0-1.0",
+  "path": "media/illustration/foreign-object-removal.png",
+  "metadata_path": "metadata/illustration/foreign-object-removal.json",
+  "preview_has_example_labels": false,
+  "search_text": "illustration/foreign-object-removal\n混入した異物を取り除く_業務イラスト\n混入した異物を取り除く\n部品の検査や清浄管理を説明し、混入した異物を見つけて取り除く場面。\n製品に不要なものを見分け、別に取り出す。\n手袋をした手がピンセットで、部品の脇にある細い異物をつまんでいる。\n部品ごとのトレーと別置きの小皿が、製品と取り除く物を分ける関係を示す。\n異物 混入 除去 清浄 foreign object contamination\nobject 物 道具 front 正面",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "14af1bc4ffd9e2b48921819f7a02f33aefdd4be506f8837e8105b52baffbfc99",
+  "size_bytes": 1458088
+}

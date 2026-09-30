@@ -1,0 +1,49 @@
+{
+  "title": "穴あけ加工",
+  "description": "工具を材料に送り込んで穴を作る。",
+  "keywords": [
+    "穴あけ",
+    "ドリル",
+    "加工",
+    "穴",
+    "drilling",
+    "boring",
+    "machining"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "部材に取り付け穴や通し穴を加工する工程を示す。",
+    "message": "工具を材料に送り込んで穴を作る。",
+    "reading": [
+      "ねじれた刃と尖端がドリルを表す。",
+      "下向きの送りと材料への接触が穴あけを示す。"
+    ]
+  },
+  "category": "04-生産・設備",
+  "schema_version": 3,
+  "id": "icon/drilling",
+  "name": "穴あけ加工_工程と対象",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/drilling.svg",
+  "metadata_path": "metadata/icon/drilling.json",
+  "preview_path": "assets/icon/drilling.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/drilling\n穴あけ加工_工程と対象\n穴あけ加工\n部材に取り付け穴や通し穴を加工する工程を示す。\n工具を材料に送り込んで穴を作る。\nねじれた刃と尖端がドリルを表す。\n下向きの送りと材料への接触が穴あけを示す。\n穴あけ ドリル 加工 穴 drilling boring machining",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "9af84b886d541ef985f9636eef433348a3ded3f9b90fd3ef139954c8b82ceda3",
+  "size_bytes": 1066
+}

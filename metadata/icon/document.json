@@ -1,5 +1,4 @@
 {
-  "category": "08-アイコンとピクトグラム",
   "title": "文書・書類",
   "description": "文書、資料、書類を示す一枚の紙。",
   "keywords": [
@@ -26,6 +25,7 @@
       "横の線が文章を含む内容を表す。"
     ]
   },
+  "category": "13-説明・伝達",
   "schema_version": 3,
   "id": "icon/document",
   "name": "書類表示_文書を示す_折り角ドキュメント",

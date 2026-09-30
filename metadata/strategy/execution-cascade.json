@@ -1,5 +1,4 @@
 {
-  "category": "05-組織と戦略",
   "title": "方針を施策と日々の実行へ落とす",
   "description": "方針を施策へ具体化し、日々の実行から得た学びを方針へ戻す。",
   "keywords": [
@@ -86,6 +85,7 @@
     ]
   },
   "kind": "diagram",
+  "category": "01-経営・意思決定",
   "schema_version": 3,
   "id": "strategy/execution-cascade",
   "name": "戦略展開_方針から日々の実行へ_連続する段階",
@@ -108,5 +108,6 @@
     "data": false
   },
   "sha256": "0d58140423c940e07edca5eed7af2f734604ec6b5ffe02d316d194c73f0c53d4",
-  "size_bytes": 2270
+  "size_bytes": 2270,
+  "preview_sha256": "6342a2e09783316a2f713ce7fd2217a115319e998677d9bc173964379d04f142"
 }

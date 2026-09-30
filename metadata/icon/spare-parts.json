@@ -1,5 +1,4 @@
 {
-  "category": "08-アイコンとピクトグラム",
   "title": "交換部品",
   "description": "故障時に取り替えられる部品を用意する。",
   "keywords": [
@@ -24,6 +23,7 @@
       "戻る矢印が装置へ取り付けることを表す。"
     ]
   },
+  "category": "04-生産・設備",
   "schema_version": 3,
   "id": "icon/spare-parts",
   "name": "交換部品_製造業務の記号",

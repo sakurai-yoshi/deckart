@@ -1,5 +1,4 @@
 {
-  "category": "08-アイコンとピクトグラム",
   "title": "在宅勤務",
   "description": "住居から業務端末を使って働く形態を示す。",
   "keywords": [
@@ -25,6 +24,7 @@
       "内部の画面が業務用の端末を表す。"
     ]
   },
+  "category": "09-組織・人材",
   "schema_version": 3,
   "id": "icon/remote-work",
   "name": "勤務形態_自宅から働く_住居と業務端末",

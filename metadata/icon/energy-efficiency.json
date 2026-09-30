@@ -1,5 +1,4 @@
 {
-  "category": "08-アイコンとピクトグラム",
   "title": "省エネルギー",
   "description": "必要な働きを保ちながらエネルギー消費を減らす。",
   "keywords": [
@@ -24,6 +23,7 @@
       "葉が資源への配慮という目的を添える。"
     ]
   },
+  "category": "08-環境・資源",
   "schema_version": 3,
   "id": "icon/energy-efficiency",
   "name": "省エネルギー_製造業務の記号",

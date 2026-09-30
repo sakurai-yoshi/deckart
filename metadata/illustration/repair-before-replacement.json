@@ -1,0 +1,56 @@
+{
+  "title": "傷んだ部分を直して長く使う",
+  "description": "工具の本体を残し、傷んだ持ち手を交換する構成。",
+  "kind": "illustration",
+  "width": 1536,
+  "height": 1024,
+  "labels": [],
+  "composition": {
+    "framing": "object",
+    "facing": "front"
+  },
+  "keywords": [
+    "長寿命",
+    "修繕",
+    "循環",
+    "修理",
+    "repairability",
+    "lifetime extension"
+  ],
+  "guidance": {
+    "use_case": "製品の長寿命化や資源利用を説明し、傷んだ部分だけを交換して使い続ける場面。",
+    "message": "交換する範囲を絞り、使える本体を残す。",
+    "reading": [
+      "本体に新しい青い持ち手を付けた工具と、取り外した傷のある持ち手を並べている。",
+      "ねじとドライバーが、部品を交換する作業を示す。"
+    ]
+  },
+  "preview_path": "previews/illustration/repair-before-replacement.png",
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/enterprise-illustrations.json"
+  },
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": true,
+  "canvas": {
+    "width": 1536,
+    "height": 1024
+  },
+  "category": "08-環境・資源",
+  "schema_version": 3,
+  "id": "illustration/repair-before-replacement",
+  "name": "傷んだ部分を直して長く使う_業務イラスト",
+  "license": "CC0-1.0",
+  "path": "media/illustration/repair-before-replacement.png",
+  "metadata_path": "metadata/illustration/repair-before-replacement.json",
+  "preview_has_example_labels": false,
+  "search_text": "illustration/repair-before-replacement\n傷んだ部分を直して長く使う_業務イラスト\n傷んだ部分を直して長く使う\n製品の長寿命化や資源利用を説明し、傷んだ部分だけを交換して使い続ける場面。\n交換する範囲を絞り、使える本体を残す。\n本体に新しい青い持ち手を付けた工具と、取り外した傷のある持ち手を並べている。\nねじとドライバーが、部品を交換する作業を示す。\n長寿命 修繕 循環 修理 repairability lifetime extension\nobject 物 道具 front 正面",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "083fe861ab8e49ed96fae61c14ab7cb016d312f22f549b74656481c51a9fde81",
+  "size_bytes": 1466264
+}

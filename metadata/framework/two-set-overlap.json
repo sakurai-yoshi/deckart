@@ -1,5 +1,4 @@
 {
-  "category": "09-循環とフレームワーク",
   "title": "顧客の期待と自社の強みを重ねる",
   "description": "二つの条件が重なる領域を、提供価値や共通課題として示す。",
   "keywords": [
@@ -107,6 +106,7 @@
     "relation": "two-set-intersection",
     "reading_direction": "outside-in"
   },
+  "category": "01-経営・意思決定",
   "schema_version": 3,
   "id": "framework/two-set-overlap",
   "name": "価値提案_顧客の期待と自社の強みを重ねる_2集合の共通領域",
@@ -129,5 +129,6 @@
     "data": false
   },
   "sha256": "82fa77ab4643b0177cdbbaa08ba67fa8aae7bd8e837bbe2767ebb3a304da0ff1",
-  "size_bytes": 1016
+  "size_bytes": 1016,
+  "preview_sha256": "1b467faca1793d9643b7b5a6bcdaf3a98e690ecc5ab0ce9b7801017e4fbef556"
 }

@@ -1,5 +1,4 @@
 {
-  "category": "08-アイコンとピクトグラム",
   "title": "在庫",
   "description": "保有している物品や在庫のまとまりを示す。",
   "keywords": [
@@ -23,6 +22,7 @@
       "積み上がったまとまりが在庫を表す。"
     ]
   },
+  "category": "05-調達・物流",
   "schema_version": 3,
   "id": "icon/inventory",
   "name": "在庫管理_保有する物品を数える_積み上げた箱",

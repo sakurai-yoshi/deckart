@@ -1,5 +1,4 @@
 {
-  "category": "02-比較と意思決定",
   "title": "個別対応から共通の手順へ",
   "description": "担当者ごとに異なる連携を、受付・判断・実行の共通手順へ整理する。",
   "keywords": [
@@ -103,6 +102,7 @@
     ]
   },
   "kind": "diagram",
+  "category": "01-経営・意思決定",
   "schema_version": 3,
   "id": "decision/operations-standardization",
   "name": "業務改善_複雑な連携の整理_個別対応から共通運用",
@@ -125,5 +125,6 @@
     "data": false
   },
   "sha256": "834b37136bc07bbe3cfcd98a63b01bfea92441e9a036372f5b67f3b527005d19",
-  "size_bytes": 3437
+  "size_bytes": 3437,
+  "preview_sha256": "efc37eaf3f43f8d641a416ab35026c5b9736fff3b8dd810acad33318ee4abad4"
 }

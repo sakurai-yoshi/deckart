@@ -1,0 +1,125 @@
+{
+  "title": "局所の改善を全体の成果で確かめる",
+  "description": "局所の変化を後工程への影響と全体の成果へつなげて評価する。",
+  "keywords": [
+    "部分最適",
+    "全体最適",
+    "後工程",
+    "改善",
+    "local",
+    "global",
+    "optimization"
+  ],
+  "labels": [
+    {
+      "x": 51,
+      "y": 33,
+      "width": 1003,
+      "height": 54,
+      "text": "工程全体の成果で確かめる",
+      "role": "全体の目的",
+      "align": "left",
+      "color": "#153A6B",
+      "font_size": 29,
+      "id": "label-1",
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 32
+    },
+    {
+      "x": 88,
+      "y": 120,
+      "width": 201,
+      "height": 100,
+      "text": "局所の\n改善",
+      "role": "局所",
+      "align": "center",
+      "color": "#2864F0",
+      "font_size": 30,
+      "id": "label-2",
+      "color_role": "accent",
+      "max_lines": 2,
+      "max_fullwidth_chars": 6
+    },
+    {
+      "x": 516,
+      "y": 120,
+      "width": 191,
+      "height": 100,
+      "text": "後工程への\n影響",
+      "role": "連鎖",
+      "align": "center",
+      "color": "#153A6B",
+      "font_size": 28,
+      "id": "label-3",
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 6
+    },
+    {
+      "x": 896,
+      "y": 120,
+      "width": 141,
+      "height": 100,
+      "text": "全体の\n成果",
+      "role": "全体",
+      "align": "center",
+      "color": "#153A6B",
+      "font_size": 28,
+      "id": "label-4",
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 4
+    },
+    {
+      "x": 169,
+      "y": 318,
+      "width": 782,
+      "height": 51,
+      "text": "一箇所の速さが、全体の速さになるとは限らない",
+      "role": "確認点",
+      "align": "center",
+      "color": "#153A6B",
+      "font_size": 27,
+      "id": "label-5",
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 27
+    }
+  ],
+  "width": 1120,
+  "height": 380,
+  "kind": "part",
+  "guidance": {
+    "use_case": "一工程の改善が、納期や品質など全体の成果へつながるか示す。",
+    "message": "局所の変化を後工程への影響と全体の成果へつなげて評価する。",
+    "reading": [
+      "青枠が改善箇所、外枠が評価する全体。"
+    ]
+  },
+  "category": "03-品質・改善",
+  "schema_version": 3,
+  "id": "part/local-and-whole-result",
+  "name": "局所の改善を全体の成果で確かめる_説明パーツ",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1120,
+    "height": 380
+  },
+  "path": "assets/part/local-and-whole-result.svg",
+  "metadata_path": "metadata/part/local-and-whole-result.json",
+  "preview_path": "previews/part/local-and-whole-result.svg",
+  "preview_has_example_labels": true,
+  "search_text": "part/local-and-whole-result\n局所の改善を全体の成果で確かめる_説明パーツ\n局所の改善を全体の成果で確かめる\n一工程の改善が、納期や品質など全体の成果へつながるか示す。\n局所の変化を後工程への影響と全体の成果へつなげて評価する。\n青枠が改善箇所、外枠が評価する全体。\n部分最適 全体最適 後工程 改善 local global optimization",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "faefec3365710c2764f5edc4695fff8bdaf0cd6f2bb6b9f48904abd1c92042fd",
+  "size_bytes": 1588,
+  "preview_sha256": "b9894b0836966fa50c7b25aeff4923d31efe645b0f5205264414a870006ce1ff"
+}

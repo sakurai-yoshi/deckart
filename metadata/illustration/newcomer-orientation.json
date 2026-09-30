@@ -1,0 +1,57 @@
+{
+  "title": "新しい仲間を職場へ案内する",
+  "description": "机と仕事道具を示す案内役と、手帳を持って説明を聞く人。",
+  "kind": "illustration",
+  "width": 1312,
+  "height": 1199,
+  "labels": [],
+  "composition": {
+    "framing": "full-body",
+    "facing": "front",
+    "people_count": 2
+  },
+  "keywords": [
+    "入社",
+    "受け入れ",
+    "案内",
+    "オンボーディング",
+    "onboarding",
+    "orientation"
+  ],
+  "guidance": {
+    "use_case": "新しく加わった人に仕事を始める場所や道具を紹介し、受け入れの流れを説明する場面。",
+    "message": "仕事を始められるよう、身近な環境から案内する。",
+    "reading": [
+      "案内する人が、端末と資料を置いた机へ手を向けている。",
+      "相手は手帳を持って案内を聞き、二人の間に会話が生まれている。"
+    ]
+  },
+  "preview_path": "previews/illustration/newcomer-orientation.png",
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/enterprise-illustrations.json"
+  },
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": true,
+  "canvas": {
+    "width": 1312,
+    "height": 1199
+  },
+  "category": "09-組織・人材",
+  "schema_version": 3,
+  "id": "illustration/newcomer-orientation",
+  "name": "新しい仲間を職場へ案内する_業務イラスト",
+  "license": "CC0-1.0",
+  "path": "media/illustration/newcomer-orientation.png",
+  "metadata_path": "metadata/illustration/newcomer-orientation.json",
+  "preview_has_example_labels": false,
+  "search_text": "illustration/newcomer-orientation\n新しい仲間を職場へ案内する_業務イラスト\n新しい仲間を職場へ案内する\n新しく加わった人に仕事を始める場所や道具を紹介し、受け入れの流れを説明する場面。\n仕事を始められるよう、身近な環境から案内する。\n案内する人が、端末と資料を置いた机へ手を向けている。\n相手は手帳を持って案内を聞き、二人の間に会話が生まれている。\n入社 受け入れ 案内 オンボーディング onboarding orientation\nfull-body 全身 front 正面",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "e8e3a72bdd6c25b66a33bc6fa33bda511364115be5242602aa4d975213aeb26d",
+  "size_bytes": 890012
+}

@@ -1,5 +1,4 @@
 {
-  "category": "08-アイコンとピクトグラム",
   "title": "担当者",
   "description": "個人や担当者を示す人物のピクトグラム。",
   "keywords": [
@@ -25,6 +24,7 @@
       "一つの肩の輪郭が個人を表す。"
     ]
   },
+  "category": "09-組織・人材",
   "schema_version": 3,
   "id": "icon/person",
   "name": "人物表示_担当者を示す_ひとりの人物",

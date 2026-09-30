@@ -1,0 +1,50 @@
+{
+  "title": "技術と知識の継承",
+  "description": "持っている知識を次の人へ渡す。",
+  "keywords": [
+    "技術継承",
+    "知識継承",
+    "引継",
+    "ノウハウ",
+    "knowledge",
+    "transfer",
+    "handover",
+    "expertise"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "知識やノウハウを他の担当へ引き継ぐことを示す。",
+    "message": "持っている知識を次の人へ渡す。",
+    "reading": [
+      "左右の開いたページが継承する知識を表す。",
+      "左右を結ぶ矢印が知識の移転を表す。"
+    ]
+  },
+  "category": "09-組織・人材",
+  "schema_version": 3,
+  "id": "icon/knowledge-transfer",
+  "name": "技術と知識の継承_仕事と関係",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/knowledge-transfer.svg",
+  "metadata_path": "metadata/icon/knowledge-transfer.json",
+  "preview_path": "assets/icon/knowledge-transfer.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/knowledge-transfer\n技術と知識の継承_仕事と関係\n技術と知識の継承\n知識やノウハウを他の担当へ引き継ぐことを示す。\n持っている知識を次の人へ渡す。\n左右の開いたページが継承する知識を表す。\n左右を結ぶ矢印が知識の移転を表す。\n技術継承 知識継承 引継 ノウハウ knowledge transfer handover expertise",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "541a49e5f1ae0c7e2d171109e8c76a719e2190a4f1f4a8ff3748b3b73d145d4e",
+  "size_bytes": 994
+}

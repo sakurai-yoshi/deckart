@@ -1,5 +1,4 @@
 {
-  "category": "07-注釈と見出し",
   "title": "確認済みと未確認を区別する",
   "description": "実線と破線の二領域で、確かめた事実と今後の調査を分ける部品。",
   "keywords": [
@@ -85,6 +84,7 @@
       "破線の領域は今後確かめる内容を表す。"
     ]
   },
+  "category": "13-説明・伝達",
   "schema_version": 3,
   "id": "part/confirmed-and-unconfirmed",
   "name": "確認済みと未確認を区別する_説明パーツ",
@@ -107,5 +107,6 @@
     "data": false
   },
   "sha256": "7e480c5b191e922b4af68b517a8d3bc46b32e028d0890aa7e689c1085473e074",
-  "size_bytes": 1119
+  "size_bytes": 1119,
+  "preview_sha256": "e63792361473e8adf92c41c62ee3b78e41c3df80de9873acc2065d3284095f4e"
 }

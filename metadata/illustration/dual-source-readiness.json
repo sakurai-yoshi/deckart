@@ -1,0 +1,56 @@
+{
+  "title": "同じ部品を複数の調達先から備える",
+  "description": "識別印の違う二つの箱と共通の部品で、複数調達の備えを表す。",
+  "kind": "illustration",
+  "width": 1536,
+  "height": 1024,
+  "labels": [],
+  "composition": {
+    "framing": "object",
+    "facing": "front"
+  },
+  "keywords": [
+    "調達",
+    "複数購買",
+    "供給網",
+    "部品",
+    "dual sourcing",
+    "supply resilience"
+  ],
+  "guidance": {
+    "use_case": "一つの調達先に依存せず、同じ部品を複数の仕入先から用意する方針を説明する場面。",
+    "message": "調達先を分けて、同じ部品を備える。",
+    "reading": [
+      "印の異なる二つの箱に、同じ形の青い部品が収まっている。",
+      "箱の間に置かれた部品が、両方に共通する調達対象を示す。"
+    ]
+  },
+  "preview_path": "previews/illustration/dual-source-readiness.png",
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/enterprise-illustrations.json"
+  },
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": true,
+  "canvas": {
+    "width": 1536,
+    "height": 1024
+  },
+  "category": "05-調達・物流",
+  "schema_version": 3,
+  "id": "illustration/dual-source-readiness",
+  "name": "同じ部品を複数の調達先から備える_業務イラスト",
+  "license": "CC0-1.0",
+  "path": "media/illustration/dual-source-readiness.png",
+  "metadata_path": "metadata/illustration/dual-source-readiness.json",
+  "preview_has_example_labels": false,
+  "search_text": "illustration/dual-source-readiness\n同じ部品を複数の調達先から備える_業務イラスト\n同じ部品を複数の調達先から備える\n一つの調達先に依存せず、同じ部品を複数の仕入先から用意する方針を説明する場面。\n調達先を分けて、同じ部品を備える。\n印の異なる二つの箱に、同じ形の青い部品が収まっている。\n箱の間に置かれた部品が、両方に共通する調達対象を示す。\n調達 複数購買 供給網 部品 dual sourcing supply resilience\nobject 物 道具 front 正面",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "f533a8a44ce881a666f64ea8eb617648dc4fb6e0532866a0da3a23db56323b0d",
+  "size_bytes": 1446880
+}

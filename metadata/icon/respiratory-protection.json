@@ -1,0 +1,50 @@
+{
+  "title": "呼吸用保護具",
+  "description": "吸い込む空気に対する保護具を着ける。",
+  "keywords": [
+    "防じん",
+    "呼吸",
+    "マスク",
+    "保護具",
+    "respirator",
+    "respiratory",
+    "protection",
+    "dust"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "粉じんなどへの対応で用いる呼吸用保護具を示す。",
+    "message": "吸い込む空気に対する保護具を着ける。",
+    "reading": [
+      "顔に沿う中央の面が保護マスクを表す。",
+      "丸い部品が空気を通す部分を表す。"
+    ]
+  },
+  "category": "07-安全・事業継続",
+  "schema_version": 3,
+  "id": "icon/respiratory-protection",
+  "name": "呼吸用保護具_設備と働き",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/respiratory-protection.svg",
+  "metadata_path": "metadata/icon/respiratory-protection.json",
+  "preview_path": "assets/icon/respiratory-protection.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/respiratory-protection\n呼吸用保護具_設備と働き\n呼吸用保護具\n粉じんなどへの対応で用いる呼吸用保護具を示す。\n吸い込む空気に対する保護具を着ける。\n顔に沿う中央の面が保護マスクを表す。\n丸い部品が空気を通す部分を表す。\n防じん 呼吸 マスク 保護具 respirator respiratory protection dust",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "f0be02e100bfef1f208a79f663c40bb464f6260f29099adb8c41bab03ab86e12",
+  "size_bytes": 968
+}

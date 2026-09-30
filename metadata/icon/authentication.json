@@ -1,5 +1,4 @@
 {
-  "category": "08-アイコンとピクトグラム",
   "title": "本人認証",
   "description": "登録された本人かを確かめる認証を示す。",
   "keywords": [
@@ -24,6 +23,7 @@
       "中央へ巻き込む線が一人に対応する特徴を示す。"
     ]
   },
+  "category": "12-情報・データ",
   "schema_version": 3,
   "id": "icon/authentication",
   "name": "本人確認_利用者を識別する_指紋",

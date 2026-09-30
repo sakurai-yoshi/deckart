@@ -1,0 +1,56 @@
+{
+  "title": "温度を保ちながら運ぶ",
+  "description": "製品を収めた断熱箱、周囲の保冷材、記録用の小型計測器による温度管理の構成。",
+  "kind": "illustration",
+  "width": 1536,
+  "height": 1024,
+  "labels": [],
+  "composition": {
+    "framing": "object",
+    "facing": "front"
+  },
+  "keywords": [
+    "温度管理",
+    "保冷",
+    "輸送",
+    "記録",
+    "cold chain",
+    "temperature"
+  ],
+  "guidance": {
+    "use_case": "温度に配慮した輸送や梱包を説明し、保冷と記録を組み合わせる場面。",
+    "message": "輸送中の温度を保つ備えと、確かめる手段をそろえる。",
+    "reading": [
+      "厚みのある断熱箱の内側に製品が入り、その周囲へ青い保冷材を配置している。",
+      "内側に取り付けた小さな計測器が、輸送中の温度を記録する意図を添える。"
+    ]
+  },
+  "preview_path": "previews/illustration/temperature-controlled-transport.png",
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/enterprise-illustrations.json"
+  },
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": true,
+  "canvas": {
+    "width": 1536,
+    "height": 1024
+  },
+  "category": "05-調達・物流",
+  "schema_version": 3,
+  "id": "illustration/temperature-controlled-transport",
+  "name": "温度を保ちながら運ぶ_業務イラスト",
+  "license": "CC0-1.0",
+  "path": "media/illustration/temperature-controlled-transport.png",
+  "metadata_path": "metadata/illustration/temperature-controlled-transport.json",
+  "preview_has_example_labels": false,
+  "search_text": "illustration/temperature-controlled-transport\n温度を保ちながら運ぶ_業務イラスト\n温度を保ちながら運ぶ\n温度に配慮した輸送や梱包を説明し、保冷と記録を組み合わせる場面。\n輸送中の温度を保つ備えと、確かめる手段をそろえる。\n厚みのある断熱箱の内側に製品が入り、その周囲へ青い保冷材を配置している。\n内側に取り付けた小さな計測器が、輸送中の温度を記録する意図を添える。\n温度管理 保冷 輸送 記録 cold chain temperature\nobject 物 道具 front 正面",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "f0a0fdb0f24733859fd0f84a6622be4d670473fbe4c3811bf1bb5a5dee31a950",
+  "size_bytes": 1399584
+}

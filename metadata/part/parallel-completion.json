@@ -1,0 +1,112 @@
+{
+  "title": "二つの対応をそろえて完了とする",
+  "description": "別々に進める対応を、両方そろえて完了にする。",
+  "keywords": [
+    "並行",
+    "両方",
+    "AND",
+    "合流",
+    "完了条件",
+    "parallel",
+    "conjunction",
+    "completion"
+  ],
+  "labels": [
+    {
+      "x": 49,
+      "y": 124,
+      "width": 187,
+      "height": 96,
+      "text": "両方が\n必要",
+      "role": "並行する条件",
+      "align": "center",
+      "color": "#FFFFFF",
+      "font_size": 29,
+      "id": "label-1",
+      "color_role": "paper",
+      "max_lines": 2,
+      "max_fullwidth_chars": 6
+    },
+    {
+      "x": 476,
+      "y": 62,
+      "width": 205,
+      "height": 63,
+      "text": "対応 A",
+      "role": "並行対応",
+      "align": "center",
+      "color": "#2864F0",
+      "font_size": 31,
+      "id": "label-2",
+      "color_role": "accent",
+      "max_lines": 1,
+      "max_fullwidth_chars": 6
+    },
+    {
+      "x": 476,
+      "y": 228,
+      "width": 205,
+      "height": 63,
+      "text": "対応 B",
+      "role": "並行対応",
+      "align": "center",
+      "color": "#2864F0",
+      "font_size": 31,
+      "id": "label-3",
+      "color_role": "accent",
+      "max_lines": 1,
+      "max_fullwidth_chars": 6
+    },
+    {
+      "x": 908,
+      "y": 137,
+      "width": 166,
+      "height": 81,
+      "text": "そろえて\n完了",
+      "role": "合流条件",
+      "align": "center",
+      "color": "#153A6B",
+      "font_size": 27,
+      "id": "label-4",
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 5
+    }
+  ],
+  "width": 1120,
+  "height": 380,
+  "kind": "part",
+  "guidance": {
+    "use_case": "複数の対応がすべて済んだときに完了とすることを注記する。",
+    "message": "別々に進める対応を、両方そろえて完了にする。",
+    "reading": [
+      "二本の枝へ分かれ、右の一点へ合流する。",
+      "どちらか一方を選ぶ分岐ではなく、両方を実行する関係。"
+    ]
+  },
+  "category": "13-説明・伝達",
+  "schema_version": 3,
+  "id": "part/parallel-completion",
+  "name": "二つの対応をそろえて完了とする_説明パーツ",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1120,
+    "height": 380
+  },
+  "path": "assets/part/parallel-completion.svg",
+  "metadata_path": "metadata/part/parallel-completion.json",
+  "preview_path": "previews/part/parallel-completion.svg",
+  "preview_has_example_labels": true,
+  "search_text": "part/parallel-completion\n二つの対応をそろえて完了とする_説明パーツ\n二つの対応をそろえて完了とする\n複数の対応がすべて済んだときに完了とすることを注記する。\n別々に進める対応を、両方そろえて完了にする。\n二本の枝へ分かれ、右の一点へ合流する。\nどちらか一方を選ぶ分岐ではなく、両方を実行する関係。\n並行 両方 AND 合流 完了条件 parallel conjunction completion",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "0d889c25c2cc97e98e0ea18c8140111ffa3628ca8ca4991c2ad8f84042c0fcc6",
+  "size_bytes": 1245,
+  "preview_sha256": "067fd49b7d361b1bb9e1d2e61e3030752ab9da258177d11b52399bec1356022c"
+}

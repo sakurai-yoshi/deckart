@@ -1,5 +1,4 @@
 {
-  "category": "07-注釈と見出し",
   "title": "囲った対象と対象外を区別する",
   "description": "上と左右の括りで対象を示し、その外側へ対象外を置く部品。",
   "keywords": [
@@ -85,6 +84,7 @@
       "右の独立した欄に対象外を明示する。"
     ]
   },
+  "category": "13-説明・伝達",
   "schema_version": 3,
   "id": "part/included-and-excluded",
   "name": "囲った対象と対象外を区別する_説明パーツ",
@@ -107,5 +107,6 @@
     "data": false
   },
   "sha256": "290e68914e10417bde3dcbfceea9289b38c79c99cdf451339f2cf08db1c7c0d0",
-  "size_bytes": 903
+  "size_bytes": 903,
+  "preview_sha256": "14ffb367236863e8fa3069b117f8e7349be498069ea2c91ad0d24d77b877fcd0"
 }

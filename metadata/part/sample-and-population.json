@@ -1,0 +1,128 @@
+{
+  "title": "調べた範囲と対象全体を分ける",
+  "description": "実際に調べた一部と、判断したい全体の範囲を区別する。",
+  "keywords": [
+    "母集団",
+    "標本",
+    "抽出",
+    "サンプル",
+    "調査",
+    "範囲",
+    "sample",
+    "population",
+    "coverage"
+  ],
+  "labels": [
+    {
+      "x": 57,
+      "y": 46,
+      "width": 251,
+      "height": 53,
+      "text": "母集団",
+      "role": "対象全体",
+      "align": "left",
+      "color": "#153A6B",
+      "font_size": 29,
+      "id": "label-1",
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 8
+    },
+    {
+      "x": 57,
+      "y": 159,
+      "width": 251,
+      "height": 86,
+      "text": "調べたい全体",
+      "role": "母集団の説明",
+      "align": "left",
+      "color": "#153A6B",
+      "font_size": 29,
+      "id": "label-2",
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 8
+    },
+    {
+      "x": 355,
+      "y": 103,
+      "width": 230,
+      "height": 115,
+      "text": "実際に調べた\n範囲",
+      "role": "標本",
+      "align": "center",
+      "color": "#2864F0",
+      "font_size": 29,
+      "id": "label-3",
+      "color_role": "accent",
+      "max_lines": 2,
+      "max_fullwidth_chars": 7
+    },
+    {
+      "x": 791,
+      "y": 49,
+      "width": 289,
+      "height": 67,
+      "text": "抽出方法を併記",
+      "role": "確認点",
+      "align": "left",
+      "color": "#2864F0",
+      "font_size": 29,
+      "id": "label-4",
+      "color_role": "accent",
+      "max_lines": 1,
+      "max_fullwidth_chars": 9
+    },
+    {
+      "x": 791,
+      "y": 148,
+      "width": 289,
+      "height": 115,
+      "text": "結果をどこまで\n広げて解釈するか",
+      "role": "解釈の範囲",
+      "align": "left",
+      "color": "#153A6B",
+      "font_size": 28,
+      "id": "label-5",
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 9
+    }
+  ],
+  "width": 1120,
+  "height": 380,
+  "kind": "part",
+  "guidance": {
+    "use_case": "アンケートや抜取検査の結果に、標本と母集団の関係を添える。",
+    "message": "実際に調べた一部と、判断したい全体の範囲を区別する。",
+    "reading": [
+      "外枠は対象全体、内枠は調べた範囲を表す概念図。",
+      "面積は抽出率を表さない。"
+    ]
+  },
+  "category": "13-説明・伝達",
+  "schema_version": 3,
+  "id": "part/sample-and-population",
+  "name": "調べた範囲と対象全体を分ける_説明パーツ",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1120,
+    "height": 380
+  },
+  "path": "assets/part/sample-and-population.svg",
+  "metadata_path": "metadata/part/sample-and-population.json",
+  "preview_path": "previews/part/sample-and-population.svg",
+  "preview_has_example_labels": true,
+  "search_text": "part/sample-and-population\n調べた範囲と対象全体を分ける_説明パーツ\n調べた範囲と対象全体を分ける\nアンケートや抜取検査の結果に、標本と母集団の関係を添える。\n実際に調べた一部と、判断したい全体の範囲を区別する。\n外枠は対象全体、内枠は調べた範囲を表す概念図。\n面積は抽出率を表さない。\n母集団 標本 抽出 サンプル 調査 範囲 sample population coverage",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "9f3ed6acac684275df70feb67b3e8fa708fa1bc5cb4d86b6082fb13475eaf592",
+  "size_bytes": 949,
+  "preview_sha256": "43b12f03e3b8df13bc09a80b3716ad4db289861998d130ce8c0e69e379a68cd9"
+}

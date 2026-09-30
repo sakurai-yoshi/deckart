@@ -1,5 +1,4 @@
 {
-  "category": "07-注釈と見出し",
   "title": "未決事項と確認方法を残す",
   "description": "未決の記号を添え、残る問いと確認方法を分けて記す部品。",
   "keywords": [
@@ -71,6 +70,7 @@
       "右の上段は問い、下段は確認方法の領域。"
     ]
   },
+  "category": "13-説明・伝達",
   "schema_version": 3,
   "id": "part/open-question",
   "name": "未決事項と確認方法を残す_説明パーツ",
@@ -93,5 +93,6 @@
     "data": false
   },
   "sha256": "05ffee95fa5d3054c20da4477c5d4f33025c7bf42d6363520321d796f4afd0ac",
-  "size_bytes": 1046
+  "size_bytes": 1046,
+  "preview_sha256": "629107d881b5a8488e82c6a197841c88c6feac19186f69bb74f552d33246190f"
 }

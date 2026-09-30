@@ -1,0 +1,56 @@
+{
+  "title": "点検の予定を予約する",
+  "description": "カレンダーを表示した端末、対応する予約票、小型機器で点検予約を表す。",
+  "kind": "illustration",
+  "width": 1278,
+  "height": 1230,
+  "labels": [],
+  "composition": {
+    "framing": "object",
+    "facing": "front"
+  },
+  "keywords": [
+    "予約",
+    "点検",
+    "サービス",
+    "日程",
+    "appointment",
+    "service"
+  ],
+  "guidance": {
+    "use_case": "点検や訪問サービスを申し込む流れで、対象と予約日を確認する場面。",
+    "message": "サービスを受ける対象と日程をそろえる。",
+    "reading": [
+      "端末のカレンダーと手前の予約票で、同じ青い枠の一日を示している。",
+      "隣の小型機器が、予約するサービスの対象を添えている。"
+    ]
+  },
+  "preview_path": "previews/illustration/service-appointment.png",
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/enterprise-illustrations.json"
+  },
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": true,
+  "canvas": {
+    "width": 1278,
+    "height": 1230
+  },
+  "category": "10-顧客・営業",
+  "schema_version": 3,
+  "id": "illustration/service-appointment",
+  "name": "点検の予定を予約する_業務イラスト",
+  "license": "CC0-1.0",
+  "path": "media/illustration/service-appointment.png",
+  "metadata_path": "metadata/illustration/service-appointment.json",
+  "preview_has_example_labels": false,
+  "search_text": "illustration/service-appointment\n点検の予定を予約する_業務イラスト\n点検の予定を予約する\n点検や訪問サービスを申し込む流れで、対象と予約日を確認する場面。\nサービスを受ける対象と日程をそろえる。\n端末のカレンダーと手前の予約票で、同じ青い枠の一日を示している。\n隣の小型機器が、予約するサービスの対象を添えている。\n予約 点検 サービス 日程 appointment service\nobject 物 道具 front 正面",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "b625b0c7948f287ec58390ed178dc17d3177cfaf930ae77e3b46bfb66bcf6302",
+  "size_bytes": 716498
+}

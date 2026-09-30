@@ -1,0 +1,51 @@
+{
+  "title": "安全靴",
+  "description": "足を保護しながら作業する。",
+  "keywords": [
+    "安全靴",
+    "足",
+    "靴",
+    "保護具",
+    "safety",
+    "footwear",
+    "protective",
+    "shoes",
+    "toe"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "足先を守る作業用の靴を説明する。",
+    "message": "足を保護しながら作業する。",
+    "reading": [
+      "高い甲と厚い靴底が作業靴を表す。",
+      "つま先の区切りが保護される部分を示す。"
+    ]
+  },
+  "category": "07-安全・事業継続",
+  "schema_version": 3,
+  "id": "icon/safety-footwear",
+  "name": "安全靴_設備と働き",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/safety-footwear.svg",
+  "metadata_path": "metadata/icon/safety-footwear.json",
+  "preview_path": "assets/icon/safety-footwear.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/safety-footwear\n安全靴_設備と働き\n安全靴\n足先を守る作業用の靴を説明する。\n足を保護しながら作業する。\n高い甲と厚い靴底が作業靴を表す。\nつま先の区切りが保護される部分を示す。\n安全靴 足 靴 保護具 safety footwear protective shoes toe",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "ddc75931a75d2087ded352d773b173afff34898b39c57c1379b2218244e1f026",
+  "size_bytes": 945
+}

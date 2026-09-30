@@ -1,0 +1,51 @@
+{
+  "title": "費用の低減",
+  "description": "必要な費用を見直して減らす。",
+  "keywords": [
+    "費用",
+    "コスト",
+    "削減",
+    "低減",
+    "原価",
+    "cost",
+    "reduction",
+    "saving",
+    "expense"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "業務で発生する費用を下げる取り組みを示す。",
+    "message": "必要な費用を見直して減らす。",
+    "reading": [
+      "硬貨が減らす費用を表す。",
+      "下がる段差が費用水準の低減を示す。"
+    ]
+  },
+  "category": "11-会計・収益",
+  "schema_version": 3,
+  "id": "icon/cost-reduction",
+  "name": "費用の低減_仕事と関係",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/cost-reduction.svg",
+  "metadata_path": "metadata/icon/cost-reduction.json",
+  "preview_path": "assets/icon/cost-reduction.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/cost-reduction\n費用の低減_仕事と関係\n費用の低減\n業務で発生する費用を下げる取り組みを示す。\n必要な費用を見直して減らす。\n硬貨が減らす費用を表す。\n下がる段差が費用水準の低減を示す。\n費用 コスト 削減 低減 原価 cost reduction saving expense",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "517f73319d3d50e7af72b5d0fd5397a97ef010b1d5a9f5c4d8b12f0e60234a30",
+  "size_bytes": 1067
+}

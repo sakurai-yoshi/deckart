@@ -1,5 +1,4 @@
 {
-  "category": "08-アイコンとピクトグラム",
   "title": "版管理",
   "description": "変更の履歴や別の作業の統合を示す。",
   "keywords": [
@@ -25,6 +24,7 @@
       "横から合流する線が別の変更の統合を表す。"
     ]
   },
+  "category": "12-情報・データ",
   "schema_version": 3,
   "id": "icon/version-control",
   "name": "変更管理_別の変更を統合する_分岐と合流",

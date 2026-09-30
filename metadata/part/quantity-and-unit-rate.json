@@ -1,0 +1,127 @@
+{
+  "title": "数量と一単位当たりの値から総量を読む",
+  "description": "総量は活動した数量と一単位当たりの値の両方で変わる。",
+  "keywords": [
+    "数量",
+    "原単位",
+    "単価",
+    "総量",
+    "活動量",
+    "quantity",
+    "rate",
+    "intensity",
+    "total"
+  ],
+  "labels": [
+    {
+      "x": 56,
+      "y": 59,
+      "width": 351,
+      "height": 58,
+      "text": "活動した数量",
+      "role": "数量",
+      "align": "left",
+      "color": "#607590",
+      "font_size": 28,
+      "id": "label-1",
+      "color_role": "muted",
+      "max_lines": 1,
+      "max_fullwidth_chars": 11
+    },
+    {
+      "x": 56,
+      "y": 145,
+      "width": 351,
+      "height": 81,
+      "text": "件数・時間・個数",
+      "role": "数量の例",
+      "align": "left",
+      "color": "#153A6B",
+      "font_size": 32,
+      "id": "label-2",
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 10
+    },
+    {
+      "x": 704,
+      "y": 59,
+      "width": 360,
+      "height": 58,
+      "text": "一単位当たりの値",
+      "role": "原単位",
+      "align": "left",
+      "color": "#2864F0",
+      "font_size": 28,
+      "id": "label-3",
+      "color_role": "accent",
+      "max_lines": 1,
+      "max_fullwidth_chars": 12
+    },
+    {
+      "x": 704,
+      "y": 145,
+      "width": 360,
+      "height": 81,
+      "text": "単価・負荷・消費量",
+      "role": "原単位の例",
+      "align": "left",
+      "color": "#153A6B",
+      "font_size": 30,
+      "id": "label-4",
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 11
+    },
+    {
+      "x": 416,
+      "y": 328,
+      "width": 290,
+      "height": 49,
+      "text": "掛け合わせた総量",
+      "role": "結果",
+      "align": "center",
+      "color": "#2864F0",
+      "font_size": 27,
+      "id": "label-5",
+      "color_role": "accent",
+      "max_lines": 1,
+      "max_fullwidth_chars": 10
+    }
+  ],
+  "width": 1120,
+  "height": 380,
+  "kind": "part",
+  "guidance": {
+    "use_case": "費用や環境負荷の増減を、活動量と原単位へ分けて説明する。",
+    "message": "総量は活動した数量と一単位当たりの値の両方で変わる。",
+    "reading": [
+      "中央の掛け算が数量と原単位の関係、下の括りが総量を示す。"
+    ]
+  },
+  "category": "13-説明・伝達",
+  "schema_version": 3,
+  "id": "part/quantity-and-unit-rate",
+  "name": "数量と一単位当たりの値から総量を読む_説明パーツ",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1120,
+    "height": 380
+  },
+  "path": "assets/part/quantity-and-unit-rate.svg",
+  "metadata_path": "metadata/part/quantity-and-unit-rate.json",
+  "preview_path": "previews/part/quantity-and-unit-rate.svg",
+  "preview_has_example_labels": true,
+  "search_text": "part/quantity-and-unit-rate\n数量と一単位当たりの値から総量を読む_説明パーツ\n数量と一単位当たりの値から総量を読む\n費用や環境負荷の増減を、活動量と原単位へ分けて説明する。\n総量は活動した数量と一単位当たりの値の両方で変わる。\n中央の掛け算が数量と原単位の関係、下の括りが総量を示す。\n数量 原単位 単価 総量 活動量 quantity rate intensity total",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "85d57d3e0225d09472113373b958f109e3f7bc9aed6fe668428c4a7a9e3e82d3",
+  "size_bytes": 1088,
+  "preview_sha256": "15ec77249ee41f598ae8293c30ebcdd9926d6b23bf9251ebc47b656b10ec94dd"
+}

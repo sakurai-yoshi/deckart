@@ -1,7 +1,6 @@
 {
   "title": "話を聞く",
   "kind": "illustration",
-  "category": "06-業務イラスト",
   "width": 1254,
   "height": 1254,
   "keywords": [
@@ -39,6 +38,7 @@
     "width": 1254,
     "height": 1254
   },
+  "category": "09-組織・人材",
   "schema_version": 3,
   "id": "illustration/listening",
   "name": "話を聞く_汎用ビジネスの動作",

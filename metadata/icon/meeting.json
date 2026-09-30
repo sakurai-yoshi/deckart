@@ -1,5 +1,4 @@
 {
-  "category": "08-アイコンとピクトグラム",
   "title": "会議",
   "description": "同じ場で論点を共有し話し合う会議を示す。",
   "keywords": [
@@ -23,6 +22,7 @@
       "周囲の人物が会議の参加者を表す。"
     ]
   },
+  "category": "13-説明・伝達",
   "schema_version": 3,
   "id": "icon/meeting",
   "name": "会議運営_同じ場で論点を話す_会議卓",

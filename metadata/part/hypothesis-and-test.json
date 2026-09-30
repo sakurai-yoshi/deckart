@@ -1,5 +1,4 @@
 {
-  "category": "07-注釈と見出し",
   "title": "仮説と確かめ方を一組にする",
   "description": "未確定の仮説を破線で囲み、その検証方法へつなぐ部品。",
   "keywords": [
@@ -84,6 +83,7 @@
       "右の淡い欄は、仮説を確かめる方法の領域。"
     ]
   },
+  "category": "13-説明・伝達",
   "schema_version": 3,
   "id": "part/hypothesis-and-test",
   "name": "仮説と確かめ方を一組にする_説明パーツ",
@@ -106,5 +106,6 @@
     "data": false
   },
   "sha256": "5ed094b0b439c4d9e64ffa194f825aa9d477118af65fe97adbfa1238f137ef9d",
-  "size_bytes": 929
+  "size_bytes": 929,
+  "preview_sha256": "92e4e147028837fbb0fa8725862785aef53b46bd8b9ebc866fbcd6915a6ef7ff"
 }

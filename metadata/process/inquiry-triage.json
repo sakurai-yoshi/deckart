@@ -1,5 +1,4 @@
 {
-  "category": "01-業務プロセス",
   "title": "問い合わせを担当へ振り分ける",
   "description": "窓口へ集まる依頼を分類し、適切な対応経路へ振り分ける。",
   "keywords": [
@@ -105,6 +104,7 @@
     ]
   },
   "kind": "diagram",
+  "category": "10-顧客・営業",
   "schema_version": 3,
   "id": "process/inquiry-triage",
   "name": "問い合わせ対応_内容と緊急度で担当へ振り分ける_三方向のトリアージ",
@@ -127,5 +127,6 @@
     "data": false
   },
   "sha256": "d0b74768344d380d7ae949a718e2b589e8e62f1c4d7b4853778fa0c454ce5fc1",
-  "size_bytes": 2821
+  "size_bytes": 2821,
+  "preview_sha256": "768cf8ca375a854f61a7a9e54af94498596dbd0399e48b6629b8349f5ce7fbed"
 }

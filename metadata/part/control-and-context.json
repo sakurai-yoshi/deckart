@@ -1,0 +1,127 @@
+{
+  "title": "変えられることと外部条件を分ける",
+  "description": "直接変えられる範囲へ行動し、外部条件には備える。",
+  "keywords": [
+    "管理可能",
+    "外部要因",
+    "制御",
+    "影響",
+    "環境",
+    "controllable",
+    "external",
+    "context"
+  ],
+  "labels": [
+    {
+      "x": 224,
+      "y": 130,
+      "width": 162,
+      "height": 98,
+      "text": "直接\n変えられる",
+      "role": "管理できる範囲",
+      "align": "center",
+      "color": "#2864F0",
+      "font_size": 27,
+      "id": "label-1",
+      "color_role": "accent",
+      "max_lines": 2,
+      "max_fullwidth_chars": 5
+    },
+    {
+      "x": 54,
+      "y": 331,
+      "width": 503,
+      "height": 45,
+      "text": "判断と行動の対象を分ける",
+      "role": "目的",
+      "align": "center",
+      "color": "#153A6B",
+      "font_size": 26,
+      "id": "label-2",
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 18
+    },
+    {
+      "x": 718,
+      "y": 103,
+      "width": 331,
+      "height": 60,
+      "text": "外部の条件",
+      "role": "外部要因",
+      "align": "left",
+      "color": "#607590",
+      "font_size": 28,
+      "id": "label-3",
+      "color_role": "muted",
+      "max_lines": 1,
+      "max_fullwidth_chars": 11
+    },
+    {
+      "x": 718,
+      "y": 181,
+      "width": 331,
+      "height": 76,
+      "text": "観測して備える",
+      "role": "外部への対応",
+      "align": "left",
+      "color": "#153A6B",
+      "font_size": 32,
+      "id": "label-4",
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 9
+    },
+    {
+      "x": 204,
+      "y": 51,
+      "width": 202,
+      "height": 42,
+      "text": "影響を受ける",
+      "role": "全体の範囲",
+      "align": "center",
+      "color": "#153A6B",
+      "font_size": 24,
+      "id": "label-5",
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 7
+    }
+  ],
+  "width": 1120,
+  "height": 380,
+  "kind": "part",
+  "guidance": {
+    "use_case": "課題のうち、自分たちで変えられる部分と観測する外部条件を整理する。",
+    "message": "直接変えられる範囲へ行動し、外部条件には備える。",
+    "reading": [
+      "内側は直接変えられる範囲、外側は影響を受ける範囲。",
+      "右は外部条件の観測・備えを示す。"
+    ]
+  },
+  "category": "01-経営・意思決定",
+  "schema_version": 3,
+  "id": "part/control-and-context",
+  "name": "変えられることと外部条件を分ける_説明パーツ",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1120,
+    "height": 380
+  },
+  "path": "assets/part/control-and-context.svg",
+  "metadata_path": "metadata/part/control-and-context.json",
+  "preview_path": "previews/part/control-and-context.svg",
+  "preview_has_example_labels": true,
+  "search_text": "part/control-and-context\n変えられることと外部条件を分ける_説明パーツ\n変えられることと外部条件を分ける\n課題のうち、自分たちで変えられる部分と観測する外部条件を整理する。\n直接変えられる範囲へ行動し、外部条件には備える。\n内側は直接変えられる範囲、外側は影響を受ける範囲。\n右は外部条件の観測・備えを示す。\n管理可能 外部要因 制御 影響 環境 controllable external context",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "c28f28880675e60edba5e02f444154eedfc01335dff03471f88f594695f130ed",
+  "size_bytes": 1078,
+  "preview_sha256": "2ed4fda6e26b1169031f3c3cee0386be8e6ed0759ad3bd14ef6ab6db192ba3cb"
+}

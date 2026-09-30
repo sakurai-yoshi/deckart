@@ -1,5 +1,4 @@
 {
-  "category": "08-アイコンとピクトグラム",
   "title": "振動監視",
   "description": "設備から発生する振動の変化を確認する。",
   "keywords": [
@@ -24,6 +23,7 @@
       "波形が設備の動きから得られる信号を表す。"
     ]
   },
+  "category": "04-生産・設備",
   "schema_version": 3,
   "id": "icon/vibration-monitoring",
   "name": "振動監視_製造業務の記号",

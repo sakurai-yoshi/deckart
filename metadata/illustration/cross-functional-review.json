@@ -1,0 +1,57 @@
+{
+  "title": "異なる専門を持ち寄って検討する",
+  "description": "試作品の内部を指す人と資料を持つ人を含む三人が、同じ対象を検討する場面。",
+  "kind": "illustration",
+  "width": 1536,
+  "height": 1024,
+  "labels": [],
+  "composition": {
+    "framing": "waist-up",
+    "facing": "inward",
+    "people_count": 3
+  },
+  "keywords": [
+    "部門横断",
+    "レビュー",
+    "設計",
+    "協議",
+    "cross functional",
+    "review"
+  ],
+  "guidance": {
+    "use_case": "製品や計画を検討するときに、異なる担当の視点を持ち寄ってレビューする場面。",
+    "message": "同じ対象を見て、複数の視点から確かめる。",
+    "reading": [
+      "三人が机上の試作品を囲み、一人が内部の箇所を指している。",
+      "中央の人が資料を持ち、実物と記録を共有しながら検討している。"
+    ]
+  },
+  "preview_path": "previews/illustration/cross-functional-review.png",
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/enterprise-illustrations.json"
+  },
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": true,
+  "canvas": {
+    "width": 1536,
+    "height": 1024
+  },
+  "category": "09-組織・人材",
+  "schema_version": 3,
+  "id": "illustration/cross-functional-review",
+  "name": "異なる専門を持ち寄って検討する_業務イラスト",
+  "license": "CC0-1.0",
+  "path": "media/illustration/cross-functional-review.png",
+  "metadata_path": "metadata/illustration/cross-functional-review.json",
+  "preview_has_example_labels": false,
+  "search_text": "illustration/cross-functional-review\n異なる専門を持ち寄って検討する_業務イラスト\n異なる専門を持ち寄って検討する\n製品や計画を検討するときに、異なる担当の視点を持ち寄ってレビューする場面。\n同じ対象を見て、複数の視点から確かめる。\n三人が机上の試作品を囲み、一人が内部の箇所を指している。\n中央の人が資料を持ち、実物と記録を共有しながら検討している。\n部門横断 レビュー 設計 協議 cross functional review\nwaist-up 上半身 腰上 inward 向かい合う 対話",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "94b0ba7de8fc20773bf62fef1c5fbf1411187089d9ba9e99777567717a83b2c1",
+  "size_bytes": 1786993
+}

@@ -1,0 +1,61 @@
+{
+  "title": "白い編み目に透ける青い光",
+  "description": "細い糸でできた白い編み目が右側に広がり、隙間に淡い青の光が透ける。",
+  "kind": "background",
+  "width": 1664,
+  "height": 936,
+  "labels": [],
+  "keywords": [
+    "背景",
+    "白",
+    "青",
+    "質感",
+    "background",
+    "編み目",
+    "透過",
+    "構造",
+    "布",
+    "woven",
+    "light",
+    "協業",
+    "素材技術",
+    "連携",
+    "collaboration"
+  ],
+  "guidance": {
+    "use_case": "部門や企業の協業、素材技術を紹介する資料に、つながりと柔らかさを添える。",
+    "message": "つながった編み目と透過光で、柔らかな構造感と連なりを添える。",
+    "reading": [
+      "白い糸が交差して、つながった編み目をつくる。",
+      "右側の編み目の隙間に青い光が見え、左側へ白い面が広がる。"
+    ]
+  },
+  "preview_path": "previews/background/woven-cell-light.png",
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/enterprise-backgrounds.json"
+  },
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": false,
+  "canvas": {
+    "width": 1664,
+    "height": 936
+  },
+  "category": "14-背景・装飾",
+  "schema_version": 3,
+  "id": "background/woven-cell-light",
+  "name": "白い編み目に透ける青い光_背景",
+  "license": "CC0-1.0",
+  "path": "media/background/woven-cell-light.png",
+  "metadata_path": "metadata/background/woven-cell-light.json",
+  "preview_has_example_labels": false,
+  "search_text": "background/woven-cell-light\n白い編み目に透ける青い光_背景\n白い編み目に透ける青い光\n部門や企業の協業、素材技術を紹介する資料に、つながりと柔らかさを添える。\nつながった編み目と透過光で、柔らかな構造感と連なりを添える。\n白い糸が交差して、つながった編み目をつくる。\n右側の編み目の隙間に青い光が見え、左側へ白い面が広がる。\n背景 白 青 質感 background 編み目 透過 構造 布 woven light 協業 素材技術 連携 collaboration",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "4009cd322478e9f64f3979bd4314d6ffb7b56d6e84a1491004742c940370ff3c",
+  "size_bytes": 1461531
+}

@@ -1,0 +1,57 @@
+{
+  "title": "顧客の要望を具体物で確認する",
+  "description": "色見本を示す人と確認項目のボードを持つ相手が、要望をすり合わせる場面。",
+  "kind": "illustration",
+  "width": 1536,
+  "height": 1024,
+  "labels": [],
+  "composition": {
+    "framing": "waist-up",
+    "facing": "inward",
+    "people_count": 2
+  },
+  "keywords": [
+    "顧客要望",
+    "要求",
+    "仕様",
+    "ヒアリング",
+    "requirements",
+    "customer needs"
+  ],
+  "guidance": {
+    "use_case": "打合せで色や仕上げの見本を見ながら、顧客が求める条件を具体化する場面。",
+    "message": "見本を一緒に見て、求める内容を確かめる。",
+    "reading": [
+      "二人の間に色の異なる見本帳が扇状に開かれ、一人がその一枚を指している。",
+      "もう一人は確認項目のあるボードを持ち、相手の選択を聞いている。"
+    ]
+  },
+  "preview_path": "previews/illustration/customer-requirements-review.png",
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/enterprise-illustrations.json"
+  },
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": true,
+  "canvas": {
+    "width": 1536,
+    "height": 1024
+  },
+  "category": "10-顧客・営業",
+  "schema_version": 3,
+  "id": "illustration/customer-requirements-review",
+  "name": "顧客の要望を具体物で確認する_業務イラスト",
+  "license": "CC0-1.0",
+  "path": "media/illustration/customer-requirements-review.png",
+  "metadata_path": "metadata/illustration/customer-requirements-review.json",
+  "preview_has_example_labels": false,
+  "search_text": "illustration/customer-requirements-review\n顧客の要望を具体物で確認する_業務イラスト\n顧客の要望を具体物で確認する\n打合せで色や仕上げの見本を見ながら、顧客が求める条件を具体化する場面。\n見本を一緒に見て、求める内容を確かめる。\n二人の間に色の異なる見本帳が扇状に開かれ、一人がその一枚を指している。\nもう一人は確認項目のあるボードを持ち、相手の選択を聞いている。\n顧客要望 要求 仕様 ヒアリング requirements customer needs\nwaist-up 上半身 腰上 inward 向かい合う 対話",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "87d1f62158a30ee48080abeff48f51eab95f2f54ea2c0d9529eeb30d3dcae69c",
+  "size_bytes": 1506410
+}

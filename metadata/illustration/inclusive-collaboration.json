@@ -1,0 +1,57 @@
+{
+  "title": "異なる立場の人が一緒に考える",
+  "description": "三人が机を囲んで資料を共有する、参加の形が異なる人同士の協働。",
+  "kind": "illustration",
+  "width": 1536,
+  "height": 1024,
+  "labels": [],
+  "composition": {
+    "framing": "full-body",
+    "facing": "inward",
+    "people_count": 3
+  },
+  "keywords": [
+    "協働",
+    "包摂",
+    "参加",
+    "多様性",
+    "inclusion",
+    "collaboration"
+  ],
+  "guidance": {
+    "use_case": "チームづくりや会議の進め方を説明し、さまざまな人が意見を持ち寄る場面。",
+    "message": "それぞれが同じ話題に参加し、考えを共有する。",
+    "reading": [
+      "椅子と車椅子に座る二人、資料を持つ一人が同じ机を囲んでいる。",
+      "視線が共有する資料と話す人へ向かい、話合いへの参加を示す。"
+    ]
+  },
+  "preview_path": "previews/illustration/inclusive-collaboration.png",
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/enterprise-illustrations.json"
+  },
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": true,
+  "canvas": {
+    "width": 1536,
+    "height": 1024
+  },
+  "category": "09-組織・人材",
+  "schema_version": 3,
+  "id": "illustration/inclusive-collaboration",
+  "name": "異なる立場の人が一緒に考える_業務イラスト",
+  "license": "CC0-1.0",
+  "path": "media/illustration/inclusive-collaboration.png",
+  "metadata_path": "metadata/illustration/inclusive-collaboration.json",
+  "preview_has_example_labels": false,
+  "search_text": "illustration/inclusive-collaboration\n異なる立場の人が一緒に考える_業務イラスト\n異なる立場の人が一緒に考える\nチームづくりや会議の進め方を説明し、さまざまな人が意見を持ち寄る場面。\nそれぞれが同じ話題に参加し、考えを共有する。\n椅子と車椅子に座る二人、資料を持つ一人が同じ机を囲んでいる。\n視線が共有する資料と話す人へ向かい、話合いへの参加を示す。\n協働 包摂 参加 多様性 inclusion collaboration\nfull-body 全身 inward 向かい合う 対話",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "92623f67aa28c67ce17caecb531db1fac49a900aa54c7e072d54b7219c687d2c",
+  "size_bytes": 1527395
+}

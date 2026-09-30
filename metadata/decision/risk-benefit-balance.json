@@ -1,5 +1,4 @@
 {
-  "category": "02-比較と意思決定",
   "title": "効果と懸念を同じ場で判断する",
   "description": "期待する効果と備えるべき懸念を、どちらも判断材料として扱う。",
   "keywords": [
@@ -103,6 +102,7 @@
     ]
   },
   "kind": "diagram",
+  "category": "01-経営・意思決定",
   "schema_version": 3,
   "id": "decision/risk-benefit-balance",
   "name": "意思決定_期待効果と懸念の比較_均衡する天秤",
@@ -125,5 +125,6 @@
     "data": false
   },
   "sha256": "49b9cb33f891052bb63716dc4db2df605f313531854ec67f448c3e820b6c1b81",
-  "size_bytes": 2845
+  "size_bytes": 2845,
+  "preview_sha256": "5798da0784bb7dc16ff8dac34312918e7eded4866056f01871e52581ff094091"
 }

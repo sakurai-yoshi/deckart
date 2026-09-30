@@ -1,5 +1,4 @@
 {
-  "category": "09-循環とフレームワーク",
   "title": "時期ごとの目標と施策を揃える",
   "description": "段階ごとの目標と取り組みを、共通の時間軸に沿って配置する。",
   "keywords": [
@@ -168,6 +167,7 @@
     "relation": "phases-with-goals-and-actions",
     "reading_direction": "left-to-right"
   },
+  "category": "02-計画・進捗",
   "schema_version": 3,
   "id": "framework/phased-roadmap",
   "name": "実行計画_時期ごとの目標と施策を揃える_3段階ロードマップ",
@@ -190,5 +190,6 @@
     "data": false
   },
   "sha256": "45c706f82099d7c8c4789a3031aca64e1358a62d3c3bd4fd425ffd0878b96919",
-  "size_bytes": 3280
+  "size_bytes": 3280,
+  "preview_sha256": "e21a0f4c5e2521d932791c6cda6ec79c4308788d0bed0457b2a1da9d6bf8fb98"
 }

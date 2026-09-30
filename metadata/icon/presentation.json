@@ -1,5 +1,4 @@
 {
-  "category": "08-アイコンとピクトグラム",
   "title": "発表・説明",
   "description": "資料を使って内容を説明する発表を示す。",
   "keywords": [
@@ -24,6 +23,7 @@
       "横の人物と指す腕が発表する行為を表す。"
     ]
   },
+  "category": "13-説明・伝達",
   "schema_version": 3,
   "id": "icon/presentation",
   "name": "説明活動_相手へ内容を発表する_発表者と画面",

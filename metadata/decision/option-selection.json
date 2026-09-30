@@ -1,5 +1,4 @@
 {
-  "category": "02-比較と意思決定",
   "title": "比較して一案を選ぶ",
   "description": "同じ判断基準で候補を比較し、採用した一案だけを実行へ進める。",
   "keywords": [
@@ -101,6 +100,7 @@
     ]
   },
   "kind": "diagram",
+  "category": "01-経営・意思決定",
   "schema_version": 3,
   "id": "decision/option-selection",
   "name": "企画提案_選択肢を比較して一案を選ぶ_判断基準と採用案",
@@ -123,5 +123,6 @@
     "data": false
   },
   "sha256": "fb3139bcb4ff6b1a2f0c8b9ad4af9da5b8c1f351fb0ecb24b0a93279359c1f9a",
-  "size_bytes": 2372
+  "size_bytes": 2372,
+  "preview_sha256": "8ef6a79c8ab5a03fb85fba5fe10f83b8730766bae99bf969d45f34a7142add80"
 }

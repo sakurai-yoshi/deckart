@@ -1,0 +1,111 @@
+{
+  "title": "期間内の値と開始からの累計を分ける",
+  "description": "期間値は一区間、累計値は開始からの合計を表す。",
+  "keywords": [
+    "期間値",
+    "累計",
+    "累積",
+    "当月",
+    "月次",
+    "cumulative",
+    "period",
+    "total"
+  ],
+  "labels": [
+    {
+      "x": 650,
+      "y": 1,
+      "width": 432,
+      "height": 36,
+      "text": "今回の期間に発生した分",
+      "role": "期間値",
+      "align": "center",
+      "color": "#153A6B",
+      "font_size": 24,
+      "id": "label-1",
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 16
+    },
+    {
+      "x": 221,
+      "y": 266,
+      "width": 616,
+      "height": 61,
+      "text": "開始から今回までを足した累計",
+      "role": "累計値",
+      "align": "center",
+      "color": "#2864F0",
+      "font_size": 31,
+      "id": "label-2",
+      "color_role": "accent",
+      "max_lines": 1,
+      "max_fullwidth_chars": 18
+    },
+    {
+      "x": 31,
+      "y": 172,
+      "width": 222,
+      "height": 40,
+      "text": "集計の開始",
+      "role": "累計起点",
+      "align": "left",
+      "color": "#607590",
+      "font_size": 24,
+      "id": "label-3",
+      "color_role": "muted",
+      "max_lines": 1,
+      "max_fullwidth_chars": 8
+    },
+    {
+      "x": 799,
+      "y": 172,
+      "width": 283,
+      "height": 40,
+      "text": "今回の期間の終わり",
+      "role": "終点",
+      "align": "center",
+      "color": "#607590",
+      "font_size": 24,
+      "id": "label-4",
+      "color_role": "muted",
+      "max_lines": 1,
+      "max_fullwidth_chars": 11
+    }
+  ],
+  "width": 1120,
+  "height": 380,
+  "kind": "part",
+  "guidance": {
+    "use_case": "月次報告で、その月の実績と年度累計を読み分ける。",
+    "message": "期間値は一区間、累計値は開始からの合計を表す。",
+    "reading": [
+      "上の短い括りは今回の期間、下の長い括りは累計対象。"
+    ]
+  },
+  "category": "13-説明・伝達",
+  "schema_version": 3,
+  "id": "part/period-and-cumulative",
+  "name": "期間内の値と開始からの累計を分ける_説明パーツ",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1120,
+    "height": 380
+  },
+  "path": "assets/part/period-and-cumulative.svg",
+  "metadata_path": "metadata/part/period-and-cumulative.json",
+  "preview_path": "previews/part/period-and-cumulative.svg",
+  "preview_has_example_labels": true,
+  "search_text": "part/period-and-cumulative\n期間内の値と開始からの累計を分ける_説明パーツ\n期間内の値と開始からの累計を分ける\n月次報告で、その月の実績と年度累計を読み分ける。\n期間値は一区間、累計値は開始からの合計を表す。\n上の短い括りは今回の期間、下の長い括りは累計対象。\n期間値 累計 累積 当月 月次 cumulative period total",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "706a402efee4b6edd731f478ecc860de617b3cadd6deeb52870aea0bcfef235f",
+  "size_bytes": 1665,
+  "preview_sha256": "101f8166d7cf7016dfccaf070b4071adfcf5d7090cf98baed177e1148cd45f9d"
+}

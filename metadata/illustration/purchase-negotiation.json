@@ -1,0 +1,57 @@
+{
+  "title": "条件を確認しながら商談する",
+  "description": "机上の見積資料を示して話す人と、内容を検討する相手を描いた商談の場面。",
+  "kind": "illustration",
+  "width": 1536,
+  "height": 1024,
+  "labels": [],
+  "composition": {
+    "framing": "waist-up",
+    "facing": "inward",
+    "people_count": 2
+  },
+  "keywords": [
+    "調達",
+    "交渉",
+    "商談",
+    "条件",
+    "negotiation",
+    "purchasing"
+  ],
+  "guidance": {
+    "use_case": "見積内容を一緒に確認し、価格や納期などの取引条件を話し合う場面。",
+    "message": "共通の資料を見ながら、条件をすり合わせる。",
+    "reading": [
+      "二人が机を挟み、項目の並んだ見積資料へ向き合っている。",
+      "一人が資料を指して説明し、もう一人が考えながら聞いている。"
+    ]
+  },
+  "preview_path": "previews/illustration/purchase-negotiation.png",
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/enterprise-illustrations.json"
+  },
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": true,
+  "canvas": {
+    "width": 1536,
+    "height": 1024
+  },
+  "category": "05-調達・物流",
+  "schema_version": 3,
+  "id": "illustration/purchase-negotiation",
+  "name": "条件を確認しながら商談する_業務イラスト",
+  "license": "CC0-1.0",
+  "path": "media/illustration/purchase-negotiation.png",
+  "metadata_path": "metadata/illustration/purchase-negotiation.json",
+  "preview_has_example_labels": false,
+  "search_text": "illustration/purchase-negotiation\n条件を確認しながら商談する_業務イラスト\n条件を確認しながら商談する\n見積内容を一緒に確認し、価格や納期などの取引条件を話し合う場面。\n共通の資料を見ながら、条件をすり合わせる。\n二人が机を挟み、項目の並んだ見積資料へ向き合っている。\n一人が資料を指して説明し、もう一人が考えながら聞いている。\n調達 交渉 商談 条件 negotiation purchasing\nwaist-up 上半身 腰上 inward 向かい合う 対話",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "ff969a0d192499ba6fb12f27e48b0af3d30b965931b26070baf5e1d2bce1cf42",
+  "size_bytes": 1331961
+}

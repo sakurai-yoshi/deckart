@@ -1,0 +1,50 @@
+{
+  "title": "アクセシビリティ",
+  "description": "身体の違いに応じて利用しやすくする。",
+  "keywords": [
+    "アクセシビリティ",
+    "バリアフリー",
+    "利用",
+    "配慮",
+    "accessibility",
+    "inclusion",
+    "barrier",
+    "free"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "誰もが利用しやすい職場や設備を説明する。",
+    "message": "身体の違いに応じて利用しやすくする。",
+    "reading": [
+      "座る人と車輪が移動支援を表す。",
+      "人と道具の一体の輪郭が利用のしやすさを示す。"
+    ]
+  },
+  "category": "09-組織・人材",
+  "schema_version": 3,
+  "id": "icon/accessibility",
+  "name": "アクセシビリティ_仕事と関係",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/accessibility.svg",
+  "metadata_path": "metadata/icon/accessibility.json",
+  "preview_path": "assets/icon/accessibility.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/accessibility\nアクセシビリティ_仕事と関係\nアクセシビリティ\n誰もが利用しやすい職場や設備を説明する。\n身体の違いに応じて利用しやすくする。\n座る人と車輪が移動支援を表す。\n人と道具の一体の輪郭が利用のしやすさを示す。\nアクセシビリティ バリアフリー 利用 配慮 accessibility inclusion barrier free",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "bc8912b72f32a39f307baffb19e8e19ba9328cfc62de6a82ca74d3837969e11a",
+  "size_bytes": 1028
+}

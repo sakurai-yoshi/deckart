@@ -1,5 +1,4 @@
 {
-  "category": "08-アイコンとピクトグラム",
   "title": "製品仕様",
   "description": "形や寸法の条件を文書で定める。",
   "keywords": [
@@ -24,6 +23,7 @@
       "縦横の寸法線が守る条件を表す。"
     ]
   },
+  "category": "06-開発・技術",
   "schema_version": 3,
   "id": "icon/product-specification",
   "name": "製品仕様_製造業務の記号",

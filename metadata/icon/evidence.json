@@ -1,0 +1,51 @@
+{
+  "title": "根拠の確認",
+  "description": "主張の裏付けとなる記録を確かめる。",
+  "keywords": [
+    "根拠",
+    "証拠",
+    "事実",
+    "裏付",
+    "検証",
+    "evidence",
+    "facts",
+    "verification",
+    "support"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "主張を支える事実や記録を確認する場面を示す。",
+    "message": "主張の裏付けとなる記録を確かめる。",
+    "reading": [
+      "紙が参照する記録や事実を表す。",
+      "拡大鏡とチェックが内容を確かめたことを表す。"
+    ]
+  },
+  "category": "01-経営・意思決定",
+  "schema_version": 3,
+  "id": "icon/evidence",
+  "name": "根拠の確認_情報と関係",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/evidence.svg",
+  "metadata_path": "metadata/icon/evidence.json",
+  "preview_path": "assets/icon/evidence.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/evidence\n根拠の確認_情報と関係\n根拠の確認\n主張を支える事実や記録を確認する場面を示す。\n主張の裏付けとなる記録を確かめる。\n紙が参照する記録や事実を表す。\n拡大鏡とチェックが内容を確かめたことを表す。\n根拠 証拠 事実 裏付 検証 evidence facts verification support",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "0bcbe426abf0d4af8730714bc0f5133610ab96679a7c09d48eac4bfd6d9d9450",
+  "size_bytes": 1174
+}

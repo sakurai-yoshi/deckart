@@ -1,5 +1,4 @@
 {
-  "category": "07-注釈と見出し",
   "title": "実行前の条件を明示する",
   "description": "注意記号と細い側線で、実行前に確認する条件を短く示す部品。",
   "keywords": [
@@ -55,6 +54,7 @@
       "見出しの下は、具体的な条件を説明する領域。"
     ]
   },
+  "category": "13-説明・伝達",
   "schema_version": 3,
   "id": "part/caution-note",
   "name": "実行前の条件を明示する_説明パーツ",
@@ -77,5 +77,6 @@
     "data": false
   },
   "sha256": "2a57f8686874977b57aa70c6e108ba557ab33f7b9e833ac9a09cbce365da43e0",
-  "size_bytes": 972
+  "size_bytes": 972,
+  "preview_sha256": "df2ae3b995ed1881bcf2ff8faefc79cb877c56c5b8ca3664224783da167828dd"
 }

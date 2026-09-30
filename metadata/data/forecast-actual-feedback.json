@@ -1,0 +1,150 @@
+{
+  "title": "予測を実績と照合して更新する",
+  "description": "予測の出力だけで終わらず、実績との違いと条件の変化を次の更新へ返す。",
+  "keywords": [
+    "予測",
+    "実績",
+    "照合",
+    "モデル更新",
+    "精度",
+    "偏り",
+    "forecast",
+    "actual",
+    "feedback",
+    "model",
+    "monitoring"
+  ],
+  "labels": [
+    {
+      "x": 81,
+      "y": 255,
+      "width": 193,
+      "height": 121,
+      "text": "過去と現在の\n情報",
+      "role": "対象",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-1",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 3,
+      "max_fullwidth_chars": 6
+    },
+    {
+      "x": 506,
+      "y": 255,
+      "width": 223,
+      "height": 121,
+      "text": "予測する",
+      "role": "対象",
+      "align": "center",
+      "color": "#FFFFFF",
+      "id": "label-2",
+      "font_size": 27,
+      "color_role": "paper",
+      "max_lines": 3,
+      "max_fullwidth_chars": 7
+    },
+    {
+      "x": 935,
+      "y": 255,
+      "width": 182,
+      "height": 121,
+      "text": "判断に使う",
+      "role": "対象",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-3",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 3,
+      "max_fullwidth_chars": 6
+    },
+    {
+      "x": 765,
+      "y": 538,
+      "width": 215,
+      "height": 74,
+      "text": "実績と照合",
+      "role": "対象",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-4",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 7
+    },
+    {
+      "x": 427,
+      "y": 52,
+      "width": 636,
+      "height": 73,
+      "text": "予測を出した後に、外れ方を確かめる",
+      "role": "説明",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-5",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 22
+    },
+    {
+      "x": 126,
+      "y": 497,
+      "width": 514,
+      "height": 128,
+      "text": "変化した条件と、予測の偏りを\n次の更新へ反映する",
+      "role": "説明",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-6",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 3,
+      "max_fullwidth_chars": 17
+    }
+  ],
+  "width": 1200,
+  "height": 720,
+  "kind": "diagram",
+  "guidance": {
+    "use_case": "需要や保全の予測モデルを使う際、利用後の確認と更新を説明する。",
+    "message": "予測の出力だけで終わらず、実績との違いと条件の変化を次の更新へ返す。",
+    "reading": [
+      "上段が情報から予測、判断への流れ。",
+      "右下で実績と予測を照合する。",
+      "戻り線が外れ方と環境変化を予測の更新へ渡す。"
+    ]
+  },
+  "layout": {
+    "relation": "forecast-outcome-monitoring-loop",
+    "reading_direction": "left-to-right"
+  },
+  "category": "12-情報・データ",
+  "schema_version": 3,
+  "id": "data/forecast-actual-feedback",
+  "name": "予測を実績と照合して更新する_業務の関係を示す図解",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1200,
+    "height": 720
+  },
+  "path": "assets/data/forecast-actual-feedback.svg",
+  "metadata_path": "metadata/data/forecast-actual-feedback.json",
+  "preview_path": "previews/data/forecast-actual-feedback.svg",
+  "preview_has_example_labels": true,
+  "search_text": "data/forecast-actual-feedback\n予測を実績と照合して更新する_業務の関係を示す図解\n予測を実績と照合して更新する\n需要や保全の予測モデルを使う際、利用後の確認と更新を説明する。\n予測の出力だけで終わらず、実績との違いと条件の変化を次の更新へ返す。\n上段が情報から予測、判断への流れ。\n右下で実績と予測を照合する。\n戻り線が外れ方と環境変化を予測の更新へ渡す。\n予測 実績 照合 モデル更新 精度 偏り forecast actual feedback model monitoring",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "b499502dd1e530084e81c66f4a0e597e3fea57112529e311ed14cb13eef3fab8",
+  "size_bytes": 1900,
+  "preview_sha256": "7ba358b54c2e97d9638a7820b2869c46d0e9b7a069b8a48d70b474a92fe7d8e5"
+}

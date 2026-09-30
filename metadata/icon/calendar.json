@@ -1,5 +1,4 @@
 {
-  "category": "08-アイコンとピクトグラム",
   "title": "日程・予定",
   "description": "会議や作業の日程を示すカレンダー。",
   "keywords": [
@@ -26,6 +25,7 @@
       "強調された一つの点が注目する日を表す。"
     ]
   },
+  "category": "02-計画・進捗",
   "schema_version": 3,
   "id": "icon/calendar",
   "name": "予定表示_日程を示す_カレンダー",

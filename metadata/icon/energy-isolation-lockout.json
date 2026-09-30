@@ -1,0 +1,51 @@
+{
+  "title": "エネルギー遮断",
+  "description": "切り離したエネルギー源を施錠して保持する。",
+  "keywords": [
+    "ロックアウト",
+    "遮断",
+    "鍵",
+    "保全",
+    "電源",
+    "lockout",
+    "isolation",
+    "energy",
+    "maintenance"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "保全時に設備のエネルギー源を隔離する考え方を示す。",
+    "message": "切り離したエネルギー源を施錠して保持する。",
+    "reading": [
+      "開いたスイッチが回路の遮断を表す。",
+      "隣接する錠が遮断状態の保持を表す。"
+    ]
+  },
+  "category": "07-安全・事業継続",
+  "schema_version": 3,
+  "id": "icon/energy-isolation-lockout",
+  "name": "エネルギー遮断_設備と働き",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/energy-isolation-lockout.svg",
+  "metadata_path": "metadata/icon/energy-isolation-lockout.json",
+  "preview_path": "assets/icon/energy-isolation-lockout.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/energy-isolation-lockout\nエネルギー遮断_設備と働き\nエネルギー遮断\n保全時に設備のエネルギー源を隔離する考え方を示す。\n切り離したエネルギー源を施錠して保持する。\n開いたスイッチが回路の遮断を表す。\n隣接する錠が遮断状態の保持を表す。\nロックアウト 遮断 鍵 保全 電源 lockout isolation energy maintenance",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "b693b6bf9d717d5831ccd76240c02152609762debe529a3d757c434f561aad94",
+  "size_bytes": 1232
+}

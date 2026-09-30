@@ -1,0 +1,50 @@
+{
+  "title": "風力発電",
+  "description": "風の力を回転に変えて電力を得る。",
+  "keywords": [
+    "風力",
+    "発電",
+    "再エネ",
+    "タービン",
+    "wind",
+    "turbine",
+    "renewable",
+    "energy"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "風力を利用する発電方式を紹介する。",
+    "message": "風の力を回転に変えて電力を得る。",
+    "reading": [
+      "三つの羽根が風を受ける回転部を表す。",
+      "高い支柱が風車を支える。"
+    ]
+  },
+  "category": "08-環境・資源",
+  "schema_version": 3,
+  "id": "icon/wind-power",
+  "name": "風力発電_設備と働き",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/wind-power.svg",
+  "metadata_path": "metadata/icon/wind-power.json",
+  "preview_path": "assets/icon/wind-power.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/wind-power\n風力発電_設備と働き\n風力発電\n風力を利用する発電方式を紹介する。\n風の力を回転に変えて電力を得る。\n三つの羽根が風を受ける回転部を表す。\n高い支柱が風車を支える。\n風力 発電 再エネ タービン wind turbine renewable energy",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "34320fe568c3779083c7173249c809eecd02fa2e37089e684d23ef4fc5a15313",
+  "size_bytes": 1266
+}

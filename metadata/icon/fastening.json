@@ -1,0 +1,50 @@
+{
+  "title": "締結",
+  "description": "回転して締め込み、部材を固定する。",
+  "keywords": [
+    "締結",
+    "ボルト",
+    "ネジ",
+    "固定",
+    "tightening",
+    "fastening",
+    "bolt",
+    "screw"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "部材同士をボルトなどで固定する組立工程を示す。",
+    "message": "回転して締め込み、部材を固定する。",
+    "reading": [
+      "ねじ山のある軸が部材へ入る。",
+      "頭部を回す矢印が締め付けを示す。"
+    ]
+  },
+  "category": "04-生産・設備",
+  "schema_version": 3,
+  "id": "icon/fastening",
+  "name": "締結_工程と対象",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/fastening.svg",
+  "metadata_path": "metadata/icon/fastening.json",
+  "preview_path": "assets/icon/fastening.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/fastening\n締結_工程と対象\n締結\n部材同士をボルトなどで固定する組立工程を示す。\n回転して締め込み、部材を固定する。\nねじ山のある軸が部材へ入る。\n頭部を回す矢印が締め付けを示す。\n締結 ボルト ネジ 固定 tightening fastening bolt screw",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "3585e83e3c11e51a9b2c9f2380fde831a76d1aa8abc7ee79dee496f4a6033a09",
+  "size_bytes": 1114
+}

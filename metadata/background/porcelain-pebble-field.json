@@ -1,0 +1,61 @@
+{
+  "title": "白い小石がゆるく集まる面",
+  "description": "白い陶器と青い釉薬の小石が左側に集まり、右下の小さな群れと対角をつくる。",
+  "kind": "background",
+  "width": 1664,
+  "height": 936,
+  "labels": [],
+  "keywords": [
+    "背景",
+    "白",
+    "青",
+    "質感",
+    "background",
+    "磁器",
+    "陶器",
+    "小石",
+    "対角",
+    "素材感",
+    "会社紹介",
+    "製品紹介",
+    "porcelain",
+    "pebbles",
+    "material"
+  ],
+  "guidance": {
+    "use_case": "会社や製品を紹介する資料に、素材の手触りと親しみやすい印象を添える。",
+    "message": "丸みの異なる白い陶器と青い釉薬で、自然なまとまりと素材感を伝える。",
+    "reading": [
+      "大小の丸い陶器が左側の大きな群れと右下の小さな群れをつくる。",
+      "白いざらりとした面に、結晶の模様が見える艶のある青い陶器が混じる。"
+    ]
+  },
+  "preview_path": "previews/background/porcelain-pebble-field.png",
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/enterprise-backgrounds.json"
+  },
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": false,
+  "canvas": {
+    "width": 1664,
+    "height": 936
+  },
+  "category": "14-背景・装飾",
+  "schema_version": 3,
+  "id": "background/porcelain-pebble-field",
+  "name": "白い小石がゆるく集まる面_背景",
+  "license": "CC0-1.0",
+  "path": "media/background/porcelain-pebble-field.png",
+  "metadata_path": "metadata/background/porcelain-pebble-field.json",
+  "preview_has_example_labels": false,
+  "search_text": "background/porcelain-pebble-field\n白い小石がゆるく集まる面_背景\n白い小石がゆるく集まる面\n会社や製品を紹介する資料に、素材の手触りと親しみやすい印象を添える。\n丸みの異なる白い陶器と青い釉薬で、自然なまとまりと素材感を伝える。\n大小の丸い陶器が左側の大きな群れと右下の小さな群れをつくる。\n白いざらりとした面に、結晶の模様が見える艶のある青い陶器が混じる。\n背景 白 青 質感 background 磁器 陶器 小石 対角 素材感 会社紹介 製品紹介 porcelain pebbles material",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "1c3db6c1c3e6c4534d0f10c5d7597cb676790def6850e1b0b25547f367373f77",
+  "size_bytes": 1627216
+}

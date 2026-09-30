@@ -1,5 +1,4 @@
 {
-  "category": "08-アイコンとピクトグラム",
   "title": "承認",
   "description": "確認した内容を責任者が認める手続きを示す。",
   "keywords": [
@@ -24,6 +23,7 @@
       "下の線が確認結果を残すことを表す。"
     ]
   },
+  "category": "13-説明・伝達",
   "schema_version": 3,
   "id": "icon/approval",
   "name": "承認手続_責任者が認める_承認印",

@@ -1,0 +1,51 @@
+{
+  "title": "処理待ちの列",
+  "description": "到着した処理を順に扱う。",
+  "keywords": [
+    "待ち行列",
+    "キュー",
+    "順番",
+    "処理",
+    "順送り",
+    "queue",
+    "backlog",
+    "waiting",
+    "order"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "順番待ちしている作業やメッセージを説明する。",
+    "message": "到着した処理を順に扱う。",
+    "reading": [
+      "横一列の箱が処理を待つ対象を表す。",
+      "一方向の経路が処理の順番を示す。"
+    ]
+  },
+  "category": "02-計画・進捗",
+  "schema_version": 3,
+  "id": "icon/work-queue",
+  "name": "処理待ちの列_情報と関係",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/work-queue.svg",
+  "metadata_path": "metadata/icon/work-queue.json",
+  "preview_path": "assets/icon/work-queue.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/work-queue\n処理待ちの列_情報と関係\n処理待ちの列\n順番待ちしている作業やメッセージを説明する。\n到着した処理を順に扱う。\n横一列の箱が処理を待つ対象を表す。\n一方向の経路が処理の順番を示す。\n待ち行列 キュー 順番 処理 順送り queue backlog waiting order",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "48bd13863a13482527ece48097a49997d2ab1b384a7d6e62823b4b71fc098eda",
+  "size_bytes": 1162
+}

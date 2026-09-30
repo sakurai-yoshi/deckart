@@ -31,5 +31,5 @@ def check(x,y,scale=1,color=WHITE):
     return group(path('M0 12L10 22L32 0',stroke=color,sw=5),x,y,scale)
 def slot(x,y,w,h,text,role='項目',align='center',color=INK):
     return dict(x=x,y=y,width=w,height=h,text=text,role=role,align=align,color=color)
-def asset(name,category,title,description,keywords,body,labels=None,size=(1200,720)):
-    return dict(id=name,category=category,title=title,description=description,keywords=keywords.split() if isinstance(keywords,str) else keywords,body=body,labels=labels or [],width=size[0],height=size[1])
+def asset(name,title,description,keywords,body,labels=None,size=(1200,720)):
+    return dict(id=name,title=title,description=description,keywords=keywords.split() if isinstance(keywords,str) else keywords,body=body,labels=labels or [],width=size[0],height=size[1])

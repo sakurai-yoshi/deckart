@@ -1,5 +1,4 @@
 {
-  "category": "01-業務プロセス",
   "title": "判断権限を段階的に引き継ぐ",
   "description": "現場で解決できない問題を、判断できる責任者へ引き継ぐ流れを示す。",
   "keywords": [
@@ -106,6 +105,7 @@
     ]
   },
   "kind": "diagram",
+  "category": "09-組織・人材",
   "schema_version": 3,
   "id": "process/escalation",
   "name": "障害対応_判断権限を段階的に引き継ぐ_責任者へのエスカレーション",
@@ -128,5 +128,6 @@
     "data": false
   },
   "sha256": "8b4c2d5c1cbcdb7ac5bcd3de7f21e9bbc6366fed215cda19f792205488ede3e2",
-  "size_bytes": 2923
+  "size_bytes": 2923,
+  "preview_sha256": "9e081d21d810e67c7647e959a34d7c6fe96d5ef9df024026c9af0c4711f831c1"
 }

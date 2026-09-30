@@ -1,5 +1,4 @@
 {
-  "category": "08-アイコンとピクトグラム",
   "title": "周知・告知",
   "description": "多くの相手へ情報を知らせる周知を示す。",
   "keywords": [
@@ -24,6 +23,7 @@
       "外へ広がる短い線が知らせの広がりを示す。"
     ]
   },
+  "category": "13-説明・伝達",
   "schema_version": 3,
   "id": "icon/broadcast",
   "name": "社内周知_広い相手へ伝える_拡声器",

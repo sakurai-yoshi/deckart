@@ -1,5 +1,4 @@
 {
-  "category": "01-業務プロセス",
   "title": "検査で品質を守る価値の流れ",
   "description": "作業の流れと品質確認を分け、手戻りを防ぐ検査位置を示す。",
   "keywords": [
@@ -105,6 +104,7 @@
     ]
   },
   "kind": "diagram",
+  "category": "03-品質・改善",
   "schema_version": 3,
   "id": "process/quality-gates",
   "name": "業務改善_検査で品質を守る価値の流れ_二段階ゲート",
@@ -127,5 +127,6 @@
     "data": false
   },
   "sha256": "8ff74ae1ec3ffc19772f3d61763e48d4d2f2ed7bff3142da0fbff1171a0de510",
-  "size_bytes": 5074
+  "size_bytes": 5074,
+  "preview_sha256": "8938382a596ab602da9e0a0b8f650b83ddba4dc0717aca52bdb8905e8119087e"
 }

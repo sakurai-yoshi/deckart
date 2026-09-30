@@ -1,0 +1,50 @@
+{
+  "title": "製品の発売",
+  "description": "新しい提供物を公開して届け始める。",
+  "keywords": [
+    "発売",
+    "新製品",
+    "ローンチ",
+    "上市",
+    "product",
+    "launch",
+    "introduction",
+    "release"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "新しい製品やサービスを市場へ送り出すことを示す。",
+    "message": "新しい提供物を公開して届け始める。",
+    "reading": [
+      "中央の箱が発売する製品を表す。",
+      "外へ開く光と上向きの動きが登場を示す。"
+    ]
+  },
+  "category": "10-顧客・営業",
+  "schema_version": 3,
+  "id": "icon/product-launch",
+  "name": "製品の発売_仕事と関係",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/product-launch.svg",
+  "metadata_path": "metadata/icon/product-launch.json",
+  "preview_path": "assets/icon/product-launch.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/product-launch\n製品の発売_仕事と関係\n製品の発売\n新しい製品やサービスを市場へ送り出すことを示す。\n新しい提供物を公開して届け始める。\n中央の箱が発売する製品を表す。\n外へ開く光と上向きの動きが登場を示す。\n発売 新製品 ローンチ 上市 product launch introduction release",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "509b75da74a76862df5c799156d33c4cd509d03d8ea2792575084fe797d6e462",
+  "size_bytes": 950
+}

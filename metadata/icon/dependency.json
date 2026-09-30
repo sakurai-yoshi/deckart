@@ -1,0 +1,50 @@
+{
+  "title": "依存関係",
+  "description": "一つの要素が他の要素と結びついている。",
+  "keywords": [
+    "依存",
+    "関連",
+    "つながり",
+    "前提",
+    "dependency",
+    "linked",
+    "prerequisite",
+    "relation"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "作業や要素が他の要素に依存する関係を示す。",
+    "message": "一つの要素が他の要素と結びついている。",
+    "reading": [
+      "二つの輪が結び合う対象を表す。",
+      "中央を通る接続が互いに離れない関係を示す。"
+    ]
+  },
+  "category": "02-計画・進捗",
+  "schema_version": 3,
+  "id": "icon/dependency",
+  "name": "依存関係_情報と関係",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/dependency.svg",
+  "metadata_path": "metadata/icon/dependency.json",
+  "preview_path": "assets/icon/dependency.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/dependency\n依存関係_情報と関係\n依存関係\n作業や要素が他の要素に依存する関係を示す。\n一つの要素が他の要素と結びついている。\n二つの輪が結び合う対象を表す。\n中央を通る接続が互いに離れない関係を示す。\n依存 関連 つながり 前提 dependency linked prerequisite relation",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "985b939d353648764a085ddaf423906a79145e4d652888f8c79677832edff2ec",
+  "size_bytes": 864
+}

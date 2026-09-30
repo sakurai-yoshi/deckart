@@ -1,0 +1,50 @@
+{
+  "title": "データの検証",
+  "description": "データが必要な条件を満たすか確かめる。",
+  "keywords": [
+    "データ検証",
+    "妥当性",
+    "入力",
+    "整合",
+    "validation",
+    "consistency",
+    "input",
+    "data"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "入力データや取り込んだ記録の妥当性を確かめる工程を示す。",
+    "message": "データが必要な条件を満たすか確かめる。",
+    "reading": [
+      "記録の行が検証対象のデータを表す。",
+      "大きな確認形が項目を確かめる処理を表す。"
+    ]
+  },
+  "category": "12-情報・データ",
+  "schema_version": 3,
+  "id": "icon/data-validation",
+  "name": "データの検証_情報と関係",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/data-validation.svg",
+  "metadata_path": "metadata/icon/data-validation.json",
+  "preview_path": "assets/icon/data-validation.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/data-validation\nデータの検証_情報と関係\nデータの検証\n入力データや取り込んだ記録の妥当性を確かめる工程を示す。\nデータが必要な条件を満たすか確かめる。\n記録の行が検証対象のデータを表す。\n大きな確認形が項目を確かめる処理を表す。\nデータ検証 妥当性 入力 整合 validation consistency input data",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "99cecf699531a388d49196e3d4e83bd3a2e5803b1a8c9df91a5681599f6d3d3e",
+  "size_bytes": 958
+}

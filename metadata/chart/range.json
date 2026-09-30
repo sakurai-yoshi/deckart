@@ -1,0 +1,304 @@
+{
+  "title": "範囲の広さと代表値を同時に比較する",
+  "description": "各項目の下限・代表値・上限を同じ目盛りへ置く範囲グラフの作例。",
+  "keywords": [
+    "範囲",
+    "幅",
+    "最小",
+    "最大",
+    "区間",
+    "不確実性",
+    "見積",
+    "range",
+    "interval",
+    "uncertainty",
+    "min",
+    "max",
+    "estimate"
+  ],
+  "labels": [
+    {
+      "x": 64,
+      "y": 38,
+      "width": 345,
+      "height": 62,
+      "text": "単位：万円",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-1",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 12
+    },
+    {
+      "x": 865,
+      "y": 110,
+      "width": 96,
+      "height": 71,
+      "text": "下限",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-2",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 3
+    },
+    {
+      "x": 973,
+      "y": 110,
+      "width": 96,
+      "height": 71,
+      "text": "代表値",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-3",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 3
+    },
+    {
+      "x": 1081,
+      "y": 110,
+      "width": 96,
+      "height": 71,
+      "text": "上限",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-4",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 3
+    },
+    {
+      "x": 45,
+      "y": 197,
+      "width": 218,
+      "height": 80,
+      "text": "案 A",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-5",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 7
+    },
+    {
+      "x": 45,
+      "y": 315,
+      "width": 218,
+      "height": 80,
+      "text": "案 B",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-6",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 7
+    },
+    {
+      "x": 45,
+      "y": 433,
+      "width": 218,
+      "height": 80,
+      "text": "案 C",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-7",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 7
+    }
+  ],
+  "width": 1200,
+  "height": 720,
+  "kind": "chart",
+  "data": {
+    "is_sample": true,
+    "categories": [
+      "案 A",
+      "案 B",
+      "案 C"
+    ],
+    "series": [
+      {
+        "label": "下限",
+        "values": [
+          35,
+          50,
+          30
+        ]
+      },
+      {
+        "label": "代表値",
+        "values": [
+          50,
+          65,
+          60
+        ]
+      },
+      {
+        "label": "上限",
+        "values": [
+          70,
+          78,
+          90
+        ]
+      }
+    ],
+    "unit": "万円",
+    "domain": [
+      0,
+      100
+    ],
+    "chart_type": "range",
+    "baseline": 0,
+    "ticks": [
+      0.0,
+      25.0,
+      50.0,
+      75.0,
+      100.0
+    ],
+    "marks": [
+      {
+        "lower_x": 463.85,
+        "representative_x": 537.5,
+        "upper_x": 635.7,
+        "y": 237
+      },
+      {
+        "lower_x": 537.5,
+        "representative_x": 611.15,
+        "upper_x": 674.98,
+        "y": 355
+      },
+      {
+        "lower_x": 439.3,
+        "representative_x": 586.6,
+        "upper_x": 733.9,
+        "y": 473
+      }
+    ],
+    "plot": {
+      "x": 292,
+      "y": 184,
+      "width": 491,
+      "height": 375
+    },
+    "number_format": {
+      "maximum_significant_digits": 6,
+      "minimum_significant_digits": 3,
+      "large_or_small_values": "E notation",
+      "source_values": "series"
+    }
+  },
+  "guidance": {
+    "use_case": "見積もりや観測値を一点で断定せず、範囲と代表値を合わせて比較する。",
+    "message": "区間の位置と広さ、区間内の代表値を一緒に読める。",
+    "reading": [
+      "横線の左端が下限、右端が上限、丸が代表値。",
+      "右の三列は同じ順番で値を示す。",
+      "区間は系列名で意味を定め、信頼区間などと自動的に解釈しない。"
+    ]
+  },
+  "category": "13-説明・伝達",
+  "schema_version": 3,
+  "id": "chart/range",
+  "name": "範囲比較_下限と代表値と上限を同時に示す_範囲グラフ作例",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1200,
+    "height": 720
+  },
+  "path": "assets/chart/range.svg",
+  "metadata_path": "metadata/chart/range.json",
+  "preview_path": "previews/chart/range.svg",
+  "preview_has_example_labels": true,
+  "search_text": "chart/range\n範囲比較_下限と代表値と上限を同時に示す_範囲グラフ作例\n範囲の広さと代表値を同時に比較する\n見積もりや観測値を一点で断定せず、範囲と代表値を合わせて比較する。\n区間の位置と広さ、区間内の代表値を一緒に読める。\n横線の左端が下限、右端が上限、丸が代表値。\n右の三列は同じ順番で値を示す。\n区間は系列名で意味を定め、信頼区間などと自動的に解釈しない。\n範囲 幅 最小 最大 区間 不確実性 見積 range interval uncertainty min max estimate",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": true
+  },
+  "data_input": {
+    "chart_type": "range",
+    "category_count": {
+      "minimum": 1
+    },
+    "series_count": 3,
+    "values_per_series": "categoriesと同数",
+    "required": [
+      "categories",
+      "series",
+      "unit"
+    ],
+    "constraints": [
+      "表示値は最大6有効桁。丸める場合も3有効桁以上を保つ。E表記で収まらない値は単位か小数桁を調整。入力値はseriesに保持。",
+      "文字は大判24px、小判20px以上で収まる長さ。収まらないカテゴリ名・系列名・単位は短縮して入力。",
+      "有限な数値。絶対値は1兆以下。大きな値は単位を変更して入力。",
+      "categoriesは16文字以内、series.label・unitは12文字以内。",
+      "値は0以上。",
+      "domainは[0,上限]。省略時は値から計算。上限は全値・残高以上。",
+      "カテゴリ数に応じて描画領域が拡張される。拡張後のwidth/heightを使って配置。",
+      "seriesは下限・代表値・上限の順。各カテゴリで下限≦代表値≦上限。範囲の意味は系列名で示す。"
+    ],
+    "example": {
+      "categories": [
+        "案 A",
+        "案 B",
+        "案 C"
+      ],
+      "series": [
+        {
+          "label": "下限",
+          "values": [
+            35,
+            50,
+            30
+          ]
+        },
+        {
+          "label": "代表値",
+          "values": [
+            50,
+            65,
+            60
+          ]
+        },
+        {
+          "label": "上限",
+          "values": [
+            70,
+            78,
+            90
+          ]
+        }
+      ],
+      "unit": "万円",
+      "domain": [
+        0,
+        100
+      ]
+    }
+  },
+  "sha256": "219e9958c944334d5e03675c5d7496c3709e07104924b045cd02e1dbc4c2de13",
+  "size_bytes": 10215,
+  "preview_sha256": "51b692053378621d91997c517870cea420be02b11b67f690f6b3f19dc595c4af"
+}

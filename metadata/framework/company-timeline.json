@@ -1,5 +1,4 @@
 {
-  "category": "09-循環とフレームワーク",
   "title": "事業の節目を時系列で伝える",
   "description": "創業から現在までの主要な出来事を、時間の流れに沿って示す。",
   "keywords": [
@@ -183,6 +182,7 @@
     "relation": "ordered-milestones",
     "reading_direction": "left-to-right"
   },
+  "category": "02-計画・進捗",
   "schema_version": 3,
   "id": "framework/company-timeline",
   "name": "企業紹介_事業の節目を時系列で伝える_5つの沿革",
@@ -205,5 +205,6 @@
     "data": false
   },
   "sha256": "5f3e56b15f7c9325502676b277368470cb5235e749e66da93c550304341cbec7",
-  "size_bytes": 3432
+  "size_bytes": 3432,
+  "preview_sha256": "83e0d287c8bc7a603e1262415549e262ec99f373080194f7a529197b8e8df831"
 }

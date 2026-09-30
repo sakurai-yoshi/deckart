@@ -1,5 +1,4 @@
 {
-  "category": "08-アイコンとピクトグラム",
   "title": "分析",
   "description": "数値の比較や変化から傾向を読み取ることを示す。",
   "keywords": [
@@ -24,6 +23,7 @@
       "上の線が変化の傾向を表す。"
     ]
   },
+  "category": "12-情報・データ",
   "schema_version": 3,
   "id": "icon/analytics",
   "name": "分析活動_傾向と差を読み取る_棒と推移",

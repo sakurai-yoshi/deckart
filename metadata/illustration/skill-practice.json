@@ -1,0 +1,57 @@
+{
+  "title": "基本動作を繰り返し練習する",
+  "description": "治具を支えてねじ締めを練習する作業者と、脇に用意されたねじのトレー。",
+  "kind": "illustration",
+  "width": 1312,
+  "height": 1199,
+  "labels": [],
+  "composition": {
+    "framing": "waist-up",
+    "facing": "down",
+    "people_count": 1
+  },
+  "keywords": [
+    "技能",
+    "訓練",
+    "実習",
+    "練習",
+    "skill",
+    "practice"
+  ],
+  "guidance": {
+    "use_case": "作業教育や技能育成で、道具の扱いを実物に触れて練習する場面。",
+    "message": "基本の動作を実際に行い、技能を身につける。",
+    "reading": [
+      "作業者が片手で治具を支え、もう一方の手でドライバーを垂直に当てている。",
+      "脇の小さなトレーにねじがあり、繰り返す練習の準備を示す。"
+    ]
+  },
+  "preview_path": "previews/illustration/skill-practice.png",
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/enterprise-illustrations.json"
+  },
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": true,
+  "canvas": {
+    "width": 1312,
+    "height": 1199
+  },
+  "category": "09-組織・人材",
+  "schema_version": 3,
+  "id": "illustration/skill-practice",
+  "name": "基本動作を繰り返し練習する_業務イラスト",
+  "license": "CC0-1.0",
+  "path": "media/illustration/skill-practice.png",
+  "metadata_path": "metadata/illustration/skill-practice.json",
+  "preview_has_example_labels": false,
+  "search_text": "illustration/skill-practice\n基本動作を繰り返し練習する_業務イラスト\n基本動作を繰り返し練習する\n作業教育や技能育成で、道具の扱いを実物に触れて練習する場面。\n基本の動作を実際に行い、技能を身につける。\n作業者が片手で治具を支え、もう一方の手でドライバーを垂直に当てている。\n脇の小さなトレーにねじがあり、繰り返す練習の準備を示す。\n技能 訓練 実習 練習 skill practice\nwaist-up 上半身 腰上 down 下向き 手元を見る",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "54ad47270314dc51d5d3b05f0b5aa262d325e214dfe5663782fea0d84b851578",
+  "size_bytes": 1064931
+}

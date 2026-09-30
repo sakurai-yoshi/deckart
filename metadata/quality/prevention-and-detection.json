@@ -1,0 +1,149 @@
+{
+  "title": "発生を防ぐ対策と流出を見つける対策を分ける",
+  "description": "起こりにくくする仕組みと、起きた不具合を通さない仕組みを組み合わせる。",
+  "keywords": [
+    "未然防止",
+    "検出",
+    "予防",
+    "検査",
+    "ポカヨケ",
+    "流出防止",
+    "prevention",
+    "detection",
+    "quality",
+    "control"
+  ],
+  "labels": [
+    {
+      "x": 104,
+      "y": 129,
+      "width": 377,
+      "height": 66,
+      "text": "発生を防ぐ",
+      "role": "予防",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-1",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 13
+    },
+    {
+      "x": 731,
+      "y": 129,
+      "width": 377,
+      "height": 66,
+      "text": "流出前に見つける",
+      "role": "検出",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-2",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 13
+    },
+    {
+      "x": 91,
+      "y": 517,
+      "width": 377,
+      "height": 94,
+      "text": "起こりにくい設計\n間違えにくい手順",
+      "role": "説明",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-3",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 13
+    },
+    {
+      "x": 727,
+      "y": 517,
+      "width": 377,
+      "height": 94,
+      "text": "検査・監視\n出荷前の確認",
+      "role": "説明",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-4",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 13
+    },
+    {
+      "x": 486,
+      "y": 413,
+      "width": 252,
+      "height": 63,
+      "text": "不具合の発生",
+      "role": "説明",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-5",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 8
+    },
+    {
+      "x": 455,
+      "y": 53,
+      "width": 310,
+      "height": 73,
+      "text": "予防と検出は別の働き",
+      "role": "説明",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-6",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 10
+    }
+  ],
+  "width": 1200,
+  "height": 720,
+  "kind": "diagram",
+  "guidance": {
+    "use_case": "品質改善で、予防策と検出策の役割を説明する。",
+    "message": "起こりにくくする仕組みと、起きた不具合を通さない仕組みを組み合わせる。",
+    "reading": [
+      "注意色の点が不具合の発生時点。",
+      "左の主色の境界が発生前の予防、右の濃色の境界が発生後の検出。",
+      "左右の境界は異なる働きで、単なる作業の順番ではない。"
+    ]
+  },
+  "layout": {
+    "relation": "prevent-before-and-detect-after",
+    "reading_direction": "left-to-right"
+  },
+  "category": "03-品質・改善",
+  "schema_version": 3,
+  "id": "quality/prevention-and-detection",
+  "name": "発生を防ぐ対策と流出を見つける対策を分ける_業務の関係を示す図解",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1200,
+    "height": 720
+  },
+  "path": "assets/quality/prevention-and-detection.svg",
+  "metadata_path": "metadata/quality/prevention-and-detection.json",
+  "preview_path": "previews/quality/prevention-and-detection.svg",
+  "preview_has_example_labels": true,
+  "search_text": "quality/prevention-and-detection\n発生を防ぐ対策と流出を見つける対策を分ける_業務の関係を示す図解\n発生を防ぐ対策と流出を見つける対策を分ける\n品質改善で、予防策と検出策の役割を説明する。\n起こりにくくする仕組みと、起きた不具合を通さない仕組みを組み合わせる。\n注意色の点が不具合の発生時点。\n左の主色の境界が発生前の予防、右の濃色の境界が発生後の検出。\n左右の境界は異なる働きで、単なる作業の順番ではない。\n未然防止 検出 予防 検査 ポカヨケ 流出防止 prevention detection quality control",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "3a54ed7af123a0701669a3c83e9692bae93dd8b6b746fef17697ddb329273956",
+  "size_bytes": 1905,
+  "preview_sha256": "bb5cd02835ec760eac0f76343c2860144d0408b4bcc45aad28f6e5e71c420215"
+}

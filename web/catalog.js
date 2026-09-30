@@ -12,20 +12,31 @@ function element(tag,cls,text){const e=document.createElement(tag);if(cls)e.clas
 function blobURL(blob){return URL.createObjectURL(blob);}
 function notify(text){$('notice').textContent=text;clearTimeout(noticeTimer);noticeTimer=setTimeout(()=>{$('notice').textContent='';},4500);}
 function svgFor(a,resolved=theme){if(!baseSvg.has(a.id))baseSvg.set(a.id,new TextDecoder().decode(Uint8Array.from(atob(a.download),c=>c.charCodeAt(0))));return themeSVG(baseSvg.get(a.id),resolved);}
-function artURL(a,full=false){if(a.format==='png')return full?a.path:(a.preview_path||a.path);const key=JSON.stringify(theme)+':'+a.id;if(!cache.has(key))cache.set(key,blobURL(new Blob([svgFor(a)],{type:'image/svg+xml'})));return cache.get(key);}
+function labeledSVG(a,resolved=theme){const doc=new DOMParser().parseFromString(svgFor(a,resolved),'image/svg+xml');doc.documentElement.append(labelGroup(a,resolved,doc));return new XMLSerializer().serializeToString(doc.documentElement)+'\n';}
+function artURL(a,full=false,labels=false){if(a.format==='png')return full?a.path:(a.preview_path||a.path);const key=JSON.stringify(theme)+':'+a.id+':'+labels;if(!cache.has(key))cache.set(key,blobURL(new Blob([labels?labeledSVG(a):svgFor(a)],{type:'image/svg+xml'})));return cache.get(key);}
+function labelGroup(a,resolved=theme,doc=document){
+ const group=doc.createElementNS(svgNS,'g');group.setAttribute('data-labels','true');
+ for(const l of a.labels){const text=doc.createElementNS(svgNS,'text'),x=l.align==='left'?l.x:l.x+l.width/2,lines=l.text.split('\n'),font=l.font_size;
+  text.setAttribute('font-family','Noto Sans CJK JP, Yu Gothic, Hiragino Kaku Gothic ProN, Meiryo, sans-serif');text.setAttribute('text-anchor',l.align==='left'?'start':'middle');text.setAttribute('font-size',font);text.setAttribute('font-weight','500');text.setAttribute('fill',resolved.colors[l.color_role]);text.setAttribute('data-fill-role',l.color_role);text.dataset.role=l.color_role;
+  lines.forEach((value,i)=>{const span=doc.createElementNS(svgNS,'tspan');span.setAttribute('x',x);span.setAttribute('y',Math.round((l.y+l.height/2+(i-(lines.length-1)/2)*font*1.4+font*.35)*1000)/1000);span.textContent=value;text.append(span);});group.append(text);
+ }return group;
+}
 function themeName(){return mode==='mono'?'モノクロ':mode==='blue'?'基本の青':'ブランド色';}
-function fileName(a,selectedMode=mode,resolved=theme){if(a.format==='png')return a.id.replace('/','--')+'.png';return a.id.replace('/','--')+'--'+(selectedMode==='brand'?resolved.colors.accent.slice(1).toLowerCase():selectedMode)+'.svg';}
+function fileName(a,selectedMode=mode,resolved=theme,labels=false){if(a.format==='png')return a.id.replace('/','--')+'.png';return a.id.replace('/','--')+'--'+(selectedMode==='brand'?resolved.colors.accent.slice(1).toLowerCase():selectedMode)+(labels?'--labels':'')+'.svg';}
 function makeArt(a,full=false){
  const art=element('div','art '+a.kind),canvas=element('div','canvas'),img=element('img');
  img.src=artURL(a,full);img.alt=a.title;img.width=a.width;img.height=a.height;img.loading='lazy';img.dataset.id=a.id;canvas.append(img);
  const overlay=document.createElementNS(svgNS,'svg');overlay.setAttribute('class','labels');overlay.setAttribute('viewBox',`0 0 ${a.width} ${a.height}`);overlay.setAttribute('aria-hidden','true');
- for(const l of a.labels){const text=document.createElementNS(svgNS,'text'),x=l.align==='left'?l.x:l.x+l.width/2,lines=l.text.split('\n'),font=l.font_size;
-  text.setAttribute('text-anchor',l.align==='left'?'start':'middle');text.setAttribute('font-size',font);text.setAttribute('font-weight','500');text.setAttribute('fill',theme.colors[l.color_role]);text.dataset.role=l.color_role;
-  lines.forEach((value,i)=>{const span=document.createElementNS(svgNS,'tspan');span.setAttribute('x',x);span.setAttribute('y',l.y+l.height/2+(i-(lines.length-1)/2)*font*1.4+font*.35);span.textContent=value;text.append(span);});overlay.append(text);
- }
+ overlay.append(labelGroup(a));
  canvas.append(overlay);art.append(canvas);return art;
 }
-function downloadLink(a,cls,text){const link=element('a',cls,text);link.href=artURL(a,true);link.download=fileName(a);link.dataset.asset=a.id;link.setAttribute('aria-label',a.title+'の'+a.format.toUpperCase()+'を保存');return link;}
+function downloadLink(a,cls,text,labels=false){const link=element('a',cls,text);link.href=artURL(a,true,labels);link.download=fileName(a,mode,theme,labels);link.dataset.asset=a.id;link.dataset.labels=String(labels);link.setAttribute('aria-label',a.title+'：'+text);return link;}
+function updateCardDownload(link,a){
+ const labels=a.format==='svg'&&a.labels.length>0&&$('examples').checked;
+ const text=a.format==='png'?'PNG保存':a.labels.length?(labels?'文字入りSVG保存':'図形のみSVG保存'):'SVG保存';
+ if(link.dataset.labels!==String(labels)){link.href=artURL(a,true,labels);link.download=fileName(a,mode,theme,labels);link.dataset.labels=String(labels);}
+ link.textContent=text;link.setAttribute('aria-label',a.title+'：'+text);
+}
 function setHash(){const p=new URLSearchParams();if($('search').value)p.set('q',$('search').value);if($('category').value)p.set('category',$('category').value);if(kind)p.set('kind',kind);if($('format').value)p.set('format',$('format').value);if($('transparent').checked)p.set('transparent','1');if($('themeable').checked)p.set('themeable','1');if(mode!=='blue')p.set('theme',mode);if(mode==='brand')p.set('accent',theme.requested_accent);if(!$('examples').checked)p.set('labels','0');if($('selected-only').checked)p.set('selected','1');if(active)p.set('asset',active);try{history.replaceState(null,'','#'+p);}catch{}}
 function updateSelection(){
  try{localStorage.setItem('deckart:selected',JSON.stringify([...selected]));}catch{}
@@ -39,7 +50,7 @@ const cards=display.map(a=>{
  const card=element('article');card.dataset.id=a.id;
  const imageButton=element('button','art-button');imageButton.type='button';imageButton.setAttribute('aria-label',a.title+'を拡大');imageButton.append(makeArt(a));imageButton.addEventListener('click',()=>{opener=imageButton;openDetail(a);});
  const select=element('label','choose'),checkbox=element('input');checkbox.type='checkbox';checkbox.dataset.select=a.id;checkbox.setAttribute('aria-label',a.title+'をまとめて保存に追加');checkbox.addEventListener('change',()=>toggleSelected(a.id));select.append(checkbox,element('span','','選ぶ'));
- const bottom=element('div','card-bottom'),title=element('div');title.append(element('h2','',a.title),element('p','',a.data?'数値は作例':a.category.slice(3)));bottom.append(title,downloadLink(a,'save',a.format.toUpperCase()+'保存'));
+ const bottom=element('div','card-bottom'),title=element('div'),save=downloadLink(a,'save',a.format.toUpperCase()+'保存');updateCardDownload(save,a);title.append(element('h2','',a.title),element('p','',a.data?'数値は作例':a.category.slice(3)));bottom.append(title,save);
  card.append(imageButton,select,bottom);$('grid').append(card);return card;
 });
 const cardById=new Map(cards.map(card=>[card.dataset.id,card]));
@@ -53,7 +64,7 @@ function setTheme(value,save=true){
  document.querySelectorAll('#palettes input').forEach(e=>{e.checked=e.value===mode;});
  $('theme-note').textContent=theme.adjustments.length?`白い記号を読めるよう、強調色を ${theme.colors.accent} に調整しています。`:mode==='brand'?'輪郭と注意・増減の色を保ち、強調箇所へブランド色を使います。':mode==='mono'?'色に頼らず、形・位置・符号で関係を読み取れます。':'';
  document.querySelectorAll('img[data-id]').forEach(e=>{e.src=artURL(library.find(a=>a.id===e.dataset.id),Boolean(e.closest('#detail-art')));});
- document.querySelectorAll('a[data-asset]').forEach(e=>{const a=library.find(a=>a.id===e.dataset.asset);e.href=artURL(a,true);e.download=fileName(a);});
+ document.querySelectorAll('a[data-asset]').forEach(e=>{const a=library.find(a=>a.id===e.dataset.asset);e.href=artURL(a,true,e.dataset.labels==='true');e.download=fileName(a,mode,theme,e.dataset.labels==='true');});
  document.querySelectorAll('text[data-role]').forEach(e=>e.setAttribute('fill',theme.colors[e.dataset.role]));
  if(save)setHash();return true;
 }
@@ -65,6 +76,7 @@ function filter(save=true){
  for(const a of results){const card=cardById.get(a.id);card.hidden=false;fragment.append(card);}$('grid').append(fragment);
  if(focusedCard&&!focusedCard.hidden)focused.focus({preventScroll:true});
  $('count').value=`${$('search').value.trim()?'関連する ':''}${results.length} / ${library.length} 点`;$('empty').hidden=results.length>0;document.body.classList.toggle('with-labels',$('examples').checked);
+ document.querySelectorAll('#grid a[data-asset]').forEach(link=>updateCardDownload(link,library.find(a=>a.id===link.dataset.asset)));
  document.querySelectorAll('#types button').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.kind===kind)));
  if(save)setHash();
 }
@@ -72,7 +84,7 @@ function openDetail(a,save=true){
  active=a.id;$('detail-title').textContent=a.title;$('detail-art').replaceChildren(makeArt(a,true));$('detail-art').querySelector('img').loading='eager';
  $('detail-ratio').textContent=`${a.format.toUpperCase()} · ${a.width} × ${a.height}${a.format==='png'?' px':''}`;$('use-case').textContent=a.guidance.use_case;$('message').textContent=a.guidance.message;
  $('reading').replaceChildren(...a.guidance.reading.map(t=>element('li','',t)));
- $('detail-save').replaceChildren(downloadLink(a,'primary download',a.format==='png'?'PNGを保存':'この配色でSVGを保存'));
+ $('detail-save').replaceChildren(...(a.labels.length?[downloadLink(a,'primary download','文字入りSVGを保存',true),downloadLink(a,'secondary download','図形のみSVGを保存')]:[downloadLink(a,'primary download',a.format==='png'?'PNGを保存':'この配色でSVGを保存')]));
  $('detail-palette').closest('.detail-palette').hidden=!a.render.theme;$('format-note').textContent=a.format==='png'?(a.transparent?'背景透過のPNG。スライド上の任意の位置に配置できます。':'不透明のPNG。全体の背景や一部の装飾として使えます。文章・図表の位置は資料に合わせて調整できます。'):'SVG図形。配色の変更と拡大に対応しています。';$('label-note').hidden=!a.labels.length;$('label-explanation').hidden=!a.labels.length;$('detail-labels').checked=$('examples').checked;$('detail-palette').value=mode;
  $('asset-id').textContent=a.id;if(a.composition){const framing={'waist-up':'上半身','full-body':'全身',object:'物・道具'},facing={left:'左向き',right:'右向き',front:'正面',inward:'向かい合う',down:'下向き'},facts=[framing[a.composition.framing],facing[a.composition.facing]];if(a.composition.people_count)facts.push(`人物${a.composition.people_count}人`);$('format-note').textContent+=` 描写：${facts.filter(Boolean).join('・')}。`;}$('filename').textContent=a.path;$('keywords').textContent=a.keywords.join(' / ');$('slots').replaceChildren(...a.labels.map(l=>element('li','',`${l.id} / ${l.role}：${l.text.replaceAll('\n',' ')}`)));
  $('data-note').hidden=!a.data;$('data-detail').hidden=!a.data;$('data-values').replaceChildren();
@@ -84,12 +96,22 @@ function restore(){
  $('category').value=library.some(a=>a.category===p.get('category'))?p.get('category'):'';$('examples').checked=p.get('labels')!=='0';$('selected-only').checked=p.get('selected')==='1';$('format').value=['png','svg'].includes(p.get('format'))?p.get('format'):'';$('transparent').checked=p.get('transparent')==='1';$('themeable').checked=p.get('themeable')==='1';
  if(/^#[0-9a-f]{6}$/i.test(p.get('accent')||''))$('accent').value=p.get('accent');setTheme(p.get('theme')||'blue',false);filter(false);const a=library.find(a=>a.id===p.get('asset'));if(a)openDetail(a,false);else if($('detail').open)$('detail').close();
 }
-function indexEntry(a){const fields=['id','title','kind','category','format','mime_type','transparent','width','height','canvas','render','path','preview_path','preview_has_example_labels','metadata_path','sha256','size_bytes','keywords'],row=Object.fromEntries(fields.map(k=>[k,a[k]]));Object.assign(row,{use_case:a.guidance.use_case,message:a.guidance.message,sample_data:Boolean(a.data?.is_sample)});if(a.composition)row.composition=a.composition;return row;}
-async function publicAsset(a,resolved=theme,selectedMode=mode){
- const {download,...meta}=a,source={id:a.id,version:settings.project.version,raw_base:`https://raw.githubusercontent.com/${settings.project.repository}/v${settings.project.version}/`,path:a.path,preview_path:a.preview_path,preview_has_example_labels:a.preview_has_example_labels,sha256:a.sha256},path=`${a.format==='png'?'media':'assets'}/${fileName(a,selectedMode,resolved)}`;
- if(a.format==='png')return {...meta,source,path,preview_path:path,preview_has_example_labels:false,metadata_path:`metadata/${a.id}.json`};
- const svg=svgFor(a,resolved),bytes=new TextEncoder().encode(svg),digest=await crypto.subtle.digest('SHA-256',bytes);
- return {...meta,theme:resolved,source,size_bytes:bytes.length,sha256:[...new Uint8Array(digest)].map(v=>v.toString(16).padStart(2,'0')).join(''),labels:a.labels.map(l=>({...l,color:resolved.colors[l.color_role]})),path,preview_path:path,preview_has_example_labels:false,metadata_path:`metadata/${a.id}.json`};
+function indexEntry(a){const fields=['id','title','kind','category','format','mime_type','transparent','width','height','canvas','render','path','preview_path','preview_has_example_labels','metadata_path','sha256','size_bytes','keywords'],row=Object.fromEntries(fields.map(k=>[k,a[k]]));Object.assign(row,{use_case:a.guidance.use_case,message:a.guidance.message,sample_data:Boolean(a.data?.is_sample)});if(a.composition)row.composition=a.composition;if(a.preview_sha256)row.preview_sha256=a.preview_sha256;return row;}
+async function packAsset(a,resolved=theme,selectedMode=mode){
+ const {download,preview_sha256,...meta}=a,source={id:a.id,version:settings.project.version,raw_base:`https://raw.githubusercontent.com/${settings.project.repository}/v${settings.project.version}/`,path:a.path,preview_path:a.preview_path,preview_has_example_labels:a.preview_has_example_labels,sha256:a.sha256,...(preview_sha256?{preview_sha256}:{})},path=`${a.format==='png'?'media':'assets'}/${fileName(a,selectedMode,resolved)}`;
+ const payload=a.format==='png'?await pngBytes(a):svgFor(a,resolved),files=[{name:path,data:payload}];
+ const record={...meta,source,path,preview_path:path,preview_has_example_labels:false,metadata_path:`metadata/${a.id}.json`};
+ if(a.format==='svg'){
+  const bytes=new TextEncoder().encode(payload),digest=await crypto.subtle.digest('SHA-256',bytes);
+  Object.assign(record,{theme:resolved,size_bytes:bytes.length,sha256:[...new Uint8Array(digest)].map(v=>v.toString(16).padStart(2,'0')).join(''),labels:a.labels.map(l=>({...l,color:resolved.colors[l.color_role]}))});
+  if(a.labels.length){
+   const preview=labeledSVG(a,resolved),previewBytes=new TextEncoder().encode(preview),previewDigest=await crypto.subtle.digest('SHA-256',previewBytes);
+   Object.assign(record,{preview_path:`previews/${fileName(a,selectedMode,resolved,true)}`,preview_has_example_labels:true,preview_sha256:[...new Uint8Array(previewDigest)].map(v=>v.toString(16).padStart(2,'0')).join('')});
+   files.push({name:record.preview_path,data:preview});
+  }
+ }
+ files.push({name:record.metadata_path,data:JSON.stringify(record,null,2)+'\n'});
+ return {record,files};
 }
 async function pngBytes(a){
  let bytes=localMedia.get(a.path);
@@ -105,8 +127,8 @@ async function savePack(items,button){
  if(!items.length){notify('保存する素材を選んでください。');return;}
  if(location.protocol==='file:'&&items.some(a=>a.format==='png'&&!localMedia.has(a.path))){notify('PNGをまとめて保存するには、展開したZIPのmediaフォルダを選択してください。');$('local-media').value='';$('local-media').click();return;}
  const packTheme=theme,packMode=mode,packName=themeName();button.disabled=true;const old=button.textContent;button.textContent='保存ファイルを準備中…';await new Promise(requestAnimationFrame);
- try{const records=await Promise.all(items.map(a=>publicAsset(a,packTheme,packMode))),payloads=await Promise.all(items.map(a=>a.format==='png'?pngBytes(a):Promise.resolve(svgFor(a,packTheme)))),files=items.flatMap((a,i)=>[{name:records[i].path,data:payloads[i]},{name:records[i].metadata_path,data:JSON.stringify(records[i],null,2)+'\n'}]);
- files.push({name:'catalog.json',data:JSON.stringify({...settings.project,asset_count:records.length,relative_paths:true,theme:packTheme,assets:records.map(indexEntry)},null,2)+'\n'},{name:'LICENSE-ASSETS',data:settings.assetLicense},{name:'README.txt',data:'PNGまたはSVGをPowerPointの［挿入］→［画像］から配置してください。\nmetadata/ に用途の例・描写の意味・形式・配色を収録しています。用途や配置は資料に合わせて選べます。数値は作例です。実データの生成は元リポジトリの llms.txt を参照してください。\n'});
+ try{const prepared=await Promise.all(items.map(a=>packAsset(a,packTheme,packMode))),records=prepared.map(item=>item.record),files=prepared.flatMap(item=>item.files);
+ files.push({name:'catalog.json',data:JSON.stringify({...settings.project,asset_count:records.length,relative_paths:true,theme:packTheme,assets:records.map(indexEntry)},null,2)+'\n'},{name:'LICENSE-ASSETS',data:settings.assetLicense},{name:'README.txt',data:'PNGまたはSVGをPowerPointの［挿入］→［画像］から配置してください。\nassets/ は図形のみSVG、previews/ は作例文字入りSVG、media/ は元のPNGです。文字のある素材は、同じ配色の図形のみ・文字入りを両方収録しています。\nmetadata/ と catalog.json に用途の例・描写の意味・取得パス・ハッシュを収録しています。用途や配置は資料に合わせて選べます。数値は作例です。実データの生成は元リポジトリの llms.txt を参照してください。\n'});
  saveBlob(makeZip(files),`deckart-${packMode}-${items.length}.zip`);notify(`${items.length}点を保存しました。SVGの配色：${packName}。PNGは元の画像です。`);
  }catch(error){notify(error.message||'保存ファイルを作成できませんでした。素材を少なくして再試行してください。');}finally{button.disabled=false;button.textContent=old;}
 }

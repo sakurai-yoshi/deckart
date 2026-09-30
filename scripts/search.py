@@ -14,6 +14,25 @@ def contains(text, term):
     return term in text
 
 
+def occurrences(text, term):
+    """Locate literal terms without consuming adjacent word boundaries."""
+    if not term:return
+    ascii_term=bool(re.fullmatch(r'[a-z0-9][a-z0-9 ._-]*',term))
+    start=0
+    while True:
+        start=text.find(term,start)
+        if start<0:return
+        end=start+len(term)
+        before=text[start-1] if start else ''
+        after=text[end] if end<len(text) else ''
+        if len(term)==1:
+            valid=(not before or before.isspace()) and (not after or after.isspace())
+        else:
+            valid=not ascii_term or not (re.fullmatch(r'[a-z0-9]',before) or re.fullmatch(r'[a-z0-9]',after))
+        if valid:yield start,end
+        start+=1
+
+
 def fields(asset, config):
     guide=asset.get('guidance',{})
     composition=asset.get('composition',{})
@@ -39,17 +58,20 @@ def prepare(assets, config):
         vocabulary.update(normalize(word) for word in asset['keywords'])
         vocabulary.update(normalize(word) for word in re.split(r'[-/]',asset['id']))
     vocabulary={word for word in vocabulary if len(word)>=2 and word not in aliases}
-    return dict(documents=documents,groups=groups,vocabulary=sorted(vocabulary),config=config)
+    return dict(documents=documents,groups=groups,vocabulary=sorted(vocabulary),config=config,matches={})
 
 
 def query_terms(query, prepared):
     query=normalize(query)
-    groups=[group for group in prepared['groups'] if any(contains(query,word) for word in group)]
-    matched_aliases=[word for group in groups for word in group if contains(query,word)]
-    words=[word for word in prepared['vocabulary'] if contains(query,word) and not any(word in alias for alias in matched_aliases)]
-    # A longer registered phrase carries more intent than its repeated fragments.
-    words=[word for word in words if not any(word!=other and word in other for other in words)]
-    groups.extend([[word] for word in words])
+    candidates=[]
+    for group in [*prepared['groups'],*[[word] for word in prepared['vocabulary']]]:
+        spans={span for word in group for span in occurrences(query,word)}
+        if spans:candidates.append((group,spans))
+    spans={span for _,matches in candidates for span in matches}
+    # A compound phrase expresses one topic. Count its fragments only when they
+    # also occur independently elsewhere in the sentence.
+    uncovered={span for span in spans if not any(other!=span and other[0]<=span[0] and span[1]<=other[1] for other in spans)}
+    groups=[group for group,matches in candidates if matches & uncovered]
     generic={normalize(term) for term in prepared['config']['generic_terms']}
     specific=[group for group in groups if not all(word in generic for word in group)]
     return specific or groups
@@ -67,12 +89,23 @@ def interleave(entries, kind_order):
 
 def rank(prepared, query, filters=None):
     filters=filters or {};normalized=normalize(query);terms=query_terms(query,prepared);buckets={}
-    matched=[[max((weight for text,weight in document if any(contains(text,word) for word in group)),default=0) for group in terms] for _,document in prepared['documents']]
+    # These weights depend on the prepared library, not on filters or query
+    # wording. Reuse them as users refine searches and when auditing all titles.
+    columns=[]
+    for group in terms:
+        key=tuple(group)
+        if key not in prepared['matches']:
+            prepared['matches'][key]=[max((weight for text,weight in document if any(contains(text,word) for word in group)),default=0) for _,document in prepared['documents']]
+        columns.append(prepared['matches'][key])
+    matched=[list(values) for values in zip(*columns)] if columns else [[] for _ in prepared['documents']]
     # Concrete topics distinguish an asset; goals such as improvement are shared
     # by many subjects. Measure rarity across the library, before optional filters.
     rarity=[1000//(20+sum(bool(matches[i]) for matches in matched)) for i in range(len(terms))]
     broad=set(prepared['config']['broad_terms']);specific=any(not any(word in broad for word in group) for group in terms)
     factors=[1 if specific and any(word in broad for word in group) else 3 for group in terms]
+    # A broadly applicable goal should not gain a large rarity bonus merely
+    # because its particular wording appears in few descriptions.
+    rarity=[min(rare,10) if factor==1 else rare for rare,factor in zip(rarity,factors)]
     for (asset,_),matches in zip(prepared['documents'],matched):
         if any(asset.get(key)!=value for key,value in filters.items() if key in ('kind','format','category')):continue
         if 'transparent' in filters and asset.get('transparent') is not filters['transparent']:continue

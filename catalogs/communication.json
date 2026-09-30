@@ -1,0 +1,3481 @@
+{
+  "version": "2.1.0",
+  "raw_base": "https://raw.githubusercontent.com/sakurai-yoshi/deckart/v2.1.0/",
+  "category": "13-説明・伝達",
+  "asset_count": 86,
+  "assets": [
+    {
+      "id": "chart/actual-target",
+      "title": "実績と目標の位置を同じ尺度で比べる",
+      "kind": "chart",
+      "category": "13-説明・伝達",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": true
+      },
+      "path": "assets/chart/actual-target.svg",
+      "preview_path": "previews/chart/actual-target.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/chart/actual-target.json",
+      "sha256": "1d93286d3c927dc0cb5baf34073c34e1ea778be08b6312d731d6a72d54267b3b",
+      "size_bytes": 7648,
+      "keywords": [
+        "実績",
+        "目標",
+        "達成",
+        "ギャップ",
+        "バレット",
+        "actual",
+        "target",
+        "bullet",
+        "comparison",
+        "goal"
+      ],
+      "use_case": "項目ごとの実績と目標を同じ単位で比較し、届いた範囲を共有する。",
+      "message": "実績が目標を超えたか、どの程度届いていないかを同じ尺度で読める。",
+      "sample_data": true,
+      "preview_sha256": "5024ad8035edcd1fa488716454729313902822b1ef48058897f4481072b0c6b0"
+    },
+    {
+      "id": "chart/diverging-bar",
+      "title": "ゼロを境に正と負の差を比べる",
+      "kind": "chart",
+      "category": "13-説明・伝達",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": true
+      },
+      "path": "assets/chart/diverging-bar.svg",
+      "preview_path": "previews/chart/diverging-bar.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/chart/diverging-bar.json",
+      "sha256": "967a97a4895079ec4a751ed1f30e059771be9657e3cf08df37ddddafc85382c1",
+      "size_bytes": 7150,
+      "keywords": [
+        "発散棒",
+        "差分",
+        "増減",
+        "正負",
+        "基準差",
+        "diverging",
+        "bar",
+        "signed",
+        "difference",
+        "deviation"
+      ],
+      "use_case": "基準や前期からの差を、増加と減少の方向で比較する。",
+      "message": "共通のゼロから左右へ分かれた長さで差の方向と大きさを示す。",
+      "sample_data": true,
+      "preview_sha256": "230f6dea25c90559ec183e861e57bf00f522eb5a73cf9b1694ba872c82547e89"
+    },
+    {
+      "id": "chart/donut",
+      "title": "合計と内訳を同時に示す",
+      "kind": "chart",
+      "category": "13-説明・伝達",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": true
+      },
+      "path": "assets/chart/donut.svg",
+      "preview_path": "previews/chart/donut.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/chart/donut.json",
+      "sha256": "1f6072023e0b4685e535d18d25aaacdf690787d7374aaba70de49caeeece85d1",
+      "size_bytes": 6928,
+      "keywords": [
+        "ドーナツ",
+        "合計",
+        "内訳",
+        "構成比",
+        "割合",
+        "件数",
+        "donut",
+        "chart"
+      ],
+      "use_case": "合計件数と、その内訳の割合を一枚で説明する。",
+      "message": "全体の規模と各区分の構成を同時に確認できる。",
+      "sample_data": true,
+      "preview_sha256": "a560492ce110f857fd6cb8430ee1980add5da1c736e3bb11ca8369c2574a1fce"
+    },
+    {
+      "id": "chart/dot",
+      "title": "項目別の水準を点の位置で比較する",
+      "kind": "chart",
+      "category": "13-説明・伝達",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": true
+      },
+      "path": "assets/chart/dot.svg",
+      "preview_path": "previews/chart/dot.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/chart/dot.json",
+      "sha256": "f8ac8bb1099c6704d0dc0c8fc8ccf9708d4851361f1d77bacf02d350db92d5b6",
+      "size_bytes": 6720,
+      "keywords": [
+        "ドットプロット",
+        "点",
+        "比較",
+        "水準",
+        "順位",
+        "dot",
+        "plot",
+        "comparison",
+        "level"
+      ],
+      "use_case": "複数の項目について、同じ単位の水準を余白を保って比較する。",
+      "message": "棒の面積を使わず、共通の尺度上の位置で差を読める。",
+      "sample_data": true,
+      "preview_sha256": "60d7456ef4b671d5d1a3f9efabe418b845473aa1a7aad935932c18b2c4f34396"
+    },
+    {
+      "id": "chart/grouped-bar",
+      "title": "項目ごとに前期と当期を比べる",
+      "kind": "chart",
+      "category": "13-説明・伝達",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": true
+      },
+      "path": "assets/chart/grouped-bar.svg",
+      "preview_path": "previews/chart/grouped-bar.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/chart/grouped-bar.json",
+      "sha256": "434f8fbce8944198a10ca52f606db625c1928bd6ed41079a2d73e574391a6fd3",
+      "size_bytes": 7666,
+      "keywords": [
+        "集合棒",
+        "グループ",
+        "棒グラフ",
+        "前期",
+        "当期",
+        "比較",
+        "カテゴリ",
+        "grouped",
+        "clustered",
+        "bar"
+      ],
+      "use_case": "複数項目について前期と当期の件数を比較する。",
+      "message": "項目ごとの変化と項目間の差を同じ目盛りで読める。",
+      "sample_data": true,
+      "preview_sha256": "ff9fef8c1afdb9aea3ea364bb65f1dd4852620dfaf3fea1ffbb3d830ebc613c6"
+    },
+    {
+      "id": "chart/horizontal-bar",
+      "title": "項目別の件数を横棒で比べる",
+      "kind": "chart",
+      "category": "13-説明・伝達",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": true
+      },
+      "path": "assets/chart/horizontal-bar.svg",
+      "preview_path": "previews/chart/horizontal-bar.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/chart/horizontal-bar.json",
+      "sha256": "63328d2f705973be6a2195357bab0dbd966a7f4a3c99a2012e1a45f33522d125",
+      "size_bytes": 6237,
+      "keywords": [
+        "横棒",
+        "棒グラフ",
+        "比較",
+        "ランキング",
+        "件数",
+        "カテゴリ",
+        "horizontal",
+        "bar"
+      ],
+      "use_case": "同じ単位で集計した項目別の件数を比較する。",
+      "message": "棒が長い項目ほど件数が多い。",
+      "sample_data": true,
+      "preview_sha256": "bb327b8b165a65ee36cb2d487a30188ad541229fc0ea517438935e96fcc28e0e"
+    },
+    {
+      "id": "chart/line",
+      "title": "期間ごとの増減を線で追う",
+      "kind": "chart",
+      "category": "13-説明・伝達",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": true
+      },
+      "path": "assets/chart/line.svg",
+      "preview_path": "previews/chart/line.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/chart/line.json",
+      "sha256": "a15450f930a18e752a622791609020d946309404e9ef686924d78398917cca50",
+      "size_bytes": 9286,
+      "keywords": [
+        "折れ線",
+        "推移",
+        "時系列",
+        "変化",
+        "件数",
+        "トレンド",
+        "line",
+        "time",
+        "series"
+      ],
+      "use_case": "同じ間隔で集計した期間別の件数の変化を示す。",
+      "message": "各期間の増減と全体の推移を確認できる。",
+      "sample_data": true,
+      "preview_sha256": "29b108d772d15d455974379d69e2389122b7c55a80ab8cc3ee7c7fdb6086d117"
+    },
+    {
+      "id": "chart/pareto",
+      "title": "大きい要因から累積の割合を読む",
+      "kind": "chart",
+      "category": "13-説明・伝達",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": true
+      },
+      "path": "assets/chart/pareto.svg",
+      "preview_path": "previews/chart/pareto.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/chart/pareto.json",
+      "sha256": "244eb641b53e30db175955a4e4cbfd95f905ca9e853ea849ae0a6a6a962808d9",
+      "size_bytes": 12036,
+      "keywords": [
+        "パレート",
+        "要因",
+        "重点",
+        "順位",
+        "累積",
+        "構成比",
+        "pareto",
+        "concentration",
+        "cumulative",
+        "causes"
+      ],
+      "use_case": "不良や問い合わせなどの要因を整理し、全体へ大きく寄与する対象を見つける。",
+      "message": "要因の大きさと、上位からどれだけ全体を占めるかを同時に読める。",
+      "sample_data": true,
+      "preview_sha256": "975af3a6230081db037d7987d609eb55574be63edd50ef716f547b099033465d"
+    },
+    {
+      "id": "chart/pictogram",
+      "title": "10人中7人の割合を示す",
+      "kind": "chart",
+      "category": "13-説明・伝達",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": true
+      },
+      "path": "assets/chart/pictogram.svg",
+      "preview_path": "previews/chart/pictogram.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/chart/pictogram.json",
+      "sha256": "b9c7f9568b7706364e17be59e0431245d754d81c477db603c7c2c98af407577a",
+      "size_bytes": 5765,
+      "keywords": [
+        "ピクトグラム",
+        "人数",
+        "人物",
+        "割合",
+        "比率",
+        "回答",
+        "該当",
+        "70パーセント",
+        "pictogram"
+      ],
+      "use_case": "同じ母集団の中で条件に該当する人数の割合を説明する。",
+      "message": "全体と該当する人数の関係が一目で分かる。",
+      "sample_data": true,
+      "preview_sha256": "dc18e9d38239565efc66f242abeb2700d1c78765a3d350a18af4c3480747d6e3"
+    },
+    {
+      "id": "chart/pie",
+      "title": "三つの区分で全体を表す",
+      "kind": "chart",
+      "category": "13-説明・伝達",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": true
+      },
+      "path": "assets/chart/pie.svg",
+      "preview_path": "previews/chart/pie.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/chart/pie.json",
+      "sha256": "f818b91a41832cbf096c67a1cf66ce7447ebc42fd1cd2019110fa5bea571bb0a",
+      "size_bytes": 7286,
+      "keywords": [
+        "円グラフ",
+        "構成比",
+        "内訳",
+        "全体",
+        "部分",
+        "割合",
+        "pie",
+        "chart"
+      ],
+      "use_case": "重複しない三つの区分が全体をどう分けるかを説明する。",
+      "message": "各区分の合計が一つの全体になる。",
+      "sample_data": true,
+      "preview_sha256": "781f3102b4dd976e3ce34eff99f0cecbff217281d8246e4b03f6e0fb6d1eae1d"
+    },
+    {
+      "id": "chart/progress-ring",
+      "title": "全体に対する完了率",
+      "kind": "chart",
+      "category": "13-説明・伝達",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 600,
+      "height": 620,
+      "canvas": {
+        "width": 600,
+        "height": 620
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": true
+      },
+      "path": "assets/chart/progress-ring.svg",
+      "preview_path": "previews/chart/progress-ring.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/chart/progress-ring.json",
+      "sha256": "33120bc7d557b921976452109e8919d52187947f7403afa535825f8e49549dd1",
+      "size_bytes": 3535,
+      "keywords": [
+        "進捗",
+        "達成率",
+        "完了率",
+        "リング",
+        "パーセント",
+        "割合",
+        "円形",
+        "progress",
+        "ring"
+      ],
+      "use_case": "目標に対する完了率を一つの値で示す。",
+      "message": "全体のうち完了した範囲と残りを同時に示す。",
+      "sample_data": true,
+      "preview_sha256": "4881a797af8f72e4649197a4abdb06e4056661308056a2136c64f7d13fe8941f"
+    },
+    {
+      "id": "chart/range",
+      "title": "範囲の広さと代表値を同時に比較する",
+      "kind": "chart",
+      "category": "13-説明・伝達",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": true
+      },
+      "path": "assets/chart/range.svg",
+      "preview_path": "previews/chart/range.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/chart/range.json",
+      "sha256": "219e9958c944334d5e03675c5d7496c3709e07104924b045cd02e1dbc4c2de13",
+      "size_bytes": 10215,
+      "keywords": [
+        "範囲",
+        "幅",
+        "最小",
+        "最大",
+        "区間",
+        "不確実性",
+        "見積",
+        "range",
+        "interval",
+        "uncertainty",
+        "min",
+        "max",
+        "estimate"
+      ],
+      "use_case": "見積もりや観測値を一点で断定せず、範囲と代表値を合わせて比較する。",
+      "message": "区間の位置と広さ、区間内の代表値を一緒に読める。",
+      "sample_data": true,
+      "preview_sha256": "51b692053378621d91997c517870cea420be02b11b67f690f6b3f19dc595c4af"
+    },
+    {
+      "id": "chart/scatter",
+      "title": "二つの数値の関係を点の分布で見る",
+      "kind": "chart",
+      "category": "13-説明・伝達",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": true
+      },
+      "path": "assets/chart/scatter.svg",
+      "preview_path": "previews/chart/scatter.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/chart/scatter.json",
+      "sha256": "0908d4ce6a8189487a23be14f1d03961fb8e73a94fe3bb72b1a53673816b9fc5",
+      "size_bytes": 8150,
+      "keywords": [
+        "散布図",
+        "相関",
+        "関係",
+        "分布",
+        "観測",
+        "外れ値",
+        "scatter",
+        "correlation",
+        "relationship",
+        "observation",
+        "outlier"
+      ],
+      "use_case": "二つの測定値の関係や、ほかと離れた観測を調べる。",
+      "message": "各観測の横と縦の値を一組の点として、分布の傾向を読む。",
+      "sample_data": true,
+      "preview_sha256": "06418b4a32726c5e4c2cb36c0f557be7204b7cb2eaf11c80ff813d7bd1a02004"
+    },
+    {
+      "id": "chart/semicircle-gauge",
+      "title": "上限に対する到達度を示す",
+      "kind": "chart",
+      "category": "13-説明・伝達",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 600,
+      "height": 620,
+      "canvas": {
+        "width": 600,
+        "height": 620
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": true
+      },
+      "path": "assets/chart/semicircle-gauge.svg",
+      "preview_path": "previews/chart/semicircle-gauge.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/chart/semicircle-gauge.json",
+      "sha256": "64a8cd80c3e864b1bc702e189b99a3393b5b43c0f1193dff91356f2c85702014",
+      "size_bytes": 4357,
+      "keywords": [
+        "ゲージ",
+        "到達度",
+        "達成率",
+        "指標",
+        "メーター",
+        "半円",
+        "gauge"
+      ],
+      "use_case": "上限が明確な指標について現在の到達度を示す。",
+      "message": "0から100の範囲で現在値がどこにあるかを示す。",
+      "sample_data": true,
+      "preview_sha256": "d703d999fe43497da3f0192544ebfb24a4cf27dc9b25a606388cd82b18fee53e"
+    },
+    {
+      "id": "chart/slope",
+      "title": "二つの時点の変化を追う",
+      "kind": "chart",
+      "category": "13-説明・伝達",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": true
+      },
+      "path": "assets/chart/slope.svg",
+      "preview_path": "previews/chart/slope.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/chart/slope.json",
+      "sha256": "9f654b108b1b1b00d9e11d00a960f079a9a1d6fc18127d7348a735fa362f58c0",
+      "size_bytes": 11865,
+      "keywords": [
+        "スロープ",
+        "前後比較",
+        "前期",
+        "当期",
+        "変化",
+        "比率",
+        "割合",
+        "slope",
+        "comparison"
+      ],
+      "use_case": "複数の区分について、前期と当期の比率の変化を比較する。",
+      "message": "増減の方向と二時点の順位の入れ替わりを確認できる。",
+      "sample_data": true,
+      "preview_sha256": "6614fcf4c198f9ef87f76e6ec84d3b0ff8e60f4e66c2bcf989fa16a563f73428"
+    },
+    {
+      "id": "chart/stacked-percent-bar",
+      "title": "全体を100%にそろえて構成を比べる",
+      "kind": "chart",
+      "category": "13-説明・伝達",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": true
+      },
+      "path": "assets/chart/stacked-percent-bar.svg",
+      "preview_path": "previews/chart/stacked-percent-bar.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/chart/stacked-percent-bar.json",
+      "sha256": "562a489cfc1b53db40352fd9035de46848748531ee5d8877624fd9a8d0b6859b",
+      "size_bytes": 16253,
+      "keywords": [
+        "積上げ",
+        "100パーセント",
+        "構成比",
+        "内訳",
+        "比較",
+        "割合",
+        "stacked",
+        "normalized",
+        "bar"
+      ],
+      "use_case": "総量の異なる複数の対象について、内訳の割合を比較する。",
+      "message": "全体の長さをそろえることで構成の違いを読める。",
+      "sample_data": true,
+      "preview_sha256": "b98810fc0502e7c23fc842f101de69c4b45788e492854f4caea39ac5c032c390"
+    },
+    {
+      "id": "chart/vertical-bar",
+      "title": "同じ基準で値の高さを比べる",
+      "kind": "chart",
+      "category": "13-説明・伝達",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": true
+      },
+      "path": "assets/chart/vertical-bar.svg",
+      "preview_path": "previews/chart/vertical-bar.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/chart/vertical-bar.json",
+      "sha256": "3fd9e1ed4d6e8842f8a64705d51d4c4ff7c0b549ddad838444a858ea3fbcd582",
+      "size_bytes": 6285,
+      "keywords": [
+        "縦棒",
+        "棒グラフ",
+        "件数",
+        "比較",
+        "カテゴリ",
+        "column",
+        "vertical",
+        "bar"
+      ],
+      "use_case": "順序を固定した項目について同じ単位の値を比較する。",
+      "message": "棒が高い項目ほど値が大きい。",
+      "sample_data": true,
+      "preview_sha256": "e08923c9098756e0998855f7e2249221f714978e1de9ee60b776fdb862442753"
+    },
+    {
+      "id": "chart/waterfall",
+      "title": "期初から期末までの増減を分解する",
+      "kind": "chart",
+      "category": "13-説明・伝達",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": true
+      },
+      "path": "assets/chart/waterfall.svg",
+      "preview_path": "previews/chart/waterfall.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/chart/waterfall.json",
+      "sha256": "b787bea6dd043bbef79274651f5b90e1b7749b514a8448f9533201ede3b1f135",
+      "size_bytes": 8888,
+      "keywords": [
+        "ウォーターフォール",
+        "滝",
+        "増減",
+        "差分",
+        "要因",
+        "分解",
+        "ブリッジ",
+        "期初",
+        "期末",
+        "waterfall"
+      ],
+      "use_case": "期初と期末の差を、増加要因と減少要因に分けて説明する。",
+      "message": "各要因を足し引きすると最終値に一致する。",
+      "sample_data": true,
+      "preview_sha256": "0c0cce13be40850011f2262dd152a8556fc9fb2686bab959c6d05a5ca908fe87"
+    },
+    {
+      "id": "icon/approval",
+      "title": "承認",
+      "kind": "icon",
+      "category": "13-説明・伝達",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/approval.svg",
+      "preview_path": "assets/icon/approval.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/approval.json",
+      "sha256": "23644e47c42e8ba2b91d29bf843d1c64290f3db12ed5c213b175d6c961723660",
+      "size_bytes": 980,
+      "keywords": [
+        "承認",
+        "決裁",
+        "許可",
+        "確認",
+        "印",
+        "approval",
+        "authorization",
+        "signoff"
+      ],
+      "use_case": "申請の承認や決裁が必要な工程を示す。",
+      "message": "責任者が内容を確認して認める。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/broadcast",
+      "title": "周知・告知",
+      "kind": "icon",
+      "category": "13-説明・伝達",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/broadcast.svg",
+      "preview_path": "assets/icon/broadcast.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/broadcast.json",
+      "sha256": "af7abe6b597724292d39395a3db536a94931647539fad46fed85b9bf483c8434",
+      "size_bytes": 1241,
+      "keywords": [
+        "周知",
+        "告知",
+        "案内",
+        "社内広報",
+        "広報",
+        "announcement",
+        "broadcast",
+        "communication"
+      ],
+      "use_case": "社内告知や広報の見出しに添える。",
+      "message": "広い範囲の相手へ情報を伝える。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/conversation",
+      "title": "対話・コミュニケーション",
+      "kind": "icon",
+      "category": "13-説明・伝達",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/conversation.svg",
+      "preview_path": "assets/icon/conversation.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/conversation.json",
+      "sha256": "57bfa524175dc8aee68716a076205dbc32fe6a2e00998a48ca8b1e2b8ed23ca5",
+      "size_bytes": 1114,
+      "keywords": [
+        "対話",
+        "会話",
+        "連絡",
+        "意見",
+        "コミュニケーション",
+        "相談",
+        "communication",
+        "conversation",
+        "chat",
+        "dialogue"
+      ],
+      "use_case": "話し合いや意見交換が必要な場面。",
+      "message": "相手と情報や考えを交わす。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/document",
+      "title": "文書・書類",
+      "kind": "icon",
+      "category": "13-説明・伝達",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/document.svg",
+      "preview_path": "assets/icon/document.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/document.json",
+      "sha256": "e7a58a03be9532e1936725e6194e382cda7f5f389f37d682b6aa106b24aa68cb",
+      "size_bytes": 1086,
+      "keywords": [
+        "文書",
+        "書類",
+        "資料",
+        "ドキュメント",
+        "ファイル",
+        "帳票",
+        "document",
+        "file",
+        "paper",
+        "report"
+      ],
+      "use_case": "添付資料や入力・確認する書類を示す場面。",
+      "message": "参照または作成する文書がある。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/document-approval",
+      "title": "確認と承認",
+      "kind": "icon",
+      "category": "13-説明・伝達",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/document-approval.svg",
+      "preview_path": "assets/icon/document-approval.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/document-approval.json",
+      "sha256": "6e70d289c436fe374c4106fdef8aa732f9e0204876f0df5496548d47fa06c03b",
+      "size_bytes": 1463,
+      "keywords": [
+        "確認",
+        "承認",
+        "書類",
+        "決裁",
+        "稟議",
+        "document",
+        "review",
+        "approval",
+        "signoff"
+      ],
+      "use_case": "書類の項目確認から決裁へ進む手続きを説明する。",
+      "message": "内容を確認したうえで承認を確定する。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/download",
+      "title": "ダウンロード",
+      "kind": "icon",
+      "category": "13-説明・伝達",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/download.svg",
+      "preview_path": "assets/icon/download.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/download.json",
+      "sha256": "30cb2a7dd83d17323902ab31bdc72d55037f283e85f4e290c17245e0fc85ff2c",
+      "size_bytes": 764,
+      "keywords": [
+        "ダウンロード",
+        "取得",
+        "保存",
+        "受信",
+        "ファイル",
+        "download",
+        "retrieve",
+        "save"
+      ],
+      "use_case": "資料やファイルを取得する操作を示す。",
+      "message": "外にあるファイルを手元へ受け取る。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/email",
+      "title": "メール",
+      "kind": "icon",
+      "category": "13-説明・伝達",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/email.svg",
+      "preview_path": "assets/icon/email.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/email.json",
+      "sha256": "95c47b301e21c73c143736cd9f9ce91c400e9dfd4e00a0766f94502d3e53fbee",
+      "size_bytes": 896,
+      "keywords": [
+        "メール",
+        "電子メール",
+        "連絡",
+        "送信",
+        "受信",
+        "email",
+        "mail",
+        "message"
+      ],
+      "use_case": "連絡先やメールでの連絡手順を示す。",
+      "message": "文章や資料を相手へ届ける。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/globe",
+      "title": "世界・海外",
+      "kind": "icon",
+      "category": "13-説明・伝達",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/globe.svg",
+      "preview_path": "assets/icon/globe.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/globe.json",
+      "sha256": "19dc16ced567b9ed622ee2180cf7731323872db01b369dcfee1615969f70fa9b",
+      "size_bytes": 973,
+      "keywords": [
+        "世界",
+        "海外",
+        "国際",
+        "グローバル",
+        "地域",
+        "多言語",
+        "globe",
+        "global",
+        "international",
+        "worldwide"
+      ],
+      "use_case": "海外展開や世界とのつながりを示す場面。",
+      "message": "地域を越えた広がりやつながりを示す。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/meeting",
+      "title": "会議",
+      "kind": "icon",
+      "category": "13-説明・伝達",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/meeting.svg",
+      "preview_path": "assets/icon/meeting.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/meeting.json",
+      "sha256": "a785377f5e744f271b0d310a5779bc6c4fe4e66888269cd8840b14c8834c1283",
+      "size_bytes": 1392,
+      "keywords": [
+        "会議",
+        "打合せ",
+        "協議",
+        "議論",
+        "meeting",
+        "discussion",
+        "conference"
+      ],
+      "use_case": "会議や打合せの実施項目を示す。",
+      "message": "参加者が同じ論点を囲んで話し合う。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/notification",
+      "title": "通知",
+      "kind": "icon",
+      "category": "13-説明・伝達",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/notification.svg",
+      "preview_path": "assets/icon/notification.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/notification.json",
+      "sha256": "5df5f011918280c8fc6f2365d6d36d71f77609e1e137144814fc9d9c2ade9b2a",
+      "size_bytes": 1059,
+      "keywords": [
+        "通知",
+        "お知らせ",
+        "更新",
+        "アラート",
+        "notification",
+        "alert",
+        "bell"
+      ],
+      "use_case": "通知設定や更新のお知らせを示す。",
+      "message": "相手に気付いてほしい知らせがある。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/phone",
+      "title": "電話",
+      "kind": "icon",
+      "category": "13-説明・伝達",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/phone.svg",
+      "preview_path": "assets/icon/phone.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/phone.json",
+      "sha256": "4e11014b800f6e28d6191ed692e743195e5b419c0f90ce5beab6c2d023ffe360",
+      "size_bytes": 734,
+      "keywords": [
+        "電話",
+        "通話",
+        "音声",
+        "連絡",
+        "コール",
+        "phone",
+        "call",
+        "telephone",
+        "voice"
+      ],
+      "use_case": "電話での問い合わせ先や連絡方法を示す。",
+      "message": "音声で相手と直接話す。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/presentation",
+      "title": "発表・説明",
+      "kind": "icon",
+      "category": "13-説明・伝達",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/presentation.svg",
+      "preview_path": "assets/icon/presentation.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/presentation.json",
+      "sha256": "dd17f6ad190a003e39b6f0234c8cba7b7668c80c758726b2cc579f559c5dfec7",
+      "size_bytes": 1381,
+      "keywords": [
+        "発表",
+        "説明",
+        "プレゼン",
+        "報告",
+        "登壇",
+        "presentation",
+        "briefing",
+        "speaker"
+      ],
+      "use_case": "発表や説明会の項目に添える。",
+      "message": "資料を示しながら相手へ説明する。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/search",
+      "title": "検索・調査",
+      "kind": "icon",
+      "category": "13-説明・伝達",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/search.svg",
+      "preview_path": "assets/icon/search.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/search.json",
+      "sha256": "47945a930912dfe0ba714877361ce5212145513e104b1bffed63f7b17c7f7ae3",
+      "size_bytes": 580,
+      "keywords": [
+        "検索",
+        "調査",
+        "探索",
+        "発見",
+        "確認",
+        "拡大",
+        "search",
+        "find",
+        "inspect",
+        "research"
+      ],
+      "use_case": "検索する項目や、調査する工程を示す場面。",
+      "message": "必要な情報を探して詳しく見る。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/sharing",
+      "title": "共有",
+      "kind": "icon",
+      "category": "13-説明・伝達",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/sharing.svg",
+      "preview_path": "assets/icon/sharing.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/sharing.json",
+      "sha256": "a2daecc1b2424f9c3bfdc5699a1f57f7ed875f71c10a3a4106a715cc92813c15",
+      "size_bytes": 922,
+      "keywords": [
+        "共有",
+        "配布",
+        "展開",
+        "情報共有",
+        "share",
+        "sharing",
+        "distribution"
+      ],
+      "use_case": "資料や情報の共有先を示す。",
+      "message": "一つの情報を複数の相手へ広げる。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/structured-report",
+      "title": "構造化されたレポート",
+      "kind": "icon",
+      "category": "13-説明・伝達",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/structured-report.svg",
+      "preview_path": "assets/icon/structured-report.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/structured-report.json",
+      "sha256": "c9799edf06ee265fdcf2348c7d39966e851d9a9140f2ec569d1f464a9db80cb9",
+      "size_bytes": 1750,
+      "keywords": [
+        "報告書",
+        "レポート",
+        "章",
+        "索引",
+        "図表",
+        "report",
+        "structured",
+        "index",
+        "chapters"
+      ],
+      "use_case": "章や図表に整理した業務レポートを案内する。",
+      "message": "情報を整理して参照しやすくする。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/upload",
+      "title": "アップロード",
+      "kind": "icon",
+      "category": "13-説明・伝達",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/upload.svg",
+      "preview_path": "assets/icon/upload.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/upload.json",
+      "sha256": "0a7d6e3a8021b5d7cab334668b8e6447587bc39efa35a8109fa92d9603711d77",
+      "size_bytes": 761,
+      "keywords": [
+        "アップロード",
+        "送信",
+        "提出",
+        "共有",
+        "ファイル",
+        "upload",
+        "submit",
+        "send"
+      ],
+      "use_case": "ファイルを共有先へ送る操作を示す。",
+      "message": "手元のファイルを外の保存先へ送る。",
+      "sample_data": false
+    },
+    {
+      "id": "illustration/asking-question",
+      "title": "手を挙げて質問する",
+      "kind": "illustration",
+      "category": "13-説明・伝達",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1254,
+      "height": 1254,
+      "canvas": {
+        "width": 1254,
+        "height": 1254
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/asking-question.png",
+      "preview_path": "previews/illustration/asking-question.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/asking-question.json",
+      "sha256": "be91da0b2699e4591f0a86c29426a08601f99d95f8f8a8165ccb4826346d93d0",
+      "size_bytes": 646292,
+      "keywords": [
+        "質問",
+        "疑問",
+        "質疑応答",
+        "確認",
+        "会議",
+        "挙手",
+        "question",
+        "raise hand"
+      ],
+      "use_case": "質疑応答、会議での質問、確認事項の共有を説明する。",
+      "message": "理解できていない点を、その場で確認する。",
+      "sample_data": false,
+      "composition": {
+        "framing": "waist-up",
+        "facing": "left",
+        "people_count": 1
+      }
+    },
+    {
+      "id": "illustration/checking-documents",
+      "title": "書類を確認する",
+      "kind": "illustration",
+      "category": "13-説明・伝達",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1254,
+      "height": 1254,
+      "canvas": {
+        "width": 1254,
+        "height": 1254
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/checking-documents.png",
+      "preview_path": "previews/illustration/checking-documents.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/checking-documents.json",
+      "sha256": "457cfc047149a0e41ab003aa6631ccf56400b0d9362811bb50b42243c2d8fcae",
+      "size_bytes": 762110,
+      "keywords": [
+        "書類",
+        "確認",
+        "仕様",
+        "手順",
+        "照合",
+        "document",
+        "review",
+        "check"
+      ],
+      "use_case": "仕様・手順・計画などの内容確認を説明する挿絵に。",
+      "message": "資料の内容を丁寧に確かめる。",
+      "sample_data": false,
+      "composition": {
+        "framing": "waist-up",
+        "facing": "down",
+        "people_count": 1
+      }
+    },
+    {
+      "id": "illustration/explaining",
+      "title": "説明する",
+      "kind": "illustration",
+      "category": "13-説明・伝達",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1254,
+      "height": 1254,
+      "canvas": {
+        "width": 1254,
+        "height": 1254
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/explaining.png",
+      "preview_path": "previews/illustration/explaining.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/explaining.json",
+      "sha256": "9e374a90fc9b2e6870089c08b156e44c08e4c4f1e9673fda2feb83d828f72d97",
+      "size_bytes": 694567,
+      "keywords": [
+        "説明",
+        "案内",
+        "共有",
+        "手順",
+        "方針",
+        "explain",
+        "guide"
+      ],
+      "use_case": "手順・方針・製品の説明に添える挿絵に。",
+      "message": "相手へ内容をわかりやすく伝える。",
+      "sample_data": false,
+      "composition": {
+        "framing": "waist-up",
+        "facing": "left",
+        "people_count": 1
+      }
+    },
+    {
+      "id": "illustration/reporting",
+      "title": "状況を伝える",
+      "kind": "illustration",
+      "category": "13-説明・伝達",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1254,
+      "height": 1254,
+      "canvas": {
+        "width": 1254,
+        "height": 1254
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/reporting.png",
+      "preview_path": "previews/illustration/reporting.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/reporting.json",
+      "sha256": "75d86c9405de3f5054ce09b850036b51bc3dd01fa038419113a66eae06569ef2",
+      "size_bytes": 931821,
+      "keywords": [
+        "報告",
+        "状況",
+        "進捗",
+        "共有",
+        "report",
+        "update"
+      ],
+      "use_case": "進捗・対応・確認結果を共有する説明に。",
+      "message": "現在の状況を相手へ伝える。",
+      "sample_data": false,
+      "composition": {
+        "framing": "waist-up",
+        "facing": "front",
+        "people_count": 1
+      }
+    },
+    {
+      "id": "illustration/writing-notes",
+      "title": "記録する",
+      "kind": "illustration",
+      "category": "13-説明・伝達",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1254,
+      "height": 1254,
+      "canvas": {
+        "width": 1254,
+        "height": 1254
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/writing-notes.png",
+      "preview_path": "previews/illustration/writing-notes.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/writing-notes.json",
+      "sha256": "ecba8d1ab79cfe34c092012663f1f49a10f7ea9c3f6743dfdeacaa6351b281ed",
+      "size_bytes": 840818,
+      "keywords": [
+        "記録",
+        "メモ",
+        "点検",
+        "記入",
+        "書く",
+        "notes",
+        "writing",
+        "recording"
+      ],
+      "use_case": "記録、メモ、点検結果の記入を説明する挿絵に。",
+      "message": "確認したことを記録に残す。",
+      "sample_data": false,
+      "composition": {
+        "framing": "waist-up",
+        "facing": "down",
+        "people_count": 1
+      }
+    },
+    {
+      "id": "part/association-and-causation",
+      "title": "一緒に動くことと原因であることを区別する",
+      "kind": "part",
+      "category": "13-説明・伝達",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1120,
+      "height": 380,
+      "canvas": {
+        "width": 1120,
+        "height": 380
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/part/association-and-causation.svg",
+      "preview_path": "previews/part/association-and-causation.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/part/association-and-causation.json",
+      "sha256": "905a48b62dda6dd7d72c17b484e0b043bc2408a6f7e59383aa02bc26bb2a7221",
+      "size_bytes": 1099,
+      "keywords": [
+        "相関",
+        "因果",
+        "関係",
+        "原因",
+        "検証",
+        "correlation",
+        "causation",
+        "association"
+      ],
+      "use_case": "分析結果で、二つの値の関係をそのまま原因と断定しないために添える。",
+      "message": "相関を観測しても、原因であるかは別途検証する。",
+      "sample_data": false,
+      "preview_sha256": "f6fbe146f7cf9d6b886e2251548986ae91d81e32ae5febba8da387cf1aa7d516"
+    },
+    {
+      "id": "part/assumption-sensitivity",
+      "title": "前提の変化が結論へ与える影響を確かめる",
+      "kind": "part",
+      "category": "13-説明・伝達",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1120,
+      "height": 380,
+      "canvas": {
+        "width": 1120,
+        "height": 380
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/part/assumption-sensitivity.svg",
+      "preview_path": "previews/part/assumption-sensitivity.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/part/assumption-sensitivity.json",
+      "sha256": "4bd55c5a275980620370beb5234a1a43db58bcefae05daae6a199f36e0196c18",
+      "size_bytes": 1145,
+      "keywords": [
+        "感度分析",
+        "前提",
+        "仮定",
+        "試算",
+        "条件",
+        "sensitivity",
+        "assumptions",
+        "scenario"
+      ],
+      "use_case": "見積もりや計画で、どの前提を重点的に確認するか説明する。",
+      "message": "前提を変えたときの結果の動きから、重要な条件を見つける。",
+      "sample_data": false,
+      "preview_sha256": "c59cb4c3454edf8a1ec3a418856e8482b0075bf4b251840ffee08e75a53fcc30"
+    },
+    {
+      "id": "part/attributed-quotation",
+      "title": "発言と出典を一組にする",
+      "kind": "part",
+      "category": "13-説明・伝達",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1030,
+      "height": 315,
+      "canvas": {
+        "width": 1030,
+        "height": 315
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/part/attributed-quotation.svg",
+      "preview_path": "previews/part/attributed-quotation.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/part/attributed-quotation.json",
+      "sha256": "42e62a49f1da14b18b6c9ea7eaf255212688c8e66c3e9e5b679419bc5c8a7a7c",
+      "size_bytes": 880,
+      "keywords": [
+        "引用",
+        "発言",
+        "顧客の声",
+        "出典",
+        "quote",
+        "quotation",
+        "attribution"
+      ],
+      "use_case": "インタビューや発言を本文の中へ引用する場面。",
+      "message": "発言そのものと、その情報源を一緒に示す。",
+      "sample_data": false,
+      "preview_sha256": "1c4e0b7b43c95138df2112b1d8f40e284bca4a00a27f326e762effbde802e2ad"
+    },
+    {
+      "id": "part/before-after-change",
+      "title": "変更前と変更後を一組にする",
+      "kind": "part",
+      "category": "13-説明・伝達",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1030,
+      "height": 315,
+      "canvas": {
+        "width": 1030,
+        "height": 315
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/part/before-after-change.svg",
+      "preview_path": "previews/part/before-after-change.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/part/before-after-change.json",
+      "sha256": "501c3495ca0c117fc1322cb2df374728c3543d41a25d85a3d498aae1a9673203",
+      "size_bytes": 1119,
+      "keywords": [
+        "前後",
+        "現状",
+        "変更",
+        "変革",
+        "比較",
+        "before",
+        "after",
+        "change"
+      ],
+      "use_case": "改善による状態の変化を短く伝える場面。",
+      "message": "同じ対象が、どのように変わるかを示す。",
+      "sample_data": false,
+      "preview_sha256": "1ca03626f4bd52b8ca2791d8006cc421de9cf9571b3567746085269b7a8884b0"
+    },
+    {
+      "id": "part/benefit-and-requirement",
+      "title": "利点と必要な負担を並べる",
+      "kind": "part",
+      "category": "13-説明・伝達",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1120,
+      "height": 382,
+      "canvas": {
+        "width": 1120,
+        "height": 382
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/part/benefit-and-requirement.svg",
+      "preview_path": "previews/part/benefit-and-requirement.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/part/benefit-and-requirement.json",
+      "sha256": "5e99aa30fc5a718c3ece24466e78b02093419fcb7dbfeaa31417cf89ac9861fd",
+      "size_bytes": 865,
+      "keywords": [
+        "利点",
+        "負担",
+        "条件",
+        "トレードオフ",
+        "判断",
+        "benefit",
+        "requirement",
+        "tradeoff"
+      ],
+      "use_case": "提案の価値と実施に必要な負担を説明する場面。",
+      "message": "利点だけでなく、実現の条件も含めて判断する。",
+      "sample_data": false,
+      "preview_sha256": "b29c6a4a8086072713e66d86815ff7b43754fc239f686dd4f9b74974e470de1d"
+    },
+    {
+      "id": "part/category-label",
+      "title": "内容の分類を短く添える",
+      "kind": "part",
+      "category": "13-説明・伝達",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 920,
+      "height": 197,
+      "canvas": {
+        "width": 920,
+        "height": 197
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/part/category-label.svg",
+      "preview_path": "previews/part/category-label.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/part/category-label.json",
+      "sha256": "1cd816b5b1c8e1bda72138b599d8eca3c846e1ed384f5c2bb569bb9d4f4af185",
+      "size_bytes": 613,
+      "keywords": [
+        "分類",
+        "カテゴリ",
+        "区分",
+        "整理",
+        "label",
+        "category",
+        "classification"
+      ],
+      "use_case": "説明のまとまりに、同じ分類名を継続して添える場面。",
+      "message": "この内容がどの区分に属するかが分かる。",
+      "sample_data": false,
+      "preview_sha256": "9a4aed7f9690a80454a6153dc87cfd34549e973a6057fead5dfc2d6d9d2018c1"
+    },
+    {
+      "id": "part/caution-note",
+      "title": "実行前の条件を明示する",
+      "kind": "part",
+      "category": "13-説明・伝達",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 920,
+      "height": 264,
+      "canvas": {
+        "width": 920,
+        "height": 264
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/part/caution-note.svg",
+      "preview_path": "previews/part/caution-note.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/part/caution-note.json",
+      "sha256": "2a57f8686874977b57aa70c6e108ba557ab33f7b9e833ac9a09cbce365da43e0",
+      "size_bytes": 972,
+      "keywords": [
+        "注意",
+        "前提",
+        "条件",
+        "留意点",
+        "制約",
+        "caution",
+        "prerequisite",
+        "condition"
+      ],
+      "use_case": "提案や手順に、実行の前提を添える場面。",
+      "message": "実行前に確認する条件がある。",
+      "sample_data": false,
+      "preview_sha256": "df2ae3b995ed1881bcf2ff8faefc79cb877c56c5b8ca3664224783da167828dd"
+    },
+    {
+      "id": "part/chapter-rail",
+      "title": "章番号と見出しを組にする",
+      "kind": "part",
+      "category": "13-説明・伝達",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1000,
+      "height": 225,
+      "canvas": {
+        "width": 1000,
+        "height": 225
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/part/chapter-rail.svg",
+      "preview_path": "previews/part/chapter-rail.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/part/chapter-rail.json",
+      "sha256": "ab3a87a9dc638c47566ea7093c694c3c6d9f114de66af17d82241ad6ad37cdb9",
+      "size_bytes": 605,
+      "keywords": [
+        "章",
+        "見出し",
+        "章番号",
+        "区切り",
+        "section",
+        "chapter",
+        "heading"
+      ],
+      "use_case": "資料内の章や大きな話題を切り替える場面。",
+      "message": "ここから扱う章の位置と題名が分かる。",
+      "sample_data": false,
+      "preview_sha256": "1b27f755e0c15b3e95f495b9af121a7f0c52a032d715ce201fa3e65a48aa4580"
+    },
+    {
+      "id": "part/claim-source-method",
+      "title": "主張から情報源と加工方法をたどる",
+      "kind": "part",
+      "category": "13-説明・伝達",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1120,
+      "height": 380,
+      "canvas": {
+        "width": 1120,
+        "height": 380
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/part/claim-source-method.svg",
+      "preview_path": "previews/part/claim-source-method.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/part/claim-source-method.json",
+      "sha256": "01422534c80ae1819dac7035aef6739db1a0b768cd03fdcf118a7968b3079225",
+      "size_bytes": 1042,
+      "keywords": [
+        "根拠",
+        "追跡",
+        "出典",
+        "集計方法",
+        "トレーサビリティ",
+        "provenance",
+        "source",
+        "method"
+      ],
+      "use_case": "集計値や結論に、元の記録と加工方法の二つを対応づける。",
+      "message": "出典だけでなく、元の記録をどう結論へ変えたかも追跡できる。",
+      "sample_data": false,
+      "preview_sha256": "e7c071166d3829cb698faaccd195854d79a5b274152c558b7ce718f24d55fa26"
+    },
+    {
+      "id": "part/common-and-variable",
+      "title": "共通の土台と用途ごとの差を分ける",
+      "kind": "part",
+      "category": "13-説明・伝達",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1120,
+      "height": 380,
+      "canvas": {
+        "width": 1120,
+        "height": 380
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/part/common-and-variable.svg",
+      "preview_path": "previews/part/common-and-variable.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/part/common-and-variable.json",
+      "sha256": "7b39e44baf00f51956b2ec11fe2c1c8fcc24443f70e65f93d34bbc93ae853321",
+      "size_bytes": 947,
+      "keywords": [
+        "共通化",
+        "標準",
+        "可変",
+        "差異",
+        "共通部分",
+        "variant",
+        "common",
+        "core",
+        "modular"
+      ],
+      "use_case": "標準化の対象と個別に残す違いを説明する。",
+      "message": "土台を共通にしながら、用途に必要な違いを持たせる。",
+      "sample_data": false,
+      "preview_sha256": "48ab030351c50d0d8c2973cc888ef77e4e58a814afd2295d62f50ac3accc167b"
+    },
+    {
+      "id": "part/comparison-basis",
+      "title": "比較の基準をそろえる",
+      "kind": "part",
+      "category": "13-説明・伝達",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1120,
+      "height": 380,
+      "canvas": {
+        "width": 1120,
+        "height": 380
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/part/comparison-basis.svg",
+      "preview_path": "previews/part/comparison-basis.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/part/comparison-basis.json",
+      "sha256": "1880a399440e918bc281fe2e932ba57df188e52e04aeb114fe1680d83c0694a6",
+      "size_bytes": 1318,
+      "keywords": [
+        "比較条件",
+        "換算",
+        "単位",
+        "期間",
+        "分母",
+        "normalization",
+        "basis",
+        "comparable"
+      ],
+      "use_case": "規模や集計期間が異なる実績を同じ基準で比較する。",
+      "message": "換算の基準を明示してから大小を比べる。",
+      "sample_data": false,
+      "preview_sha256": "79753d8e85722269d141d51fa5e18515f266f12310b7822a3cc55a9164fd473e"
+    },
+    {
+      "id": "part/condition-and-implication",
+      "title": "条件が成立した場合の意味を示す",
+      "kind": "part",
+      "category": "13-説明・伝達",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1000,
+      "height": 305,
+      "canvas": {
+        "width": 1000,
+        "height": 305
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/part/condition-and-implication.svg",
+      "preview_path": "previews/part/condition-and-implication.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/part/condition-and-implication.json",
+      "sha256": "209e2d4f79a9fd944bf04954a3f505020d63130e0eb04f225390cb29adf0ad76",
+      "size_bytes": 1053,
+      "keywords": [
+        "前提",
+        "条件",
+        "成立",
+        "帰結",
+        "assumption",
+        "condition",
+        "implication"
+      ],
+      "use_case": "提案の効果がどんな条件で成立するかを説明する場面。",
+      "message": "この前提が満たされる場合に、下の内容が成り立つ。",
+      "sample_data": false,
+      "preview_sha256": "bb75bff94e87293ce5b086103ff4023f196a451d39133d72dd7dcfecc46177d9"
+    },
+    {
+      "id": "part/confirmed-and-unconfirmed",
+      "title": "確認済みと未確認を区別する",
+      "kind": "part",
+      "category": "13-説明・伝達",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1080,
+      "height": 286,
+      "canvas": {
+        "width": 1080,
+        "height": 286
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/part/confirmed-and-unconfirmed.svg",
+      "preview_path": "previews/part/confirmed-and-unconfirmed.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/part/confirmed-and-unconfirmed.json",
+      "sha256": "7e480c5b191e922b4af68b517a8d3bc46b32e028d0890aa7e689c1085473e074",
+      "size_bytes": 1119,
+      "keywords": [
+        "確認済み",
+        "未確認",
+        "根拠",
+        "確度",
+        "調査",
+        "confirmed",
+        "unconfirmed",
+        "evidence"
+      ],
+      "use_case": "調査の進み具合や根拠の確かさを共有する場面。",
+      "message": "分かっていることと、まだ分からないことを区別する。",
+      "sample_data": false,
+      "preview_sha256": "e63792361473e8adf92c41c62ee3b78e41c3df80de9873acc2065d3284095f4e"
+    },
+    {
+      "id": "part/context-breadcrumb",
+      "title": "全体の中で今の話題を示す",
+      "kind": "part",
+      "category": "13-説明・伝達",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1120,
+      "height": 155,
+      "canvas": {
+        "width": 1120,
+        "height": 155
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/part/context-breadcrumb.svg",
+      "preview_path": "previews/part/context-breadcrumb.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/part/context-breadcrumb.json",
+      "sha256": "d37d9fe7127280e99bd0c700f691dc32f1546fb9a6adb6819e303df35f553df4",
+      "size_bytes": 786,
+      "keywords": [
+        "位置づけ",
+        "階層",
+        "ナビゲーション",
+        "現在地",
+        "breadcrumb",
+        "context",
+        "hierarchy"
+      ],
+      "use_case": "詳細な説明が資料全体のどこに属するかを示す場面。",
+      "message": "いま扱う話題の上位区分をたどれる。",
+      "sample_data": false,
+      "preview_sha256": "5c12658814a8a904d4b5f7826873ebae250d43efbe85a2115353fe138c8601a3"
+    },
+    {
+      "id": "part/converging-evidence",
+      "title": "二つの根拠から結論を導く",
+      "kind": "part",
+      "category": "13-説明・伝達",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1100,
+      "height": 350,
+      "canvas": {
+        "width": 1100,
+        "height": 350
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/part/converging-evidence.svg",
+      "preview_path": "previews/part/converging-evidence.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/part/converging-evidence.json",
+      "sha256": "4749c27801650b25aaac10ced175bff31ed09f545f03dacbadbac368acb56817",
+      "size_bytes": 1324,
+      "keywords": [
+        "根拠",
+        "結論",
+        "因果",
+        "示唆",
+        "集約",
+        "要約",
+        "evidence",
+        "conclusion",
+        "synthesis"
+      ],
+      "use_case": "分析や観察を根拠として、提案を説明する場面。",
+      "message": "複数の根拠が一つの結論を支える。",
+      "sample_data": false,
+      "preview_sha256": "baa90d9fe9825a2555970a5fcd7d491c277f88829f411e6024f4bd7627e00b74"
+    },
+    {
+      "id": "part/difference-and-rate",
+      "title": "増減量と増減率を分ける",
+      "kind": "part",
+      "category": "13-説明・伝達",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1120,
+      "height": 380,
+      "canvas": {
+        "width": 1120,
+        "height": 380
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/part/difference-and-rate.svg",
+      "preview_path": "previews/part/difference-and-rate.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/part/difference-and-rate.json",
+      "sha256": "5fc9d80f1726df39b0646665cc86195416f9b31fa3c903d47cb64507fb7239b4",
+      "size_bytes": 1497,
+      "keywords": [
+        "差",
+        "差分",
+        "増減量",
+        "増減率",
+        "比率",
+        "percentage",
+        "point",
+        "difference",
+        "rate"
+      ],
+      "use_case": "増減を報告するときに、量の差と元の値に対する割合を区別する。",
+      "message": "同じ変化から、差と増減率という別の指標が得られる。",
+      "sample_data": false,
+      "preview_sha256": "ef62d6c5067fe781e2490c12e6cd992851e27af66b90280434144c5d6d430a00"
+    },
+    {
+      "id": "part/direct-and-indirect-effect",
+      "title": "直接の効果とその先の影響を分ける",
+      "kind": "part",
+      "category": "13-説明・伝達",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1120,
+      "height": 380,
+      "canvas": {
+        "width": 1120,
+        "height": 380
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/part/direct-and-indirect-effect.svg",
+      "preview_path": "previews/part/direct-and-indirect-effect.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/part/direct-and-indirect-effect.json",
+      "sha256": "6e090c20705381ec8877ce274cb2787ca60bc427ad93df624a6c5e5f1f0d6e71",
+      "size_bytes": 1373,
+      "keywords": [
+        "直接効果",
+        "間接効果",
+        "波及",
+        "影響",
+        "impact",
+        "direct",
+        "indirect",
+        "effect"
+      ],
+      "use_case": "施策の評価で、確認できた効果と波及の仮説を区別する。",
+      "message": "取り組みから近い効果と、その先の影響には別の検証が必要になる。",
+      "sample_data": false,
+      "preview_sha256": "a30bd378de448a96cbd5764cf54b2d0455814aa7865d0e99b964f50615bfa2dd"
+    },
+    {
+      "id": "part/exclusive-choice",
+      "title": "同時に選ばない選択肢を区別する",
+      "kind": "part",
+      "category": "13-説明・伝達",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1120,
+      "height": 380,
+      "canvas": {
+        "width": 1120,
+        "height": 380
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/part/exclusive-choice.svg",
+      "preview_path": "previews/part/exclusive-choice.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/part/exclusive-choice.json",
+      "sha256": "4c4e9032d925d3d8f044b55e16a493fb74bbdfc87552ef118728503869e672ba",
+      "size_bytes": 1168,
+      "keywords": [
+        "排他",
+        "選択",
+        "肢",
+        "方針",
+        "分岐",
+        "XOR",
+        "mutually",
+        "exclusive",
+        "choice"
+      ],
+      "use_case": "方針や運用方式のうち、一つを選んで進める場面を説明する。",
+      "message": "両方を同時に実行するのではなく、どちらかを選ぶ。",
+      "sample_data": false,
+      "preview_sha256": "f9bb5d234e7ca8581f6108a78769156567b0fa10169f2c475532e49d252b5a5c"
+    },
+    {
+      "id": "part/fact-and-interpretation",
+      "title": "事実と解釈を分けて置く",
+      "kind": "part",
+      "category": "13-説明・伝達",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1030,
+      "height": 300,
+      "canvas": {
+        "width": 1030,
+        "height": 300
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/part/fact-and-interpretation.svg",
+      "preview_path": "previews/part/fact-and-interpretation.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/part/fact-and-interpretation.json",
+      "sha256": "fe04c839922a4e945f6d871b9ff84b5cc6fe6375c50c0ba35375818b5df2765c",
+      "size_bytes": 732,
+      "keywords": [
+        "事実",
+        "解釈",
+        "観測",
+        "示唆",
+        "分析",
+        "fact",
+        "interpretation",
+        "observation"
+      ],
+      "use_case": "観察や調査結果から示唆を述べる場面。",
+      "message": "見つかった事実と、それをどう読んだかを区別する。",
+      "sample_data": false,
+      "preview_sha256": "39098945357d0b1d3dbe7818e86421c90823d86fe5214dc2a3d7115f4d6eb3e2"
+    },
+    {
+      "id": "part/feedback-return",
+      "title": "結果を次の試行へ戻す",
+      "kind": "part",
+      "category": "13-説明・伝達",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1000,
+      "height": 345,
+      "canvas": {
+        "width": 1000,
+        "height": 345
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/part/feedback-return.svg",
+      "preview_path": "previews/part/feedback-return.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/part/feedback-return.json",
+      "sha256": "c1006ba1a65a8aebcf5cccdd6c11edb102dfd9e725ef255faff4c0f2107dc4bf",
+      "size_bytes": 1143,
+      "keywords": [
+        "改善",
+        "フィードバック",
+        "試行",
+        "評価",
+        "循環",
+        "feedback",
+        "iteration",
+        "review"
+      ],
+      "use_case": "試行結果を次の改善につなぐ場面。",
+      "message": "確認して終えず、課題を次の運用へ戻す。",
+      "sample_data": false,
+      "preview_sha256": "0c7c0720f15881598e70376c66d732a25adc0e32e6336694f33031c336471b63"
+    },
+    {
+      "id": "part/hypothesis-and-test",
+      "title": "仮説と確かめ方を一組にする",
+      "kind": "part",
+      "category": "13-説明・伝達",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1040,
+      "height": 290,
+      "canvas": {
+        "width": 1040,
+        "height": 290
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/part/hypothesis-and-test.svg",
+      "preview_path": "previews/part/hypothesis-and-test.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/part/hypothesis-and-test.json",
+      "sha256": "5ed094b0b439c4d9e64ffa194f825aa9d477118af65fe97adbfa1238f137ef9d",
+      "size_bytes": 929,
+      "keywords": [
+        "仮説",
+        "検証",
+        "未確定",
+        "調査",
+        "hypothesis",
+        "test",
+        "validation"
+      ],
+      "use_case": "調査前に何をどう確かめるかを共有する場面。",
+      "message": "仮説を事実と分け、検証の方法を示す。",
+      "sample_data": false,
+      "preview_sha256": "92e4e147028837fbb0fa8725862785aef53b46bd8b9ebc866fbcd6915a6ef7ff"
+    },
+    {
+      "id": "part/included-and-excluded",
+      "title": "囲った対象と対象外を区別する",
+      "kind": "part",
+      "category": "13-説明・伝達",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1040,
+      "height": 295,
+      "canvas": {
+        "width": 1040,
+        "height": 295
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/part/included-and-excluded.svg",
+      "preview_path": "previews/part/included-and-excluded.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/part/included-and-excluded.json",
+      "sha256": "290e68914e10417bde3dcbfceea9289b38c79c99cdf451339f2cf08db1c7c0d0",
+      "size_bytes": 903,
+      "keywords": [
+        "対象",
+        "対象外",
+        "範囲",
+        "除外",
+        "スコープ",
+        "include",
+        "exclude",
+        "scope"
+      ],
+      "use_case": "説明の対象を短く区切って共有する場面。",
+      "message": "括った対象だけを今回の範囲として扱う。",
+      "sample_data": false,
+      "preview_sha256": "14ffb367236863e8fa3069b117f8e7349be498069ea2c91ad0d24d77b877fcd0"
+    },
+    {
+      "id": "part/key-finding",
+      "title": "最も伝えたい示唆を抜き出す",
+      "kind": "part",
+      "category": "13-説明・伝達",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1000,
+      "height": 285,
+      "canvas": {
+        "width": 1000,
+        "height": 285
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/part/key-finding.svg",
+      "preview_path": "previews/part/key-finding.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/part/key-finding.json",
+      "sha256": "8fa671e27ad6626b7a8212fa7cf45d1d222ead38d45f2da03b2699b2d14aaa9f",
+      "size_bytes": 711,
+      "keywords": [
+        "示唆",
+        "結論",
+        "発見",
+        "要点",
+        "強調",
+        "takeaway",
+        "insight",
+        "finding"
+      ],
+      "use_case": "分析から得た一つの示唆を強調する場面。",
+      "message": "この一文が説明の要点である。",
+      "sample_data": false,
+      "preview_sha256": "fd5265281c5705318c3956432de4ff1fc62186f18770be7a541ec399d1fdf1c5"
+    },
+    {
+      "id": "part/level-and-direction",
+      "title": "現在の水準と変化の方向を分ける",
+      "kind": "part",
+      "category": "13-説明・伝達",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1120,
+      "height": 380,
+      "canvas": {
+        "width": 1120,
+        "height": 380
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/part/level-and-direction.svg",
+      "preview_path": "previews/part/level-and-direction.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/part/level-and-direction.json",
+      "sha256": "f0d67a4122346bfa1804d82f3fb15936b4de1ace87a6a2d3b47d49048bc5fa73",
+      "size_bytes": 1426,
+      "keywords": [
+        "水準",
+        "傾向",
+        "トレンド",
+        "増減",
+        "現状",
+        "level",
+        "trend",
+        "direction"
+      ],
+      "use_case": "指標の現状が良くても悪化傾向にある、など二つの見方を添える。",
+      "message": "現在の位置と今後につながる変化は別の観点で読む。",
+      "sample_data": false,
+      "preview_sha256": "3db3a41507f4214e54d01fa16035a511e916de0a5f40847a743186d425b76deb"
+    },
+    {
+      "id": "part/magnified-annotation",
+      "title": "一箇所を選び説明を拡大する",
+      "kind": "part",
+      "category": "13-説明・伝達",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1060,
+      "height": 330,
+      "canvas": {
+        "width": 1060,
+        "height": 330
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/part/magnified-annotation.svg",
+      "preview_path": "previews/part/magnified-annotation.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/part/magnified-annotation.json",
+      "sha256": "d8c41aceea1841dda252ed5214587e372794167215f2be67c4e5704e284f3e84",
+      "size_bytes": 1684,
+      "keywords": [
+        "拡大",
+        "注釈",
+        "詳細",
+        "フォーカス",
+        "確認箇所",
+        "zoom",
+        "detail",
+        "annotation"
+      ],
+      "use_case": "図面や表の一箇所について詳しく説明する。",
+      "message": "右側の補足が元資料のどの箇所についてのものか分かる。",
+      "sample_data": false,
+      "preview_sha256": "04e596b21ad5030a06845bd5ba6eee14c483749c2d5135a07161a420207a157e"
+    },
+    {
+      "id": "part/measurement-change-point",
+      "title": "集計条件が変わった時点を注記する",
+      "kind": "part",
+      "category": "13-説明・伝達",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1120,
+      "height": 380,
+      "canvas": {
+        "width": 1120,
+        "height": 380
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/part/measurement-change-point.svg",
+      "preview_path": "previews/part/measurement-change-point.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/part/measurement-change-point.json",
+      "sha256": "0995389ca748ecbc8675acc5228aa8f027144805b91f3cca14a7363744a023d8",
+      "size_bytes": 1124,
+      "keywords": [
+        "変更点",
+        "集計定義",
+        "制度変更",
+        "比較",
+        "連続性",
+        "change",
+        "point",
+        "measurement"
+      ],
+      "use_case": "集計方法や対象を変更した時点を、推移グラフへ添える。",
+      "message": "変更の前後で値をそのまま比較できるか確認する。",
+      "sample_data": false,
+      "preview_sha256": "c7d084c565a4ddbdd6eae7d339abc67047888f08682367a390778074af1a5c11"
+    },
+    {
+      "id": "part/method-note",
+      "title": "数値の対象と集計方法を添える",
+      "kind": "part",
+      "category": "13-説明・伝達",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1030,
+      "height": 252,
+      "canvas": {
+        "width": 1030,
+        "height": 252
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/part/method-note.svg",
+      "preview_path": "previews/part/method-note.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/part/method-note.json",
+      "sha256": "d2bcbbc93c81dc40de256a789bdef802bb989a1a88e9276a7761c3f28b0c6693",
+      "size_bytes": 613,
+      "keywords": [
+        "集計",
+        "条件",
+        "対象",
+        "算出",
+        "方法",
+        "注記",
+        "method",
+        "scope",
+        "calculation"
+      ],
+      "use_case": "測定値やグラフの近くに、対象と方法を補足する場面。",
+      "message": "何をどう測った値かが分かる。",
+      "sample_data": false,
+      "preview_sha256": "1f81187d51dd6b31fedb48731b0052e288cf2837e3198be06baecfce8518b642"
+    },
+    {
+      "id": "part/metric-definition",
+      "title": "指標の分子と分母をそろえる",
+      "kind": "part",
+      "category": "13-説明・伝達",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1100,
+      "height": 300,
+      "canvas": {
+        "width": 1100,
+        "height": 300
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/part/metric-definition.svg",
+      "preview_path": "previews/part/metric-definition.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/part/metric-definition.json",
+      "sha256": "7a1f40b95c59119647b5814561d66fe6ef1756b58081affcef61e5d051a1f934",
+      "size_bytes": 916,
+      "keywords": [
+        "指標",
+        "定義",
+        "分子",
+        "分母",
+        "算出",
+        "比率",
+        "metric",
+        "numerator",
+        "denominator",
+        "definition"
+      ],
+      "use_case": "部門ごとに異なる指標の集計定義をそろえる。",
+      "message": "同じ指標名でも対象と分母を明示して比較する。",
+      "sample_data": false,
+      "preview_sha256": "1a5fec2c8f23683dc45937807fb59ec51163fa542383a9cd6620c47dc135af41"
+    },
+    {
+      "id": "part/observation-window",
+      "title": "集計する期間を両端で定める",
+      "kind": "part",
+      "category": "13-説明・伝達",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1080,
+      "height": 342,
+      "canvas": {
+        "width": 1080,
+        "height": 342
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/part/observation-window.svg",
+      "preview_path": "previews/part/observation-window.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/part/observation-window.json",
+      "sha256": "3878126f5841fba00b6590d4f28d5127607299cc4149d622f4153e03f6e300d6",
+      "size_bytes": 1497,
+      "keywords": [
+        "集計期間",
+        "観測",
+        "対象期間",
+        "開始",
+        "終了",
+        "window",
+        "period",
+        "observation"
+      ],
+      "use_case": "期間が異なる数値の混同を防ぐため、グラフの近くに添える。",
+      "message": "今回の値がどの期間を対象にしたものか分かる。",
+      "sample_data": false,
+      "preview_sha256": "fd5c09b5f09605b12be6f9f7827f5e8cbc4e0969312e029022fb40c23b3afcb6"
+    },
+    {
+      "id": "part/open-question",
+      "title": "未決事項と確認方法を残す",
+      "kind": "part",
+      "category": "13-説明・伝達",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1010,
+      "height": 271,
+      "canvas": {
+        "width": 1010,
+        "height": 271
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/part/open-question.svg",
+      "preview_path": "previews/part/open-question.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/part/open-question.json",
+      "sha256": "05ffee95fa5d3054c20da4477c5d4f33025c7bf42d6363520321d796f4afd0ac",
+      "size_bytes": 1046,
+      "keywords": [
+        "未決",
+        "課題",
+        "問い",
+        "確認",
+        "残課題",
+        "open",
+        "question",
+        "pending",
+        "issue"
+      ],
+      "use_case": "議論の中で残った確認事項を記録する場面。",
+      "message": "未決の内容を明確にし、次の確認へつなぐ。",
+      "sample_data": false,
+      "preview_sha256": "629107d881b5a8488e82c6a197841c88c6feac19186f69bb74f552d33246190f"
+    },
+    {
+      "id": "part/parallel-completion",
+      "title": "二つの対応をそろえて完了とする",
+      "kind": "part",
+      "category": "13-説明・伝達",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1120,
+      "height": 380,
+      "canvas": {
+        "width": 1120,
+        "height": 380
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/part/parallel-completion.svg",
+      "preview_path": "previews/part/parallel-completion.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/part/parallel-completion.json",
+      "sha256": "0d889c25c2cc97e98e0ea18c8140111ffa3628ca8ca4991c2ad8f84042c0fcc6",
+      "size_bytes": 1245,
+      "keywords": [
+        "並行",
+        "両方",
+        "AND",
+        "合流",
+        "完了条件",
+        "parallel",
+        "conjunction",
+        "completion"
+      ],
+      "use_case": "複数の対応がすべて済んだときに完了とすることを注記する。",
+      "message": "別々に進める対応を、両方そろえて完了にする。",
+      "sample_data": false,
+      "preview_sha256": "067fd49b7d361b1bb9e1d2e61e3030752ab9da258177d11b52399bec1356022c"
+    },
+    {
+      "id": "part/period-and-cumulative",
+      "title": "期間内の値と開始からの累計を分ける",
+      "kind": "part",
+      "category": "13-説明・伝達",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1120,
+      "height": 380,
+      "canvas": {
+        "width": 1120,
+        "height": 380
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/part/period-and-cumulative.svg",
+      "preview_path": "previews/part/period-and-cumulative.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/part/period-and-cumulative.json",
+      "sha256": "706a402efee4b6edd731f478ecc860de617b3cadd6deeb52870aea0bcfef235f",
+      "size_bytes": 1665,
+      "keywords": [
+        "期間値",
+        "累計",
+        "累積",
+        "当月",
+        "月次",
+        "cumulative",
+        "period",
+        "total"
+      ],
+      "use_case": "月次報告で、その月の実績と年度累計を読み分ける。",
+      "message": "期間値は一区間、累計値は開始からの合計を表す。",
+      "sample_data": false,
+      "preview_sha256": "101f8166d7cf7016dfccaf070b4071adfcf5d7090cf98baed177e1148cd45f9d"
+    },
+    {
+      "id": "part/quantity-and-unit-rate",
+      "title": "数量と一単位当たりの値から総量を読む",
+      "kind": "part",
+      "category": "13-説明・伝達",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1120,
+      "height": 380,
+      "canvas": {
+        "width": 1120,
+        "height": 380
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/part/quantity-and-unit-rate.svg",
+      "preview_path": "previews/part/quantity-and-unit-rate.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/part/quantity-and-unit-rate.json",
+      "sha256": "85d57d3e0225d09472113373b958f109e3f7bc9aed6fe668428c4a7a9e3e82d3",
+      "size_bytes": 1088,
+      "keywords": [
+        "数量",
+        "原単位",
+        "単価",
+        "総量",
+        "活動量",
+        "quantity",
+        "rate",
+        "intensity",
+        "total"
+      ],
+      "use_case": "費用や環境負荷の増減を、活動量と原単位へ分けて説明する。",
+      "message": "総量は活動した数量と一単位当たりの値の両方で変わる。",
+      "sample_data": false,
+      "preview_sha256": "15ec77249ee41f598ae8293c30ebcdd9926d6b23bf9251ebc47b656b10ec94dd"
+    },
+    {
+      "id": "part/range-bracket",
+      "title": "複数の項目を一つの説明で括る",
+      "kind": "part",
+      "category": "13-説明・伝達",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1000,
+      "height": 315,
+      "canvas": {
+        "width": 1000,
+        "height": 315
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/part/range-bracket.svg",
+      "preview_path": "previews/part/range-bracket.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/part/range-bracket.json",
+      "sha256": "ad6e75e33a19075adf22366d3cc5bbb977729283a72f0949add51d653f5d34c3",
+      "size_bytes": 1050,
+      "keywords": [
+        "括弧",
+        "範囲",
+        "共通条件",
+        "側注",
+        "まとめ",
+        "bracket",
+        "range",
+        "shared",
+        "condition"
+      ],
+      "use_case": "複数の項目へ共通の説明を付ける場面。",
+      "message": "括った項目には共通の扱いがある。",
+      "sample_data": false,
+      "preview_sha256": "c83946bd8f763980b1e4c3f24f4f7c458809e785c619071cccb67a4f97a69b9e"
+    },
+    {
+      "id": "part/reading-order",
+      "title": "要点から詳細へ読む順番を添える",
+      "kind": "part",
+      "category": "13-説明・伝達",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1060,
+      "height": 255,
+      "canvas": {
+        "width": 1060,
+        "height": 255
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/part/reading-order.svg",
+      "preview_path": "previews/part/reading-order.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/part/reading-order.json",
+      "sha256": "965e4208755ca37af3459f33c6d66c5fccd5b4887e134955b726d7cb887f4605",
+      "size_bytes": 1516,
+      "keywords": [
+        "読み順",
+        "要点",
+        "根拠",
+        "詳細",
+        "案内",
+        "reading",
+        "order",
+        "hierarchy"
+      ],
+      "use_case": "情報量の多い図版へ読み方を添える場面。",
+      "message": "最初に要点をつかみ、根拠と詳細へ進める。",
+      "sample_data": false,
+      "preview_sha256": "082231c0b3cac2eaea60d1ede20d15e6212d21ce688199f5711671e3792a46aa"
+    },
+    {
+      "id": "part/recorded-decision",
+      "title": "決定した内容と責任を残す",
+      "kind": "part",
+      "category": "13-説明・伝達",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 990,
+      "height": 266,
+      "canvas": {
+        "width": 990,
+        "height": 266
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/part/recorded-decision.svg",
+      "preview_path": "previews/part/recorded-decision.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/part/recorded-decision.json",
+      "sha256": "145fd5fdcc141ce744bae0e82a0511f2aecda1704278fa9e915ed91b2761037a",
+      "size_bytes": 937,
+      "keywords": [
+        "決定",
+        "合意",
+        "責任",
+        "判断日",
+        "記録",
+        "decision",
+        "agreement",
+        "record"
+      ],
+      "use_case": "会議などで合意した内容を要点として残す場面。",
+      "message": "何が決まり、誰が責任を持つかを確認できる。",
+      "sample_data": false,
+      "preview_sha256": "bb05e184a3d34f6a5fbf3bbbf90a50fe85adb1680eca9f9e7bfdb1de7262f26d"
+    },
+    {
+      "id": "part/required-and-optional",
+      "title": "必須条件と選べる追加を分ける",
+      "kind": "part",
+      "category": "13-説明・伝達",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1120,
+      "height": 380,
+      "canvas": {
+        "width": 1120,
+        "height": 380
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/part/required-and-optional.svg",
+      "preview_path": "previews/part/required-and-optional.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/part/required-and-optional.json",
+      "sha256": "be19b0777ba4cb9b4a42294b2fda3f6f774af000244542a0e8a2f61d1662a62e",
+      "size_bytes": 1142,
+      "keywords": [
+        "必須",
+        "任意",
+        "要件",
+        "選択",
+        "オプション",
+        "required",
+        "optional",
+        "mandatory"
+      ],
+      "use_case": "提案や要件で、必須の条件と選択できる追加事項を区別する。",
+      "message": "成立に必要な条件を押さえたうえで、追加する要素を選ぶ。",
+      "sample_data": false,
+      "preview_sha256": "1c4857c25cd98c363c299d0be769ccb53c7f3ded0b5ce488e0f79dcf11872641"
+    },
+    {
+      "id": "part/rule-and-exception",
+      "title": "原則から例外を分けて示す",
+      "kind": "part",
+      "category": "13-説明・伝達",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1000,
+      "height": 340,
+      "canvas": {
+        "width": 1000,
+        "height": 340
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/part/rule-and-exception.svg",
+      "preview_path": "previews/part/rule-and-exception.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/part/rule-and-exception.json",
+      "sha256": "744b823a597db52061c381c0d04b60db239b0b44a12e990eb268eb95af6ea9ce",
+      "size_bytes": 854,
+      "keywords": [
+        "原則",
+        "例外",
+        "運用",
+        "ルール",
+        "rule",
+        "exception",
+        "policy"
+      ],
+      "use_case": "共通ルールと異なる扱いが必要な場面。",
+      "message": "原則を明示したうえで、例外の条件を分ける。",
+      "sample_data": false,
+      "preview_sha256": "368bcddee58dcad2ce38cec551d2efb23d04c445ccdd4a5d09eb8af0ed3224eb"
+    },
+    {
+      "id": "part/sample-and-population",
+      "title": "調べた範囲と対象全体を分ける",
+      "kind": "part",
+      "category": "13-説明・伝達",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1120,
+      "height": 380,
+      "canvas": {
+        "width": 1120,
+        "height": 380
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/part/sample-and-population.svg",
+      "preview_path": "previews/part/sample-and-population.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/part/sample-and-population.json",
+      "sha256": "9f3ed6acac684275df70feb67b3e8fa708fa1bc5cb4d86b6082fb13475eaf592",
+      "size_bytes": 949,
+      "keywords": [
+        "母集団",
+        "標本",
+        "抽出",
+        "サンプル",
+        "調査",
+        "範囲",
+        "sample",
+        "population",
+        "coverage"
+      ],
+      "use_case": "アンケートや抜取検査の結果に、標本と母集団の関係を添える。",
+      "message": "実際に調べた一部と、判断したい全体の範囲を区別する。",
+      "sample_data": false,
+      "preview_sha256": "43b12f03e3b8df13bc09a80b3716ad4db289861998d130ce8c0e69e379a68cd9"
+    },
+    {
+      "id": "part/section-topic",
+      "title": "区分と話題を二段で示す",
+      "kind": "part",
+      "category": "13-説明・伝達",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 940,
+      "height": 200,
+      "canvas": {
+        "width": 940,
+        "height": 200
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/part/section-topic.svg",
+      "preview_path": "previews/part/section-topic.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/part/section-topic.json",
+      "sha256": "237fec594fb194386d2682ab4bc1ac40e548b42c7831d3f54246136d109ca47c",
+      "size_bytes": 613,
+      "keywords": [
+        "見出し",
+        "話題",
+        "区分",
+        "セクション",
+        "topic",
+        "section",
+        "heading"
+      ],
+      "use_case": "一つの区分の中で、細かな話題を整理する場面。",
+      "message": "上位の区分と、この箇所の話題を同時に示す。",
+      "sample_data": false,
+      "preview_sha256": "db8ffedadf06f010ef4300981c7fd0590c3eaefafa52aad2de11a0a808e8f9da"
+    },
+    {
+      "id": "part/sequence-marker",
+      "title": "番号と手順名をつなぐ",
+      "kind": "part",
+      "category": "13-説明・伝達",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 850,
+      "height": 181,
+      "canvas": {
+        "width": 850,
+        "height": 181
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/part/sequence-marker.svg",
+      "preview_path": "previews/part/sequence-marker.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/part/sequence-marker.json",
+      "sha256": "06b102192f31625105516b2d259deeb74b90a31885345a98a63586656b2d5b3b",
+      "size_bytes": 714,
+      "keywords": [
+        "番号",
+        "順序",
+        "手順",
+        "工程",
+        "ステップ",
+        "sequence",
+        "step",
+        "number"
+      ],
+      "use_case": "複数の手順へ順番を付けて説明する場面。",
+      "message": "この説明が手順の何番目かが分かる。",
+      "sample_data": false,
+      "preview_sha256": "37724e2b401b05c7b71b649afddb2615ce05b1d32fef91462a257740404a5cfb"
+    },
+    {
+      "id": "part/signal-and-fluctuation",
+      "title": "短期の揺らぎと継続する変化を読み分ける",
+      "kind": "part",
+      "category": "13-説明・伝達",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1120,
+      "height": 380,
+      "canvas": {
+        "width": 1120,
+        "height": 380
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/part/signal-and-fluctuation.svg",
+      "preview_path": "previews/part/signal-and-fluctuation.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/part/signal-and-fluctuation.json",
+      "sha256": "9523768b62347ed32d8075110cbce9736ff437c02d07d911a2e4f8e761e942bf",
+      "size_bytes": 1322,
+      "keywords": [
+        "信号",
+        "ノイズ",
+        "ばらつき",
+        "傾向",
+        "変動",
+        "signal",
+        "noise",
+        "fluctuation",
+        "trend"
+      ],
+      "use_case": "短期間の上下を過大評価せず、継続する変化を説明する。",
+      "message": "日々の揺らぎと、同じ条件で続く方向を分けて読む。",
+      "sample_data": false,
+      "preview_sha256": "80e450a65e0c83d14a032267f3287c7cbedee4e4cb7c3422a707d85cc525d82d"
+    },
+    {
+      "id": "part/source-callout",
+      "title": "参照箇所と補足をつなぐ",
+      "kind": "part",
+      "category": "13-説明・伝達",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 810,
+      "height": 280,
+      "canvas": {
+        "width": 810,
+        "height": 280
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/part/source-callout.svg",
+      "preview_path": "previews/part/source-callout.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/part/source-callout.json",
+      "sha256": "7cf66ad50732de974767dee1b07c187d431de51a4233c0fad7c4f4f27fa23b1c",
+      "size_bytes": 928,
+      "keywords": [
+        "注釈",
+        "出典",
+        "条件",
+        "参照",
+        "引き出し線",
+        "callout",
+        "source",
+        "annotation"
+      ],
+      "use_case": "グラフや図の一箇所に、読み取り条件と出典を添える場面。",
+      "message": "指した箇所の条件と情報源を確認できる。",
+      "sample_data": false,
+      "preview_sha256": "621c4f21cb32a3e1c5aadc608deec3e093c1d98ced6bb9942141b5dd405f4ae9"
+    },
+    {
+      "id": "part/source-footnote",
+      "title": "本文と出典を脚注で区切る",
+      "kind": "part",
+      "category": "13-説明・伝達",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 178,
+      "canvas": {
+        "width": 1200,
+        "height": 178
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/part/source-footnote.svg",
+      "preview_path": "previews/part/source-footnote.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/part/source-footnote.json",
+      "sha256": "89e1fdee7a7f90e3007e8be851b0f0814e338191a3c9c1a92803a009d94a2a0a",
+      "size_bytes": 745,
+      "keywords": [
+        "脚注",
+        "出典",
+        "参照番号",
+        "情報源",
+        "footnote",
+        "citation",
+        "reference"
+      ],
+      "use_case": "図表や文章の下に情報源を明示する場面。",
+      "message": "本文の参照番号から根拠を確認できる。",
+      "sample_data": false,
+      "preview_sha256": "1d578e930d4cd41871e78ea9509fa45659858025816ecc08ab48575bb9d0604c"
+    },
+    {
+      "id": "part/term-definition",
+      "title": "用語と定義を対応させる",
+      "kind": "part",
+      "category": "13-説明・伝達",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1030,
+      "height": 250,
+      "canvas": {
+        "width": 1030,
+        "height": 250
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/part/term-definition.svg",
+      "preview_path": "previews/part/term-definition.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/part/term-definition.json",
+      "sha256": "30efdbe02f180bd23a02ee92a4b1df967643ee90df1f228591f64103bc7311cf",
+      "size_bytes": 600,
+      "keywords": [
+        "用語",
+        "定義",
+        "意味",
+        "共通認識",
+        "glossary",
+        "definition",
+        "term"
+      ],
+      "use_case": "専門用語や社内用語を初めて説明する場面。",
+      "message": "この資料での言葉の意味をそろえる。",
+      "sample_data": false,
+      "preview_sha256": "fa668d2d6eca7d1a8780904ccbfb7d8610317d80ce397a397e30e0f5e25d68cd"
+    },
+    {
+      "id": "part/three-way-expansion",
+      "title": "一つの方針を役割別に展開する",
+      "kind": "part",
+      "category": "13-説明・伝達",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1000,
+      "height": 435,
+      "canvas": {
+        "width": 1000,
+        "height": 435
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/part/three-way-expansion.svg",
+      "preview_path": "previews/part/three-way-expansion.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/part/three-way-expansion.json",
+      "sha256": "5a35389ca743f193ba111b6246b51dfe0f26511adb0d2fa37a4bb94a7f9e88b7",
+      "size_bytes": 1095,
+      "keywords": [
+        "展開",
+        "方針",
+        "役割",
+        "共通化",
+        "分岐",
+        "policy",
+        "deployment",
+        "roles"
+      ],
+      "use_case": "方針を担当別の実行内容へ具体化する場面。",
+      "message": "同じ方針を、それぞれの役割で実行する。",
+      "sample_data": false,
+      "preview_sha256": "af54cb3ccbd479fa33d07cec3fa4cdd468bf789a9c24a9f97a3dbb882ce04c75"
+    },
+    {
+      "id": "process/approval-return",
+      "title": "承認と差戻しを分ける判断ゲート",
+      "kind": "diagram",
+      "category": "13-説明・伝達",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/process/approval-return.svg",
+      "preview_path": "previews/process/approval-return.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/process/approval-return.json",
+      "sha256": "9bdbbac40b0797dbb32794dd6d1a9d005859cc6f28958b0118a941361bc5ce3a",
+      "size_bytes": 3637,
+      "keywords": [
+        "承認",
+        "決裁",
+        "稟議",
+        "差戻し",
+        "再申請",
+        "判断",
+        "審査"
+      ],
+      "use_case": "申請書類の承認基準と、不備がある場合の再申請を説明する。",
+      "message": "基準を満たした申請は進み、未達の申請は修正へ戻る。",
+      "sample_data": false,
+      "preview_sha256": "156b1aeb8155b9884b1f41a01a243fdc01e658ec094e2f7686a74cd1ea0b2d07"
+    }
+  ]
+}

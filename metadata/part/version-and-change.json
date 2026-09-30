@@ -1,0 +1,126 @@
+{
+  "title": "参照した版と今回の変更を対応づける",
+  "description": "元の版と適用する版を明示して、差分を確認する。",
+  "keywords": [
+    "版",
+    "改訂",
+    "変更",
+    "履歴",
+    "適用日",
+    "revision",
+    "version",
+    "difference"
+  ],
+  "labels": [
+    {
+      "x": 60,
+      "y": 72,
+      "width": 320,
+      "height": 50,
+      "text": "参照した版",
+      "role": "元の版",
+      "align": "left",
+      "color": "#607590",
+      "font_size": 27,
+      "id": "label-1",
+      "color_role": "muted",
+      "max_lines": 1,
+      "max_fullwidth_chars": 11
+    },
+    {
+      "x": 60,
+      "y": 152,
+      "width": 320,
+      "height": 90,
+      "text": "版番号・適用日",
+      "role": "版の識別",
+      "align": "left",
+      "color": "#153A6B",
+      "font_size": 32,
+      "id": "label-2",
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 9
+    },
+    {
+      "x": 737,
+      "y": 72,
+      "width": 322,
+      "height": 50,
+      "text": "今回の版",
+      "role": "現在の版",
+      "align": "left",
+      "color": "#2864F0",
+      "font_size": 27,
+      "id": "label-3",
+      "color_role": "accent",
+      "max_lines": 1,
+      "max_fullwidth_chars": 11
+    },
+    {
+      "x": 737,
+      "y": 152,
+      "width": 322,
+      "height": 90,
+      "text": "変更点と適用日",
+      "role": "変更の識別",
+      "align": "left",
+      "color": "#153A6B",
+      "font_size": 32,
+      "id": "label-4",
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 9
+    },
+    {
+      "x": 410,
+      "y": 302,
+      "width": 300,
+      "height": 54,
+      "text": "差分を確認して切り替え",
+      "role": "確認",
+      "align": "center",
+      "color": "#153A6B",
+      "font_size": 25,
+      "id": "label-5",
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 11
+    }
+  ],
+  "width": 1120,
+  "height": 380,
+  "kind": "part",
+  "guidance": {
+    "use_case": "規定や仕様の改訂で、どの版から何が変わったかを添える。",
+    "message": "元の版と適用する版を明示して、差分を確認する。",
+    "reading": [
+      "左から右へ切り替える前に、中央で差分を照合する。"
+    ]
+  },
+  "category": "12-情報・データ",
+  "schema_version": 3,
+  "id": "part/version-and-change",
+  "name": "参照した版と今回の変更を対応づける_説明パーツ",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1120,
+    "height": 380
+  },
+  "path": "assets/part/version-and-change.svg",
+  "metadata_path": "metadata/part/version-and-change.json",
+  "preview_path": "previews/part/version-and-change.svg",
+  "preview_has_example_labels": true,
+  "search_text": "part/version-and-change\n参照した版と今回の変更を対応づける_説明パーツ\n参照した版と今回の変更を対応づける\n規定や仕様の改訂で、どの版から何が変わったかを添える。\n元の版と適用する版を明示して、差分を確認する。\n左から右へ切り替える前に、中央で差分を照合する。\n版 改訂 変更 履歴 適用日 revision version difference",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "eef0773ad137514ac09ad21518b56ba6b2cbb5909bb715ab986dfeca9e2af335",
+  "size_bytes": 981,
+  "preview_sha256": "faab6e5a62a6cd2beaab4d74aa0ef465a8dec3acae3f28bd54ee41df766bd4ad"
+}

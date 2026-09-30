@@ -1,0 +1,55 @@
+{
+  "title": "排出する熱を別の用途へつなぐ",
+  "description": "熱交換器と二色の配管を組み合わせ、別の流れへ熱を受け渡す考え方を表す。",
+  "kind": "illustration",
+  "width": 1536,
+  "height": 1024,
+  "labels": [],
+  "composition": {
+    "framing": "object",
+    "facing": "front"
+  },
+  "keywords": [
+    "排熱",
+    "熱回収",
+    "省エネ",
+    "heat recovery",
+    "energy reuse"
+  ],
+  "guidance": {
+    "use_case": "省エネルギーの取り組みで、排出される熱を別の用途へ受け渡す考え方を説明する場面。",
+    "message": "捨てていた熱を、別の流れに受け渡して使う。",
+    "reading": [
+      "中央の熱交換器の両側に、濃い青と淡い青の配管がつながっている。",
+      "色を分けた二つの配管と中央の積層部で、流れの間で熱をやり取りする意図を示す。"
+    ]
+  },
+  "preview_path": "previews/illustration/heat-recovery.png",
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/enterprise-illustrations.json"
+  },
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": true,
+  "canvas": {
+    "width": 1536,
+    "height": 1024
+  },
+  "category": "08-環境・資源",
+  "schema_version": 3,
+  "id": "illustration/heat-recovery",
+  "name": "排出する熱を別の用途へつなぐ_業務イラスト",
+  "license": "CC0-1.0",
+  "path": "media/illustration/heat-recovery.png",
+  "metadata_path": "metadata/illustration/heat-recovery.json",
+  "preview_has_example_labels": false,
+  "search_text": "illustration/heat-recovery\n排出する熱を別の用途へつなぐ_業務イラスト\n排出する熱を別の用途へつなぐ\n省エネルギーの取り組みで、排出される熱を別の用途へ受け渡す考え方を説明する場面。\n捨てていた熱を、別の流れに受け渡して使う。\n中央の熱交換器の両側に、濃い青と淡い青の配管がつながっている。\n色を分けた二つの配管と中央の積層部で、流れの間で熱をやり取りする意図を示す。\n排熱 熱回収 省エネ heat recovery energy reuse\nobject 物 道具 front 正面",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "499c3f34c57156206e8c1e26fadfea4dab6c245b0693b9b07643415756cafa94",
+  "size_bytes": 1433247
+}

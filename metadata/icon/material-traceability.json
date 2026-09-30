@@ -1,5 +1,4 @@
 {
-  "category": "08-アイコンとピクトグラム",
   "title": "材料の履歴追跡",
   "description": "材料から製品へ、製品から材料へ対応をたどれる。",
   "keywords": [
@@ -23,6 +22,7 @@
       "往復する経路が前後両方向の追跡を表す。"
     ]
   },
+  "category": "03-品質・改善",
   "schema_version": 3,
   "id": "icon/material-traceability",
   "name": "材料の履歴追跡_製造業務の記号",

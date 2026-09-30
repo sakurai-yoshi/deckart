@@ -1,5 +1,4 @@
 {
-  "category": "01-業務プロセス",
   "title": "仕事の集中を余力のある時期へ分散する",
   "description": "処理できる量と納期を確認し、時期を動かせる仕事の集中を解く。",
   "keywords": [
@@ -137,6 +136,7 @@
     "relation": "capacity-constrained-rescheduling",
     "reading_direction": "left-to-right"
   },
+  "category": "04-生産・設備",
   "schema_version": 3,
   "id": "manufacturing/workload-leveling",
   "name": "仕事の集中を余力のある時期へ分散する_製造業務の関係図",
@@ -159,5 +159,6 @@
     "data": false
   },
   "sha256": "23db7954d609e18bc2f17e5d0ba3c51c23bbb3721c2e0468a36baa1db05f2394",
-  "size_bytes": 2924
+  "size_bytes": 2924,
+  "preview_sha256": "ef3f7b09cbd4786c4cdc1775465ed7f650950ac630bb6fe709bd0f4bb5722c2d"
 }

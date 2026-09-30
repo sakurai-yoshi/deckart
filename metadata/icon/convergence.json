@@ -1,0 +1,50 @@
+{
+  "title": "合流",
+  "description": "複数の流れを一つへまとめる。",
+  "keywords": [
+    "合流",
+    "統合",
+    "集約",
+    "一本化",
+    "convergence",
+    "merge",
+    "combine",
+    "consolidate"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "別々に進めた仕事や情報を一つへまとめる場面を示す。",
+    "message": "複数の流れを一つへまとめる。",
+    "reading": [
+      "左右から来る二本の経路が入力を表す。",
+      "下の一つの出口が統合された結果を示す。"
+    ]
+  },
+  "category": "02-計画・進捗",
+  "schema_version": 3,
+  "id": "icon/convergence",
+  "name": "合流_情報と関係",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/convergence.svg",
+  "metadata_path": "metadata/icon/convergence.json",
+  "preview_path": "assets/icon/convergence.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/convergence\n合流_情報と関係\n合流\n別々に進めた仕事や情報を一つへまとめる場面を示す。\n複数の流れを一つへまとめる。\n左右から来る二本の経路が入力を表す。\n下の一つの出口が統合された結果を示す。\n合流 統合 集約 一本化 convergence merge combine consolidate",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "b54bbe2bf5a65c1d2c014e8d2a4f03187f33edecb06220f44a5564057327ecd7",
+  "size_bytes": 974
+}

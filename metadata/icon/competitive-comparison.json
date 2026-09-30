@@ -1,0 +1,51 @@
+{
+  "title": "競争力の比較",
+  "description": "比較する観点を揃えて違いを見る。",
+  "keywords": [
+    "競合",
+    "競争力",
+    "比較",
+    "強み",
+    "差別化",
+    "competitive",
+    "comparison",
+    "benchmark",
+    "advantage"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "異なる企業や製品の特性を並べて比較する。",
+    "message": "比較する観点を揃えて違いを見る。",
+    "reading": [
+      "中央線が比較する二つの対象を分ける。",
+      "高さの異なる柱が相対的な特性差を表す。"
+    ]
+  },
+  "category": "01-経営・意思決定",
+  "schema_version": 3,
+  "id": "icon/competitive-comparison",
+  "name": "競争力の比較_仕事と関係",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/competitive-comparison.svg",
+  "metadata_path": "metadata/icon/competitive-comparison.json",
+  "preview_path": "assets/icon/competitive-comparison.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/competitive-comparison\n競争力の比較_仕事と関係\n競争力の比較\n異なる企業や製品の特性を並べて比較する。\n比較する観点を揃えて違いを見る。\n中央線が比較する二つの対象を分ける。\n高さの異なる柱が相対的な特性差を表す。\n競合 競争力 比較 強み 差別化 competitive comparison benchmark advantage",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "361106845f88e097c51d4d2eab0ff93e0ffef93d85830b70f8a92412e6d8cfbe",
+  "size_bytes": 902
+}

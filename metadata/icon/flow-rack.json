@@ -1,0 +1,54 @@
+{
+  "title": "流動棚",
+  "description": "棚の傾斜を使って順番に取り出す。",
+  "keywords": [
+    "流動棚",
+    "FIFO",
+    "先入先出",
+    "棚",
+    "傾斜",
+    "flow",
+    "rack",
+    "gravity",
+    "first",
+    "in",
+    "first",
+    "out"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "傾斜した棚で物を順送りする保管方式を示す。",
+    "message": "棚の傾斜を使って順番に取り出す。",
+    "reading": [
+      "傾いたレールの上に箱が並ぶ。",
+      "低い側へ向く矢印が物の進む向きを示す。"
+    ]
+  },
+  "category": "05-調達・物流",
+  "schema_version": 3,
+  "id": "icon/flow-rack",
+  "name": "流動棚_工程と対象",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/flow-rack.svg",
+  "metadata_path": "metadata/icon/flow-rack.json",
+  "preview_path": "assets/icon/flow-rack.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/flow-rack\n流動棚_工程と対象\n流動棚\n傾斜した棚で物を順送りする保管方式を示す。\n棚の傾斜を使って順番に取り出す。\n傾いたレールの上に箱が並ぶ。\n低い側へ向く矢印が物の進む向きを示す。\n流動棚 FIFO 先入先出 棚 傾斜 flow rack gravity first in first out",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "68253feca3757a9ee6e0abdf0fd2eb31c8531ad2d62fd0733b5abf8782824860",
+  "size_bytes": 1170
+}

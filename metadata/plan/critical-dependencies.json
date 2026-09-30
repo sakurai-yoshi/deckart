@@ -1,5 +1,4 @@
 {
-  "category": "04-計画と進捗",
   "title": "完了日を左右する依存関係",
   "description": "完了日につながる主要経路と、それを支える工程の依存関係を示す。",
   "keywords": [
@@ -135,6 +134,7 @@
     ]
   },
   "kind": "diagram",
+  "category": "02-計画・進捗",
   "schema_version": 3,
   "id": "plan/critical-dependencies",
   "name": "計画管理_完了日を左右する依存関係を示す_主要経路と補助工程",
@@ -157,5 +157,6 @@
     "data": false
   },
   "sha256": "4364fa28106c527ab6ff52f75795bcd14808247d55dc45d9e2b9352cde324822",
-  "size_bytes": 4234
+  "size_bytes": 4234,
+  "preview_sha256": "61424f90bf86e924a74b08874b9fa2f97045fabb4824f5ec8934c6efe9426dce"
 }

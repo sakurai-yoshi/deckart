@@ -1,5 +1,4 @@
 {
-  "category": "08-アイコンとピクトグラム",
   "title": "基準器による校正",
   "description": "測定器を既知の基準と照らし合わせる。",
   "keywords": [
@@ -23,6 +22,7 @@
       "接触する下のブロックが測定の基準を表す。"
     ]
   },
+  "category": "03-品質・改善",
   "schema_version": 3,
   "id": "icon/calibration-reference",
   "name": "基準器による校正_製造業務の記号",

@@ -1,5 +1,4 @@
 {
-  "category": "08-アイコンとピクトグラム",
   "title": "返品",
   "description": "受け取った品物を返す手続きを示す。",
   "keywords": [
@@ -23,6 +22,7 @@
       "上を戻る矢印が返送の向きを表す。"
     ]
   },
+  "category": "05-調達・物流",
   "schema_version": 3,
   "id": "icon/returns",
   "name": "返品手続_品物を差し戻す_荷物と戻り矢印",

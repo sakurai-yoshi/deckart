@@ -1,0 +1,56 @@
+{
+  "title": "作業前にエネルギーを遮断する",
+  "description": "操作レバーを南京錠で固定し、管理用の札を添えたロックアウトの構成。",
+  "kind": "illustration",
+  "width": 1199,
+  "height": 1312,
+  "labels": [],
+  "composition": {
+    "framing": "object",
+    "facing": "front"
+  },
+  "keywords": [
+    "ロックアウト",
+    "誤作動",
+    "遮断",
+    "安全",
+    "lockout",
+    "isolation"
+  ],
+  "guidance": {
+    "use_case": "設備の保守や作業前の準備で、操作部を施錠して管理する考え方を説明する場面。",
+    "message": "操作部を固定し、作業中の不用意な操作を抑える。",
+    "reading": [
+      "スイッチの長い操作レバーと固定側に南京錠が掛けられている。",
+      "錠に添えた札が、作業中の管理対象であることを示す。"
+    ]
+  },
+  "preview_path": "previews/illustration/lockout-readiness.png",
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/enterprise-illustrations.json"
+  },
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": true,
+  "canvas": {
+    "width": 1199,
+    "height": 1312
+  },
+  "category": "07-安全・事業継続",
+  "schema_version": 3,
+  "id": "illustration/lockout-readiness",
+  "name": "作業前にエネルギーを遮断する_業務イラスト",
+  "license": "CC0-1.0",
+  "path": "media/illustration/lockout-readiness.png",
+  "metadata_path": "metadata/illustration/lockout-readiness.json",
+  "preview_has_example_labels": false,
+  "search_text": "illustration/lockout-readiness\n作業前にエネルギーを遮断する_業務イラスト\n作業前にエネルギーを遮断する\n設備の保守や作業前の準備で、操作部を施錠して管理する考え方を説明する場面。\n操作部を固定し、作業中の不用意な操作を抑える。\nスイッチの長い操作レバーと固定側に南京錠が掛けられている。\n錠に添えた札が、作業中の管理対象であることを示す。\nロックアウト 誤作動 遮断 安全 lockout isolation\nobject 物 道具 front 正面",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "6e6aa974fe2b4374bf97b07e5291920629f537ff8f21f5ab13ae70758d751ea0",
+  "size_bytes": 958508
+}

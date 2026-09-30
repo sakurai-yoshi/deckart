@@ -1,0 +1,51 @@
+{
+  "title": "来訪者の受付",
+  "description": "来訪した人を受け付けて案内する。",
+  "keywords": [
+    "来訪者",
+    "受付",
+    "来客",
+    "入館",
+    "reception",
+    "visitor",
+    "front",
+    "desk",
+    "registration"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "来客の受け入れや入館の手続きを示す。",
+    "message": "来訪した人を受け付けて案内する。",
+    "reading": [
+      "カウンター越しの担当者が受付を表す。",
+      "右のカードが来訪者の確認を表す。"
+    ]
+  },
+  "category": "09-組織・人材",
+  "schema_version": 3,
+  "id": "icon/visitor-reception",
+  "name": "来訪者の受付_仕事と関係",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/visitor-reception.svg",
+  "metadata_path": "metadata/icon/visitor-reception.json",
+  "preview_path": "assets/icon/visitor-reception.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/visitor-reception\n来訪者の受付_仕事と関係\n来訪者の受付\n来客の受け入れや入館の手続きを示す。\n来訪した人を受け付けて案内する。\nカウンター越しの担当者が受付を表す。\n右のカードが来訪者の確認を表す。\n来訪者 受付 来客 入館 reception visitor front desk registration",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "17d46bf902c10209dd4e6e4badfd4d8b41b85e660f740e88a2718bfd29b9647d",
+  "size_bytes": 1139
+}

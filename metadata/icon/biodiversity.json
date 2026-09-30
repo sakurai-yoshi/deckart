@@ -1,0 +1,49 @@
+{
+  "title": "生物多様性",
+  "description": "多様な生き物が成り立つ環境を支える。",
+  "keywords": [
+    "生物多様性",
+    "自然",
+    "生態系",
+    "保全",
+    "biodiversity",
+    "ecosystem",
+    "nature"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "異なる生物や自然環境を守る取り組みを紹介する。",
+    "message": "多様な生き物が成り立つ環境を支える。",
+    "reading": [
+      "形や大きさの異なる葉が多様性を表す。",
+      "共有する茎と分岐が生態系のつながりを示す。"
+    ]
+  },
+  "category": "08-環境・資源",
+  "schema_version": 3,
+  "id": "icon/biodiversity",
+  "name": "生物多様性_設備と働き",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/biodiversity.svg",
+  "metadata_path": "metadata/icon/biodiversity.json",
+  "preview_path": "assets/icon/biodiversity.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/biodiversity\n生物多様性_設備と働き\n生物多様性\n異なる生物や自然環境を守る取り組みを紹介する。\n多様な生き物が成り立つ環境を支える。\n形や大きさの異なる葉が多様性を表す。\n共有する茎と分岐が生態系のつながりを示す。\n生物多様性 自然 生態系 保全 biodiversity ecosystem nature",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "09153e2efb4cf7fa7f73ec35f486d4a995a382709efadc80a85135c05f995164",
+  "size_bytes": 1218
+}

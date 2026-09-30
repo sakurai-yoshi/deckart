@@ -1,0 +1,53 @@
+{
+  "title": "開始条件の確認",
+  "description": "準備条件を確認して先へ進む。",
+  "keywords": [
+    "開始条件",
+    "判定",
+    "ゲート",
+    "準備",
+    "着手",
+    "readiness",
+    "gate",
+    "go",
+    "no",
+    "go",
+    "prerequisite"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "次の段階を始める条件が揃ったかを確認する。",
+    "message": "準備条件を確認して先へ進む。",
+    "reading": [
+      "入口を横切るゲートが確認する境目を表す。",
+      "中央のチェックが条件の確認を示す。"
+    ]
+  },
+  "category": "02-計画・進捗",
+  "schema_version": 3,
+  "id": "icon/readiness-gate",
+  "name": "開始条件の確認_情報と関係",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/readiness-gate.svg",
+  "metadata_path": "metadata/icon/readiness-gate.json",
+  "preview_path": "assets/icon/readiness-gate.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/readiness-gate\n開始条件の確認_情報と関係\n開始条件の確認\n次の段階を始める条件が揃ったかを確認する。\n準備条件を確認して先へ進む。\n入口を横切るゲートが確認する境目を表す。\n中央のチェックが条件の確認を示す。\n開始条件 判定 ゲート 準備 着手 readiness gate go no go prerequisite",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "1d572148f3c21ccfb9c612f1c39fc85d64976c325b496ca2aeae8cc60b1e3b84",
+  "size_bytes": 1030
+}

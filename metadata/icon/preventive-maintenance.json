@@ -1,5 +1,4 @@
 {
-  "category": "08-アイコンとピクトグラム",
   "title": "計画保全",
   "description": "故障前に時期を決めて設備を手入れする。",
   "keywords": [
@@ -24,6 +23,7 @@
       "時計は点検を行う時期が決まっていることを表す。"
     ]
   },
+  "category": "04-生産・設備",
   "schema_version": 3,
   "id": "icon/preventive-maintenance",
   "name": "計画保全_製造業務の記号",

@@ -1,0 +1,254 @@
+{
+  "version": "2.1.0",
+  "raw_base": "https://raw.githubusercontent.com/sakurai-yoshi/deckart/v2.1.0/",
+  "asset_count": 611,
+  "categories": [
+    {
+      "category": "01-経営・意思決定",
+      "description": "方針、選択肢、資源配分、事業の価値を伝える。",
+      "keywords": [
+        "strategy",
+        "decision",
+        "priorities",
+        "governance"
+      ],
+      "asset_count": 43,
+      "kinds": [
+        "diagram",
+        "icon",
+        "illustration",
+        "part"
+      ],
+      "index_path": "catalogs/strategy.json"
+    },
+    {
+      "category": "02-計画・進捗",
+      "description": "時期、段取り、依存関係、進み具合を伝える。",
+      "keywords": [
+        "planning",
+        "progress",
+        "schedule",
+        "milestones"
+      ],
+      "asset_count": 32,
+      "kinds": [
+        "diagram",
+        "icon",
+        "illustration",
+        "part"
+      ],
+      "index_path": "catalogs/planning.json"
+    },
+    {
+      "category": "03-品質・改善",
+      "description": "検査、測定、原因、予防、改善の関係を伝える。",
+      "keywords": [
+        "quality",
+        "inspection",
+        "measurement",
+        "improvement"
+      ],
+      "asset_count": 51,
+      "kinds": [
+        "diagram",
+        "icon",
+        "illustration",
+        "part"
+      ],
+      "index_path": "catalogs/quality.json"
+    },
+    {
+      "category": "04-生産・設備",
+      "description": "作業、工程、設備、保全、能力の使い方を伝える。",
+      "keywords": [
+        "production",
+        "equipment",
+        "maintenance",
+        "operations"
+      ],
+      "asset_count": 52,
+      "kinds": [
+        "diagram",
+        "icon",
+        "illustration"
+      ],
+      "index_path": "catalogs/production.json"
+    },
+    {
+      "category": "05-調達・物流",
+      "description": "購買、供給、在庫、保管、包装、配送を伝える。",
+      "keywords": [
+        "procurement",
+        "sourcing",
+        "inventory",
+        "logistics"
+      ],
+      "asset_count": 42,
+      "kinds": [
+        "diagram",
+        "icon",
+        "illustration"
+      ],
+      "index_path": "catalogs/supply-chain.json"
+    },
+    {
+      "category": "06-開発・技術",
+      "description": "要求、構想、設計、試作、技術の検証を伝える。",
+      "keywords": [
+        "development",
+        "engineering",
+        "design",
+        "prototype"
+      ],
+      "asset_count": 24,
+      "kinds": [
+        "diagram",
+        "icon",
+        "illustration"
+      ],
+      "index_path": "catalogs/development.json"
+    },
+    {
+      "category": "07-安全・事業継続",
+      "description": "危険への備え、作業の安全、リスク、継続と復旧を伝える。",
+      "keywords": [
+        "safety",
+        "risk",
+        "resilience",
+        "continuity"
+      ],
+      "asset_count": 40,
+      "kinds": [
+        "diagram",
+        "icon",
+        "illustration",
+        "part"
+      ],
+      "index_path": "catalogs/safety.json"
+    },
+    {
+      "category": "08-環境・資源",
+      "description": "資源、エネルギー、再使用、環境負荷を伝える。",
+      "keywords": [
+        "environment",
+        "sustainability",
+        "energy",
+        "resources"
+      ],
+      "asset_count": 29,
+      "kinds": [
+        "diagram",
+        "icon",
+        "illustration"
+      ],
+      "index_path": "catalogs/sustainability.json"
+    },
+    {
+      "category": "09-組織・人材",
+      "description": "役割、学習、協働、働き方、人材の成長を伝える。",
+      "keywords": [
+        "people",
+        "team",
+        "learning",
+        "organization"
+      ],
+      "asset_count": 55,
+      "kinds": [
+        "diagram",
+        "icon",
+        "illustration",
+        "part"
+      ],
+      "index_path": "catalogs/people.json"
+    },
+    {
+      "category": "10-顧客・営業",
+      "description": "顧客の要求、提案、販売、サービス、利用後の支援を伝える。",
+      "keywords": [
+        "customer",
+        "sales",
+        "service",
+        "support"
+      ],
+      "asset_count": 34,
+      "kinds": [
+        "diagram",
+        "icon",
+        "illustration"
+      ],
+      "index_path": "catalogs/customer.json"
+    },
+    {
+      "category": "11-会計・収益",
+      "description": "費用、収益、資金、投資、会計の関係を伝える。",
+      "keywords": [
+        "finance",
+        "cost",
+        "cash",
+        "profit",
+        "investment"
+      ],
+      "asset_count": 28,
+      "kinds": [
+        "diagram",
+        "icon",
+        "illustration",
+        "part"
+      ],
+      "index_path": "catalogs/finance.json"
+    },
+    {
+      "category": "12-情報・データ",
+      "description": "情報の管理、データの流れ、権限、システムを伝える。",
+      "keywords": [
+        "data",
+        "information",
+        "security",
+        "digital",
+        "systems"
+      ],
+      "asset_count": 69,
+      "kinds": [
+        "diagram",
+        "icon",
+        "illustration",
+        "part"
+      ],
+      "index_path": "catalogs/information.json"
+    },
+    {
+      "category": "13-説明・伝達",
+      "description": "数値、根拠、条件、意味、注釈を読み取りやすくする。",
+      "keywords": [
+        "communication",
+        "annotation",
+        "comparison",
+        "evidence"
+      ],
+      "asset_count": 86,
+      "kinds": [
+        "chart",
+        "diagram",
+        "icon",
+        "illustration",
+        "part"
+      ],
+      "index_path": "catalogs/communication.json"
+    },
+    {
+      "category": "14-背景・装飾",
+      "description": "光、質感、形で資料の印象と視線の流れを整える。",
+      "keywords": [
+        "background",
+        "texture",
+        "light",
+        "abstract"
+      ],
+      "asset_count": 26,
+      "kinds": [
+        "background"
+      ],
+      "index_path": "catalogs/backgrounds.json"
+    }
+  ]
+}

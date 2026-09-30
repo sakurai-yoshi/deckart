@@ -1,5 +1,4 @@
 {
-  "category": "07-注釈と見出し",
   "title": "一つの方針を役割別に展開する",
   "description": "共通方針から三つの実行内容へ同じ接続で展開する部品。",
   "keywords": [
@@ -85,6 +84,7 @@
       "一本の接続から右の三つの実行内容へ分ける。"
     ]
   },
+  "category": "13-説明・伝達",
   "schema_version": 3,
   "id": "part/three-way-expansion",
   "name": "一つの方針を役割別に展開する_説明パーツ",
@@ -107,5 +107,6 @@
     "data": false
   },
   "sha256": "5a35389ca743f193ba111b6246b51dfe0f26511adb0d2fa37a4bb94a7f9e88b7",
-  "size_bytes": 1095
+  "size_bytes": 1095,
+  "preview_sha256": "af54cb3ccbd479fa33d07cec3fa4cdd468bf789a9c24a9f97a3dbb882ce04c75"
 }

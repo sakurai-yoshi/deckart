@@ -1,0 +1,49 @@
+{
+  "title": "材料の切断",
+  "description": "一つの材料を切り離す。",
+  "keywords": [
+    "切断",
+    "切削",
+    "分割",
+    "材料",
+    "cutting",
+    "separation",
+    "saw"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "材料を所定の長さや形に切り分ける工程を示す。",
+    "message": "一つの材料を切り離す。",
+    "reading": [
+      "斜めの刃が切断位置へ向く。",
+      "下の材料の間の隙間が切り離された部分を示す。"
+    ]
+  },
+  "category": "04-生産・設備",
+  "schema_version": 3,
+  "id": "icon/material-cutting",
+  "name": "材料の切断_工程と対象",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/material-cutting.svg",
+  "metadata_path": "metadata/icon/material-cutting.json",
+  "preview_path": "assets/icon/material-cutting.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/material-cutting\n材料の切断_工程と対象\n材料の切断\n材料を所定の長さや形に切り分ける工程を示す。\n一つの材料を切り離す。\n斜めの刃が切断位置へ向く。\n下の材料の間の隙間が切り離された部分を示す。\n切断 切削 分割 材料 cutting separation saw",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "189e4e94e21bd7de91113c9497e571d31ff479893613c518b110a115b8be3946",
+  "size_bytes": 1219
+}

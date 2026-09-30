@@ -1,53 +1,51 @@
 {
-  "category": "08-アイコンとピクトグラム",
   "title": "データをつなぐ基盤",
-  "description": "サーバー・端末・クラウドを結び、データを受け渡す基盤を示す。",
+  "description": "異なるシステムを接続して情報を扱う。",
   "keywords": [
     "システム",
-    "サービス連携",
-    "接続",
-    "データ",
     "基盤",
-    "サーバー",
     "クラウド",
+    "サーバー",
+    "端末",
     "system",
     "integration",
-    "connected",
-    "network"
+    "infrastructure",
+    "connected"
   ],
   "labels": [],
-  "width": 360,
-  "height": 290,
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
   "guidance": {
-    "use_case": "システム同士の接続や共通基盤を紹介する場面。",
-    "message": "サーバー・端末・クラウドを結び、情報を扱う。",
+    "use_case": "サーバー・端末・クラウド間のデータ連携を説明する。",
+    "message": "異なるシステムを接続して情報を扱う。",
     "reading": [
-      "サーバー、端末、雲が接続する対象を表す。",
-      "中央の基盤へ続く線がサービス間の連携を表す。"
+      "サーバー、画面、雲が異なる接続先を表す。",
+      "中央の線がデータのつながりを表す。"
     ]
   },
-  "kind": "icon",
+  "category": "12-情報・データ",
   "schema_version": 3,
   "id": "icon/connected-systems",
-  "name": "システム構成_サービス連携_データをつなぐ基盤",
+  "name": "データをつなぐ基盤_業務の象徴",
   "license": "CC0-1.0",
   "format": "svg",
   "mime_type": "image/svg+xml",
   "transparent": null,
   "canvas": {
-    "width": 360,
-    "height": 290
+    "width": 160,
+    "height": 160
   },
   "path": "assets/icon/connected-systems.svg",
   "metadata_path": "metadata/icon/connected-systems.json",
   "preview_path": "assets/icon/connected-systems.svg",
   "preview_has_example_labels": false,
-  "search_text": "icon/connected-systems\nシステム構成_サービス連携_データをつなぐ基盤\nデータをつなぐ基盤\nシステム同士の接続や共通基盤を紹介する場面。\nサーバー・端末・クラウドを結び、情報を扱う。\nサーバー、端末、雲が接続する対象を表す。\n中央の基盤へ続く線がサービス間の連携を表す。\nシステム サービス連携 接続 データ 基盤 サーバー クラウド system integration connected network",
+  "search_text": "icon/connected-systems\nデータをつなぐ基盤_業務の象徴\nデータをつなぐ基盤\nサーバー・端末・クラウド間のデータ連携を説明する。\n異なるシステムを接続して情報を扱う。\nサーバー、画面、雲が異なる接続先を表す。\n中央の線がデータのつながりを表す。\nシステム 基盤 クラウド サーバー 端末 system integration infrastructure connected",
   "render": {
     "theme": true,
     "labels": false,
     "data": false
   },
-  "sha256": "bae8676549d1ae65b227e68f85216e083d2c4b905dea74f4814adc1ee17c5db7",
-  "size_bytes": 3904
+  "sha256": "e1be85c30c3d6ab4f4f976f9bbec26244b284926349d95b70822afba7d1fd5b8",
+  "size_bytes": 1479
 }

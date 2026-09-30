@@ -1,0 +1,243 @@
+{
+  "title": "項目別の水準を点の位置で比較する",
+  "description": "共通の尺度に各項目の値を点で置き、位置と数値で比較する作例。",
+  "keywords": [
+    "ドットプロット",
+    "点",
+    "比較",
+    "水準",
+    "順位",
+    "dot",
+    "plot",
+    "comparison",
+    "level"
+  ],
+  "labels": [
+    {
+      "x": 764,
+      "y": 48,
+      "width": 361,
+      "height": 65,
+      "text": "単位：点",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-1",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 12
+    },
+    {
+      "x": 51,
+      "y": 167,
+      "width": 220,
+      "height": 77,
+      "text": "拠点 A",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-2",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 7
+    },
+    {
+      "x": 51,
+      "y": 261,
+      "width": 220,
+      "height": 77,
+      "text": "拠点 B",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-3",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 7
+    },
+    {
+      "x": 51,
+      "y": 355,
+      "width": 220,
+      "height": 77,
+      "text": "拠点 C",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-4",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 7
+    },
+    {
+      "x": 51,
+      "y": 449,
+      "width": 220,
+      "height": 77,
+      "text": "拠点 D",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-5",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 2,
+      "max_fullwidth_chars": 7
+    }
+  ],
+  "width": 1200,
+  "height": 720,
+  "kind": "chart",
+  "data": {
+    "is_sample": true,
+    "categories": [
+      "拠点 A",
+      "拠点 B",
+      "拠点 C",
+      "拠点 D"
+    ],
+    "series": [
+      {
+        "label": "値",
+        "values": [
+          72,
+          48,
+          85,
+          61
+        ]
+      }
+    ],
+    "unit": "点",
+    "domain": [
+      0,
+      100
+    ],
+    "chart_type": "dot",
+    "baseline": 0,
+    "ticks": [
+      0.0,
+      25.0,
+      50.0,
+      75.0,
+      100.0
+    ],
+    "points": [
+      {
+        "x": 775.2,
+        "y": 204,
+        "value": 72
+      },
+      {
+        "x": 616.8,
+        "y": 298,
+        "value": 48
+      },
+      {
+        "x": 861.0,
+        "y": 392,
+        "value": 85
+      },
+      {
+        "x": 702.6,
+        "y": 486,
+        "value": 61
+      }
+    ],
+    "plot": {
+      "x": 300,
+      "y": 150,
+      "width": 660,
+      "height": 416
+    },
+    "number_format": {
+      "maximum_significant_digits": 6,
+      "minimum_significant_digits": 3,
+      "large_or_small_values": "E notation",
+      "source_values": "series"
+    }
+  },
+  "guidance": {
+    "use_case": "複数の項目について、同じ単位の水準を余白を保って比較する。",
+    "message": "棒の面積を使わず、共通の尺度上の位置で差を読める。",
+    "reading": [
+      "同じ高さの項目名・点・右端の数値が一組。",
+      "横位置だけが値を表し、点の大きさはすべて同じ。",
+      "数値は作例で、0から100の尺度に対応する。"
+    ]
+  },
+  "category": "13-説明・伝達",
+  "schema_version": 3,
+  "id": "chart/dot",
+  "name": "水準比較_項目ごとの位置を同じ尺度で見る_ドットプロット作例",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1200,
+    "height": 720
+  },
+  "path": "assets/chart/dot.svg",
+  "metadata_path": "metadata/chart/dot.json",
+  "preview_path": "previews/chart/dot.svg",
+  "preview_has_example_labels": true,
+  "search_text": "chart/dot\n水準比較_項目ごとの位置を同じ尺度で見る_ドットプロット作例\n項目別の水準を点の位置で比較する\n複数の項目について、同じ単位の水準を余白を保って比較する。\n棒の面積を使わず、共通の尺度上の位置で差を読める。\n同じ高さの項目名・点・右端の数値が一組。\n横位置だけが値を表し、点の大きさはすべて同じ。\n数値は作例で、0から100の尺度に対応する。\nドットプロット 点 比較 水準 順位 dot plot comparison level",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": true
+  },
+  "data_input": {
+    "chart_type": "dot",
+    "category_count": {
+      "minimum": 1
+    },
+    "series_count": 1,
+    "values_per_series": "categoriesと同数",
+    "required": [
+      "categories",
+      "series",
+      "unit"
+    ],
+    "constraints": [
+      "表示値は最大6有効桁。丸める場合も3有効桁以上を保つ。E表記で収まらない値は単位か小数桁を調整。入力値はseriesに保持。",
+      "文字は大判24px、小判20px以上で収まる長さ。収まらないカテゴリ名・系列名・単位は短縮して入力。",
+      "有限な数値。絶対値は1兆以下。大きな値は単位を変更して入力。",
+      "categoriesは16文字以内、series.label・unitは12文字以内。",
+      "値は0以上。",
+      "domainは[0,上限]。省略時は値から計算。上限は全値・残高以上。",
+      "カテゴリ数に応じて描画領域が拡張される。拡張後のwidth/heightを使って配置。"
+    ],
+    "example": {
+      "categories": [
+        "拠点 A",
+        "拠点 B",
+        "拠点 C",
+        "拠点 D"
+      ],
+      "series": [
+        {
+          "label": "値",
+          "values": [
+            72,
+            48,
+            85,
+            61
+          ]
+        }
+      ],
+      "unit": "点",
+      "domain": [
+        0,
+        100
+      ]
+    }
+  },
+  "sha256": "f8ac8bb1099c6704d0dc0c8fc8ccf9708d4851361f1d77bacf02d350db92d5b6",
+  "size_bytes": 6720,
+  "preview_sha256": "60d7456ef4b671d5d1a3f9efabe418b845473aa1a7aad935932c18b2c4f34396"
+}

@@ -1,0 +1,50 @@
+{
+  "title": "廃棄物の分別",
+  "description": "異なる種類を別の回収先へ分ける。",
+  "keywords": [
+    "分別",
+    "廃棄物",
+    "ゴミ",
+    "種類",
+    "waste",
+    "separation",
+    "sorting",
+    "bins"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "廃棄物を種類ごとに分ける運用を説明する。",
+    "message": "異なる種類を別の回収先へ分ける。",
+    "reading": [
+      "異なる形が分別する種類を表す。",
+      "一つずつ対応する容器が分別先を示す。"
+    ]
+  },
+  "category": "08-環境・資源",
+  "schema_version": 3,
+  "id": "icon/waste-separation",
+  "name": "廃棄物の分別_設備と働き",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/waste-separation.svg",
+  "metadata_path": "metadata/icon/waste-separation.json",
+  "preview_path": "assets/icon/waste-separation.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/waste-separation\n廃棄物の分別_設備と働き\n廃棄物の分別\n廃棄物を種類ごとに分ける運用を説明する。\n異なる種類を別の回収先へ分ける。\n異なる形が分別する種類を表す。\n一つずつ対応する容器が分別先を示す。\n分別 廃棄物 ゴミ 種類 waste separation sorting bins",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "f20eb5787f48007f5a74421c5da06fe5d77b78691164ae077349966ce85762a4",
+  "size_bytes": 1536
+}

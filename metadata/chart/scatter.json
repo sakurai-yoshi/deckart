@@ -1,0 +1,271 @@
+{
+  "title": "二つの数値の関係を点の分布で見る",
+  "description": "一つの観測を横軸と縦軸の値へ対応させ、等しい大きさの点で表す散布図の作例。",
+  "keywords": [
+    "散布図",
+    "相関",
+    "関係",
+    "分布",
+    "観測",
+    "外れ値",
+    "scatter",
+    "correlation",
+    "relationship",
+    "observation",
+    "outlier"
+  ],
+  "labels": [
+    {
+      "x": 39,
+      "y": 34,
+      "width": 680,
+      "height": 67,
+      "text": "処理件数（件）",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-1",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 23
+    },
+    {
+      "x": 423,
+      "y": 634,
+      "width": 704,
+      "height": 65,
+      "text": "処理時間（分）",
+      "role": "項目",
+      "align": "center",
+      "color": "#153A6B",
+      "id": "label-2",
+      "font_size": 27,
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 24
+    }
+  ],
+  "width": 1200,
+  "height": 720,
+  "kind": "chart",
+  "data": {
+    "is_sample": true,
+    "categories": [
+      "観測 A",
+      "観測 B",
+      "観測 C",
+      "観測 D",
+      "観測 E",
+      "観測 F"
+    ],
+    "series": [
+      {
+        "label": "処理時間",
+        "values": [
+          10,
+          20,
+          35,
+          48,
+          62,
+          77
+        ]
+      },
+      {
+        "label": "処理件数",
+        "values": [
+          18,
+          39,
+          28,
+          64,
+          58,
+          84
+        ]
+      }
+    ],
+    "unit": "件",
+    "x_unit": "分",
+    "domain": [
+      0,
+      100
+    ],
+    "x_domain": [
+      0,
+      100
+    ],
+    "chart_type": "scatter",
+    "ticks": [
+      0.0,
+      25.0,
+      50.0,
+      75.0,
+      100.0
+    ],
+    "x_ticks": [
+      0.0,
+      25.0,
+      50.0,
+      75.0,
+      100.0
+    ],
+    "points": [
+      {
+        "category": "観測 A",
+        "x": 304.7,
+        "y": 484.54,
+        "x_value": 10,
+        "y_value": 18
+      },
+      {
+        "category": "観測 B",
+        "x": 388.4,
+        "y": 401.16999999999996,
+        "x_value": 20,
+        "y_value": 39
+      },
+      {
+        "category": "観測 C",
+        "x": 513.95,
+        "y": 444.84000000000003,
+        "x_value": 35,
+        "y_value": 28
+      },
+      {
+        "category": "観測 D",
+        "x": 622.76,
+        "y": 301.91999999999996,
+        "x_value": 48,
+        "y_value": 64
+      },
+      {
+        "category": "観測 E",
+        "x": 739.94,
+        "y": 325.74,
+        "x_value": 62,
+        "y_value": 58
+      },
+      {
+        "category": "観測 F",
+        "x": 865.49,
+        "y": 222.51999999999998,
+        "x_value": 77,
+        "y_value": 84
+      }
+    ],
+    "point_radius": 10,
+    "plot": {
+      "x": 221,
+      "y": 159,
+      "width": 837,
+      "height": 397
+    },
+    "number_format": {
+      "maximum_significant_digits": 6,
+      "minimum_significant_digits": 3,
+      "large_or_small_values": "E notation",
+      "source_values": "series"
+    }
+  },
+  "guidance": {
+    "use_case": "二つの測定値の関係や、ほかと離れた観測を調べる。",
+    "message": "各観測の横と縦の値を一組の点として、分布の傾向を読む。",
+    "reading": [
+      "一つの点が同じ観測に対応する二つの数値。",
+      "点の大きさは一定で、値を面積に割り当てない。",
+      "同じ座標の観測は重なり、頻度の多さを表さない。",
+      "点の並びだけで原因と結果を確定するものではない。"
+    ]
+  },
+  "category": "13-説明・伝達",
+  "schema_version": 3,
+  "id": "chart/scatter",
+  "name": "関係確認_二つの数値を観測点で対応させる_散布図作例",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1200,
+    "height": 720
+  },
+  "path": "assets/chart/scatter.svg",
+  "metadata_path": "metadata/chart/scatter.json",
+  "preview_path": "previews/chart/scatter.svg",
+  "preview_has_example_labels": true,
+  "search_text": "chart/scatter\n関係確認_二つの数値を観測点で対応させる_散布図作例\n二つの数値の関係を点の分布で見る\n二つの測定値の関係や、ほかと離れた観測を調べる。\n各観測の横と縦の値を一組の点として、分布の傾向を読む。\n一つの点が同じ観測に対応する二つの数値。\n点の大きさは一定で、値を面積に割り当てない。\n同じ座標の観測は重なり、頻度の多さを表さない。\n点の並びだけで原因と結果を確定するものではない。\n散布図 相関 関係 分布 観測 外れ値 scatter correlation relationship observation outlier",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": true
+  },
+  "data_input": {
+    "chart_type": "scatter",
+    "category_count": {
+      "minimum": 1
+    },
+    "series_count": 2,
+    "values_per_series": "categoriesと同数",
+    "required": [
+      "categories",
+      "series",
+      "unit",
+      "x_unit"
+    ],
+    "constraints": [
+      "表示値は最大6有効桁。丸める場合も3有効桁以上を保つ。E表記で収まらない値は単位か小数桁を調整。入力値はseriesに保持。",
+      "文字は大判24px、小判20px以上で収まる長さ。収まらないカテゴリ名・系列名・単位は短縮して入力。",
+      "有限な数値。絶対値は1兆以下。大きな値は単位を変更して入力。",
+      "categoriesは16文字以内、series.label・unitは12文字以内。",
+      "正負の値に対応。",
+      "カテゴリ数に応じて描画領域が拡張される。拡張後のwidth/heightを使って配置。",
+      "series[0]が横軸、series[1]が縦軸。同じ位置の値が一つの観測。x_unitは横軸、unitは縦軸。x_domain/domainは各軸の範囲。点は等サイズ。"
+    ],
+    "example": {
+      "categories": [
+        "観測 A",
+        "観測 B",
+        "観測 C",
+        "観測 D",
+        "観測 E",
+        "観測 F"
+      ],
+      "series": [
+        {
+          "label": "処理時間",
+          "values": [
+            10,
+            20,
+            35,
+            48,
+            62,
+            77
+          ]
+        },
+        {
+          "label": "処理件数",
+          "values": [
+            18,
+            39,
+            28,
+            64,
+            58,
+            84
+          ]
+        }
+      ],
+      "unit": "件",
+      "x_unit": "分",
+      "domain": [
+        0,
+        100
+      ],
+      "x_domain": [
+        0,
+        100
+      ]
+    }
+  },
+  "sha256": "0908d4ce6a8189487a23be14f1d03961fb8e73a94fe3bb72b1a53673816b9fc5",
+  "size_bytes": 8150,
+  "preview_sha256": "06418b4a32726c5e4c2cb36c0f557be7204b7cb2eaf11c80ff813d7bd1a02004"
+}

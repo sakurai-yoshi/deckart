@@ -1,5 +1,4 @@
 {
-  "category": "07-注釈と見出し",
   "title": "変更前と変更後を一組にする",
   "description": "二つの状態を同じ面積で置き、小さな接続で変化を示す部品。",
   "keywords": [
@@ -85,6 +84,7 @@
       "中央の矢印が同じ対象の変化を示す。"
     ]
   },
+  "category": "13-説明・伝達",
   "schema_version": 3,
   "id": "part/before-after-change",
   "name": "変更前と変更後を一組にする_説明パーツ",
@@ -107,5 +107,6 @@
     "data": false
   },
   "sha256": "501c3495ca0c117fc1322cb2df374728c3543d41a25d85a3d498aae1a9673203",
-  "size_bytes": 1119
+  "size_bytes": 1119,
+  "preview_sha256": "1ca03626f4bd52b8ca2791d8006cc421de9cf9571b3567746085269b7a8884b0"
 }

@@ -4,7 +4,7 @@ from vector import INK, BLUE, MID, PALE, WHITE, path, rect, circle, ellipse, lin
 
 
 def _icon(name, title, description, keywords, body, use_case, message, reading):
-    item = asset(name, '08-アイコンとピクトグラム', title, description,
+    item = asset(name, title, description,
                  keywords, body, size=(160, 160))
     item['kind'] = 'icon'
     item['guidance'] = dict(use_case=use_case, message=message, reading=reading)

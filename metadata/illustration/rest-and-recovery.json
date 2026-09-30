@@ -1,0 +1,57 @@
+{
+  "title": "作業の合間に体をほぐす",
+  "description": "椅子に座り、伸ばした腕へ手を添えて肩まわりをほぐす人。",
+  "kind": "illustration",
+  "width": 1024,
+  "height": 1536,
+  "labels": [],
+  "composition": {
+    "framing": "full-body",
+    "facing": "front",
+    "people_count": 1
+  },
+  "keywords": [
+    "休憩",
+    "健康",
+    "リフレッシュ",
+    "疲労",
+    "recovery",
+    "wellbeing"
+  ],
+  "guidance": {
+    "use_case": "働き方や休憩の取り方を紹介し、作業の合間に体を動かす場面。",
+    "message": "仕事の合間にひと息入れ、体をほぐす。",
+    "reading": [
+      "椅子に座った人が一方の腕を横へ伸ばしている。",
+      "もう一方の手を上腕に添え、肩まわりを伸ばす動作を示す。"
+    ]
+  },
+  "preview_path": "previews/illustration/rest-and-recovery.png",
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/enterprise-illustrations.json"
+  },
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": true,
+  "canvas": {
+    "width": 1024,
+    "height": 1536
+  },
+  "category": "09-組織・人材",
+  "schema_version": 3,
+  "id": "illustration/rest-and-recovery",
+  "name": "作業の合間に体をほぐす_業務イラスト",
+  "license": "CC0-1.0",
+  "path": "media/illustration/rest-and-recovery.png",
+  "metadata_path": "metadata/illustration/rest-and-recovery.json",
+  "preview_has_example_labels": false,
+  "search_text": "illustration/rest-and-recovery\n作業の合間に体をほぐす_業務イラスト\n作業の合間に体をほぐす\n働き方や休憩の取り方を紹介し、作業の合間に体を動かす場面。\n仕事の合間にひと息入れ、体をほぐす。\n椅子に座った人が一方の腕を横へ伸ばしている。\nもう一方の手を上腕に添え、肩まわりを伸ばす動作を示す。\n休憩 健康 リフレッシュ 疲労 recovery wellbeing\nfull-body 全身 front 正面",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "875746aa2494643c533604fad10f5b2f16b421be7f5e696146be0903935f1f6d",
+  "size_bytes": 1163647
+}

@@ -1,0 +1,50 @@
+{
+  "title": "太陽光発電",
+  "description": "太陽の光から電力を得る。",
+  "keywords": [
+    "太陽光",
+    "発電",
+    "再エネ",
+    "パネル",
+    "solar",
+    "photovoltaic",
+    "renewable",
+    "power"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "太陽光を利用する発電方式を紹介する。",
+    "message": "太陽の光から電力を得る。",
+    "reading": [
+      "格子状のパネルが光を受ける面を表す。",
+      "上の太陽がエネルギー源を示す。"
+    ]
+  },
+  "category": "08-環境・資源",
+  "schema_version": 3,
+  "id": "icon/solar-power",
+  "name": "太陽光発電_設備と働き",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/solar-power.svg",
+  "metadata_path": "metadata/icon/solar-power.json",
+  "preview_path": "assets/icon/solar-power.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/solar-power\n太陽光発電_設備と働き\n太陽光発電\n太陽光を利用する発電方式を紹介する。\n太陽の光から電力を得る。\n格子状のパネルが光を受ける面を表す。\n上の太陽がエネルギー源を示す。\n太陽光 発電 再エネ パネル solar photovoltaic renewable power",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "f8a3872e497f91f47092c1901e1d4f9ccf67bddcd71bc248d4c4f061522115dd",
+  "size_bytes": 1060
+}

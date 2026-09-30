@@ -1,0 +1,1723 @@
+{
+  "version": "2.1.0",
+  "raw_base": "https://raw.githubusercontent.com/sakurai-yoshi/deckart/v2.1.0/",
+  "category": "05-調達・物流",
+  "asset_count": 42,
+  "assets": [
+    {
+      "id": "icon/buffer-stock",
+      "title": "バッファ在庫",
+      "kind": "icon",
+      "category": "05-調達・物流",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/buffer-stock.svg",
+      "preview_path": "assets/icon/buffer-stock.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/buffer-stock.json",
+      "sha256": "f61cae5c7c4a52aeabbd219e6e86b304eb503dd2e0a33311a465a5735ab33df7",
+      "size_bytes": 1234,
+      "keywords": [
+        "安全在庫",
+        "緩衝",
+        "在庫",
+        "予備",
+        "バッファ",
+        "buffer",
+        "safety",
+        "stock",
+        "reserve"
+      ],
+      "use_case": "需要変動や供給の遅れに備える在庫を説明する。",
+      "message": "変動を吸収するために予備を持つ。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/cold-chain",
+      "title": "低温物流",
+      "kind": "icon",
+      "category": "05-調達・物流",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/cold-chain.svg",
+      "preview_path": "assets/icon/cold-chain.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/cold-chain.json",
+      "sha256": "07a7e90ded5ed5f9c8a0bbf2b4d504bff8219fb190b5f2b28040615e2ed1c253",
+      "size_bytes": 1195,
+      "keywords": [
+        "低温",
+        "冷蔵",
+        "冷凍",
+        "温度",
+        "輸送",
+        "cold",
+        "chain",
+        "refrigerated",
+        "transport"
+      ],
+      "use_case": "輸送中の低温維持が必要な物流を示す。",
+      "message": "温度条件を保ったまま品物を運ぶ。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/cross-docking",
+      "title": "通過型物流",
+      "kind": "icon",
+      "category": "05-調達・物流",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/cross-docking.svg",
+      "preview_path": "assets/icon/cross-docking.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/cross-docking.json",
+      "sha256": "319782cabacdf2c829d38657a495181fb73f97b6044f2c6e55ad236dde0509ce",
+      "size_bytes": 1248,
+      "keywords": [
+        "クロスドック",
+        "通過",
+        "物流",
+        "積替",
+        "入荷",
+        "出荷",
+        "cross",
+        "docking",
+        "transshipment"
+      ],
+      "use_case": "保管せず入荷から出荷へつなぐ物流を説明する。",
+      "message": "拠点を通して荷物を次の輸送へ渡す。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/delivery",
+      "title": "配送",
+      "kind": "icon",
+      "category": "05-調達・物流",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/delivery.svg",
+      "preview_path": "assets/icon/delivery.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/delivery.json",
+      "sha256": "8daddfa80d473b92c05c579a63ef96bd53a94b72f7f33b421bd4182a9eb95407",
+      "size_bytes": 1339,
+      "keywords": [
+        "配送",
+        "配達",
+        "輸送",
+        "運送",
+        "物流",
+        "delivery",
+        "shipping",
+        "logistics",
+        "truck"
+      ],
+      "use_case": "出荷後の配送工程や輸送手段の項目に添える。",
+      "message": "荷物を次の場所へ届ける。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/delivery-deadline",
+      "title": "納期管理",
+      "kind": "icon",
+      "category": "05-調達・物流",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/delivery-deadline.svg",
+      "preview_path": "assets/icon/delivery-deadline.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/delivery-deadline.json",
+      "sha256": "299babe09e257128b9019bb69c46081474f44dde354d547a04e70646311a1eb1",
+      "size_bytes": 888,
+      "keywords": [
+        "納期",
+        "期限",
+        "出荷",
+        "締切",
+        "リードタイム",
+        "deadline",
+        "delivery",
+        "due"
+      ],
+      "use_case": "製品を届ける期日や出荷期限を説明する。",
+      "message": "配送物と届ける時期を一組で管理する。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/flow-rack",
+      "title": "流動棚",
+      "kind": "icon",
+      "category": "05-調達・物流",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/flow-rack.svg",
+      "preview_path": "assets/icon/flow-rack.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/flow-rack.json",
+      "sha256": "68253feca3757a9ee6e0abdf0fd2eb31c8531ad2d62fd0733b5abf8782824860",
+      "size_bytes": 1170,
+      "keywords": [
+        "流動棚",
+        "FIFO",
+        "先入先出",
+        "棚",
+        "傾斜",
+        "flow",
+        "rack",
+        "gravity",
+        "first",
+        "in",
+        "first",
+        "out"
+      ],
+      "use_case": "傾斜した棚で物を順送りする保管方式を示す。",
+      "message": "棚の傾斜を使って順番に取り出す。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/inventory",
+      "title": "在庫",
+      "kind": "icon",
+      "category": "05-調達・物流",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/inventory.svg",
+      "preview_path": "assets/icon/inventory.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/inventory.json",
+      "sha256": "4715872ceeb31b7ad669924e05a84285df088a46c9e97b0bd5ad1d3dfe960fea",
+      "size_bytes": 1702,
+      "keywords": [
+        "在庫",
+        "棚卸",
+        "保有",
+        "物品",
+        "stock",
+        "inventory",
+        "goods"
+      ],
+      "use_case": "在庫管理や棚卸の見出しに添える。",
+      "message": "保有している物品の量を管理する。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/loading-dock",
+      "title": "荷役ドック",
+      "kind": "icon",
+      "category": "05-調達・物流",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/loading-dock.svg",
+      "preview_path": "assets/icon/loading-dock.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/loading-dock.json",
+      "sha256": "2fb0df639c4cf37a171af9aa1035d0cd7106db2dad8cfd00fa2ae5c64ec10cee",
+      "size_bytes": 957,
+      "keywords": [
+        "荷役",
+        "ドック",
+        "搬入口",
+        "積込み",
+        "荷下ろし",
+        "loading",
+        "dock",
+        "unloading"
+      ],
+      "use_case": "建物と車両の間で荷物を受け渡す場所を示す。",
+      "message": "高さを合わせた荷役面で受け渡す。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/lot-identification",
+      "title": "ロット識別",
+      "kind": "icon",
+      "category": "05-調達・物流",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/lot-identification.svg",
+      "preview_path": "assets/icon/lot-identification.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/lot-identification.json",
+      "sha256": "c5211c7fa4574e30e8a37f6dbde3d8908bec0b64dcb7036eec92bba8d38c2328",
+      "size_bytes": 1734,
+      "keywords": [
+        "ロット",
+        "製造番号",
+        "識別",
+        "ラベル",
+        "barcode",
+        "lot",
+        "identification"
+      ],
+      "use_case": "製造ロットや製品識別の管理を示す。",
+      "message": "ラベルを使って製造したまとまりを識別する。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/order-picking",
+      "title": "ピッキング",
+      "kind": "icon",
+      "category": "05-調達・物流",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/order-picking.svg",
+      "preview_path": "assets/icon/order-picking.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/order-picking.json",
+      "sha256": "c5f8017d4f22d938ee1153f410cff82bff88edf9af5be57494b9937ed5409c11",
+      "size_bytes": 1360,
+      "keywords": [
+        "ピッキング",
+        "出庫",
+        "棚",
+        "取り出し",
+        "picking",
+        "fulfillment",
+        "selection"
+      ],
+      "use_case": "注文に必要な品を棚から取り出す工程を示す。",
+      "message": "必要な品を在庫から選んで取り出す。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/package-sealing",
+      "title": "封緘確認",
+      "kind": "icon",
+      "category": "05-調達・物流",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/package-sealing.svg",
+      "preview_path": "assets/icon/package-sealing.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/package-sealing.json",
+      "sha256": "0aa0c42f0c75530870ec5e30a79664fa5ff099d652de57b689ff6c1c2e907690",
+      "size_bytes": 1204,
+      "keywords": [
+        "封緘",
+        "梱包",
+        "テープ",
+        "開封",
+        "防止",
+        "sealing",
+        "package",
+        "closure"
+      ],
+      "use_case": "梱包後に封が閉じていることを確認する工程に添える。",
+      "message": "荷物の開口を閉じた状態を確認する。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/pallet-handling",
+      "title": "パレット搬送",
+      "kind": "icon",
+      "category": "05-調達・物流",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/pallet-handling.svg",
+      "preview_path": "assets/icon/pallet-handling.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/pallet-handling.json",
+      "sha256": "dca42b0418b1c41f4f533e4664906829d6303f2b8bc7ce60c2be0ac751ec05c9",
+      "size_bytes": 1081,
+      "keywords": [
+        "パレット",
+        "搬送",
+        "荷役",
+        "積載",
+        "pallet",
+        "handling",
+        "logistics"
+      ],
+      "use_case": "荷役単位やパレットでの搬送を説明する。",
+      "message": "荷物を荷台へまとめて扱う。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/pallet-stacking",
+      "title": "積み付け",
+      "kind": "icon",
+      "category": "05-調達・物流",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/pallet-stacking.svg",
+      "preview_path": "assets/icon/pallet-stacking.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/pallet-stacking.json",
+      "sha256": "31be18508d73d436a301e34eb3c908005f247ef0d20d94ee8c3d9327334565eb",
+      "size_bytes": 1320,
+      "keywords": [
+        "積付",
+        "積載",
+        "荷姿",
+        "荷崩れ",
+        "stacking",
+        "palletizing",
+        "load",
+        "arrangement"
+      ],
+      "use_case": "パレット上の荷物の積み方や荷姿を説明する。",
+      "message": "荷物を安定するまとまりとして積む。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/procurement",
+      "title": "調達・購買",
+      "kind": "icon",
+      "category": "05-調達・物流",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/procurement.svg",
+      "preview_path": "assets/icon/procurement.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/procurement.json",
+      "sha256": "80199ebe15c05bf43e11979c11d39ef13c064221e36e7c7b658431af949c4aeb",
+      "size_bytes": 1115,
+      "keywords": [
+        "調達",
+        "購買",
+        "仕入",
+        "購入",
+        "原材料",
+        "procurement",
+        "purchasing",
+        "sourcing"
+      ],
+      "use_case": "調達や仕入の工程を業務フローに配置する。",
+      "message": "必要な物品を外部から購入する。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/returnable-container",
+      "title": "通い箱",
+      "kind": "icon",
+      "category": "05-調達・物流",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/returnable-container.svg",
+      "preview_path": "assets/icon/returnable-container.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/returnable-container.json",
+      "sha256": "73e4e726c4ea09efd99c225b1d9e0c8e7c5f3b7badf014730f1ec44bbebb4506",
+      "size_bytes": 1349,
+      "keywords": [
+        "通い箱",
+        "回収",
+        "再利用",
+        "容器",
+        "梱包",
+        "returnable",
+        "reusable",
+        "container"
+      ],
+      "use_case": "梱包容器を回収して再利用する運用を示す。",
+      "message": "容器を使い捨てず繰り返し使う。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/returns",
+      "title": "返品",
+      "kind": "icon",
+      "category": "05-調達・物流",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/returns.svg",
+      "preview_path": "assets/icon/returns.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/returns.json",
+      "sha256": "7fb9ee03981b99188946e447540789ed35f9818746f06648b32e891423fc1d41",
+      "size_bytes": 987,
+      "keywords": [
+        "返品",
+        "返送",
+        "交換",
+        "返却",
+        "return",
+        "reverse",
+        "logistics"
+      ],
+      "use_case": "返品受付や返送の工程に配置する。",
+      "message": "品物を送り元へ戻す。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/warehouse",
+      "title": "倉庫・保管",
+      "kind": "icon",
+      "category": "05-調達・物流",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/warehouse.svg",
+      "preview_path": "assets/icon/warehouse.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/warehouse.json",
+      "sha256": "d51f9040fb46e1542f793f4154e78c8e733853ac4a64a32dd406bf7cf39d0570",
+      "size_bytes": 1762,
+      "keywords": [
+        "倉庫",
+        "保管",
+        "物流",
+        "拠点",
+        "ストック",
+        "warehouse",
+        "storage",
+        "depot"
+      ],
+      "use_case": "物品の保管場所や物流拠点を示す。",
+      "message": "物品をまとめて保管する場所がある。",
+      "sample_data": false
+    },
+    {
+      "id": "illustration/demand-forecast-review",
+      "title": "需要の見通しを検討する",
+      "kind": "illustration",
+      "category": "05-調達・物流",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1536,
+      "height": 1024,
+      "canvas": {
+        "width": 1536,
+        "height": 1024
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/demand-forecast-review.png",
+      "preview_path": "previews/illustration/demand-forecast-review.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/demand-forecast-review.json",
+      "sha256": "bb045871b1d9b97704891d412b27e412523a73f71580c0b989b6b5d88da0eb20",
+      "size_bytes": 1323529,
+      "keywords": [
+        "需要予測",
+        "販売計画",
+        "見通し",
+        "forecast",
+        "demand",
+        "planning"
+      ],
+      "use_case": "過去の実績と今後の見通しを区別し、販売や生産の予定を検討する場面。",
+      "message": "実績を踏まえて、これからの需要を見通す。",
+      "sample_data": false,
+      "composition": {
+        "framing": "waist-up",
+        "facing": "down",
+        "people_count": 1
+      }
+    },
+    {
+      "id": "illustration/dual-source-readiness",
+      "title": "同じ部品を複数の調達先から備える",
+      "kind": "illustration",
+      "category": "05-調達・物流",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1536,
+      "height": 1024,
+      "canvas": {
+        "width": 1536,
+        "height": 1024
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/dual-source-readiness.png",
+      "preview_path": "previews/illustration/dual-source-readiness.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/dual-source-readiness.json",
+      "sha256": "f533a8a44ce881a666f64ea8eb617648dc4fb6e0532866a0da3a23db56323b0d",
+      "size_bytes": 1446880,
+      "keywords": [
+        "調達",
+        "複数購買",
+        "供給網",
+        "部品",
+        "dual sourcing",
+        "supply resilience"
+      ],
+      "use_case": "一つの調達先に依存せず、同じ部品を複数の仕入先から用意する方針を説明する場面。",
+      "message": "調達先を分けて、同じ部品を備える。",
+      "sample_data": false,
+      "composition": {
+        "framing": "object",
+        "facing": "front"
+      }
+    },
+    {
+      "id": "illustration/moisture-protected-storage",
+      "title": "湿気から部品を守って保管する",
+      "kind": "illustration",
+      "category": "05-調達・物流",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1536,
+      "height": 1024,
+      "canvas": {
+        "width": 1536,
+        "height": 1024
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/moisture-protected-storage.png",
+      "preview_path": "previews/illustration/moisture-protected-storage.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/moisture-protected-storage.json",
+      "sha256": "fefafa081c6b34e79bb168382e399995fd43cfac6d7e8be4ee59010e59d40260",
+      "size_bytes": 1733881,
+      "keywords": [
+        "防湿",
+        "乾燥剤",
+        "保管",
+        "梱包",
+        "moisture protection",
+        "desiccant"
+      ],
+      "use_case": "湿気を避けたい部品の保管や梱包で、乾燥剤と袋を使う備えを説明する場面。",
+      "message": "部品と乾燥剤を一緒に包み、保管中の湿気に備える。",
+      "sample_data": false,
+      "composition": {
+        "framing": "object",
+        "facing": "front"
+      }
+    },
+    {
+      "id": "illustration/moving-materials",
+      "title": "台車で資材を運ぶ",
+      "kind": "illustration",
+      "category": "05-調達・物流",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1254,
+      "height": 1254,
+      "canvas": {
+        "width": 1254,
+        "height": 1254
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/moving-materials.png",
+      "preview_path": "previews/illustration/moving-materials.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/moving-materials.json",
+      "sha256": "5940538e44c6a5c1bb39be7a97bc298ac46d554fe1cbe68286d966e31683c388",
+      "size_bytes": 568836,
+      "keywords": [
+        "搬送",
+        "資材",
+        "運搬",
+        "物流",
+        "materials",
+        "transport",
+        "trolley"
+      ],
+      "use_case": "構内物流、資材搬送、作業効率の説明。",
+      "message": "資材を安定させて、必要な場所へ運ぶ。",
+      "sample_data": false,
+      "composition": {
+        "framing": "full-body",
+        "facing": "right",
+        "people_count": 1
+      }
+    },
+    {
+      "id": "illustration/packing-products",
+      "title": "製品を梱包する",
+      "kind": "illustration",
+      "category": "05-調達・物流",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1254,
+      "height": 1254,
+      "canvas": {
+        "width": 1254,
+        "height": 1254
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/packing-products.png",
+      "preview_path": "previews/illustration/packing-products.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/packing-products.json",
+      "sha256": "9150533cb0a2811a52926e6e334a7d86d51f73f9d651dd9fe01022a67e5cba3c",
+      "size_bytes": 828362,
+      "keywords": [
+        "梱包",
+        "包装",
+        "出荷",
+        "保護",
+        "packing",
+        "packaging",
+        "product"
+      ],
+      "use_case": "梱包工程、品質保護、出荷前作業の説明。",
+      "message": "製品を保護し、次の工程へ渡せる状態に整える。",
+      "sample_data": false,
+      "composition": {
+        "framing": "waist-up",
+        "facing": "right",
+        "people_count": 1
+      }
+    },
+    {
+      "id": "illustration/pallet-stability",
+      "title": "荷姿を整えて崩れを防ぐ",
+      "kind": "illustration",
+      "category": "05-調達・物流",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1394,
+      "height": 1128,
+      "canvas": {
+        "width": 1394,
+        "height": 1128
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/pallet-stability.png",
+      "preview_path": "previews/illustration/pallet-stability.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/pallet-stability.json",
+      "sha256": "84293d4d914cff1bacfdf95c132ed80ba05c94048e74d78d34a2a14d0ad96fad",
+      "size_bytes": 1223879,
+      "keywords": [
+        "荷崩れ",
+        "パレット",
+        "固定",
+        "物流",
+        "pallet stability",
+        "load securing"
+      ],
+      "use_case": "保管や輸送の荷姿を説明し、積み重ねた荷物の固定方法を示す場面。",
+      "message": "荷物の角を守り、まとまりを保って運ぶ。",
+      "sample_data": false,
+      "composition": {
+        "framing": "object",
+        "facing": "front"
+      }
+    },
+    {
+      "id": "illustration/protective-packaging",
+      "title": "緩衝材で製品を保護する",
+      "kind": "illustration",
+      "category": "05-調達・物流",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1254,
+      "height": 1254,
+      "canvas": {
+        "width": 1254,
+        "height": 1254
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/protective-packaging.png",
+      "preview_path": "previews/illustration/protective-packaging.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/protective-packaging.json",
+      "sha256": "c9ff9eadb7fe52fe76c7e8df5c60207638c80b18fedd15452cf24afbab3f1e06",
+      "size_bytes": 799904,
+      "keywords": [
+        "梱包",
+        "緩衝材",
+        "製品保護",
+        "輸送",
+        "包装",
+        "protective packaging",
+        "cushioning"
+      ],
+      "use_case": "梱包設計、輸送時の品質保護、製品の取扱いの説明。",
+      "message": "形に合った緩衝材で製品を支え、外部からの衝撃に備える。",
+      "sample_data": false,
+      "composition": {
+        "framing": "object",
+        "facing": "front",
+        "people_count": 0
+      }
+    },
+    {
+      "id": "illustration/purchase-negotiation",
+      "title": "条件を確認しながら商談する",
+      "kind": "illustration",
+      "category": "05-調達・物流",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1536,
+      "height": 1024,
+      "canvas": {
+        "width": 1536,
+        "height": 1024
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/purchase-negotiation.png",
+      "preview_path": "previews/illustration/purchase-negotiation.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/purchase-negotiation.json",
+      "sha256": "ff969a0d192499ba6fb12f27e48b0af3d30b965931b26070baf5e1d2bce1cf42",
+      "size_bytes": 1331961,
+      "keywords": [
+        "調達",
+        "交渉",
+        "商談",
+        "条件",
+        "negotiation",
+        "purchasing"
+      ],
+      "use_case": "見積内容を一緒に確認し、価格や納期などの取引条件を話し合う場面。",
+      "message": "共通の資料を見ながら、条件をすり合わせる。",
+      "sample_data": false,
+      "composition": {
+        "framing": "waist-up",
+        "facing": "inward",
+        "people_count": 2
+      }
+    },
+    {
+      "id": "illustration/receiving-materials",
+      "title": "受け取った資材を照合する",
+      "kind": "illustration",
+      "category": "05-調達・物流",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1254,
+      "height": 1254,
+      "canvas": {
+        "width": 1254,
+        "height": 1254
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/receiving-materials.png",
+      "preview_path": "previews/illustration/receiving-materials.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/receiving-materials.json",
+      "sha256": "19b423f6cc4131fd439713e14642562c71a614fe222037f21138131e28ec7c8a",
+      "size_bytes": 933657,
+      "keywords": [
+        "受入",
+        "入荷",
+        "照合",
+        "資材",
+        "receiving",
+        "incoming",
+        "materials"
+      ],
+      "use_case": "資材受入、入荷確認、購買から現場への引渡しの説明。",
+      "message": "受け取った資材を確認して、次の工程へつなぐ。",
+      "sample_data": false,
+      "composition": {
+        "framing": "waist-up",
+        "facing": "left",
+        "people_count": 1
+      }
+    },
+    {
+      "id": "illustration/shipment-consolidation",
+      "title": "荷物をひとまとめにする",
+      "kind": "illustration",
+      "category": "05-調達・物流",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1254,
+      "height": 1254,
+      "canvas": {
+        "width": 1254,
+        "height": 1254
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/shipment-consolidation.png",
+      "preview_path": "previews/illustration/shipment-consolidation.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/shipment-consolidation.json",
+      "sha256": "1ef5d9c25f6a5a79c6dd04e2905cf95b43c785e18fbfdd4cda45853ba85812cf",
+      "size_bytes": 806371,
+      "keywords": [
+        "集約",
+        "出荷",
+        "配送",
+        "物流",
+        "荷物",
+        "shipment",
+        "consolidation"
+      ],
+      "use_case": "出荷の集約、まとめ配送、荷扱い回数の削減を説明する。",
+      "message": "複数の荷物をひとつの単位にまとめて運ぶ。",
+      "sample_data": false,
+      "composition": {
+        "framing": "object",
+        "facing": "front"
+      }
+    },
+    {
+      "id": "illustration/shipment-preparation",
+      "title": "出荷する荷物を整える",
+      "kind": "illustration",
+      "category": "05-調達・物流",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1254,
+      "height": 1254,
+      "canvas": {
+        "width": 1254,
+        "height": 1254
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/shipment-preparation.png",
+      "preview_path": "previews/illustration/shipment-preparation.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/shipment-preparation.json",
+      "sha256": "0fb0ae374f772c7a74713bccfadb0edfde871235d30aaf63e65f09e7d414e000",
+      "size_bytes": 643045,
+      "keywords": [
+        "出荷",
+        "発送",
+        "準備",
+        "物流",
+        "shipment",
+        "dispatch",
+        "logistics"
+      ],
+      "use_case": "出荷準備、配送前確認、物流部門の役割の説明。",
+      "message": "荷物を確認し、出荷できる状態に整える。",
+      "sample_data": false,
+      "composition": {
+        "framing": "waist-up",
+        "facing": "right",
+        "people_count": 1
+      }
+    },
+    {
+      "id": "illustration/stock-check",
+      "title": "在庫を確認する",
+      "kind": "illustration",
+      "category": "05-調達・物流",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1254,
+      "height": 1254,
+      "canvas": {
+        "width": 1254,
+        "height": 1254
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/stock-check.png",
+      "preview_path": "previews/illustration/stock-check.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/stock-check.json",
+      "sha256": "9316c1a21efa5c4e7faea61e630b16133eb2a350daa11740ade7dcb6d5469a28",
+      "size_bytes": 1019155,
+      "keywords": [
+        "在庫",
+        "棚卸",
+        "確認",
+        "倉庫",
+        "inventory",
+        "stock",
+        "counting"
+      ],
+      "use_case": "在庫管理、棚卸、資材の数量確認の説明。",
+      "message": "現物を確認し、在庫の状態を把握する。",
+      "sample_data": false,
+      "composition": {
+        "framing": "waist-up",
+        "facing": "left",
+        "people_count": 1
+      }
+    },
+    {
+      "id": "illustration/supplier-continuity",
+      "title": "供給が止まった時の代替を備える",
+      "kind": "illustration",
+      "category": "05-調達・物流",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1774,
+      "height": 887,
+      "canvas": {
+        "width": 1774,
+        "height": 887
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/supplier-continuity.png",
+      "preview_path": "previews/illustration/supplier-continuity.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/supplier-continuity.json",
+      "sha256": "128312e54d10c35b034a37337d4aae55aad69c547e501a6d0c4e98efa6b9da27",
+      "size_bytes": 805117,
+      "keywords": [
+        "代替調達",
+        "供給継続",
+        "BCP",
+        "substitution",
+        "supply continuity"
+      ],
+      "use_case": "供給が途切れる状況への備えとして、代わりに調達できる部品を用意する場面。",
+      "message": "必要な部品の代替を備え、供給の継続につなげる。",
+      "sample_data": false,
+      "composition": {
+        "framing": "object",
+        "facing": "front"
+      }
+    },
+    {
+      "id": "illustration/supplier-sample-comparison",
+      "title": "仕入先のサンプルを比較する",
+      "kind": "illustration",
+      "category": "05-調達・物流",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1536,
+      "height": 1024,
+      "canvas": {
+        "width": 1536,
+        "height": 1024
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/supplier-sample-comparison.png",
+      "preview_path": "previews/illustration/supplier-sample-comparison.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/supplier-sample-comparison.json",
+      "sha256": "77c0ffcfde3d7961a3883e5bf8f577b1208522bbec5ef12239d530f1db9745fe",
+      "size_bytes": 1625323,
+      "keywords": [
+        "調達",
+        "仕入先",
+        "比較",
+        "サンプル",
+        "supplier",
+        "sourcing",
+        "evaluation"
+      ],
+      "use_case": "仕入先から届いた材料や加工品の提案を、実物の見本と評価項目で比較する場面。",
+      "message": "見本と情報をそろえ、調達先を選ぶ材料にする。",
+      "sample_data": false,
+      "composition": {
+        "framing": "object",
+        "facing": "front"
+      }
+    },
+    {
+      "id": "illustration/temperature-controlled-transport",
+      "title": "温度を保ちながら運ぶ",
+      "kind": "illustration",
+      "category": "05-調達・物流",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1536,
+      "height": 1024,
+      "canvas": {
+        "width": 1536,
+        "height": 1024
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/temperature-controlled-transport.png",
+      "preview_path": "previews/illustration/temperature-controlled-transport.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/temperature-controlled-transport.json",
+      "sha256": "f0a0fdb0f24733859fd0f84a6622be4d670473fbe4c3811bf1bb5a5dee31a950",
+      "size_bytes": 1399584,
+      "keywords": [
+        "温度管理",
+        "保冷",
+        "輸送",
+        "記録",
+        "cold chain",
+        "temperature"
+      ],
+      "use_case": "温度に配慮した輸送や梱包を説明し、保冷と記録を組み合わせる場面。",
+      "message": "輸送中の温度を保つ備えと、確かめる手段をそろえる。",
+      "sample_data": false,
+      "composition": {
+        "framing": "object",
+        "facing": "front"
+      }
+    },
+    {
+      "id": "supply/bullwhip-amplification",
+      "title": "需要の小さな変化が上流で大きくなる",
+      "kind": "diagram",
+      "category": "05-調達・物流",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/supply/bullwhip-amplification.svg",
+      "preview_path": "previews/supply/bullwhip-amplification.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/supply/bullwhip-amplification.json",
+      "sha256": "fbd785855346cbf9aa28a61f9b6e17b5e5d879afce1c647f01d22ec8a0084739",
+      "size_bytes": 2437,
+      "keywords": [
+        "ブルウィップ",
+        "鞭効果",
+        "需要変動",
+        "発注増幅",
+        "需給",
+        "bullwhip",
+        "demand",
+        "amplification",
+        "orders"
+      ],
+      "use_case": "需給会議で、需要と発注の変動が同じではないことを説明する。",
+      "message": "情報の遅れやまとめ発注が、上流に伝わる変動を増幅することがある。",
+      "sample_data": false,
+      "preview_sha256": "e19f5018b2f7dedd196641dec4602c8999ac0d9cdd6e523508cf69f20a08770a"
+    },
+    {
+      "id": "supply/delivery-receipt-evidence",
+      "title": "物の引渡しと受領の記録を対応させる",
+      "kind": "diagram",
+      "category": "05-調達・物流",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/supply/delivery-receipt-evidence.svg",
+      "preview_path": "previews/supply/delivery-receipt-evidence.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/supply/delivery-receipt-evidence.json",
+      "sha256": "bc4a0c6053dab4e5943e97125a493adca0e28c0aa8bace9826d161736419e968",
+      "size_bytes": 1746,
+      "keywords": [
+        "納品",
+        "受領",
+        "検収",
+        "引渡",
+        "証跡",
+        "物流",
+        "proof",
+        "delivery",
+        "receipt",
+        "shipment"
+      ],
+      "use_case": "出荷・納品・受入の確認で、物と記録のつながりを説明する。",
+      "message": "送ったという記録と、受け取ったという記録を同じ対象で照合する。",
+      "sample_data": false,
+      "preview_sha256": "37754ce3395fd480e68ec81d1cbe523f1a491a052b38e3dd9724322c975296b0"
+    },
+    {
+      "id": "supply/demand-decoupling-point",
+      "title": "予測で準備する範囲と受注で動く範囲を分ける",
+      "kind": "diagram",
+      "category": "05-調達・物流",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/supply/demand-decoupling-point.svg",
+      "preview_path": "previews/supply/demand-decoupling-point.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/supply/demand-decoupling-point.json",
+      "sha256": "a0be50a3cbc7b4f8989fa06f1d946b7b003e3f8239a4096fb3d0f92136c4a261",
+      "size_bytes": 1841,
+      "keywords": [
+        "デカップリングポイント",
+        "見込",
+        "受注",
+        "在庫",
+        "需要",
+        "forecast",
+        "order",
+        "decoupling",
+        "point",
+        "push",
+        "pull"
+      ],
+      "use_case": "見込生産と受注生産の境界を整理し、在庫の役割を説明する。",
+      "message": "予測と実際の注文を、意図した在庫地点でつなぐ。",
+      "sample_data": false,
+      "preview_sha256": "f8b11decfc3f84c09da757bb402f52ebbbd31f46c6f2be364445bfe8f9af5e74"
+    },
+    {
+      "id": "supply/milk-run-collection",
+      "title": "複数の供給先を一つの経路で巡回する",
+      "kind": "diagram",
+      "category": "05-調達・物流",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/supply/milk-run-collection.svg",
+      "preview_path": "previews/supply/milk-run-collection.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/supply/milk-run-collection.json",
+      "sha256": "ddb3bdc6d1b6904d0beaecb9af49bc65bbbe387f0a9e4e1f3a2750684cf51d7e",
+      "size_bytes": 2417,
+      "keywords": [
+        "ミルクラン",
+        "巡回",
+        "集荷",
+        "調達物流",
+        "定期便",
+        "milk",
+        "run",
+        "route",
+        "collection",
+        "logistics"
+      ],
+      "use_case": "調達物流で、個別便から定期巡回へまとめる考え方を説明する。",
+      "message": "複数の供給先を決まった経路で回り、共通の受入先へまとめて運ぶ。",
+      "sample_data": false,
+      "preview_sha256": "a013f2c5393d1c5d75c9875fb5efe38949d1a2d63f2cdb658b90b2039a6a71d0"
+    },
+    {
+      "id": "supply/postponed-differentiation",
+      "title": "共通部分を準備し、受注後に仕様を分ける",
+      "kind": "diagram",
+      "category": "05-調達・物流",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/supply/postponed-differentiation.svg",
+      "preview_path": "previews/supply/postponed-differentiation.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/supply/postponed-differentiation.json",
+      "sha256": "11ed68d445f080431ac63f465ebbc7f6f22d45657b82150a11494dd70c01c280",
+      "size_bytes": 2911,
+      "keywords": [
+        "延期差別化",
+        "受注生産",
+        "共通化",
+        "多品種",
+        "在庫",
+        "postponement",
+        "delayed",
+        "differentiation",
+        "order"
+      ],
+      "use_case": "多品種の在庫を抑えながら納期へ対応する生産・調達方式を説明する。",
+      "message": "共通部分を先に準備し、顧客ごとの差が決まる工程を注文の後へ置く。",
+      "sample_data": false,
+      "preview_sha256": "b930857c7aab24a509ea5baf57ed985c35c892ae90c5116c89b4ac4f7bfdb1f6"
+    },
+    {
+      "id": "supply/production-delivery-lot-split",
+      "title": "製造ロットを納期に合わせて分納する",
+      "kind": "diagram",
+      "category": "05-調達・物流",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/supply/production-delivery-lot-split.svg",
+      "preview_path": "previews/supply/production-delivery-lot-split.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/supply/production-delivery-lot-split.json",
+      "sha256": "4a08a4eefc76346b50475fd6d9ab8e8c11b12bec7e8d8de943160f8e76f41480",
+      "size_bytes": 2829,
+      "keywords": [
+        "分納",
+        "製造ロット",
+        "出荷ロット",
+        "納期",
+        "保管",
+        "split",
+        "shipment",
+        "production",
+        "lot",
+        "delivery"
+      ],
+      "use_case": "生産効率のためのロットと、顧客へ届ける単位の違いを説明する。",
+      "message": "作る量をまとめても、届ける量と時期は顧客の必要に合わせて分けられる。",
+      "sample_data": false,
+      "preview_sha256": "2c111a650b55b3b4389be1d500234ef5f0b0de7cb7693faafa607bd06b07380b"
+    },
+    {
+      "id": "supply/qualified-dual-sourcing",
+      "title": "要求を満たす代替供給先を備える",
+      "kind": "diagram",
+      "category": "05-調達・物流",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/supply/qualified-dual-sourcing.svg",
+      "preview_path": "previews/supply/qualified-dual-sourcing.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/supply/qualified-dual-sourcing.json",
+      "sha256": "6c6f9f4e6c1a88f0af6dd0c477e3fc8e47be24e0d5d1c3eb83fe970db3381fd8",
+      "size_bytes": 1647,
+      "keywords": [
+        "複数購買",
+        "代替調達",
+        "二社購買",
+        "供給停止",
+        "認定",
+        "dual",
+        "sourcing",
+        "alternate",
+        "supplier",
+        "qualification"
+      ],
+      "use_case": "部材の供給停止リスクに備え、調達先の代替性を説明する。",
+      "message": "供給先の数を増やすだけでなく、代替先でも必要な仕様と量を確保できるようにする。",
+      "sample_data": false,
+      "preview_sha256": "f4ce74a8b0f90555f1018cf2e37e650e4737adde50c41de8748672a5026b4793"
+    },
+    {
+      "id": "supply/receiving-consolidation",
+      "title": "複数の入荷を受け渡す単位へまとめる",
+      "kind": "diagram",
+      "category": "05-調達・物流",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/supply/receiving-consolidation.svg",
+      "preview_path": "previews/supply/receiving-consolidation.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/supply/receiving-consolidation.json",
+      "sha256": "7b6a7e27663bc493766fb8f485be3f8d0429a63da9e18ec8cf657625934216a9",
+      "size_bytes": 2095,
+      "keywords": [
+        "共同配送",
+        "荷揃え",
+        "集約",
+        "受入",
+        "仕分け",
+        "クロスドック",
+        "inbound",
+        "consolidation",
+        "cross",
+        "dock",
+        "staging"
+      ],
+      "use_case": "物流センターや工場の受入で、到着便と払出単位の違いを説明する。",
+      "message": "別々に届く物を、後工程の行き先と必要時刻に合わせてまとめ直す。",
+      "sample_data": false,
+      "preview_sha256": "931292a618792df1330bd1e52d36cc0d62f5a9d9d06a9bedf1335c67218b3d24"
+    },
+    {
+      "id": "supply/reorder-point-lead-time",
+      "title": "入荷までの時間を見込んで補充する",
+      "kind": "diagram",
+      "category": "05-調達・物流",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/supply/reorder-point-lead-time.svg",
+      "preview_path": "previews/supply/reorder-point-lead-time.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/supply/reorder-point-lead-time.json",
+      "sha256": "accacb4b5960b97660c890e36be575f3aa0e43d16ece234e72e5097eca0686af",
+      "size_bytes": 1981,
+      "keywords": [
+        "発注点",
+        "補充",
+        "在庫",
+        "安全在庫",
+        "リードタイム",
+        "reorder",
+        "point",
+        "lead",
+        "time",
+        "replenishment"
+      ],
+      "use_case": "在庫切れを防ぐため、発注点と調達リードタイムの関係を説明する。",
+      "message": "在庫がなくなってから頼むのではなく、入荷までに使う分を見込んで補充を始める。",
+      "sample_data": false,
+      "preview_sha256": "73fd64b68db387a4d0bde82a17847b1b5d5db8f35382b51d6c9f864857a3ad56"
+    },
+    {
+      "id": "supply/supplier-relationship-strategy",
+      "title": "供給リスクと事業への影響で調達方針を分ける",
+      "kind": "diagram",
+      "category": "05-調達・物流",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/supply/supplier-relationship-strategy.svg",
+      "preview_path": "previews/supply/supplier-relationship-strategy.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/supply/supplier-relationship-strategy.json",
+      "sha256": "6169b04b409b76351de48dcfa146bef7719f2e882dbbe037646650dbb0609794",
+      "size_bytes": 1608,
+      "keywords": [
+        "調達戦略",
+        "仕入先分類",
+        "供給リスク",
+        "取引",
+        "関係",
+        "supplier",
+        "segmentation",
+        "procurement",
+        "portfolio"
+      ],
+      "use_case": "取引先を同じ方法で扱わず、関係づくりや代替準備の重点を整理する。",
+      "message": "供給リスクと事業への影響を合わせ、調達の関わり方を決める。",
+      "sample_data": false,
+      "preview_sha256": "371e771929b351663497150be39d0a27f3480e21d9f2db49fb5330aa6e68b2e3"
+    }
+  ]
+}

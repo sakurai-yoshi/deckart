@@ -1,5 +1,4 @@
 {
-  "category": "01-業務プロセス",
   "title": "要求と設計に対応した検証を行う",
   "description": "要求から設計・試作へ具体化し、それぞれの条件に対応する確認を行う。",
   "keywords": [
@@ -181,6 +180,7 @@
     "relation": "requirements-and-test-correspondence",
     "reading_direction": "left-to-right"
   },
+  "category": "06-開発・技術",
   "schema_version": 3,
   "id": "manufacturing/design-verification",
   "name": "要求と設計に対応した検証を行う_製造業務の関係図",
@@ -203,5 +203,6 @@
     "data": false
   },
   "sha256": "e589a834500b6c3e11cb4808f1fe3df914b9040dd909fec62e50dcddb22ceb08",
-  "size_bytes": 3082
+  "size_bytes": 3082,
+  "preview_sha256": "f74250e42c2a58f854b3674886c222ac6766227bc4bbcbc531b18921fbfa9fa4"
 }

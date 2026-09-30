@@ -1,5 +1,4 @@
 {
-  "category": "10-数値とグラフ",
   "title": "期間ごとの増減を線で追う",
   "description": "等間隔の五つの期間を直線で結び、20・35・30・55・75件の推移を示す作例。",
   "keywords": [
@@ -33,7 +32,7 @@
       "x": 120.0,
       "y": 588,
       "width": 170,
-      "height": 64,
+      "height": 88,
       "text": "第1期",
       "role": "項目",
       "align": "center",
@@ -41,14 +40,14 @@
       "id": "label-2",
       "font_size": 27,
       "color_role": "ink",
-      "max_lines": 1,
+      "max_lines": 2,
       "max_fullwidth_chars": 5
     },
     {
       "x": 335.0,
       "y": 588,
       "width": 170,
-      "height": 64,
+      "height": 88,
       "text": "第2期",
       "role": "項目",
       "align": "center",
@@ -56,14 +55,14 @@
       "id": "label-3",
       "font_size": 27,
       "color_role": "ink",
-      "max_lines": 1,
+      "max_lines": 2,
       "max_fullwidth_chars": 5
     },
     {
       "x": 550.0,
       "y": 588,
       "width": 170,
-      "height": 64,
+      "height": 88,
       "text": "第3期",
       "role": "項目",
       "align": "center",
@@ -71,14 +70,14 @@
       "id": "label-4",
       "font_size": 27,
       "color_role": "ink",
-      "max_lines": 1,
+      "max_lines": 2,
       "max_fullwidth_chars": 5
     },
     {
       "x": 765.0,
       "y": 588,
       "width": 170,
-      "height": 64,
+      "height": 88,
       "text": "第4期",
       "role": "項目",
       "align": "center",
@@ -86,14 +85,14 @@
       "id": "label-5",
       "font_size": 27,
       "color_role": "ink",
-      "max_lines": 1,
+      "max_lines": 2,
       "max_fullwidth_chars": 5
     },
     {
       "x": 980.0,
       "y": 588,
       "width": 170,
-      "height": 64,
+      "height": 88,
       "text": "第5期",
       "role": "項目",
       "align": "center",
@@ -101,7 +100,7 @@
       "id": "label-6",
       "font_size": 27,
       "color_role": "ink",
-      "max_lines": 1,
+      "max_lines": 2,
       "max_fullwidth_chars": 5
     }
   ],
@@ -166,6 +165,7 @@
       "縦軸は0件から100件までの共通目盛り。"
     ]
   },
+  "category": "13-説明・伝達",
   "schema_version": 3,
   "id": "chart/line",
   "name": "推移確認_期間ごとの増減を見る_折れ線グラフ作例",
@@ -189,9 +189,11 @@
   },
   "data_input": {
     "chart_type": "line",
-    "category_count": 5,
+    "category_count": {
+      "minimum": 2
+    },
     "series_count": 1,
-    "values_per_series": 5,
+    "values_per_series": "categoriesと同数",
     "required": [
       "categories",
       "series",
@@ -203,7 +205,8 @@
       "有限な数値。絶対値は1兆以下。大きな値は単位を変更して入力。",
       "categoriesは16文字以内、series.label・unitは12文字以内。",
       "値は0以上。",
-      "domainは[0,上限]。省略時は値から計算。上限は全値・残高以上。"
+      "domainは[0,上限]。省略時は値から計算。上限は全値・残高以上。",
+      "カテゴリ数に応じて描画領域が拡張される。拡張後のwidth/heightを使って配置。"
     ],
     "example": {
       "categories": [
@@ -233,5 +236,6 @@
     }
   },
   "sha256": "a15450f930a18e752a622791609020d946309404e9ef686924d78398917cca50",
-  "size_bytes": 9286
+  "size_bytes": 9286,
+  "preview_sha256": "29b108d772d15d455974379d69e2389122b7c55a80ab8cc3ee7c7fdb6086d117"
 }

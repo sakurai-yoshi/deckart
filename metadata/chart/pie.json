@@ -1,5 +1,4 @@
 {
-  "category": "10-数値とグラフ",
   "title": "三つの区分で全体を表す",
   "description": "50%・30%・20%の角度を正確に割り当て、合計100%を示す円グラフの作例。",
   "keywords": [
@@ -124,6 +123,7 @@
       "三つの割合を足すと100%。"
     ]
   },
+  "category": "13-説明・伝達",
   "schema_version": 3,
   "id": "chart/pie",
   "name": "構成比確認_全体を三つの区分に分ける_円グラフ作例",
@@ -185,5 +185,6 @@
     }
   },
   "sha256": "f818b91a41832cbf096c67a1cf66ce7447ebc42fd1cd2019110fa5bea571bb0a",
-  "size_bytes": 7286
+  "size_bytes": 7286,
+  "preview_sha256": "781f3102b4dd976e3ce34eff99f0cecbff217281d8246e4b03f6e0fb6d1eae1d"
 }

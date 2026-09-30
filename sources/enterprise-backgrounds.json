@@ -1,0 +1,494 @@
+[
+  {
+    "key": "background/porcelain-pebble-field",
+    "title": "白い小石がゆるく集まる面",
+    "name": "白い小石がゆるく集まる面_背景",
+    "description": "白い陶器と青い釉薬の小石が左側に集まり、右下の小さな群れと対角をつくる。",
+    "kind": "background",
+    "width": 1664,
+    "height": 936,
+    "labels": [],
+    "keywords": [
+      "背景",
+      "白",
+      "青",
+      "質感",
+      "background",
+      "磁器",
+      "陶器",
+      "小石",
+      "対角",
+      "素材感",
+      "会社紹介",
+      "製品紹介",
+      "porcelain",
+      "pebbles",
+      "material"
+    ],
+    "guidance": {
+      "use_case": "会社や製品を紹介する資料に、素材の手触りと親しみやすい印象を添える。",
+      "message": "丸みの異なる白い陶器と青い釉薬で、自然なまとまりと素材感を伝える。",
+      "reading": [
+        "大小の丸い陶器が左側の大きな群れと右下の小さな群れをつくる。",
+        "白いざらりとした面に、結晶の模様が見える艶のある青い陶器が混じる。"
+      ]
+    },
+    "source": "media/background/porcelain-pebble-field.png",
+    "preview_path": "previews/background/porcelain-pebble-field.png",
+    "generation": {
+      "method": "image-generation",
+      "prompt": "Use case: precise-object-edit. Edit the supplied image as the only target. Deliver one refined photographic material background, opaque white, landscape 16:9. Preserve the existing exquisite physical material detail, high-end studio light, restrained white and blue color scheme. No text, charts, frames, symbols, furniture, logos or watermark. This is a background artwork, not a finished slide. Change only the small separate lower-right cluster of porcelain pebbles: shrink that group to about 60 percent of its current size and move it close to the extreme lower-right corner, partly cropped by bottom and right. The large beautiful left cluster must stay unchanged, including its hand-shaped off-white porous ceramic pebbles and two cobalt crystalline glazed accent pebbles. Preserve exactly that excellent speckled glaze and subtle organic ceramic surface. Keep the smaller blue-glazed accent visible in the lower-right cluster. The broad right-center white field should continue much farther downward before reaching the small corner cluster. Real soft shadows and realistic tactile ceramic photography. Do not add more stones or alter the natural shapes of the main left cluster."
+    }
+  },
+  {
+    "key": "background/crossing-light-beams",
+    "title": "白い面を横切る薄青の光",
+    "name": "白い面を横切る薄青の光_背景",
+    "description": "柔らかな二方向の斜光が白い面を横切り、淡い青の重なりをつくる。",
+    "kind": "background",
+    "width": 1664,
+    "height": 936,
+    "labels": [],
+    "keywords": [
+      "背景",
+      "白",
+      "青",
+      "質感",
+      "background",
+      "光",
+      "斜光",
+      "交差",
+      "白い面",
+      "方針",
+      "技術",
+      "見通し",
+      "light",
+      "diagonal",
+      "outlook"
+    ],
+    "guidance": {
+      "use_case": "新しい事業方針や技術の見通しを説明する資料に、明るさと広がりを添える。",
+      "message": "薄い青の光が交わることで、開けた空間と前向きな印象をつくる。",
+      "reading": [
+        "二方向の柔らかな青い光が白い面で重なる。",
+        "光の境目がぼけ、面の細かな質感が穏やかに見える。"
+      ]
+    },
+    "source": "media/background/crossing-light-beams.png",
+    "preview_path": "previews/background/crossing-light-beams.png",
+    "generation": {
+      "method": "image-generation",
+      "prompt": "Use case: productivity-visual. Create one premium abstract PowerPoint background, a WIDE 16:9 landscape image, 2048 by 1152 composition. One luminous matte-white architectural surface seen straight on, traversed by two broad very soft atmospheric beams of pale cobalt-blue light entering from different off-frame angles. Their intersection is a nuanced faint blue luminous region, subtle sense of air and optical softness. A small richer cobalt reflection near extreme upper-right edge provides focal tension. No visible lamps, objects, strips, panels, text boxes or rigid rectangles. Sophisticated quiet tonal depth, almost-white overall with readable gentle contrast. Art direction: white-dominant tactile gallery-quality studio design, precisely nuanced material, soft light, controlled cobalt accents. Make the entire image a seamless unframed landscape composition with subtle depth and broad airy light areas. No text, letters, logos, people, factory scenery, border frames or outlined blank panels. Not an infographic or slide mockup. Opaque background."
+    }
+  },
+  {
+    "key": "background/embossed-dot-relief",
+    "title": "白い球面が生む柔らかな陰影",
+    "name": "白い球面が生む柔らかな陰影_背景",
+    "description": "白い紙の丸いふくらみが端にまとまり、一粒の青が立体感を引き立てる。",
+    "kind": "background",
+    "width": 1664,
+    "height": 936,
+    "labels": [],
+    "keywords": [
+      "背景",
+      "白",
+      "青",
+      "質感",
+      "background",
+      "エンボス",
+      "円形",
+      "凹凸",
+      "陰影",
+      "人材",
+      "社内活動",
+      "柔らかい",
+      "embossed",
+      "relief",
+      "rounded"
+    ],
+    "guidance": {
+      "use_case": "人材育成や社内の取り組みを紹介する資料に、柔らかく整った印象を添える。",
+      "message": "大小の滑らかなふくらみで、落ち着きと親しみやすさをつくる。",
+      "reading": [
+        "大小の白いふくらみが左下と右上付近にまとまり、細かな紙の面を見せる。",
+        "艶のある青い一粒と短い影が、白い紙の凹凸に奥行きを添える。"
+      ]
+    },
+    "source": "media/background/embossed-dot-relief.png",
+    "preview_path": "previews/background/embossed-dot-relief.png",
+    "generation": {
+      "method": "image-generation",
+      "prompt": "Use case: precise-object-edit. Edit the supplied image as the only target. Deliver one refined photographic material background, opaque white, landscape 16:9. Preserve the existing exquisite physical material detail, high-end studio light, restrained white and blue color scheme. No text, charts, frames, symbols, furniture, logos or watermark. This is a background artwork, not a finished slide. Recompose the dimensional embossed cotton-paper reliefs into two distinct edge groups, one at the far lower-left and one at the upper-right/far-right edge, with a single small cobalt glazed bead near the lower far-right. Remove the scattered isolated domes currently near the middle. The entire broad center including the central upper region must be smooth white fine-grain paper, not dotted, with no visible hard mound or cast shadow in that central field. Make the relief domes subtly flatter and about twenty percent smaller. Preserve their soft natural shape, pressed paper-grain highlights and gentle true physical shadows; the near-edge groups should still look rich and sculptural rather than a simple pattern of flat circles. Keep the gentle diagonal balance of the artwork."
+    }
+  },
+  {
+    "key": "background/folded-fan-sculpture",
+    "title": "折りの面が開く白い扇",
+    "name": "折りの面が開く白い扇_背景",
+    "description": "白い厚紙の曲面が扇のように開き、右側の青い折り返しが立体の奥行きを示す。",
+    "kind": "background",
+    "width": 1664,
+    "height": 936,
+    "labels": [],
+    "keywords": [
+      "背景",
+      "白",
+      "青",
+      "質感",
+      "background",
+      "折り",
+      "扇",
+      "紙",
+      "開く",
+      "展開",
+      "選択肢",
+      "事業",
+      "folded",
+      "fan",
+      "expansion"
+    ],
+    "guidance": {
+      "use_case": "事業の展開や選択肢を紹介する資料に、開いていく動きと立体感を添える。",
+      "message": "一つの接点から面が開く形で、展開と広がりを印象づける。",
+      "reading": [
+        "白い厚紙の面が右側で扇のように開き、細かな紙の質感を見せる。",
+        "白い折りの間に青い面が入り、柔らかな影とともに奥行きを強調する。"
+      ]
+    },
+    "source": "media/background/folded-fan-sculpture.png",
+    "preview_path": "previews/background/folded-fan-sculpture.png",
+    "generation": {
+      "method": "image-generation",
+      "prompt": "Use case: precise-object-edit. The supplied image is the target. Preserve its photographic material fidelity and lighting, white and blue colors. Landscape 16:9 opaque background artwork without text, chart, frame, logo or watermark. Make one precise composition edit: translate the entire paper fan sculpture about 200 pixels farther RIGHT in this 1664-pixel-wide picture, allowing more of it to be naturally cropped by the right edge. Do not stretch or distort it; retain the same height, white thick paper surface texture, cobalt central petal, flowing folds and shared lower-right foot. The new LEFTMOST visible tip and its shadow must be to the RIGHT of 55 percent of the image width, about x=920. The first 55 percent of the image is uninterrupted luminous white all the way from top to bottom. Keep the sculpture's large, striking scale on the right. Reconstruct the vacated area as the same even white studio backdrop; do not leave any residual diagonal edge, shadow or paper fragment there."
+    }
+  },
+  {
+    "key": "background/fine-thread-crossing",
+    "title": "繊細な糸が交わる空間",
+    "name": "繊細な糸が交わる空間_背景",
+    "description": "白と青の細い糸が左側の結び目でつながり、繊維の撚りと柔らかな影が奥行きをつくる。",
+    "kind": "background",
+    "width": 1664,
+    "height": 936,
+    "labels": [],
+    "keywords": [
+      "背景",
+      "白",
+      "青",
+      "質感",
+      "background",
+      "糸",
+      "結び目",
+      "交差",
+      "繊維",
+      "つながり",
+      "連携",
+      "協力",
+      "thread",
+      "crossing",
+      "connection"
+    ],
+    "guidance": {
+      "use_case": "部門間の連携や取引先との協力を伝える資料に、つながりの印象を添える。",
+      "message": "細い糸が交わり結ばれる形で、軽やかな関係と協力を表す。",
+      "reading": [
+        "白と青の糸が左側の複数の結び目を介して交わる。",
+        "青い糸は結び目の近くを通り、白い糸と影が淡い白の面へなじむ。"
+      ]
+    },
+    "source": "media/background/fine-thread-crossing.png",
+    "preview_path": "previews/background/fine-thread-crossing.png",
+    "generation": {
+      "method": "image-generation",
+      "prompt": "Use case: precise-object-edit. Edit the supplied image as the only target. Deliver one refined photographic material background, opaque white, landscape 16:9. Preserve the existing exquisite physical material detail, high-end studio light, restrained white and blue color scheme. No text, charts, frames, symbols, furniture, logos or watermark. This is a background artwork, not a finished slide. Recompose the same hand-tied white and cobalt-blue cotton threads so all the crisp saturated blue threads, knots and their shadow stay close to the upper-left and left side of the image. Keep a beautiful dense set of individually twisted fibers and natural believable knots in this left-edge cluster. Remove entirely the long blue threads currently running across the middle to the right edge and down toward the lower center. The blue paths must lead from knot to knot within the left cluster and then exit at the top or left edge, not streak across the white center. A few very fine white threads may soften into the white near the left third. Broad central and right areas are an even luminous white studio surface, without dark fibers or shadows cutting across it. Retain the crafted tactile appeal and depth; do not replace with a flat vector drawing."
+    }
+  },
+  {
+    "key": "background/rippled-ceramic-plane",
+    "title": "浅い波紋が広がる白い陶板",
+    "name": "浅い波紋が広がる白い陶板_背景",
+    "description": "白い陶板に浅い同心円状の凹凸が広がり、一部に青い釉薬が沿う。",
+    "kind": "background",
+    "width": 1664,
+    "height": 936,
+    "labels": [],
+    "keywords": [
+      "背景",
+      "白",
+      "青",
+      "質感",
+      "background",
+      "波紋",
+      "陶器",
+      "広がり",
+      "陶板",
+      "改善",
+      "継続",
+      "波及",
+      "ceramic",
+      "ripple",
+      "continuity"
+    ],
+    "guidance": {
+      "use_case": "改善活動の広がりや継続する取り組みを説明する資料に、静かな波及の印象を添える。",
+      "message": "浅い波紋が繰り返す形で、穏やかな広がりと継続を感じさせる。",
+      "reading": [
+        "白い陶板に緩やかな同心円状の凹凸が連なる。",
+        "一部の円弧に青い釉薬が沿い、表面に細かな艶が見える。"
+      ]
+    },
+    "source": "media/background/rippled-ceramic-plane.png",
+    "preview_path": "previews/background/rippled-ceramic-plane.png",
+    "generation": {
+      "method": "image-generation",
+      "prompt": "Use case: productivity-visual. Create one premium abstract PowerPoint background, a WIDE 16:9 landscape image, 2048 by 1152 composition. A seamless wide matte-white ceramic surface with three broad very shallow concentric relief ripples emanating from a point OUTSIDE lower-left corner. Subtle undulations fill only a quiet part of frame and flatten smoothly into luminous white. A restrained cobalt glaze catches only a short inner rim fragment near lower-left. Macro side-lit porcelain, sophisticated glazes and soft local shadow, no literal water, no central target, no circular text frame. Art direction: white-dominant tactile gallery-quality studio design, precisely nuanced material, soft light, controlled cobalt accents. Make the entire image a seamless unframed landscape composition with subtle depth and broad airy light areas. No text, letters, logos, people, factory scenery, border frames or outlined blank panels. Not an infographic or slide mockup. Opaque background."
+    }
+  },
+  {
+    "key": "background/suspended-metal-flakes",
+    "title": "薄い金属片が浮かぶ余白",
+    "name": "薄い金属片が浮かぶ余白_背景",
+    "description": "白銀と青の薄い金属面が上端と右側で浮かび、柔らかな影を落とす。",
+    "kind": "background",
+    "width": 1664,
+    "height": 936,
+    "labels": [],
+    "keywords": [
+      "背景",
+      "白",
+      "青",
+      "質感",
+      "background",
+      "金属",
+      "薄片",
+      "浮遊",
+      "反射",
+      "metal",
+      "flakes",
+      "技術紹介",
+      "新製品",
+      "軽量",
+      "technology"
+    ],
+    "guidance": {
+      "use_case": "技術や新製品の特長を紹介する資料に、精密な素材感と軽快な印象を添える。",
+      "message": "薄い金属面の精密な質感と浮遊感で、軽さと先進的な印象を添える。",
+      "reading": [
+        "薄い曲面に細かなヘアライン加工が見える。",
+        "上端と右側の金属面が光を反射し、中央から左下へ白い面が広がる。"
+      ]
+    },
+    "source": "media/background/suspended-metal-flakes.png",
+    "preview_path": "previews/background/suspended-metal-flakes.png",
+    "generation": {
+      "method": "image-generation",
+      "prompt": "Use case: productivity-visual. Generate ONE original finished wide horizontal 16:9 opaque PNG artwork for reusable corporate presentation backgrounds. Photographic material realism, precise physical surface detail, refined local studio light, an immaculate white base with restrained blue and cobalt accents. A few precision-cut satin-aluminum flakes, broad gently bent irregular triangular and leaflike shapes, suspended at different shallow depths near the TOP edge and far RIGHT edge on a seamless white field. One flake is anodized cobalt blue and other flakes reflect very subtle blue. Fine brushed metal visible at close scale, believable thin material edges, clean local shadows, airy negative space, editorial premium industrial-material still life. No hexagon grid, ribbons, photo scene or rectangular panels. Preserve a smoothly luminous near-white central field; no dark shadow stripe, high mound or saturated continuous line should divide the center. The material, microtexture, subtle local highlights and shallow dimensional relationships should be the visual attraction, with crisp detailed edges where appropriate, not blur or a generic vector pattern. Keep the composition naturally complete, not a collage or contact sheet. Do not depict any text, numbers, typography, placeholders, text boxes, charts, icons, grids, factory scene, machine, people, brand, logo or watermark. Render only the reusable background artwork, without any sample slide content."
+    }
+  },
+  {
+    "key": "background/frosted-lens-array",
+    "title": "すりガラスの円がつくる静けさ",
+    "name": "すりガラスの円がつくる静けさ_背景",
+    "description": "厚みのあるすりガラスの円盤が右側でずれて重なり、縁に青い屈折光が見える。",
+    "kind": "background",
+    "width": 1664,
+    "height": 936,
+    "labels": [],
+    "keywords": [
+      "背景",
+      "白",
+      "青",
+      "質感",
+      "background",
+      "すりガラス",
+      "円盤",
+      "半透明",
+      "重なり",
+      "frosted glass",
+      "lens",
+      "協業",
+      "比較",
+      "透明感",
+      "comparison"
+    ],
+    "guidance": {
+      "use_case": "協業の方針や複数の選択肢を紹介する資料に、透明感と落ち着いた奥行きを添える。",
+      "message": "半透明の重なりと青い縁で、透明感と落ち着いた奥行きを添える。",
+      "reading": [
+        "淡い青の円盤と下方の無色の円盤が、右端で重なっている。",
+        "すりガラスの細かな表面と明るい縁が、素材の厚みと透明感を見せる。"
+      ]
+    },
+    "source": "media/background/frosted-lens-array.png",
+    "preview_path": "previews/background/frosted-lens-array.png",
+    "generation": {
+      "method": "image-generation",
+      "prompt": "Use case: precise-object-edit. The supplied image is the target. Preserve its photographic material fidelity and lighting, white and blue colors. Landscape 16:9 opaque background artwork without text, chart, frame, logo or watermark. Change only the rear colorless frosted glass disc: translate this rear disc horizontally another 220 pixels toward the RIGHT without changing its diameter, frosting texture, physical thickness or subtle silver bevel. Its entire left rim must now remain within the rightmost third of the image, to the right of x=1130 in this 1664-pixel-wide composition. Keep the front blue frosted lens exactly as it is, with its beautiful blue refraction, delicate beveled edge and overlap. The left two-thirds of the scene stays evenly luminous white all the way to the bottom, with no lingering glass edge or dark shadow. Preserve the sophisticated large partial circles and realistic material, not a flat drawing. More of the rear lens is cropped off the right edge naturally."
+    }
+  },
+  {
+    "key": "background/pressed-fiber-terrain",
+    "title": "紙の繊維がつくる浅い地形",
+    "name": "紙の繊維がつくる浅い地形_背景",
+    "description": "成形紙の白い繊維と浅い凹凸に、部分的な細い青の筋が混じる。",
+    "kind": "background",
+    "width": 1664,
+    "height": 936,
+    "labels": [],
+    "keywords": [
+      "背景",
+      "白",
+      "青",
+      "質感",
+      "background",
+      "紙",
+      "繊維",
+      "成形",
+      "有機的",
+      "pressed fiber",
+      "paper",
+      "資源",
+      "素材開発",
+      "環境",
+      "resource"
+    ],
+    "guidance": {
+      "use_case": "資源の活用や素材開発の取り組みを伝える資料に、自然な手触りを添える。",
+      "message": "自然な繊維の表情と浅い起伏で、触れられる素材感を添える。",
+      "reading": [
+        "紙繊維の浅い凹凸が左側と下端へ広がる。",
+        "部分的な青い筋と白い平面が同じ成形紙の中につながる。"
+      ]
+    },
+    "source": "media/background/pressed-fiber-terrain.png",
+    "preview_path": "previews/background/pressed-fiber-terrain.png",
+    "generation": {
+      "method": "image-generation",
+      "prompt": "Use case: productivity-visual. Generate ONE original finished wide horizontal 16:9 opaque PNG artwork for reusable corporate presentation backgrounds. Photographic material realism, precise physical surface detail, refined local studio light, an immaculate white base with restrained blue and cobalt accents. An overhead macro study of a single seamless sculpted recycled-white paper-pulp sheet with very shallow organic depressions, not wavy strata. Delicate visible cotton fibers and softly rounded terrain concentrated along far left and bottom corners. One narrow cobalt-dyed fiber vein winds through the shallow relief at left. Almost-white premium tactile field with broad quiet spaces, softly raked natural studio light. No literal landscape, maps, dotted lines, frames or rectangles. Preserve a smoothly luminous near-white central field; no dark shadow stripe, high mound or saturated continuous line should divide the center. The material, microtexture, subtle local highlights and shallow dimensional relationships should be the visual attraction, with crisp detailed edges where appropriate, not blur or a generic vector pattern. Keep the composition naturally complete, not a collage or contact sheet. Do not depict any text, numbers, typography, placeholders, text boxes, charts, icons, grids, factory scene, machine, people, brand, logo or watermark. Render only the reusable background artwork, without any sample slide content."
+    }
+  },
+  {
+    "key": "background/opalescent-air-fold",
+    "title": "乳白の薄膜に青がにじむ光",
+    "name": "乳白の薄膜に青がにじむ光_背景",
+    "description": "乳白色の薄い膜が左でふくらみ、淡い青の縁から下方の柔らかな曲面へ広がる。",
+    "kind": "background",
+    "width": 1664,
+    "height": 936,
+    "labels": [],
+    "keywords": [
+      "背景",
+      "白",
+      "青",
+      "質感",
+      "background",
+      "乳白",
+      "薄膜",
+      "光",
+      "半透明",
+      "opalescent",
+      "film",
+      "提案",
+      "方針",
+      "展開",
+      "proposal"
+    ],
+    "guidance": {
+      "use_case": "新しい提案や事業の方向性を紹介する資料に、柔らかな広がりと軽さを添える。",
+      "message": "柔らかい曲面と透過する光で、軽さと穏やかな広がりを添える。",
+      "reading": [
+        "薄い膜が左側でゆるく巻き、淡い青の縁と細かな乳白の面を見せる。",
+        "曲面が下方へ低く流れ、透過する光が白い面になじむ。"
+      ]
+    },
+    "source": "media/background/opalescent-air-fold.png",
+    "preview_path": "previews/background/opalescent-air-fold.png",
+    "generation": {
+      "method": "image-generation",
+      "prompt": "Use case: precise-object-edit. Edit the supplied image as the only target. Deliver one refined photographic material background, opaque white, landscape 16:9. Preserve the existing exquisite physical material detail, high-end studio light, restrained white and blue color scheme. No text, charts, frames, symbols, furniture, logos or watermark. This is a background artwork, not a finished slide. Recompose only the translucent pearl-film membrane so its tall arcing curl and narrow blue edge remain within the left third of the image, gently flowing down into a soft almost-white low fold along the bottom. Move the current bright blue crest around the middle-left clearly leftward, away from the middle. The beautiful folded membrane should retain a substantial broad sculptural curl on the left, micro-frosted texture, opalescent pinpoints and delicate blue reflection. Across the middle and upper-right, the backdrop should be evenly luminous white; no sharply defined blue rim or ridge cuts across the central area. Lower-right can contain a barely visible translucent soft film wash. Preserve paper-thin believable physical material, fine edge and elegant air-filled curvature; no opaque ribbon, no neon, no new objects."
+    }
+  },
+  {
+    "key": "background/precision-shadow-groove",
+    "title": "白い面に走る精密な溝",
+    "name": "白い面に走る精密な溝_背景",
+    "description": "白い面の非常に浅い溝が斜めに走り、端の短い部分に青い光が見える。",
+    "kind": "background",
+    "width": 1664,
+    "height": 936,
+    "labels": [],
+    "keywords": [
+      "背景",
+      "白",
+      "青",
+      "質感",
+      "background",
+      "溝",
+      "精密",
+      "斜め",
+      "白面",
+      "groove",
+      "precision",
+      "設計",
+      "品質",
+      "報告",
+      "quality"
+    ],
+    "guidance": {
+      "use_case": "設計方針や品質活動の報告に、精密で整った素材感を添える。",
+      "message": "浅い溝と精密な表面仕上げで、整った技術的な印象を添える。",
+      "reading": [
+        "白い表面の微細な粒子と、ごく浅い斜めの溝が見える。",
+        "左下の短い青い部分以外は、淡い光と陰影で溝の深さを示す。"
+      ]
+    },
+    "source": "media/background/precision-shadow-groove.png",
+    "preview_path": "previews/background/precision-shadow-groove.png",
+    "generation": {
+      "method": "image-generation",
+      "prompt": "Use case: precise-object-edit. Edit this white micro-machined material background while preserving the photographic fine satin grain, immaculate fabrication quality, very thin bevels and overall wide 16:9 opaque white image. Make the grooves MUCH shallower, almost flush hairline depressions, and eliminate the strong charcoal or grey rims. The upper-left and central field must remain visually continuous white: where the long diagonal grooves approach the central field, their edges are visible only as exceptionally delicate white-on-white microhighlights, never dark rules. Retain three widely spaced subtle precise groove traces as believable machining detail, especially around the outer margins. Shorten the cobalt blue inlay radically: it is a tiny exquisite detail along the extreme lower-left edge only, less than a tenth of the image width, and does not reach inward toward the middle. All other groove interiors are bright white, not gray, and blend into the central white surface. Use material realism, fine surface grain and grazing studio light to create the premium visual appeal without relying on graphic diagonal dividers. No large step, raised panels, thick dark groove, long blue stripe, vignette or central shadow band. No text, logo, frame, ruler ticks, arrows, diagram, symbols or placeholder. Output only the refined reusable corporate background."
+    }
+  },
+  {
+    "key": "background/woven-cell-light",
+    "title": "白い編み目に透ける青い光",
+    "name": "白い編み目に透ける青い光_背景",
+    "description": "細い糸でできた白い編み目が右側に広がり、隙間に淡い青の光が透ける。",
+    "kind": "background",
+    "width": 1664,
+    "height": 936,
+    "labels": [],
+    "keywords": [
+      "背景",
+      "白",
+      "青",
+      "質感",
+      "background",
+      "編み目",
+      "透過",
+      "構造",
+      "布",
+      "woven",
+      "light",
+      "協業",
+      "素材技術",
+      "連携",
+      "collaboration"
+    ],
+    "guidance": {
+      "use_case": "部門や企業の協業、素材技術を紹介する資料に、つながりと柔らかさを添える。",
+      "message": "つながった編み目と透過光で、柔らかな構造感と連なりを添える。",
+      "reading": [
+        "白い糸が交差して、つながった編み目をつくる。",
+        "右側の編み目の隙間に青い光が見え、左側へ白い面が広がる。"
+      ]
+    },
+    "source": "media/background/woven-cell-light.png",
+    "preview_path": "previews/background/woven-cell-light.png",
+    "generation": {
+      "method": "image-generation",
+      "prompt": "Use case: productivity-visual. Generate ONE original finished wide horizontal 16:9 opaque PNG artwork for reusable corporate presentation backgrounds. Photographic material realism, precise physical surface detail, refined local studio light, an immaculate white base with restrained blue and cobalt accents. Macro close-up of a sculptural WHITE open-knit technical textile, its smoothly tensioned broad weave cells forming an organic diagonal patch at the upper-right corner, gradually opening into bright white airy space. A restrained cobalt-blue light glows softly through only a few cells, making depth and translucency visible. Fine yarn fibers and plausible connected interlacing, sophisticated textile engineering aesthetic. No full-page grid, thick braided ribbons, waves, border, frame or text panel. Preserve a smoothly luminous near-white central field; no dark shadow stripe, high mound or saturated continuous line should divide the center. The material, microtexture, subtle local highlights and shallow dimensional relationships should be the visual attraction, with crisp detailed edges where appropriate, not blur or a generic vector pattern. Keep the composition naturally complete, not a collage or contact sheet. Do not depict any text, numbers, typography, placeholders, text boxes, charts, icons, grids, factory scene, machine, people, brand, logo or watermark. Render only the reusable background artwork, without any sample slide content."
+    }
+  }
+]

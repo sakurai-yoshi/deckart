@@ -1,54 +1,52 @@
 {
-  "category": "08-アイコンとピクトグラム",
   "title": "変化点を見つける",
-  "description": "画面上の変化点を拡大し、前後の傾きを詳しく確かめる分析を表す。",
+  "description": "変化の前後を詳しく確かめる。",
   "keywords": [
+    "変化点",
+    "傾向",
     "分析",
     "発見",
-    "示唆",
     "インサイト",
-    "可視化",
-    "データ",
-    "グラフ",
-    "傾向",
+    "trend",
+    "change",
+    "point",
     "analytic",
-    "insight",
-    "data",
-    "analytics"
+    "insight"
   ],
   "labels": [],
-  "width": 330,
-  "height": 280,
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
   "guidance": {
-    "use_case": "業務データの分析や改善の発見を紹介する場面。",
-    "message": "データを詳しく見て、変化の手掛かりをつかむ。",
+    "use_case": "データの変化に注目して原因や改善の手掛かりを探す。",
+    "message": "変化の前後を詳しく確かめる。",
     "reading": [
-      "画面のグラフが分析対象のデータを表す。",
-      "画面上の丸で選んだ折り返し点を、拡大鏡で詳しく確かめる。"
+      "折れ線が前後で変わるデータを表す。",
+      "拡大鏡が折れ曲がる部分へ注意を向ける。"
     ]
   },
-  "kind": "icon",
+  "category": "12-情報・データ",
   "schema_version": 3,
   "id": "icon/analytic-insight",
-  "name": "データ分析_変化点の発見_グラフを読み解く",
+  "name": "変化点を見つける_業務の象徴",
   "license": "CC0-1.0",
   "format": "svg",
   "mime_type": "image/svg+xml",
   "transparent": null,
   "canvas": {
-    "width": 330,
-    "height": 280
+    "width": 160,
+    "height": 160
   },
   "path": "assets/icon/analytic-insight.svg",
   "metadata_path": "metadata/icon/analytic-insight.json",
   "preview_path": "assets/icon/analytic-insight.svg",
   "preview_has_example_labels": false,
-  "search_text": "icon/analytic-insight\nデータ分析_変化点の発見_グラフを読み解く\n変化点を見つける\n業務データの分析や改善の発見を紹介する場面。\nデータを詳しく見て、変化の手掛かりをつかむ。\n画面のグラフが分析対象のデータを表す。\n画面上の丸で選んだ折り返し点を、拡大鏡で詳しく確かめる。\n分析 発見 示唆 インサイト 可視化 データ グラフ 傾向 analytic insight data analytics",
+  "search_text": "icon/analytic-insight\n変化点を見つける_業務の象徴\n変化点を見つける\nデータの変化に注目して原因や改善の手掛かりを探す。\n変化の前後を詳しく確かめる。\n折れ線が前後で変わるデータを表す。\n拡大鏡が折れ曲がる部分へ注意を向ける。\n変化点 傾向 分析 発見 インサイト trend change point analytic insight",
   "render": {
     "theme": true,
     "labels": false,
     "data": false
   },
-  "sha256": "d0ac4c81e413295d4e11f38296cca0117323774cc5fd9248cadd2f08830d7392",
-  "size_bytes": 3646
+  "sha256": "7858fe3670cbead74e7b51466157985167abfc6b2ad3233a4697d2c642a35c3b",
+  "size_bytes": 1057
 }

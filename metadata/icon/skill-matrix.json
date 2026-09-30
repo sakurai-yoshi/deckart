@@ -1,0 +1,52 @@
+{
+  "title": "スキルマップ",
+  "description": "人と能力の対応を見渡す。",
+  "keywords": [
+    "スキルマップ",
+    "多能工",
+    "能力",
+    "習得",
+    "マトリクス",
+    "skill",
+    "matrix",
+    "competency",
+    "cross",
+    "training"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "担当者ごとの習得状況や多能工化を一覧で説明する。",
+    "message": "人と能力の対応を見渡す。",
+    "reading": [
+      "縦の人物と横の区分が人と技能の対応を表す。",
+      "交点のチェックが習得した能力を示す。"
+    ]
+  },
+  "category": "09-組織・人材",
+  "schema_version": 3,
+  "id": "icon/skill-matrix",
+  "name": "スキルマップ_仕事と関係",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/skill-matrix.svg",
+  "metadata_path": "metadata/icon/skill-matrix.json",
+  "preview_path": "assets/icon/skill-matrix.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/skill-matrix\nスキルマップ_仕事と関係\nスキルマップ\n担当者ごとの習得状況や多能工化を一覧で説明する。\n人と能力の対応を見渡す。\n縦の人物と横の区分が人と技能の対応を表す。\n交点のチェックが習得した能力を示す。\nスキルマップ 多能工 能力 習得 マトリクス skill matrix competency cross training",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "baffb0cc3de8e37718d735b7fedac89abdca42c83ef000bdf72b02182f7170ae",
+  "size_bytes": 1118
+}

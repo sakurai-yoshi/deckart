@@ -1,0 +1,51 @@
+{
+  "title": "墜落防止",
+  "description": "装着具を支持点につないで備える。",
+  "keywords": [
+    "墜落",
+    "防止",
+    "ハーネス",
+    "高所",
+    "安全",
+    "fall",
+    "protection",
+    "harness",
+    "anchor"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "高所作業の墜落防止装備を説明する。",
+    "message": "装着具を支持点につないで備える。",
+    "reading": [
+      "交差する幅広い帯が身体を保持する装着具を表す。",
+      "中央から上の支持点につながる線が保持経路を表す。"
+    ]
+  },
+  "category": "07-安全・事業継続",
+  "schema_version": 3,
+  "id": "icon/fall-protection",
+  "name": "墜落防止_設備と働き",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/fall-protection.svg",
+  "metadata_path": "metadata/icon/fall-protection.json",
+  "preview_path": "assets/icon/fall-protection.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/fall-protection\n墜落防止_設備と働き\n墜落防止\n高所作業の墜落防止装備を説明する。\n装着具を支持点につないで備える。\n交差する幅広い帯が身体を保持する装着具を表す。\n中央から上の支持点につながる線が保持経路を表す。\n墜落 防止 ハーネス 高所 安全 fall protection harness anchor",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "9a85d8eef9373bf5606efccfdd278d1b541f766f8a584c274abf73a0cd45a615",
+  "size_bytes": 1052
+}

@@ -1,5 +1,4 @@
 {
-  "category": "07-注釈と見出し",
   "title": "用語と定義を対応させる",
   "description": "左に用語を独立して置き、右に意味と境界を説明する部品。",
   "keywords": [
@@ -69,6 +68,7 @@
       "説明の領域は、用語の意味や範囲を表す。"
     ]
   },
+  "category": "13-説明・伝達",
   "schema_version": 3,
   "id": "part/term-definition",
   "name": "用語と定義を対応させる_説明パーツ",
@@ -91,5 +91,6 @@
     "data": false
   },
   "sha256": "30efdbe02f180bd23a02ee92a4b1df967643ee90df1f228591f64103bc7311cf",
-  "size_bytes": 600
+  "size_bytes": 600,
+  "preview_sha256": "fa668d2d6eca7d1a8780904ccbfb7d8610317d80ce397a397e30e0f5e25d68cd"
 }

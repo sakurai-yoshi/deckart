@@ -1,0 +1,49 @@
+{
+  "title": "権限委譲",
+  "description": "仕事を進める責任と権限を渡す。",
+  "keywords": [
+    "権限委譲",
+    "委任",
+    "任せる",
+    "担当",
+    "delegation",
+    "empowerment",
+    "responsibility"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "担当者へ判断や遂行の権限を委ねる場面を示す。",
+    "message": "仕事を進める責任と権限を渡す。",
+    "reading": [
+      "人物と右の担当票が委ねる相手と仕事を表す。",
+      "渡す経路と担当票のチェックが任せる行為を示す。"
+    ]
+  },
+  "category": "09-組織・人材",
+  "schema_version": 3,
+  "id": "icon/delegation",
+  "name": "権限委譲_仕事と関係",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/delegation.svg",
+  "metadata_path": "metadata/icon/delegation.json",
+  "preview_path": "assets/icon/delegation.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/delegation\n権限委譲_仕事と関係\n権限委譲\n担当者へ判断や遂行の権限を委ねる場面を示す。\n仕事を進める責任と権限を渡す。\n人物と右の担当票が委ねる相手と仕事を表す。\n渡す経路と担当票のチェックが任せる行為を示す。\n権限委譲 委任 任せる 担当 delegation empowerment responsibility",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "cddd2ad97fa951dbb68a2beca7ca1c794c09257a45cfdb8c4b5d25699de16cc3",
+  "size_bytes": 1223
+}

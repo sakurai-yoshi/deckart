@@ -1,0 +1,1746 @@
+[
+  {
+    "key": "illustration/supplier-sample-comparison",
+    "title": "仕入先のサンプルを比較する",
+    "name": "仕入先のサンプルを比較する_業務イラスト",
+    "description": "形と質感の異なる三つの見本を比較票と並べ、調達候補の評価を表す。",
+    "kind": "illustration",
+    "width": 1536,
+    "height": 1024,
+    "labels": [],
+    "composition": {
+      "framing": "object",
+      "facing": "front"
+    },
+    "keywords": [
+      "調達",
+      "仕入先",
+      "比較",
+      "サンプル",
+      "supplier",
+      "sourcing",
+      "evaluation"
+    ],
+    "guidance": {
+      "use_case": "仕入先から届いた材料や加工品の提案を、実物の見本と評価項目で比較する場面。",
+      "message": "見本と情報をそろえ、調達先を選ぶ材料にする。",
+      "reading": [
+        "円柱、成形部品、積層板の見本が、それぞれのケースに収まっている。",
+        "手前の比較票には三つの見本に対応する色と項目が並ぶ。"
+      ]
+    },
+    "source": "media/illustration/supplier-sample-comparison.png",
+    "preview_path": "previews/illustration/supplier-sample-comparison.png",
+    "generation": {
+      "method": "image-generation",
+      "prompt": "Use case: productivity-visual. Create one original standalone transparent PNG editorial illustration for an enterprise PowerPoint asset library. Subject: SUPPLIER OFFER COMPARISON. Three modest upright sample cases opened toward the viewer, each containing a different small material sample: a blue metal cylinder, a white molded corner, a blue layered sheet. One neat comparison clipboard lies in front with three aligned blue rectangular swatches and short navy rules, without letters or numbers. The physical samples and matching row swatches are the central relationship: evaluating multiple suppliers against the same needs. Compact balanced composition, three-quarter view, all objects fully visible with generous transparent margin. Refined flat vector-like ink illustration, consistent clean medium dark navy outlines, white solid object surfaces, cobalt blue accent, pale cool blue only for subtle object shading. Slightly rounded precise geometry, beautifully controlled overlaps, no gradients, no sketch marks, no fake shadows outside objects. No people, symbols floating in space, logos, text, watermark, frame, background plane. True alpha transparent background. The illustration must read clearly when scaled down in a white corporate slide. Generate one finished image, not a sheet or variants."
+    }
+  },
+  {
+    "key": "illustration/dual-source-readiness",
+    "title": "同じ部品を複数の調達先から備える",
+    "name": "同じ部品を複数の調達先から備える_業務イラスト",
+    "description": "識別印の違う二つの箱と共通の部品で、複数調達の備えを表す。",
+    "kind": "illustration",
+    "width": 1536,
+    "height": 1024,
+    "labels": [],
+    "composition": {
+      "framing": "object",
+      "facing": "front"
+    },
+    "keywords": [
+      "調達",
+      "複数購買",
+      "供給網",
+      "部品",
+      "dual sourcing",
+      "supply resilience"
+    ],
+    "guidance": {
+      "use_case": "一つの調達先に依存せず、同じ部品を複数の仕入先から用意する方針を説明する場面。",
+      "message": "調達先を分けて、同じ部品を備える。",
+      "reading": [
+        "印の異なる二つの箱に、同じ形の青い部品が収まっている。",
+        "箱の間に置かれた部品が、両方に共通する調達対象を示す。"
+      ]
+    },
+    "source": "media/illustration/dual-source-readiness.png",
+    "preview_path": "previews/illustration/dual-source-readiness.png",
+    "generation": {
+      "method": "image-generation",
+      "prompt": "Use case: productivity-visual. Create ONE original transparent PNG enterprise presentation illustration. Subject: Two separate open sturdy white delivery cartons side by side, both contain IDENTICAL blue cylindrical couplings carefully fitted into cardboard dividers. Their attached packing cards have different simple blue geometric header emblems, no words. One identical loose coupling sits between them. Emphasize the same required part from two distinguishable packages. Style: refined contemporary flat editorial illustration, crisp consistent dark navy outlines, SOLID OPAQUE WHITE object/skin surfaces, cobalt blue accents and very subtle pale blue shading. Simplicity, visual hierarchy and accurate anatomy/physical connections matter more than detail. Compact composition with generous true transparent margin; every object fully inside canvas, readable at 180px wide. No background, floor rectangle, cast shadows outside objects, border, logo, watermark, readable text, lettering or numbers. Not a collage or asset sheet; a single purposeful scene. True alpha transparency."
+    }
+  },
+  {
+    "key": "illustration/purchase-negotiation",
+    "title": "条件を確認しながら商談する",
+    "name": "条件を確認しながら商談する_業務イラスト",
+    "description": "机上の見積資料を示して話す人と、内容を検討する相手を描いた商談の場面。",
+    "kind": "illustration",
+    "width": 1536,
+    "height": 1024,
+    "labels": [],
+    "composition": {
+      "framing": "waist-up",
+      "facing": "inward",
+      "people_count": 2
+    },
+    "keywords": [
+      "調達",
+      "交渉",
+      "商談",
+      "条件",
+      "negotiation",
+      "purchasing"
+    ],
+    "guidance": {
+      "use_case": "見積内容を一緒に確認し、価格や納期などの取引条件を話し合う場面。",
+      "message": "共通の資料を見ながら、条件をすり合わせる。",
+      "reading": [
+        "二人が机を挟み、項目の並んだ見積資料へ向き合っている。",
+        "一人が資料を指して説明し、もう一人が考えながら聞いている。"
+      ]
+    },
+    "source": "media/illustration/purchase-negotiation.png",
+    "preview_path": "previews/illustration/purchase-negotiation.png",
+    "generation": {
+      "method": "image-generation",
+      "prompt": "Use case: productivity-visual. Create ONE original transparent PNG enterprise presentation illustration. Subject: Two business colleagues seated facing across a small uncluttered table, a woman in blue jacket and man in white shirt. Between them one sample bracket and one open quote sheet with simple rules. One points at one row with relaxed anatomically coherent arm; the other listens with one hand resting on table. Waist-up compact scene, visible hands with five fingers, two arms per person, no exaggerated handshake. Style: refined contemporary flat editorial illustration, crisp consistent dark navy outlines, SOLID OPAQUE WHITE object/skin surfaces, cobalt blue accents and very subtle pale blue shading. Simplicity, visual hierarchy and accurate anatomy/physical connections matter more than detail. Compact composition with generous true transparent margin; every object fully inside canvas, readable at 180px wide. No background, floor rectangle, cast shadows outside objects, border, logo, watermark, readable text, lettering or numbers. Not a collage or asset sheet; a single purposeful scene. True alpha transparency."
+    }
+  },
+  {
+    "key": "illustration/demand-forecast-review",
+    "title": "需要の見通しを検討する",
+    "name": "需要の見通しを検討する_業務イラスト",
+    "description": "実績と予測を描き分けた棒グラフを見ながら、今後の予定を考える人。",
+    "kind": "illustration",
+    "width": 1536,
+    "height": 1024,
+    "labels": [],
+    "composition": {
+      "framing": "waist-up",
+      "facing": "down",
+      "people_count": 1
+    },
+    "keywords": [
+      "需要予測",
+      "販売計画",
+      "見通し",
+      "forecast",
+      "demand",
+      "planning"
+    ],
+    "guidance": {
+      "use_case": "過去の実績と今後の見通しを区別し、販売や生産の予定を検討する場面。",
+      "message": "実績を踏まえて、これからの需要を見通す。",
+      "reading": [
+        "手にした資料では、濃い棒の後に点線枠の棒が続き、実績と予測を描き分けている。",
+        "資料を見て考える姿勢と卓上カレンダーが、先の計画を検討する場面を示す。"
+      ]
+    },
+    "source": "media/illustration/demand-forecast-review.png",
+    "preview_path": "previews/illustration/demand-forecast-review.png",
+    "generation": {
+      "method": "image-generation",
+      "prompt": "Use case: productivity-visual. Create ONE original transparent PNG enterprise presentation illustration. Subject: One thoughtful woman at desk holding a printed sheet with a simple chart: four navy solid vertical bars followed by two pale blue dashed-outline future bars. Her other hand rests beside a modest calendar on the desk. Express reviewing a forecast, not a guaranteed upward trend. Charts without letters or numbers. Cropped waist-up. Style: refined contemporary flat editorial illustration, crisp consistent dark navy outlines, SOLID OPAQUE WHITE object/skin surfaces, cobalt blue accents, pale blue simple flat shading. Precise drawing with clear silhouette and compact balanced composition, all objects fully visible with generous transparent margins. Meaning reads at 180px wide. Anatomically coherent shoulders, elbows, wrists and natural hands. No floor rectangle, cast shadows outside objects, background, border, logo, watermark, readable text, lettering or numbers. Not a collage or sheet, one scene. Genuine alpha transparency, opaque white interiors."
+    }
+  },
+  {
+    "key": "illustration/cash-flow-planning",
+    "title": "入出金のタイミングを考える",
+    "name": "入出金のタイミングを考える_業務イラスト",
+    "description": "カレンダー、紙幣、硬貨を組み合わせ、日程と金額の両面から資金繰りを考える構成。",
+    "kind": "illustration",
+    "width": 1536,
+    "height": 1024,
+    "labels": [],
+    "composition": {
+      "framing": "object",
+      "facing": "front"
+    },
+    "keywords": [
+      "資金繰り",
+      "現金",
+      "入出金",
+      "支払",
+      "cash flow",
+      "liquidity"
+    ],
+    "guidance": {
+      "use_case": "入金と支払いの時期を確認し、必要な資金をいつ用意するか説明する場面。",
+      "message": "金額だけでなく、資金が動く時期を考える。",
+      "reading": [
+        "卓上カレンダーの両脇に紙幣の束があり、手前には硬貨とペンが置かれている。",
+        "日程を表すカレンダーと金銭を組み合わせ、資金計画の二つの要素を示す。"
+      ]
+    },
+    "source": "media/illustration/cash-flow-planning.png",
+    "preview_path": "previews/illustration/cash-flow-planning.png",
+    "generation": {
+      "method": "image-generation",
+      "prompt": "Use case: productivity-visual. Create ONE original transparent PNG enterprise presentation illustration. Subject: A blue and white desktop weekly planner with blank grid, two small separate neat trays holding abstract unmarked banknotes, and several stacks of plain coin disks grouped near calendar positions. A capped navy pen lies diagonally in foreground. Clear financial planning still-life, compact silhouette, no currency logos, no floating arrows. Style: refined contemporary flat editorial illustration, crisp consistent dark navy outlines, SOLID OPAQUE WHITE object/skin surfaces, cobalt blue accents, pale blue simple flat shading. Precise drawing with clear silhouette and compact balanced composition, all objects fully visible with generous transparent margins. Meaning reads at 180px wide. Anatomically coherent shoulders, elbows, wrists and natural hands. No floor rectangle, cast shadows outside objects, background, border, logo, watermark, readable text, lettering or numbers. Not a collage or sheet, one scene. Genuine alpha transparency, opaque white interiors."
+    }
+  },
+  {
+    "key": "illustration/investment-evaluation",
+    "title": "設備への投資を検討する",
+    "name": "設備への投資を検討する_業務イラスト",
+    "description": "装置、電卓、見積資料を前に考える人を描き、設備投資の検討を表す。",
+    "kind": "illustration",
+    "width": 1312,
+    "height": 1199,
+    "labels": [],
+    "composition": {
+      "framing": "waist-up",
+      "facing": "down",
+      "people_count": 1
+    },
+    "keywords": [
+      "設備投資",
+      "投資評価",
+      "予算",
+      "ROI",
+      "capital investment"
+    ],
+    "guidance": {
+      "use_case": "設備導入の提案で、購入対象と見積金額を見比べながら投資を検討する場面。",
+      "message": "導入するものと費用を一緒に見て判断する。",
+      "reading": [
+        "小型の装置と電卓が、見積資料を持つ人の前に置かれている。",
+        "顎に手を添えた姿勢が、資料の内容を検討していることを示す。"
+      ]
+    },
+    "source": "media/illustration/investment-evaluation.png",
+    "preview_path": "previews/illustration/investment-evaluation.png",
+    "generation": {
+      "method": "image-generation",
+      "prompt": "Use case: productivity-visual. Create ONE original transparent PNG enterprise presentation illustration. Subject: A small precise white and cobalt enclosed benchtop device model with a clean front door, beside a blue calculator and one clipped cost sheet with horizontal rules. A thoughtful man half-body behind these objects studies the sheet with one open hand near the device, other arm resting naturally. Equipment remains generic, no factory scenery. Style: refined contemporary flat editorial illustration, crisp consistent dark navy outlines, solid opaque WHITE object and skin surfaces, cobalt blue accents and pale blue simple flat shading. Precise clean physical geometry, coherent anatomy and minimal objects. Compact composition with all objects fully visible, generous true transparent margins, readable at 180px wide. No scenery, floor rectangle, external cast shadows, border, logo, watermark, readable letters or numbers. One purposeful scene, not sheet."
+    }
+  },
+  {
+    "key": "illustration/invoice-reconciliation",
+    "title": "請求書と受領記録を照合する",
+    "name": "請求書と受領記録を照合する_業務イラスト",
+    "description": "対応する行を青く示した二枚の書類と、照合作業に使う定規・ペン。",
+    "kind": "illustration",
+    "width": 1536,
+    "height": 1024,
+    "labels": [],
+    "composition": {
+      "framing": "object",
+      "facing": "front"
+    },
+    "keywords": [
+      "請求",
+      "照合",
+      "受領",
+      "経理",
+      "invoice",
+      "reconciliation"
+    ],
+    "guidance": {
+      "use_case": "請求内容と受領記録を照らし合わせ、対応する項目や金額を確認する場面。",
+      "message": "二つの記録を対応させて内容を確かめる。",
+      "reading": [
+        "同じ行構成の書類を二枚並べ、それぞれの対応する行を青く強調している。",
+        "定規とペンが、項目を追いながら照合する作業を添えている。"
+      ]
+    },
+    "source": "media/illustration/invoice-reconciliation.png",
+    "preview_path": "previews/illustration/invoice-reconciliation.png",
+    "generation": {
+      "method": "image-generation",
+      "prompt": "Use case: productivity-visual. Create ONE original transparent PNG enterprise presentation illustration. Subject: Two sheets side by side on a subtle diagonal, each has three aligned horizontal rows. Matching blue bands highlight the middle row on BOTH sheets. One short blue ruler rests across their lower edges and one navy pen lies beside them. No check badges, no letters or digits. Crisp correspondence between documents. Style: refined contemporary flat editorial illustration, crisp consistent dark navy outlines, solid opaque WHITE object and skin surfaces, cobalt blue accents and pale blue simple flat shading. Precise clean physical geometry, coherent anatomy and minimal objects. Compact composition with all objects fully visible, generous true transparent margins, readable at 180px wide. No scenery, floor rectangle, external cast shadows, border, logo, watermark, readable letters or numbers. One purposeful scene, not sheet."
+    }
+  },
+  {
+    "key": "illustration/expense-receipt-check",
+    "title": "領収書をまとめて精算する",
+    "name": "領収書をまとめて精算する_業務イラスト",
+    "description": "区画に整理した領収書、カード、一覧票を組み合わせた経費精算の構成。",
+    "kind": "illustration",
+    "width": 1536,
+    "height": 1024,
+    "labels": [],
+    "composition": {
+      "framing": "object",
+      "facing": "front"
+    },
+    "keywords": [
+      "経費",
+      "精算",
+      "領収書",
+      "費用",
+      "expense",
+      "reimbursement"
+    ],
+    "guidance": {
+      "use_case": "経費精算の説明で、支出を示す領収書を集めて一覧と確認する場面。",
+      "message": "支出の記録をまとめ、精算内容を確かめる。",
+      "reading": [
+        "開いたケースの区画に複数の領収書が収まっている。",
+        "ケースの前にカードと一覧票があり、支払いと集計の関係を示す。"
+      ]
+    },
+    "source": "media/illustration/expense-receipt-check.png",
+    "preview_path": "previews/illustration/expense-receipt-check.png",
+    "generation": {
+      "method": "image-generation",
+      "prompt": "Use case: productivity-visual. Create ONE original transparent PNG enterprise presentation illustration. Subject: A white folding expense wallet with blue lining lies open, holding three narrow receipts with simple navy horizontal rules and serrated bottoms. Next to it a small white payment card with a blue chip rectangle, and a neat summary sheet with three matching short rows. No real card numbers, logos or readable text. Style: refined flat editorial illustration with precise dark navy outlines, solid opaque white surfaces and white stylized skin, cobalt blue accents, subtle flat pale blue shading. Clean clear silhouette; compact composition, complete subjects with generous transparent margin. Correct physical object connections and human anatomy. No background plane, no shadows outside objects, no gradients, logos, watermark, readable text, letters or numbers. Single finished purposeful scene, not a sheet. Alpha transparent backdrop."
+    }
+  },
+  {
+    "key": "illustration/product-demonstration",
+    "title": "実物を見せて使い方を説明する",
+    "name": "実物を見せて使い方を説明する_業務イラスト",
+    "description": "製品の操作部を指して説明する人と、資料を持って聞く相手。",
+    "kind": "illustration",
+    "width": 1536,
+    "height": 1024,
+    "labels": [],
+    "composition": {
+      "framing": "waist-up",
+      "facing": "inward",
+      "people_count": 2
+    },
+    "keywords": [
+      "実演",
+      "製品説明",
+      "顧客",
+      "提案",
+      "demonstration",
+      "customer"
+    ],
+    "guidance": {
+      "use_case": "製品紹介や導入説明で、実物の操作箇所を示しながら使い方を伝える場面。",
+      "message": "実物を見せて、使い方を共有する。",
+      "reading": [
+        "一人が台に置いた製品の丸い操作部を指している。",
+        "相手は資料を持ち、製品と説明する人に目を向けている。"
+      ]
+    },
+    "source": "media/illustration/product-demonstration.png",
+    "preview_path": "previews/illustration/product-demonstration.png",
+    "generation": {
+      "method": "image-generation",
+      "prompt": "Use case: productivity-visual. Create ONE original transparent PNG enterprise presentation illustration. Subject: A friendly woman in cobalt jacket demonstrates a compact white rectangular portable device on a small tabletop to a man in white shirt. She points with one index finger near ONE blue round control on device, while other hand rests at edge. Customer watches attentively holding a plain brochure low. Both shown waist-up, natural separate two arms each; avoid fingers merging with machine. Style: refined flat editorial illustration with precise dark navy outlines, solid opaque white surfaces and white stylized skin, cobalt blue accents, subtle flat pale blue shading. Clean clear silhouette; compact composition, complete subjects with generous transparent margin. Correct physical object connections and human anatomy. No background plane, no shadows outside objects, no gradients, logos, watermark, readable text, letters or numbers. Single finished purposeful scene, not a sheet. Alpha transparent backdrop."
+    }
+  },
+  {
+    "key": "illustration/after-sales-repair",
+    "title": "使っている製品を修理する",
+    "name": "使っている製品を修理する_業務イラスト",
+    "description": "製品のカバーを外し、内部の部品を扱う作業者を描いた修理の場面。",
+    "kind": "illustration",
+    "width": 1536,
+    "height": 1024,
+    "labels": [],
+    "composition": {
+      "framing": "waist-up",
+      "facing": "down",
+      "people_count": 1
+    },
+    "keywords": [
+      "修理",
+      "アフターサービス",
+      "顧客対応",
+      "repair",
+      "after sales"
+    ],
+    "guidance": {
+      "use_case": "購入後のサポートや保守の説明で、使っている製品の内部を点検・修理する場面。",
+      "message": "製品の中を確かめ、使い続けるために手を入れる。",
+      "reading": [
+        "作業者が開いた製品を片手で支え、もう一方の手で青い部品を扱っている。",
+        "取り外したカバーと工具が脇に置かれ、修理の途中であることを示す。"
+      ]
+    },
+    "source": "media/illustration/after-sales-repair.png",
+    "preview_path": "previews/illustration/after-sales-repair.png",
+    "generation": {
+      "method": "image-generation",
+      "prompt": "Use case: productivity-visual. One original transparent PNG illustration for enterprise PowerPoint. Subject: One skilled woman in clean white and blue work jacket at bench carefully replacing a small removable blue component in an OPEN portable white device. Detached cover sits to left, ONE screwdriver lies on mat right. Her left hand steadies chassis and right hand holds component directly over its matching rectangular socket. Anatomically clean fingers and coherent device geometry, waist-up. Design: polished flat editorial drawing with crisp dark navy contours, solid opaque white surfaces and stylized white skin, cobalt blue accents, pale blue restrained flat shading. Each person's two arms, elbows, wrists and fingers must connect correctly; correct hand-object contact and no extra fingers. Compact composition, full scene within generous transparent margin, clear at slide scale. No background, floor rectangle, external shadows, text, letters, logos, watermarks, numbers or decorative floating icons. One scene, not collage."
+    }
+  },
+  {
+    "key": "illustration/customer-requirements-review",
+    "title": "顧客の要望を具体物で確認する",
+    "name": "顧客の要望を具体物で確認する_業務イラスト",
+    "description": "色見本を示す人と確認項目のボードを持つ相手が、要望をすり合わせる場面。",
+    "kind": "illustration",
+    "width": 1536,
+    "height": 1024,
+    "labels": [],
+    "composition": {
+      "framing": "waist-up",
+      "facing": "inward",
+      "people_count": 2
+    },
+    "keywords": [
+      "顧客要望",
+      "要求",
+      "仕様",
+      "ヒアリング",
+      "requirements",
+      "customer needs"
+    ],
+    "guidance": {
+      "use_case": "打合せで色や仕上げの見本を見ながら、顧客が求める条件を具体化する場面。",
+      "message": "見本を一緒に見て、求める内容を確かめる。",
+      "reading": [
+        "二人の間に色の異なる見本帳が扇状に開かれ、一人がその一枚を指している。",
+        "もう一人は確認項目のあるボードを持ち、相手の選択を聞いている。"
+      ]
+    },
+    "source": "media/illustration/customer-requirements-review.png",
+    "preview_path": "previews/illustration/customer-requirements-review.png",
+    "generation": {
+      "method": "image-generation",
+      "prompt": "Use case: productivity-visual. One original transparent PNG illustration for enterprise PowerPoint. Subject: Two colleagues seated together facing three-quarter toward viewer, discussing a small material swatch fan on desk. Customer points to one blue swatch; specialist holds a clipboard with three simple unchecked square boxes. Other hands rest naturally; no overlapping arms. Two figures in varied simple business shirts, friendly attentive expressions, upper bodies. Design: polished flat editorial drawing with crisp dark navy contours, solid opaque white surfaces and stylized white skin, cobalt blue accents, pale blue restrained flat shading. Each person's two arms, elbows, wrists and fingers must connect correctly; correct hand-object contact and no extra fingers. Compact composition, full scene within generous transparent margin, clear at slide scale. No background, floor rectangle, external shadows, text, letters, logos, watermarks, numbers or decorative floating icons. One scene, not collage."
+    }
+  },
+  {
+    "key": "illustration/service-appointment",
+    "title": "点検の予定を予約する",
+    "name": "点検の予定を予約する_業務イラスト",
+    "description": "カレンダーを表示した端末、対応する予約票、小型機器で点検予約を表す。",
+    "kind": "illustration",
+    "width": 1278,
+    "height": 1230,
+    "labels": [],
+    "composition": {
+      "framing": "object",
+      "facing": "front"
+    },
+    "keywords": [
+      "予約",
+      "点検",
+      "サービス",
+      "日程",
+      "appointment",
+      "service"
+    ],
+    "guidance": {
+      "use_case": "点検や訪問サービスを申し込む流れで、対象と予約日を確認する場面。",
+      "message": "サービスを受ける対象と日程をそろえる。",
+      "reading": [
+        "端末のカレンダーと手前の予約票で、同じ青い枠の一日を示している。",
+        "隣の小型機器が、予約するサービスの対象を添えている。"
+      ]
+    },
+    "source": "media/illustration/service-appointment.png",
+    "preview_path": "previews/illustration/service-appointment.png",
+    "generation": {
+      "method": "image-generation",
+      "prompt": "Use case: productivity-visual. One original transparent PNG illustration for enterprise PowerPoint. Subject: A white smartphone propped vertically shows an uncluttered calendar grid with one blue outlined cell, beside a small white portable device with one cobalt control. A clipped appointment ticket lies at base, matching one blue square. All text-free. The phone and device are clearly separate; compact three-quarter product still-life. Style: refined flat editorial ink drawing, dark navy contours, solid white surfaces, cobalt blue accent, pale blue flat shading. No glossy rendering or photorealism. Prioritize correct anatomy, hand-object contacts and physically coherent geometry. Entire compact scene inside generous transparent margin, legible at 180px. No scenery, external cast shadows, floor, readable text, letters, numbers, logo, watermark or decorative floating icons. Real alpha transparency."
+    }
+  },
+  {
+    "key": "illustration/newcomer-orientation",
+    "title": "新しい仲間を職場へ案内する",
+    "name": "新しい仲間を職場へ案内する_業務イラスト",
+    "description": "机と仕事道具を示す案内役と、手帳を持って説明を聞く人。",
+    "kind": "illustration",
+    "width": 1312,
+    "height": 1199,
+    "labels": [],
+    "composition": {
+      "framing": "full-body",
+      "facing": "front",
+      "people_count": 2
+    },
+    "keywords": [
+      "入社",
+      "受け入れ",
+      "案内",
+      "オンボーディング",
+      "onboarding",
+      "orientation"
+    ],
+    "guidance": {
+      "use_case": "新しく加わった人に仕事を始める場所や道具を紹介し、受け入れの流れを説明する場面。",
+      "message": "仕事を始められるよう、身近な環境から案内する。",
+      "reading": [
+        "案内する人が、端末と資料を置いた机へ手を向けている。",
+        "相手は手帳を持って案内を聞き、二人の間に会話が生まれている。"
+      ]
+    },
+    "source": "media/illustration/newcomer-orientation.png",
+    "preview_path": "previews/illustration/newcomer-orientation.png",
+    "generation": {
+      "method": "image-generation",
+      "prompt": "Use case: productivity-visual. One original transparent PNG illustration for enterprise PowerPoint. Subject: Two standing colleagues, one experienced woman in blue cardigan gesturing open palm toward a simple desk with a laptop and tidy document tray; newcomer man holds a small notebook at chest. Friendly welcoming interaction, distinct from formal presentation. Three-quarter full figures visible, natural legs and two arms each. Minimal desk objects, no room background. Style: refined flat editorial ink drawing, dark navy contours, solid white surfaces, cobalt blue accent, pale blue flat shading. No glossy rendering or photorealism. Prioritize correct anatomy, hand-object contacts and physically coherent geometry. Entire compact scene inside generous transparent margin, legible at 180px. No scenery, external cast shadows, floor, readable text, letters, numbers, logo, watermark or decorative floating icons. Real alpha transparency."
+    }
+  },
+  {
+    "key": "illustration/work-handover",
+    "title": "仕事の情報と道具を引き継ぐ",
+    "name": "仕事の情報と道具を引き継ぐ_業務イラスト",
+    "description": "机上のファイルを挟んで鍵を受け渡す二人で、担当交代時の引き継ぎを表す。",
+    "kind": "illustration",
+    "width": 1536,
+    "height": 1024,
+    "labels": [],
+    "composition": {
+      "framing": "waist-up",
+      "facing": "inward",
+      "people_count": 2
+    },
+    "keywords": [
+      "引き継ぎ",
+      "異動",
+      "継承",
+      "担当交代",
+      "handover",
+      "succession"
+    ],
+    "guidance": {
+      "use_case": "担当者が替わるときに、必要な情報と業務に使う物を受け渡す場面。",
+      "message": "情報と道具を渡し、次の担当へ仕事をつなぐ。",
+      "reading": [
+        "一人が鍵を差し出し、相手が手を広げて受け取ろうとしている。",
+        "二人の間には青いファイルが置かれ、道具と記録の引き継ぎを示す。"
+      ]
+    },
+    "source": "media/illustration/work-handover.png",
+    "preview_path": "previews/illustration/work-handover.png",
+    "generation": {
+      "method": "image-generation",
+      "prompt": "Use case: productivity-visual. One original transparent PNG illustration for enterprise PowerPoint. Subject: Two colleagues waist-up, outgoing woman on left places a blue folder on table, incoming man on right receives a simple key ring with one key in an open palm over the folder. Four hands clearly separated, each anatomically connected to its own wrist and elbow. Calm professional transfer of responsibility, not a handshake. Navy outline white faces blue clothing accents. Style: refined flat editorial ink drawing, dark navy contours, solid WHITE surfaces and white stylized skin, cobalt blue clothing accent, pale blue subtle flat shading. White, navy and blue limited palette. Highly accurate hand anatomy and connected shoulders/elbows/wrists, correct hand-object contact. Entire compact scene inside generous transparent margin, readable at small slide scale. No scenery, external cast shadow, floor rectangle, readable text, letters, numbers, logo, watermark, floating symbols. One purposeful scene, not sheet."
+    }
+  },
+  {
+    "key": "illustration/skill-practice",
+    "title": "基本動作を繰り返し練習する",
+    "name": "基本動作を繰り返し練習する_業務イラスト",
+    "description": "治具を支えてねじ締めを練習する作業者と、脇に用意されたねじのトレー。",
+    "kind": "illustration",
+    "width": 1312,
+    "height": 1199,
+    "labels": [],
+    "composition": {
+      "framing": "waist-up",
+      "facing": "down",
+      "people_count": 1
+    },
+    "keywords": [
+      "技能",
+      "訓練",
+      "実習",
+      "練習",
+      "skill",
+      "practice"
+    ],
+    "guidance": {
+      "use_case": "作業教育や技能育成で、道具の扱いを実物に触れて練習する場面。",
+      "message": "基本の動作を実際に行い、技能を身につける。",
+      "reading": [
+        "作業者が片手で治具を支え、もう一方の手でドライバーを垂直に当てている。",
+        "脇の小さなトレーにねじがあり、繰り返す練習の準備を示す。"
+      ]
+    },
+    "source": "media/illustration/skill-practice.png",
+    "preview_path": "previews/illustration/skill-practice.png",
+    "generation": {
+      "method": "image-generation",
+      "prompt": "Use case: productivity-visual. One original transparent PNG illustration for enterprise PowerPoint. Subject: A focused young worker in white and blue work jacket at small bench turning a blue-handled screwdriver vertically into ONE screw in a simple practice block. Left hand rests at safe side steadying block; right hand grips screwdriver naturally. Two spare screws aligned on small blue tray beside block. Upper-body view, coherent shoulders elbows wrists, careful practical learning. Style: refined flat editorial ink drawing, dark navy contours, solid WHITE surfaces and white stylized skin, cobalt blue clothing accent, pale blue subtle flat shading. White, navy and blue limited palette. Highly accurate hand anatomy and connected shoulders/elbows/wrists, correct hand-object contact. Entire compact scene inside generous transparent margin, readable at small slide scale. No scenery, external cast shadow, floor rectangle, readable text, letters, numbers, logo, watermark, floating symbols. One purposeful scene, not sheet."
+    }
+  },
+  {
+    "key": "illustration/inclusive-collaboration",
+    "title": "異なる立場の人が一緒に考える",
+    "name": "異なる立場の人が一緒に考える_業務イラスト",
+    "description": "三人が机を囲んで資料を共有する、参加の形が異なる人同士の協働。",
+    "kind": "illustration",
+    "width": 1536,
+    "height": 1024,
+    "labels": [],
+    "composition": {
+      "framing": "full-body",
+      "facing": "inward",
+      "people_count": 3
+    },
+    "keywords": [
+      "協働",
+      "包摂",
+      "参加",
+      "多様性",
+      "inclusion",
+      "collaboration"
+    ],
+    "guidance": {
+      "use_case": "チームづくりや会議の進め方を説明し、さまざまな人が意見を持ち寄る場面。",
+      "message": "それぞれが同じ話題に参加し、考えを共有する。",
+      "reading": [
+        "椅子と車椅子に座る二人、資料を持つ一人が同じ机を囲んでいる。",
+        "視線が共有する資料と話す人へ向かい、話合いへの参加を示す。"
+      ]
+    },
+    "source": "media/illustration/inclusive-collaboration.png",
+    "preview_path": "previews/illustration/inclusive-collaboration.png",
+    "generation": {
+      "method": "image-generation",
+      "prompt": "Use case: productivity-visual. One original transparent PNG illustration for enterprise PowerPoint. Subject: Three diverse adult coworkers around one shallow semi-oval table, one woman standing at back presenting a single sheet, one seated man at left and a woman in a wheelchair at right with clear coherent wheel and footrest. All at equal conversational eye line where practical; white and blue professional attire. Only three people, six arms with hands resting simply, no celebratory gestures, no room background. Style: refined flat editorial ink drawing with navy contours, solid white surfaces, cobalt blue accent, pale blue flat shading. Natural professional adults with clearly connected shoulders/elbows/wrists and clean fingers. Physical furniture plausible. Compact complete scene in generous transparent margin, recognizable small. No background, floor rectangle, external cast shadows, readable text, logos, numbers, watermark or decorative icons. True alpha transparency."
+    }
+  },
+  {
+    "key": "illustration/focused-work",
+    "title": "一つの仕事に集中する",
+    "name": "一つの仕事に集中する_業務イラスト",
+    "description": "ノートを手元に置き、端末へ向かって作業する一人の姿。",
+    "kind": "illustration",
+    "width": 1536,
+    "height": 1024,
+    "labels": [],
+    "composition": {
+      "framing": "full-body",
+      "facing": "down",
+      "people_count": 1
+    },
+    "keywords": [
+      "集中",
+      "個人作業",
+      "執務",
+      "focus",
+      "deep work"
+    ],
+    "guidance": {
+      "use_case": "仕事の進め方や執務環境を紹介し、一つの作業に落ち着いて取り組む場面。",
+      "message": "目の前の仕事へ注意を向けて進める。",
+      "reading": [
+        "机に向かう人が端末へ視線を落とし、両手をキーボードに置いている。",
+        "机上に置いたノートが、参照や記録を伴う個人作業を添えている。"
+      ]
+    },
+    "source": "media/illustration/focused-work.png",
+    "preview_path": "previews/illustration/focused-work.png",
+    "generation": {
+      "method": "image-generation",
+      "prompt": "Use case: precise-object-edit. Repair this illustration's clipped bottom. Keep the same woman, face, hair, clothing, seated typing pose, hands, laptop, notebook, desk and editorial blue/navy/white drawing style. Widen the framing vertically so her COMPLETE seated body, both legs and shoes, the COMPLETE chair with its base and the COMPLETE desk legs are visible, with generous transparent margin below and around ALL objects. Correct natural leg and furniture anatomy. Do not add other objects, background, floor plane, shadows, text or symbols. This is a reusable standalone transparent corporate illustration; preserve real alpha transparency. Do not crop any object at canvas edges."
+    }
+  },
+  {
+    "key": "illustration/rest-and-recovery",
+    "title": "作業の合間に体をほぐす",
+    "name": "作業の合間に体をほぐす_業務イラスト",
+    "description": "椅子に座り、伸ばした腕へ手を添えて肩まわりをほぐす人。",
+    "kind": "illustration",
+    "width": 1024,
+    "height": 1536,
+    "labels": [],
+    "composition": {
+      "framing": "full-body",
+      "facing": "front",
+      "people_count": 1
+    },
+    "keywords": [
+      "休憩",
+      "健康",
+      "リフレッシュ",
+      "疲労",
+      "recovery",
+      "wellbeing"
+    ],
+    "guidance": {
+      "use_case": "働き方や休憩の取り方を紹介し、作業の合間に体を動かす場面。",
+      "message": "仕事の合間にひと息入れ、体をほぐす。",
+      "reading": [
+        "椅子に座った人が一方の腕を横へ伸ばしている。",
+        "もう一方の手を上腕に添え、肩まわりを伸ばす動作を示す。"
+      ]
+    },
+    "source": "media/illustration/rest-and-recovery.png",
+    "preview_path": "previews/illustration/rest-and-recovery.png",
+    "generation": {
+      "method": "image-generation",
+      "prompt": "Use case: productivity-visual. One original transparent PNG illustration for enterprise PowerPoint. Subject: A calm office worker seated on a simple blue chair, making a gentle shoulder stretch: right arm extended across chest, left forearm supports it just above elbow. Two arms only, wrists and fingers correct. Feet flat on implied ground but no floor drawn, relaxed face, white shirt navy trousers, full seated figure with generous margins. Convey short restorative break without medical claims. Design: refined editorial illustration, crisp navy outlines, opaque white and cobalt blue primary colors, subtle flat pale blue shading. Precise human anatomy: two connected arms per person, correct elbow bends, natural hands and fingers, coherent seated legs. Entire scene fully within canvas with at least 8% transparent space on ALL sides; avoid edge cropping. Clear professional expression and uncluttered silhouette. No floor rectangle, background, external shadows, text, logos, numbers, watermark or floating icons."
+    }
+  },
+  {
+    "key": "illustration/workload-distribution",
+    "title": "仕事を分けて受け持つ",
+    "name": "仕事を分けて受け持つ_業務イラスト",
+    "description": "ファイルを持つ三人が会話し、仕事の分担を確認する場面。",
+    "kind": "illustration",
+    "width": 1536,
+    "height": 1024,
+    "labels": [],
+    "composition": {
+      "framing": "waist-up",
+      "facing": "front",
+      "people_count": 3
+    },
+    "keywords": [
+      "分担",
+      "業務量",
+      "割り振り",
+      "workload",
+      "delegation"
+    ],
+    "guidance": {
+      "use_case": "チームで仕事を割り振り、誰が何を受け持つか話し合う場面。",
+      "message": "担当を分け、それぞれの仕事を確認する。",
+      "reading": [
+        "三人がそれぞれのファイルを持って向き合っている。",
+        "中央の人が手を広げて話す姿が、受け持つ仕事の調整を表す。"
+      ]
+    },
+    "source": "media/illustration/workload-distribution.png",
+    "preview_path": "previews/illustration/workload-distribution.png",
+    "generation": {
+      "method": "image-generation",
+      "prompt": "Use case: productivity-visual. One original transparent PNG illustration for enterprise PowerPoint. Subject: Three colleagues waist-up arranged in a shallow arc, each holding ONE similarly sized slim blue-and-white task folder. Central older woman has an open natural hand toward colleagues; left and right coworkers face inward attentively. Folders differ only in tab positions, suggesting separate responsibilities. Clearly separated bodies and hands, no workload bars, arrows or extra icons. Design: refined editorial illustration, crisp navy outlines, opaque white and cobalt blue primary colors, subtle flat pale blue shading. Precise human anatomy: two connected arms per person, correct elbow bends, natural hands and fingers, coherent seated legs. Entire scene fully within canvas with at least 8% transparent space on ALL sides; avoid edge cropping. Clear professional expression and uncluttered silhouette. No floor rectangle, background, external shadows, text, logos, numbers, watermark or floating icons."
+    }
+  },
+  {
+    "key": "illustration/change-adoption",
+    "title": "新しい道具を試して使い方を覚える",
+    "name": "新しい道具を試して使い方を覚える_業務イラスト",
+    "description": "同じ項目を示す紙の記録と端末を見比べ、新しい仕事の道具を試す人。",
+    "kind": "illustration",
+    "width": 1536,
+    "height": 1024,
+    "labels": [],
+    "composition": {
+      "framing": "waist-up",
+      "facing": "down",
+      "people_count": 1
+    },
+    "keywords": [
+      "変化",
+      "導入",
+      "デジタル化",
+      "定着",
+      "change adoption"
+    ],
+    "guidance": {
+      "use_case": "新しい端末や仕組みを導入するときに、従来の記録と見比べて使い方を覚える場面。",
+      "message": "慣れた仕事と新しい道具を結び付ける。",
+      "reading": [
+        "紙の記録票と端末に、対応する青い項目が並んでいる。",
+        "一人が紙の記録に手を添えながら端末を操作し、二つの形式を見比べている。"
+      ]
+    },
+    "source": "media/illustration/change-adoption.png",
+    "preview_path": "previews/illustration/change-adoption.png",
+    "generation": {
+      "method": "image-generation",
+      "prompt": "Use case: productivity-visual. Create one original transparent PNG enterprise slide illustration. Subject: One adult worker at desk tries a white tablet on a blue stand, with a familiar paper clipboard laid open beside it showing the same simple three-row layout. One hand taps a large blue square on tablet, other hand rests by clipboard. Expression curious and calm, clean work shirt. New method alongside familiar task, not a futuristic robot or floating technology icon. Design: refined editorial drawing, dark navy crisp contours, WHITE opaque object interiors and cobalt blue accents, restrained pale blue flat shading. Practical and uncluttered silhouette, every object physically coherent. Clear hand anatomy if present. Full scene completely contained with 8% transparent margin on all four sides. No background, floor plane, external cast shadows, readable words, digits, logo, watermark or decorative floating symbols. Single illustration, not a sheet."
+    }
+  },
+  {
+    "key": "illustration/emergency-readiness",
+    "title": "非常時に必要な備品を整える",
+    "name": "非常時に必要な備品を整える_業務イラスト",
+    "description": "ライトと救急用品を入れたバッグにボトルを添えた、非常時の備品の構成。",
+    "kind": "illustration",
+    "width": 1312,
+    "height": 1199,
+    "labels": [],
+    "composition": {
+      "framing": "object",
+      "facing": "front"
+    },
+    "keywords": [
+      "防災",
+      "非常用",
+      "備蓄",
+      "事業継続",
+      "emergency",
+      "preparedness"
+    ],
+    "guidance": {
+      "use_case": "防災や事業継続の説明で、非常時に持ち出す備品をまとめて用意する場面。",
+      "message": "必要な物をまとめ、持ち出せる状態に備える。",
+      "reading": [
+        "開いた持ち出しバッグの中にライトと救急用品のケースが収まっている。",
+        "隣に置いたボトルを含め、持ち運ぶ備品の組合せを示す。"
+      ]
+    },
+    "source": "media/illustration/emergency-readiness.png",
+    "preview_path": "previews/illustration/emergency-readiness.png",
+    "generation": {
+      "method": "image-generation",
+      "prompt": "Use case: productivity-visual. Create one original transparent PNG enterprise slide illustration. Subject: One open white emergency backpack with blue base and shoulder straps, a blue flashlight and plain white first-aid pouch with BLUE cross stored visibly inside, and a sealed white water bottle standing beside it. Compact coherent practical readiness still-life. No red cross emblem, no disaster scene, no text, no excessive supplies. Design: refined editorial drawing, dark navy crisp contours, WHITE opaque object interiors and cobalt blue accents, restrained pale blue flat shading. Practical and uncluttered silhouette, every object physically coherent. Clear hand anatomy if present. Full scene completely contained with 8% transparent margin on all four sides. No background, floor plane, external cast shadows, readable words, digits, logo, watermark or decorative floating symbols. Single illustration, not a sheet."
+    }
+  },
+  {
+    "key": "illustration/lockout-readiness",
+    "title": "作業前にエネルギーを遮断する",
+    "name": "作業前にエネルギーを遮断する_業務イラスト",
+    "description": "操作レバーを南京錠で固定し、管理用の札を添えたロックアウトの構成。",
+    "kind": "illustration",
+    "width": 1199,
+    "height": 1312,
+    "labels": [],
+    "composition": {
+      "framing": "object",
+      "facing": "front"
+    },
+    "keywords": [
+      "ロックアウト",
+      "誤作動",
+      "遮断",
+      "安全",
+      "lockout",
+      "isolation"
+    ],
+    "guidance": {
+      "use_case": "設備の保守や作業前の準備で、操作部を施錠して管理する考え方を説明する場面。",
+      "message": "操作部を固定し、作業中の不用意な操作を抑える。",
+      "reading": [
+        "スイッチの長い操作レバーと固定側に南京錠が掛けられている。",
+        "錠に添えた札が、作業中の管理対象であることを示す。"
+      ]
+    },
+    "source": "media/illustration/lockout-readiness.png",
+    "preview_path": "previews/illustration/lockout-readiness.png",
+    "generation": {
+      "method": "image-generation",
+      "prompt": "Use case: precise-object-edit. Fix the lockout mechanism so the padlock actually prevents the lever from rotating. Preserve the white disconnect enclosure, blue lever in down position, blue padlock, blank white tag, illustration style, and transparent background. Add a sturdy FIXED METAL EYE mounted on the enclosure immediately BEHIND the lever's lower locking hole. The single closed padlock shackle must visibly pass through BOTH the blue lever hole AND the fixed metal eye, mechanically joining lever to stationary enclosure. Make this interaction clearly visible in three-quarter view, no floating or disconnected lock, no text or new symbols. Give the full enclosure and tag generous transparent margins."
+    }
+  },
+  {
+    "key": "illustration/slip-trip-prevention",
+    "title": "足元の配線を保護する",
+    "name": "足元の配線を保護する_業務イラスト",
+    "description": "床上のケーブルを緩い傾斜のカバーに収めた、足元の配線保護。",
+    "kind": "illustration",
+    "width": 1536,
+    "height": 1024,
+    "labels": [],
+    "composition": {
+      "framing": "object",
+      "facing": "front"
+    },
+    "keywords": [
+      "転倒",
+      "つまずき",
+      "配線",
+      "通路",
+      "trip prevention",
+      "cable cover"
+    ],
+    "guidance": {
+      "use_case": "作業場所や通路の配線を見直し、足元の段差やケーブルへの対策を説明する場面。",
+      "message": "むき出しのケーブルを覆い、通る場所を整える。",
+      "reading": [
+        "ケーブルが、両側に傾斜のあるカバーの内部を通っている。",
+        "カバーの外へ続くコードと両端のコネクターで、保護する対象を示す。"
+      ]
+    },
+    "source": "media/illustration/slip-trip-prevention.png",
+    "preview_path": "previews/illustration/slip-trip-prevention.png",
+    "generation": {
+      "method": "image-generation",
+      "prompt": "Use case: precise-object-edit. Correct the cable in this illustration: it must be one ordinary power extension cord, with a MALE two-prong plug on the left and a FEMALE two-slot socket on the right. Replace only the RIGHT connector: remove its exposed metal prongs and draw a compact navy FEMALE socket with two dark recessed rectangular holes, pointed toward viewer. Keep the left male plug, continuous cable, blue-white low protective cable ramp, navy outlines, complete in-frame layout and transparent alpha. Never show exposed male prongs at both ends. No words, icons or background."
+    }
+  },
+  {
+    "key": "illustration/chemical-secondary-containment",
+    "title": "容器を受け皿に収めて漏れに備える",
+    "name": "容器を受け皿に収めて漏れに備える_業務イラスト",
+    "description": "液体容器を縁のある受け皿へ収め、漏れの広がりに備える構成。",
+    "kind": "illustration",
+    "width": 1402,
+    "height": 1122,
+    "labels": [],
+    "composition": {
+      "framing": "object",
+      "facing": "front"
+    },
+    "keywords": [
+      "化学品",
+      "漏えい",
+      "二次容器",
+      "保管",
+      "spill containment",
+      "漏えい対策"
+    ],
+    "guidance": {
+      "use_case": "液体を保管・使用する場所で、容器からの漏れに備える方法を説明する場面。",
+      "message": "容器の外側にも、漏れを受ける備えを置く。",
+      "reading": [
+        "蓋をした二つの容器が、周囲に縁のあるトレーの内側へ収まっている。",
+        "トレー内の小さな滴が、こぼれた液体を受ける関係を示す。"
+      ]
+    },
+    "source": "media/illustration/chemical-secondary-containment.png",
+    "preview_path": "previews/illustration/chemical-secondary-containment.png",
+    "generation": {
+      "method": "image-generation",
+      "prompt": "Use case: productivity-visual. One original transparent PNG illustration for enterprise PowerPoint. Subject: Two clean sealed white utility bottles of different sizes with cobalt caps standing upright INSIDE one broad blue containment tray. Tray has clearly elevated continuous rims and enough visible empty reserve volume around bottles. A tiny blue droplet stays safely inside tray at bottle base, no dangerous labels or leaking clouds. Plain label rectangles without words. Refined flat editorial ink drawing, precise dark navy outlines, solid opaque white surfaces and cobalt blue accents, pale blue subtle flat shading. Meaning determined by correct object contacts and geometric relationships. Compact fully visible scene with 8% transparent margin, legible small. No background, floor rectangle, external cast shadows, readable text, letters, numbers, logos, watermark or decorative icons. Genuine alpha transparency."
+    }
+  },
+  {
+    "key": "illustration/safe-box-lifting",
+    "title": "荷物を体に近づけて持つ",
+    "name": "荷物を体に近づけて持つ_業務イラスト",
+    "description": "膝を曲げた作業者が、体の近くで箱を両手で支える姿。",
+    "kind": "illustration",
+    "width": 1264,
+    "height": 1244,
+    "labels": [],
+    "composition": {
+      "framing": "full-body",
+      "facing": "down",
+      "people_count": 1
+    },
+    "keywords": [
+      "運搬",
+      "腰痛予防",
+      "持ち上げ",
+      "姿勢",
+      "lifting",
+      "manual handling"
+    ],
+    "guidance": {
+      "use_case": "荷物の取扱いや作業姿勢の説明で、体と荷物の位置関係を伝える場面。",
+      "message": "荷物を体に近づけ、両手で支えて持ち上げる。",
+      "reading": [
+        "作業者が膝を曲げ、箱の下側を両手で支えている。",
+        "箱を胴体の近くに置く姿が、荷物と体の距離を示す。"
+      ]
+    },
+    "source": "media/illustration/safe-box-lifting.png",
+    "preview_path": "previews/illustration/safe-box-lifting.png",
+    "generation": {
+      "method": "image-generation",
+      "prompt": "Use case: productivity-visual. One original transparent PNG illustration for enterprise PowerPoint. Subject: One worker in white shirt, navy trousers and blue vest in a controlled squat with back neutral, knees bent, feet planted, holding a modest white carton CLOSE to torso with both hands underneath opposite lower edges. Full body, correct hip-knee-ankle anatomy and all fingers clear, no twisting, no oversized heavy box. Side three-quarter view, no floor or background. Refined flat editorial ink drawing, precise dark navy outlines, solid opaque white surfaces and cobalt blue accents, restrained pale blue shading. Human anatomy and object structure must be correct, believable contact and clear functional intent. Compact complete scene with generous margin on all sides, no edge crop. No background, floor rectangle, shadows outside objects, readable text, numbers, logos, watermark or decorative floating icons. Genuine alpha transparency."
+    }
+  },
+  {
+    "key": "illustration/temperature-controlled-transport",
+    "title": "温度を保ちながら運ぶ",
+    "name": "温度を保ちながら運ぶ_業務イラスト",
+    "description": "製品を収めた断熱箱、周囲の保冷材、記録用の小型計測器による温度管理の構成。",
+    "kind": "illustration",
+    "width": 1536,
+    "height": 1024,
+    "labels": [],
+    "composition": {
+      "framing": "object",
+      "facing": "front"
+    },
+    "keywords": [
+      "温度管理",
+      "保冷",
+      "輸送",
+      "記録",
+      "cold chain",
+      "temperature"
+    ],
+    "guidance": {
+      "use_case": "温度に配慮した輸送や梱包を説明し、保冷と記録を組み合わせる場面。",
+      "message": "輸送中の温度を保つ備えと、確かめる手段をそろえる。",
+      "reading": [
+        "厚みのある断熱箱の内側に製品が入り、その周囲へ青い保冷材を配置している。",
+        "内側に取り付けた小さな計測器が、輸送中の温度を記録する意図を添える。"
+      ]
+    },
+    "source": "media/illustration/temperature-controlled-transport.png",
+    "preview_path": "previews/illustration/temperature-controlled-transport.png",
+    "generation": {
+      "method": "image-generation",
+      "prompt": "Use case: productivity-visual. One original transparent PNG illustration for enterprise PowerPoint. Subject: An open compact insulated shipping box with thick white foam walls, blue cold packs on two side walls, one small closed sample container nested at center, and a tiny standalone white temperature logger clipped to inner rim with a blue blank display. Lid leans behind showing thick insulation. Physically plausible nesting, no frost, snowflake icons, text or thermometers floating in air. Refined flat editorial ink drawing, precise dark navy outlines, solid opaque white surfaces and cobalt blue accents, restrained pale blue shading. Human anatomy and object structure must be correct, believable contact and clear functional intent. Compact complete scene with generous margin on all sides, no edge crop. No background, floor rectangle, shadows outside objects, readable text, numbers, logos, watermark or decorative floating icons. Genuine alpha transparency."
+    }
+  },
+  {
+    "key": "illustration/moisture-protected-storage",
+    "title": "湿気から部品を守って保管する",
+    "name": "湿気から部品を守って保管する_業務イラスト",
+    "description": "電子基板と乾燥剤を透明な袋に収めた、防湿保管の構成。",
+    "kind": "illustration",
+    "width": 1536,
+    "height": 1024,
+    "labels": [],
+    "composition": {
+      "framing": "object",
+      "facing": "front"
+    },
+    "keywords": [
+      "防湿",
+      "乾燥剤",
+      "保管",
+      "梱包",
+      "moisture protection",
+      "desiccant"
+    ],
+    "guidance": {
+      "use_case": "湿気を避けたい部品の保管や梱包で、乾燥剤と袋を使う備えを説明する場面。",
+      "message": "部品と乾燥剤を一緒に包み、保管中の湿気に備える。",
+      "reading": [
+        "電子部品の基板と白い乾燥剤の小袋が、同じ透明袋に収まっている。",
+        "袋の上部を閉じた形で、外側から包む保管方法を示す。"
+      ]
+    },
+    "source": "media/illustration/moisture-protected-storage.png",
+    "preview_path": "previews/illustration/moisture-protected-storage.png",
+    "generation": {
+      "method": "image-generation",
+      "prompt": "Use case: productivity-visual. One original transparent PNG illustration for enterprise PowerPoint. Subject: A sealed clear zip pouch outlined navy contains a single blue electronic module and ONE small white desiccant sachet at its side. The zipper seal is visibly closed with parallel navy lines, pouch folds minimal and plausible. Both contents fully readable through subtly pale blue transparent plastic. No printed warning text, no water droplets outside, no floating shield symbols. Refined flat editorial ink drawing, precise dark navy outlines, opaque white surfaces, cobalt blue accent and restrained pale blue shading. Objects connect plausibly and message is evident through the physical relationship. Compact complete scene with broad transparent margins, readable small. No background, floor rectangle, cast shadows beyond objects, readable text, letters, numbers, logos, watermark or decorative icons."
+    }
+  },
+  {
+    "key": "illustration/pallet-stability",
+    "title": "荷姿を整えて崩れを防ぐ",
+    "name": "荷姿を整えて崩れを防ぐ_業務イラスト",
+    "description": "箱の角を保護材で支え、ベルトでパレットへ固定した荷姿。",
+    "kind": "illustration",
+    "width": 1394,
+    "height": 1128,
+    "labels": [],
+    "composition": {
+      "framing": "object",
+      "facing": "front"
+    },
+    "keywords": [
+      "荷崩れ",
+      "パレット",
+      "固定",
+      "物流",
+      "pallet stability",
+      "load securing"
+    ],
+    "guidance": {
+      "use_case": "保管や輸送の荷姿を説明し、積み重ねた荷物の固定方法を示す場面。",
+      "message": "荷物の角を守り、まとまりを保って運ぶ。",
+      "reading": [
+        "パレット上の箱をそろえて積み、角に保護材を取り付けている。",
+        "青いベルトが荷物とパレットを囲み、一つの荷姿へまとめている。"
+      ]
+    },
+    "source": "media/illustration/pallet-stability.png",
+    "preview_path": "previews/illustration/pallet-stability.png",
+    "generation": {
+      "method": "image-generation",
+      "prompt": "Use case: productivity-visual. One original transparent PNG illustration for enterprise PowerPoint. Subject: Four white cartons stacked two by two on one low navy pallet, with four visible white corner protectors and TWO cobalt tension straps running vertically around stack and pallet. Clear consistent perspective, straps pass over top and down face continuing under pallet, no impossible knots. Emphasis protective corners and stable load, unlike simple consolidation. Refined flat editorial ink drawing, precise dark navy outlines, opaque white surfaces, cobalt blue accent and restrained pale blue shading. Objects connect plausibly and message is evident through the physical relationship. Compact complete scene with broad transparent margins, readable small. No background, floor rectangle, cast shadows beyond objects, readable text, letters, numbers, logos, watermark or decorative icons."
+    }
+  },
+  {
+    "key": "illustration/first-article-check",
+    "title": "初回の製品を基準と照合する",
+    "name": "初回の製品を基準と照合する_業務イラスト",
+    "description": "図面と見本を脇に置き、L字部品の穴の位置を指して確認する場面。",
+    "kind": "illustration",
+    "width": 1536,
+    "height": 1024,
+    "labels": [],
+    "composition": {
+      "framing": "object",
+      "facing": "front"
+    },
+    "keywords": [
+      "初回品",
+      "初品",
+      "承認",
+      "品質",
+      "first article",
+      "inspection"
+    ],
+    "guidance": {
+      "use_case": "作り始めの製品を確認し、見本や図面との対応を説明する場面。",
+      "message": "初回の品物を見本と図面に照らして確かめる。",
+      "reading": [
+        "同じL字形の白い部品と青い見本を並べ、後ろにその形を描いた図面を置いている。",
+        "部品を支える手と穴を指す手が、具体的な確認箇所を示す。"
+      ]
+    },
+    "source": "media/illustration/first-article-check.png",
+    "preview_path": "previews/illustration/first-article-check.png",
+    "generation": {
+      "method": "image-generation",
+      "prompt": "Use case: productivity-visual. One original transparent PNG enterprise illustration. One white manufactured L-bracket standing beside an identical cobalt reference bracket on a small flat mat, and a white inspection card clipped behind with a line drawing matching the same L profile. A worker's two hands only, one lightly holds new bracket at base and other points to matching hole. Correct identical hole placement and dimensions, no numbers or stamps. Refined flat editorial drawing, consistent crisp navy outlines, white opaque material faces with cobalt accents and pale blue shading. Correct matching geometry and hand anatomy. Compact complete object group with transparent margin, clear at slide scale. No background, floor rectangle, external shadows, text, letters, dimensions, numbers, logos or watermark."
+    }
+  },
+  {
+    "key": "illustration/mistake-proof-connection",
+    "title": "形を合わせて部品を選ぶ",
+    "name": "形を合わせて部品を選ぶ_業務イラスト",
+    "description": "六角形の凹みに合う青い柱と、別形状の丸い部品を対比した組合せの選択。",
+    "kind": "illustration",
+    "width": 1536,
+    "height": 1024,
+    "labels": [],
+    "composition": {
+      "framing": "object",
+      "facing": "front"
+    },
+    "keywords": [
+      "形状",
+      "組合せ",
+      "部品選択",
+      "六角形",
+      "治具",
+      "ポカヨケ",
+      "shape matching",
+      "part selection",
+      "fixture",
+      "mistake proofing"
+    ],
+    "guidance": {
+      "use_case": "組立や部品選定の説明で、形状の違いを使って組合せを区別する場面。",
+      "message": "形の違いを手がかりに、合う部品を選ぶ。",
+      "reading": [
+        "白い治具の六角形の凹みに、同じ六角形の青い柱がはまっている。",
+        "別に置かれた丸い部品が、相手に合う形を選ぶという対比を示す。"
+      ]
+    },
+    "source": "media/illustration/mistake-proof-connection.png",
+    "preview_path": "previews/illustration/mistake-proof-connection.png",
+    "generation": {
+      "method": "image-generation",
+      "prompt": "Use case: productivity-visual. One original transparent enterprise PowerPoint illustration expressing mistake-proof assembly by shape. Show a single white rectangular locating fixture block viewed from above and front. It has one clearly HEXAGONAL recessed cavity, and a solid cobalt HEXAGONAL prism part is half seated in this matching cavity, with lower portion concealed inside and top portion visibly raised. Six-sided male part fits matching six-sided female recess exactly, leaving a thin clearly visible rim around it. One small second white round reference part lies beside the fixture and visibly cannot fit the hexagonal profile. No electrical connectors, no pins, no ridges or tabs. Elegant very simple flat editorial drawing: dark navy outlines, opaque white fixture, cobalt part, pale blue restrained shading. All objects fully in frame with generous alpha transparent margin. No text, arrows, icons, numbers, background or floor."
+    }
+  },
+  {
+    "key": "illustration/failure-investigation",
+    "title": "故障した箇所を分解して調べる",
+    "name": "故障した箇所を分解して調べる_業務イラスト",
+    "description": "分解した製品と取り出した歯車を、拡大鏡で詳しく調べる構成。",
+    "kind": "illustration",
+    "width": 1536,
+    "height": 1024,
+    "labels": [],
+    "composition": {
+      "framing": "object",
+      "facing": "front"
+    },
+    "keywords": [
+      "故障",
+      "原因調査",
+      "分解",
+      "解析",
+      "failure analysis",
+      "root cause"
+    ],
+    "guidance": {
+      "use_case": "不具合の調査や改善報告で、製品を分解して原因の手がかりを探す場面。",
+      "message": "内部を開き、部品の状態を詳しく調べる。",
+      "reading": [
+        "丸い製品の蓋を外し、内部から取り出した歯車をトレーに並べている。",
+        "拡大鏡が部品へ向き、細部を観察する意図を示す。"
+      ]
+    },
+    "source": "media/illustration/failure-investigation.png",
+    "preview_path": "previews/illustration/failure-investigation.png",
+    "generation": {
+      "method": "image-generation",
+      "prompt": "Use case: productivity-visual. One original transparent PNG illustration for enterprise PowerPoint. Subject: A compact white device opened into base and lid, with one blue gear and one visibly cracked white gear carefully separated on a small blue inspection mat. A magnifying glass on a short stand enlarges the single hairline crack of white gear. Clean coherent gear teeth, one obvious localized defect, no sparks, no people, no scattered clutter. Refined flat editorial ink drawing, precise dark navy outlines, opaque white object faces and cobalt blue accents, minimal pale blue shading. Mechanically accurate geometric alignment and contact is essential. Compact complete scene with generous transparent margin, legible at 180px wide. No background, floor plane, external cast shadows, readable text, letters, numbers, logos, watermark or decorative floating symbols. Single scene not sheet."
+    }
+  },
+  {
+    "key": "illustration/design-clearance",
+    "title": "組み合わせる部品のすきまを確かめる",
+    "name": "組み合わせる部品のすきまを確かめる_業務イラスト",
+    "description": "重なる板のすきまへ薄いゲージを差し込み、クリアランスを確認する構成。",
+    "kind": "illustration",
+    "width": 1536,
+    "height": 1024,
+    "labels": [],
+    "composition": {
+      "framing": "object",
+      "facing": "front"
+    },
+    "keywords": [
+      "公差",
+      "すきま",
+      "設計",
+      "干渉",
+      "clearance",
+      "tolerance"
+    ],
+    "guidance": {
+      "use_case": "設計や組立の検討で、部品間に設けたすきまを実物で確認する場面。",
+      "message": "部品の間に必要なすきまがあるか確かめる。",
+      "reading": [
+        "水平に重ねた二枚の板の間へ、薄いゲージを差し込んでいる。",
+        "扇状に開いた複数のゲージが、厚さを選んで確かめる方法を示す。"
+      ]
+    },
+    "source": "media/illustration/design-clearance.png",
+    "preview_path": "previews/illustration/design-clearance.png",
+    "generation": {
+      "method": "image-generation",
+      "prompt": "Use case: precise-object-edit. Repair the measurement geometry. Keep the white mechanical blocks, blue base, folding feeler gauge and navy-white-blue editorial illustration style. REARRANGE the blocks into two broad HORIZONTAL parallel plates stacked one above the other, separated by ONE very narrow horizontal slit. The flat cobalt feeler-gauge blade slides horizontally into this slit between their flat parallel faces, so blade THICKNESS measures the gap. Show its free folding handle to the right with several unused grey blades fanned down. Mechanically correct thickness measurement, no blade intersecting solid material. Compact full object with transparent margins. No numbers, labels, arrows, background or external shadows."
+    }
+  },
+  {
+    "key": "illustration/controlled-experiment",
+    "title": "一つの条件を変えて試験する",
+    "name": "一つの条件を変えて試験する_業務イラスト",
+    "description": "同形の治具に並ぶ試料と測定子、比較用の記録枠で条件をそろえた実験を表す。",
+    "kind": "illustration",
+    "width": 1536,
+    "height": 1024,
+    "labels": [],
+    "composition": {
+      "framing": "object",
+      "facing": "front"
+    },
+    "keywords": [
+      "実験",
+      "比較試験",
+      "条件",
+      "評価",
+      "controlled experiment",
+      "testing"
+    ],
+    "guidance": {
+      "use_case": "試作や評価の進め方を説明し、比較する条件をそろえて違いを確かめる場面。",
+      "message": "共通の条件をそろえ、変えた要素の影響を見る。",
+      "reading": [
+        "同じ形の治具に三つの試料を置き、そのうち一つを青く描き分けている。",
+        "中央の測定子と三欄の記録枠が、同じ手順で測って結果を比べる意図を示す。"
+      ]
+    },
+    "source": "media/illustration/controlled-experiment.png",
+    "preview_path": "previews/illustration/controlled-experiment.png",
+    "generation": {
+      "method": "image-generation",
+      "prompt": "Use case: productivity-visual. One original transparent PNG illustration for enterprise PowerPoint. Subject: Three identical white sample holders aligned evenly, each holds a same-size flat coupon. First two coupons white, third cobalt, showing one material condition differs while apparatus stays constant. A compact measuring probe on an articulated stand touches the middle coupon; separate simple record card with three equal empty squares. No labels, numbers, tubes, laboratory scenery or decorative icons. Refined flat editorial ink drawing, precise dark navy contours, opaque white bodies and cobalt blue accents, restrained pale blue shading. Mechanically consistent geometry is essential. Simple functional composition with every object fully visible and generous transparent margins. No background, floor rectangle, external cast shadows, readable text, letters, dimensions, numbers, logos or watermark. No decorative floating icons."
+    }
+  },
+  {
+    "key": "illustration/sample-label-verification",
+    "title": "試料の表示と記録を確かめる",
+    "name": "試料の表示と記録を確かめる_業務イラスト",
+    "description": "ラベル付きの試料瓶を掲げ、記録ボードと対応を確かめる作業者。",
+    "kind": "illustration",
+    "width": 1312,
+    "height": 1199,
+    "labels": [],
+    "composition": {
+      "framing": "waist-up",
+      "facing": "down",
+      "people_count": 1
+    },
+    "keywords": [
+      "試料",
+      "識別",
+      "照合",
+      "取り違え",
+      "sample identification",
+      "label check"
+    ],
+    "guidance": {
+      "use_case": "試料を受け取るときや検査の前に、容器の表示と記録を照合する場面。",
+      "message": "試料そのものと記録の対応を確かめる。",
+      "reading": [
+        "作業者がラベル付きの小瓶を目の高さに持ち上げている。",
+        "もう一方の手の記録ボードと、手元に並ぶ小瓶が照合する対象を示す。"
+      ]
+    },
+    "source": "media/illustration/sample-label-verification.png",
+    "preview_path": "previews/illustration/sample-label-verification.png",
+    "generation": {
+      "method": "image-generation",
+      "prompt": "Use case: productivity-visual. One original transparent PNG illustration for enterprise PowerPoint. Subject: A technician woman in simple white-and-blue jacket holding one clear sample vial with cobalt cap near a clipboard. Vial has one bold blue rectangular label; corresponding blue rectangle on clipboard matches it. Two other sealed vials in a small rack at table. She studies vial closely, clean left-hand grip and right-hand clipboard support. No medical lab imagery or text. Refined flat editorial drawing with crisp navy outlines, solid opaque white surfaces, cobalt blue accents, restrained pale blue shading. Natural human anatomy with correct hand-object contacts. Compact clear scene completely inside transparent margin. No scenery, floor rectangle, shadows beyond objects, readable text, letters, numbers, logos, watermark or decorative floating icons. One finished scene, not sheet."
+    }
+  },
+  {
+    "key": "illustration/clean-work-surface",
+    "title": "作業面を整えて清潔に保つ",
+    "name": "作業面を整えて清潔に保つ_業務イラスト",
+    "description": "スプレーボトルを脇に置き、布で作業台の表面を拭く人。",
+    "kind": "illustration",
+    "width": 1536,
+    "height": 1024,
+    "labels": [],
+    "composition": {
+      "framing": "waist-up",
+      "facing": "down",
+      "people_count": 1
+    },
+    "keywords": [
+      "清掃",
+      "作業台",
+      "衛生",
+      "5S",
+      "cleaning",
+      "work surface"
+    ],
+    "guidance": {
+      "use_case": "作業準備や日常の清掃を説明し、次に使う作業面を拭いて整える場面。",
+      "message": "作業面を拭き、次の仕事に備える。",
+      "reading": [
+        "作業者が布を作業台へ当て、片手で表面を拭いている。",
+        "脇のスプレーボトルが、拭き掃除に使う道具を示す。"
+      ]
+    },
+    "source": "media/illustration/clean-work-surface.png",
+    "preview_path": "previews/illustration/clean-work-surface.png",
+    "generation": {
+      "method": "image-generation",
+      "prompt": "Use case: productivity-visual. One original transparent PNG illustration for enterprise PowerPoint. Subject: One worker half-body wiping an uncluttered white bench with a folded cobalt cleaning cloth in one hand; other hand steadies far edge of bench. A small closed neutral spray bottle sits on side, nozzle away from person. Natural straight wrist and connected elbow, visibly clean surface, no sparkles or floating check marks, no elaborate factory. Refined flat editorial drawing with crisp navy outlines, solid opaque white surfaces, cobalt blue accents, restrained pale blue shading. Natural human anatomy with correct hand-object contacts. Compact clear scene completely inside transparent margin. No scenery, floor rectangle, shadows beyond objects, readable text, letters, numbers, logos, watermark or decorative floating icons. One finished scene, not sheet."
+    }
+  },
+  {
+    "key": "illustration/foreign-object-removal",
+    "title": "混入した異物を取り除く",
+    "name": "混入した異物を取り除く_業務イラスト",
+    "description": "部品トレーの中の細い異物を、ピンセットでつまみ出す手元。",
+    "kind": "illustration",
+    "width": 1536,
+    "height": 1024,
+    "labels": [],
+    "composition": {
+      "framing": "object",
+      "facing": "front"
+    },
+    "keywords": [
+      "異物",
+      "混入",
+      "除去",
+      "清浄",
+      "foreign object",
+      "contamination"
+    ],
+    "guidance": {
+      "use_case": "部品の検査や清浄管理を説明し、混入した異物を見つけて取り除く場面。",
+      "message": "製品に不要なものを見分け、別に取り出す。",
+      "reading": [
+        "手袋をした手がピンセットで、部品の脇にある細い異物をつまんでいる。",
+        "部品ごとのトレーと別置きの小皿が、製品と取り除く物を分ける関係を示す。"
+      ]
+    },
+    "source": "media/illustration/foreign-object-removal.png",
+    "preview_path": "previews/illustration/foreign-object-removal.png",
+    "generation": {
+      "method": "image-generation",
+      "prompt": "Use case: productivity-visual. One original transparent PNG illustration for enterprise PowerPoint. Subject: Close-up of ONE gloved hand using slim navy tweezers to lift a small dark stray fiber from a white parts tray containing three identical cobalt components. Tweezers tips physically grasp fiber; five-finger glove anatomy natural. A small empty discard dish sits beside tray. Isolated practical inspection scene, no floating magnifier or decorative badge. Refined flat editorial ink drawing, precise navy outlines, opaque white faces and cobalt blue accents with pale blue minimal shading. Correct connections and clear action are essential, all fingers natural where present. Entire compact scene inside generous transparent margins. No scenery, floor rectangle, external shadows, readable text, letters, numbers, logos, watermark or floating symbols. Single illustration, not sheet."
+    }
+  },
+  {
+    "key": "illustration/water-recirculation",
+    "title": "使った水をろ過して再び使う",
+    "name": "使った水をろ過して再び使う_業務イラスト",
+    "description": "二つの水槽をフィルターと戻り配管・ポンプでつないだ水循環の構成。",
+    "kind": "illustration",
+    "width": 1536,
+    "height": 1024,
+    "labels": [],
+    "composition": {
+      "framing": "object",
+      "facing": "front"
+    },
+    "keywords": [
+      "水",
+      "循環",
+      "節水",
+      "再利用",
+      "water reuse",
+      "recirculation"
+    ],
+    "guidance": {
+      "use_case": "節水や資源利用の説明で、使った水をろ過して再利用する流れを示す場面。",
+      "message": "水を捨てる前に、処理して循環させる。",
+      "reading": [
+        "水の入った二つの槽が、上側のフィルターと配管でつながっている。",
+        "下側にもポンプを備えた戻り配管があり、輪になる循環経路を示す。"
+      ]
+    },
+    "source": "media/illustration/water-recirculation.png",
+    "preview_path": "previews/illustration/water-recirculation.png",
+    "generation": {
+      "method": "image-generation",
+      "prompt": "Use case: precise-object-edit. Complete the recirculating water assembly. Keep the two white tanks with pale blue water, upright cartridge filter in the top connecting pipe, and continuous bottom return pipe. Add ONE compact cobalt electric circulation pump INLINE in the middle of the bottom return pipe, with a small white cylindrical motor atop it and two proper coupling joints connecting pump inlet/outlet to existing pipe. A simple short power cable is coiled neatly beside pump. The added pump makes circulation possible. Preserve the simplified navy-white-blue editorial drawing, all existing tanks and transparent alpha. Full scene with generous transparent margin; no words, numbers, arrows, background or external shadows."
+    }
+  },
+  {
+    "key": "illustration/heat-recovery",
+    "title": "排出する熱を別の用途へつなぐ",
+    "name": "排出する熱を別の用途へつなぐ_業務イラスト",
+    "description": "熱交換器と二色の配管を組み合わせ、別の流れへ熱を受け渡す考え方を表す。",
+    "kind": "illustration",
+    "width": 1536,
+    "height": 1024,
+    "labels": [],
+    "composition": {
+      "framing": "object",
+      "facing": "front"
+    },
+    "keywords": [
+      "排熱",
+      "熱回収",
+      "省エネ",
+      "heat recovery",
+      "energy reuse"
+    ],
+    "guidance": {
+      "use_case": "省エネルギーの取り組みで、排出される熱を別の用途へ受け渡す考え方を説明する場面。",
+      "message": "捨てていた熱を、別の流れに受け渡して使う。",
+      "reading": [
+        "中央の熱交換器の両側に、濃い青と淡い青の配管がつながっている。",
+        "色を分けた二つの配管と中央の積層部で、流れの間で熱をやり取りする意図を示す。"
+      ]
+    },
+    "source": "media/illustration/heat-recovery.png",
+    "preview_path": "previews/illustration/heat-recovery.png",
+    "generation": {
+      "method": "image-generation",
+      "prompt": "Use case: productivity-visual. One original transparent enterprise PNG illustration. A small white plate heat exchanger with stacked fine navy plates, four pipe ports grouped two each side. One cobalt pipe loop on left and one pale blue pipe loop on right are physically separate but connected to matching ports. Compact isolated industrial object study, no flame, temperature numerals, arrows or background. Emphasize distinct flows exchanging through one core, no impossible intersecting plumbing. Refined flat editorial drawing with navy lines, white solid surfaces and blue accents. Precise plausible pipe connections and separate circuits, uncluttered geometry. Full object within generous transparent margin. No background, floor plane, letters, numbers, arrows, logos or watermark."
+    }
+  },
+  {
+    "key": "illustration/repair-before-replacement",
+    "title": "傷んだ部分を直して長く使う",
+    "name": "傷んだ部分を直して長く使う_業務イラスト",
+    "description": "工具の本体を残し、傷んだ持ち手を交換する構成。",
+    "kind": "illustration",
+    "width": 1536,
+    "height": 1024,
+    "labels": [],
+    "composition": {
+      "framing": "object",
+      "facing": "front"
+    },
+    "keywords": [
+      "長寿命",
+      "修繕",
+      "循環",
+      "修理",
+      "repairability",
+      "lifetime extension"
+    ],
+    "guidance": {
+      "use_case": "製品の長寿命化や資源利用を説明し、傷んだ部分だけを交換して使い続ける場面。",
+      "message": "交換する範囲を絞り、使える本体を残す。",
+      "reading": [
+        "本体に新しい青い持ち手を付けた工具と、取り外した傷のある持ち手を並べている。",
+        "ねじとドライバーが、部品を交換する作業を示す。"
+      ]
+    },
+    "source": "media/illustration/repair-before-replacement.png",
+    "preview_path": "previews/illustration/repair-before-replacement.png",
+    "generation": {
+      "method": "image-generation",
+      "prompt": "Use case: productivity-visual. One original transparent enterprise PNG illustration. A worn but intact white hand-tool body with navy metal head, old visibly cracked blue handle laid to left and a NEW identical cobalt handle correctly fitted onto the tool's tang at right. One small screw and screwdriver below make repair understandable. No duplicated whole tools, no trash can, no arrows, no people. Clear before-removed-part and restored-use relationship. Refined flat editorial drawing, precise navy lines, opaque white and cobalt blue surfaces, light blue simple shading. Believable component matching and repair connection, no extra parts. Compact full objects with transparent margin. No text, background, floor, external cast shadows, logos, numbers or symbols."
+    }
+  },
+  {
+    "key": "illustration/material-separation",
+    "title": "素材ごとに分解して分ける",
+    "name": "素材ごとに分解して分ける_業務イラスト",
+    "description": "製品の外装、金属部品、基板を分け、対応するトレーへ整理する構成。",
+    "kind": "illustration",
+    "width": 1536,
+    "height": 1024,
+    "labels": [],
+    "composition": {
+      "framing": "object",
+      "facing": "front"
+    },
+    "keywords": [
+      "分解",
+      "分別",
+      "再資源化",
+      "循環",
+      "disassembly",
+      "material separation"
+    ],
+    "guidance": {
+      "use_case": "再資源化や分解しやすい設計を説明し、製品を材料ごとに分ける場面。",
+      "message": "一つの製品を分解し、素材ごとに扱えるようにする。",
+      "reading": [
+        "分解した外装、金属部品とねじ、基板を別々のまとまりにしている。",
+        "上に並ぶ三つのトレーが、それぞれを分けて収める先を示す。"
+      ]
+    },
+    "source": "media/illustration/material-separation.png",
+    "preview_path": "previews/illustration/material-separation.png",
+    "generation": {
+      "method": "image-generation",
+      "prompt": "Use case: productivity-visual. One original transparent PNG illustration for enterprise PowerPoint. Subject: One small portable device disassembled carefully into exactly three coherent material groups: white plastic casing halves on left, navy metal fasteners and a flat metal bracket center, cobalt circuit board right. Three shallow open trays aligned behind each group, parts clearly originate from ONE device. No recycling arrows or logos, no hands, no scattered trash. Refined flat editorial ink drawing, precise navy outlines, opaque white faces and cobalt blue accents with restrained pale blue shading. Each part and container physically coherent, meaning clear through arrangement. Compact complete scene with generous transparent margin, readable small. No background, floor rectangle, shadows beyond objects, readable text, letters, numbers, logos, watermark or decorative floating symbols."
+    }
+  },
+  {
+    "key": "illustration/supplier-continuity",
+    "title": "供給が止まった時の代替を備える",
+    "name": "供給が止まった時の代替を備える_業務イラスト",
+    "description": "空の箱、参照用のフィルター、同形の部品を備えた別の箱で代替調達を表す。",
+    "kind": "illustration",
+    "width": 1774,
+    "height": 887,
+    "labels": [],
+    "composition": {
+      "framing": "object",
+      "facing": "front"
+    },
+    "keywords": [
+      "代替調達",
+      "供給継続",
+      "BCP",
+      "substitution",
+      "supply continuity"
+    ],
+    "guidance": {
+      "use_case": "供給が途切れる状況への備えとして、代わりに調達できる部品を用意する場面。",
+      "message": "必要な部品の代替を備え、供給の継続につなげる。",
+      "reading": [
+        "左の箱は空で、右の箱には青いフィルターが収まっている。",
+        "中央に置いた同形のフィルターが、補う必要のある部品を示す。"
+      ]
+    },
+    "source": "media/illustration/supplier-continuity.png",
+    "preview_path": "previews/illustration/supplier-continuity.png",
+    "generation": {
+      "method": "image-generation",
+      "prompt": "Use case: productivity-visual. One original transparent PNG illustration for enterprise PowerPoint. Subject: One primary small white carton on left is empty with neatly folded flaps; one alternative blue-lined white carton on right contains a replacement cylindrical component identical to the lone blue component reference positioned between cartons. A plain clipped component silhouette card bridges meaning. No broken truck, disasters, arrows or warning icons. Refined flat editorial ink drawing, precise navy outlines, opaque white faces and cobalt blue accents with restrained pale blue shading. Each part and container physically coherent, meaning clear through arrangement. Compact complete scene with generous transparent margin, readable small. No background, floor rectangle, shadows beyond objects, readable text, letters, numbers, logos, watermark or decorative floating symbols."
+    }
+  },
+  {
+    "key": "illustration/local-energy-storage",
+    "title": "蓄えた電力を必要な時に使う",
+    "name": "蓄えた電力を必要な時に使う_業務イラスト",
+    "description": "持ち運べる蓄電ユニットから卓上ライトへ給電する構成。",
+    "kind": "illustration",
+    "width": 1536,
+    "height": 1024,
+    "labels": [],
+    "composition": {
+      "framing": "object",
+      "facing": "front"
+    },
+    "keywords": [
+      "蓄電",
+      "電力",
+      "備え",
+      "停電",
+      "energy storage",
+      "battery"
+    ],
+    "guidance": {
+      "use_case": "停電への備えや電力の使い方を説明し、蓄えた電力を機器へ供給する場面。",
+      "message": "蓄えた電力を、必要な機器へつないで使う。",
+      "reading": [
+        "持ち手のある蓄電ユニットと卓上ライトが一本のコードでつながっている。",
+        "電源側と使う側を並べ、蓄えた電力を利用する関係を示す。"
+      ]
+    },
+    "source": "media/illustration/local-energy-storage.png",
+    "preview_path": "previews/illustration/local-energy-storage.png",
+    "generation": {
+      "method": "image-generation",
+      "prompt": "Use case: productivity-visual. One original transparent PNG illustration for enterprise PowerPoint. Subject: One sturdy portable white battery pack with blue handle and simple four blue charge indicator squares, physically connected by ONE navy power cable to a small generic white desk work-light with cobalt shade, visibly switched on with pale blue-white lamp interior but no rays. Compact object pair, cable plugs connect plausibly, no solar panel or factory. Refined flat editorial drawing, precise dark navy contours, opaque white faces, cobalt blue accents, restrained pale blue shading. Correct physically connected plugs and visible cable paths. Compact complete scene with broad true transparent margin, recognizable small. No scenery, background, floor rectangle, external shadows, readable text, digits, logos, watermark or floating icons."
+    }
+  },
+  {
+    "key": "illustration/network-segmentation",
+    "title": "ネットワークを分けて接続する",
+    "name": "ネットワークを分けて接続する_業務イラスト",
+    "description": "二組の接続口と色を分けた配線で、機器の接続グループを描き分けた構成。",
+    "kind": "illustration",
+    "width": 1536,
+    "height": 1024,
+    "labels": [],
+    "composition": {
+      "framing": "object",
+      "facing": "front"
+    },
+    "keywords": [
+      "ネットワーク",
+      "分離",
+      "通信",
+      "セキュリティ",
+      "network segmentation"
+    ],
+    "guidance": {
+      "use_case": "情報機器の接続構成を説明し、接続する機器をグループごとに整理する場面。",
+      "message": "接続先を分け、通信の構成を整理する。",
+      "reading": [
+        "中央の機器には、濃い青と淡い青で区別した二組の接続口がある。",
+        "左右の機器は色の対応するコードでそれぞれの接続口へつながっている。"
+      ]
+    },
+    "source": "media/illustration/network-segmentation.png",
+    "preview_path": "previews/illustration/network-segmentation.png",
+    "generation": {
+      "method": "image-generation",
+      "prompt": "Use case: productivity-visual. One original transparent PNG illustration for enterprise PowerPoint. Subject: A single white network appliance with two separate clearly grouped banks of ports: left bank cobalt, right bank pale blue. Left connects via a navy cable to one closed white laptop, right via a second cable to one compact generic sensor box. Cables distinct and physically connected, no crossing, three-quarter compact object illustration, no shield symbols or arrows, screens blank. Refined flat editorial drawing, precise dark navy contours, opaque white faces, cobalt blue accents, restrained pale blue shading. Correct physically connected plugs and visible cable paths. Compact complete scene with broad true transparent margin, recognizable small. No scenery, background, floor rectangle, external shadows, readable text, digits, logos, watermark or floating icons."
+    }
+  },
+  {
+    "key": "illustration/secure-authentication",
+    "title": "手元の認証器でアクセスを確かめる",
+    "name": "手元の認証器でアクセスを確かめる_業務イラスト",
+    "description": "端末に接続した認証器へ触れる手と、画面の確認印で本人確認の操作を表す。",
+    "kind": "illustration",
+    "width": 1536,
+    "height": 1024,
+    "labels": [],
+    "composition": {
+      "framing": "object",
+      "facing": "front"
+    },
+    "keywords": [
+      "認証",
+      "本人確認",
+      "多要素",
+      "パスキー",
+      "authentication",
+      "security key"
+    ],
+    "guidance": {
+      "use_case": "システムへのログインやアクセス管理を説明し、手元の認証器を使う場面。",
+      "message": "手元の認証器を操作して、アクセスを確認する。",
+      "reading": [
+        "端末に差した小型の認証器へ、指先を当てて操作している。",
+        "端末の画面にある確認印が、認証の応答を表す。"
+      ]
+    },
+    "source": "media/illustration/secure-authentication.png",
+    "preview_path": "previews/illustration/secure-authentication.png",
+    "generation": {
+      "method": "image-generation",
+      "prompt": "Use case: productivity-visual. One original transparent PNG illustration for enterprise PowerPoint. Subject: A white laptop with plain screen showing just one cobalt round confirmation button, and a small blue USB security key inserted into its SIDE port correctly. One adult hand approaches key's small round touch pad with index finger, wrist enters from edge but remains fully framed as an isolated hand. No lock floating above, no passwords, no text, no biometric fingerprint detail. Refined flat editorial drawing, precise navy contours, opaque white surfaces and cobalt blue accents with restrained pale blue shading. Correct physical cable/USB connections and hand anatomy if present. Clear intended relationship between main objects. Compact fully visible scene with broad true transparent margin. No background, floor plane, external cast shadows, readable text, letters, numbers, logos, watermark or decorative floating icons."
+    }
+  },
+  {
+    "key": "illustration/data-quality-check",
+    "title": "記録の抜けや違いを確かめる",
+    "name": "記録の抜けや違いを確かめる_業務イラスト",
+    "description": "紙の元資料と端末の表を並べ、入力の抜けを確認する構成。",
+    "kind": "illustration",
+    "width": 1536,
+    "height": 1024,
+    "labels": [],
+    "composition": {
+      "framing": "object",
+      "facing": "front"
+    },
+    "keywords": [
+      "データ品質",
+      "欠損",
+      "記録",
+      "チェック",
+      "data quality",
+      "completeness"
+    ],
+    "guidance": {
+      "use_case": "集計や分析の前に、入力済みの記録と元資料を照らして抜けを確認する場面。",
+      "message": "元の記録と比べ、データの抜けに気付く。",
+      "reading": [
+        "紙の表と端末の表に対応する行・列が並んでいる。",
+        "端末側の一つの空欄を青い枠で囲み、確認が必要な箇所を示す。"
+      ]
+    },
+    "source": "media/illustration/data-quality-check.png",
+    "preview_path": "previews/illustration/data-quality-check.png",
+    "generation": {
+      "method": "image-generation",
+      "prompt": "Use case: productivity-visual. One original transparent PNG illustration for enterprise PowerPoint. Subject: A white tablet angled on cobalt stand shows three-column four-row abstract table. One cell outlined blue is visibly empty, while other cells contain short navy bars. Beside tablet a paper source sheet has a corresponding row with a blue bar, and one clean navy stylus rests against stand. No readable text, numbers, check badges or floating symbols. Refined flat editorial drawing, precise navy contours, opaque white surfaces and cobalt blue accents with restrained pale blue shading. Correct physical cable/USB connections and hand anatomy if present. Clear intended relationship between main objects. Compact fully visible scene with broad true transparent margin. No background, floor plane, external cast shadows, readable text, letters, numbers, logos, watermark or decorative floating icons."
+    }
+  },
+  {
+    "key": "illustration/revision-release",
+    "title": "確認済みの版を配布できる状態にする",
+    "name": "確認済みの版を配布できる状態にする_業務イラスト",
+    "description": "版を示すタブと確認印のある書類にスタンプを添え、確認済み資料の発行を表す。",
+    "kind": "illustration",
+    "width": 1536,
+    "height": 1024,
+    "labels": [],
+    "composition": {
+      "framing": "object",
+      "facing": "front"
+    },
+    "keywords": [
+      "版管理",
+      "確定",
+      "発行",
+      "承認",
+      "release",
+      "revision"
+    ],
+    "guidance": {
+      "use_case": "資料や手順書を改訂した後に、確認済みの版を発行・共有する流れを説明する場面。",
+      "message": "確認した版を明らかにし、配布できる状態へ整える。",
+      "reading": [
+        "まとめた書類の表紙に青い確認印があり、上端には版を区別するタブが付いている。",
+        "隣のスタンプが、書類に確認の印を付ける行為を示す。"
+      ]
+    },
+    "source": "media/illustration/revision-release.png",
+    "preview_path": "previews/illustration/revision-release.png",
+    "generation": {
+      "method": "image-generation",
+      "prompt": "Use case: precise-object-edit. Edit this transparent business illustration. Preserve the upright closed white technical-document binder with cobalt spine tabs, its perspective, navy contours and the rubber stamp beside it. Remove the meaningless dark bracket glyph near the upper cover. Remove the entire floating blue rectangular impression beneath/right of the stamp. Instead put ONE clean small blue rectangular stamp impression with a simple check mark directly ON the front face of the white binder, in perspective aligned to its surface. The impression is ink printed on the binder, not a separate object. No text or other glyphs. Keep all other forms and genuine transparent background unchanged. Clean professional business illustration, entire objects in frame."
+    }
+  },
+  {
+    "key": "illustration/cross-functional-review",
+    "title": "異なる専門を持ち寄って検討する",
+    "name": "異なる専門を持ち寄って検討する_業務イラスト",
+    "description": "試作品の内部を指す人と資料を持つ人を含む三人が、同じ対象を検討する場面。",
+    "kind": "illustration",
+    "width": 1536,
+    "height": 1024,
+    "labels": [],
+    "composition": {
+      "framing": "waist-up",
+      "facing": "inward",
+      "people_count": 3
+    },
+    "keywords": [
+      "部門横断",
+      "レビュー",
+      "設計",
+      "協議",
+      "cross functional",
+      "review"
+    ],
+    "guidance": {
+      "use_case": "製品や計画を検討するときに、異なる担当の視点を持ち寄ってレビューする場面。",
+      "message": "同じ対象を見て、複数の視点から確かめる。",
+      "reading": [
+        "三人が机上の試作品を囲み、一人が内部の箇所を指している。",
+        "中央の人が資料を持ち、実物と記録を共有しながら検討している。"
+      ]
+    },
+    "source": "media/illustration/cross-functional-review.png",
+    "preview_path": "previews/illustration/cross-functional-review.png",
+    "generation": {
+      "method": "image-generation",
+      "prompt": "Use case: productivity-visual. One original transparent PNG illustration for enterprise PowerPoint. Subject: Three adult colleagues with distinct everyday professional clothing, one white-blue work jacket, one blue cardigan, one white business shirt, gathered waist-up around one small prototype housing on table. One points to housing edge, one holds a plain design sheet, third listens with hands resting. Clear six arms, controlled nonoverlapping silhouettes, no background workshop or whiteboard. Refined flat editorial illustration, crisp navy outlines, opaque white surfaces, cobalt blue accent and restrained light blue shading. Anatomy and object connections must be correct, no extra hands, clean readable fingers. Compact complete scene within broad transparent margins. No background, floor rectangle, external shadows, readable words, letters, numbers, logos, watermark or decorative floating icons."
+    }
+  },
+  {
+    "key": "illustration/team-recognition",
+    "title": "仲間の貢献を認め合う",
+    "name": "仲間の貢献を認め合う_業務イラスト",
+    "description": "中央の仲間へ両側から拍手を送り、貢献への感謝を表す三人。",
+    "kind": "illustration",
+    "width": 1536,
+    "height": 1024,
+    "labels": [],
+    "composition": {
+      "framing": "waist-up",
+      "facing": "inward",
+      "people_count": 3
+    },
+    "keywords": [
+      "承認",
+      "感謝",
+      "貢献",
+      "チーム",
+      "recognition",
+      "appreciation"
+    ],
+    "guidance": {
+      "use_case": "チームの活動紹介や振り返りで、仲間の成果や貢献へ感謝を伝える場面。",
+      "message": "仲間の貢献を言葉と行動で認め合う。",
+      "reading": [
+        "ファイルを持つ一人を挟み、両側の二人が拍手している。",
+        "互いに向けた笑顔が、成果を共有して喜ぶ関係を示す。"
+      ]
+    },
+    "source": "media/illustration/team-recognition.png",
+    "preview_path": "previews/illustration/team-recognition.png",
+    "generation": {
+      "method": "image-generation",
+      "prompt": "Use case: productivity-visual. Create one premium editorial business illustration for a manufacturing-company PowerPoint asset library. Three colleagues waist-up in simple white and blue business clothes, central woman holds a modest closed blue folder at chest and smiles calmly. Left man and right woman give restrained applause with anatomically correct two hands each, hands separated enough to read. No medals, trophy, confetti, celebratory background or floating stars. Warm professional recognition, compact balanced group. Style: sophisticated restrained semi-flat editorial drawing with subtly dimensional volumes, clean navy outlines, natural anatomically correct hands and faces, crisp refined shapes. White, off-white, cobalt blue and deep navy; natural skin tones. Every person and object purposeful, generous transparent margin, entire intended composition fully visible. No text, letters, numbers, logo, arrows, panel background or floor plane. Genuine alpha transparency outside all subjects; no white background, no checkerboard, no colored haze. One single cohesive isolated illustration."
+    }
+  }
+]

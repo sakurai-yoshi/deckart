@@ -1,5 +1,4 @@
 {
-  "category": "03-関係と連携",
   "title": "全体の中に担当範囲を置く",
   "description": "事業の中に部門、部門の中にチームが含まれる責任範囲を示す。",
   "keywords": [
@@ -73,6 +72,7 @@
     ]
   },
   "kind": "diagram",
+  "category": "09-組織・人材",
   "schema_version": 3,
   "id": "relationship/nested-responsibility",
   "name": "責任範囲_全体と部分の包含関係_事業部門チーム",
@@ -95,5 +95,6 @@
     "data": false
   },
   "sha256": "96698c988a0250baad315dc46b3d9519da921e0346c43b04f21f9e582a6ef29c",
-  "size_bytes": 1091
+  "size_bytes": 1091,
+  "preview_sha256": "f997a0384c80857bfaf7655dd4b2e5b5db65d5f214bb3785a7bdc55637b8819c"
 }

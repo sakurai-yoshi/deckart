@@ -1,5 +1,4 @@
 {
-  "category": "08-アイコンとピクトグラム",
   "title": "聴覚保護",
   "description": "耳を覆う保護具で音から聴覚を守る。",
   "keywords": [
@@ -23,6 +22,7 @@
       "頭上のバンドで左右の保護部を結ぶ。"
     ]
   },
+  "category": "07-安全・事業継続",
   "schema_version": 3,
   "id": "icon/hearing-protection",
   "name": "聴覚保護_製造業務の記号",

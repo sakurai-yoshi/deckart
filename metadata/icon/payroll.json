@@ -1,5 +1,4 @@
 {
-  "category": "08-アイコンとピクトグラム",
   "title": "給与・報酬",
   "description": "働いた人へ報酬を支給することを示す。",
   "keywords": [
@@ -25,6 +24,7 @@
       "中の金額記号が金銭の報酬を表す。"
     ]
   },
+  "category": "09-組織・人材",
   "schema_version": 3,
   "id": "icon/payroll",
   "name": "給与管理_報酬を支給する_給与封筒",

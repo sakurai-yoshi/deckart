@@ -1,5 +1,4 @@
 {
-  "category": "10-数値とグラフ",
   "title": "全体に対する完了率",
   "description": "主色の弧が75%、残りの淡い弧が25%を表す進捗リングの作例。",
   "keywords": [
@@ -100,6 +99,7 @@
       "中央の数値は主色の弧の割合と一致する。"
     ]
   },
+  "category": "13-説明・伝達",
   "schema_version": 3,
   "id": "chart/progress-ring",
   "name": "進捗共有_全体に対する完了率_75パーセント作例",
@@ -157,6 +157,7 @@
       "total": 100
     }
   },
-  "sha256": "8638753fbf0cfabfa61115d638846b8b84d67e481db50d37f53f808ff89f2ea2",
-  "size_bytes": 3782
+  "sha256": "33120bc7d557b921976452109e8919d52187947f7403afa535825f8e49549dd1",
+  "size_bytes": 3535,
+  "preview_sha256": "4881a797af8f72e4649197a4abdb06e4056661308056a2136c64f7d13fe8941f"
 }

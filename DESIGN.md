@@ -19,10 +19,11 @@
 - SVGの配色は基本の青・任意のブランド色・モノクロ。注意・増減の意味はブランド色と分離します。PNGはツールから元の配色で保存し、書き出し機能の範囲を画面とメタデータに明示します。
 - 数値素材は作例を明示し、実データでは形状・数値・説明を同時に更新します。不整合な入力は拒否します。
 - 一つの元画像に一つの素材IDを付け、色や形式の差だけで件数を増やしません。英語IDを取得用に、用途・描写の意味・日本語と英語の検索語を選定用に使います。
+- 業務上の目的を14分類にまとめ、既存の分類欄と `categories.json` で共用します。主たる用途は `scripts/categories.py` に一元化し、用途別索引は同じ素材定義から生成します。分類を検索の暗黙の条件にせず、関連する種類を横断して見比べられるようにします。
 - `catalog.txt` に全素材のIDと題名を種類別にまとめ、候補を広く見渡せるようにします。検索は日本語・英語の用途を手がかりに関連候補を返し、種類や形式の絞り込みは任意にします。
 - 検索結果にプレビュー・取得パス・形式・透過・寸法・書き出し機能を含め、AIが候補の絵を見て元ファイルを確定できるようにします。寸法は画像自体の情報です。PNGの書き出しは元の画素を保持します。素材のCC0による改変と、ツールの対応機能を区別します。
 - 配布SVGは外部参照・スクリプト・CSS変数・フィルターに依存しません。PNGは不要な埋め込み情報を除き、生成指示は公開用の素材定義に保持します。
-- 人向け一覧とAIの選定には軽量プレビューを使い、元PNGをHTMLに埋め込みません。文字枠のあるSVGは作例文字入りのプレビューを生成し、`preview_has_example_labels` で区別します。元画像の取得パスとプレビューを分け、実際の文章は資料側で決められるようにします。オフラインの個別保存と、PNGフォルダを明示的に選んだ一括保存に対応します。
+- 人向け一覧とAIの選定には軽量プレビューを使い、元PNGをHTMLに埋め込みません。文字枠のあるSVGは作例文字入りのプレビューを生成し、`preview_has_example_labels` で区別します。文字入りSVGは作例の内容が合えば直接使えるようにし、`preview_sha256` で取得内容を照合できます。図形のみSVGも残し、実際の文章は資料側で決められるようにします。オフラインの個別保存と、PNGフォルダを明示的に選んだ一括保存に対応します。
 
 AI向け仕様は `llms.txt`、取得用索引は `catalog.json`、SVGの色の契約は `themes.json` に集約します。
 
@@ -32,4 +33,4 @@ AI向け仕様は `llms.txt`、取得用索引は `catalog.json`、SVGの色の�
 - アイコンは小さな配置で輪郭と抜きが残ること、図解は矢印・分岐・戻り先が説明と一致することを確認します。説明パーツは比較、条件、因果、期間などの関係が形から読み取れるようにします。
 - イラストは原寸に加えて白・濃紺の背景へ縮小配置します。背景は日本語の見出し・本文・図表を使う複数のレイアウトで確認します。完成スライドの文字の収まり・コントラスト・意図しない重なり・切れ・組み合わせた意味を確認し、必要に応じて素材や配置を調整します。
 
-設計の参考：[Microsoftのイラスト設計](https://microsoft.design/articles/embracing-vibrant-universality-in-fluent-illustrations/)、[Carbonのピクトグラム使用](https://carbondesignsystem.com/elements/pictograms/usage/)、[Presentation Zenの改善例](https://presentationzen.com/blog/what-is-good-presentation-design)、[Duarteのプレゼンテーション体系](https://www.duarte.com/approach/case-studies/scaling-communication-with-presentation-systems/)。用途・視認性・配置の考え方を参照し、素材は独自に制作します。
+設計の参考：[Carbonのピクトグラム使用](https://v10.carbondesignsystem.com/guidelines/pictograms/usage/)、[Datawrapperの伝える目的とグラフ選択](https://www.datawrapper.de/blog/chart-types-guide)、[Duarteのプレゼンテーション体系](https://www.duarte.com/approach/case-studies/scaling-communication-with-presentation-systems/)。用途・視認性・配置の考え方を参照し、素材は独自に制作します。

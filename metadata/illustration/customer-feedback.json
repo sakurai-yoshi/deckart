@@ -1,7 +1,6 @@
 {
   "title": "声を集める",
   "kind": "illustration",
-  "category": "06-業務イラスト",
   "width": 1254,
   "height": 1254,
   "keywords": [
@@ -39,6 +38,7 @@
     "width": 1254,
     "height": 1254
   },
+  "category": "10-顧客・営業",
   "schema_version": 3,
   "id": "illustration/customer-feedback",
   "name": "声を集める_物で伝える業務",

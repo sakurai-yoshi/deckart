@@ -1,0 +1,50 @@
+{
+  "title": "退職時の対話",
+  "description": "組織を離れる人の声を受け止める。",
+  "keywords": [
+    "退職",
+    "対話",
+    "面談",
+    "引継",
+    "退職者",
+    "exit",
+    "interview",
+    "offboarding"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "退職時に経験や改善点を聞き取る場面を示す。",
+    "message": "組織を離れる人の声を受け止める。",
+    "reading": [
+      "入口から外へ向く矢印が組織を離れることを表す。",
+      "発言欄が退職時の対話を表す。"
+    ]
+  },
+  "category": "09-組織・人材",
+  "schema_version": 3,
+  "id": "icon/exit-interview",
+  "name": "退職時の対話_仕事と関係",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/exit-interview.svg",
+  "metadata_path": "metadata/icon/exit-interview.json",
+  "preview_path": "assets/icon/exit-interview.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/exit-interview\n退職時の対話_仕事と関係\n退職時の対話\n退職時に経験や改善点を聞き取る場面を示す。\n組織を離れる人の声を受け止める。\n入口から外へ向く矢印が組織を離れることを表す。\n発言欄が退職時の対話を表す。\n退職 対話 面談 引継 退職者 exit interview offboarding",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "31964d2bf88d5a6d036acb9fac99ad375534a0ee1c8beacc781ad56e8725f9b6",
+  "size_bytes": 1376
+}

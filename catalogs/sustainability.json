@@ -1,0 +1,1170 @@
+{
+  "version": "2.1.0",
+  "raw_base": "https://raw.githubusercontent.com/sakurai-yoshi/deckart/v2.1.0/",
+  "category": "08-環境・資源",
+  "asset_count": 29,
+  "assets": [
+    {
+      "id": "environment/energy-use-boundary",
+      "title": "工程へ入るエネルギーと有効利用・損失を分ける",
+      "kind": "diagram",
+      "category": "08-環境・資源",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/environment/energy-use-boundary.svg",
+      "preview_path": "previews/environment/energy-use-boundary.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/environment/energy-use-boundary.json",
+      "sha256": "3a8b14fa5eea001dbcb78051fef9dee7f196ccef9cefbabbc5675daf9c8bdcbe",
+      "size_bytes": 1633,
+      "keywords": [
+        "省エネ",
+        "エネルギー",
+        "熱損失",
+        "境界",
+        "有効利用",
+        "energy",
+        "balance",
+        "boundary",
+        "useful",
+        "work",
+        "loss"
+      ],
+      "use_case": "省エネルギーの検討で、対象範囲とエネルギーの行き先を整理する。",
+      "message": "対象範囲をそろえ、入るエネルギーが仕事と損失へどう分かれるかを見る。",
+      "sample_data": false,
+      "preview_sha256": "1143812cea861b52db0406d535455786ca55b1ab87b1a243b566f81f4d4a2512"
+    },
+    {
+      "id": "environment/material-recovery-routes",
+      "title": "状態に合わせて再使用・修理・材料回収へ分ける",
+      "kind": "diagram",
+      "category": "08-環境・資源",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/environment/material-recovery-routes.svg",
+      "preview_path": "previews/environment/material-recovery-routes.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/environment/material-recovery-routes.json",
+      "sha256": "2ee125c7d44f526c0b57fda7180eb9a307a63b68c1e57babdfa20144c7a72f80",
+      "size_bytes": 2354,
+      "keywords": [
+        "循環",
+        "再使用",
+        "リユース",
+        "修理",
+        "リサイクル",
+        "資源",
+        "circularity",
+        "reuse",
+        "repair",
+        "material",
+        "recovery"
+      ],
+      "use_case": "資源循環の説明で、回収後の利用方法の違いを整理する。",
+      "message": "回収物の状態を確かめ、製品として使うか、修理するか、材料として生かすかを選ぶ。",
+      "sample_data": false,
+      "preview_sha256": "fd1043084d7978e8aaa17fe474f4a592142520bf550875ed94cd96469d6ebe61"
+    },
+    {
+      "id": "icon/air-filtration",
+      "title": "空気ろ過",
+      "kind": "icon",
+      "category": "08-環境・資源",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/air-filtration.svg",
+      "preview_path": "assets/icon/air-filtration.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/air-filtration.json",
+      "sha256": "02926bcb732f791583a30f8098c7c8ab2ed47e9545391b4cf6acca04f588d070",
+      "size_bytes": 1891,
+      "keywords": [
+        "空気",
+        "ろ過",
+        "フィルター",
+        "粉じん",
+        "air",
+        "filtration",
+        "filter",
+        "dust"
+      ],
+      "use_case": "空気中の粒子を取り除く設備を示す。",
+      "message": "空気をフィルターへ通す。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/biodiversity",
+      "title": "生物多様性",
+      "kind": "icon",
+      "category": "08-環境・資源",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/biodiversity.svg",
+      "preview_path": "assets/icon/biodiversity.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/biodiversity.json",
+      "sha256": "09153e2efb4cf7fa7f73ec35f486d4a995a382709efadc80a85135c05f995164",
+      "size_bytes": 1218,
+      "keywords": [
+        "生物多様性",
+        "自然",
+        "生態系",
+        "保全",
+        "biodiversity",
+        "ecosystem",
+        "nature"
+      ],
+      "use_case": "異なる生物や自然環境を守る取り組みを紹介する。",
+      "message": "多様な生き物が成り立つ環境を支える。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/daylight-use",
+      "title": "自然光の活用",
+      "kind": "icon",
+      "category": "08-環境・資源",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/daylight-use.svg",
+      "preview_path": "assets/icon/daylight-use.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/daylight-use.json",
+      "sha256": "81836336ae6f17e7fda8e69bad3035f0ae5e41b793dd4ce541894d820ad6df64",
+      "size_bytes": 1029,
+      "keywords": [
+        "自然光",
+        "採光",
+        "日射",
+        "省エネ",
+        "daylight",
+        "natural",
+        "light",
+        "lighting"
+      ],
+      "use_case": "自然光を取り入れる職場環境や省エネの施策を示す。",
+      "message": "外の光を仕事場へ取り入れる。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/emissions-measurement",
+      "title": "排出量の測定",
+      "kind": "icon",
+      "category": "08-環境・資源",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/emissions-measurement.svg",
+      "preview_path": "assets/icon/emissions-measurement.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/emissions-measurement.json",
+      "sha256": "ff51877f2e66ba10b38c45cb07f37cf5d2d810d40d5f385be93d7757df553f27",
+      "size_bytes": 1089,
+      "keywords": [
+        "排出量",
+        "測定",
+        "排ガス",
+        "環境",
+        "emissions",
+        "measurement",
+        "monitoring",
+        "exhaust"
+      ],
+      "use_case": "排出量の把握や環境データの測定を示す。",
+      "message": "排出の状態を測って記録する。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/energy-efficiency",
+      "title": "省エネルギー",
+      "kind": "icon",
+      "category": "08-環境・資源",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/energy-efficiency.svg",
+      "preview_path": "assets/icon/energy-efficiency.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/energy-efficiency.json",
+      "sha256": "ff83e787ed41488b760c2c62b1365c06a9f8c05ba9a550d5291881a554a36e9c",
+      "size_bytes": 1305,
+      "keywords": [
+        "省エネ",
+        "電力",
+        "効率",
+        "節電",
+        "energy",
+        "efficiency",
+        "power",
+        "saving"
+      ],
+      "use_case": "電力使用を抑える設備や運用の項目を示す。",
+      "message": "必要な働きを保ちながらエネルギー消費を減らす。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/energy-storage",
+      "title": "蓄電",
+      "kind": "icon",
+      "category": "08-環境・資源",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/energy-storage.svg",
+      "preview_path": "assets/icon/energy-storage.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/energy-storage.json",
+      "sha256": "3626f9bdb4d77b0443fcc5f44c3ba4f4b490e8dd73a673571d910419c4f91d73",
+      "size_bytes": 1001,
+      "keywords": [
+        "蓄電",
+        "電池",
+        "エネルギー",
+        "バッテリー",
+        "storage",
+        "battery",
+        "energy"
+      ],
+      "use_case": "電力を貯めて必要な時に使う設備を示す。",
+      "message": "エネルギーを蓄えて利用する。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/heat-recovery",
+      "title": "排熱回収",
+      "kind": "icon",
+      "category": "08-環境・資源",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/heat-recovery.svg",
+      "preview_path": "assets/icon/heat-recovery.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/heat-recovery.json",
+      "sha256": "4deebd25f66157e90b22fe17aaa7b5321d4559cb3a9d77a64fd52598584797bc",
+      "size_bytes": 1315,
+      "keywords": [
+        "排熱",
+        "回収",
+        "熱交換",
+        "再利用",
+        "heat",
+        "recovery",
+        "exchanger",
+        "waste",
+        "heat"
+      ],
+      "use_case": "工程の排熱を別の用途へ利用する仕組みを示す。",
+      "message": "排出される熱を回収して再利用する。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/material-recycling",
+      "title": "材料リサイクル",
+      "kind": "icon",
+      "category": "08-環境・資源",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/material-recycling.svg",
+      "preview_path": "assets/icon/material-recycling.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/material-recycling.json",
+      "sha256": "2d50443092078e8dcf560baeffe26e9f21dcc209feb96803e79786db8f3c4fa2",
+      "size_bytes": 1261,
+      "keywords": [
+        "リサイクル",
+        "再資源化",
+        "材料",
+        "循環",
+        "recycling",
+        "material",
+        "recovery",
+        "circular"
+      ],
+      "use_case": "使用済みの材料を資源として回す仕組みを示す。",
+      "message": "材料を回収して再び資源へ戻す。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/noise-reduction",
+      "title": "騒音低減",
+      "kind": "icon",
+      "category": "08-環境・資源",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/noise-reduction.svg",
+      "preview_path": "assets/icon/noise-reduction.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/noise-reduction.json",
+      "sha256": "ef1cc4d650052e959bf0c34cbc6a457e8597122fa2e2137d1fe36ac9f70a7163",
+      "size_bytes": 893,
+      "keywords": [
+        "騒音",
+        "低減",
+        "防音",
+        "遮音",
+        "音",
+        "noise",
+        "reduction",
+        "acoustic",
+        "barrier"
+      ],
+      "use_case": "音源と周囲の間で騒音を抑える対策を示す。",
+      "message": "音の伝わりを抑える。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/oil-recovery",
+      "title": "油の回収",
+      "kind": "icon",
+      "category": "08-環境・資源",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/oil-recovery.svg",
+      "preview_path": "assets/icon/oil-recovery.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/oil-recovery.json",
+      "sha256": "9b20052c243c5b957c67f29b8beb9bda846992e215782374635523d49aba606d",
+      "size_bytes": 1104,
+      "keywords": [
+        "油",
+        "回収",
+        "廃油",
+        "再生",
+        "液体",
+        "oil",
+        "recovery",
+        "lubricant",
+        "collection"
+      ],
+      "use_case": "使用した油を回収して再生や適正処理へ回す工程を示す。",
+      "message": "油を集めて次の処理へ渡す。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/rainwater-harvesting",
+      "title": "雨水利用",
+      "kind": "icon",
+      "category": "08-環境・資源",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/rainwater-harvesting.svg",
+      "preview_path": "assets/icon/rainwater-harvesting.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/rainwater-harvesting.json",
+      "sha256": "c02c8f987bf5cd5785523cd29a4dac28df3dd0c3bae9be79fba31666f8824881",
+      "size_bytes": 920,
+      "keywords": [
+        "雨水",
+        "利用",
+        "回収",
+        "貯水",
+        "rainwater",
+        "harvesting",
+        "collection"
+      ],
+      "use_case": "建物で集めた雨水を活用する取り組みを示す。",
+      "message": "雨を集めて保管し利用する。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/solar-power",
+      "title": "太陽光発電",
+      "kind": "icon",
+      "category": "08-環境・資源",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/solar-power.svg",
+      "preview_path": "assets/icon/solar-power.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/solar-power.json",
+      "sha256": "f8a3872e497f91f47092c1901e1d4f9ccf67bddcd71bc248d4c4f061522115dd",
+      "size_bytes": 1060,
+      "keywords": [
+        "太陽光",
+        "発電",
+        "再エネ",
+        "パネル",
+        "solar",
+        "photovoltaic",
+        "renewable",
+        "power"
+      ],
+      "use_case": "太陽光を利用する発電方式を紹介する。",
+      "message": "太陽の光から電力を得る。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/sustainability",
+      "title": "環境への配慮",
+      "kind": "icon",
+      "category": "08-環境・資源",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/sustainability.svg",
+      "preview_path": "assets/icon/sustainability.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/sustainability.json",
+      "sha256": "3c9668c29ae3033ce69614a4e78bf76f5123e036e70ca012c6de5fb28f3c183b",
+      "size_bytes": 1104,
+      "keywords": [
+        "環境",
+        "資源",
+        "自然",
+        "サステナビリティ",
+        "sustainability",
+        "environment",
+        "ecology"
+      ],
+      "use_case": "環境保全や資源への配慮を事業方針で示す。",
+      "message": "自然資源を支えながら事業を続ける。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/waste-separation",
+      "title": "廃棄物の分別",
+      "kind": "icon",
+      "category": "08-環境・資源",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/waste-separation.svg",
+      "preview_path": "assets/icon/waste-separation.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/waste-separation.json",
+      "sha256": "f20eb5787f48007f5a74421c5da06fe5d77b78691164ae077349966ce85762a4",
+      "size_bytes": 1536,
+      "keywords": [
+        "分別",
+        "廃棄物",
+        "ゴミ",
+        "種類",
+        "waste",
+        "separation",
+        "sorting",
+        "bins"
+      ],
+      "use_case": "廃棄物を種類ごとに分ける運用を説明する。",
+      "message": "異なる種類を別の回収先へ分ける。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/wastewater-treatment",
+      "title": "排水処理",
+      "kind": "icon",
+      "category": "08-環境・資源",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/wastewater-treatment.svg",
+      "preview_path": "assets/icon/wastewater-treatment.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/wastewater-treatment.json",
+      "sha256": "104277faa5d2a923f2c3eee6f5d703647106c0e503a44fb9e909e44e03753f0c",
+      "size_bytes": 1334,
+      "keywords": [
+        "排水",
+        "水処理",
+        "沈殿",
+        "浄化",
+        "wastewater",
+        "treatment",
+        "purification",
+        "settling"
+      ],
+      "use_case": "工程排水を処理する設備や環境対策を示す。",
+      "message": "水中の物質を分離して処理する。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/water-reuse",
+      "title": "水の再利用",
+      "kind": "icon",
+      "category": "08-環境・資源",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/water-reuse.svg",
+      "preview_path": "assets/icon/water-reuse.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/water-reuse.json",
+      "sha256": "8d7f1bfb666f130eea61ff5f12722aa2cd376c88929dab0d8022989c21f6cff2",
+      "size_bytes": 998,
+      "keywords": [
+        "水",
+        "再利用",
+        "循環",
+        "再生水",
+        "reuse",
+        "recycled",
+        "water",
+        "circulation"
+      ],
+      "use_case": "工程で使う水を回収して再利用する取り組みを示す。",
+      "message": "水を一度の使用で終わらせず循環させる。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/wind-power",
+      "title": "風力発電",
+      "kind": "icon",
+      "category": "08-環境・資源",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/wind-power.svg",
+      "preview_path": "assets/icon/wind-power.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/wind-power.json",
+      "sha256": "34320fe568c3779083c7173249c809eecd02fa2e37089e684d23ef4fc5a15313",
+      "size_bytes": 1266,
+      "keywords": [
+        "風力",
+        "発電",
+        "再エネ",
+        "タービン",
+        "wind",
+        "turbine",
+        "renewable",
+        "energy"
+      ],
+      "use_case": "風力を利用する発電方式を紹介する。",
+      "message": "風の力を回転に変えて電力を得る。",
+      "sample_data": false
+    },
+    {
+      "id": "illustration/energy-saving",
+      "title": "使わない電源を切る",
+      "kind": "illustration",
+      "category": "08-環境・資源",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1254,
+      "height": 1254,
+      "canvas": {
+        "width": 1254,
+        "height": 1254
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/energy-saving.png",
+      "preview_path": "previews/illustration/energy-saving.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/energy-saving.json",
+      "sha256": "b8fd0d3239f48c2f54175b07a9b92b78b75959a5d43cc4938498479cdfb28b8b",
+      "size_bytes": 440422,
+      "keywords": [
+        "省エネ",
+        "節電",
+        "待機電力",
+        "電源",
+        "energy",
+        "saving"
+      ],
+      "use_case": "省エネ活動、待機電力の削減、日常の節電を説明する。",
+      "message": "使用していない機器の電源を切り、無駄を減らす。",
+      "sample_data": false,
+      "composition": {
+        "framing": "object",
+        "facing": "front"
+      }
+    },
+    {
+      "id": "illustration/heat-recovery",
+      "title": "排出する熱を別の用途へつなぐ",
+      "kind": "illustration",
+      "category": "08-環境・資源",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1536,
+      "height": 1024,
+      "canvas": {
+        "width": 1536,
+        "height": 1024
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/heat-recovery.png",
+      "preview_path": "previews/illustration/heat-recovery.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/heat-recovery.json",
+      "sha256": "499c3f34c57156206e8c1e26fadfea4dab6c245b0693b9b07643415756cafa94",
+      "size_bytes": 1433247,
+      "keywords": [
+        "排熱",
+        "熱回収",
+        "省エネ",
+        "heat recovery",
+        "energy reuse"
+      ],
+      "use_case": "省エネルギーの取り組みで、排出される熱を別の用途へ受け渡す考え方を説明する場面。",
+      "message": "捨てていた熱を、別の流れに受け渡して使う。",
+      "sample_data": false,
+      "composition": {
+        "framing": "object",
+        "facing": "front"
+      }
+    },
+    {
+      "id": "illustration/local-energy-storage",
+      "title": "蓄えた電力を必要な時に使う",
+      "kind": "illustration",
+      "category": "08-環境・資源",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1536,
+      "height": 1024,
+      "canvas": {
+        "width": 1536,
+        "height": 1024
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/local-energy-storage.png",
+      "preview_path": "previews/illustration/local-energy-storage.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/local-energy-storage.json",
+      "sha256": "a6488d0109c9b4c5cfea3a0d6a2d3d35b23aa7631305312c6854d29751a0af98",
+      "size_bytes": 1129659,
+      "keywords": [
+        "蓄電",
+        "電力",
+        "備え",
+        "停電",
+        "energy storage",
+        "battery"
+      ],
+      "use_case": "停電への備えや電力の使い方を説明し、蓄えた電力を機器へ供給する場面。",
+      "message": "蓄えた電力を、必要な機器へつないで使う。",
+      "sample_data": false,
+      "composition": {
+        "framing": "object",
+        "facing": "front"
+      }
+    },
+    {
+      "id": "illustration/material-reuse",
+      "title": "端材を次の材料にする",
+      "kind": "illustration",
+      "category": "08-環境・資源",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1254,
+      "height": 1254,
+      "canvas": {
+        "width": 1254,
+        "height": 1254
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/material-reuse.png",
+      "preview_path": "previews/illustration/material-reuse.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/material-reuse.json",
+      "sha256": "ca18361b8d58159ff3214e5e76dd1e7f663f19b4c2edb8fccdcdcf47b6ee1a69",
+      "size_bytes": 495786,
+      "keywords": [
+        "端材",
+        "歩留まり",
+        "資源",
+        "材料",
+        "再利用",
+        "material",
+        "reuse"
+      ],
+      "use_case": "端材活用、材料歩留まり、資源の有効活用を説明する。",
+      "message": "使い残した材料から、別の部品を取り出す。",
+      "sample_data": false,
+      "composition": {
+        "framing": "object",
+        "facing": "front"
+      }
+    },
+    {
+      "id": "illustration/material-separation",
+      "title": "素材ごとに分解して分ける",
+      "kind": "illustration",
+      "category": "08-環境・資源",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1536,
+      "height": 1024,
+      "canvas": {
+        "width": 1536,
+        "height": 1024
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/material-separation.png",
+      "preview_path": "previews/illustration/material-separation.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/material-separation.json",
+      "sha256": "97bc0c355ad64c24546bb557fd09b0ed261388f5a2d0fdaff68e477f270a4e30",
+      "size_bytes": 1733668,
+      "keywords": [
+        "分解",
+        "分別",
+        "再資源化",
+        "循環",
+        "disassembly",
+        "material separation"
+      ],
+      "use_case": "再資源化や分解しやすい設計を説明し、製品を材料ごとに分ける場面。",
+      "message": "一つの製品を分解し、素材ごとに扱えるようにする。",
+      "sample_data": false,
+      "composition": {
+        "framing": "object",
+        "facing": "front"
+      }
+    },
+    {
+      "id": "illustration/reduced-packaging",
+      "title": "梱包サイズを適正にする",
+      "kind": "illustration",
+      "category": "08-環境・資源",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1254,
+      "height": 1254,
+      "canvas": {
+        "width": 1254,
+        "height": 1254
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/reduced-packaging.png",
+      "preview_path": "previews/illustration/reduced-packaging.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/reduced-packaging.json",
+      "sha256": "08797be9eb69503b4da5d96c66a1d2edb5edd0b08bf58b7582a54c026ade0134",
+      "size_bytes": 695463,
+      "keywords": [
+        "梱包",
+        "適正化",
+        "省資源",
+        "輸送効率",
+        "包装",
+        "packaging"
+      ],
+      "use_case": "梱包材削減、荷姿の改善、輸送効率の見直しを説明する。",
+      "message": "製品に合う箱を選び、余分な梱包を減らす。",
+      "sample_data": false,
+      "composition": {
+        "framing": "object",
+        "facing": "front"
+      }
+    },
+    {
+      "id": "illustration/repair-before-replacement",
+      "title": "傷んだ部分を直して長く使う",
+      "kind": "illustration",
+      "category": "08-環境・資源",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1536,
+      "height": 1024,
+      "canvas": {
+        "width": 1536,
+        "height": 1024
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/repair-before-replacement.png",
+      "preview_path": "previews/illustration/repair-before-replacement.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/repair-before-replacement.json",
+      "sha256": "083fe861ab8e49ed96fae61c14ab7cb016d312f22f549b74656481c51a9fde81",
+      "size_bytes": 1466264,
+      "keywords": [
+        "長寿命",
+        "修繕",
+        "循環",
+        "修理",
+        "repairability",
+        "lifetime extension"
+      ],
+      "use_case": "製品の長寿命化や資源利用を説明し、傷んだ部分だけを交換して使い続ける場面。",
+      "message": "交換する範囲を絞り、使える本体を残す。",
+      "sample_data": false,
+      "composition": {
+        "framing": "object",
+        "facing": "front"
+      }
+    },
+    {
+      "id": "illustration/responsible-resource-use",
+      "title": "資源を分けて再利用に備える",
+      "kind": "illustration",
+      "category": "08-環境・資源",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1254,
+      "height": 1254,
+      "canvas": {
+        "width": 1254,
+        "height": 1254
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/responsible-resource-use.png",
+      "preview_path": "previews/illustration/responsible-resource-use.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/responsible-resource-use.json",
+      "sha256": "1914a033a58ba56a929ab7329ab9b7ef0f87b25da22863838d6797f46cee23c9",
+      "size_bytes": 839337,
+      "keywords": [
+        "資源",
+        "分別",
+        "再利用",
+        "環境",
+        "resource",
+        "reuse",
+        "sustainability"
+      ],
+      "use_case": "資源有効活用、分別、製造現場の環境活動の説明。",
+      "message": "資源を分けて扱い、再利用しやすい状態に整える。",
+      "sample_data": false,
+      "composition": {
+        "framing": "waist-up",
+        "facing": "right",
+        "people_count": 1
+      }
+    },
+    {
+      "id": "illustration/returnable-packaging",
+      "title": "通い箱を繰り返し使う",
+      "kind": "illustration",
+      "category": "08-環境・資源",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1254,
+      "height": 1254,
+      "canvas": {
+        "width": 1254,
+        "height": 1254
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/returnable-packaging.png",
+      "preview_path": "previews/illustration/returnable-packaging.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/returnable-packaging.json",
+      "sha256": "5ee2137c690912f0243d72742fa10c0172a783636a7ca34429de6d97c2e8fc4c",
+      "size_bytes": 733054,
+      "keywords": [
+        "通い箱",
+        "再利用",
+        "物流",
+        "折りたたみ",
+        "容器",
+        "returnable packaging",
+        "reusable crate"
+      ],
+      "use_case": "繰り返し使う梱包、回収物流、省スペース保管の説明。",
+      "message": "使用後にたたんで戻し、同じ容器を再利用する。",
+      "sample_data": false,
+      "composition": {
+        "framing": "object",
+        "facing": "front",
+        "people_count": 0
+      }
+    },
+    {
+      "id": "illustration/water-recirculation",
+      "title": "使った水をろ過して再び使う",
+      "kind": "illustration",
+      "category": "08-環境・資源",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1536,
+      "height": 1024,
+      "canvas": {
+        "width": 1536,
+        "height": 1024
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/water-recirculation.png",
+      "preview_path": "previews/illustration/water-recirculation.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/water-recirculation.json",
+      "sha256": "227ee93dce7bd61551d715e08404da7ef75d73f98a7184942da8b5f24d9b4afe",
+      "size_bytes": 1194204,
+      "keywords": [
+        "水",
+        "循環",
+        "節水",
+        "再利用",
+        "water reuse",
+        "recirculation"
+      ],
+      "use_case": "節水や資源利用の説明で、使った水をろ過して再利用する流れを示す場面。",
+      "message": "水を捨てる前に、処理して循環させる。",
+      "sample_data": false,
+      "composition": {
+        "framing": "object",
+        "facing": "front"
+      }
+    }
+  ]
+}

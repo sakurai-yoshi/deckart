@@ -1,5 +1,4 @@
 {
-  "category": "07-注釈と見出し",
   "title": "事実と解釈を分けて置く",
   "description": "同じ高さの二領域で、観測したことと解釈を切り分ける部品。",
   "keywords": [
@@ -85,6 +84,7 @@
       "右は解釈や可能性を示す独立した領域。"
     ]
   },
+  "category": "13-説明・伝達",
   "schema_version": 3,
   "id": "part/fact-and-interpretation",
   "name": "事実と解釈を分けて置く_説明パーツ",
@@ -107,5 +107,6 @@
     "data": false
   },
   "sha256": "fe04c839922a4e945f6d871b9ff84b5cc6fe6375c50c0ba35375818b5df2765c",
-  "size_bytes": 732
+  "size_bytes": 732,
+  "preview_sha256": "39098945357d0b1d3dbe7818e86421c90823d86fe5214dc2a3d7115f4d6eb3e2"
 }

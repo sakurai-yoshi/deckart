@@ -1,0 +1,50 @@
+{
+  "title": "漏出の封じ込め",
+  "description": "漏れた液体を周囲へ広げず受け止める。",
+  "keywords": [
+    "漏出",
+    "流出",
+    "防液堤",
+    "受け皿",
+    "spill",
+    "containment",
+    "bund",
+    "tray"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "液体が漏れた場合の拡散防止設備を示す。",
+    "message": "漏れた液体を周囲へ広げず受け止める。",
+    "reading": [
+      "容器の下の立ち上がりが受け皿を表す。",
+      "皿内の青い線が受け止めた液体を示す。"
+    ]
+  },
+  "category": "07-安全・事業継続",
+  "schema_version": 3,
+  "id": "icon/spill-containment",
+  "name": "漏出の封じ込め_設備と働き",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/spill-containment.svg",
+  "metadata_path": "metadata/icon/spill-containment.json",
+  "preview_path": "assets/icon/spill-containment.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/spill-containment\n漏出の封じ込め_設備と働き\n漏出の封じ込め\n液体が漏れた場合の拡散防止設備を示す。\n漏れた液体を周囲へ広げず受け止める。\n容器の下の立ち上がりが受け皿を表す。\n皿内の青い線が受け止めた液体を示す。\n漏出 流出 防液堤 受け皿 spill containment bund tray",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "eb66c10c9c97d942bfc2588bdc414f1e9c737d26a40073c0a7fdd727b22d29dc",
+  "size_bytes": 1101
+}

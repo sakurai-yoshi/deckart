@@ -1,7 +1,6 @@
 {
   "title": "記録する",
   "kind": "illustration",
-  "category": "06-業務イラスト",
   "width": 1254,
   "height": 1254,
   "keywords": [
@@ -40,6 +39,7 @@
     "width": 1254,
     "height": 1254
   },
+  "category": "13-説明・伝達",
   "schema_version": 3,
   "id": "illustration/writing-notes",
   "name": "記録する_汎用ビジネスの動作",

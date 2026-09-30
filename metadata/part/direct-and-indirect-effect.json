@@ -1,0 +1,126 @@
+{
+  "title": "直接の効果とその先の影響を分ける",
+  "description": "取り組みから近い効果と、その先の影響には別の検証が必要になる。",
+  "keywords": [
+    "直接効果",
+    "間接効果",
+    "波及",
+    "影響",
+    "impact",
+    "direct",
+    "indirect",
+    "effect"
+  ],
+  "labels": [
+    {
+      "x": 38,
+      "y": 71,
+      "width": 172,
+      "height": 59,
+      "text": "取り組み",
+      "role": "起点",
+      "align": "center",
+      "color": "#2864F0",
+      "font_size": 28,
+      "id": "label-1",
+      "color_role": "accent",
+      "max_lines": 1,
+      "max_fullwidth_chars": 5
+    },
+    {
+      "x": 378,
+      "y": 71,
+      "width": 252,
+      "height": 59,
+      "text": "直接の変化",
+      "role": "直接効果",
+      "align": "center",
+      "color": "#153A6B",
+      "font_size": 29,
+      "id": "label-2",
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 8
+    },
+    {
+      "x": 822,
+      "y": 71,
+      "width": 270,
+      "height": 59,
+      "text": "その先の影響",
+      "role": "間接効果",
+      "align": "center",
+      "color": "#153A6B",
+      "font_size": 29,
+      "id": "label-3",
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 8
+    },
+    {
+      "x": 220,
+      "y": 270,
+      "width": 309,
+      "height": 70,
+      "text": "まず確かめる効果",
+      "role": "直接効果の検証",
+      "align": "center",
+      "color": "#2864F0",
+      "font_size": 28,
+      "id": "label-4",
+      "color_role": "accent",
+      "max_lines": 1,
+      "max_fullwidth_chars": 10
+    },
+    {
+      "x": 647,
+      "y": 270,
+      "width": 380,
+      "height": 70,
+      "text": "つながりを別途確かめる",
+      "role": "間接効果の検証",
+      "align": "center",
+      "color": "#607590",
+      "font_size": 27,
+      "id": "label-5",
+      "color_role": "muted",
+      "max_lines": 1,
+      "max_fullwidth_chars": 13
+    }
+  ],
+  "width": 1120,
+  "height": 380,
+  "kind": "part",
+  "guidance": {
+    "use_case": "施策の評価で、確認できた効果と波及の仮説を区別する。",
+    "message": "取り組みから近い効果と、その先の影響には別の検証が必要になる。",
+    "reading": [
+      "濃い矢印は直接の変化、淡い矢印はさらに先の影響。"
+    ]
+  },
+  "category": "13-説明・伝達",
+  "schema_version": 3,
+  "id": "part/direct-and-indirect-effect",
+  "name": "直接の効果とその先の影響を分ける_説明パーツ",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1120,
+    "height": 380
+  },
+  "path": "assets/part/direct-and-indirect-effect.svg",
+  "metadata_path": "metadata/part/direct-and-indirect-effect.json",
+  "preview_path": "previews/part/direct-and-indirect-effect.svg",
+  "preview_has_example_labels": true,
+  "search_text": "part/direct-and-indirect-effect\n直接の効果とその先の影響を分ける_説明パーツ\n直接の効果とその先の影響を分ける\n施策の評価で、確認できた効果と波及の仮説を区別する。\n取り組みから近い効果と、その先の影響には別の検証が必要になる。\n濃い矢印は直接の変化、淡い矢印はさらに先の影響。\n直接効果 間接効果 波及 影響 impact direct indirect effect",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "6e090c20705381ec8877ce274cb2787ca60bc427ad93df624a6c5e5f1f0d6e71",
+  "size_bytes": 1373,
+  "preview_sha256": "a30bd378de448a96cbd5764cf54b2d0455814aa7865d0e99b964f50615bfa2dd"
+}

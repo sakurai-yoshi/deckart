@@ -1,6 +1,5 @@
 {
   "kind": "illustration",
-  "category": "06-業務イラスト",
   "labels": [],
   "preview_path": "previews/illustration/issue-isolation.png",
   "composition": {
@@ -39,6 +38,7 @@
     "width": 1254,
     "height": 1254
   },
+  "category": "03-品質・改善",
   "schema_version": 3,
   "id": "illustration/issue-isolation",
   "name": "問題のある品を分ける_業務イラスト",

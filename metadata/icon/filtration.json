@@ -1,0 +1,49 @@
+{
+  "title": "ろ過",
+  "description": "通過させるものと取り除くものを分ける。",
+  "keywords": [
+    "ろ過",
+    "フィルター",
+    "分離",
+    "不純物",
+    "filtration",
+    "filter",
+    "separation"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "液体や粒子をフィルターで分ける工程を示す。",
+    "message": "通過させるものと取り除くものを分ける。",
+    "reading": [
+      "漏斗の中の横線がろ過面を表す。",
+      "大きな粒子は上に残り、小さな粒子が下へ進む。"
+    ]
+  },
+  "category": "04-生産・設備",
+  "schema_version": 3,
+  "id": "icon/filtration",
+  "name": "ろ過_工程と対象",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/filtration.svg",
+  "metadata_path": "metadata/icon/filtration.json",
+  "preview_path": "assets/icon/filtration.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/filtration\nろ過_工程と対象\nろ過\n液体や粒子をフィルターで分ける工程を示す。\n通過させるものと取り除くものを分ける。\n漏斗の中の横線がろ過面を表す。\n大きな粒子は上に残り、小さな粒子が下へ進む。\nろ過 フィルター 分離 不純物 filtration filter separation",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "af78aa843137c282fe2c7f0e6e0023ce823eef1068a55cea66c2b2369cf96c9b",
+  "size_bytes": 1332
+}

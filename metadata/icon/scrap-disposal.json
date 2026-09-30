@@ -1,0 +1,49 @@
+{
+  "title": "廃却",
+  "description": "対象を使用の流れから取り除く。",
+  "keywords": [
+    "廃却",
+    "スクラップ",
+    "廃棄",
+    "不良",
+    "scrap",
+    "disposal",
+    "reject"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "再利用や手直しに回さず廃却する扱いを示す。",
+    "message": "対象を使用の流れから取り除く。",
+    "reading": [
+      "容器と入る欠片が廃却を表す。",
+      "中央の交差線が使用を終える状態を表す。"
+    ]
+  },
+  "category": "03-品質・改善",
+  "schema_version": 3,
+  "id": "icon/scrap-disposal",
+  "name": "廃却_工程と対象",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/scrap-disposal.svg",
+  "metadata_path": "metadata/icon/scrap-disposal.json",
+  "preview_path": "assets/icon/scrap-disposal.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/scrap-disposal\n廃却_工程と対象\n廃却\n再利用や手直しに回さず廃却する扱いを示す。\n対象を使用の流れから取り除く。\n容器と入る欠片が廃却を表す。\n中央の交差線が使用を終える状態を表す。\n廃却 スクラップ 廃棄 不良 scrap disposal reject",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "0fd7e134b54569c31c9ed021096a257d4fc0aac342a95903c81931612d14cc3c",
+  "size_bytes": 924
+}

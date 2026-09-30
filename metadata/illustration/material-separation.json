@@ -1,0 +1,56 @@
+{
+  "title": "素材ごとに分解して分ける",
+  "description": "製品の外装、金属部品、基板を分け、対応するトレーへ整理する構成。",
+  "kind": "illustration",
+  "width": 1536,
+  "height": 1024,
+  "labels": [],
+  "composition": {
+    "framing": "object",
+    "facing": "front"
+  },
+  "keywords": [
+    "分解",
+    "分別",
+    "再資源化",
+    "循環",
+    "disassembly",
+    "material separation"
+  ],
+  "guidance": {
+    "use_case": "再資源化や分解しやすい設計を説明し、製品を材料ごとに分ける場面。",
+    "message": "一つの製品を分解し、素材ごとに扱えるようにする。",
+    "reading": [
+      "分解した外装、金属部品とねじ、基板を別々のまとまりにしている。",
+      "上に並ぶ三つのトレーが、それぞれを分けて収める先を示す。"
+    ]
+  },
+  "preview_path": "previews/illustration/material-separation.png",
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/enterprise-illustrations.json"
+  },
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": true,
+  "canvas": {
+    "width": 1536,
+    "height": 1024
+  },
+  "category": "08-環境・資源",
+  "schema_version": 3,
+  "id": "illustration/material-separation",
+  "name": "素材ごとに分解して分ける_業務イラスト",
+  "license": "CC0-1.0",
+  "path": "media/illustration/material-separation.png",
+  "metadata_path": "metadata/illustration/material-separation.json",
+  "preview_has_example_labels": false,
+  "search_text": "illustration/material-separation\n素材ごとに分解して分ける_業務イラスト\n素材ごとに分解して分ける\n再資源化や分解しやすい設計を説明し、製品を材料ごとに分ける場面。\n一つの製品を分解し、素材ごとに扱えるようにする。\n分解した外装、金属部品とねじ、基板を別々のまとまりにしている。\n上に並ぶ三つのトレーが、それぞれを分けて収める先を示す。\n分解 分別 再資源化 循環 disassembly material separation\nobject 物 道具 front 正面",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "97bc0c355ad64c24546bb557fd09b0ed261388f5a2d0fdaff68e477f270a4e30",
+  "size_bytes": 1733668
+}

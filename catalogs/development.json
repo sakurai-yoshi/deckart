@@ -1,0 +1,1002 @@
+{
+  "version": "2.1.0",
+  "raw_base": "https://raw.githubusercontent.com/sakurai-yoshi/deckart/v2.1.0/",
+  "category": "06-開発・技術",
+  "asset_count": 24,
+  "assets": [
+    {
+      "id": "development/design-freeze-change",
+      "title": "仕様を確定し、以後の変更を管理する",
+      "kind": "diagram",
+      "category": "06-開発・技術",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/development/design-freeze-change.svg",
+      "preview_path": "previews/development/design-freeze-change.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/development/design-freeze-change.json",
+      "sha256": "6c246511865a00ecf161d0fbb1dfdbb1efed926c5b9a722f64cadd7fa938907a",
+      "size_bytes": 2660,
+      "keywords": [
+        "設計凍結",
+        "仕様確定",
+        "変更審議",
+        "基準",
+        "量産準備",
+        "design",
+        "freeze",
+        "baseline",
+        "change",
+        "control"
+      ],
+      "use_case": "設計の検討期間と量産準備で基準を固定する期間の違いを説明する。",
+      "message": "確定した仕様を基準に進め、後から必要になった変更は影響を確認して判断する。",
+      "sample_data": false,
+      "preview_sha256": "afe8c3672db4e8d5824497f583e79a164d3690f145a74cdc68387307c9949263"
+    },
+    {
+      "id": "development/factorial-experiment",
+      "title": "二つの要因を組み合わせて試験する",
+      "kind": "diagram",
+      "category": "06-開発・技術",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/development/factorial-experiment.svg",
+      "preview_path": "previews/development/factorial-experiment.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/development/factorial-experiment.json",
+      "sha256": "d200a817a7aee6373a925ecc57ee38ea7c738062caec99cf988f9019c67d7ea6",
+      "size_bytes": 2051,
+      "keywords": [
+        "実験計画",
+        "要因",
+        "組合せ",
+        "試験",
+        "相互作用",
+        "factorial",
+        "experiment",
+        "DOE",
+        "interaction"
+      ],
+      "use_case": "試作や工程条件の検討で、二つの要因を系統的に変えて試す。",
+      "message": "組み合わせた条件を比較することで、一方だけを変える試験では見えにくい関係を調べる。",
+      "sample_data": false,
+      "preview_sha256": "b55ddb7248998992f201a2adb069386f575cd6833bbb95d8bcb339fc58b69c08"
+    },
+    {
+      "id": "development/feasible-design-space",
+      "title": "複数の制約から設計の成立範囲を探す",
+      "kind": "diagram",
+      "category": "06-開発・技術",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/development/feasible-design-space.svg",
+      "preview_path": "previews/development/feasible-design-space.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/development/feasible-design-space.json",
+      "sha256": "3ea3b8b30acd3ee2054715dd029bb9e60bb07b52b5bd4f1887577f2ed9acdc89",
+      "size_bytes": 1500,
+      "keywords": [
+        "設計空間",
+        "制約条件",
+        "実現可能",
+        "成立範囲",
+        "最適化",
+        "design",
+        "space",
+        "feasibility",
+        "constraints"
+      ],
+      "use_case": "性能・製造性・寸法などの条件を同時に満たす設計を検討する。",
+      "message": "一つの性能だけを最大化せず、条件が重なる範囲から設計案を選ぶ。",
+      "sample_data": false,
+      "preview_sha256": "1c1fc5b2f65a55c79a538e8550a2a12b46aa288af0201c8b54ae8efc8e318af9"
+    },
+    {
+      "id": "development/make-or-buy",
+      "title": "内製と外部調達を能力・継続性で比べる",
+      "kind": "diagram",
+      "category": "06-開発・技術",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/development/make-or-buy.svg",
+      "preview_path": "previews/development/make-or-buy.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/development/make-or-buy.json",
+      "sha256": "03377f616f83e35199ffd1a9bae67116727fd4550b893d1336cb3263ebcffb9f",
+      "size_bytes": 1383,
+      "keywords": [
+        "内製",
+        "外製",
+        "外注",
+        "調達",
+        "垂直統合",
+        "能力",
+        "make",
+        "buy",
+        "outsource",
+        "sourcing",
+        "capability"
+      ],
+      "use_case": "部品や機能を自社で作るか外部調達するかを検討する。",
+      "message": "単価だけでなく、持つべき能力と継続的な供給条件を比較する。",
+      "sample_data": false,
+      "preview_sha256": "3fbad31157f779516de9cebd998bab6b9680c8f45814ff9b4dc64161694f4cde"
+    },
+    {
+      "id": "development/platform-variants",
+      "title": "共通基盤から用途別の製品を展開する",
+      "kind": "diagram",
+      "category": "06-開発・技術",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/development/platform-variants.svg",
+      "preview_path": "previews/development/platform-variants.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/development/platform-variants.json",
+      "sha256": "e7f2fef40ae07fc197f7b018632241eb65e748c6c623df8f0c454fe6a1040009",
+      "size_bytes": 2555,
+      "keywords": [
+        "製品系列",
+        "共通基盤",
+        "モジュール",
+        "派生機種",
+        "標準化",
+        "platform",
+        "product",
+        "variants",
+        "modular",
+        "architecture"
+      ],
+      "use_case": "製品シリーズで共通化する部分と差別化する部分を整理する。",
+      "message": "共通基盤を維持しながら、顧客の用途に合わせた機能を組み合わせる。",
+      "sample_data": false,
+      "preview_sha256": "fa9779e7c8b1e7979b02dace8a5a3828f4e9535473f1462191f65ba91ab62532"
+    },
+    {
+      "id": "development/prototype-learning",
+      "title": "試作で疑問を減らして設計判断へ戻す",
+      "kind": "diagram",
+      "category": "06-開発・技術",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/development/prototype-learning.svg",
+      "preview_path": "previews/development/prototype-learning.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/development/prototype-learning.json",
+      "sha256": "db9b7e7d0cf87f9f526e26872f88341e71743cb75e7c460106fd47609bd4eefb",
+      "size_bytes": 2156,
+      "keywords": [
+        "試作",
+        "プロトタイプ",
+        "仮説",
+        "検証",
+        "開発",
+        "学習",
+        "prototype",
+        "learning",
+        "hypothesis",
+        "design",
+        "experiment"
+      ],
+      "use_case": "試作の目的を、見栄えの完成から技術や顧客の疑問の検証へ整理する。",
+      "message": "試作で得た結果を設計判断へ返し、残った疑問を次の試作に引き継ぐ。",
+      "sample_data": false,
+      "preview_sha256": "7d7f315ac86c4ff60032bf326d2c95ec61dc7f84b941ab5f361107b1ee34db72"
+    },
+    {
+      "id": "development/requirements-traceability",
+      "title": "要求・設計・試験をひも付ける",
+      "kind": "diagram",
+      "category": "06-開発・技術",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/development/requirements-traceability.svg",
+      "preview_path": "previews/development/requirements-traceability.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/development/requirements-traceability.json",
+      "sha256": "a06745581d6097a2c100f5a2febc2719db6c05c701d5d9f86ca346008efe9546",
+      "size_bytes": 3293,
+      "keywords": [
+        "要求管理",
+        "トレーサビリティ",
+        "検証",
+        "設計",
+        "試験",
+        "対応",
+        "requirements",
+        "traceability",
+        "test",
+        "coverage"
+      ],
+      "use_case": "要求の抜け漏れや変更時の再確認範囲をレビューする。",
+      "message": "要求から設計と試験までの対応を保持し、何を確認したかをたどれるようにする。",
+      "sample_data": false,
+      "preview_sha256": "64b480c147a394d31c3093dbe34fcb7661c86bf7e4ec0618d1b4df45e362b1eb"
+    },
+    {
+      "id": "development/technology-readiness",
+      "title": "技術を実用の条件へ段階的に近づける",
+      "kind": "diagram",
+      "category": "06-開発・技術",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/development/technology-readiness.svg",
+      "preview_path": "previews/development/technology-readiness.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/development/technology-readiness.json",
+      "sha256": "c7216a6e86c34ff9313f3c05a261dfc35b79623af9c63d3a2ba4fc1adf5f43ee",
+      "size_bytes": 2525,
+      "keywords": [
+        "技術成熟度",
+        "研究開発",
+        "実用化",
+        "検証",
+        "実環境",
+        "readiness",
+        "prototype",
+        "technology",
+        "validation"
+      ],
+      "use_case": "研究成果を製品化する前に、どの環境まで確認したかを共有する。",
+      "message": "原理の成立と実環境での成立を分け、確認済みの範囲を明らかにする。",
+      "sample_data": false,
+      "preview_sha256": "cb7ed55d3f40a13fdfab7cc6e0e5dd4e320d9f73e51b0e260d05b9da9e639220"
+    },
+    {
+      "id": "development/test-coverage-matrix",
+      "title": "機能と使用条件から試験の抜けを見つける",
+      "kind": "diagram",
+      "category": "06-開発・技術",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/development/test-coverage-matrix.svg",
+      "preview_path": "previews/development/test-coverage-matrix.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/development/test-coverage-matrix.json",
+      "sha256": "dd46149a824f0b570313b6abb8884e51195b6e1d2dbfe4fd5a2de4e9b528ac62",
+      "size_bytes": 4170,
+      "keywords": [
+        "試験",
+        "網羅性",
+        "カバレッジ",
+        "機能",
+        "条件",
+        "テスト",
+        "test",
+        "coverage",
+        "matrix",
+        "validation"
+      ],
+      "use_case": "試験計画やレビューで、確認済みの組み合わせと未確認箇所を共有する。",
+      "message": "機能別の確認だけでなく、使用条件との組み合わせを見渡す。",
+      "sample_data": false,
+      "preview_sha256": "abac4989e5e9e949511c5b9e9ccbbf0facc99c887e4961828cb5182928b596bd"
+    },
+    {
+      "id": "development/tolerance-chain",
+      "title": "部品の許容差が組立へ積み上がる",
+      "kind": "diagram",
+      "category": "06-開発・技術",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/development/tolerance-chain.svg",
+      "preview_path": "previews/development/tolerance-chain.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/development/tolerance-chain.json",
+      "sha256": "6a037da05879f80960c1540b7c2acebc6a46c212a5dbedf006bd08bb9288dc84",
+      "size_bytes": 3254,
+      "keywords": [
+        "公差",
+        "許容差",
+        "寸法",
+        "ばらつき",
+        "組立",
+        "干渉",
+        "tolerance",
+        "stackup",
+        "assembly",
+        "dimensional",
+        "variation"
+      ],
+      "use_case": "組立品のすきまや干渉が、部品寸法の組み合わせで変わることを説明する。",
+      "message": "個々の部品が許容範囲でも、組み合わせた寸法を確認する必要がある。",
+      "sample_data": false,
+      "preview_sha256": "f699cbec834e8fcbff028a1bf5b050800a5b2e1b1b285908c88ec988465ed61a"
+    },
+    {
+      "id": "icon/automation",
+      "title": "自動化",
+      "kind": "icon",
+      "category": "06-開発・技術",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/automation.svg",
+      "preview_path": "assets/icon/automation.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/automation.json",
+      "sha256": "bcd63ddd1001fbcffabd41efdaa15d9583be9be82d34b338250f13beb57aa853",
+      "size_bytes": 1366,
+      "keywords": [
+        "自動化",
+        "自動処理",
+        "省力",
+        "ロボット",
+        "RPA",
+        "automation",
+        "robotic",
+        "process"
+      ],
+      "use_case": "繰り返し作業の自動化や省力化を紹介する。",
+      "message": "決まった作業を仕組みが実行する。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/bill-of-materials",
+      "title": "部品構成",
+      "kind": "icon",
+      "category": "06-開発・技術",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/bill-of-materials.svg",
+      "preview_path": "assets/icon/bill-of-materials.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/bill-of-materials.json",
+      "sha256": "d4534acf812ff8311e845b713d8c12d2f0b1335fd07e0d3d1434191b33c48312",
+      "size_bytes": 1048,
+      "keywords": [
+        "部品表",
+        "構成",
+        "BOM",
+        "製品",
+        "部材",
+        "bill",
+        "materials",
+        "components"
+      ],
+      "use_case": "部品構成や部品表の見出しに添える。",
+      "message": "一つの製品が複数種類の部品から成る。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/digital-twin",
+      "title": "デジタルツイン",
+      "kind": "icon",
+      "category": "06-開発・技術",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/digital-twin.svg",
+      "preview_path": "assets/icon/digital-twin.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/digital-twin.json",
+      "sha256": "af03e836fc1819027d7d373396be5788ff704ecee3cc038fd120d4e4c4d994c8",
+      "size_bytes": 1581,
+      "keywords": [
+        "デジタルツイン",
+        "仮想",
+        "モデル",
+        "実物",
+        "digital",
+        "twin",
+        "simulation",
+        "physical",
+        "virtual"
+      ],
+      "use_case": "実物とデジタル上のモデルを対応させる構成を説明する。",
+      "message": "実物と対応するモデルをつないで扱う。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/idea",
+      "title": "アイデア",
+      "kind": "icon",
+      "category": "06-開発・技術",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/idea.svg",
+      "preview_path": "assets/icon/idea.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/idea.json",
+      "sha256": "f8babbbc20508097c9404299c5647f27e6c8a39b80dc7ca3fc0340205adab16f",
+      "size_bytes": 944,
+      "keywords": [
+        "発想",
+        "アイデア",
+        "ひらめき",
+        "気付き",
+        "改善",
+        "工夫",
+        "idea",
+        "lightbulb",
+        "insight"
+      ],
+      "use_case": "新しい案や改善の着眼点を示す場面。",
+      "message": "仕事を変える発想や気付きがある。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/product-specification",
+      "title": "製品仕様",
+      "kind": "icon",
+      "category": "06-開発・技術",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/product-specification.svg",
+      "preview_path": "assets/icon/product-specification.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/product-specification.json",
+      "sha256": "947baf5944bb02d1f35fd3e56a439088fea4d0e898c093e8867492571fdfafba",
+      "size_bytes": 1607,
+      "keywords": [
+        "仕様",
+        "製品",
+        "図面",
+        "要件",
+        "寸法",
+        "specification",
+        "drawing",
+        "requirement"
+      ],
+      "use_case": "製品仕様や図面で条件を確認する工程に添える。",
+      "message": "形や寸法の条件を文書で定める。",
+      "sample_data": false
+    },
+    {
+      "id": "icon/sensor",
+      "title": "センシング",
+      "kind": "icon",
+      "category": "06-開発・技術",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 160,
+      "height": 160,
+      "canvas": {
+        "width": 160,
+        "height": 160
+      },
+      "render": {
+        "theme": true,
+        "labels": false,
+        "data": false
+      },
+      "path": "assets/icon/sensor.svg",
+      "preview_path": "assets/icon/sensor.svg",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/icon/sensor.json",
+      "sha256": "4a45058941f509268c2fe4606f4030b2fc49b448e7e9d739e85097f6884128e7",
+      "size_bytes": 738,
+      "keywords": [
+        "センサー",
+        "検知",
+        "計測",
+        "感知",
+        "sensor",
+        "sensing",
+        "detection",
+        "measurement"
+      ],
+      "use_case": "現場の状態を検知してデータにする仕組みを示す。",
+      "message": "周囲の状態を検知する。",
+      "sample_data": false
+    },
+    {
+      "id": "illustration/controlled-experiment",
+      "title": "一つの条件を変えて試験する",
+      "kind": "illustration",
+      "category": "06-開発・技術",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1536,
+      "height": 1024,
+      "canvas": {
+        "width": 1536,
+        "height": 1024
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/controlled-experiment.png",
+      "preview_path": "previews/illustration/controlled-experiment.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/controlled-experiment.json",
+      "sha256": "7f73bd84a4ed8278112ce5fb6790138e9e9ecbbbf241c8abd1dd4954b17b2c1b",
+      "size_bytes": 1105914,
+      "keywords": [
+        "実験",
+        "比較試験",
+        "条件",
+        "評価",
+        "controlled experiment",
+        "testing"
+      ],
+      "use_case": "試作や評価の進め方を説明し、比較する条件をそろえて違いを確かめる場面。",
+      "message": "共通の条件をそろえ、変えた要素の影響を見る。",
+      "sample_data": false,
+      "composition": {
+        "framing": "object",
+        "facing": "front"
+      }
+    },
+    {
+      "id": "illustration/design-clearance",
+      "title": "組み合わせる部品のすきまを確かめる",
+      "kind": "illustration",
+      "category": "06-開発・技術",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1536,
+      "height": 1024,
+      "canvas": {
+        "width": 1536,
+        "height": 1024
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/design-clearance.png",
+      "preview_path": "previews/illustration/design-clearance.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/design-clearance.json",
+      "sha256": "6a6cc785d1c94bfdb21470a18583f92d78c8511582e6bdc45cfa7265075797f9",
+      "size_bytes": 1363886,
+      "keywords": [
+        "公差",
+        "すきま",
+        "設計",
+        "干渉",
+        "clearance",
+        "tolerance"
+      ],
+      "use_case": "設計や組立の検討で、部品間に設けたすきまを実物で確認する場面。",
+      "message": "部品の間に必要なすきまがあるか確かめる。",
+      "sample_data": false,
+      "composition": {
+        "framing": "object",
+        "facing": "front"
+      }
+    },
+    {
+      "id": "illustration/idea-development",
+      "title": "構想を練る",
+      "kind": "illustration",
+      "category": "06-開発・技術",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1254,
+      "height": 1254,
+      "canvas": {
+        "width": 1254,
+        "height": 1254
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/idea-development.png",
+      "preview_path": "previews/illustration/idea-development.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/idea-development.json",
+      "sha256": "b10d44bac0a5d2de6cc159aa5cd227e30162e3d9f7a24a9540a3ffb8ade8e44e",
+      "size_bytes": 915704,
+      "keywords": [
+        "構想",
+        "発想",
+        "アイデア",
+        "企画",
+        "下書き",
+        "idea",
+        "sketch",
+        "concept"
+      ],
+      "use_case": "企画、アイデア検討、製品構想、提案準備の説明に。",
+      "message": "描いて試しながら考えを具体化する。",
+      "sample_data": false,
+      "composition": {
+        "framing": "object",
+        "facing": "front",
+        "people_count": 0
+      }
+    },
+    {
+      "id": "illustration/prototype-development",
+      "title": "試作品を検討する",
+      "kind": "illustration",
+      "category": "06-開発・技術",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1254,
+      "height": 1254,
+      "canvas": {
+        "width": 1254,
+        "height": 1254
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/prototype-development.png",
+      "preview_path": "previews/illustration/prototype-development.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/prototype-development.json",
+      "sha256": "69a4cf327ad7b0d3c69e3bf7d5914e59c8f3f8d9ea53cc6e13bbb3d37dcf6099",
+      "size_bytes": 835997,
+      "keywords": [
+        "試作",
+        "開発",
+        "検討",
+        "製品",
+        "prototype",
+        "development",
+        "design"
+      ],
+      "use_case": "製品開発、試作レビュー、設計と現場の対話の説明。",
+      "message": "形にした試作品を見ながら、改善点を検討する。",
+      "sample_data": false,
+      "composition": {
+        "framing": "waist-up",
+        "facing": "inward",
+        "people_count": 2
+      }
+    },
+    {
+      "id": "illustration/prototype-realization",
+      "title": "構想を試作品にする",
+      "kind": "illustration",
+      "category": "06-開発・技術",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1254,
+      "height": 1254,
+      "canvas": {
+        "width": 1254,
+        "height": 1254
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/prototype-realization.png",
+      "preview_path": "previews/illustration/prototype-realization.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/prototype-realization.json",
+      "sha256": "957f408a845daa3ceead5880814754d4cdc20576ffd34e1988b7972808b63402",
+      "size_bytes": 565029,
+      "keywords": [
+        "試作",
+        "構想",
+        "設計",
+        "実物化",
+        "開発",
+        "prototype",
+        "realization",
+        "design"
+      ],
+      "use_case": "設計から試作、構想の具体化、製品開発の説明。",
+      "message": "考えた形を実物にし、確かめられる状態にする。",
+      "sample_data": false,
+      "composition": {
+        "framing": "object",
+        "facing": "front",
+        "people_count": 0
+      }
+    },
+    {
+      "id": "illustration/shared-components",
+      "title": "共通部品を複数製品に使う",
+      "kind": "illustration",
+      "category": "06-開発・技術",
+      "format": "png",
+      "mime_type": "image/png",
+      "transparent": true,
+      "width": 1254,
+      "height": 1254,
+      "canvas": {
+        "width": 1254,
+        "height": 1254
+      },
+      "render": {
+        "theme": false,
+        "labels": false,
+        "data": false
+      },
+      "path": "media/illustration/shared-components.png",
+      "preview_path": "previews/illustration/shared-components.png",
+      "preview_has_example_labels": false,
+      "metadata_path": "metadata/illustration/shared-components.json",
+      "sha256": "f1da42aff4b74b33c65cccfe70d23cf2a5b4754c99d1d52792a5fa4b7874d9a6",
+      "size_bytes": 583441,
+      "keywords": [
+        "共通化",
+        "標準化",
+        "部品",
+        "製品",
+        "共通部品",
+        "shared components",
+        "standardization"
+      ],
+      "use_case": "部品共通化、標準設計、調達や保守の効率化の説明。",
+      "message": "異なる製品で同じ部品を使い、構成を揃える。",
+      "sample_data": false,
+      "composition": {
+        "framing": "object",
+        "facing": "front",
+        "people_count": 0
+      }
+    },
+    {
+      "id": "manufacturing/design-verification",
+      "title": "要求と設計に対応した検証を行う",
+      "kind": "diagram",
+      "category": "06-開発・技術",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/manufacturing/design-verification.svg",
+      "preview_path": "previews/manufacturing/design-verification.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/manufacturing/design-verification.json",
+      "sha256": "e589a834500b6c3e11cb4808f1fe3df914b9040dd909fec62e50dcddb22ceb08",
+      "size_bytes": 3082,
+      "keywords": [
+        "要求",
+        "設計",
+        "検証",
+        "妥当性確認",
+        "試作",
+        "Vモデル",
+        "design",
+        "verification",
+        "validation"
+      ],
+      "use_case": "要求から設計・試作へ具体化し、それぞれの条件に対応する確認を行う。",
+      "message": "作った結果を、事前に決めた要求と設計条件に対応させて確かめる。",
+      "sample_data": false,
+      "preview_sha256": "f74250e42c2a58f854b3674886c222ac6766227bc4bbcbc531b18921fbfa9fa4"
+    },
+    {
+      "id": "manufacturing/engineering-change-impact",
+      "title": "変更の影響を横断して確認する",
+      "kind": "diagram",
+      "category": "06-開発・技術",
+      "format": "svg",
+      "mime_type": "image/svg+xml",
+      "transparent": null,
+      "width": 1200,
+      "height": 720,
+      "canvas": {
+        "width": 1200,
+        "height": 720
+      },
+      "render": {
+        "theme": true,
+        "labels": true,
+        "data": false
+      },
+      "path": "assets/manufacturing/engineering-change-impact.svg",
+      "preview_path": "previews/manufacturing/engineering-change-impact.svg",
+      "preview_has_example_labels": true,
+      "metadata_path": "metadata/manufacturing/engineering-change-impact.json",
+      "sha256": "b44661381bef21f89ad25791f97365f13cc3fa3989a647a9d306b90732d727eb",
+      "size_bytes": 4530,
+      "keywords": [
+        "設計変更",
+        "変更管理",
+        "影響範囲",
+        "図面",
+        "工程",
+        "engineering",
+        "change",
+        "impact",
+        "review"
+      ],
+      "use_case": "設計や仕様の変更が製品・工程・文書へ与える影響を確認する。",
+      "message": "一箇所の変更でも関連する対象を確認し、必要な条件がそろってから適用する。",
+      "sample_data": false,
+      "preview_sha256": "ee9f129ff0bc73214c0174e86bcf27277373b7197325d51a6ad9f9ef31955dda"
+    }
+  ]
+}

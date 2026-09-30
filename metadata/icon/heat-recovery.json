@@ -1,0 +1,51 @@
+{
+  "title": "排熱回収",
+  "description": "排出される熱を回収して再利用する。",
+  "keywords": [
+    "排熱",
+    "回収",
+    "熱交換",
+    "再利用",
+    "heat",
+    "recovery",
+    "exchanger",
+    "waste",
+    "heat"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "工程の排熱を別の用途へ利用する仕組みを示す。",
+    "message": "排出される熱を回収して再利用する。",
+    "reading": [
+      "中央の面が熱を受け渡す部分を表す。",
+      "交互の流れが熱交換する経路を表す。"
+    ]
+  },
+  "category": "08-環境・資源",
+  "schema_version": 3,
+  "id": "icon/heat-recovery",
+  "name": "排熱回収_設備と働き",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/heat-recovery.svg",
+  "metadata_path": "metadata/icon/heat-recovery.json",
+  "preview_path": "assets/icon/heat-recovery.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/heat-recovery\n排熱回収_設備と働き\n排熱回収\n工程の排熱を別の用途へ利用する仕組みを示す。\n排出される熱を回収して再利用する。\n中央の面が熱を受け渡す部分を表す。\n交互の流れが熱交換する経路を表す。\n排熱 回収 熱交換 再利用 heat recovery exchanger waste heat",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "4deebd25f66157e90b22fe17aaa7b5321d4559cb3a9d77a64fd52598584797bc",
+  "size_bytes": 1315
+}

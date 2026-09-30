@@ -1,5 +1,4 @@
 {
-  "category": "01-業務プロセス",
   "title": "担当をまたぐ引継ぎを追う",
   "description": "依頼者・受付・専門担当の担当範囲と、仕事を渡す順序を示す。",
   "keywords": [
@@ -138,6 +137,7 @@
     "relation": "responsibility-swimlane",
     "reading_direction": "left-to-right"
   },
+  "category": "09-組織・人材",
   "schema_version": 3,
   "id": "operations/responsibility-swimlane",
   "name": "役割分担_担当をまたぐ引継ぎを追う_三者のスイムレーン",
@@ -160,5 +160,6 @@
     "data": false
   },
   "sha256": "1d518e5c9c7fc0a0c62f74659f2e2443f912afb6f7e319cba0df5c9ac36d5ef5",
-  "size_bytes": 4300
+  "size_bytes": 4300,
+  "preview_sha256": "9e1efc6bd9679b5677939e9e30b84e5188ef660b106233688e415dc6d100f90b"
 }

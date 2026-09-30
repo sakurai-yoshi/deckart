@@ -1,5 +1,4 @@
 {
-  "category": "07-注釈と見出し",
   "title": "決定した内容と責任を残す",
   "description": "確認済みの記号に、決定と判断情報を対応させる部品。",
   "keywords": [
@@ -70,6 +69,7 @@
       "大きな決定文の下には、責任者と判断情報の領域がある。"
     ]
   },
+  "category": "13-説明・伝達",
   "schema_version": 3,
   "id": "part/recorded-decision",
   "name": "決定した内容と責任を残す_説明パーツ",
@@ -92,5 +92,6 @@
     "data": false
   },
   "sha256": "145fd5fdcc141ce744bae0e82a0511f2aecda1704278fa9e915ed91b2761037a",
-  "size_bytes": 937
+  "size_bytes": 937,
+  "preview_sha256": "bb05e184a3d34f6a5fbf3bbbf90a50fe85adb1680eca9f9e7bfdb1de7262f26d"
 }

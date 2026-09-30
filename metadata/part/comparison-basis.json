@@ -1,0 +1,141 @@
+{
+  "title": "比較の基準をそろえる",
+  "description": "換算の基準を明示してから大小を比べる。",
+  "keywords": [
+    "比較条件",
+    "換算",
+    "単位",
+    "期間",
+    "分母",
+    "normalization",
+    "basis",
+    "comparable"
+  ],
+  "labels": [
+    {
+      "x": 53,
+      "y": 62,
+      "width": 230,
+      "height": 56,
+      "text": "比較する対象",
+      "role": "対象",
+      "align": "left",
+      "color": "#607590",
+      "font_size": 26,
+      "id": "label-1",
+      "color_role": "muted",
+      "max_lines": 1,
+      "max_fullwidth_chars": 8
+    },
+    {
+      "x": 53,
+      "y": 140,
+      "width": 230,
+      "height": 91,
+      "text": "異なる規模",
+      "role": "元の条件",
+      "align": "left",
+      "color": "#153A6B",
+      "font_size": 35,
+      "id": "label-2",
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 6
+    },
+    {
+      "x": 370,
+      "y": 57,
+      "width": 380,
+      "height": 63,
+      "text": "同じ基準へ換算",
+      "role": "換算",
+      "align": "center",
+      "color": "#2864F0",
+      "font_size": 31,
+      "id": "label-3",
+      "color_role": "accent",
+      "max_lines": 1,
+      "max_fullwidth_chars": 11
+    },
+    {
+      "x": 352,
+      "y": 281,
+      "width": 415,
+      "height": 57,
+      "text": "単位・期間・分母をそろえる",
+      "role": "共通基準",
+      "align": "center",
+      "color": "#153A6B",
+      "font_size": 27,
+      "id": "label-4",
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 14
+    },
+    {
+      "x": 837,
+      "y": 62,
+      "width": 230,
+      "height": 56,
+      "text": "比較できる値",
+      "role": "換算後",
+      "align": "left",
+      "color": "#2864F0",
+      "font_size": 26,
+      "id": "label-5",
+      "color_role": "accent",
+      "max_lines": 1,
+      "max_fullwidth_chars": 8
+    },
+    {
+      "x": 837,
+      "y": 140,
+      "width": 230,
+      "height": 91,
+      "text": "共通の尺度",
+      "role": "比較尺度",
+      "align": "left",
+      "color": "#153A6B",
+      "font_size": 35,
+      "id": "label-6",
+      "color_role": "ink",
+      "max_lines": 1,
+      "max_fullwidth_chars": 6
+    }
+  ],
+  "width": 1120,
+  "height": 380,
+  "kind": "part",
+  "guidance": {
+    "use_case": "規模や集計期間が異なる実績を同じ基準で比較する。",
+    "message": "換算の基準を明示してから大小を比べる。",
+    "reading": [
+      "左の元データを中央の共通基準で換算し、右で比較する。"
+    ]
+  },
+  "category": "13-説明・伝達",
+  "schema_version": 3,
+  "id": "part/comparison-basis",
+  "name": "比較の基準をそろえる_説明パーツ",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 1120,
+    "height": 380
+  },
+  "path": "assets/part/comparison-basis.svg",
+  "metadata_path": "metadata/part/comparison-basis.json",
+  "preview_path": "previews/part/comparison-basis.svg",
+  "preview_has_example_labels": true,
+  "search_text": "part/comparison-basis\n比較の基準をそろえる_説明パーツ\n比較の基準をそろえる\n規模や集計期間が異なる実績を同じ基準で比較する。\n換算の基準を明示してから大小を比べる。\n左の元データを中央の共通基準で換算し、右で比較する。\n比較条件 換算 単位 期間 分母 normalization basis comparable",
+  "render": {
+    "theme": true,
+    "labels": true,
+    "data": false
+  },
+  "sha256": "1880a399440e918bc281fe2e932ba57df188e52e04aeb114fe1680d83c0694a6",
+  "size_bytes": 1318,
+  "preview_sha256": "79753d8e85722269d141d51fa5e18515f266f12310b7822a3cc55a9164fd473e"
+}

@@ -2,7 +2,6 @@
   "title": "開いた青い陶器の曲面",
   "description": "左側に白い陶器の弧と丸い台座があり、弧の内側に深い青が見える。",
   "kind": "background",
-  "category": "11-背景とフレーム",
   "width": 1672,
   "height": 941,
   "keywords": [
@@ -44,6 +43,7 @@
     "width": 1672,
     "height": 941
   },
+  "category": "14-背景・装飾",
   "schema_version": 3,
   "id": "background/quote-porcelain-balance",
   "name": "開いた青い陶器の曲面_背景",

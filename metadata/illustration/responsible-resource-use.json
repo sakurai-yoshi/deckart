@@ -1,7 +1,6 @@
 {
   "title": "資源を分けて再利用に備える",
   "kind": "illustration",
-  "category": "06-業務イラスト",
   "width": 1254,
   "height": 1254,
   "keywords": [
@@ -40,6 +39,7 @@
     "width": 1254,
     "height": 1254
   },
+  "category": "08-環境・資源",
   "schema_version": 3,
   "id": "illustration/responsible-resource-use",
   "name": "資源を分けて再利用に備える_メーカー業務の動作",

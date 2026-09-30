@@ -1,5 +1,4 @@
 {
-  "category": "12-AIとデータ基盤",
   "title": "AIの下書きを人が確認する",
   "description": "生成された下書きを人が確認し、修正または確定へ進める。",
   "keywords": [
@@ -93,6 +92,7 @@
       "確認を終えたものは右へ、修正が必要なものは下の経路で戻る。"
     ]
   },
+  "category": "12-情報・データ",
   "schema_version": 3,
   "id": "technology/ai-human-review",
   "name": "AI運用_下書きを人が確認して確定する_生成と公開の間の判断",
@@ -115,5 +115,6 @@
     "data": false
   },
   "sha256": "d38485aec97fc32cc29ec49875ba09674125cbbce200791a79f6aa835d3ee7ec",
-  "size_bytes": 7490
+  "size_bytes": 7490,
+  "preview_sha256": "2f9163c56f8158c587bdcdcda4dc4d3e397843838979292eec02fb143cf2ea08"
 }

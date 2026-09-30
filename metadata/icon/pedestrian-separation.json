@@ -1,0 +1,51 @@
+{
+  "title": "人車分離",
+  "description": "人と車両の動線を分ける。",
+  "keywords": [
+    "人車分離",
+    "通路",
+    "歩行者",
+    "車両",
+    "動線",
+    "pedestrian",
+    "vehicle",
+    "separation",
+    "walkway"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "人と搬送車の通路を分ける運用を説明する。",
+    "message": "人と車両の動線を分ける。",
+    "reading": [
+      "中央の境界線が通路を二つに分ける。",
+      "左右の人物と車両が別の領域を通る。"
+    ]
+  },
+  "category": "07-安全・事業継続",
+  "schema_version": 3,
+  "id": "icon/pedestrian-separation",
+  "name": "人車分離_設備と働き",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/pedestrian-separation.svg",
+  "metadata_path": "metadata/icon/pedestrian-separation.json",
+  "preview_path": "assets/icon/pedestrian-separation.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/pedestrian-separation\n人車分離_設備と働き\n人車分離\n人と搬送車の通路を分ける運用を説明する。\n人と車両の動線を分ける。\n中央の境界線が通路を二つに分ける。\n左右の人物と車両が別の領域を通る。\n人車分離 通路 歩行者 車両 動線 pedestrian vehicle separation walkway",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "777ab6940cfb0c9318065f5104df61f1f3a3ea1c413318180801f578cb891395",
+  "size_bytes": 1238
+}

@@ -1,6 +1,5 @@
 {
   "kind": "illustration",
-  "category": "06-業務イラスト",
   "labels": [],
   "preview_path": "previews/illustration/ergonomic-workstation.png",
   "composition": {
@@ -38,6 +37,7 @@
     "width": 1254,
     "height": 1254
   },
+  "category": "07-安全・事業継続",
   "schema_version": 3,
   "id": "illustration/ergonomic-workstation",
   "name": "働く姿勢を整える_業務イラスト",

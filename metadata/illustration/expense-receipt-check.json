@@ -1,0 +1,56 @@
+{
+  "title": "領収書をまとめて精算する",
+  "description": "区画に整理した領収書、カード、一覧票を組み合わせた経費精算の構成。",
+  "kind": "illustration",
+  "width": 1536,
+  "height": 1024,
+  "labels": [],
+  "composition": {
+    "framing": "object",
+    "facing": "front"
+  },
+  "keywords": [
+    "経費",
+    "精算",
+    "領収書",
+    "費用",
+    "expense",
+    "reimbursement"
+  ],
+  "guidance": {
+    "use_case": "経費精算の説明で、支出を示す領収書を集めて一覧と確認する場面。",
+    "message": "支出の記録をまとめ、精算内容を確かめる。",
+    "reading": [
+      "開いたケースの区画に複数の領収書が収まっている。",
+      "ケースの前にカードと一覧票があり、支払いと集計の関係を示す。"
+    ]
+  },
+  "preview_path": "previews/illustration/expense-receipt-check.png",
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/enterprise-illustrations.json"
+  },
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": true,
+  "canvas": {
+    "width": 1536,
+    "height": 1024
+  },
+  "category": "11-会計・収益",
+  "schema_version": 3,
+  "id": "illustration/expense-receipt-check",
+  "name": "領収書をまとめて精算する_業務イラスト",
+  "license": "CC0-1.0",
+  "path": "media/illustration/expense-receipt-check.png",
+  "metadata_path": "metadata/illustration/expense-receipt-check.json",
+  "preview_has_example_labels": false,
+  "search_text": "illustration/expense-receipt-check\n領収書をまとめて精算する_業務イラスト\n領収書をまとめて精算する\n経費精算の説明で、支出を示す領収書を集めて一覧と確認する場面。\n支出の記録をまとめ、精算内容を確かめる。\n開いたケースの区画に複数の領収書が収まっている。\nケースの前にカードと一覧票があり、支払いと集計の関係を示す。\n経費 精算 領収書 費用 expense reimbursement\nobject 物 道具 front 正面",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "30e77a3d17f89a66a60bfae80a50eba6a0ae3c3a1e9b1ed1bb94462c0ae6c132",
+  "size_bytes": 1255162
+}

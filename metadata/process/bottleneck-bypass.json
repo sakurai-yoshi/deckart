@@ -1,5 +1,4 @@
 {
-  "category": "01-業務プロセス",
   "title": "ボトルネックと負荷の逃がし方",
   "description": "処理待ちが集中する工程と、負荷を別経路へ逃がす改善策を示す。",
   "keywords": [
@@ -90,6 +89,7 @@
     ]
   },
   "kind": "diagram",
+  "category": "04-生産・設備",
   "schema_version": 3,
   "id": "process/bottleneck-bypass",
   "name": "業務改善_ボトルネックを迂回して負荷を逃がす_待ち行列と迂回路",
@@ -112,5 +112,6 @@
     "data": false
   },
   "sha256": "5bb1d9af2d30af0e2e17ead18ad069f6c82c62eab2bb0cd17f0245264e5007ff",
-  "size_bytes": 3243
+  "size_bytes": 3243,
+  "preview_sha256": "322889658921a7d378c04926a744290f5443de4106e464738c987de6fcaefc8d"
 }

@@ -1,0 +1,49 @@
+{
+  "title": "重複の除去",
+  "description": "同じ内容が重なった記録を取り除く。",
+  "keywords": [
+    "重複",
+    "除去",
+    "一意",
+    "名寄せ",
+    "duplicate",
+    "deduplication",
+    "uniqueness"
+  ],
+  "labels": [],
+  "width": 160,
+  "height": 160,
+  "kind": "icon",
+  "guidance": {
+    "use_case": "重複した記録を整理して一つにする処理を示す。",
+    "message": "同じ内容が重なった記録を取り除く。",
+    "reading": [
+      "同じ内容の二枚の記録が重複を表す。",
+      "一方に重なる交差線が重複分を除く処理を示す。"
+    ]
+  },
+  "category": "12-情報・データ",
+  "schema_version": 3,
+  "id": "icon/duplicate-removal",
+  "name": "重複の除去_情報と関係",
+  "license": "CC0-1.0",
+  "format": "svg",
+  "mime_type": "image/svg+xml",
+  "transparent": null,
+  "canvas": {
+    "width": 160,
+    "height": 160
+  },
+  "path": "assets/icon/duplicate-removal.svg",
+  "metadata_path": "metadata/icon/duplicate-removal.json",
+  "preview_path": "assets/icon/duplicate-removal.svg",
+  "preview_has_example_labels": false,
+  "search_text": "icon/duplicate-removal\n重複の除去_情報と関係\n重複の除去\n重複した記録を整理して一つにする処理を示す。\n同じ内容が重なった記録を取り除く。\n同じ内容の二枚の記録が重複を表す。\n一方に重なる交差線が重複分を除く処理を示す。\n重複 除去 一意 名寄せ duplicate deduplication uniqueness",
+  "render": {
+    "theme": true,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "993e88d14e48a249524b3db2abf185a8d194c28c717a2f27cd59a260b3034062",
+  "size_bytes": 1214
+}

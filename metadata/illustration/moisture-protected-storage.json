@@ -1,0 +1,56 @@
+{
+  "title": "湿気から部品を守って保管する",
+  "description": "電子基板と乾燥剤を透明な袋に収めた、防湿保管の構成。",
+  "kind": "illustration",
+  "width": 1536,
+  "height": 1024,
+  "labels": [],
+  "composition": {
+    "framing": "object",
+    "facing": "front"
+  },
+  "keywords": [
+    "防湿",
+    "乾燥剤",
+    "保管",
+    "梱包",
+    "moisture protection",
+    "desiccant"
+  ],
+  "guidance": {
+    "use_case": "湿気を避けたい部品の保管や梱包で、乾燥剤と袋を使う備えを説明する場面。",
+    "message": "部品と乾燥剤を一緒に包み、保管中の湿気に備える。",
+    "reading": [
+      "電子部品の基板と白い乾燥剤の小袋が、同じ透明袋に収まっている。",
+      "袋の上部を閉じた形で、外側から包む保管方法を示す。"
+    ]
+  },
+  "preview_path": "previews/illustration/moisture-protected-storage.png",
+  "generation": {
+    "method": "image-generation",
+    "definition_path": "sources/enterprise-illustrations.json"
+  },
+  "format": "png",
+  "mime_type": "image/png",
+  "transparent": true,
+  "canvas": {
+    "width": 1536,
+    "height": 1024
+  },
+  "category": "05-調達・物流",
+  "schema_version": 3,
+  "id": "illustration/moisture-protected-storage",
+  "name": "湿気から部品を守って保管する_業務イラスト",
+  "license": "CC0-1.0",
+  "path": "media/illustration/moisture-protected-storage.png",
+  "metadata_path": "metadata/illustration/moisture-protected-storage.json",
+  "preview_has_example_labels": false,
+  "search_text": "illustration/moisture-protected-storage\n湿気から部品を守って保管する_業務イラスト\n湿気から部品を守って保管する\n湿気を避けたい部品の保管や梱包で、乾燥剤と袋を使う備えを説明する場面。\n部品と乾燥剤を一緒に包み、保管中の湿気に備える。\n電子部品の基板と白い乾燥剤の小袋が、同じ透明袋に収まっている。\n袋の上部を閉じた形で、外側から包む保管方法を示す。\n防湿 乾燥剤 保管 梱包 moisture protection desiccant\nobject 物 道具 front 正面",
+  "render": {
+    "theme": false,
+    "labels": false,
+    "data": false
+  },
+  "sha256": "fefafa081c6b34e79bb168382e399995fd43cfac6d7e8be4ee59010e59d40260",
+  "size_bytes": 1733881
+}

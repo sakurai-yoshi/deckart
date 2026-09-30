@@ -1,5 +1,4 @@
 {
-  "category": "03-関係と連携",
   "title": "二つの前提がそろって成果を生む",
   "description": "情報と運用の両方を整えることで共通機能を使え、成果につながる関係を示す。",
   "keywords": [
@@ -102,6 +101,7 @@
     ]
   },
   "kind": "diagram",
+  "category": "01-経営・意思決定",
   "schema_version": 3,
   "id": "relationship/required-foundations",
   "name": "基盤整備_成果を支える二つの前提_依存関係の構造",
@@ -124,5 +124,6 @@
     "data": false
   },
   "sha256": "dff483e648276ba02dfd92104ea0533d7adae4cc0f056054fbd8f6c00af0fc8e",
-  "size_bytes": 2437
+  "size_bytes": 2437,
+  "preview_sha256": "833b16b89c060ead3bab9c0f31d8d54cc3965c368c8763cef16e211cb9f984f6"
 }
