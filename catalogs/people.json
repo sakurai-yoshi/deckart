@@ -1,6 +1,6 @@
 {
-  "version": "2.1.0",
-  "raw_base": "https://raw.githubusercontent.com/sakurai-yoshi/deckart/v2.1.0/",
+  "version": "2.1.1",
+  "raw_base": "https://raw.githubusercontent.com/sakurai-yoshi/deckart/v2.1.1/",
   "category": "09-組織・人材",
   "asset_count": 55,
   "assets": [
@@ -1059,8 +1059,8 @@
       "preview_path": "previews/illustration/cross-functional-review.png",
       "preview_has_example_labels": false,
       "metadata_path": "metadata/illustration/cross-functional-review.json",
-      "sha256": "94b0ba7de8fc20773bf62fef1c5fbf1411187089d9ba9e99777567717a83b2c1",
-      "size_bytes": 1786993,
+      "sha256": "18f3229182045cc2ed131278d9e88f9cd24170a1081feba09e2a96d257614e3f",
+      "size_bytes": 1582297,
       "keywords": [
         "部門横断",
         "レビュー",
@@ -1144,8 +1144,8 @@
       "preview_path": "previews/illustration/focused-work.png",
       "preview_has_example_labels": false,
       "metadata_path": "metadata/illustration/focused-work.json",
-      "sha256": "634c671f8560b71aaece79b381252f37e1e566bad526d1d81e9c2fb5e89a51f4",
-      "size_bytes": 1238129,
+      "sha256": "50e09c6def820149f7e8146b82eedaf5b2dceb5ea77b3f51ae407e33a238fd03",
+      "size_bytes": 1157197,
       "keywords": [
         "集中",
         "個人作業",
@@ -1185,8 +1185,8 @@
       "preview_path": "previews/illustration/inclusive-collaboration.png",
       "preview_has_example_labels": false,
       "metadata_path": "metadata/illustration/inclusive-collaboration.json",
-      "sha256": "92623f67aa28c67ce17caecb531db1fac49a900aa54c7e072d54b7219c687d2c",
-      "size_bytes": 1527395,
+      "sha256": "0eb8a73b4ac0066688520480a0f0cf53c77e4769dd972cb35ccf77f4d764c8a2",
+      "size_bytes": 1472026,
       "keywords": [
         "協働",
         "包摂",
@@ -1357,8 +1357,8 @@
       "preview_path": "previews/illustration/newcomer-orientation.png",
       "preview_has_example_labels": false,
       "metadata_path": "metadata/illustration/newcomer-orientation.json",
-      "sha256": "e8e3a72bdd6c25b66a33bc6fa33bda511364115be5242602aa4d975213aeb26d",
-      "size_bytes": 890012,
+      "sha256": "17f3e927aaacf4993ff7db97a9428ddf29e5037a6a3abe56b73da83ed05c9ca2",
+      "size_bytes": 799184,
       "keywords": [
         "入社",
         "受け入れ",
@@ -1399,8 +1399,8 @@
       "preview_path": "previews/illustration/rest-and-recovery.png",
       "preview_has_example_labels": false,
       "metadata_path": "metadata/illustration/rest-and-recovery.json",
-      "sha256": "875746aa2494643c533604fad10f5b2f16b421be7f5e696146be0903935f1f6d",
-      "size_bytes": 1163647,
+      "sha256": "2a9f45a4685a361087070d65e2414f5d3a081558e7506e5c01dcd9e1cbe43a8f",
+      "size_bytes": 1165374,
       "keywords": [
         "休憩",
         "健康",
@@ -1485,8 +1485,8 @@
       "preview_path": "previews/illustration/skill-practice.png",
       "preview_has_example_labels": false,
       "metadata_path": "metadata/illustration/skill-practice.json",
-      "sha256": "54ad47270314dc51d5d3b05f0b5aa262d325e214dfe5663782fea0d84b851578",
-      "size_bytes": 1064931,
+      "sha256": "720549734f42e73c4440feead352c0de075de1883dd2f7c829dd52d020068e78",
+      "size_bytes": 869373,
       "keywords": [
         "技能",
         "訓練",
@@ -1571,8 +1571,8 @@
       "preview_path": "previews/illustration/team-recognition.png",
       "preview_has_example_labels": false,
       "metadata_path": "metadata/illustration/team-recognition.json",
-      "sha256": "9786f3ae094e81b734b062819429e5d450bb316f46eef828c106c462cac5acc4",
-      "size_bytes": 1957239,
+      "sha256": "04c7f3bed4e524b658fbf1faa030f57561e5929daae73d613ed230ca350755dc",
+      "size_bytes": 1567592,
       "keywords": [
         "承認",
         "感謝",
@@ -1656,8 +1656,8 @@
       "preview_path": "previews/illustration/work-handover.png",
       "preview_has_example_labels": false,
       "metadata_path": "metadata/illustration/work-handover.json",
-      "sha256": "329e079be7d0d9e6f9e263f4e98387bf3e39a1649fac608f5363fb4af5dffad4",
-      "size_bytes": 1283625,
+      "sha256": "b2a34b63c176c94723c8874e47318e6147792eb154d52b71596ab18bafdba958",
+      "size_bytes": 1259903,
       "keywords": [
         "引き継ぎ",
         "異動",
@@ -1698,8 +1698,8 @@
       "preview_path": "previews/illustration/workload-distribution.png",
       "preview_has_example_labels": false,
       "metadata_path": "metadata/illustration/workload-distribution.json",
-      "sha256": "384f5f5ffeb3778bfbc35d17b8aa8f9d68b5dd8d64ecf014cccddf6522a862ba",
-      "size_bytes": 1554262,
+      "sha256": "9fc0ab50436e13a8f16af3edb3a6fb0d4b18548177bb48efd70677b1d5f41d54",
+      "size_bytes": 1365715,
       "keywords": [
         "分担",
         "業務量",

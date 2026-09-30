@@ -1,6 +1,6 @@
 {
-  "version": "2.1.0",
-  "raw_base": "https://raw.githubusercontent.com/sakurai-yoshi/deckart/v2.1.0/",
+  "version": "2.1.1",
+  "raw_base": "https://raw.githubusercontent.com/sakurai-yoshi/deckart/v2.1.1/",
   "category": "05-調達・物流",
   "asset_count": 42,
   "assets": [
@@ -693,8 +693,8 @@
       "preview_path": "previews/illustration/demand-forecast-review.png",
       "preview_has_example_labels": false,
       "metadata_path": "metadata/illustration/demand-forecast-review.json",
-      "sha256": "bb045871b1d9b97704891d412b27e412523a73f71580c0b989b6b5d88da0eb20",
-      "size_bytes": 1323529,
+      "sha256": "f6b12348c789867b343dc6fce2d77661337d2fc99b1c269f844779f852e0fc21",
+      "size_bytes": 1238655,
       "keywords": [
         "需要予測",
         "販売計画",
@@ -735,8 +735,8 @@
       "preview_path": "previews/illustration/dual-source-readiness.png",
       "preview_has_example_labels": false,
       "metadata_path": "metadata/illustration/dual-source-readiness.json",
-      "sha256": "f533a8a44ce881a666f64ea8eb617648dc4fb6e0532866a0da3a23db56323b0d",
-      "size_bytes": 1446880,
+      "sha256": "89c0d02b2d74afdf36a331c0a5bbc8f8b325c9782e543a56a9aee8b70f2877e4",
+      "size_bytes": 1444181,
       "keywords": [
         "調達",
         "複数購買",
@@ -776,8 +776,8 @@
       "preview_path": "previews/illustration/moisture-protected-storage.png",
       "preview_has_example_labels": false,
       "metadata_path": "metadata/illustration/moisture-protected-storage.json",
-      "sha256": "fefafa081c6b34e79bb168382e399995fd43cfac6d7e8be4ee59010e59d40260",
-      "size_bytes": 1733881,
+      "sha256": "f3417c56d1039161fa6b04d55ddc3299c32452b3740aa3447abcd7bf56e4cc1d",
+      "size_bytes": 1409197,
       "keywords": [
         "防湿",
         "乾燥剤",
@@ -903,8 +903,8 @@
       "preview_path": "previews/illustration/pallet-stability.png",
       "preview_has_example_labels": false,
       "metadata_path": "metadata/illustration/pallet-stability.json",
-      "sha256": "84293d4d914cff1bacfdf95c132ed80ba05c94048e74d78d34a2a14d0ad96fad",
-      "size_bytes": 1223879,
+      "sha256": "9c943c4b656a3cc11fac18f89128f63922d2fd6ff2838f0b7b563b25b64d2549",
+      "size_bytes": 1117528,
       "keywords": [
         "荷崩れ",
         "パレット",
@@ -987,8 +987,8 @@
       "preview_path": "previews/illustration/purchase-negotiation.png",
       "preview_has_example_labels": false,
       "metadata_path": "metadata/illustration/purchase-negotiation.json",
-      "sha256": "ff969a0d192499ba6fb12f27e48b0af3d30b965931b26070baf5e1d2bce1cf42",
-      "size_bytes": 1331961,
+      "sha256": "cdc7013b2173a4460ba57fdf53e1b26984a202a355407d572d8cacf157854d22",
+      "size_bytes": 1280950,
       "keywords": [
         "調達",
         "交渉",
@@ -1185,11 +1185,11 @@
       "format": "png",
       "mime_type": "image/png",
       "transparent": true,
-      "width": 1774,
-      "height": 887,
+      "width": 1536,
+      "height": 1024,
       "canvas": {
-        "width": 1774,
-        "height": 887
+        "width": 1536,
+        "height": 1024
       },
       "render": {
         "theme": false,
@@ -1200,8 +1200,8 @@
       "preview_path": "previews/illustration/supplier-continuity.png",
       "preview_has_example_labels": false,
       "metadata_path": "metadata/illustration/supplier-continuity.json",
-      "sha256": "128312e54d10c35b034a37337d4aae55aad69c547e501a6d0c4e98efa6b9da27",
-      "size_bytes": 805117,
+      "sha256": "04a2a65946da76f518022ade17e57ca567432be43a2f15abaa171698e5965c04",
+      "size_bytes": 1232039,
       "keywords": [
         "代替調達",
         "供給継続",
@@ -1240,8 +1240,8 @@
       "preview_path": "previews/illustration/supplier-sample-comparison.png",
       "preview_has_example_labels": false,
       "metadata_path": "metadata/illustration/supplier-sample-comparison.json",
-      "sha256": "77c0ffcfde3d7961a3883e5bf8f577b1208522bbec5ef12239d530f1db9745fe",
-      "size_bytes": 1625323,
+      "sha256": "d6cc6d75b0e0d19aaed88eaf9fd376d4b0eb018296ea16612853394f3ecc8f7b",
+      "size_bytes": 1549558,
       "keywords": [
         "調達",
         "仕入先",
@@ -1282,8 +1282,8 @@
       "preview_path": "previews/illustration/temperature-controlled-transport.png",
       "preview_has_example_labels": false,
       "metadata_path": "metadata/illustration/temperature-controlled-transport.json",
-      "sha256": "f0a0fdb0f24733859fd0f84a6622be4d670473fbe4c3811bf1bb5a5dee31a950",
-      "size_bytes": 1399584,
+      "sha256": "3584029b2edb0a955c94fa9bec8280e65a52415900dec87a1e9a8643ddfdf197",
+      "size_bytes": 1369637,
       "keywords": [
         "温度管理",
         "保冷",

@@ -2,8 +2,8 @@
   "title": "点検の予定を予約する",
   "description": "カレンダーを表示した端末、対応する予約票、小型機器で点検予約を表す。",
   "kind": "illustration",
-  "width": 1278,
-  "height": 1230,
+  "width": 1536,
+  "height": 1024,
   "labels": [],
   "composition": {
     "framing": "object",
@@ -34,8 +34,8 @@
   "mime_type": "image/png",
   "transparent": true,
   "canvas": {
-    "width": 1278,
-    "height": 1230
+    "width": 1536,
+    "height": 1024
   },
   "category": "10-顧客・営業",
   "schema_version": 3,
@@ -51,6 +51,6 @@
     "labels": false,
     "data": false
   },
-  "sha256": "b625b0c7948f287ec58390ed178dc17d3177cfaf930ae77e3b46bfb66bcf6302",
-  "size_bytes": 716498
+  "sha256": "e081d69c9b4d1b068b05d07a58fd42f2789aa8e5d8716f82a6a775c76530b501",
+  "size_bytes": 1203467
 }

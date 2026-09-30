@@ -2,7 +2,7 @@
 
 メーカーの説明資料に使えるPNGイラスト・背景と、SVGアイコン・図解・グラフ・説明パーツ。生成AIが用途から選び、GitHubから元の画像を取得できます。
 
-**[素材一覧](https://sakurai-yoshi.github.io/deckart/)** · **[一式ZIP](https://github.com/sakurai-yoshi/deckart/releases/download/v2.1.0/deckart.zip)** · **[AI向け入口](llms.txt)** · **[全素材の見出し](catalog.txt)** · **[用途別索引](categories.json)**
+**[素材一覧](https://sakurai-yoshi.github.io/deckart/)** · **[一式ZIP](https://github.com/sakurai-yoshi/deckart/releases/download/v2.1.1/deckart.zip)** · **[AI向け入口](llms.txt)** · **[全素材の見出し](catalog.txt)** · **[用途別索引](categories.json)**
 
 ## 生成AIに渡す
 

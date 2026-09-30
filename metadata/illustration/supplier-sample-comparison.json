@@ -1,6 +1,6 @@
 {
   "title": "仕入先のサンプルを比較する",
-  "description": "形と質感の異なる三つの見本を比較票と並べ、調達候補の評価を表す。",
+  "description": "形の異なる三つの見本を比較票と並べ、調達候補の評価を表す。",
   "kind": "illustration",
   "width": 1536,
   "height": 1024,
@@ -52,6 +52,6 @@
     "labels": false,
     "data": false
   },
-  "sha256": "77c0ffcfde3d7961a3883e5bf8f577b1208522bbec5ef12239d530f1db9745fe",
-  "size_bytes": 1625323
+  "sha256": "d6cc6d75b0e0d19aaed88eaf9fd376d4b0eb018296ea16612853394f3ecc8f7b",
+  "size_bytes": 1549558
 }

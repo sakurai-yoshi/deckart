@@ -1,6 +1,6 @@
 {
-  "version": "2.1.0",
-  "raw_base": "https://raw.githubusercontent.com/sakurai-yoshi/deckart/v2.1.0/",
+  "version": "2.1.1",
+  "raw_base": "https://raw.githubusercontent.com/sakurai-yoshi/deckart/v2.1.1/",
   "category": "07-安全・事業継続",
   "asset_count": 40,
   "assets": [
@@ -1006,8 +1006,8 @@
       "preview_path": "previews/illustration/chemical-secondary-containment.png",
       "preview_has_example_labels": false,
       "metadata_path": "metadata/illustration/chemical-secondary-containment.json",
-      "sha256": "d491cd17e9dbe7f0cae5c17c806ec664b1b483530fd54b2aa5dcce8e80d032aa",
-      "size_bytes": 742471,
+      "sha256": "87a420201ae6d08a4563394a4a3de6164612d44c5d8b125899037dba719bba42",
+      "size_bytes": 743108,
       "keywords": [
         "化学品",
         "漏えい",
@@ -1047,8 +1047,8 @@
       "preview_path": "previews/illustration/emergency-readiness.png",
       "preview_has_example_labels": false,
       "metadata_path": "metadata/illustration/emergency-readiness.json",
-      "sha256": "f337bb51431752b5cb51f725a88d0a5c6661a6aebbf96379045e206821fa5c73",
-      "size_bytes": 1565151,
+      "sha256": "215c25f385057456b14ccf805f00da2c0a1a12298a4f45fbeb949a800a507f1c",
+      "size_bytes": 1185765,
       "keywords": [
         "防災",
         "非常用",
@@ -1129,8 +1129,8 @@
       "preview_path": "previews/illustration/lockout-readiness.png",
       "preview_has_example_labels": false,
       "metadata_path": "metadata/illustration/lockout-readiness.json",
-      "sha256": "6e6aa974fe2b4374bf97b07e5291920629f537ff8f21f5ab13ae70758d751ea0",
-      "size_bytes": 958508,
+      "sha256": "92c4bd77242b9d217d1ba8306eb032fcc201f5a2518935a57ecce9dd8e865476",
+      "size_bytes": 863123,
       "keywords": [
         "ロックアウト",
         "誤作動",
@@ -1155,11 +1155,11 @@
       "format": "png",
       "mime_type": "image/png",
       "transparent": true,
-      "width": 1264,
-      "height": 1244,
+      "width": 1536,
+      "height": 1024,
       "canvas": {
-        "width": 1264,
-        "height": 1244
+        "width": 1536,
+        "height": 1024
       },
       "render": {
         "theme": false,
@@ -1170,8 +1170,8 @@
       "preview_path": "previews/illustration/safe-box-lifting.png",
       "preview_has_example_labels": false,
       "metadata_path": "metadata/illustration/safe-box-lifting.json",
-      "sha256": "9dd8e05218880b0801148e132d19125190caa361488179d71cfb6e9cfb601007",
-      "size_bytes": 663578,
+      "sha256": "0d1110148dd084a9d93dc5369a71d49cdc1697fb4cd27e181b086517f8b4d8e0",
+      "size_bytes": 1026263,
       "keywords": [
         "運搬",
         "腰痛予防",
@@ -1255,8 +1255,8 @@
       "preview_path": "previews/illustration/slip-trip-prevention.png",
       "preview_has_example_labels": false,
       "metadata_path": "metadata/illustration/slip-trip-prevention.json",
-      "sha256": "45e56d3e595446536bc900118c62c4fde0b3c6cfdde5fc038e4cbec29a4711de",
-      "size_bytes": 1061313,
+      "sha256": "35da000192702c77ae1ab02f6613f0671bbb7f7f16aaeb321615a4c94129dc37",
+      "size_bytes": 1157669,
       "keywords": [
         "転倒",
         "つまずき",

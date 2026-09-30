@@ -4,7 +4,7 @@ Purpose: reusable assets for manufacturers' business presentations. Transparent 
 
 Entry to share: https://raw.githubusercontent.com/sakurai-yoshi/deckart/main/llms.txt
 Repository: https://github.com/sakurai-yoshi/deckart
-Pinned raw base for this edition: https://raw.githubusercontent.com/sakurai-yoshi/deckart/v2.1.0/
+Pinned raw base for this edition: https://raw.githubusercontent.com/sakurai-yoshi/deckart/v2.1.1/
 
 ## Select, retrieve and compose
 

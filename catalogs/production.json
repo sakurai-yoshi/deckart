@@ -1,6 +1,6 @@
 {
-  "version": "2.1.0",
-  "raw_base": "https://raw.githubusercontent.com/sakurai-yoshi/deckart/v2.1.0/",
+  "version": "2.1.1",
+  "raw_base": "https://raw.githubusercontent.com/sakurai-yoshi/deckart/v2.1.1/",
   "category": "04-生産・設備",
   "asset_count": 52,
   "assets": [
@@ -1113,8 +1113,8 @@
       "preview_path": "previews/illustration/clean-work-surface.png",
       "preview_has_example_labels": false,
       "metadata_path": "metadata/illustration/clean-work-surface.json",
-      "sha256": "1a50e66fc500f1bdbfe280abfac62114ad334914e6aea57f67c5eab1a4780d32",
-      "size_bytes": 1225866,
+      "sha256": "fdff224632f12361daf134b4b32fecbb8711a34270a2a0150773dc4ce0fc1cb8",
+      "size_bytes": 1216259,
       "keywords": [
         "清掃",
         "作業台",

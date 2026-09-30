@@ -2,8 +2,8 @@
   "title": "供給が止まった時の代替を備える",
   "description": "空の箱、参照用のフィルター、同形の部品を備えた別の箱で代替調達を表す。",
   "kind": "illustration",
-  "width": 1774,
-  "height": 887,
+  "width": 1536,
+  "height": 1024,
   "labels": [],
   "composition": {
     "framing": "object",
@@ -33,8 +33,8 @@
   "mime_type": "image/png",
   "transparent": true,
   "canvas": {
-    "width": 1774,
-    "height": 887
+    "width": 1536,
+    "height": 1024
   },
   "category": "05-調達・物流",
   "schema_version": 3,
@@ -50,6 +50,6 @@
     "labels": false,
     "data": false
   },
-  "sha256": "128312e54d10c35b034a37337d4aae55aad69c547e501a6d0c4e98efa6b9da27",
-  "size_bytes": 805117
+  "sha256": "04a2a65946da76f518022ade17e57ca567432be43a2f15abaa171698e5965c04",
+  "size_bytes": 1232039
 }

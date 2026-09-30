@@ -2,8 +2,8 @@
   "title": "試料の表示と記録を確かめる",
   "description": "ラベル付きの試料瓶を掲げ、記録ボードと対応を確かめる作業者。",
   "kind": "illustration",
-  "width": 1312,
-  "height": 1199,
+  "width": 1536,
+  "height": 1024,
   "labels": [],
   "composition": {
     "framing": "waist-up",
@@ -35,8 +35,8 @@
   "mime_type": "image/png",
   "transparent": true,
   "canvas": {
-    "width": 1312,
-    "height": 1199
+    "width": 1536,
+    "height": 1024
   },
   "category": "03-品質・改善",
   "schema_version": 3,
@@ -52,6 +52,6 @@
     "labels": false,
     "data": false
   },
-  "sha256": "acfa5c473adc0d38f4f6ac466d19cd6c70d74c86c865077e330dea79a5c545ae",
-  "size_bytes": 1227248
+  "sha256": "103fba907ad79632dc2f1e97fd01ac875d7c3061ce04347fe9a120c308414674",
+  "size_bytes": 1351910
 }
